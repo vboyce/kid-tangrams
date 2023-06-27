@@ -10,13 +10,6 @@ const gameSound = new Audio("experiment/bell.mp3");
 export default class Round extends React.Component {
   componentDidMount() {
     const { game, player } = this.props;
-    if (game.get("justStarted")) {
-      //play the bell sound only once when the game starts
-      gameSound.play();
-      game.set("justStarted", false);
-    } else {
-      roundSound.play();
-    }
   }
 
   render() {

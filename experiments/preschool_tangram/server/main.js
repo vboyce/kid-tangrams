@@ -61,23 +61,26 @@ Empirica.gameInit((game, treatment) => {
     numBlocks : reps,
     numTotalTrials: reps * numTargets,
     numPlayers: game.players.length,
-    rotate: treatment.rotateSpeaker,// change this!!!
+    rotate: treatment.rotateSpeaker,
   };
   
   // I use this to play the sound on the UI when the game starts
-  game.set("justStarted", true);
+  //game.set("justStarted", true);
 
   // Make role list
-    //game.set('roleList', createRoles(_.map(game.players, '_id'), info));
     game.set("speakerQueue", _.shuffle(_.map(game.players, '_id')));
-    console.log(game.get("speakerQueue"))
     // Loop through repetition blocks
     _.times(reps, repNum => {
         mixed_targets=_.shuffle(targets)
       // Loop through targets in block
       _.times(numTargets, targetNum => {      
         const round = game.addRound();
-        round.set('target', mixed_targets[targetNum]);
+        const targ = mixed_targets[targetNum];
+        const dist = (_.shuffle(_.filter(targets, p=>{return(p!==targ)})))[0]
+        const tangramURL=[targ,dist]
+        round.set('target', targ);
+        round.set('distractor', dist)
+        round.set("tangramURLs", _.shuffle(tangramURL))
         round.set('targetNum', targetNum);
         round.set('repNum', repNum);
         round.set('trialNum', repNum * numTargets + targetNum);

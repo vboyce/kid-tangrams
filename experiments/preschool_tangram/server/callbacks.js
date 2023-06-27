@@ -12,11 +12,9 @@ Empirica.onGameStart((game) => {
   console.debug("game ", game._id, " started");
 
   const roleList = game.get('roleList');
-  const targets = game.get('context');
   game.set("currentSpeaker", null)
   players.forEach((player, i) => {
-    player.set("tangramURLs", _.shuffle(targets));
-    //player.set("roleList", roleList[player._id]);
+    
     player.set("name", names[i]);
     player.set("avatar", `/avatars/jdenticon/${avatarNames[i]}`);
     player.set("nameColor", nameColors[i]);
