@@ -5,6 +5,9 @@ import Timer from "./Timer.jsx";
 import { HTMLTable } from "@blueprintjs/core";
 import { StageTimeWrapper } from "meteor/empirica:core";
 
+
+const awwSound = new Audio("experiment/aww.mp3");
+const yaySound = new Audio("experiment/yay.mp3");
 export default class Task extends React.Component {
   constructor(props) {
     super(props);
@@ -14,6 +17,21 @@ export default class Task extends React.Component {
     this.state = {
       activeButton: false
     };
+    const {stage, round, player}= this.props;
+    const target = round.get("target");
+    if (stage.name=="feedback"){
+      if (player.get('role')=='speaker'){
+        if (round.get("countCorrect")==(round.get("activePlayerCount")-1)){
+          yaySound.play()
+        }
+        else
+        {awwSound.play()}
+      }
+      else if (player.get("clicked")==target){
+        yaySound.play()   }
+      else {awwSound.play()}
+
+      }
   }
 
   render() {
@@ -40,24 +58,22 @@ export default class Task extends React.Component {
     if (stage.name=="feedback"){
       if (player.get('role')=='speaker'){
         if (round.get("countCorrect")==(round.get("activePlayerCount")-1)){
-          feedback='/experiment/happy.jpeg'
+          feedback='/experiment/yay.jpg'
         }
         else
-        {feedback='/experiment/sad.jpeg'}
+        {feedback='/experiment/aww.jpg'}
       }
       else if (player.get("clicked")==target){
-        feedback='/experiment/happy.jpeg'     }
-      else {feedback='/experiment/sad.jpeg'}
+        feedback='/experiment/yay.jpg'     }
+      else {feedback='/experiment/aww.jpg'}
 
       }
     
     return (
       <div className="task">
         <div className="board">
-          <div className="roleIndictor">
-            <div className="feedback">
-          <img src={feedback} style={{ border: "none" }} />
-          </div>
+          <div className="roleIndicator">
+          <img src={feedback}/>
           </div>
           <div className="all-tangrams">
             <div className="tangrams">

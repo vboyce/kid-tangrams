@@ -43,7 +43,18 @@ export default class Tangram extends React.Component {
     const column = 1 + tangram_num % 2
     const mystyle = {
       "background" : "url(" + tangram + ")",
-      "backgroundSize": "cover",
+      "backgroundSize" : "90%",
+      "backgroundRepeat" : "no-repeat",
+      "backgroundPosition" : "50% 50%",
+      //"minWidth: 500px;
+      //min-height: 500px;
+      //padding: 100px;
+      //border: 2px solid black;
+      //outline: #4CAF50 solid 10px;
+      //margin: auto;  
+      //padding: 20px;
+      //text-align: center;
+      //cursor: pointer;
       "gridRow": row,
       "gridColumn": column
     };
@@ -51,23 +62,20 @@ export default class Tangram extends React.Component {
     // Highlight target object for speaker 
     if(target == tangram & player.get('role') == 'speaker') {
       _.extend(mystyle, {
-        "outline" :  "10px solid #000",
-        "zIndex" : "9"
+        "outline" :  "20px solid #000",
       })
     }
 
     if(target == tangram & stage.name=="feedback") {
       _.extend(mystyle, {
-        "outline" :  "10px solid #000",
-        "zIndex" : "9"
+        "outline" :  "20px solid #000",
       })
     }
 
     // Show listeners what they've clicked 
     if(stage.name=="selection" & tangram == player.get('clicked')) {
       _.extend(mystyle, {
-        "outline" :  `10px solid #A9A9A9`,
-        "zIndex" : "9"
+        "outline" :  `20px solid #A9A9A9`,
       })
     }
 
@@ -79,8 +87,7 @@ export default class Tangram extends React.Component {
     if(stage.name=="feedback" & _.some(players, p => p.get("clicked") == tangram)) {
     const color = tangram == target ? 'green' : 'red';
     _.extend(mystyle, {
-      "outline" :  `10px solid ${color}`,
-      "zIndex" : "9"
+      "outline" :  `20px solid ${color}`,
     })
   }
   
@@ -93,7 +100,6 @@ export default class Tangram extends React.Component {
         onClick={this.handleClick}
         style={mystyle}
         >
-          <div className="feedback"> {}</div>
       </div>
     );
   }
