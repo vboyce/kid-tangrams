@@ -37,7 +37,7 @@ export default class Task extends React.Component {
   render() {
     const { game, round, stage, player } = this.props;
     const target = round.get("target");
-    const tangramURLs = round.get('tangramURLs');
+    const tangramURLs =  player.get('tangramURLs');
     const correct = player.get('clicked') == target
     let tangramsToRender;
     if (tangramURLs) {

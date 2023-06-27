@@ -63,6 +63,8 @@ Empirica.onRoundStart((game, round) => {
     game.set("speakerQueue", queue) // move them to the end of the queue
   }
   activePlayers.forEach(player => {
+    let tangrams=round.get("tangramURLs")
+    player.set("tangramURLs", _.shuffle(tangrams))
     if (player._id==game.get("currentSpeaker")){
       player.set("role", "speaker")
       round.set('speaker', player._id)
