@@ -2,12 +2,14 @@ import React from "react";
 
 import {Centered} from "meteor/empirica:core";
 
-const endSound = new Audio("end.mp3");
+const endSound = new Audio("experiment/end.mp3");
 
 export default class Thanks extends React.Component {
   static stepName = "Thanks";
 
-  componentWillMount() {}
+  componentWillMount() {
+    endSound.play()
+  }
 
 
 

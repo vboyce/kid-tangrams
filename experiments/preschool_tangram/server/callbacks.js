@@ -80,9 +80,12 @@ Empirica.onStageEnd((game, round, stage) => {
       if (player.get("role")=="speaker"){
       }
       else{
-      const selectedAnswer = player.get("clicked");
-      }
-    })
+        const selectedAnswer = player.get("clicked");
+        const target = round.get('target');
+        const iscorrect=selectedAnswer==target ? 1 : 0
+        numcorrect=numcorrect+iscorrect
+        }
+      })
     round.set("countCorrect",numcorrect)
     // Update player scores
     //Save outcomes as property of round for later export/analysis

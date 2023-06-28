@@ -80,6 +80,7 @@ Empirica.gameInit((game, treatment) => {
     round.set('distractor', dist)
     round.set("tangramURLs", _.shuffle(tangramURL))
     round.set('numPlayers', game.players.length)
+    round.set('trialNum', 0);
     round.set('sound',"yay");        
     round.addStage({
       name: "selection",
@@ -99,6 +100,7 @@ Empirica.gameInit((game, treatment) => {
     round.set('distractor', dist)
     round.set("tangramURLs", _.shuffle(tangramURL))
     round.set('numPlayers', game.players.length)
+    round.set('trialNum', 1);
     round.set("sound","yay");        
     round.addStage({
       name: "selection",
@@ -126,7 +128,7 @@ Empirica.gameInit((game, treatment) => {
         round.set("tangramURLs", _.shuffle(tangramURL))
         round.set('targetNum', targetNum);
         round.set('repNum', repNum);
-        round.set('trialNum', repNum * numTargets + targetNum);
+        round.set('trialNum', 2+repNum * numTargets + targetNum);
         round.set('numPlayers', game.players.length)
                 
         round.addStage({
