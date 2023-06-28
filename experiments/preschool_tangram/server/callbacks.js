@@ -13,25 +13,15 @@ Empirica.onGameStart((game) => {
 
   const roleList = game.get('roleList');
   game.set("currentSpeaker", null)
-  players.forEach((player, i) => {
-    
-    player.set("name", names[i]);
-    player.set("avatar", `/avatars/jdenticon/${avatarNames[i]}`);
-    player.set("nameColor", nameColors[i]);
-    player.set("bonus", 0);
-  });
   game.set("activePlayerCount", game.players.length)
-  if (game.players.length<2){ // not actually enough people
-    players.forEach(player =>{player.set('exited', true)
-    player.exit("Oops, there weren't enough other players to start the game!")})
-}})
+
+})
 
 // onRoundStart is triggered before each round starts, and before onStageStart.
 // It receives the same options as onGameStart, and the round that is starting.
 Empirica.onRoundStart((game, round) => {
   
   const players = game.players;
-  round.set("chat", []); 
   round.set("countCorrect",0);
   round.set('speaker', "")
   round.set('submitted', false);
@@ -78,20 +68,6 @@ Empirica.onRoundStart((game, round) => {
 // onRoundStart is triggered before each stage starts.
 // It receives the same options as onRoundStart, and the stage that is starting.
 Empirica.onStageStart((game, round, stage) => {
-  const players = game.players;
-  console.debug("Round ", stage.name, "game", game._id, " started");
-  const inactivePlayers=_.filter(game.players, p => p.get("exited"))
-  //console.log("inactive")
-  //inactivePlayers.forEach(p => p.stage.submit());
-  inactivePlayers.forEach(p => console.log(p.exitAt));
-  stage.set("log", [
-    {
-      verb: stage.name + "Started",
-      roundId: stage.name,
-      at: new Date(),
-    },
-  ]);
-  //console.log(game.get("speakerQueue"))
 });
 
 // onStageEnd is triggered after each stage.
@@ -101,30 +77,14 @@ Empirica.onStageEnd((game, round, stage) => {
     const players = game.players;
     let numcorrect=0
     players.forEach(player => {
-      const currScore = player.get("bonus") || 0;
       if (player.get("role")=="speaker"){
       }
       else{
       const selectedAnswer = player.get("clicked");
-      const target = round.get('target');
-      const iscorrect=selectedAnswer==target ? 1 : 0
-      numcorrect=numcorrect+iscorrect
       }
     })
     round.set("countCorrect",numcorrect)
     // Update player scores
-    players.forEach(player => {
-      const currScore = player.get("bonus") || 0;
-      if (player.get("role")=="speaker"){
-      player.set("bonus", round.get("countCorrect")*game.treatment.listenerBonus/(round.get("activePlayerCount")-1)*.01 + currScore);
-      }
-      else{
-      const selectedAnswer = player.get("clicked");
-      const target = round.get('target');
-      const scoreIncrement = selectedAnswer == target ? game.treatment.listenerBonus*.01 : 0;
-      player.set("bonus", scoreIncrement + currScore);
-      }
-    });
     //Save outcomes as property of round for later export/analysis
     players.forEach(player => {
       const correctAnswer = round.get('target');

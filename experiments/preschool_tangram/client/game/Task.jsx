@@ -1,12 +1,10 @@
 import React from "react";
 
 import Tangram from "./Tangram.jsx";
-import Timer from "./Timer.jsx";
-import { HTMLTable } from "@blueprintjs/core";
-import { StageTimeWrapper } from "meteor/empirica:core";
 
 
 const awwSound = new Audio("experiment/aww.mp3");
+const wooSound = new Audio("experiment/woo.mp3");
 const yaySound = new Audio("experiment/yay.mp3");
 export default class Task extends React.Component {
   constructor(props) {
@@ -22,13 +20,13 @@ export default class Task extends React.Component {
     if (stage.name=="feedback"){
       if (player.get('role')=='speaker'){
         if (round.get("countCorrect")==(round.get("activePlayerCount")-1)){
-          yaySound.play()
+          round.get("sound")=="yay"? yaySound.play(): wooSound.play()
         }
         else
         {awwSound.play()}
       }
       else if (player.get("clicked")==target){
-        yaySound.play()   }
+        round.get("sound")=="yay"? yaySound.play(): wooSound.play()      }
       else {awwSound.play()}
 
       }
@@ -61,11 +59,11 @@ export default class Task extends React.Component {
           feedback='/experiment/yay.jpg'
         }
         else
-        {feedback='/experiment/aww.jpg'}
+        {feedback='/experiment/aww.jpeg'}
       }
       else if (player.get("clicked")==target){
         feedback='/experiment/yay.jpg'     }
-      else {feedback='/experiment/aww.jpg'}
+      else {feedback='/experiment/aww.jpeg'}
 
       }
     

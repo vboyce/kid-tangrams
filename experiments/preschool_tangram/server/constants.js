@@ -9,6 +9,13 @@ export const targetSets = {
   ]
 };
 
+export const practiceSet = [
+  "/experiment/apple.png",
+  "/experiment/banana.png",
+  "/experiment/dog.png",
+  "/experiment/bird.jpeg"
+]
+
 export const names = [
     "Repi",
     "Minu",

@@ -1,7 +1,7 @@
 import Empirica from "meteor/empirica:core";
 
 import "./callbacks.js";
-import { targetSets } from "./constants";
+import { practiceSet, targetSets } from "./constants";
 import _ from "lodash";
 
 
@@ -69,6 +69,48 @@ Empirica.gameInit((game, treatment) => {
 
   // Make role list
     game.set("speakerQueue", _.shuffle(_.map(game.players, '_id')));
+
+    // practice rounds
+    const practice = _.shuffle(practiceSet);
+    let round = game.addRound();
+    let targ = practice[0];
+    let dist = practice[1];
+    let tangramURL=[targ,dist]
+    round.set('target', targ);
+    round.set('distractor', dist)
+    round.set("tangramURLs", _.shuffle(tangramURL))
+    round.set('numPlayers', game.players.length)
+    round.set('sound',"yay");        
+    round.addStage({
+      name: "selection",
+      displayName: "Selection",
+      durationInSeconds: treatment.selectionDuration
+    });
+    round.addStage({
+      name: "feedback",
+      displayName: "Feedback",
+      durationInSeconds: treatment.feedbackDuration
+    });
+    round=game.addRound();
+    targ=practice[2];
+    dist=practice[3];
+    tangramURL=[targ,dist];
+    round.set('target', targ);
+    round.set('distractor', dist)
+    round.set("tangramURLs", _.shuffle(tangramURL))
+    round.set('numPlayers', game.players.length)
+    round.set("sound","yay");        
+    round.addStage({
+      name: "selection",
+      displayName: "Selection",
+      durationInSeconds: treatment.selectionDuration
+    });
+    round.addStage({
+      name: "feedback",
+      displayName: "Feedback",
+      durationInSeconds: treatment.feedbackDuration
+    });
+
     // Loop through repetition blocks
     _.times(reps, repNum => {
         mixed_targets=_.shuffle(targets)
@@ -78,6 +120,7 @@ Empirica.gameInit((game, treatment) => {
         const targ = mixed_targets[targetNum];
         const dist = (_.shuffle(_.filter(targets, p=>{return(p!==targ)})))[0]
         const tangramURL=[targ,dist]
+        round.set("sound", _.shuffle(["woo","yay"])[0])
         round.set('target', targ);
         round.set('distractor', dist)
         round.set("tangramURLs", _.shuffle(tangramURL))
