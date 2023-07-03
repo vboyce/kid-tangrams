@@ -2,6 +2,7 @@ import { relativeTimeRounding } from "moment";
 import React from "react";
 import _ from "lodash";
 
+const roundSound = new Audio("experiment/round-sound.mp3");
 
 export default class Tangram extends React.Component {
     
@@ -15,19 +16,13 @@ export default class Tangram extends React.Component {
         player.get('clicked') === false &
         player.get('role') == 'listener') {
       player.set("clicked", tangram)
-      round.append("chat", {
-        text: null,
-        playerId: player._id,
-        target: round.get('target'),
-        role: player.get('role'),
-        type: "selectionAlert",
-        time: Date.now()
-      });
+
       if (!round.get('submitted')){
         speaker.stage.submit()
         round.set('submitted', true)
       }
       //Meteor.setTimeout(()=> console.log(player.stage.submittedAt), 5)
+      roundSound.play()
       player.stage.submit()
       //console.log(player.stage.submittedAt)
 
