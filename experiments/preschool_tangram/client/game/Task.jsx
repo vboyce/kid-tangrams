@@ -13,34 +13,13 @@ export default class Task extends React.Component {
     // We want each participant to see tangrams in a random but stable order
     // so we shuffle at the beginning and save in state
 
-    function soundNotification(path) {
-      const sound = new Audio(path);
-  
-      const promise = sound.play();
-  
-      if (promise !== undefined) {
-          promise.then(() => {}).catch(error => console.error);
-      }
-  }
+    
     this.state = {
       activeButton: false
     };
     const {stage, round, player}= this.props;
     const target = round.get("target");
-    if (stage.name=="feedback"){
-      if (player.get('role')=='speaker'){
-        if (round.get("countCorrect")==(round.get("activePlayerCount")-1)){
-          round.get("sound")=="yay"? soundNotification("experiment/yay.mp3"): soundNotification("experiment/woo.mp3")
-        }
-        else
-        {soundNotification("experiment/aww.mp3")}
-      }
-      else if (player.get("clicked")==target){
-        round.get("sound")=="yay"? soundNotification("experiment/yay.mp3"): soundNotification("experiment/woo.mp3")
-      }
-      else {soundNotification("experiment/aww.mp3")}
-
-      }
+    
   }
 
   render() {

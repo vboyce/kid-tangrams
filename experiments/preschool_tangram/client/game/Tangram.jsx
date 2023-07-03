@@ -2,7 +2,9 @@ import { relativeTimeRounding } from "moment";
 import React from "react";
 import _ from "lodash";
 
-const roundSound = new Audio("experiment/round-sound.mp3");
+const awwSound = new Audio("experiment/aww.mp3");
+const wooSound = new Audio("experiment/woo.mp3");
+const yaySound = new Audio("experiment/yay.mp3");
 
 export default class Tangram extends React.Component {
     
@@ -11,6 +13,7 @@ export default class Tangram extends React.Component {
     const speakerMsgs = _.filter(round.get("chat"), msg => {
       return msg.role == 'speaker'    })
     const speaker = _.find(game.players, p => p.get('role') === "speaker");
+    const target=round.get("target")
     // only register click for listener and only after the speaker has sent a message
     if (stage.name == 'selection' &
         player.get('clicked') === false &
@@ -22,7 +25,8 @@ export default class Tangram extends React.Component {
         round.set('submitted', true)
       }
       //Meteor.setTimeout(()=> console.log(player.stage.submittedAt), 5)
-      roundSound.play()
+      if (target==tangram) {round.get("sound")=="yay"?yaySound.play():wooSound.play()}
+      else {awwSound.play()}
       player.stage.submit()
       //console.log(player.stage.submittedAt)
 

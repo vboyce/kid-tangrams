@@ -16,19 +16,6 @@ import Thanks from "./exit/Thanks.jsx";
 
 import customBreadcrumb from "./game/Breadcrumb.jsx";
 
-function unlockAudio() {
-  const sound = new Audio('experiment/round-sound.mp3');
-
-  sound.play();
-  sound.pause();
-  sound.currentTime = 0;
-
-  document.body.removeEventListener('click', unlockAudio)
-  document.body.removeEventListener('touchstart', unlockAudio)
-}
-
-document.body.addEventListener('click', unlockAudio);
-document.body.addEventListener('touchstart', unlockAudio);
 
  Empirica.header(() => null);
 
