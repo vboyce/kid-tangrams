@@ -9,7 +9,7 @@ export default class Overview extends React.Component {
     const { hasPrev, hasNext, onNext, onPrev, treatment } = this.props;
     function finish(){
       roundSound.play()
-      onNext
+      onNext()
     }
     return (
       <Centered>
@@ -18,7 +18,7 @@ export default class Overview extends React.Component {
           <button
             type="button"
             className="bp3-button bp3-intent-primary"
-            onClick={finish}
+            onClick={onNext}
           >
             
             <span className="bp3-icon-standard bp3-icon-double-chevron-right bp3-align-right"/>
