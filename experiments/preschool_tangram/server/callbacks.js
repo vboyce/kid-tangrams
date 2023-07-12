@@ -13,6 +13,7 @@ Empirica.onGameStart((game) => {
 
   const roleList = game.get('roleList');
   game.set("currentSpeaker", null)
+  game.set("justStarted", true);
   game.set("activePlayerCount", game.players.length)
 
 })
