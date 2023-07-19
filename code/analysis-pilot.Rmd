@@ -6,24 +6,33 @@ date: "2023-07-19"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(jsonlite)
+
+ParseJSONColumn <- function(x) {
+  str_c("[ ", str_c(x, collapse = ",", sep=" "), " ]")  %>% 
+    fromJSON(flatten = T)
+}
+
+pilot_start=lubridate::ymd('2023-7-07') 
+pilot_end=lubridate::ymd('2023-7-11')
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r}
+raw_data <- read.csv(here("data/rounds7.19.csv"), header = TRUE) %>% 
+  filter(createdAt >= pilot_start) %>%
+  filter(createdAt <= pilot_end) %>% 
+  rename_with(~ gsub("data.", "", .x, fixed = TRUE)) %>% 
+  select(-chat) |> 
+  pivot_longer(cols=starts_with('player'), names_to=c("playerId", "info"), names_prefix="player_", names_sep="_",
+               values_to="values", values_transform=as.character, values_drop_na=T) %>% 
+  filter(values!="") %>% 
+  filter(playerId!=speaker) %>% 
+  pivot_wider(names_from=info, values_from=values) 
+ 
+  write_csv(here(data_location, 'raw_results.csv'))
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
