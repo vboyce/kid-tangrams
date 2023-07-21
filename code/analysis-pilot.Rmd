@@ -30,9 +30,57 @@ raw_data <- read.csv(here("data/rounds7.19.csv"), header = TRUE) %>%
   filter(values!="") %>% 
   filter(playerId!=speaker) %>% 
   pivot_wider(names_from=info, values_from=values) 
- 
-  write_csv(here(data_location, 'raw_results.csv'))
+
+# write_csv(here(data, 'rounds7.19.csv'))
 ```
+
+
+# remove columns: numPlayers, sound, activePlayerCount, trialNum, distractor, tangramURLs, response, target, submitted, X_id, repNum, correct, targetNum, stageIds
+```{r}
+filtered_data <- raw_data %>% 
+  select(-numPlayers) %>% 
+  select(-sound) %>%  
+  select(-activePlayerCount) %>% 
+  select(-trialNum) %>% 
+  select(-distractor) %>% 
+  select(-tangramURLs) %>% 
+  select(-response) %>% 
+  select(-target) %>% 
+  select(-submitted) %>% 
+  select(-X_id) %>% 
+  select(-repNum) %>% 
+  select(-correct) %>% 
+  select(-targetNum) %>% 
+  select(-stageIds)
+
+```
+
+#remove NA cells in "time"
+```{r}
+filtered_data <- filtered_data %>% 
+  drop_na(time)
+
+View(filtered_data)
+```
+
+#relocate columns
+```{r}
+filtered_data <- filtered_data %>% 
+  select(createdAt, everything()) %>% 
+  relocate(countCorrect, .before = time)
+
+View(filtered_data)
+```
+
+#rename columns
+```{r}
+colnames(filtered_data)[1] = "Date" %>% 
+colnames(filtered_data)[]
+
+View(filtered_data)
+```
+
+
 
 
 
