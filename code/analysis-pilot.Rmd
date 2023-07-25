@@ -72,13 +72,30 @@ filtered_data <- filtered_data %>%
 View(filtered_data)
 ```
 
+#accuracy
+```{r}
+accuracy <- filtered_data %>% 
+  group_by(gameId) %>% 
+  summarize(total=n(),
+            correct=sum(countCorrect)) %>% 
+  mutate(fraction = correct/total*100)
+
+View(accuracy)
+```
+
+#graph accuracy to time
+#graph accuracy
+
+
+
 #rename columns
 ```{r}
 colnames(filtered_data)[1] = "Date" %>% 
-colnames(filtered_data)[]
+#colnames(filtered_data)[]
 
 View(filtered_data)
 ```
+
 
 
 
