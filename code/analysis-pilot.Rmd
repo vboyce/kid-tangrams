@@ -9,6 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(here)
 library(jsonlite)
+library(ggplot2)
 
 ParseJSONColumn <- function(x) {
   str_c("[ ", str_c(x, collapse = ",", sep=" "), " ]")  %>% 
@@ -72,29 +73,41 @@ filtered_data <- filtered_data %>%
 View(filtered_data)
 ```
 
-#accuracy
+#accuracy graph
 ```{r}
 accuracy <- filtered_data %>% 
   group_by(gameId) %>% 
   summarize(total=n(),
             correct=sum(countCorrect)) %>% 
-  mutate(fraction = correct/total*100)
+  mutate(fraction = correct/total*100, percent = signif(fraction, 2)) 
 
-View(accuracy)
+ggplot(data = accuracy, aes(y = gameId, x = percent)) +
+  geom_bar(stat = "identity", position = position_dodge(.9), color = "black", fill = "#228B22", width = .7) +
+  geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("Percentage Accuracy") +
+  ylab("Game ID") +
+  theme(aspect.ratio = 4/5,
+        axis.title = element_text(size=14,face="bold"),
+        axis.text = element_text(size=12),
+        legend.position = "none")
 ```
 
-#graph accuracy to time
-#graph accuracy
 
 
+time=time
 
-#rename columns
+
+#graph accuracy to time (scatterplot maybe?)
+#graph accuracy (bar graph)
+
 ```{r}
-colnames(filtered_data)[1] = "Date" %>% 
-#colnames(filtered_data)[]
-
-View(filtered_data)
+ggplot(data=accuracy, aes(x = Age.months, y=Laughs, color=Experimenter)) +
+  geom_point()
 ```
+```
+
+
 
 
 
