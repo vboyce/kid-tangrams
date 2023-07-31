@@ -68,14 +68,13 @@ fix <- raw_data |> filter(trialNum==0) |> select(game, time)
 
 real_offset <- games |> left_join(fix, by=c("gameConfig"="game")) |> mutate(offset_sec=offset_sec-time/1000)
 
-timing <- raw_data |> group_by(game) |> mutate(cum_time=cumsum(time), cum_sec=cum_time/1000+3*trialNum)
 
 ```
 
 ```{r}
 
 wrangle_transcript <- function(game_num){
-readxl::read_xlsx(here("data/clean_transcripts", str_c(game_num,".xlsx"))) |> 
+read_csv(here("data/clean_transcripts", str_c(game_num,".csv"))) |> 
   select(start, end, text, speaker) |> 
   mutate(start=start/1000, end=end/1000) |> 
     nest(data=c(start, end, text, speaker))
@@ -89,9 +88,56 @@ transcripts <- real_offset |> unnest(transcripts) |> unnest(data)
 
 # this section is janky as hell, but it does work
 
-timed_transcripts <- transcripts |> mutate(start=start-offset_sec, end=end-offset_sec)
 ```
 
+```{r, include=F, eval=F}
+# a very derpy approach to aligning trial boundaries with transcripts
+
+timing <- raw_data |> group_by(game) |> mutate(cum_time=cumsum(time), cum_sec=cum_time/1000+3*trialNum) |> select(trialNum, game, cum_sec) |> mutate(start=ifelse(trialNum==0, 0,lag(cum_sec)), end=cum_sec, trialNumStart=trialNum, trialNumEnd=trialNum, speaker=NA, text=NA) |> select(-cum_sec, -trialNum)
+
+timed_transcripts <- transcripts |>
+  mutate(start=start-offset_sec, end=end-offset_sec) |> 
+  select(-offset_sec, -time, -gameId) |> 
+  rename(game=gameConfig) |> 
+  mutate(trialNumStart=NA, trialNumEnd=NA) |> 
+  bind_rows(timing) |> 
+  group_by(game) |> 
+  arrange(start) |> 
+  fill(trialNumStart) |> 
+  arrange(end) |> 
+  fill(trialNumEnd, .direction="up") |> 
+  arrange(game) |> 
+  filter(start>0)
+
+# turns out this isn't good enough for timing, let's try stages instead!
+
+```
+
+```{r}
+
+stages <- read_csv(here("data/stages.csv")) |> select(index, gameId, startTimeAt) |> group_by(gameId)
+
+gameStarts <- stages |> filter(index==0) |> rename(first=startTimeAt) |> select(-index)
+
+stage_timing <- stages |> left_join(gameStarts) |> mutate(rel_time=startTimeAt-first) |> mutate(rel_time=lubridate::as.period(rel_time) |> lubridate::period_to_seconds()) |> filter(index%%2==0) |> mutate(trialNum=index/2) |> select(gameId, trialNum, start=rel_time, end=rel_time) |> left_join(games) |> mutate(trialNumStart=trialNum, trialNumEnd=lag(trialNum)) |> ungroup() |> select(game=gameConfig, trialNumStart, trialNumEnd, start, end) |> filter(!is.na(game)) |> filter(!is.na(start)) |> filter(!is.na(end))
+```
+
+```{r}
+timed_transcripts <-  transcripts |>
+  mutate(start=start-offset_sec, end=end-offset_sec) |> 
+  select(-offset_sec, -time, -gameId) |> 
+  mutate(trialNumStart=NA, trialNumEnd=NA) |> 
+  rename(game=gameConfig) |> 
+  bind_rows(stage_timing) |> 
+  group_by(game) |> 
+  arrange(start) |> 
+  fill(trialNumStart) |> 
+  arrange(end) |> 
+  fill(trialNumEnd, .direction="up") |> 
+  arrange(game) |> 
+  filter(!is.na(text)) |> 
+  write_csv(here("data/timed_transcript.csv"))
+```
 
 # remove columns: numPlayers, sound, activePlayerCount, trialNum, distractor, tangramURLs, response, target, submitted, X_id, repNum, correct, targetNum, stageIds
 ```{r}
