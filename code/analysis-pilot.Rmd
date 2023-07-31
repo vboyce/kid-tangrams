@@ -16,12 +16,28 @@ ParseJSONColumn <- function(x) {
     fromJSON(flatten = T)
 }
 
-pilot_start=lubridate::ymd('2023-7-07') 
-pilot_end=lubridate::ymd('2023-7-11')
+pilot_start=lubridate::ymd('2023-07-07') 
+pilot_end=lubridate::ymd('2023-07-12')
+
+data_source <- "data/rounds.csv"
+player_source <- "data/players.csv"
+
+player_ids <- str_c("id", 3:12) # Ids 1, 2 were adult pilot test 
+```
+
+# Veronica works on wrangling transcripts here
+
+```{r}
+
+players <- read_csv(here(player_source)) |> filter(id %in% player_ids) |> select(id, playerId=`_id`) 
+
+games <- read_csv(here("data/games.csv"), col_types="ccc") |> mutate(offset_sec=lubridate::ms(offset) |> lubridate::period_to_seconds()) |> select(-offset)
+
 ```
 
 ```{r}
-raw_data <- read.csv(here("data/rounds7.19.csv"), header = TRUE) %>% 
+
+raw_data <- read.csv(here(data_source), header = TRUE) %>% 
   filter(createdAt >= pilot_start) %>%
   filter(createdAt <= pilot_end) %>% 
   rename_with(~ gsub("data.", "", .x, fixed = TRUE)) %>% 
@@ -30,9 +46,50 @@ raw_data <- read.csv(here("data/rounds7.19.csv"), header = TRUE) %>%
                values_to="values", values_transform=as.character, values_drop_na=T) %>% 
   filter(values!="") %>% 
   filter(playerId!=speaker) %>% 
-  pivot_wider(names_from=info, values_from=values) 
+  pivot_wider(names_from=info, values_from=values) |> 
+  left_join(players, by=c("playerId")) |> 
+  select(-playerId) |> 
+  rename(playerId=id) |> 
+  left_join(players, by=c("speaker"="playerId")) |> 
+  select(-speaker) |> 
+  rename(speaker=id) |> 
+  left_join(games) |> 
+  rename(game=gameConfig) |> 
+  select(-gameId, -offset_sec) |> 
+  filter(!is.na(game)) |> 
+  mutate(time=as.numeric(time))
 
 # write_csv(here(data, 'rounds7.19.csv'))
+```
+
+```{r}
+#just for pilot, need to fix offset
+fix <- raw_data |> filter(trialNum==0) |> select(game, time)
+
+real_offset <- games |> left_join(fix, by=c("gameConfig"="game")) |> mutate(offset_sec=offset_sec-time/1000)
+
+timing <- raw_data |> group_by(game) |> mutate(cum_time=cumsum(time), cum_sec=cum_time/1000+3*trialNum)
+
+```
+
+```{r}
+
+wrangle_transcript <- function(game_num){
+readxl::read_xlsx(here("data/clean_transcripts", str_c(game_num,".xlsx"))) |> 
+  select(start, end, text, speaker) |> 
+  mutate(start=start/1000, end=end/1000) |> 
+    nest(data=c(start, end, text, speaker))
+}
+
+#wrangle_transcript("game32")
+
+real_offset$transcripts <- map_df(real_offset$gameConfig, wrangle_transcript)
+
+transcripts <- real_offset |> unnest(transcripts) |> unnest(data)
+
+# this section is janky as hell, but it does work
+
+timed_transcripts <- transcripts |> mutate(start=start-offset_sec, end=end-offset_sec)
 ```
 
 
@@ -70,8 +127,11 @@ filtered_data <- filtered_data %>%
   select(createdAt, everything()) %>% 
   relocate(countCorrect, .before = time)
 
-View(filtered_data)
+#View(filtered_data)
 ```
+
+
+
 
 #accuracy graph
 ```{r}
