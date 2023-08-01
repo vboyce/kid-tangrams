@@ -200,12 +200,7 @@ ggplot(data = accuracy, aes(y = gameId, x = percent)) +
 ```
 
 
-
-time=time
-
-
 #graph accuracy to time (scatterplot maybe?)
-#graph accuracy (bar graph)
 
 ```{r}
 ggplot(data=accuracy, aes(x = Age.months, y=Laughs, color=Experimenter)) +
