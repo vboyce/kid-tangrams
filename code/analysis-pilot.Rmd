@@ -182,12 +182,12 @@ filtered_data <- filtered_data %>%
 #accuracy graph
 ```{r}
 accuracy <- filtered_data %>% 
-  group_by(gameId) %>% 
+  group_by(game) %>% 
   summarize(total=n(),
             correct=sum(countCorrect)) %>% 
   mutate(fraction = correct/total*100, percent = signif(fraction, 2)) 
 
-ggplot(data = accuracy, aes(y = gameId, x = percent)) +
+ggplot(data = accuracy, aes(y = game, x = percent)) +
   geom_bar(stat = "identity", position = position_dodge(.9), color = "black", fill = "#228B22", width = .7) +
   geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
   theme_classic() +
