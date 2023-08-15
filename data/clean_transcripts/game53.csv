@@ -1,0 +1,129 @@
+start,end,text,,,,speaker
+0,1080,"Right there, okay.",,,,I
+1080,2920,"Are you ready, my friends?",,,,I
+2920,7920,"Okay, so today, we will play a super fun matching game.",,,,I
+7920,10000,"Let me show you how it works, okay.",,,,I
+10000,13520,"So this is Mr. Smurfy, let's say hi to Smurfy.",,,,I
+14400,17000,"Hi, [id38], hi, [id37].",,,,I
+17000,20920,"So today, Smurfy really wants to play this matching game,",,,,I
+20920,24360,"specifically, he wants to guess.",,,,I
+24360,29160,"So in front of your screens, you will see two pictures,",,,,I
+29160,32280,but only one of you friends will see one picture,,,,I
+32280,37280,"in a black box, and Smurfy really wants to guess",,,,I
+37320,39480,"that picture in the black box, okay.",,,,I
+40520,44360,"So if you have Smurfy, [id38], you will guess",,,,I
+44360,47600,"the picture in the black box, but [id37],",,,,I
+47600,51680,"if you don't have Smurfy, then you will tell [id38]",,,,I
+51680,54120,"what you see in the black box, okay.",,,,I
+55080,57800,"And to make a guess, we will just tap on the screen once,",,,,I
+57800,60120,"and that's how you start, okay.",,,,I
+60120,63760,"Once you tap on the screen, you will see a picture.",,,,I
+63760,64960,This?,,,,id38
+64960,66240,"Yeah, not now, okay.",,,,I
+66240,69680,"If you see a smiley face, that means great.",,,,I
+69680,73640,"It was a match, but if you see a sad face,",,,,I
+73640,76000,"it wasn't a match, but it's okay.",,,,I
+76000,77800,You can try again next time.,,,,I
+77800,79920,"Does that make sense to you, my friends?",,,,I
+79920,82120,"Yeah, does that make sense to you, [id37]?",,,,I
+82120,86760,I have a stuffy is a unicorn,,,,id37
+86760,91560,"in a, in a, by-a-new, meow-meow-in-sheet-new.",,,,id37
+91560,92720,Really?,,,,I
+92720,93920,That is really cool.,,,,I
+93920,96160,"Well, let's try to see how it works, okay.",,,,I
+96160,99480,"So to begin, we will both press on the blue button.",,,,I
+99480,101080,Let's press on the blue button.,,,,I
+102280,103240,Let's try again.,,,,I
+104440,106200,"Okay, okay, okay.",,,,I
+106200,109640,"So you will hold on to Smurfy, and [id37],",,,,I
+109640,112880,what do we see in the black box?,,,,I
+112880,114200,A bird.,,,,id37
+114200,115800,"Do you see a bird, [id38]?",,,,I
+116920,118120,Do you see a bird?,,,,I
+118120,119040,Let's press it.,,,,I
+120520,121640,I'm going to press it.,,,,id37
+121640,122720,You don't have to press it.,,,,I
+122720,124520,Smiley.,,,,id37
+124520,125800,"Yeah, great.",,,,I
+125800,128200,So let's pass Smurfy on.,,,,I
+128200,129480,I win.,,,,id38
+129480,132400,"Now hold on to Smurfy, [id37].",,,,I
+132400,134560,What do you see in the black box?,,,,I
+135600,136560,A dog.,,,,id38
+136560,138320,"Do you see a dog, [id37]?",,,,I
+138320,139160,Yes.,,,,id37
+139160,140000,Press it.,,,,I
+142600,144760,"Only Smurfy presses, okay?",,,,I
+144760,145600,There you go.,,,,I
+145600,146880,Let's pass Smurfy on.,,,,I
+146880,148560,"Here you go, [id38].",,,,I
+148560,151720,"Now, [id37], what do we see in the black box?",,,,I
+153280,154480,What does it look like?,,,,I
+155640,157360,Look.,,,,id38
+157360,158200,I know.,,,,I
+158200,159560,"We can't show our screens, okay?",,,,I
+159560,161560,We have to speak.,,,,I
+161560,164280,"So [id37], what does this one look like to you?",,,,I
+165440,167520,It looks like a horse.,,,,id37
+167520,168960,A horse?,,,,I
+168960,171200,"Which one looks like a horse to you, [id38]?",,,,I
+172440,173960,Let's try to make a guess.,,,,I
+173960,176600,Let's tap on the one you think it is.,,,,I
+176600,177760,Great.,,,,I
+177760,180240,Let's pass Smurfy on.,,,,I
+180240,181080,Here you go.,,,,I
+182360,184680,"Now, [id38], what does that look like?",,,,I
+188080,188920,Like a...,,,,id38
+192680,195680,Like a bend people.,,,,id38
+195680,197360,Like a bend people?,,,,I
+197360,198720,Looks like a bend people.,,,,I
+198720,200560,"Do you see one, [id37]?",,,,I
+200560,202920,It looks like a bend people.,,,,id37
+202920,203880,Let's tap it.,,,,I
+205040,206880,"Yeah, I'm not.",,,,id38
+206880,208760,"[id37]'s gonna tap, okay?",,,,I
+208760,210120,"Great, my friend.",,,,I
+210120,210960,"Okay, here you go.",,,,I
+210960,212960,"Now, it'll be your turn to tap.",,,,I
+212960,217520,"[id37], what do we see in the black box, Elena?",,,,I
+219520,220360,Is it...,,,,id37
+222520,224520,It looks like-,,,,id37
+224520,225680,Take off it.,,,,id38
+225680,226520,Take off it.,,,,I
+226520,228080,"What does it look like, [id37]?",,,,I
+230080,231080,It looks like...,,,,id37
+233080,233920,A head.,,,,id37
+233920,235520,It looks like a head?,,,,I
+235520,237120,Which one looks like a head to you?,,,,I
+238920,241120,Let's tap on the one you think it is.,,,,I
+244120,244960,Great.,,,,I
+244960,246520,Let's pass it on.,,,,I
+247520,248520,Here you go.,,,,I
+248920,251120,"Now, [id38], what does that look like?",,,,I
+251120,253120,What does that look like?,,,,I
+254720,256320,A people swimming.,,,,id38
+256320,257520,People swimming.,,,,I
+257520,258920,Do you see people swimming?,,,,I
+258920,259520,Yeah.,,,,id37
+259520,260520,Let's tap it.,,,,I
+263120,264920,"Great, my friend.",,,,I
+264920,266120,"Here you go, [id38].",,,,I
+266120,266920,What?,,,,I
+266920,270520,"I don't want to, go back, too long.",,,,id38
+270520,271920,Do you want to go back now?,,,,I
+272920,274720,Or do you want to continue the game?,,,,I
+276120,278920,"It'll end very soon, so do you want to continue?",,,,I
+278920,281320,I want to play another game.,,,,id38
+281320,282720,Do you want to finish this game first?,,,,I
+282720,285520,Or do you want to go back to the classroom now?,,,,i
+285520,288720,I want to play outside.,,,,id38
+288720,290520,"Oh, outside?",,,,I
+290520,291520,I'm playing.,,,,id38
+291520,293320,In the classroom? Outside?,,,,I
+293320,294520,"Oh, okay.",,,,I
+294520,296520,"Well, [id38] wants to go outside to play,",,,,I
+296520,298520,so we will have to stop the game now,,,,I
+298520,300720,"and we'll take you guys back to the classroom, okay?",,,,I
+300720,302320,I'm going to the classroom.,,,,id37
+302320,304520,"Okay, give me one second, my friends.",,,,I
+304520,309520,I have to put your name tags up.,,,,I

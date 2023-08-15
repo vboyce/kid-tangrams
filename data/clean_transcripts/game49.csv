@@ -1,0 +1,93 @@
+start,end,text,,,,,,,speaker
+0,2000,Do you guys want to wave hi?,,,,,,,I
+2640,8120,"Hi, okay. Now my friends. Are you guys ready to play the game? Yeah?",,,,,,,I
+8880,13800,"So today, we will be playing a matching game. Do we know what a matching game is?",,,,,,,I
+19880,21880,But have you played one before?,,,,,,,I
+22400,24400,Great. Have you played one before?,,,,,,,I
+24400,27400,I played one on a computer.,,,,,,,id29
+27400,33800,"Ah, okay. Perfect. Well, let me show you how it works. Okay. This, my friends, is Smurphy.",,,,,,,I
+34000,36000,Let's say hi to Smurphy.,,,,,,,I
+36200,38200,Hi [id30].,,,,,,,I
+38600,42800,"Hi [id29]. Okay, and Smurphy really wants to play this game today.",,,,,,,I
+43240,47520,"So in front of you, you will see two pictures on your screens,",,,,,,,I
+47920,53640,but only one of you friends will see one picture in a black box.,,,,,,,I
+53640,58600,And Smurphy wants to guess that picture in the black box. Okay.,,,,,,,I
+59200,67360,"So let's say  [id30], you have Smurphy. If you have Smurphy, you will guess the picture that is in the black box.",,,,,,,I
+67960,71720,"But  [id29], if you don't have Smurphy, you will tell",,,,,,,I
+72320,78760, [id30] and Smurphy what you see in the black box so that they can make the right guess. Does that make sense?,,,,,,,I
+78760,85920,"So let me ask you  [id30], if you have Mr Smurphy, will you be guessing or will you be the teller?",,,,,,,I
+90760,97200,"Yeah, you'll be guessing. And [id29], if you don't have Smurphy, will you be the guesser or will you be the teller?",,,,,,,I
+98200,102000,"Great, you'll be the teller. Now to make our decision,",,,,,,,I
+102000,107000,we will just tap on the screen once and you will see a picture on the screen.,,,,,,,I
+107000,110280,"You mean the blue? Not right now, but I'll let you know.",,,,,,,I
+110760,115640,"So if you tap on the screen and you see a picture, if you see a smiley face,",,,,,,,I
+115640,119840,"if you see a happy face, then great. You help Smurphy find the right match.",,,,,,,I
+120440,128040,"But if you see a sad face, it's okay. It wasn't a match, but you can always try again next time. Does that make sense?",,,,,,,I
+128240,131160,"Yeah, okay. Do you have any questions before we start?",,,,,,,I
+131160,138280,"No, no. Okay, great. Are we ready to help Smurphy guess the right pictures? Yeah?",,,,,,,I
+138280,144280,"Okay, so to begin, we will tap on the blue arrow on the screen and tap it.",,,,,,,I
+147080,153000,"Did we tap it,  [id30]? Let's tap it. Great. Okay, so now [id29] will be guessing first.",,,,,,,I
+153000,161320,"Let's listen carefully to what  [id30] wants to say.  [id30], what do we see in the black box?",,,,,,,I
+161320,167320,A dog. ,,,,,,,id30
+169320,174440,Great. So you have helped Smurphy find the right match. Here you go.,,,,,,,I
+174440,177800,"Now, [id29], what do we see in the black box?[id29]",,,,,,,I
+177800,183160,A banana.,,,,,,,id29
+187160,193720,"Great. So we'll pass it on. There you go.  [id30], now, what do we see in the black box?",,,,,,,I
+195720,204680,Stickles.,,,,,,,id30
+204680,211560,I can't find that.,,,,,,,id29
+211560,220200,"Can we tell [id29] a little bit more about what we see in the black box? I don't know what that is. You don't know what that is? That is kind of tough, huh? What does it kind of look like to you? ",,,,,,,I
+220200,227880,A seesaw. ,,,,,,,id30
+227880,236760,"Great. Thank you. Okay,  [id30], here you go. [id29], what does this look like in the black box?",,,,,,,I
+238840,245400,A flying people.,,,,,,,id29
+245400,259880,"Let's try again. That's okay. We can always continue, right?  [id30], what do we see in the black box?",,,,,,,I
+263480,266600,We have to tell [id29] what we see in the black box.,,,,,,,I
+266600,274440,A kid.,,,,,,,id30
+274440,280040,"No, I can't find him.",,,,,,,id29
+280040,284360,"Do you see anything else,  [id30]?",,,,,,,I
+284360,293160,"Well, we have to tell [id29] what we see in the black box, right? So what does this look like?",,,,,,,I
+299080,306600,"No, no. It looks like a kid. Okay. Well,  [id30] says that she sees a kid. Let's try to make the best",,,,,,,I
+306600,317160,"guess that we can, [id29]. Which one do you think looks most like a kid? Let's tap on the one that",,,,,,,I
+317160,332600,"you think it is. Would you like to have, would you like to, would you like for  [id30] to say",,,,,,,I
+332600,338120,"something else to help you make a guess? Yeah. Well,  [id30], is there anything else that we can",,,,,,,I
+338120,344440,say to [id29] to help her make the guess? What does this look like?,,,,,,,I
+348600,358440,"No, no. It is a tough one, huh? Well, let's see.  [id30] said that she sees a kid. Which one looks",,,,,,,I
+358440,370600,most like a kid to you? Let's sit on this. Okay. Is there one that you feel like looks like a kid?,,,,,,,I
+371720,375080,"No. Well, it's okay. We can just tap on the one that you think it is.",,,,,,,I
+376360,382120,And we can move on to the next round. She will tap. [id29] will tap.,,,,,,,I
+382120,388440,"Should we tap on one together? Yeah. Well, which one do you want to tap on?",,,,,,,I
+392520,393880,I want to tap on this.,,,,,,,id29
+393880,409880,Should we tap on one together? Just tell me which one you want to tap on and we can tap on it together.,,,,,,,I
+409880,421720,"What, which one, which one does Mr. Smurphy even get in? Which one does Mr. Smurphy want to tap on?",,,,,,,I
+425560,427720,We have to think very carefully about it.,,,,,,,I
+427720,444360,"Which one kind? Oh, that's okay. We'll move on to the next round. Thank you. Okay, here you go.",,,,,,,I
+444360,448120,"That's totally fine. [id29], what do we see in the black box now?",,,,,,,I
+448120,458040,A server.,,,,,,,id29
+460040,467880,"Yeah, here you go. Now,  [id30], what do we see in the black box?",,,,,,,I
+468440,476360,A server.,,,,,,,id30
+476360,482600,A diver.,,,,,,,id29
+485880,495800,"If you think as much, just tap it. Great. Here you go.  [id30], what do we see in the black box?",,,,,,,I
+495800,509080,A kid.,,,,,,,id30
+509080,516760,"It looks like a kid. [id29], let's make the best guess that we",,,,,,,I
+516760,525480,can make. Which one kind of looks like a kid to you? Great. Let's pass it on. Thank you.,,,,,,,I
+526520,532360,A flying person.,,,,,,,id29
+534440,544440,"Let's tap it. That's okay. Let's try again. Okay.  [id30], what do we see in the black box?",,,,,,,I
+544440,553720,A kid. ,,,,,,,id30
+553720,566120,"She sees a kid. Let's make the best guess that we can, [id29]. Which one looks like a kid to you? Let's try to make a good guess. Which one kind of looks like a kid?",,,,,,,I
+566120,573960," [id30], what else does it look like to you?",,,,,,,I
+575800,578680,This picture in the black box? I don't know. You don't know?,,,,,,,I
+581640,585400,"Does it look like anything else? Yes, we'll move on to one. Then next.",,,,,,,I
+586200,590200,"Well, we have to make a guess first, right? So we have to help Smurfie and [id29] guess.",,,,,,,I
+590200,595960,We have to help Smurfie and [id29] guess which picture is in the black box.,,,,,,,I
+598120,605640,So it looks like a kid to you.,,,,,,,I
+605640,612120,"How many rounds are we going to take? I think, I actually don't know, but it's very, very short.",,,,,,,I
+612120,621960,"So it just looks like a kid to you,  [id30]? Does it look like a kid? We have to finish this game",,,,,,,I
+621960,627880,"first and then I'll let you know, okay? So what does this look like,  [id30]?",,,,,,,I
+627880,642120,A big kid. ,,,,,,,id30
+644760,646360,Let's press on the one that you think is.,,,,,,,I
+648520,655560,"Yay! Let's pass Smurfy on. Thank you. Okay, there you go. [id29], what do we see in the black box?",,,,,,,I
+655560,660920,A flying person.,,,,,,,id29
+665240,671560,A server.,,,,,,,id30
+671560,687320,A diver.,,,,,,,id29
+689160,693560,"And we're done with the game, my friends. Thank you guys so much for playing the game",,,,,,,I
+693560,698600,and thank you for helping Smurfy guess the right pictures. Now I'll turn the camera off.,,,,,,,I
+698600,706040,"Do you guys want to wave bye-bye? Bye-bye. Bye,  [id30].",,,,,,,I

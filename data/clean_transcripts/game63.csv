@@ -1,0 +1,186 @@
+start,end,text,,,,,,speaker
+0,2000,"Okay, do you want to say hi?",,,,,,I
+2000,4000,"Hi. Hi, my friends.",,,,,,I
+4000,7000,Are you ready to play the game? Let's not press anything just yet.,,,,,,I
+7000,10000,"Okay, so my friends, today we will be playing a matching game.",,,,,,I
+10000,12000,Have we played a matching game before?,,,,,,I
+12000,13000,No.,,,,,,id58
+13000,15000,What? We both haven't played a matching game before?,,,,,,I
+15000,17000,This is your first time?,,,,,,I
+17000,18000,That's so exciting.,,,,,,I
+18000,22000,"Well, today, this, my friends, is Smurfy, okay?",,,,,,I
+22000,25000,And Smurfy really wants to play this matching game.,,,,,,I
+25000,27000,Do you want to say hi to Smurfy?,,,,,,I
+27000,29000,"Hi, [id58].",,,,,,I
+29000,30000,Who's this?,,,,,,I
+30000,31000,[id57].,,,,,,id57
+31000,32000,"Hi, [id57].",,,,,,I
+32000,36000,"Okay, now, so in front of your screens, you will see two pictures, okay?",,,,,,I
+36000,40000,But only one of you guys will have a picture in the black box.,,,,,,I
+40000,41000,Okay.,,,,,,I
+41000,45000,"And Smurfy wants to guess that picture in the black box, okay?",,,,,,I
+45000,50000,"Now, if you have Smurfy, you will be the guesser, okay?",,,,,,I
+50000,53000,You will guess what picture is in the black box.,,,,,,I
+53000,57000,"But if you don't have Smurfy, [id57], you will be the teller.",,,,,,I
+57000,61000,"And you will tell [id58] and Smurfy what you see in the black box, okay?",,,,,,I
+61000,65000,"Now, to make a guess, we will just tap on the screen once.",,,,,,I
+65000,66000,But we don't have to do it now.,,,,,,I
+66000,67000,"Well, let's do it now.",,,,,,id58
+67000,70000,"Not now, not yet, because that's, I'll tell you.",,,,,,I
+70000,72000,Tap on the screen and you will see a picture.,,,,,,I
+72000,74000,"If you see a smiley face, great.",,,,,,I
+74000,76000,"It was a match, okay?",,,,,,I
+76000,79000,"But if you see a sad face, it wasn't a match.",,,,,,I
+79000,80000,But it's okay.,,,,,,I
+80000,81000,We can always try again next time.,,,,,,I
+81000,83000,"Does that make sense to you, my friends?",,,,,,I
+83000,84000,Yeah.,,,,,,id58
+84000,85000,"Are you ready, [id57]?",,,,,,I
+85000,86000,Yes.,,,,,,I
+86000,87000,All right?,,,,,,I
+87000,88000,High five.,,,,,,id58
+88000,89000,"Okay, high five.",,,,,,I
+89000,90000,Let's high five.,,,,,,I
+90000,91000,Let's high five.,,,,,,I
+91000,94000,"Okay, let's press on the blue button on our screens.",,,,,,I
+94000,97000,Let's go try again.,,,,,,I
+97000,98000,Perfect.,,,,,,I
+98000,99000,Okay.,,,,,,I
+99000,102000,"Now, [id57], you will hold on to Smurfy and [id58].",,,,,,I
+102000,107000,We will tell [id57] what we see in the black box.,,,,,,I
+107000,108000,An apple.,,,,,,id58
+108000,109000,An apple.,,,,,,I
+109000,110000,Do you see an apple?,,,,,,I
+110000,112000,Let's press it.,,,,,,I
+112000,113000,Great.,,,,,,I
+113000,115000,"So that was a match, okay?",,,,,,I
+115000,118000,So now here you go and let's listen to [id57].,,,,,,I
+118000,121000,"So [id57], what do you see in the black box?",,,,,,I
+121000,122000,A banana.,,,,,,id57
+122000,123000,Great.,,,,,,I
+123000,124000,I love bananas.,,,,,,id58
+124000,125000,They're my favorite.,,,,,,id58
+125000,126000,Me too.,,,,,,id57
+126000,129000,"Okay, so let's hold on to Smurfy.",,,,,,I
+129000,135000,"And now, [id58], we will tell [id57] what we see in the black box.",,,,,,I
+135000,137000,What does it look like?,,,,,,I
+137000,138000,It's like this.,,,,,,id58
+138000,139000,Yeah.,,,,,,I
+139000,140000,So let's sit down down.,,,,,,I
+140000,142000,"We'll try to tell, okay?",,,,,,I
+142000,145000,Let's try to tell.,,,,,,I
+145000,151000,Feet that are up and a bite like this and a head.,,,,,,id58
+151000,156000,Feet that are up and what?,,,,,,I
+156000,160000,Let's try to tell him instead of showing.,,,,,,I
+160000,161000,Like that.,,,,,,id58
+161000,162000,So like that.,,,,,,I
+162000,164000,So which one looks like that?,,,,,,I
+164000,165000,That one.,,,,,,id57
+165000,169000,"If that's your guess, let's just press on it.",,,,,,I
+169000,171000,Let's try again.,,,,,,I
+171000,173000,So that wasn't a match.,,,,,,I
+173000,174000,But it's okay.,,,,,,I
+174000,175000,We can always try again next time.,,,,,,I
+175000,177000,"Okay, here you go.",,,,,,I
+177000,178000,Okay.,,,,,,I
+178000,182000,"Now [id57], what does that look like to you?",,,,,,I
+182000,183000,A car.,,,,,,id57
+183000,184000,A car?,,,,,,I
+184000,185000,It looks like a car.,,,,,,I
+185000,186000,Great.,,,,,,I
+186000,187000,So that was a match.,,,,,,I
+187000,188000,Let's pass Smurfy.,,,,,,I
+188000,189000,Thank you.,,,,,,I
+189000,190000,"Okay, [id58].",,,,,,I
+190000,191000,What does that look like to you?,,,,,,I
+191000,192000,What does it kind of look like?,,,,,,I
+192000,208000,It's like someone that's holding a backwards triangle cup.,,,,,,id58
+208000,209000,Great.,,,,,,I
+209000,210000,That was a match.,,,,,,I
+210000,211000,Okay.,,,,,,I
+211000,212000,Here you go.,,,,,,I
+212000,213000,"Okay, [id57].",,,,,,I
+213000,215000,What does that look like to you?,,,,,,I
+215000,216000,A human.,,,,,,id57
+216000,222000,A human.,,,,,,I
+222000,223000,Great.,,,,,,I
+223000,225000,You guys are on a roll.,,,,,,I
+225000,226000,Okay.,,,,,,I
+226000,228000,What does that look like?,,,,,,I
+228000,243000,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle,,,,,,id58
+243000,247000,head and a backwards triangle butt and triangle feet.,,,,,,id58
+247000,249000,Which one does that look like?,,,,,,I
+249000,250000,Let's press it.,,,,,,I
+250000,251000,"Oh, that's okay.",,,,,,I
+251000,252000,Let's try again.,,,,,,I
+252000,253000,"Okay, here you go.",,,,,,I
+253000,254000,"Okay, [id57].",,,,,,I
+254000,255000,What does that look like to you?,,,,,,I
+255000,256000,A car.,,,,,,id57
+256000,257000,A car.,,,,,,I
+257000,258000,Let's try again.,,,,,,I
+258000,259000,Great.,,,,,,I
+259000,260000,Thank you.,,,,,,I
+260000,261000,Here you go.,,,,,,I
+261000,262000,"Okay, [id58].",,,,,,I
+262000,263000,What does that look like?,,,,,,I
+263000,277000,"It's a head, down, square and like this.",,,,,,id58
+277000,278000,Let's try to tell [id57].,,,,,,I
+278000,290000,"Okay, so it's a triangle feet and one rectangle and one triangle and then a square head.",,,,,,id58
+290000,292000,"Which one does that look like, [id57]?",,,,,,I
+292000,294000,Let's press on it.,,,,,,I
+294000,295000,Great.,,,,,,I
+295000,297000,That was a match.,,,,,,I
+297000,298000,Here you go.,,,,,,I
+298000,299000,Okay.,,,,,,I
+299000,302000,"[id57], what does that look like to you?",,,,,,I
+302000,308000,Somebody holding a triangle.,,,,,,id57
+308000,313000,Somebody holding a triangle.,,,,,,I
+313000,316000,"Okay, here you go.",,,,,,I
+316000,319000,"Okay, what does that look like?",,,,,,I
+319000,321000,A race car.,,,,,,id58
+321000,325000,"Which one looks like a race car, [id57]?",,,,,,I
+325000,326000,Great.,,,,,,I
+326000,329000,There you go.,,,,,,I
+329000,330000,"Okay, [id57].",,,,,,I
+330000,332000,What does that look like to you?,,,,,,I
+332000,333000,A human.,,,,,,id57
+333000,334000,What's a dancing?,,,,,,I
+334000,335000,"A human, what?",,,,,,I
+335000,336000,What?,,,,,,I
+336000,337000,A human that's dancing.,,,,,,id57
+337000,338000,A human dancing?,,,,,,I
+338000,339000,Yeah.,,,,,,id57
+339000,340000,A human dancing.,,,,,,I
+340000,341000,Which one does that look like?,,,,,,I
+341000,342000,Let's press on it.,,,,,,I
+342000,343000,Let's press on it.,,,,,,I
+343000,344000,Let's press on it.,,,,,,I
+344000,345000,Let's press on it.,,,,,,I
+345000,346000,Okay.,,,,,,I
+346000,351000,Let's press on it.,,,,,,I
+351000,352000,Let's press on it.,,,,,,I
+352000,353000,Great.,,,,,,I
+353000,354000,Thank you.,,,,,,I
+354000,356000,"Okay, here you go.",,,,,,I
+356000,359000,"Okay, l[id58] what does this look like?",,,,,,I
+359000,370000,"It has a triangle leg, a rectangle, and a diamond body and a square head.",,,,,,id58
+370000,372000,Which one is that?,,,,,,I
+372000,374000,Press on it.,,,,,,I
+374000,375000,Great.,,,,,,I
+375000,376000,Great.,,,,,,I
+376000,377000,"Okay, here you go.",,,,,,I
+377000,379000,"Let's listen up, okay?",,,,,,I
+379000,381000,"[id57], what does that look like?",,,,,,I
+381000,385000,Someone holding a triangle on top.,,,,,,id57
+385000,386000,Great.,,,,,,I
+386000,389000,"Okay, let's pass it.",,,,,,I
+389000,392000,"Well, my friends, we just finished the game.",,,,,,I
+392000,394000,Thank you guys so much for playing the game.,,,,,,I
+394000,395000,Again?,,,,,,id58
+395000,396000,You want to play the game again?,,,,,,I
+396000,398000,"Okay, let me turn the camera off.",,,,,,I
+398000,400000,"Just for one second, okay?",,,,,,I
+400000,401000,Do you guys want to say bye-bye?,,,,,,I
+401000,402000,Bye.,,,,,,id58
+402000,405000,Okay.,,,,,,I

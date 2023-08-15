@@ -1,0 +1,87 @@
+start,end,text,,,,,speaker
+0,5000,"Now, let's not pass anything just yet.",,,,,I
+5000,6000,Oh!,,,,,I
+6000,7000,Oh!,,,,,I
+7000,8000,"Wait, give me one second.",,,,,I
+8000,9000,"No, no, no, sorry.",,,,,I
+9000,10000,"Okay, wait.",,,,,I
+10000,11000,Give me one second.,,,,,I
+11000,12000,Yay!,,,,,id18
+12000,18000,"So, the thing is, you guys, listen to me just for one second, okay?",,,,,I
+18000,22000,And then I will let you guys start the game.,,,,,I
+22000,24000,Are you guys ready?,,,,,I
+24000,25000,Okay.,,,,,I
+25000,30000,"So, basically, okay, let's listen.",,,,,I
+30000,32000,Are you guys ready?,,,,,I
+32000,34000,"So, today, we will be playing a matching game.",,,,,I
+34000,36000,Do you guys know what a matching game is?,,,,,I
+36000,37000,Yes.,,,,,id17
+37000,38000,Yeah?,,,,,I
+38000,39000,Okay.,,,,,I
+39000,41000,"Well, this, my friends, is going to be Smurphy.",,,,,I
+41000,43000,Let's say hi to Smurphy.,,,,,I
+43000,44000,Oh!,,,,,I
+44000,45000,Hi.,,,,,I
+45000,48000,"Hi, [id17].",,,,,I
+48000,52000,"Now, Smurphy really wants to play this game today, okay?",,,,,I
+52000,58000,And he wants to play this game because you two will see two images on your screens.,,,,,I
+58000,65000,"But only one of you friends will have one picture with a black box around it, okay?",,,,,I
+65000,66000,If you have...,,,,,I
+66000,71000,"Wait, this is like my sister's iPad but that black.",,,,,id18
+71000,75000,My sister's iPad is this iPad but pink.,,,,,id18
+75000,76000,"Perfect, okay.",,,,,I
+76000,77000,I knew it.,,,,,id17
+77000,78000,You knew it?,,,,,I
+78000,80000,Let's sit a little bit closer to the table.,,,,,I
+80000,81000,Perfect.,,,,,I
+81000,83000,"Let's listen carefully, okay?",,,,,I
+83000,88000,"If, let's say, [id17] has Smurphy, then [id17], you will be the guesser.",,,,,I
+88000,91000,Meaning that you will guess which picture is in the black box.,,,,,I
+91000,95000,"But if you don't have Smurphy, [id18], you will be the teller.",,,,,I
+95000,99000,And you will tell [id18] and Smurphy what you see in the black box.,,,,,I
+99000,100000,Does that make sense?,,,,,I
+100000,101000,Yeah.,,,,,I
+101000,103000,"So, let's say, let me ask you, look.",,,,,I
+103000,107000,"If [id17], you have Smurphy, will you be the guesser or will you be the teller?",,,,,I
+107000,108000,Teller.,,,,,id17
+108000,110000,"You will be the guesser, okay?",,,,,I
+110000,112000,Will I be the guesser?,,,,,id18
+112000,113000,You guys will take turns.,,,,,I
+113000,116000,"You will be the guesser, okay, if you have Smurphy.",,,,,I
+116000,120000,"If you don't have Smurphy, will you be the guesser or will you be the teller?",,,,,I
+120000,121000,Teller.,,,,,id18
+121000,122000,"Good, yeah.",,,,,I
+122000,124000,"You will be the teller, okay?",,,,,I
+124000,129000,"And look, once you guys tap on the screen and you make your decision, you will see one",,,,,I
+129000,130000,picture.,,,,,I
+130000,132000,"If you see a smiley face, great.",,,,,I
+132000,135000,You help Smurphy find the right match.,,,,,I
+135000,142000,"And if you see a sad face, it wasn't a match, but you can always try again next time, okay?",,,,,I
+142000,143000,Does that sound good to you?,,,,,I
+143000,144000,Should we press the X?,,,,,I
+144000,146000,"No, don't press the X just yet.",,,,,I
+146000,147000,"I will tell you what, okay?",,,,,I
+147000,149000,Do you guys have any questions?,,,,,I
+149000,150000,No.,,,,,I
+150000,151000,"Do you have questions, [id17]?",,,,,I
+151000,153000,"Okay, should we start the game?",,,,,I
+153000,155000,"No, the X doesn't work, honey.",,,,,I
+155000,156000,We don't start with the X.,,,,,I
+156000,159000,"I will start it right away, okay?",,,,,I
+159000,162000,Give me one second.,,,,,I
+162000,165000,No.,,,,,id17
+165000,170000,"So, we can start.",,,,,I
+170000,171000,No.,,,,,id17
+171000,172000,I don't want to start.,,,,,id17
+172000,174000,"Oh, you don't want to do it anymore?",,,,,I
+174000,175000,"Oh, it's okay.",,,,,I
+175000,176000,Okay.,,,,,I
+176000,178000,Then we can just end the game right here.,,,,,I
+178000,179000,That's good.,,,,,I
+179000,180000,No worries about it.,,,,,I
+180000,184000,But can I still stay?,,,,,id18
+184000,187000,I can help you find another friend if you want to.,,,,,I
+187000,188000,Is that good for you?,,,,,I
+188000,190000,"Well, how about we play?",,,,,id18
+190000,192000,I can't play with you.,,,,,I
+192000,221000,I cannot play with you because I...,,,,,I
