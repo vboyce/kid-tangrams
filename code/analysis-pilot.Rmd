@@ -66,15 +66,15 @@ raw_data <- read.csv(here(data_source), header = TRUE) %>%
   mutate(time=as.numeric(time))
 
 # write_csv(here(data, 'rounds7.19.csv'))
-real_offset <- raw_data
 ```
 
-```{r, eval=F}
+```{r}
 #just for pilot, need to fix offset
-fix <- raw_data |> filter(trialNum==0) |> select(game, time)
+#fix <- raw_data |> filter(trialNum==0) |> select(game, time)
 
-real_offset <- games |> left_join(fix, by=c("gameConfig"="game")) |> mutate(offset_sec=offset_sec-time/1000)
+#real_offset <- games |> left_join(fix, by=c("gameConfig"="game")) |> mutate(offset_sec=offset_sec-time/1000)
 
+real_offset <- games
 
 ```
 
