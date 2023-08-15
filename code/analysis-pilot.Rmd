@@ -19,27 +19,33 @@ ParseJSONColumn <- function(x) {
 pilot_start=lubridate::ymd('2023-07-07') 
 pilot_end=lubridate::ymd('2023-07-12')
 
+real_start=lubridate::ymd('2023-07-17')
+real_end=lubridate::ymd('2023-08-09')
+
 data_source <- "data/rounds.csv"
 player_source <- "data/players.csv"
 
-player_ids <- str_c("id", 3:12) # Ids 1, 2 were adult pilot test 
+pilot_ids <- str_c("id", 3:12) # Ids 1, 2 were adult pilot test 
+
+real_ids <-str_c("id", c(13:16, 19:36, 39:54, 57:58)) # skipping kids who didn't complete enough trials
 ```
 
 # Veronica works on wrangling transcripts here
 
 ```{r}
 
-players <- read_csv(here(player_source)) |> filter(id %in% player_ids) |> select(id, playerId=`_id`) 
+players <- read_csv(here(player_source)) |> filter(id %in% real_ids) %>% select(id, playerId=`_id`) 
 
-games <- read_csv(here("data/games.csv"), col_types="ccc") |> mutate(offset_sec=lubridate::ms(offset) |> lubridate::period_to_seconds()) |> select(-offset)
+games <- read_csv(here("data/games.csv"), col_types="ccc") %>% mutate(offset_sec=0)
+#|> mutate(offset_sec=lubridate::ms(offset) |> lubridate::period_to_seconds()) |> select(-offset)
 
 ```
 
 ```{r}
 
 raw_data <- read.csv(here(data_source), header = TRUE) %>% 
-  filter(createdAt >= pilot_start) %>%
-  filter(createdAt <= pilot_end) %>% 
+  filter(createdAt >= real_start) %>%
+  filter(createdAt <= real_end) %>% 
   rename_with(~ gsub("data.", "", .x, fixed = TRUE)) %>% 
   select(-chat) |> 
   pivot_longer(cols=starts_with('player'), names_to=c("playerId", "info"), names_prefix="player_", names_sep="_",
@@ -52,7 +58,7 @@ raw_data <- read.csv(here(data_source), header = TRUE) %>%
   rename(playerId=id) |> 
   left_join(players, by=c("speaker"="playerId")) |> 
   select(-speaker) |> 
-  rename(speaker=id) |> 
+  rename(speaker=id) %>% 
   left_join(games) |> 
   rename(game=gameConfig) |> 
   select(-gameId, -offset_sec) |> 
@@ -60,9 +66,10 @@ raw_data <- read.csv(here(data_source), header = TRUE) %>%
   mutate(time=as.numeric(time))
 
 # write_csv(here(data, 'rounds7.19.csv'))
+real_offset <- raw_data
 ```
 
-```{r}
+```{r, eval=F}
 #just for pilot, need to fix offset
 fix <- raw_data |> filter(trialNum==0) |> select(game, time)
 
@@ -187,8 +194,8 @@ accuracy <- filtered_data %>%
             correct=sum(countCorrect)) %>% 
   mutate(fraction = correct/total*100, percent = signif(fraction, 2)) 
 
-ggplot(data = accuracy, aes(x = percent, y = game)) +
-  geom_bar(stat = "identity", position = position_dodge(.9), color = "black", fill = "#228B22", width = .7) +
+ggplot(data = accuracy, aes(x = percent, y = reorder(game, -percent))) +
+  geom_bar(stat = "identity", position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
   geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
   theme_classic() +
   xlab("Percentage Accuracy") +
@@ -197,6 +204,8 @@ ggplot(data = accuracy, aes(x = percent, y = game)) +
         axis.title = element_text(size=14,face="bold"),
         axis.text = element_text(size=12),
         legend.position = "none")
+ggsave("AccuracySorted.png")
+
 ```
 
 
@@ -207,6 +216,7 @@ ggplot(data=accuracy, aes(x = Age.months, y=Laughs, color=Experimenter)) +
   geom_point()
 ```
 ```
+
 
 
 
