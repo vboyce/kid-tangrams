@@ -139,15 +139,28 @@ timed_transcripts |> filter(end>0) |> filter(!is.na(trialNumEnd)) |> #it's in th
 
 #so like a third mismatch, and only a couple off by more than 1
 ```
-# timed_transcripts editing:
+# timed_transcripts editing
 ```{r}
 timed_new <- timed_transcripts %>% 
   filter(!speaker %in% c("I", "M", "i")) %>% 
-  mutate(wordCount = str_count(text, "\\S+"))
+  filter(!trialNumStart %in% c(0.0, 0.5, 1.0, 13.0, NA)) %>% 
+  mutate(wordCount = str_count(text, "\\S+"), roundStart = ceiling(trialNumStart))
 
-# filter trials, filter out practice trials, round trialNumStart up for 0.5
-# geom line - color = game OR group = game
+View(timed_new)
   
+```
+
+# timed_new graphing
+```{r}
+# filter trials
+# geom line - color = game OR group = game
+ggplot(timed_new, aes(x = roundStart, y = wordCount, group = game, color = game)) + 
+  geom_line() +
+  labs(color = "Game ID", x = "Round #", y = "Utterance Count") +
+  #scale_x_continuous(#breaks=seq(1,10,1), limits = c(2,13)) +
+  #ylim(120, 200) + 
+  theme_classic()
+
 ```
 
 
@@ -200,6 +213,7 @@ accuracy <- filtered_data %>%
   summarize(total=n(),
             correct=sum(countCorrect)) %>% 
   mutate(fraction = correct/total*100, percent = signif(fraction, 2)) 
+  View(accuracy)
 
 ggplot(data = accuracy, aes(x = percent, y = reorder(game, -percent))) +
   geom_bar(stat = "identity", position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
