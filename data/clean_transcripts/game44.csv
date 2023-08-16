@@ -133,7 +133,7 @@ start,end,text,,,,,speaker
 248000,251000,You will tell [id20] what you see in the black box.,,,,,I
 251000,254000,I see a board in the black box.,,,,,id19
 254000,255000,He sees.,,,,,I
-255000,257000,Should we press that one?,,,,,i
+255000,257000,Should we press that one?,,,,,I
 257000,258000,Yeah.,,,,,I
 258000,259000,Okay.,,,,,I
 259000,260000,I have a smiley.,,,,,id19
