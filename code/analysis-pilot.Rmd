@@ -36,7 +36,7 @@ real_ids <-str_c("id", c(13:16, 19:36, 39:54, 57:58)) # skipping kids who didn't
 
 players <- read_csv(here(player_source)) |> filter(id %in% real_ids) %>% select(id, playerId=`_id`) 
 
-games <- read_csv(here("data/games.csv"), col_types="ccc")|> mutate(offset_sec=lubridate::ms(offset) |> lubridate::period_to_seconds()) |> select(-offset)
+games <- read_csv(here("data/games.csv"), col_types="ccc")|> filter(is.na(exclude)) |>  mutate(offset_sec=lubridate::ms(offset) |> lubridate::period_to_seconds()) |> select(-offset)
 
 ```
 
@@ -139,8 +139,9 @@ timed_transcripts |> filter(end>0) |> filter(!is.na(trialNumEnd)) |> #it's in th
 
 #so like a third mismatch, and only a couple off by more than 1
 ```
+# Prep accuracy 
 
-# remove columns: numPlayers, sound, activePlayerCount, trialNum, distractor, tangramURLs, response, target, submitted, X_id, repNum, correct, targetNum, stageIds
+## remove columns: numPlayers, sound, activePlayerCount, trialNum, distractor, tangramURLs, response, target, submitted, X_id, repNum, correct, targetNum, stageIds
 ```{r}
 filtered_data <- raw_data %>% 
   select(-numPlayers) %>% 
@@ -160,7 +161,7 @@ filtered_data <- raw_data %>%
 
 ```
 
-#remove NA cells in "time"
+## remove NA cells in "time"
 ```{r}
 filtered_data <- filtered_data %>% 
   drop_na(time)
@@ -168,7 +169,7 @@ filtered_data <- filtered_data %>%
 View(filtered_data)
 ```
 
-#relocate columns
+## relocate columns
 ```{r}
 filtered_data <- filtered_data %>% 
   select(createdAt, everything()) %>% 
@@ -180,7 +181,7 @@ filtered_data <- filtered_data %>%
 
 
 
-#accuracy graph
+# accuracy graph
 ```{r}
 accuracy <- filtered_data %>% 
   group_by(game) %>% 
