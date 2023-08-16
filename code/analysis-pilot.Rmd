@@ -201,14 +201,30 @@ ggplot(data = accuracy, aes(x = percent, y = reorder(game, -percent))) +
         legend.position = "none")
 ggsave("AccuracySorted.png")
 
+
+#scatterplot
+ggplot(data=data_long, aes(x = time, y= percent, color=Experimenter)) +
+  geom_point(size=1.5, alpha=.7) +
+  geom_smooth(se=F) +
+  theme_classic() +
+  xlab("Age in months") +
+  ylab("Number of Laughs") +
+  theme(aspect.ratio = 3/5,
+        axis.title=element_text(size=14,face="bold"),
+        axis.text=element_text(size=12),
+        legend.title=element_text(size=14,face="bold"),
+        legend.text=element_text(size=12),
+        legend.direction="horizontal",
+        legend.position="bottom") +
+  facet_wrap(~time)
+
 ```
 
 
 #graph accuracy to time (scatterplot maybe?)
 
 ```{r}
-ggplot(data=accuracy, aes(x = Age.months, y=Laughs, color=Experimenter)) +
-  geom_point()
+
 ```
 ```
 
