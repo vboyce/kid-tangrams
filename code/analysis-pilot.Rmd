@@ -30,14 +30,13 @@ pilot_ids <- str_c("id", 3:12) # Ids 1, 2 were adult pilot test
 real_ids <-str_c("id", c(13:16, 19:36, 39:54, 57:58)) # skipping kids who didn't complete enough trials
 ```
 
-# Veronica works on wrangling transcripts here
+# Data prep
 
 ```{r}
 
 players <- read_csv(here(player_source)) |> filter(id %in% real_ids) %>% select(id, playerId=`_id`) 
 
-games <- read_csv(here("data/games.csv"), col_types="ccc") %>% mutate(offset_sec=0)
-#|> mutate(offset_sec=lubridate::ms(offset) |> lubridate::period_to_seconds()) |> select(-offset)
+games <- read_csv(here("data/games.csv"), col_types="ccc")|> mutate(offset_sec=lubridate::ms(offset) |> lubridate::period_to_seconds()) |> select(-offset)
 
 ```
 
@@ -65,7 +64,6 @@ raw_data <- read.csv(here(data_source), header = TRUE) %>%
   filter(!is.na(game)) |> 
   mutate(time=as.numeric(time))
 
-# write_csv(here(data, 'rounds7.19.csv'))
 ```
 
 ```{r}
@@ -81,7 +79,7 @@ real_offset <- games
 ```{r}
 
 wrangle_transcript <- function(game_num){
-read_csv(here("data/clean_transcripts", str_c(game_num,".csv"))) |> 
+read_csv(here("data/clean_transcripts", str_c(game_num,".csv")), show_col_types=F) |> 
   select(start, end, text, speaker) |> 
   mutate(start=start/1000, end=end/1000) |> 
     nest(data=c(start, end, text, speaker))
@@ -97,28 +95,6 @@ transcripts <- real_offset |> unnest(transcripts) |> unnest(data)
 
 ```
 
-```{r, include=F, eval=F}
-# a very derpy approach to aligning trial boundaries with transcripts
-
-timing <- raw_data |> group_by(game) |> mutate(cum_time=cumsum(time), cum_sec=cum_time/1000+3*trialNum) |> select(trialNum, game, cum_sec) |> mutate(start=ifelse(trialNum==0, 0,lag(cum_sec)), end=cum_sec, trialNumStart=trialNum, trialNumEnd=trialNum, speaker=NA, text=NA) |> select(-cum_sec, -trialNum)
-
-timed_transcripts <- transcripts |>
-  mutate(start=start-offset_sec, end=end-offset_sec) |> 
-  select(-offset_sec, -time, -gameId) |> 
-  rename(game=gameConfig) |> 
-  mutate(trialNumStart=NA, trialNumEnd=NA) |> 
-  bind_rows(timing) |> 
-  group_by(game) |> 
-  arrange(start) |> 
-  fill(trialNumStart) |> 
-  arrange(end) |> 
-  fill(trialNumEnd, .direction="up") |> 
-  arrange(game) |> 
-  filter(start>0)
-
-# turns out this isn't good enough for timing, let's try stages instead!
-
-```
 
 ```{r}
 
@@ -126,13 +102,21 @@ stages <- read_csv(here("data/stages.csv")) |> select(index, gameId, startTimeAt
 
 gameStarts <- stages |> filter(index==0) |> rename(first=startTimeAt) |> select(-index)
 
-stage_timing <- stages |> left_join(gameStarts) |> mutate(rel_time=startTimeAt-first) |> mutate(rel_time=lubridate::as.period(rel_time) |> lubridate::period_to_seconds()) |> filter(index%%2==0) |> mutate(trialNum=index/2) |> select(gameId, trialNum, start=rel_time, end=rel_time) |> left_join(games) |> mutate(trialNumStart=trialNum, trialNumEnd=lag(trialNum)) |> ungroup() |> select(game=gameConfig, trialNumStart, trialNumEnd, start, end) |> filter(!is.na(game)) |> filter(!is.na(start)) |> filter(!is.na(end))
+stage_timing <- stages |> left_join(gameStarts) |>
+  mutate(rel_time=startTimeAt-first) |> 
+  mutate(rel_time=lubridate::as.period(rel_time) |> lubridate::period_to_seconds()) |> 
+   mutate(trialNum=index/2,
+          start=rel_time,
+          end=lead(rel_time)) |> 
+  select(gameId, trialNum,start, end) |>  left_join(games) |>  ungroup() |> 
+  mutate(trialNumStart=trialNum, trialNumEnd=trialNum) |> 
+  select(game=gameConfig, trialNumStart, trialNumEnd, start, end) |> filter(!is.na(game)) |> filter(!is.na(start)) |> filter(!is.na(end))
 ```
 
 ```{r}
 timed_transcripts <-  transcripts |>
   mutate(start=start-offset_sec, end=end-offset_sec) |> 
-  select(-offset_sec, -time, -gameId) |> 
+  select(-offset_sec, -gameId) |> 
   mutate(trialNumStart=NA, trialNumEnd=NA) |> 
   rename(game=gameConfig) |> 
   bind_rows(stage_timing) |> 
@@ -144,6 +128,16 @@ timed_transcripts <-  transcripts |>
   arrange(game) |> 
   filter(!is.na(text)) |> 
   write_csv(here("data/timed_transcript.csv"))
+```
+
+```{r}
+# how many trial mismatches are there?
+timed_transcripts |> filter(end>0) |> filter(!is.na(trialNumEnd)) |> #it's in the game region, not rules or post game
+ mutate(mismatch=trialNumEnd-trialNumStart) |> 
+  group_by(mismatch) |> 
+  tally()
+
+#so like a third mismatch, and only a couple off by more than 1
 ```
 
 # remove columns: numPlayers, sound, activePlayerCount, trialNum, distractor, tangramURLs, response, target, submitted, X_id, repNum, correct, targetNum, stageIds
