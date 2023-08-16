@@ -142,7 +142,11 @@ timed_transcripts |> filter(end>0) |> filter(!is.na(trialNumEnd)) |> #it's in th
 # timed_transcripts editing:
 ```{r}
 timed_new <- timed_transcripts %>% 
-  filter(!speaker %in% c("I", "M", "i"))
+  filter(!speaker %in% c("I", "M", "i")) %>% 
+  mutate(wordCount = str_count(text, "\\S+"))
+
+# filter trials, filter out practice trials, round trialNumStart up for 0.5
+# geom line - color = game OR group = game
   
 ```
 

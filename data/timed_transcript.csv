@@ -569,7 +569,7 @@ game44,NA,14,15,Give me one second.,I,0,0
 game44,NA,15,18,You will tell [id20] what you see in the black box.,I,0,0
 game44,NA,18,21,I see a board in the black box.,id19,0,0
 game44,NA,21,22,He sees.,I,0,0
-game44,NA,22,24,Should we press that one?,i,0,0
+game44,NA,22,24,Should we press that one?,I,0,0
 game44,NA,24,25,Yeah.,I,0,0.5
 game44,NA,25,26,Okay.,I,0,0.5
 game44,NA,26,27,I have a smiley.,id19,0.5,0.5
@@ -1246,7 +1246,7 @@ game48,NA,-77,-76,Okay?,I,NA,0
 game48,NA,-76,-73,"So, let's listen first.",I,NA,0
 game48,NA,-73,-71,"So let's say, [id28], you have Smurphy, okay?",I,NA,0
 game48,NA,-71,-66,"If you have Smurphy, you will be guessing the picture in the black box.",I,NA,0
-game48,NA,-66,-59,"If you don't have Murphy, [id27], you will tell [id28] and Smurphy what you see in the black box.",i,NA,0
+game48,NA,-66,-59,"If you don't have Murphy, [id27], you will tell [id28] and Smurphy what you see in the black box.",I,NA,0
 game48,NA,-59,-58,Okay?,I,NA,0
 game48,NA,-58,-57,Okay?,I,NA,0
 game48,NA,-57,-56,So let's try.,I,NA,0
@@ -1565,8 +1565,8 @@ game50,NA,-12.919999999999987,-11.719999999999999,"Well, I'll show you right now
 game50,NA,-11.719999999999999,-10.879999999999995,Should we start?,I,NA,0
 game50,NA,-10.879999999999995,-10.039999999999992,Yeah.,id31,NA,0
 game50,NA,-10.039999999999992,-9.199999999999989,Are you guys ready to start?,I,NA,0
-game50,NA,-9.199999999999989,-8,"Well, we'll sit in our seats, okay?",i,NA,0
-game50,NA,-8,-6.039999999999992,Let's face the screen right now.,i,NA,0
+game50,NA,-9.199999999999989,-8,"Well, we'll sit in our seats, okay?",I,NA,0
+game50,NA,-8,-6.039999999999992,Let's face the screen right now.,I,NA,0
 game50,NA,-6.039999999999992,-5.199999999999989,Ready?,I,NA,0
 game50,NA,-5.199999999999989,-3.280000000000001,So we'll all press the blue button.,I,NA,0
 game50,NA,-3.280000000000001,-2.4399999999999977,Do you see blue button?,I,NA,0
@@ -1919,7 +1919,7 @@ game51,NA,271,273,Do you guys want to wave bye bye?,I,13,NA
 game51,NA,273,275,Bye.,id34,13,NA
 game51,NA,275,290,Bye.,I,13,NA
 game52,NA,-111,-109,Do you guys want to say hi hi?,I,NA,0
-game52,NA,-109,-108,Hi.,is36,NA,0
+game52,NA,-109,-108,Hi.,id36,NA,0
 game52,NA,-108,-107,Hi.,id35,NA,0
 game52,NA,-107,-106,"Okay, are we ready?",I,NA,0
 game52,NA,-106,-104,You guys can finally play the game now.,I,NA,0
@@ -2272,7 +2272,7 @@ game54,NA,93.63999999999999,94.63999999999999,Can I press it?,id39,3,3
 game54,NA,94.63999999999999,95.63999999999999,You don't press it.,I,3,3
 game54,NA,95.63999999999999,96.63999999999999,Smurfy will press it.,I,3,3
 game54,NA,96.63999999999999,99.63999999999999,"So [id40], which one do we think it is?",I,3,3
-game54,NA,99.63999999999999,100.63999999999999,I don't know.,id30,3,3
+game54,NA,99.63999999999999,100.63999999999999,I don't know.,id40,3,3
 game54,NA,100.63999999999999,103.63999999999999,But Smurfy really wants to guess.,I,3,3
 game54,NA,103.63999999999999,111.63999999999999,Let's try to make the best guess that we can.,I,3,3
 game54,NA,111.63999999999999,121.63999999999999,Which one do you think Smurfy would think it is?,I,3,3
@@ -3583,7 +3583,7 @@ game60,NA,353,355,It looks like a slider.,id51,13,13
 game60,NA,355,356,A slider?,I,13,13
 game60,NA,356,357,That's too easy.,id52,13,13
 game60,NA,357,358,Let's press it.,I,13,13
-game60,NA,358,360,Do I need the wrong one?,iid52,13,13
+game60,NA,358,360,Do I need the wrong one?,id52,13,13
 game60,NA,360,362,"No, let's not do the wrong one.",I,13,NA
 game60,NA,362,364,Thank you.,I,13,NA
 game60,NA,364,366,I have something.,id51,13,NA
