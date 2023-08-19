@@ -405,7 +405,7 @@ timed_speaker <- timed_new %>%
 ggplot(timed_speaker, aes(x = trialNum-1, y = totwordCount)) + 
   geom_line(aes(group=game)) +
   geom_smooth() +
-  labs(color = "Game ID", x = "\nRound #", y = "Word Count\n") +
+  labs(color = "Game ID", x = "\nTrial", y = "Word Count\n") +
   scale_x_continuous(breaks=seq(1,12,1), limits = c(1,12)) +
   theme_classic() +
   theme(aspect.ratio = 9/9,
@@ -425,7 +425,7 @@ timed_listener <- timed_new %>%
 ggplot(timed_listener, aes(x = trialNum-1, y = totwordCount)) + 
   geom_line(aes(group=game)) +
   geom_smooth() +
-  labs(color = "Game ID", x = "\nRound #", y = "Word Count\n") +
+  labs(color = "Game ID", x = "\nTrial", y = "Word Count\n") +
   scale_x_continuous(breaks=seq(1,12,1), limits = c(1,12)) +
   theme_classic() +
   theme(aspect.ratio = 9/9,
