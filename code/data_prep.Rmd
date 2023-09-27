@@ -1,0 +1,152 @@
+---
+title: "Wrangle transcripts"
+output: html_notebook
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(jsonlite)
+library(ggplot2)
+
+ParseJSONColumn <- function(x) {
+  str_c("[ ", str_c(x, collapse = ",", sep=" "), " ]")  %>% 
+    fromJSON(flatten = T)
+}
+
+pilot_start=lubridate::ymd('2023-07-07') 
+pilot_end=lubridate::ymd('2023-07-12')
+
+real_start=lubridate::ymd('2023-07-17')
+real_end=lubridate::ymd('2023-08-09')
+
+data_source <- "data/rounds.csv"
+player_source <- "data/players.csv"
+
+pilot_ids <- str_c("id", 3:12) # Ids 1, 2 were adult pilot test 
+
+real_ids <-str_c("id", c(13:16, 19:36, 39:54, 57:58)) # skipping kids who didn't complete enough trials
+```
+
+# Empirica output prep
+
+```{r}
+
+players <- read_csv(here(player_source)) |> filter(id %in% real_ids) %>% select(id, playerId=`_id`) 
+
+games <- read_csv(here("data/games.csv"), col_types="ccc")|> filter(is.na(exclude)) |>  mutate(offset_sec=lubridate::ms(offset) |> lubridate::period_to_seconds()) |> select(-offset)
+
+```
+
+```{r}
+
+raw_data <- read.csv(here(data_source), header = TRUE) %>% 
+  filter(createdAt >= real_start) %>%
+  filter(createdAt <= real_end) %>% 
+  rename_with(~ gsub("data.", "", .x, fixed = TRUE)) %>% 
+  select(-chat) |> 
+  pivot_longer(cols=starts_with('player'), names_to=c("playerId", "info"), names_prefix="player_", names_sep="_",
+               values_to="values", values_transform=as.character, values_drop_na=T) %>% 
+  filter(values!="") %>% 
+  filter(playerId!=speaker) %>% 
+  pivot_wider(names_from=info, values_from=values) |> 
+  left_join(players, by=c("playerId")) |> 
+  select(-playerId) |> 
+  rename(playerId=id) |> 
+  left_join(players, by=c("speaker"="playerId")) |> 
+  select(-speaker) |> 
+  rename(speaker=id) %>% 
+  left_join(games) |> 
+  rename(game=gameConfig) |> 
+  select(-gameId, -offset_sec) |> 
+  filter(!is.na(game)) |> 
+  mutate(time=as.numeric(time))
+
+```
+
+```{r}
+#just for pilot, need to fix offset
+#fix <- raw_data |> filter(trialNum==0) |> select(game, time)
+
+#real_offset <- games |> left_join(fix, by=c("gameConfig"="game")) |> mutate(offset_sec=offset_sec-time/1000)
+
+real_offset <- games
+
+```
+
+# Transcript wrangle - new
+```{r}
+
+real_offset <- real_offset %>% filter(gameConfig=="game41")
+wrangle_transcript <- function(game_num){
+read_csv(here("data/clean_transcripts", str_c(game_num,".csv")), show_col_types=F) |> 
+  select(start, end, text, speaker, trial, role, echo, description, backchannel) |> 
+    fill(trial) %>% 
+  mutate(start=start/1000, end=end/1000) |> 
+    nest(data=c(start, end, text, speaker, trial, role, echo, description, backchannel))
+}
+
+#wrangle_transcript("game41") %>% unnest(data) %>% View()
+
+real_offset$transcripts <- map_df(real_offset$gameConfig, wrangle_transcript)
+
+transcripts <- real_offset |> unnest(transcripts) |> unnest(data)
+
+# this section is janky as hell, but it does work
+
+```
+
+
+```{r}
+
+stages <- read_csv(here("data/stages.csv")) |> select(index, gameId, startTimeAt) |> group_by(gameId)
+
+gameStarts <- stages |> filter(index==0) |> rename(first=startTimeAt) |> select(-index)
+
+stage_timing <- stages |> left_join(gameStarts) |>
+  mutate(rel_time=startTimeAt-first) |> 
+  mutate(rel_time=lubridate::as.period(rel_time) |> lubridate::period_to_seconds()) |> 
+   mutate(trialNum=index/2,
+          start=rel_time,
+          end=lead(rel_time)) |> 
+  select(gameId, trialNum,start, end) |>  left_join(games) |>  ungroup() |> 
+  mutate(trialNumStart=trialNum, trialNumEnd=trialNum) |> 
+  select(game=gameConfig, trialNumStart, trialNumEnd, start, end) |> filter(!is.na(game)) |> filter(!is.na(start)) |> filter(!is.na(end))
+```
+
+```{r}
+timed_transcripts <-  transcripts |>
+  mutate(start=start-offset_sec, end=end-offset_sec) |> 
+  select(-offset_sec, -gameId) |> 
+  mutate(trialNumStart=NA, trialNumEnd=NA) |> 
+  rename(game=gameConfig) |> 
+  bind_rows(stage_timing) |> 
+  group_by(game) |> 
+  arrange(start) |> 
+  fill(trialNumStart) |> 
+  arrange(end) |> 
+  fill(trialNumEnd, .direction="up") |> 
+  arrange(game) |> 
+  filter(!is.na(text)) |> 
+  write_csv(here("data/timed_transcript.csv"))
+```
+
+```{r}
+# Quick check
+
+timed_transcripts %>% filter(!is.na(trialNumStart)) %>% 
+
+
+```
+
+```{r}
+# how many trial mismatches are there?
+timed_transcripts |> filter(end>0) |> filter(!is.na(trialNumEnd)) |> #it's in the game region, not rules or post game
+ mutate(mismatch=trialNumEnd-trialNumStart) |> 
+  group_by(mismatch) |> 
+  tally()
+
+#so like a third mismatch, and only a couple off by more than 1
+```
