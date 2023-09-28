@@ -1,176 +1,176 @@
-start,end,text,,,,,,speaker
-0,1000,It should be ready.,,,,,,I
-1000,2000,Are you guys ready?,,,,,,I
-4000,9000,"Okay, so my friends, today we will be playing a matching game.",,,,,,I
-9000,11000,Do you guys know what a matching game is?,,,,,,I
-13000,14000,Let me show you how it works.,,,,,,I
-15000,17000,This is going to be Smurphy.,,,,,,I
-17000,18000,Let's say hi to Smurphy.,,,,,,I
-18000,19000,Hi Smurphy.,,,,,,id26
-19000,20000,Hi.,,,,,,I
-20000,21000,Hi.,,,,,,id25
-21000,24000,Now Smurphy really wants to play this game today.,,,,,,I
-24000,27000,And he specifically wants to guess.,,,,,,I
-27000,32000,"So in front of you guys, you will see two pictures on your screens.",,,,,,I
-32000,37000,But only one of you friends will see a picture in a black box.,,,,,,I
-37000,38000,Okay?,,,,,,I
-38000,41000,And Smurphy wants to guess that picture in the black box.,,,,,,I
-41000,44000,"So let's say [id26], you'll have Smurphy, right?",,,,,,I
-44000,49000,"If you have Smurphy, you will help Smurphy guess which picture is in the black box.",,,,,,I
-49000,50000,Okay?,,,,,,I
-50000,56000,"But if [id25], you don't have Smurphy, you will tell [id26] and Smurphy what you see in the black box.",,,,,,I
-56000,59000,So that they can make the right choice.,,,,,,I
-59000,60000,Yeah?,,,,,,I
-60000,61000,So let's try it out.,,,,,,I
-61000,63000,"[id26], let's say you have Smurphy.",,,,,,I
-63000,66000,Will you be the guesser or will you be the teller?,,,,,,I
-66000,68000,I will be the teller.,,,,,,id26
-68000,71000,You will be the guesser because Smurphy wants to guess.,,,,,,I
-71000,72000,Okay.,,,,,,id26
-72000,77000,"And [id25], if you don't have Smurphy, will you be the guesser or will you be the teller?",,,,,,I
-77000,78000,The teller?,,,,,,id25
-78000,84000,You will be the teller because you will tell Smurphy and [id26] what you see in the black box.,,,,,,I
-84000,90000,"Now, so to make our decisions, we will just tap on the screen once and that'll seal it.",,,,,,I
-90000,93000,"Now, on the screen, you will see an image.",,,,,,I
-93000,97000,"If you see a smiley face, a happy face, then great.",,,,,,I
-97000,102000,It was a match and you found the picture that was in the black box.,,,,,,I
-102000,109000,"If you see a sad face, it wasn't a match, but it's completely okay and we will move on to the next round.",,,,,,I
-109000,111000,Does that sound good to you guys?,,,,,,I
-111000,113000,Do we have any questions?,,,,,,I
-113000,115000,Do you have any questions?,,,,,,I
-115000,116000,No.,,,,,,id26
-116000,118000,"Okay, so should we try it out?",,,,,,I
-118000,119000,Okay.,,,,,,I
-119000,124000,"So to begin the game, we will both tap on the blue arrow.",,,,,,I
-124000,125000,Yes.,,,,,,I
-125000,127000,"Well, let's see.",,,,,,I
-127000,130000,So it looks like [id26] has a picture in the black box.,,,,,,I
-130000,133000,"So [id25], you will hold Smurphy and we will guess.",,,,,,I
-133000,134000,Okay.,,,,,,I
-134000,137000,"So [id26], what do we see in the black box?",,,,,,I
-137000,138000,A doggy.,,,,,,id26
-138000,140000,She sees a doggy.,,,,,,I
-140000,141000,Do you see a doggy?,,,,,,I
-141000,145000,Mm-hmm.,,,,,,id25
-145000,146000,Great.,,,,,,I
-146000,150000,And now we will move on and [id26] will be guessing.,,,,,,I
-150000,152000,"So [id25], what do we see in the black box?",,,,,,I
-152000,154000,It's apple.,,,,,,id25
-154000,155000,Do you see an apple?,,,,,,I
-155000,157000,Let's press it.,,,,,,I
-157000,158000,Great job.,,,,,,I
-158000,160000,So we'll just continue like this.,,,,,,I
-160000,163000,"So [id25], you can hold Smurphy now.",,,,,,I
-163000,166000,"And [id26], what do we see in the black box now?",,,,,,I
-166000,167000,A birdie.,,,,,,id26
-167000,169000,A birdie.,,,,,,I
-169000,172000,Is this the birdie or is this the birdie?,,,,,,id25
-172000,173000,Hmm.,,,,,,I
-173000,176000,Can we tell [id25] a little bit more about what you see?,,,,,,I
-176000,179000,I see a birdie that's flying.,,,,,,id26
-179000,181000,She sees a birdie that's flying.,,,,,,I
-181000,184000,Could it be this one?,,,,,,id25
-184000,189000,"If you think that's your match, we just press it.",,,,,,I
-189000,190000,That's okay.,,,,,,I
-190000,192000,We'll move on to the next round.,,,,,,I
-192000,194000,Thank you guys for helping.,,,,,,I
-194000,197000,"Now what do we see, [id25]?",,,,,,I
-197000,204000,A person maybe walking-,,,,,,id25
-204000,206000,A person that's walking.,,,,,,id26
-206000,214000,I see a person that's walking.,,,,,,id26
-214000,217000,"It's an interesting one, huh?",,,,,,I
-217000,226000,Yeah.,,,,,,I
-226000,233000,It kind of looks like...,,,,,,id25
-233000,244000,Smurfy wants to make a good guess.,,,,,,I
-244000,247000,Maybe it looks like person that doesn't have any arms.,,,,,,id26
-247000,249000,Does it look like that?,,,,,,I
-249000,250000,Kind of.,,,,,,id25
-250000,251000,Kind of.,,,,,,I
-251000,255000,It might look like an angel.,,,,,,id26
-255000,256000,That's okay.,,,,,,I
-256000,259000,We can move on to the next one.,,,,,,I
-259000,261000,Thank you guys for communicating.,,,,,,I
-261000,262000,There you go.,,,,,,I
-262000,268000,Now [id26] what do we see in this black box?,,,,,,I
-268000,271000,Why is this the same thing?,,,,,,id26
-271000,274000,We'll just describe what we see in the black box.,,,,,,I
-274000,276000,What does it look like?,,,,,,I
-276000,280000,A person.,,,,,,id26
-280000,287000,I don't know if that's a person.,,,,,,id26
-287000,291000,It looks like a person but it's not.,,,,,,id26
-291000,293000,The one in the black box?,,,,,,I
-293000,300000,It looks like a person but it's not.,,,,,,I
-300000,301000,That's okay.,,,,,,I
-301000,303000,We'll move on to the next one.,,,,,,I
-303000,304000,Here you go.,,,,,,I
-304000,306000,"You'll be guessing, okay?",,,,,,I
-306000,309000,"[id25], what do we see in the black box?",,,,,,I
-309000,323000,I don't know if it's a water fountain but it kind of looks like it.,,,,,,id25
-323000,327000,It kind of looks like a water fountain.,,,,,,I
-327000,333000,"If that's your match, go ahead and press it.",,,,,,I
-333000,334000,Great.,,,,,,I
-334000,339000,You guys helped Smurfy find the match.,,,,,,I
-339000,343000,"[id26], what do we see in the black box now?",,,,,,I
-343000,349000,I see a Lego.,,,,,,id26
-349000,352000,You see a Lego?,,,,,,I
-352000,355000,I don't know if I see a Lego.,,,,,,id25
-355000,358000,I don't know what it's that.,,,,,,id26
-358000,363000,Why is this not a person without any arms and I don't know what it is?,,,,,,id26
-363000,369000,She says it's kind of not a person without any arms.,,,,,,I
-369000,370000,Great.,,,,,,I
-370000,371000,Yeah.,,,,,,id26
-371000,373000,"Okay, there you go.",,,,,,I
-373000,376000,"Now [id25], what do we see in the black box?",,,,,,I
-376000,379000,It kind of looks like an angel.,,,,,,id25
-379000,381000,It kind of looks like an angel.,,,,,,I
-381000,382000,Angel.,,,,,,id25
-382000,385000,Do you see an angel?,,,,,,I
-385000,396000,That looks like an angel to me.,,,,,,id26
-396000,399000,"Well, if you think so, press it.",,,,,,I
-399000,401000,Great.,,,,,,I
-401000,403000,It's an angel.,,,,,,id26
-403000,405000,Let's pass it over.,,,,,,I
-405000,408000,Now what do we see [id26] in the black box?,,,,,,I
-408000,411000,A person holding up plate.,,,,,,id26
-411000,414000,A person that's holding up plate.,,,,,,I
-414000,417000,Great.,,,,,,I
-417000,419000,There you go.,,,,,,I
-419000,423000,"[id25], now what do we see?",,,,,,I
-423000,425000,There's so much glitter on me.,,,,,,id26
-425000,427000,"Oh, is it sand?",,,,,,id26
-427000,428000,Maybe sand.,,,,,,I
-428000,435000,It kind of looks like someone flying a plane without a cover.,,,,,,id25
-435000,437000,"If you have a match, tap it.",,,,,,I
-437000,439000,Great.,,,,,,I
-439000,441000,There you go.,,,,,,I
-441000,445000,"Now [id26], what do we see in the black box?",,,,,,I
-445000,449000,I see an angel.,,,,,,id26
-449000,451000,She sees an angel.,,,,,,I
-451000,454000,Great.,,,,,,I
-454000,457000,Now what do we see [id25]?,,,,,,I
-457000,466000,A person that kind of looks sad without any arms walking away from maybe.,,,,,,id25
-466000,469000,Great.,,,,,,I
-469000,471000,There you go.,,,,,,I
-471000,473000,Now what do we see [id26]?,,,,,,I
-473000,481000,"I see a person that's flying a plane, but the person is flying a plane.",,,,,,id26
-481000,483000,Great.,,,,,,I
-483000,486000,There you go.,,,,,,I
-486000,489000,Now what do we see [id25]?,,,,,,I
-489000,493000,Kind of looks like someone building a funnel.,,,,,,id25
-493000,496000,Someone building a funnel.,,,,,,I
-496000,500000,Great.,,,,,,I
-500000,503000,There you go.,,,,,,I
-503000,505000,And we are done with the game.,,,,,,I
-505000,507000,Thank you guys so much for playing with us.,,,,,,I
-507000,508000,What about the ice cream?,,,,,,id26
-508000,510000,I mean the cake.,,,,,,id26
-510000,512000,The cake?,,,,,,I
-512000,514000,The cake that we made last time.,,,,,,id26
-514000,516000,The cake that we made last time.,,,,,,I
-516000,518000,The cake that we made last time.,,,,,,I
-518000,520000,The cake that we made last time.,,,,,,I
-520000,525000,"Oh, we were building a strawberry cherry cake.",,,,,,I
-525000,528000,We're going to make a cake again.,,,,,,id25
-528000,530000,I will turn the camera off now.,,,,,,I
-530000,532000,Do you guys want to say bye bye?,,,,,,I
-532000,556000,Bye bye.,,,,,,I
+start,end,text,speaker,trial,role,echo,description,backchannel
+0,1000,It should be ready.,I,,,,,
+1000,2000,Are you guys ready?,I,,,,,
+4000,9000,"Okay, so my friends, today we will be playing a matching game.",I,,,,,
+9000,11000,Do you guys know what a matching game is?,I,,,,,
+13000,14000,Let me show you how it works.,I,,,,,
+15000,17000,This is going to be Smurphy.,I,,,,,
+17000,18000,Let's say hi to Smurphy.,I,,,,,
+18000,19000,Hi Smurphy.,id26,,,,,
+19000,20000,Hi.,I,,,,,
+20000,21000,Hi.,id25,,,,,
+21000,24000,Now Smurphy really wants to play this game today.,I,,,,,
+24000,27000,And he specifically wants to guess.,I,,,,,
+27000,32000,"So in front of you guys, you will see two pictures on your screens.",I,,,,,
+32000,37000,But only one of you friends will see a picture in a black box.,I,,,,,
+37000,38000,Okay?,I,,,,,
+38000,41000,And Smurphy wants to guess that picture in the black box.,I,,,,,
+41000,44000,"So let's say [id26], you'll have Smurphy, right?",I,,,,,
+44000,49000,"If you have Smurphy, you will help Smurphy guess which picture is in the black box.",I,,,,,
+49000,50000,Okay?,I,,,,,
+50000,56000,"But if [id25], you don't have Smurphy, you will tell [id26] and Smurphy what you see in the black box.",I,,,,,
+56000,59000,So that they can make the right choice.,I,,,,,
+59000,60000,Yeah?,I,,,,,
+60000,61000,So let's try it out.,I,,,,,
+61000,63000,"[id26], let's say you have Smurphy.",I,,,,,
+63000,66000,Will you be the guesser or will you be the teller?,I,,,,,
+66000,68000,I will be the teller.,id26,,,,,
+68000,71000,You will be the guesser because Smurphy wants to guess.,I,,,,,
+71000,72000,Okay.,id26,,,,,
+72000,77000,"And [id25], if you don't have Smurphy, will you be the guesser or will you be the teller?",I,,,,,
+77000,78000,The teller?,id25,,,,,
+78000,84000,You will be the teller because you will tell Smurphy and [id26] what you see in the black box.,I,,,,,
+84000,90000,"Now, so to make our decisions, we will just tap on the screen once and that'll seal it.",I,,,,,
+90000,93000,"Now, on the screen, you will see an image.",I,,,,,
+93000,97000,"If you see a smiley face, a happy face, then great.",I,,,,,
+97000,102000,It was a match and you found the picture that was in the black box.,I,,,,,
+102000,109000,"If you see a sad face, it wasn't a match, but it's completely okay and we will move on to the next round.",I,,,,,
+109000,111000,Does that sound good to you guys?,I,,,,,
+111000,113000,Do we have any questions?,I,,,,,
+113000,115000,Do you have any questions?,I,,,,,
+115000,116000,No.,id26,,,,,
+116000,118000,"Okay, so should we try it out?",I,,,,,
+118000,119000,Okay.,I,,,,,
+119000,124000,"So to begin the game, we will both tap on the blue arrow.",I,,,,,
+124000,125000,Yes.,I,,,,,
+125000,127000,"Well, let's see.",I,0,,,,
+127000,130000,So it looks like [id26] has a picture in the black box.,I,,,,,
+130000,133000,"So [id25], you will hold Smurphy and we will guess.",I,,,,,
+133000,134000,Okay.,I,,,,,
+134000,137000,"So [id26], what do we see in the black box?",I,,,,,
+137000,138000,A doggy.,id26,,S,,a doggy,
+138000,140000,She sees a doggy.,I,,,Y,,
+140000,141000,Do you see a doggy?,I,,,Y,,
+141000,145000,Mm-hmm.,id25,,,,,
+145000,146000,Great.,I,1,,,,
+146000,150000,And now we will move on and [id26] will be guessing.,I,,,,,
+150000,152000,"So [id25], what do we see in the black box?",I,,,,,
+152000,154000,It's apple.,id25,,S,,an apple,
+154000,155000,Do you see an apple?,I,,,Y,,
+155000,157000,Let's press it.,I,,,,,
+157000,158000,Great job.,I,,,,,
+158000,160000,So we'll just continue like this.,I,2,,,,
+160000,163000,"So [id25], you can hold Smurphy now.",I,,,,,
+163000,166000,"And [id26], what do we see in the black box now?",I,,,,,
+166000,167000,A birdie.,id26,,S,,a birdie,
+167000,169000,A birdie.,I,,,Y,,
+169000,172000,Is this the birdie or is this the birdie?,id25,,L,,,Y
+172000,173000,Hmm.,I,,,,,
+173000,176000,Can we tell [id25] a little bit more about what you see?,I,,,,,
+176000,179000,I see a birdie that's flying.,id26,,S,,a birdie that’s flying,
+179000,181000,She sees a birdie that's flying.,I,,,Y,,
+181000,184000,Could it be this one?,id25,,,,,
+184000,189000,"If you think that's your match, we just press it.",I,,,,,
+189000,190000,That's okay.,I,3,,,,
+190000,192000,We'll move on to the next round.,I,,,,,
+192000,194000,Thank you guys for helping.,I,,,,,
+194000,197000,"Now what do we see, [id25]?",I,,,,,
+197000,204000,A person maybe walking-,id25,,S,,a person maybe walking,
+204000,206000,A person that's walking.,id25,,S,,a person that’s walking,
+206000,214000,I see a person that's walking.,id25,,S,,a person that’s walking,
+214000,217000,"It's an interesting one, huh?",I,,,,,
+217000,226000,Yeah.,I,,,,,
+226000,233000,It kind of looks like...,id25,,,,,
+233000,244000,Smurfy wants to make a good guess.,I,,,,,
+244000,247000,Maybe it looks like person that doesn't have any arms.,id26,,L,,a person that doesn’t have any arms,Y
+247000,249000,Does it look like that?,I,,,,,
+249000,250000,Kind of.,id25,,S,,,
+250000,251000,Kind of.,I,,,,,
+251000,255000,It might look like an angel.,id25,,S,,an angel,
+255000,256000,That's okay.,I,4,,,,
+256000,259000,We can move on to the next one.,I,,,,,
+259000,261000,Thank you guys for communicating.,I,,,,,
+261000,262000,There you go.,I,,,,,
+262000,268000,Now [id26] what do we see in this black box?,I,,,,,
+268000,271000,Why is this the same thing?,id26,,S,,,Y
+271000,274000,We'll just describe what we see in the black box.,I,,,,,
+274000,276000,What does it look like?,I,,,,,
+276000,280000,A person.,id26,,S,,a person ,
+280000,287000,I don't know if that's a person.,id26,,S,,,Y
+287000,291000,It looks like a person but it's not.,id26,,S,,looks like a person but it’s not,Y
+291000,293000,The one in the black box?,I,,,,,
+293000,300000,It looks like a person but it's not.,I,,,Y,,
+300000,301000,That's okay.,I,5,,,,
+301000,303000,We'll move on to the next one.,I,,,,,
+303000,304000,Here you go.,I,,,,,
+304000,306000,"You'll be guessing, okay?",I,,,,,
+306000,309000,"[id25], what do we see in the black box?",I,,,,,
+309000,323000,I don't know if it's a water fountain but it kind of looks like it.,id25,,S,,a water fountain,
+323000,327000,It kind of looks like a water fountain.,I,,,Y,,
+327000,333000,"If that's your match, go ahead and press it.",I,,,,,
+333000,334000,Great.,I,6,,,,
+334000,339000,You guys helped Smurfy find the match.,I,,,,,
+339000,343000,"[id26], what do we see in the black box now?",I,,,,,
+343000,349000,"I see, maybe that’s  a Lego.",id26,,S,,a lego,
+349000,352000,You see a Lego?,I,,,,,
+352000,355000,I don't know if I see a Lego.,id25,,L,,,Y
+355000,358000,I don't know what it's that.,id26,,S,,,Y
+358000,363000,Why is this not a person without any arms and I don't know what it is?,id26,,S,,Why is this not a person without any arms and I don't know what it is?,Y
+363000,369000,She says it's kind of not a person without any arms.,I,,,Y,,
+369000,370000,Great.,I,7,,,,
+370000,371000,Yeah.,id26,,,,,
+371000,373000,"Okay, there you go.",I,,,,,
+373000,376000,"Now [id25], what do we see in the black box?",I,,,,,
+376000,379000,It kind of looks like an angel.,id25,,S,,an angel,
+379000,381000,It kind of looks like an angel.,I,,,Y,,
+381000,382000,Angel.,id26,,L,,,Y
+382000,385000,Do you see an angel?,I,,,Y,,
+385000,396000,That looks like [mumbling] an angel to me.,id26,,L,,,Y
+396000,399000,"Well, if you think so, press it.",I,,,,,
+399000,401000,Great.,I,,,,,
+401000,403000,It's an angel.,id26,,L,,,
+403000,405000,Let's pass it over.,I,8,,,,
+405000,408000,Now what do we see [id26] in the black box?,I,,,,,
+408000,411000,A person holding up plate.,id26,,S,,a person holding up a plate,
+411000,414000,A person that's holding up plate.,I,,,Y,,
+414000,417000,Great.,I,,,,,
+417000,419000,There you go.,I,9,,,,
+419000,423000,"[id25], now what do we see?",I,,,,,
+423000,425000,There's so much glitter on me.,id26,,,,,
+425000,427000,"Oh, is it sand?",id26,,,,,
+427000,428000,Maybe sand.,I,,,,,
+428000,435000,It kind of looks like someone flying a plane without a cover.,id25,,S,,someone flying a plane without a cover,
+435000,437000,"If you have a match, tap it.",I,,,,,
+437000,439000,Great.,I,,,,,
+439000,441000,There you go.,I,,,,,
+441000,445000,"Now [id26], what do we see in the black box?",I,10,,,,
+445000,449000,I see an angel.,id26,,,,an angel,
+449000,451000,She sees an angel.,I,,,Y,,
+451000,454000,Great.,I,11,,,,
+454000,457000,Now what do we see [id25]?,I,,,,,
+457000,466000,A person that kind of looks sad without any arms walking away from maybe.,id25,,S,,a person that kind of looks sad without any arms walking away from,
+466000,469000,Great.,I,,,,,
+469000,471000,There you go.,I,12,,,,
+471000,473000,Now what do we see [id26]?,I,,,,,
+473000,481000,"I see a person that's flying a plane, but the person is flying a plane.",id26,,S,,"a person that’s flying a plane, but the person is flying a plane",
+481000,483000,Great.,I,,,,,
+483000,486000,There you go.,I,13,,,,
+486000,489000,Now what do we see [id25]?,I,,,,,
+489000,493000,Kind of looks like someone building a funnel.,id25,,S,,someone building a funnel,
+493000,496000,Someone building a funnel.,I,,,Y,,
+496000,500000,Great.,I,,,,,
+500000,503000,There you go.,I,,,,,
+503000,505000,And we are done with the game.,I,,,,,
+505000,507000,Thank you guys so much for playing with us.,I,,,,,
+507000,508000,What about the ice cream?,id26,,,,,
+508000,510000,I mean the cake.,id26,,,,,
+510000,512000,The cake?,I,,,,,
+512000,514000,The cake that we made last time.,id26,,,,,
+514000,516000,The cake that we made last time.,I,,,,,
+516000,518000,The cake that we made last time.,I,,,,,
+518000,520000,The cake that we made last time.,I,,,,,
+520000,525000,"Oh, we were building a strawberry cherry cake.",I,,,,,
+525000,528000,We're going to make a cake again.,id25,,,,,
+528000,530000,I will turn the camera off now.,I,,,,,
+530000,532000,Do you guys want to say bye bye?,I,,,,,
+532000,556000,Bye bye.,I,,,,,

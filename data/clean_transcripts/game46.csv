@@ -1,192 +1,192 @@
-start,end,text,,,,,,speaker
-0,7000,"Alright, so today we're going to play a super fun matching game. Let's show you how it works.",,,,,,M
-7000,13000,"Now this, my friends, is Smurfy. And Smurfy really wants to play this game.",,,,,,I
-13000,17000,"Where the both of you will see two pictures on your screens,",,,,,,I
-17000,22000,"but only one of you, my friends, will see one picture in a black box.",,,,,,I
-22000,25000,And Smurfy wants to guess that picture.,,,,,,I
-25000,31000,"So if you have Smurfy, you will be the guesser. And you will guess which picture is in the black box.",,,,,,I
-31000,35000,"But if you don't have Smurfy, then you will be the teller.",,,,,,I
-35000,39000,"And you will tell, my friends, what you see in the black box.",,,,,,I
-39000,44000,"So, if you have Smurfy, are you the guesser or the teller?",,,,,,M
-44000,46000,Guesser.,,,,,,id23
-46000,51000,"And if you don't have Smurfy, are you the guesser or the teller?",,,,,,M
-51000,54000,Are you going to be guessing or are you going to be telling?,,,,,,M
-54000,55000,Telling.,,,,,,id24
-55000,61000,"Alright, my friends. So, when you are the guesser and you and Smurfy are ready to make your guess,",,,,,,M
-61000,65000,"you're just going to tap on your screen on the picture you think it is, okay?",,,,,,M
-65000,68000,"So after you tap, you're going to see a picture.",,,,,,M
-68000,72000,"If it's a smiley face, great job! It was a match. You helped Smurfy.",,,,,,M
-72000,76000,"But if it was a sad face, that's okay. It wasn't a match.",,,,,,M
-76000,78000,But you guys can help Smurfy later.,,,,,,M
-78000,82000,Do you guys have any questions?,,,,,,M
-82000,84000,Do you have a question?,,,,,,M
-84000,88000,"Yeah, how we're going to get the picture with Smurfy?",,,,,,id24
-88000,90000,A smile.,,,,,,id24
-90000,94000,A smile and then you go...,,,,,,id24
-98000,99000,Look at the smile.,,,,,,id24
-99000,101000,Look at the smile?,,,,,,M
-101000,104000,"Yeah, so when you make the right guess, it's going to be a smiley face.",,,,,,M
-104000,107000,So it will let you know that it was right and it will make a happy sound.,,,,,,M
-107000,109000,"You'll see in just a second, okay?",,,,,,M
-109000,111000,"Alright, so let's give it a try.",,,,,,M
-111000,114000,So go ahead and press the blue box.,,,,,,M
-114000,116000,"Okay, let's try again.",,,,,,M
-116000,118000,"Yeah, perfect.",,,,,,M
-118000,119000,Alright.,,,,,,M
-119000,121000,It looks like you're going to be guessing first.,,,,,,M
-121000,124000,We will be telling [id23] what we see in the black box.,,,,,,I
-124000,126000,So what do we see?,,,,,,I
-126000,127000,Me.,,,,,,id24
-127000,129000,What do you see? Tell [id23].,,,,,,M
-134000,136000,What does it look like?,,,,,,I
-139000,140000,A bird?,,,,,,id24
-140000,142000,A bird.,,,,,,I
-142000,144000,"[id23], do you see a bird?",,,,,,I
-144000,146000,Go ahead and touch it.,,,,,,M
-149000,151000,"Alright, now we're going to switch off with Smurfy.",,,,,,M
-151000,153000,Our friend's going to go over here.,,,,,,M
-153000,155000,"It will be your turn to guess, okay?",,,,,,I
-155000,156000,So let's listen to [id23].,,,,,,I
-156000,158000,So now what do you see in the black box?,,,,,,M
-158000,160000,Banana.,,,,,,id23
-160000,162000,Do you see a banana?,,,,,,I
-165000,167000,And that's where it's going to keep going like that.,,,,,,M
-167000,170000,So now let's tell [id23] what we see.,,,,,,I
-173000,174000,A boat.,,,,,,id24
-174000,176000,A boat?,,,,,,I
-176000,178000,Let's tap it.,,,,,,I
-180000,182000,Great!,,,,,,I
-182000,184000,Here you are.,,,,,,M
-184000,186000,Here you go.,,,,,,I
-186000,188000,"And now we will guess. So what do we see, [id23]?",,,,,,I
-188000,190000,A boat.,,,,,,id23
-190000,192000,We see a boat. Do you see a boat?,,,,,,I
-192000,196000,Let's tap it.,,,,,,I
-197000,201000,"See, it wasn't a match, but that's okay because we can keep helping Smurfy.",,,,,,M
-201000,203000,Man.,,,,,,id24
-203000,205000,It's okay.,,,,,,I
-205000,207000,Now what do we see?,,,,,,I
-207000,209000,Feet.,,,,,,id24
-209000,211000,Feet.,,,,,,id24
-211000,213000,Feet?,,,,,,I
-213000,215000,He says he sees feet.,,,,,,I
-216000,220000,Do you want to tell [id23] a bit more about what you see?,,,,,,I
-220000,222000,I see a feet.,,,,,,id24
-222000,224000,He sees feet.,,,,,,I
-224000,226000,Do you see feet on this one?,,,,,,I
-228000,230000,No.,,,,,,I
-232000,234000,What else does it look like?,,,,,,I
-238000,240000,Yes.,,,,,,id24
-240000,242000,What else does it look like?,,,,,,I
-242000,244000,,,,,,,
-251000,255000,So we're going to make our best guess in which one we think kind of looks like feet.,,,,,,M
-255000,257000,We know they look kind of funny.,,,,,,M
-261000,263000,Somebody jumping.,,,,,,id23
-263000,264000,What is it?,,,,,,M
-264000,266000,Somebody jumping.,,,,,,id23
-266000,269000,Is that the one you want to guess with feet?,,,,,,M
-269000,272000,Go ahead and touch it.,,,,,,M
-272000,274000,Touch it one more time.,,,,,,M
-274000,276000,One more time.,,,,,,M
-276000,278000,There we go.,,,,,,M
-278000,280000,That's okay.,,,,,,M
+start,end,text,speaker,trial,role,echo,description,backchannel
+0,7000,"Alright, so today we're going to play a super fun matching game. Let's show you how it works.",M,,,,,
+7000,13000,"Now this, my friends, is Smurfy. And Smurfy really wants to play this game.",I,,,,,
+13000,17000,"Where the both of you will see two pictures on your screens,",I,,,,,
+17000,22000,"but only one of you, my friends, will see one picture in a black box.",I,,,,,
+22000,25000,And Smurfy wants to guess that picture.,I,,,,,
+25000,31000,"So if you have Smurfy, you will be the guesser. And you will guess which picture is in the black box.",I,,,,,
+31000,35000,"But if you don't have Smurfy, then you will be the teller.",I,,,,,
+35000,39000,"And you will tell, my friends, what you see in the black box.",I,,,,,
+39000,44000,"So, if you have Smurfy, are you the guesser or the teller?",M,,,,,
+44000,46000,Guesser.,id23,,,,,
+46000,51000,"And if you don't have Smurfy, are you the guesser or the teller?",M,,,,,
+51000,54000,Are you going to be guessing or are you going to be telling?,M,,,,,
+54000,55000,Telling.,id24,,,,,
+55000,61000,"Alright, my friends. So, when you are the guesser and you and Smurfy are ready to make your guess,",M,,,,,
+61000,65000,"you're just going to tap on your screen on the picture you think it is, okay?",M,,,,,
+65000,68000,"So after you tap, you're going to see a picture.",M,,,,,
+68000,72000,"If it's a smiley face, great job! It was a match. You helped Smurfy.",M,,,,,
+72000,76000,"But if it was a sad face, that's okay. It wasn't a match.",M,,,,,
+76000,78000,But you guys can help Smurfy later.,M,,,,,
+78000,82000,Do you guys have any questions?,M,,,,,
+82000,84000,Do you have a question?,M,,,,,
+84000,88000,"Yeah, how we're going to get the picture with Smurfy?",id24,,,,,
+88000,90000,A smile.,id24,,,,,
+90000,94000,A smile and then you go...,id24,,,,,
+98000,99000,Look at the smile.,id24,,,,,
+99000,101000,Look at the smile?,M,,,,,
+101000,104000,"Yeah, so when you make the right guess, it's going to be a smiley face.",M,,,,,
+104000,107000,So it will let you know that it was right and it will make a happy sound.,M,,,,,
+107000,109000,"You'll see in just a second, okay?",M,,,,,
+109000,111000,"Alright, so let's give it a try.",M,,,,,
+111000,114000,So go ahead and press the blue box.,M,,,,,
+114000,116000,"Okay, let's try again.",M,,,,,
+116000,118000,"Yeah, perfect.",M,,,,,
+118000,119000,Alright.,M,0,,,,
+119000,121000,It looks like you're going to be guessing first.,M,,,,,
+121000,124000,We will be telling [id23] what we see in the black box.,I,,,,,
+124000,126000,So what do we see?,I,,,,,
+126000,127000,Me.,id24,,,,,
+127000,129000,What do you see? Tell [id23].,M,,,,,
+134000,136000,What does it look like?,I,,,,,
+139000,140000,A bird?,id24,,S,,a bird,
+140000,142000,A bird.,I,,,Y,,
+142000,144000,"[id23], do you see a bird?",I,,,Y,,
+144000,146000,Go ahead and touch it.,M,,,,,
+149000,151000,"Alright, now we're going to switch off with Smurfy.",M,1,,,,
+151000,153000,Our friend's going to go over here.,M,,,,,
+153000,155000,"It will be your turn to guess, okay?",I,,,,,
+155000,156000,So let's listen to [id23].,I,,,,,
+156000,158000,So now what do you see in the black box?,M,,,,,
+158000,160000,Banana.,id23,,S,,Banana,
+160000,162000,Do you see a banana?,I,,,Y,,
+165000,167000,And that's where it's going to keep going like that.,M,2,,,,
+167000,170000,So now let's tell [id23] what we see.,I,,,,,
+173000,174000,A boat.,id24,,S,,a boat,
+174000,176000,A boat?,I,,,Y,,
+176000,178000,Let's tap it.,I,,,,,
+180000,182000,Great!,I,,,,,
+182000,184000,Here you are.,M,,,,,
+184000,186000,Here you go.,I,3,,,,
+186000,188000,"And now we will guess. So what do we see, [id23]?",I,,,,,
+188000,190000,A boat.,id23,,S,,a boat,
+190000,192000,We see a boat. Do you see a boat?,I,,,Y,,
+192000,196000,Let's tap it.,I,,,,,
+197000,201000,"See, it wasn't a match, but that's okay because we can keep helping Smurfy.",M,4,,,,
+201000,203000,Man.,id24,,,,,
+203000,205000,It's okay.,I,,,,,
+205000,207000,Now what do we see?,I,,,,,
+207000,209000,Feet.,id24,,S,,feet,
+209000,211000,Feet.,id24,,,Y,,
+211000,213000,Feet?,I,,,Y,,
+213000,215000,He says he sees feet.,I,,,Y,,
+216000,220000,Do you want to tell [id23] a bit more about what you see?,I,,,,,
+220000,222000,I see a feet.,id24,,S,,a feet,
+222000,224000,He sees feet.,I,,,Y,,
+224000,226000,Do you see feet on this one?,I,,,Y,,
+228000,230000,No.,I,,,,,
+232000,234000,What else does it look like?,I,,,,,
+238000,240000,Yes.,id24,,,,,
+240000,242000,What else does it look like?,I,,,,,
+242000,244000,[mumbling],id24,,,,,
+251000,255000,So we're going to make our best guess in which one we think kind of looks like feet.,M,,,Y,,
+255000,257000,We know they look kind of funny.,M,,,,,
+261000,263000,Somebody jumping.,id23,,L,,somebody jumping,Y
+263000,264000,What is it?,M,,,,,
+264000,266000,Somebody jumping.,id23,,L,,somebody jumping,Y
+266000,269000,Is that the one you want to guess with feet?,M,,,Y,,
+269000,272000,Go ahead and touch it.,M,,,,,
+272000,274000,Touch it one more time.,M,,,,,
+274000,276000,One more time.,M,,,,,
+276000,278000,There we go.,M,,,,,
+278000,280000,That's okay.,M,5,,,,
 280000,282000,,,,,,,
-282000,285000,"Oh, let's wait a second. Let's listen to [id23], okay?",,,,,,I
-285000,287000,"[id23], what do you see?",,,,,,M
-287000,290000,A person walking.,,,,,,id23
-290000,292000,He sees a person walking.,,,,,,I
-294000,296000,Great.,,,,,,I
-296000,298000,Let's pass it on.,,,,,,I
-298000,300000,What do we see in the box?,,,,,,I
-304000,306000,What do we see?,,,,,,I
-306000,308000,Stairs.,,,,,,id24
-310000,312000,Kind of stairs.,,,,,,id24
-312000,314000,Can you repeat? Can you say it again?,,,,,,I
-314000,316000,Stairs.,,,,,,id24
-316000,318000,Stairs?,,,,,,M
-318000,320000,He sees stairs.,,,,,,M
-320000,325000,What else does it look like?,,,,,,I
-333000,337000,Let's tell [id23] what we see in that black box.,,,,,,I
-337000,339000,You want Smurfy to sit down?,,,,,,M
-339000,342000,It looks like stairs. What else does it look like?,,,,,,I
-342000,344000,Just stairs?,,,,,,I
-344000,348000,"All right, [id23], we're going to make our best guess at what one kind of looks like stairs.",,,,,,M
-348000,352000,Which one kind of looks like stairs to you?,,,,,,I
-352000,355000,Go ahead and touch it.,,,,,,M
-355000,357000,One more time.,,,,,,M
-357000,359000,We want to be super gentle. Quick touch.,,,,,,M
-359000,361000,Okay.,,,,,,M
-361000,363000,Ready? Quick touch.,,,,,,M
-363000,365000,There we go.,,,,,,M
-365000,367000,Great.,,,,,,I
-367000,369000,Let's pass it on.,,,,,,I
-369000,371000,"What do we see, [id23]?",,,,,,I
-373000,376000,A guy with a paper thing.,,,,,,id23
-376000,378000,A guy with a paper thing.,,,,,,I
-378000,380000,Do you see a guy with a paper thing?,,,,,,I
-382000,384000,"Oh, great.",,,,,,I
-384000,386000,Yeah!,,,,,,id24
-386000,388000,Here you go.,,,,,,M
-388000,390000,Now what do we see in the box?,,,,,,I
-390000,392000,A box with a boat.,,,,,,id24
-392000,394000,A box with a boat.,,,,,,I
-394000,396000,Got it.,,,,,,M
-396000,398000,Touch it.,,,,,,M
-398000,400000,Great.,,,,,,M
-400000,402000,Let's pass it on.,,,,,,I
-402000,406000,Now what do we see?,,,,,,I
-406000,408000,That.,,,,,,id23
-408000,410000,What do you see in the box?,,,,,,M
-410000,414000,A person looking down.,,,,,,id23
-414000,418000,A person looking down.,,,,,,M
-418000,420000,Touch the one you think it is,,,,,,M
-420000,422000,Touch it.,,,,,,M
-422000,426000,There's two red little friends walking around.,,,,,,id23
-426000,428000,There you go.,,,,,,M
-428000,430000,That's okay.,,,,,,M
-430000,432000,What do we see here?,,,,,,I
-432000,434000,What do we see?,,,,,,I
-434000,436000,A walk.,,,,,,id24
-436000,438000,A walk.,,,,,,I
-440000,442000,Don't see a walk?,,,,,,I
-442000,444000,Okay.,,,,,,I
-444000,448000,Let's try to tell a little bit more about what we see.,,,,,,I
-448000,460000,A walk and what else?,,,,,,I
-460000,462000,Does it only look like a walk?,,,,,,I
-462000,464000,Okay.,,,,,,I
-464000,466000,Let's try to make our best guess.,,,,,,I
-466000,472000,Which one looks like a walk?,,,,,,I
-472000,474000,That's okay.,,,,,,M
-474000,476000,No.,,,,,,id24
-476000,478000,That's okay if we're wrong.,,,,,,M
-478000,480000,Now what do we see?,,,,,,I
-480000,482000,A boat.,,,,,,id23
-482000,484000,See a boat.,,,,,,I
-484000,486000,Great.,,,,,,I
-486000,488000,Yes.,,,,,,id24
-488000,490000,All right.,,,,,,M
-490000,492000,Now your turn to describe or tell.,,,,,,M
-492000,494000,What do we see there?,,,,,,I
-494000,496000,A dog.,,,,,,id24
-496000,498000,And.,,,,,,id24
-500000,502000,What does it look like?,,,,,,M
-502000,506000,I mean a camera?,,,,,,id24
-506000,508000,A camera?,,,,,,I
-508000,510000,A camera.,,,,,,M
-510000,512000,Hmm.,,,,,,I
-512000,514000,And what?,,,,,,id23
-516000,518000,That's okay.,,,,,,I
-518000,520000,That's all right.,,,,,,I
-520000,522000,That's okay.,,,,,,I
-522000,524000,I can't remember what it looks like.,,,,,,id24
-524000,526000,Now what do we see in the box?,,,,,,I
-528000,530000,A person jumping again.,,,,,,id23
-530000,532000,A person jumping again.,,,,,,I
-538000,540000,Great.,,,,,,I
-540000,542000,Let's pass it on.,,,,,,I
-542000,544000,We're done.,,,,,,I
-544000,546000,Thank you guys for playing our game and helping Smurfie.,,,,,,M
-546000,548000,Thank you guys so much.,,,,,,I
-548000,550000,"All right, my friends. I'm going to go ahead and turn off the camera.",,,,,,M
-550000,552000,Do you guys want to wave bye?,,,,,,M
-552000,560000,Bye bye.,,,,,,I
+282000,285000,"Oh, let's wait a second. Let's listen to [id23], okay?",I,,,,,
+285000,287000,"[id23], what do you see?",M,,,,,
+287000,290000,A person walking.,id23,,S,,a person walking,
+290000,292000,He sees a person walking.,I,,,Y,,
+294000,296000,Great.,I,6,,,,
+296000,298000,Let's pass it on.,I,,,,,
+298000,300000,What do we see in the box?,I,,,,,
+304000,306000,What do we see?,I,,,,,
+306000,308000,Stairs.,id24,,S,,stairs,
+310000,312000,Kind of stairs.,id24,,S,,kind of stairs,
+312000,314000,Can you repeat? Can you say it again?,I,,,,,
+314000,316000,Stairs.,id24,,S,,stairs,
+316000,318000,Stairs?,M,,,Y,,
+318000,320000,He sees stairs.,M,,,Y,,
+320000,325000,What else does it look like?,I,,,,,
+333000,337000,Let's tell [id23] what we see in that black box.,I,,,,,
+337000,339000,You want Smurfy to sit down?,M,,,,,
+339000,342000,It looks like stairs. What else does it look like?,I,,,Y,,
+342000,344000,Just stairs?,I,,,Y,,
+344000,348000,"All right, [id23], we're going to make our best guess at what one kind of looks like stairs.",M,,,Y,,
+348000,352000,Which one kind of looks like stairs to you?,I,,,Y,,
+352000,355000,Go ahead and touch it.,M,,,,,
+355000,357000,One more time.,M,,,,,
+357000,359000,We want to be super gentle. Quick touch.,M,,,,,
+359000,361000,Okay.,M,,,,,
+361000,363000,Ready? Quick touch.,M,,,,,
+363000,365000,There we go.,M,,,,,
+365000,367000,Great.,I,7,,,,
+367000,369000,Let's pass it on.,I,,,,,
+369000,371000,"What do we see, [id23]?",I,,,,,
+373000,376000,A guy with a paper thing.,id23,,S,,a guy with a paper thing,
+376000,378000,A guy with a paper thing.,I,,,Y,,
+378000,380000,Do you see a guy with a paper thing?,I,,,Y,,
+382000,384000,"Oh, great.",I,,,,,
+384000,386000,Yeah!,id24,,,,,
+386000,388000,Here you go.,M,8,,,,
+388000,390000,Now what do we see in the box?,I,,,,,
+390000,392000,A box with a boat.,id24,,S,,a box with a boat,
+392000,394000,A box with a boat.,I,,,Y,,
+394000,396000,Got it.,M,,,,,
+396000,398000,Touch it.,M,9,,,,
+398000,400000,Great.,M,,,,,
+400000,402000,Let's pass it on.,I,,,,,
+402000,406000,Now what do we see?,I,,,,,
+406000,408000,That.,id23,,S,,that,
+408000,410000,What do you see in the box?,M,,,,,
+410000,414000,A person looking down.,id23,,S,,a person looking down,
+414000,418000,A person looking down.,M,,,Y,,
+418000,420000,Touch the one you think it is,M,,,,,
+420000,422000,Touch it.,M,,,,,
+422000,426000,There's two red little friends walking around.,id23,,S,,,
+426000,428000,There you go.,M,,,,,
+428000,430000,That's okay.,M,10,,,,
+430000,432000,What do we see here?,I,,,,,
+432000,434000,What do we see?,I,,,,,
+434000,436000,A walk.,id24,,S,,a walk,
+436000,438000,A walk.,I,,,Y,,
+440000,442000,Don't see a walk?,I,,,Y,,
+442000,444000,Okay.,I,,,,,
+444000,448000,Let's try to tell a little bit more about what we see.,I,,,,,
+448000,460000,A walk and what else?,I,,,Y,,
+460000,462000,Does it only look like a walk?,I,,,Y,,
+462000,464000,Okay.,I,,,,,
+464000,466000,Let's try to make our best guess.,I,,,,,
+466000,472000,Which one looks like a walk?,I,,,,,
+472000,474000,That's okay.,M,11,,,,
+474000,476000,No.,id24,,,,,
+476000,478000,That's okay if we're wrong.,M,,,,,
+478000,480000,Now what do we see?,I,,,,,
+480000,482000,A boat.,id23,,S,,a boat,
+482000,484000,See a boat.,I,,,Y,,
+484000,486000,Great.,I,,,,,
+486000,488000,Yes.,id24,,,,,
+488000,490000,All right.,M,12,,,,
+490000,492000,Now your turn to describe or tell.,M,,,,,
+492000,494000,What do we see there?,I,,,,,
+494000,496000,A dog.,id24,,S,,a dog,
+496000,498000,And.,id24,,,,,
+500000,502000,What does it look like?,M,,,,,
+502000,506000,I mean a camera?,id24,,S,,a camera,
+506000,508000,A camera?,I,,,Y,,
+508000,510000,A camera.,M,,,Y,,
+510000,512000,Hmm.,I,,,,,
+512000,514000,And what?,id23,,L,,,Y
+516000,518000,That's okay.,I,13,,,,
+518000,520000,That's all right.,I,,,,,
+520000,522000,That's okay.,I,,,,,
+522000,524000,I can't remember what it looks like.,id24,,L,,,Y
+524000,526000,Now what do we see in the box?,I,,,,,
+528000,530000,A person jumping again.,id23,,S,,a person jumping again,
+530000,532000,A person jumping again.,I,,,Y,,
+538000,540000,Great.,I,,,,,
+540000,542000,Let's pass it on.,I,,,,,
+542000,544000,We're done.,I,,,,,
+544000,546000,Thank you guys for playing our game and helping Smurfie.,M,,,,,
+546000,548000,Thank you guys so much.,I,,,,,
+548000,550000,"All right, my friends. I'm going to go ahead and turn off the camera.",M,,,,,
+550000,552000,Do you guys want to wave bye?,M,,,,,
+552000,560000,Bye bye.,I,,,,,
