@@ -64,6 +64,25 @@ raw_data <- read.csv(here(data_source), header = TRUE) %>%
   filter(!is.na(game)) |> 
   mutate(time=as.numeric(time))
 
+
+
+
+label_image <- function(string){
+  new_string <- case_when(
+    string=="/experiment/B1.jpg" ~ "walk",
+    string=="/experiment/D1.jpg" ~ "swim",
+    string=="/experiment/E1.jpg" ~ "jump",
+    string=="/experiment/I1.jpg" ~ "hold",
+    string=="/experiment/banana.png"~ "banana",
+    string=="/experiment/bird.jpeg" ~ "bird",
+    string=="/experiment/dog.png" ~ "dog",
+    string =="/experiment/apple.png" ~ "apple"
+  )
+  return(new_string)
+}
+
+less_raw_data <- raw_data %>% select(game, target, distractor, trialNum, targetNum, repNum, response, correct, time, listener=playerId, speaker) %>% 
+  mutate(across(c(target, distractor, response), ~ label_image(.x))) %>% write_csv(here("data/clean_data.csv"))
 ```
 
 ```{r}
@@ -77,11 +96,13 @@ real_offset <- games
 ```
 
 # Transcript wrangle - new
+
 ```{r}
 
-real_offset <- real_offset %>% filter(gameConfig=="game41")
+
+
 wrangle_transcript <- function(game_num){
-read_csv(here("data/clean_transcripts", str_c(game_num,".csv")), show_col_types=F) |> 
+ read_csv(here("data/clean_transcripts", str_c(game_num,".csv")), show_col_types=F) |> 
   select(start, end, text, speaker, trial, role, echo, description, backchannel) |> 
     fill(trial) %>% 
   mutate(start=start/1000, end=end/1000) |> 
@@ -129,24 +150,30 @@ timed_transcripts <-  transcripts |>
   arrange(end) |> 
   fill(trialNumEnd, .direction="up") |> 
   arrange(game) |> 
-  filter(!is.na(text)) |> 
+  filter(!is.na(text))
+
+
+
+echoes <- timed_transcripts %>% select(game,trial, echo) %>% filter(echo=="Y") %>% unique()
+
+trial_timing <- stage_timing %>% select(game, trial=trialNumStart, trial_start=start)
+
+transcript_full <- timed_transcripts %>% select(-echo, -exclude) %>% left_join(echoes) %>% 
+  left_join(trial_timing) %>% 
+  rename(start_time=start, end_time=end) %>% 
   write_csv(here("data/timed_transcript.csv"))
 ```
 
+# Checks
 ```{r}
-# Quick check
+# Quick check -- for kid talking, so auto-trial and hand-trial align?
 
-timed_transcripts %>% filter(!is.na(trialNumStart)) %>% 
+transcript_full %>% filter(!is.na(trialNumStart)) %>% filter(str_detect(speaker, "id")) %>% filter(!is.na(role)) %>% filter(trial!=trialNumStart)
+
+# we'll go with the by-hand method -- these mostly seem to be when there's a wide span of time! possibly due to whisper being silly or us hand filling due to whisper missing things
+
 
 
 ```
 
-```{r}
-# how many trial mismatches are there?
-timed_transcripts |> filter(end>0) |> filter(!is.na(trialNumEnd)) |> #it's in the game region, not rules or post game
- mutate(mismatch=trialNumEnd-trialNumStart) |> 
-  group_by(mismatch) |> 
-  tally()
 
-#so like a third mismatch, and only a couple off by more than 1
-```

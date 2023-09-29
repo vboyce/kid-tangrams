@@ -1,0 +1,144 @@
+---
+title: "Analysis - expt 1"
+output: html_notebook
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(jsonlite)
+library(ggplot2)
+
+transcript <- read_csv(here("data/timed_transcript.csv"))
+
+dat <- read_csv(here("data/clean_data.csv"))
+
+time_palette <- c("practice"="grey","block 1"="blue","block 2"="green", "block 3"="red")#TODO FIX
+```
+
+Trials were excluded if the speaker did not provide any description before the listener clicked.
+# Accuracy over time
+
+```{r}
+# want to know which trials to exclude b/c no description given
+exclusion <- transcript %>% filter(!is.na(description)) %>% filter(role=="S") %>% select(game, trialNum=trial, echo) %>% unique() %>% mutate("S_talked"=1)
+
+dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
+  mutate(type=case_when(trialNum<2 ~ "practice",
+                        trialNum<6 ~ "block 1",
+                        trialNum<10 ~ "block 2",
+                        trialNum<14 ~ "block 3")) %>% 
+  ggplot(aes(x = trialNum+1, y = as.numeric(correct), fill=type)) +
+  stat_summary(fun.data="mean_cl_boot", geom="bar") +
+    stat_summary(fun.data="mean_cl_boot", geom="linerange", color="black") +
+  scale_fill_manual(values=time_palette)+
+  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  #geom_smooth(method="lm")+
+  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("\nTrial") +
+  ylab("Percent accuracy\n") +
+  #scale_x_continuous(breaks=seq(1,12,1)) +
+  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
+  theme(aspect.ratio = 4/5,
+        axis.title=element_text(size=14,face="bold"),
+        axis.text=element_text(size=9, color = "black"),
+        legend.position = "none")
+```
+# Rate of echoing
+
+will need to check more closely, may have missed some
+```{r}
+dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
+  mutate(type=case_when(trialNum<2 ~ "practice",
+                        trialNum<6 ~ "block 1",
+                        trialNum<10 ~ "block 2",
+                        trialNum<14 ~ "block 3")) %>% 
+  mutate(is.echo=ifelse(is.na(echo),0,1)) %>% 
+  ggplot(aes(x = trialNum+1, y = is.echo, fill=type)) +
+  stat_summary(fun.data="mean_cl_boot", geom="bar") +
+    stat_summary(fun.data="mean_cl_boot", geom="linerange", color="black") +
+  scale_fill_manual(values=time_palette)+
+  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  #geom_smooth(method="lm")+
+  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("\nTrial") +
+  ylab("Percent trials with echoing \n by experimenter\n") +
+  #scale_x_continuous(breaks=seq(1,12,1)) +
+  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
+  theme(aspect.ratio = 4/5,
+        axis.title=element_text(size=14,face="bold"),
+        axis.text=element_text(size=9, color = "black"),
+        legend.position = "none")
+```
+
+# Speed to start of description
+
+```{r}
+
+transcript %>% filter(role=="S") %>% filter(!is.na(description)) %>% group_by(game, trial) %>% 
+  mutate(diff=end_time-trial_start) %>% summarize(first=min(diff)) %>% 
+  mutate(type=case_when(trial<2 ~ "practice",
+                        trial<6 ~ "block 1",
+                        trial<10 ~ "block 2",
+                        trial<14 ~ "block 3")) %>% 
+  ggplot(aes(x = trial+1, y = first, color=type)) +
+  geom_jitter(width=.2, height=0, alpha=.5)+
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
+  scale_color_manual(values=time_palette)+
+  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  #geom_smooth(method="lm")+
+  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("\nTrial") +
+  ylab("Time to start of description") +
+  #scale_x_continuous(breaks=seq(1,12,1)) +
+  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
+  theme(aspect.ratio = 4/5,
+        axis.title=element_text(size=14,face="bold"),
+        axis.text=element_text(size=9, color = "black"),
+        legend.position = "none")
+
+```
+
+TO DO try to understand negative outliers? 
+
+
+
+# Speed to response
+
+```{r}
+
+ dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
+  mutate(type=case_when(trialNum<2 ~ "practice",
+                        trialNum<6 ~ "block 1",
+                        trialNum<10 ~ "block 2",
+                        trialNum<14 ~ "block 3")) %>% 
+  ggplot(aes(x = trialNum+1, y = time/1000, color=type)) +
+  geom_jitter(width=.2, height=0, alpha=.5)+
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
+  scale_color_manual(values=time_palette)+
+  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  #geom_smooth(method="lm")+
+  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("\nTrial") +
+  coord_cartesian(ylim=c(0,100))+
+  #ylab("Percent trials with echoing \n by experimenter\n") +
+  #scale_x_continuous(breaks=seq(1,12,1)) +
+  scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
+  theme(aspect.ratio = 4/5,
+        axis.title=element_text(size=14,face="bold"),
+        axis.text=element_text(size=9, color = "black"),
+        legend.position = "none")
+
+```
+
+# Total kid words said in at least vague reference
+
+# Descriptive something something
+- qualitative on descriptions and similarities of descriptions (within/between kids) (maybe cut when kids say the same thing thrice down to once?)
+
+- what descriptions "worked" -- some sort of qualitative range 

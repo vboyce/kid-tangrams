@@ -1,4 +1,4 @@
-start,end,text,speaker,trial,role,echo,description,
+start,end,text,speaker,trial,role,echo,description,backchannel
 0,2000,Do you guys want to wave hi?,I,,,,,
 2000,4000,Hi my friends.,I,,,,,
 4000,6000,"Okay now, are you ready?",I,,,,,
