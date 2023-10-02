@@ -80,7 +80,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 196640,200640,I saw a dog and a banana.,id39,,L,,,Y
 200640,202640,Let's listen closely to what [id40] sees.,I,,,,,
 202640,204640,"[id40], what do you see in the black box?",I,,,,,
-204640,205640,I see a dog.,id40,,S,,a dog,
+204640,205640,I see a dog.,id40,,S,,a dog,Y
 205640,206640,She sees a dog.,i,,,Y,,
 206640,207640,Do you see a dog?,I,,,Y,,
 207640,208640,Let's press it.,I,,,,,
@@ -90,8 +90,8 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 211640,212640,Here you go.,I,,,,,
 212640,221640,Apple and bird.,id39,,S,,,Y
 221640,223640,What do you see in the box?,I,,,,,
-223640,224640,Apple.,id39,,S,,apple,
-224640,225640,Apple.,id39,,S,,apple,
+223640,224640,Apple.,id39,,S,,apple,Y
+224640,225640,Apple.,id39,,S,,,Y
 225640,226640,Apple.,I,,,Y,,
 226640,227640,"Do you see an apple, [id40]?",I,,,Y,,
 227640,228640,Let's press it.,I,,,,,
@@ -108,11 +108,11 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 254640,255640,Okay?,I,3,,,,
 255640,256640,Let's hold on to Smurfy.,I,,,,,
 256640,262640,"[id39], what does that look like to you?",I,,,,,
-262640,263640,A block?,id39,,S,,a block,
+262640,263640,A block?,id39,,S,,a block,Y
 263640,264640,A block?,I,,,Y,,
 264640,266640,"It looks like a block, [id40].",I,,,Y,,
 266640,270640,Which one looks like a block to you?,I,,,,,
-270640,271640,The squares.,id39,,S,,the squares,
+270640,271640,The squares.,id39,,S,,the squares,Y
 271640,272640,The squares?,I,,,Y,,
 272640,273640,It looks like squares.,I,,,Y,,
 273640,276640,Let's press on the one you think it is.,I,,,,,
@@ -131,8 +131,8 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 310640,311640,It's okay.,I,,,,,
 311640,315640,But we will make the best guess that we can make.,I,,,,,
 315640,320640,"[id39], does it look like anything else to you?",I,,,,,
-320640,321640,Triangles.,id39,,S,,triangles,
-321640,327640,There's squares and there's triangles.,id39,,,Y,,
+320640,321640,Triangles.,id39,,S,,,Y
+321640,327640,There's squares and there's triangles.,id39,,S,Y,,Y
 327640,333640,Which one has squares and triangles?,I,,,Y,,
 333640,343640,Which one of these?,I,,,,,
 343640,347640,"Does it look like anything else, [id39]?",I,,,,,
@@ -142,7 +142,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 355640,356640,It looks like this.,I,,,,,
 356640,359640,"Oh, we're looking at the one inside of the box.",I,,,,,
 359640,361640,What does that one look like?,I,,,,,
-361640,362640,A square.,id39,,S,,square,
+361640,362640,A square.,id39,,S,,square,Y
 362640,363640,A square.,I,,,,,
 363640,364640,I press it.,id39,,,,,
 364640,365640,You don't press it.,I,,,,,
@@ -167,7 +167,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 400640,401640,Here you go.,I,,,,,
 401640,406640,"[id40], what does this look like, [id40]?",I,,,,,
 406640,412640,What does that look like?,I,,,,,
-412640,413640,A man.,id40,,S,,a man,
+412640,413640,A man.,id40,,S,,a man,Y
 413640,414640,It looks like a man.,I,,,Y,,
 414640,417640,"Do you see a man, [id39]?",I,,,Y,,
 417640,420640,Let's press it.,I,,,,,
@@ -176,15 +176,15 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 422640,423640,Let's continue.,I,,,,,
 423640,424640,Here you go.,I,,,,,
 424640,428640,"Now, [id39], what do you see in the black box?",I,,,,,
-428640,429640,A man.,id39,,S,,a man,
+428640,429640,A man.,id39,,S,,a man,Y
 429640,430640,A man.,I,,,Y,,
 430640,432640,He sees a man again.,I,,,Y,,
 432640,435640,Which one looks like a man to you?,I,,,Y,,
 435640,436640,Great.,I,6,,,,
 436640,438640,Here you go.,I,,,,,
 438640,441640,"Now, [id40], what does that look like?",I,,,,,
-441640,443640,That looks like a man.,id39,,L,,a man,Y
-443640,444640,Another man.,id40,,S,,another man Y,
+441640,443640,That looks like a man.,id39,,L,,,Y
+443640,444640,Another man.,id40,,S,,another man ,Y
 444640,445640,Another man.,I,,,Y,,
 445640,448640,"[id39], which one looks like another man?",I,,,,,
 448640,454640,Let's press it with your finger as well.,I,,,,,
@@ -194,7 +194,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 457640,458640,Here you go.,I,,,,,
 458640,459640,"Okay, [id39].",I,,,,,
 459640,463640,What does that look like to you?,I,,,,,
-463640,467640,A square that's on the mouth.,id39,,S,,a square that’s on the mouth,
+463640,467640,A square that's on the mouth.,id39,,S,,a square that’s on the mouth,Y
 467640,469640,A square that's on the mouth?,I,,,Y,,
 469640,470640,Yeah.,id39,,S,,,
 470640,473640,"A square that's on a mouth, [id40].",I,,,Y,,
@@ -202,17 +202,17 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 478640,480640,Which ever one that you think is.,I,,,,,
 480640,483640,I don't know.,id40,,L,,,Y
 483640,485640,"What else does it look like, [id39]?",I ,,,,,
-485640,487640,It looks like a man.,id39,,S,,a man,
+485640,487640,It looks like a man.,id39,,S,,a man,Y
 487640,489640,This one looks like a man?,I,,,Y,,
 489640,490640,Yeah.,I,,,,,
-490640,491640,Falling.,id39,,S,,falling,
+490640,491640,Falling.,id39,,S,,falling,Y
 491640,494640,It looks like a man falling.,I,,,Y,,
 494640,498640,Which one looks like a man falling?,I,,,Y,,
 498640,502640,Let's press it.,I,,,,,
 502640,503640,Great.,I,8,,,,
 503640,505640,Here you go.,I,,,,,
 505640,507640,"Now, [id40], what does that look like?",I,,,,,
-507640,509640,It looks like an airplane.,id40,,S,,an airplane,
+507640,509640,It looks like an airplane.,id40,,S,,an airplane,Y
 509640,511640,It looks like an airplane.,I,,,Y,,
 511640,515640,Let's press with our finger.,I,,,,,
 515640,517640,Let's try again.,I,,,,,
@@ -222,41 +222,41 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 524640,525640,Let's try again.,I,,,,,
 525640,527640,Let's help Smurfy out.,I,9,,,,
 527640,529640,"[id39], what does that look like to you?",I,,,,,
-529640,531640,A man falling again.,id39,,S,,a man falling again,
+529640,531640,A man falling again.,id39,,S,,a man falling again,Y
 531640,532640,This one?,I,,,,,
 532640,533640,Yeah.,I,,,,,
 533640,534640,The one in the black box.,I,,,,,
 534640,535640,Okay.,I,,,,,
 535640,536640,What does this one look like?,I,,,,,
-536640,539640,A man holding something.,id39,,S,,a man holding something,
+536640,539640,A man holding something.,id39,,S,,,Y
 539640,542640,It looks like a man holding something.,I,,,Y,,
-542640,545640,A gem or something.,id40,,L,,a gem or something,Y
+542640,545640,A gem or something.,id40,,L,,,Y
 545640,546640,It looks like a what?,I,,,,,
-546640,547640,A gem.,id40,,L,,a gem,Y
+546640,547640,A gem.,id40,,L,,,Y
 547640,549640,A j-j?,I,,,,,
-549640,550640,A gem.,id40,,L,,a gem,Y
+549640,550640,A gem.,id40,,L,,,Y
 550640,551640,A gem?,I,,,Y,,
 551640,556640,"Oh, does that look like the man is holding a gem?",I,,,,,
-556640,561640,The man is holding food.,id39,,S,,the man is holding food,
+556640,561640,The man is holding food.,id39,,S,,the man is holding food,Y
 561640,565640,It looks like a man holding food.,I,,,Y,,
 565640,568640,Let's press it.,I,,,,,
 568640,569640,Try again.,I,,,,,
 569640,570640,Great.,I,,,,,
 570640,573640,"Okay, here you go.",I,10,,,,
 573640,577640,"Now, [id40], what does that look like?",I,,,,,
-577640,578640,Another man.,id40,,S,,another man,
+577640,578640,Another man.,id40,,S,,another man,Y
 578640,580640,Another man.,I,,,Y,,
 580640,582640,It looks like another man.,I,,,Y,,
 582640,584640,"Oh, that's okay.",I,11,,,,
 584640,590640,"Let's pass for Smurfy on. Okay, here you go. [id39], what does that look like?",I,,,,,
-590640,601640,A man falling down.,id39,,S,,a man falling down,
+590640,601640,A man falling down.,id39,,S,,a man falling down,Y
 601640,609520,a man falling down. Which one looks like that Wallace. Let’s press it. ,I,,,Y,,
 601640,609520,There you go. ,I,,,,,
 601640,609520,"Wallace, what does that look like?",I,12,,,,
-609520,619400,A man.,id40,,S,,a man,
+609520,619400,A man.,id40,,S,,a man,Y
 609520,619400,Another man.,I ,,,,,
 619400,634400,"Great, let’s pass Smurfy on. [id39], what does that look like to you?",I,13,,,,
-634400,640680,A man.,id39,,S,,a man,
+634400,640680,A man.,id39,,S,,a man,Y
 634400,640680,A man. It looks like a man. Which one looks like a man to you. ,I,,,Y,,
 640680,646520,Great! We just finished the game. I'll turn the camera on and put your name tags back on okay?,I,,,,,
 646520,660520,say bye-bye? Bye-bye. Bye.,I,,,,,

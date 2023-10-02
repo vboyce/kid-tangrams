@@ -59,7 +59,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 108000,109000,Okay.,I,0,,,,
 109000,113000,"So it looks like [id34] is guessing, so you will hold Smurphy, [id34].",I,,,,,
 113000,115000,"[id33], what do we see in the black box?",I,,,,,
-115000,116000,A dog.,id33,,S,,a dog,
+115000,116000,A dog.,id33,,S,,a dog,Y
 116000,117000,A dog.,I,,,Y,,
 117000,118000,Do you see a dog?,I,,,,,
 118000,119000,Let's press it.,I,,,,,
@@ -72,7 +72,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 127000,128000,Press it?,id34,,,,,
 128000,129000,You don't press it.,I,,,,,
 129000,130000,What does it look like to you?,I,,,,,
-130000,131000,Apple.,id34,,S,,apple,
+130000,131000,Apple.,id34,,S,,apple,Y
 131000,132000,Apple.,I,,,Y,,
 132000,133000,Do you see an apple?,I,,,,,
 133000,134000,Yes.,id33,,L,,,Y
@@ -89,7 +89,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 144000,147000,"[id33], what do we see in the black box now?",I,,,,,
 147000,149000,I don't know.,id33,,S,,,Y
 149000,150000,It looks silly.,I,,,,,
-150000,151000,Magnet.,id33,,S,,magnet,
+150000,151000,Magnet.,id33,,S,,magnet,Y
 151000,152000,It looks like magnet.,I,,,Y,,
 152000,154000,Does it look like a magnet?,I,,,Y,,
 154000,156000,It looks like a magnet.,I,,,,,
@@ -100,7 +100,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 165000,168000,"Now, [id34], what do we see in the black box?",I,,,,,
 168000,169000,Mm-hmm.,I,,,,,
 169000,172000,What does it look like?,I,,,,,
-172000,174000,A block.,id34,,S,,a block,
+172000,174000,A block.,id34,,S,,a block,Y
 174000,175000,It looks like a block?,I,,,Y,,
 175000,177000,It looks like a block.,I,,,Y,,
 177000,182000,"Do you see a block, [id33]?",I,,,,,
@@ -108,26 +108,26 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 183000,187000,Do you want to tell [id33] a little more about what you see?,I,,,,,
 187000,188000,We're not going to show him.,I,,,,,
 188000,191000,"We're going to use our words, okay?",I,,,,,
-191000,194000,It has a triangle.,id34,,S,,it has a triangle,
-194000,196000,It's on the ground.,id34,,S,,it’s on the ground,
+191000,194000,It has a triangle.,id34,,S,,it has a triangle,Y
+194000,196000,It's on the ground.,id34,,S,,it’s on the ground,Y
 196000,199000,It's on the ground and it has a triangle.,I,,,Y,,
 199000,200000,Okay.,I,,,,,
 200000,202000,Let's press it.,I,,,,,
 202000,203000,Great.,I,,,,,
 203000,205000,Let's pass Smurphy on.,I,,,,,
 205000,206000,"Now, [id33]...",I,4,,,,
-206000,207000,"No, that looks like a...",id33,,S,,,
+206000,207000,"No, that looks like a...",id33,,S,,,Y
 207000,208000,What does this look like?,I,,,,,
-208000,209000,A bird.,id33,,S,,bird,
+208000,209000,A bird.,id33,,S,,bird,Y
 209000,210000,It looks like a bird.,I,,,Y,,
-210000,212000,"No, a person flying.",id33,,S,,a person flying,
+210000,212000,"No, a person flying.",id33,,S,,a person flying,Y
 212000,214000,A person flying.,I,,,Y,,
 214000,216000,"Do you see that, [id34]?",I,5,,,,
 216000,217000,Great.,I,,,,,
 217000,220000,Let's pass Smurphy on.,I,,,,,
 220000,221000,Okay.,I,,,,,
 221000,223000,"Now, what do we see, [id34]?",I,,,,,
-223000,226000,A person sad walking.,id34,,S,,a person sad walking,
+223000,226000,A person sad walking.,id34,,S,,a person sad walking,Y
 226000,231000,A person sad walking.,I,,,Y,,
 231000,232000,Great.,I,6,,,,
 232000,234000,Here you go.,I,,,,,
@@ -137,15 +137,15 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 241000,246000,But Smurfy just had a real dream that day.,id33,,,,,
 246000,247000,Yeah.,I,,,,,
 247000,248000,What does that look like?,I,,,,,
-248000,250000,A flying person again.,id33,,S,,a flying person again,
+248000,250000,A flying person again.,id33,,S,,a flying person,Y
 250000,252000,A flying person again.,I,,,Y,,
 252000,254000,"Great, my friends.",I,,,,,
 254000,256000,"Okay, here you go.",I,7,,,,
 256000,258000,"[id34], what do we see?",I,,,,,
-258000,260000,A rope.,id33,,L,,a rope,Y
+258000,260000,A rope.,id33,,L,,,Y
 260000,261000,This again.,id34,,S,,,Y
 261000,263000,What does it look like?,I,,,,,
-263000,266000,It's on the floor and it has a triangle.,id34,,S,,on the floor and it has a triangle,
+263000,266000,It's on the floor and it has a triangle.,id34,,S,,on the floor and it has a triangle,Y
 266000,268000,On the floor and it has a triangle.,I,,,Y,,
 268000,270000,Do you see that?,I,,,,,
 270000,274000,Let's press it.,I,,,,,
@@ -153,13 +153,13 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 277000,278000,Great.,I,8,,,,
 278000,280000,"Okay, here you go.",I,,,,,
 280000,283000,"Now, [id33], what do we see?",I,,,,,
-283000,285000,A person sad walking again.,id33,,S,,a person sad walking again,
+283000,285000,A person sad walking again.,id33,,S,,a person sad walking again,Y
 285000,288000,A person sat walking again.,I,,,Y,,
 288000,290000,[id33].,I,,,,,
 290000,292000,"Great, here you go.",I,9,,,,
 292000,294000,"[id34], what do we see?",I,,,,,
-294000,298000,A person holding a triangle.,id34,,S,,a person holding a triangle,
-298000,300000,Sad walking.,id33,,L,,sad walking,Y
+294000,298000,A person holding a triangle.,id34,,S,,a person holding a triangle,Y
+298000,300000,Sad walking.,id33,,L,,,Y
 300000,303000,She says she sees a person holding a triangle.,I,,,Y,,
 303000,304000,Do you see that?,I,,,,,
 304000,305000,Uh huh.,id33,,L,,,Y
@@ -168,12 +168,12 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 309000,310000,Great.,I,,,,,
 310000,313000,Let's pass Smurphy on to [id34].,I,10,,,,
 313000,315000,"Okay, now [id33], what do we see in the box?",I,,,,,
-315000,317000,Sad walking.,id33,,S,,sad walking,
+315000,317000,Sad walking.,id33,,S,,sad walking,Y
 317000,318000,Sad walking.,I,,,Y,,
 318000,321000,Not again.,id33,,S,,,Y
 321000,323000,Here you go.,I,,,,,
 323000,326000,"[id34], what do we see?",I,11,,,,
-326000,331000,A triangle that's on the ground again.,id34,,S,,a triangle that’s on the ground again,
+326000,331000,A triangle that's on the ground again.,id34,,S,,a triangle that’s on the ground again,Y
 331000,333000,"A triangle that's on the ground again, [id33].",I,,,Y,,
 333000,335000,Do you see that?,I,,,,,
 335000,337000,Let's press it.,I,12,,,,
@@ -181,14 +181,14 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 340000,341000,Great.,I,,,,,
 341000,344000,"Okay, here you go.",I,,,,,
 344000,347000,"Now, [id33], what do we see?",I,,,,,
-347000,349000,A flying person.,id33,,S,,a flying person,
+347000,349000,A flying person.,id33,,S,,a flying person,Y
 349000,350000,A flying person.,I,,,Y,,
-350000,351000,"No, a butterfly.",id33,,S,,a butterfly,
+350000,351000,"No, a butterfly.",id33,,S,,a butterfly,Y
 351000,353000,"Oh, a butterfly.",I,,,,,
 353000,355000,Here you go.,I,,,,,
 355000,357000,"Now, you will be guessing.",I,,,,,
 357000,358000,"[id34], what do we see again?",I,13,,,,
-358000,361000,A person holding a triangle.,id34,,S,,a person holding a triangle,
+358000,361000,A person holding a triangle.,id34,,S,,a person holding a triangle,Y
 361000,366000,A person holding a triangle.,I,,,Y,,
 366000,368000,Great.,I,,,,,
 368000,370000,"Yeah, that was good.",I,,,,,

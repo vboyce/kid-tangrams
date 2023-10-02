@@ -48,7 +48,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 98000,99000,Okay.,I,0,,,,
 99000,102000,"Now, [id57], you will hold on to Smurfy and [id58].",I,,,,,
 102000,107000,We will tell [id57] what we see in the black box.,I,,,,,
-107000,108000,An apple.,id58,,S,,an apple,
+107000,108000,An apple.,id58,,S,,an apple,Y
 108000,109000,An apple.,I,,,Y,,
 109000,110000,Do you see an apple?,I,,,Y,,
 110000,112000,Let's press it.,I,,,,,
@@ -56,7 +56,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 113000,115000,"So that was a match, okay?",I,,,,,
 115000,118000,So now here you go and let's listen to [id57].,I,,,,,
 118000,121000,"So [id57], what do you see in the black box?",I,,,,,
-121000,122000,A banana.,id57,,S,,a banana,
+121000,122000,A banana.,id57,,S,,a banana,Y
 122000,123000,Great.,I,,,,,
 123000,124000,I love bananas.,id58,,,,,
 124000,125000,They're my favorite.,id58,,,,,
@@ -69,13 +69,13 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 139000,140000,So let's sit down down.,I,,,,,
 140000,142000,"We'll try to tell, okay?",I,,,,,
 142000,145000,Let's try to tell.,I,,,,,
-145000,151000,Feet that are up and a bite like this and a head.,id58,,S,,feet that are up and a bite like this and a head,
+145000,151000,Feet that are up and a bite like this and a head.,id58,,S,,feet that are up and a bite like this and a head,Y
 151000,156000,Feet that are up and what?,I,,,Y,,
 156000,160000,Let's try to tell him instead of showing.,I,,,,,
-160000,161000,Like that.,id58,,,,,
+160000,161000,Like that.,id58,,,,,Y
 161000,162000,So like that.,I,,,,,
 162000,164000,So which one looks like that?,I,,,,,
-164000,165000,That one.,id57,,,,,
+164000,165000,That one.,id57,,,,,Y
 165000,169000,"If that's your guess, let's just press on it.",I,3,,,,
 169000,171000,Let's try again.,I,,,,,
 171000,173000,So that wasn't a match.,I,,,,,
@@ -84,7 +84,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 175000,177000,"Okay, here you go.",I,,,,,
 177000,178000,Okay.,I,,,,,
 178000,182000,"Now [id57], what does that look like to you?",I,,,,,
-182000,183000,A car.,id57,,S,,a car,
+182000,183000,A car.,id57,,S,,a car,Y
 183000,184000,A car?,I,,,Y,,
 184000,185000,It looks like a car.,I,,,Y,,
 185000,186000,Great.,I,,,,,
@@ -94,7 +94,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 189000,190000,"Okay, [id58].",I,,,,,
 190000,191000,What does that look like to you?,I,,,,,
 191000,192000,What does it kind of look like?,I,,,,,
-192000,208000,It's like someone that's holding a backwards triangle cup.,id58,,S,,someone that’s holding a backwards triangle cup,
+192000,208000,It's like someone that's holding a backwards triangle cup.,id58,,S,,someone that’s holding a backwards triangle cup,Y
 192000,208000,It's like someone that's holding a backwards triangle cup.,I,,,Y,,
 208000,209000,Great.,I,5,,,,
 209000,210000,That was a match.,I,,,,,
@@ -102,14 +102,14 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 211000,212000,Here you go.,I,,,,,
 212000,213000,"Okay, [id57].",I,,,,,
 213000,215000,What does that look like to you?,I,,,,,
-215000,216000,A human.,id57,,S,,a human,
+215000,216000,A human.,id57,,S,,a human,Y
 216000,222000,A human.,I,,,Y,,
 222000,223000,Great.,I,6,,,,
 223000,225000,You guys are on a roll.,I,,,,,
 225000,226000,Okay.,I,,,,,
 226000,228000,What does that look like?,I,,,,,
-228000,243000,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle,id58,,S,,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle,
-243000,247000,head and a backwards triangle butt and triangle feet.,id58,,S,,head and a backwards triangle butt and triangle feet.,
+228000,243000,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle,id58,,S,,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle head,Y
+243000,247000,head and a backwards triangle butt and triangle feet.,id58,,S,,head,Y
 247000,249000,Which one does that look like?,I,,,,,
 249000,250000,Let's press it.,I,,,,,
 250000,251000,"Oh, that's okay.",I,,,,,
@@ -117,7 +117,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 252000,253000,"Okay, here you go.",I,,,,,
 253000,254000,"Okay, [id57].",I,,,,,
 254000,255000,What does that look like to you?,I,,,,,
-255000,256000,A car.,id57,,S,,a car,
+255000,256000,A car.,id57,,S,,a car,Y
 256000,257000,A car.,I,,,Y,,
 257000,258000,Let's try again.,I,,,,,
 258000,259000,Great.,I,8,,,,
@@ -125,9 +125,9 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 260000,261000,Here you go.,I,,,,,
 261000,262000,"Okay, [id58].",I,,,,,
 262000,263000,What does that look like?,I,,,,,
-263000,277000,"It's a head, down, square and like this.",id58,,S,,a head down square and like this,
+263000,277000,"It's a head, down, square and like this.",id58,,S,,a head down square and like this,Y
 277000,278000,Let's try to tell [id57].,I,,,,,
-278000,290000,"Okay, so it's a triangle feet and one rectangle and one triangle and then a square head.",id58,,S,, a triangle feet and one rectangle and one triangle and then a square head.,
+278000,290000,"Okay, so it's a triangle feet and one rectangle and one triangle and then a square head.",id58,,S,, a triangle feet and one rectangle and one triangle and then a square head.,Y
 290000,292000,"Which one does that look like, [id57]?",I,,,,,
 292000,294000,Let's press on it.,I,,,,,
 294000,295000,Great.,I,9,,,,
@@ -135,21 +135,21 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 297000,298000,Here you go.,I,,,,,
 298000,299000,Okay.,I,,,,,
 299000,302000,"[id57], what does that look like to you?",I,,,,,
-302000,308000,Somebody holding a triangle.,id57,,S,,somebody holding a triangle,
+302000,308000,Somebody holding a triangle.,id57,,S,,somebody holding a triangle,Y
 308000,313000,Somebody holding a triangle.,I,,,Y,,
 313000,316000,"Okay, here you go.",I,,,,,
 316000,319000,"Okay, what does that look like?",I,10,,,,
-319000,321000,A race car.,id58,,S,,a race car,
+319000,321000,A race car.,id58,,S,,a race car,Y
 321000,325000,"Which one looks like a race car, [id57]?",I,,,Y,,
 325000,326000,Great.,I,,,,,
 326000,329000,There you go.,I,11,,,,
 329000,330000,"Okay, [id57].",I,,,,,
 330000,332000,What does that look like to you?,I,,,,,
-332000,333000,A human that’s dancing. ,id57,,S,,a human that’s dancing,
+332000,333000,A human that’s dancing. ,id57,,S,,a human that’s dancing,Y
 333000,334000,What's a dancing?,I,,,Y,,
 334000,335000,"A human, what?",I,,,Y,,
 335000,336000,What?,I,,,,,
-336000,337000,A human that's dancing.,id57,,S,,a human that’s dancing,
+336000,337000,A human that's dancing.,id57,,S,,,Y
 337000,338000,A human dancing?,I,,,Y,,
 338000,339000,Yeah.,id57,,S,,,
 339000,340000,A human dancing.,I,,,Y,,
@@ -165,7 +165,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 353000,354000,Thank you.,I,,,,,
 354000,356000,"Okay, here you go.",I,,,,,
 356000,359000,"Okay, l[id58] what does this look like?",I,,,,,
-359000,370000,"It has a triangle leg, a rectangle, and a diamond body and a square head.",id58,,S,,"a triangle leg, a rectangle, and a diamond body and a square head",
+359000,370000,"It has a triangle leg, a rectangle, and a diamond body and a square head.",id58,,S,,"a triangle leg, a rectangle, and a diamond body and a square head",Y
 370000,372000,Which one is that?,I,,,,,
 372000,374000,Press on it.,I,,,,,
 374000,375000,Great.,I,,,,,
@@ -173,7 +173,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 376000,377000,"Okay, here you go.",I,,,,,
 377000,379000,"Let's listen up, okay?",I,,,,,
 379000,381000,"[id57], what does that look like?",I,,,,,
-381000,385000,Someone holding a triangle in a cup,id57,,S,,someone holding a triangle in a cup,
+381000,385000,Someone holding a triangle in a cup,id57,,S,,someone holding a triangle in a cup,Y
 385000,386000,Great.,I,,,,,
 386000,389000,"Okay, let's pass it.",I,,,,,
 389000,392000,"Well, my friends, we just finished the game.",I,,,,,

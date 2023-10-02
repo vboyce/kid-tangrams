@@ -54,7 +54,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 112000,113000,Great.,I,0,,,,
 113000,116000,"So, [id36], you will have Mr. Smurfy today.",I,,,,,
 116000,120000,"And [id35], we will tell [id36] what we see in the black box.",I,,,,,
-120000,121000,A bird.,id35,,S,,a bird,
+120000,121000,A bird.,id35,,S,,a bird,Y
 121000,122000,Do you see a bird?,I,,,Y,,
 122000,124000,Let's press on it.,I,,,,,
 124000,126000,Let's press on it.,I,,,,,
@@ -62,10 +62,10 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 128000,129000,Yay!,I,1,,,,
 129000,132000,And we'll pass Smurfy on to [id35].,I,,,,,
 132000,136000,"And now, [id36], what do we see in the black box?",I,,,,,
-136000,137000,Apple.,id36,,S,,apple,
+136000,137000,Apple.,id36,,S,,apple,Y
 137000,138000,Apple.,I,,,Y,,
 138000,139000,Do you see an apple?,I,,,,,
-139000,140000,Yes.,id35,,,,,
+139000,140000,Yes.,id35,,,,,Y
 140000,142000,Let's press on it.,I,,,,,
 142000,146000,Let's go try again.,I,,,,,
 146000,149000,Let's do a quick tap.,I,2,,,,
@@ -78,7 +78,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 159000,161000,"[id35], what do we see now?",I,,,,,
 161000,163000,"Uh, this.",id35,,S,,,Y
 163000,166000,What does it look like?,I,,,,,
-166000,168000,A person in the mountains.,id35,,S,,a person in the mountains,
+166000,168000,A person in the mountains.,id35,,S,,a person in the mountains,Y
 168000,169000,A person in the mountains.,I,,,Y,,
 169000,170000,Do you see that?,I,,,,,
 170000,174000,Let's press it.,I,,,,,
@@ -86,12 +86,12 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 175000,177000,"It wasn't a match, but we can try again.",I,3,,,,
 177000,179000,"Okay, here you go.",I,,,,,
 179000,181000,"[id36], what do we see in the black box?",I,,,,,
-181000,183000,It looks like a person.,id36,,S,,a person,
+181000,183000,It looks like a person.,id36,,S,,a person,Y
 183000,184000,It looks like a what?,I,,,,,
-184000,185000,A person.,id36,,S,,a person,
+184000,185000,A person.,id36,,S,,,Y
 185000,186000,It looks like a person.,I,,,Y,,
 186000,188000,"Do you see a person, [id35]?",I,,,,,
-188000,189000,Yeah.,id35,,L,,,
+188000,189000,Yeah.,id35,,L,,,Y
 189000,192000,Should we press it?,I,,,,,
 192000,194000,First.,id35,,,,,
 194000,195000,"Oh, that's okay.",I,4,,,,
@@ -100,23 +100,23 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 198000,199000,We can try again next time.,I,,,,,
 199000,201000,"Okay, here you go.",I,,,,,
 201000,203000,"[id35], what do we see now?",I,,,,,
-203000,205000,A person walking.,id35,,S,,a person walking,
+203000,205000,A person walking.,id35,,S,,a person walking,Y
 205000,208000,A person walking.,I,,,Y,,
 208000,210000,Let's try again.,I,,,,,
 210000,212000,Great!,I,,,,,
 212000,214000,"Okay, here you go.",I,,,,,
 214000,216000,"Now, what do we see, [id36]?",I,5,,,,
-216000,219000,"Uh, a person.",id36,,S,,a person,
+216000,219000,"Uh, a person.",id36,,S,,a person,Y
 219000,220000,Do we see a person?,I,,,Y,,
-220000,221000,Yeah.,id35,,L,,,
-221000,224000,"But, the black box right this one.",id36,,S,,,
+220000,221000,Yeah.,id35,,L,,,Y
+221000,224000,"But, the black box right this one.",id36,,S,,,Y
 224000,225000,Yeah.,I,,,,,
-225000,227000,This way.,id36,,S,,this way,
+225000,227000,This way.,id36,,S,,this way,Y
 227000,229000,"What does it look like, a person?",I,,,Y,,
-229000,231000,"Yeah, but this way.",id36,,S,,but this way,
+229000,231000,"Yeah, but this way.",id36,,S,,,Y
 231000,233000,"It looks like a person, [id35].",I,,,Y,,
 233000,234000,Do you see a person?,I,,,Y,,
-234000,235000,Like this way.,id36,,S,,like this way,
+234000,235000,Like this way.,id36,,S,,,Y
 235000,238000,"Well, she, it's not the same for you guys.",I,,,,,
 238000,243000,"So, you have to tell her how this person looks like.",I,,,Y,,
 243000,244000,We can't show her.,I,,,,,
@@ -139,16 +139,16 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 274000,275000,"Well, let's try again.",I,,,,,
 275000,276000,Okay.,I,,,,,
 276000,278000,"[id35], what do we see now?",I,,,,,
-278000,280000,A person dancing.,id35,,S,,a person dancing,
+278000,280000,A person dancing.,id35,,S,,a person dancing,Y
 280000,282000,A person dancing.,I,,,Y,,
 282000,283000,Is it this way?,id36,,,,,
 283000,286000,"If you think that's your match, just tap it.",I,,,,,
 286000,287000,Yay.,I,7,,,,
 287000,290000,"Here you go, [id35].",I,,,,,
 290000,292000,"Now, what do we see in the black box?",I,,,,,
-292000,293000,This.,id36,,S,,this,
+292000,293000,This.,id36,,S,,,Y
 293000,295000,What does it look like to you?,I,,,,,
-295000,296000,A car.,id36,,S,,a car,
+295000,296000,A car.,id36,,S,,a car,Y
 296000,299000,It looks like a car.,I,,,Y,,
 299000,303000,"Do you see a car, [id35]?",I,,,Y,,
 303000,305000,Let's try again.,I,,,,,
@@ -157,7 +157,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 308000,309000,You got it.,id36,,,,,
 309000,310000,Yeah.,I,,,,,
 310000,314000,"Okay, now what do we see, [id35]?",I,,,,,
-314000,316000,A person.,id35,,S,,a person,
+314000,316000,A person.,id35,,S,,a person,Y
 316000,317000,We see a person.,I,,,Y,,
 317000,318000,Do you see a person?,I,,,Y,,
 318000,319000,Yeah.,id36,,L,,,Y
@@ -168,7 +168,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 328000,331000,"I thought it was this one, but it wasn't working.",id36,,L,,,
 331000,332000,Let's try again.,I,9,,,,
 332000,333000,Okay.,I,,,,,
-333000,335000,I see a person walking.,id36,,S,,a person walking,
+333000,335000,I see a person walking.,id36,,S,,a person walking,Y
 335000,339000,A person walking.,I,,,Y,,
 339000,341000,Let's try again.,I,,,,,
 341000,343000,Let's try one more time.,I,,,,,
@@ -188,13 +188,13 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 364000,367000,"Okay, let's pass Smurfy on.",I,,,,,
 367000,368000,Here you go.,I,,,,,
 368000,371000,"Now, [id35], what do we see in the black box?",I,,,,,
-371000,373000,A person dancing.,id35,,S,,a person dancing,
+371000,373000,A person dancing.,id35,,S,,a person dancing,Y
 373000,376000,A person dancing.,I,,,Y,,
 376000,378000,"Great, my friends.",I,,,,,
 378000,380000,Let's go on.,I,11,,,,
 380000,382000,"[id36], what do you see in the black box?",I,,,,,
-382000,383000,A car.,id36,,S,,a car,
-383000,384000,Again.,id36,,S,,again,
+382000,383000,A car.,id36,,S,,a car,Y
+383000,384000,Again.,id36,,S,,,Y
 384000,385000,A car.,I,,,Y,,
 385000,386000,Again.,I,,,,,
 386000,388000,You got this.,I,,,,,
@@ -207,13 +207,13 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 398000,399000,Great.,I,12,,,,
 399000,402000,Here you go.,I,,,,,
 402000,405000,"Now, what do we see, [id35]?",I,,,,,
-405000,407000,A person walking.,id35,,S,,a person walking,
+405000,407000,A person walking.,id35,,S,,a person walking,Y
 407000,408000,A person walking.,I,,,Y,,
 408000,409000,Yay!,I,,,,,
 409000,410000,Yay!,I,,,,,
 410000,412000,Thank you.,I,13,,,,
 412000,414000,"Now, what do we see, [id36]?",I,,,,,
-414000,417000,A person holding a pot.,id36,,S,,a person holding a pot,
+414000,417000,A person holding a pot.,id36,,S,,a person holding a pot,Y
 417000,420000,A person holding a pot.,I,,,Y,,
 420000,421000,Let's try again.,I,,,,,
 421000,422000,You got this.,I,,,,,

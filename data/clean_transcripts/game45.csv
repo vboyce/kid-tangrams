@@ -22,14 +22,14 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 97000,98000,Can you tap it?,I,,,,,
 98000,103000,"All right. It looks like, oh, it looks like you're going to be guessing with Smurfy first.",M,0,,,,
 103000,109000,"So let's tell, let's tell [id22] and Smurfy what we see in the black box.",I,,,,,
-109000,110000,Apple.,id21,,S,,apple,
+109000,110000,Apple.,id21,,S,,apple,Y
 110000,112000,"Apple. Do you see an apple, [id22]?",I,,,Y,,
 112000,114000,Let's tap it.,I,,,,,
 114000,115000,Great.,I,,,,,
 115000,117000,So that's what it's going to look like when it's a match.,M,1,,,,
 117000,121000,And then it'll be your turn to guess. So let's listen to [id22] very carefully.,I,,,,,
 121000,123000,So what do you see?,M,,,,,
-123000,126000,A bird in a black box.,id22,,S,,bird,
+123000,126000,A bird in a black box.,id22,,S,,bird,Y
 126000,130000,A bird in a black box. Do you see a bird?,I,,,Y,,
 130000,134000,Let's tap it.,I,,,,,
 134000,136000,Let's tap on that.,I,,,,,
@@ -49,9 +49,9 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 180000,181000,It's okay.,M,,,,,
 181000,185000,"All right. So [id22], now you're going to tell what you see in the black box.",M,,,,,
 185000,186000,Let's guess.,I,,,,,
-186000,189000,A person holding a plate.,id22,,S,,a person holding a plate,
+186000,189000,A person holding a plate.,id22,,S,,a person holding a plate,Y
 189000,192000,A person holding a plate.,I,,,Y,,
-192000,194000,I see a person.,id21,,L,,a person,Y
+192000,194000,I see a person.,id21,,L,,,Y
 194000,198000,Go ahead and touch it. Touch the one you think it is.,M,,,,,
 198000,202000,Let's try again.,I,,,,,
 202000,203000,That's okay.,M,,,,,
@@ -60,14 +60,14 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 207000,208000,Here you go.,I,,,,,
 208000,210000,Now let's describe what we see.,I,,,,,
 210000,211000,What is that?,I,,,,,
-211000,213000,It was a kind of person.,id21,,S,,a kind of person,
+211000,213000,It was a kind of person.,id21,,S,,a kind of person,Y
 213000,214000,A person.,I,,,Y,,
 214000,217000,This one?,id22,,L,,,Y
 217000,219000,I think so.,id22,,L,,,Y
 219000,221000,"All right, Smurfy, get over here.",M,5,,,,
 221000,223000,It will be your turn to guess.,I,,,,,
 223000,225000,What do you see [id22]?,I,,,,,
-225000,230000,A crocodile tasting an animal in the water.,id22,,S,,a crocodile tasting an animal in the water,
+225000,230000,A crocodile tasting an animal in the water.,id22,,S,,a crocodile tasting an animal in the water,Y
 230000,231000,Ooh.,M,,,,,
 231000,235000,A crocodile.,I,,,Y,,
 235000,238000,"You and Smurfy can make the guess,",M,,,,,
@@ -80,43 +80,43 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 257000,258000,Thank you.,I,,,,,
 258000,259000,Here you are.,I,,,,,
 259000,264000,Now what do we see?,I,,,,,
-264000,268000,I see a guy.,id21,,S,,a guy,
+264000,268000,I see a guy.,id21,,S,,a guy,Y
 268000,271000,Do you want to tell [id22] a little bit more about what you see?,I,,,Y,,
-271000,273000,I see a guy.,id21,,S,,a guy,
+271000,273000,I see a guy.,id21,,S,,,Y
 273000,277000,He sees a guy.,I,,,Y,,
 277000,279000,Great job.,M,,,,,
 279000,283000,I actually didn't need help with that.,id22,,L,,,Y
 283000,285000,"Yeah, your turn.",M,7,,,,
-285000,290000,I see a person walking in a black box.,id22,,S,,a person walking,
+285000,290000,I see a person walking in a black box.,id22,,S,,a person walking,Y
 290000,292000,Great job.,M,,,,,
 292000,294000,Great job.,M,8,,,,
 294000,300000,Now what do we see?,I,,,,,
 300000,305000,Let's raise our voices a little bit so that Smurfy and [id22] can hear.,I,,,,,
-305000,308000,A crocodile.,id21,,S,,a crocodile,
+305000,308000,A crocodile.,id21,,S,,a crocodile,Y
 308000,310000,There you go.,M,,,Y,,
 310000,311000,Great job.,M,9,,,,
 311000,315000,Here you are.,M,,,,,
-315000,327000,I see a person jumping from a pole all the way down to the ground.,id22,,S,,a person jumping from a pole all the way down to the ground,
+315000,327000,I see a person jumping from a pole all the way down to the ground.,id22,,S,,a person jumping from a pole all the way down to the ground,Y
 327000,329000,It was this one.,id22,,S,,,Y
 329000,331000,That's okay.,I,10,,,,
 331000,332000,Here you go.,M,,,,,
 332000,338000,Now what do we see?,I,,,,,
 338000,348000,That's okay.,M,,,,,
-338000,348000,I don’t know what it is,id121,,,,,
+338000,348000,I don’t know what it is,id121,,,,,Y
 348000,358000,Let's try our best to tell [id22] what we kind of see.,I,,,,,
-358000,362000,I see a person sitting.,id21,,S,,a person sitting,
+358000,362000,I see a person sitting.,id21,,S,,a person sitting,Y
 362000,364000,He sees a person sitting?,I,,,Y,,
-364000,365000,Yeah.,id21,11,,,,
+364000,365000,Yeah.,id21,11,,,,Y
 365000,367000,Great job.,M,,,,,
 367000,370000,Here you are.,M,,,,,
-370000,377000,I see a crocodile in a black box.,id22,,S,,a crocodile,
+370000,377000,I see a crocodile in a black box.,id22,,S,,a crocodile,Y
 377000,382000,Great.,I,12,,,,
 382000,384000,Now what do we see?,I,,,,,
-384000,387000,I see a guy holding a triangle.,id21,,S,,a guy holding a triangle,
+384000,387000,I see a guy holding a triangle.,id21,,S,,a guy holding a triangle,Y
 387000,389000,A guy holding a triangle.,I,,,Y,,
 389000,391000,Great.,I,13,,,,
 391000,394000,Here you are.,M,,,,,
-394000,398000,I see a guy walking.,id22,,S,,a guy walking,
+394000,398000,I see a guy walking.,id22,,S,,a guy walking,Y
 398000,402000,Great.,I,,,,,
 402000,403000,Great.,M,,,,,
 403000,404000,You guys are done.,I,,,,,

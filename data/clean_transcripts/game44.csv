@@ -131,7 +131,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 245000,247000,"So, [id19], you will tell [id20].",I,,,,,
 247000,248000,Give me one second.,I,,,,,
 248000,251000,You will tell [id20] what you see in the black box.,I,,,,,
-251000,254000,I see a bird in the black box.,id19,,S,,a bird,
+251000,254000,I see a bird in the black box.,id19,,S,,a bird,Y
 254000,255000,He sees.,I,,,,,
 255000,257000,Should we press that one?,I,,,,,
 257000,258000,Yeah.,I,,,,,
@@ -140,7 +140,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 260000,262000,"Yeah, you guys made the right match.",I,,,,,
 262000,264000,Now it'll be your turn to guess.,I,1,,,,
 264000,267000,"So [id20], let's tell [id19] what you see in the black box.",I,,,,,
-267000,268000,Dog.,id20,,S,,dog,
+267000,268000,Dog.,id20,,S,,dog,Y
 268000,270000,He sees a dog.,I,,,Y,,
 270000,271000,Great.,I,,,,,
 271000,273000,You guys are doing great.,I,2,,,,
@@ -148,8 +148,8 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 276000,279000,"Now [id19], what do you see in the black box?",I,,,,,
 279000,280000,I see.,id19,,,,,
 280000,281000,What's that?,id19,,,,,
-281000,282000,Man.,id20,,L,,man,Y
-282000,283000,A person?,id19,,S,,a person,
+281000,282000,Man.,id20,,L,,,Y
+282000,283000,A person?,id19,,S,,a person,Y
 283000,286000,He sees a person.,I,,,Y,,
 286000,287000,Please.,I,,,,,
 287000,291000,Would you like to know more about it or have you made your guess?,I,,,,,
@@ -163,7 +163,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 305000,308000,"[id20], it'll be your turn to tell us.",I,,,,,
 308000,310000,Tell [id19] what you see in the black box.,I,,,,,
 310000,312000,"Now, what do you see?",I,,,,,
-312000,313000,A girl.,id20,,S,,a girl,
+312000,313000,A girl.,id20,,S,,a girl,Y
 313000,315000,He sees a girl.,I,,,Y,,
 315000,318000,Do you see a girl?,I,,,Y,,
 318000,319000,Great.,I,,,,,
@@ -171,7 +171,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 320000,321000,Here you go.,I,4,,,,
 321000,323000,Let's listen carefully to [id19].,I,,,,,
 323000,325000,"[id19], what do you see in the black box?",I,,,,,
-325000,328000,I see someone jumping I think?,id19,,S,,someone jumping,
+325000,328000,I see someone jumping I think?,id19,,S,,someone jumping,Y
 328000,332000,He sees someone jumping.,I,,,Y,,
 332000,333000,Great.,I,5,,,,
 333000,335000,Look at you guys go.,I,,,,,
@@ -180,41 +180,41 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 338000,339000,Now what do you see?,I,,,,,
 339000,341000,"What is that, [id20]?",I,,,,,
 341000,342000,What do you see in the black box?,I,,,,,
-342000,343000,Airplane.,id20,,S,,airplane,
+342000,343000,Airplane.,id20,,S,,airplane,Y
 343000,346000,He sees an airplane.,I,,,Y,,
 346000,347000,I don't see an airplane.,id19,,L,,,Y
 347000,348000,He doesn't see an airplane.,I,,,,,
 348000,350000,Can you tell us a little bit more about it?,I,,,,,
-350000,351000,A man.,id20,,S,,a man,
+350000,351000,A man.,id20,,S,,,Y
 351000,354000,Can you tell us what you see in the black box?,I,,,,,
-354000,355000,This guy.,id20,,S,,this guy,
+354000,355000,This guy.,id20,,S,,,Y
 355000,356000,Yeah.,I,,,,,
 356000,357000,What is that?,I,,,,,
-357000,361000,"A guy driving a jet plane, I think.",id20,,S,,a guy driving a jet plane,
+357000,361000,"A guy driving a jet plane, I think.",id20,,S,,a guy driving a jet plane,Y
 361000,363000,A guy driving a jet plane?,I,,,Y,,
-363000,365000,I don't see it.,id19,,L,,I don’t see it,Y
+363000,365000,I don't see it.,id19,,L,,,Y
 365000,366000,[id19] doesn't see it.,I,,,,,
 366000,369000,Let's try to tell [id19] a little more about what we see.,I,,,,,
-369000,370000,This thing.,id20,,,,,
+369000,370000,This thing.,id20,,,,,Y
 370000,371000,"Well, we can't show him.",I,,,,,
 371000,373000,We have to use our words.,I,,,,,
 373000,375000,What do you see?,I,,,,,
-375000,376000,Walking man.,id20,,S,,walking man,
+375000,376000,Walking man.,id20,,S,,,Y
 376000,377000,Is that in the black box?,I,,,,,
 377000,378000,No.,id20,,,,,
 378000,381000,"You know, so we have to tell us what we see in the black box.",I,,,,,
-381000,385000,"It's kind of an airplane, it looks like one.",id20,,S,,"kind of an airplane, it looks like one",
+381000,385000,"It's kind of an airplane, it looks like one.",id20,,S,,"kind of an airplane, it looks like one",Y
 385000,387000,Kind of an airplane.,I,,,Y,,
-387000,389000,Is it this?,id19,,,,,
+387000,389000,Is it this?,id19,,,,,Y
 389000,391000,"Well, I don't know if that's your choice.",I,,,,,
 391000,394000,You should tap the screen and we'll see.,I,,,,,
 394000,395000,Great.,I,6,,,,
 395000,399000,"Okay, so now it'll be your turn to guess, okay?",I,,,,,
 399000,401000,"What do you see, [id19]?",I,,,,,
-401000,405000,A girl.,id19,,S,,a girl,
+401000,405000,A girl.,id19,,S,,a girl,Y
 405000,408000,"Wow, you guys are on a roll.",I,7,,,,
 408000,410000,Let's give it to [id19] now.,I,,,,,
-410000,413000,"Now what do we see, [id20], in the black box?",I,,S,,a jumping man,
+410000,413000,"Now what do we see, [id20], in the black box?",I,,S,,a jumping man,Y
 413000,415000,A jumping man.,id20,,,Y,,
 415000,417000,A jumping man.,I,,,,,
 417000,419000,"This one, can I tap it?",id19,,,,,
@@ -222,28 +222,28 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 422000,424000,Let's try again.,I,,,,,
 424000,426000,Great.,I,8,,,,
 426000,427000,"Okay, here you go.",I,,,,,
-427000,430000,There's one that's a falling man.,id19,,S,,a falling man,
+427000,430000,There's one that's a falling man.,id19,,S,,a falling man,Y
 430000,433000,The one that's a falling man.,I,,,Y,,
 433000,435000,"Oh, that's okay.",I,,,,,
 435000,437000,"Let's try again next time, okay?",I,9,,,,
 437000,438000,Here you go.,I,,,,,
 438000,441000,"[id20], now what do we see in the black box?",I,,,,,
-441000,443000,A walking man.,id20,,S,,a walking man,
+441000,443000,A walking man.,id20,,S,,a walking man,Y
 443000,446000,A walking man.,I,,,Y,,
 446000,448000,Great.,I,10,,,,
 448000,450000,"Okay, you guys are going so fast.",I,,,,,
 450000,454000,Here you go.,I,,,,,
 454000,456000,What do you see in the box?,id19,,S,,,Y
-456000,457000,A walking man.,id20,,L,,a walking man,
+456000,457000,A walking man.,id20,,L,,,Y
 457000,458000,"Oh, right.",I,,,,,
 458000,460000,"What do you see in the box, [id19]?",I,,,,,
-460000,461000,A walking man.,id19,,S,,a walking man,
+460000,461000,A walking man.,id19,,S,,a walking man,Y
 461000,462000,A walking man.,I,,,Y,,
 462000,465000,Which one is a walking man to you?,I,,,Y,,
-465000,469000,I mean a jumping man.,id20,,L,,a jumping man,Y
+465000,469000,I mean a jumping man.,id20,,L,,,Y
 469000,471000,Not the jumping man.,id19,,S,,not the jumping man,Y
 471000,474000,"Well, he says not the jumping man, so which one would it be?",I,,,Y,,
-474000,476000,The walking.,id20,,L,,the walking,Y
+474000,476000,The walking.,id20,,L,,,Y
 476000,480000,"If that's your choice, just tap on the screen.",I,,,,,
 480000,482000,"Oh, that's okay.",I,11,,,,
 482000,485000,"Yay, I lost.",id20,,,,,
@@ -253,22 +253,22 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 494000,496000,Let's describe what we see in the black box.,I,,,,,
 496000,498000,What is that?,I,,,,,
 498000,501000,What does that look to you?,I,,,,,
-501000,503000,A jet plane.,id20,,S,,a jet plane,
+501000,503000,A jet plane.,id20,,S,,a jet plane,Y
 503000,506000,A jet plane.,I,,,Y,,
 506000,507000,Great.,I,,,,,
 507000,508000,Here you go.,I,12,,,,
 508000,511000,"Now what do we see, [id19]?",I,,,,,
-511000,516000,A girl.,id19,,S,,a girl,
+511000,516000,A girl.,id19,,S,,a girl,Y
 516000,518000,"Oh, that's okay.",I,,,,,
 518000,520000,I did that on purpose.,id20,,,,,
 520000,523000,"Oh, but we have to help Smurphy guess, right?",I,13,,,,
 523000,524000,That's the whole purpose.,I,,,,,
 524000,526000,So now what do we see in the black box?,I,,,,,
 526000,529000,Let's help Smurphy out.,I,,,,,
-529000,531000,A jet plane.,id20,,S,,a jet plane,
+529000,531000,A jet plane.,id20,,S,,,Y
 531000,535000,"Well, let's describe what we see in the black box, [id20].",I,,,,,
 535000,537000,Let's describe what we see in the black box.,I,,,,,
-537000,539000,A jumping man.,id20,,S,,a jumping man,
+537000,539000,A jumping man.,id20,,S,,a jumping man,Y
 539000,542000,A jumping man.,I,,,Y,,
 542000,544000,Here you go.,I,,,,,
 544000,546000,"Let's help Smurphy out, okay?",I,,,,,

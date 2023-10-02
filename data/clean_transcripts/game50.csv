@@ -84,7 +84,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 197560,200360,"So, [id31], you're going to hold on to Smurphy",I,,,,,
 200360,202080,"and you will guess, okay?",I,,,,,
 202080,204960,"[id32], what do you see in the black box?",I,,,,,
-204960,205800,That apple.,id32,,S,,that apple,
+204960,205800,That apple.,id32,,S,,that apple,Y
 205800,206640,"Do you see an apple, [id31]?",I,,,Y,,
 206640,207480,Yes.,id31,,L,,,Y
 207480,208320,Let's press it.,I,1,,,,
@@ -92,7 +92,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 212000,213960,"And we'll pass Murphy on to [id32],",I,,,,,
 213960,216280,"and now [id32] will guess, okay?",I,,,,,
 216280,218080,"[id31], what do you see in the black box?",I,,,,,
-218080,218920,A banana.,id31,,S,,a banana,
+218080,218920,A banana.,id31,,S,,a banana,Y
 218920,219760,A banana.,I,,,Y,,
 220840,221960,"Do you see one, [id32]?",I,,,,,
 221960,222800,Yeah.,id32,,L,,,Y
@@ -103,7 +103,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 228320,229440,I like this game.,id31,,,,,
 229440,230600,"Oh, that's great.",I,,,,,
 230600,234360,"Okay, so, [id32], what do you see in the black box?",I,,,,,
-234360,235280,A person.,id32,,S,,a person,
+234360,235280,A person.,id32,,S,,a person,Y
 235280,236560,She sees a person.,I,,,Y,,
 236560,237400,Do you see a person?,I,,,,,
 237400,238240,Yes.,id31,,L,,,Y
@@ -113,19 +113,19 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 244040,246720,"Now, [id31], what do you see in the black box?",I,,,,,
 246720,249720,"Uh, what's that?",id31,,S,,,Y
 249720,251440,I don't know what it looks like.,I,,,,,
-251440,253840,I think it's a whale.,id31,,S,,a whale,
+251440,253840,I think it's a whale.,id31,,S,,a whale,Y
 253840,254680,A whale.,I,,,Y,,
 254680,255920,Do you see a whale?,I,,,,,
-255920,256760,Yeah.,id32,,L,,,
+255920,256760,Yeah.,id32,,L,,,Y
 256760,257760,Let's press it.,I,,,,,
 258760,259600,Great.,I,4,,,,
 259600,260520,"Great, hey.",I,,,,,
 260520,261440,"Great, my friends.",I,,,,,
 261440,262760,Here you go.,I,,,,,
 262760,265240,"[id32], what do we see in the black box?",I,,,,,
-266760,269640,A person holding something.,id32,,S,,a person holding something,
+266760,269640,A person holding something.,id32,,S,,a person holding something,Y
 269640,272000,A person holding something.,I,,,Y,,
-272000,274680,"I see a person holding something, too.",id31,,L,,a person holding something,Y
+272000,274680,"I see a person holding something, too.",id31,,L,,,Y
 274680,275920,Let's press it.,I,,,,,
 275920,276760,Me?,id32,,,,,
 276760,278040,Only [id31] will press it.,I,5,,,,
@@ -133,7 +133,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 279160,280000,Thank you.,I,,,,,
 280000,281240,Here you go.,I,,,,,
 281240,282840,"Now, what do we see, [id31]?",I,,,,,
-282840,283960,A bird.,id31,,S,,a bird,
+282840,283960,A bird.,id31,,S,,a bird,Y
 283960,285400,She sees a bird.,I,,,Y,,
 285400,286240,What is the bird?,id32,,L,,,Y
 286240,287080,This one?,id32,,L,,,Y
@@ -153,7 +153,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 304280,305880,We have the same one.,I,6,,,,
 305880,307400,"Yeah, here you go.",I,,,,,
 307400,309000,"[id32], what do we see now?",I,,,,,
-309000,313480,A person trying to fly.,id32,,S,,a person trying to fly,
+309000,313480,A person trying to fly.,id32,,S,,a person trying to fly,Y
 313480,316280,She sees a person trying to fly.,I,,,Y,,
 316280,317120,Do you see that?,I,,,,,
 317120,317960,Yeah.,id31,,L,,,Y
@@ -161,10 +161,10 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 321800,323720,Great.,I,,,,,
 323720,325120,Here you go.,I,7,,,,
 325120,326880,"Now, [id31], what do we see in the black box?",I,,,,,
-326880,327720,Whale!,id31,,S,,whale,
+326880,327720,Whale!,id31,,S,,whale,Y
 327720,328560,Whale.,I,,,Y,,
 329560,330400,Do you see a whale?,I,,,,,
-330400,331240,Yeah.,id32,,L,,,
+330400,331240,Yeah.,id32,,L,,,Y
 331240,332080,Let's press it.,I,,,,,
 332080,332920,Me?,id32,,,,,
 332920,333760,Yes.,I,,,,,
@@ -173,7 +173,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 335440,336800,A smile.,id32,,,,,
 336800,337920,Yeah.,I,,,,,
 337920,341200,"Now, [id32], what do we see in the black box?",I,,,,,
-341200,343520,A person holding something again.,id32,,S,,a person holding something again,
+341200,343520,A person holding something again.,id32,,S,,a person holding something,Y
 343520,345000,A person holding something again?,I,,,Y,,
 345000,345840,Me too.,id31,,L,,,Y
 345840,347000,Let's press it.,I,,,,,
@@ -183,7 +183,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 350840,351840,Okay?,I,9,,,,
 351840,353160,Here you go.,I,,,,,
 353160,355400,"[id31], what do we see in the black box?",I,,,,,
-355400,357560,I see people walking.,id31,,S,,people walking,
+355400,357560,I see people walking.,id31,,S,,people walking,Y
 357560,359680,She sees people walking.,I,,,Y,,
 359680,360520,I will push it.,id32,,,,,
 360520,362360,Mm-hmm.,I,,,,,
@@ -191,14 +191,14 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 363200,365480,Now I will press it.,id31,,,,,
 365480,367040,"Okay, here you go.",I,,,,,
 367040,369080,"[id32], what do we see?",I,,,,,
-369080,370640,A person trying to fly again.,id32,,S,,a person trying to fly again,
+369080,370640,A person trying to fly again.,id32,,S,,a person trying to fly,Y
 370640,371760,A person trying to fly again?,i,,,Y,,
 371760,372600,"Yeah, me too.",id31,,L,,,Y
 374440,375280,Great job.,I,,,,,
 375280,377360,"Oh, I pressed it.",id31,,,,,
 377360,378960,Here you go.,I,11,,,,
 378960,380880,"Now, [id31], what do we see?",I,,,,,
-380880,382440,A person holding something.,id31,,S,,a person holding something,
+380880,382440,A person holding something.,id31,,S,,a person holding something,Y
 382440,383920,A person holding something.,I,,,Y,,
 386920,387760,Hey!,id31,12,,,,
 387760,389440,"[id32], silly.",id31,,,,,
@@ -206,7 +206,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 391080,392640,"Now, [id32], what do we see?",I,,,,,
 393760,394600,This?,id32,,,,,
 394600,395440,Mm-hmm.,I,,,,,
-395440,398800,I see a whale swimming.,id32,,S,,a whale swimming,
+395440,398800,I see a whale swimming.,id32,,S,,a whale swimming,Y
 398800,399640,A whale swimming.,I,,,Y,,
 399640,400480,Me too.,id31,,L,,,Y
 400480,402320,Let's press it.,I,,,,,
@@ -214,7 +214,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 403800,404800,,,,,,,
 404800,405960,Here you go.,I,13,,,,
 405960,407360,"Now, what do you see, [id31]?",I,,,,,
-407360,408600,A people walking.,id31,,S,,a people walking,
+407360,408600,A people walking.,id31,,S,,a people walking,Y
 408600,409600,People walking.,I,,,Y,,
 410840,411680,Yay!,I,,,,,
 411680,412520,Great!,I,,,,,

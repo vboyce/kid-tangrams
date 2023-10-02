@@ -44,7 +44,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 94560,95400,Perfect.,I,0,,,,
 95400,97520,"Now, [id49] will be guessing first.",I,,,,,
 97520,100720,"So [id50], what does that look like in the blue box?",I,,,,,
-100720,102280,A banana.,id50,,S,,a banana,
+100720,102280,A banana.,id50,,S,,a banana,Y
 102280,105320,So [id50] sees a banana in the black box.,I,,,Y,,
 105320,107480,Which one looks like a banana to you?,I,,,,,
 107480,108480,Let's press on it.,I,,,,,
@@ -55,7 +55,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 115720,117320,"Now, [id50] will be guessing.",I,,,,,
 117320,118560,Here you go.,I,,,,,
 118560,120640,"Now, [id49], what does that look like to you?",I,,,,,
-120640,121480,A dog.,id49,,S,,a dog,
+120640,121480,A dog.,id49,,S,,a dog,Y
 121480,122440,Do you see a dog?,I,,,,,
 122440,123280,Yeah.,I,,,,,
 123280,126120,Let's press on it.,I,,,,,
@@ -66,16 +66,16 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 129720,131160,We'll pass you on.,I,,,,,
 131160,132280,"Okay, [id50].",I,,,,,
 132280,133800,"Now, what does that look like to you?",I,,,,,
-133800,135200,A plane.,id50,,S,,a plane,
+133800,135200,A plane.,id50,,S,,a plane,Y
 135200,136240,A plane.,I,,,Y,,
 136240,137360,Do you see a plane?,I,,,,,
 139360,140200,[id49]?,I,,,,,
 142120,143120,No?,I,,,,,
 143120,144840,What else does it look like to you?,I,,,,,
 144840,147120,Let's try to help [id49] guess.,I,,,,,
-147120,148440,A boat.,id50,,S,,a boat,
+147120,148440,A boat.,id50,,S,,a boat,Y
 148440,149280,A boat.,I,,,Y,,
-149280,151720,That has a turbo engine on the back.,id50,,S,,that has a turbo engine on the back,
+149280,151720,That has a turbo engine on the back.,id50,,S,,that has a turbo engine on the back,Y
 151720,154120,A boat that has a turbo engine on the back.,I,,,Y,,
 154120,155360,Which one looks like a boat,I,,,Y,,
 155360,157880,that has a turbo engine on the back?,I,,,Y,,
@@ -88,7 +88,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 164560,165680,Here you go.,I,,,,,
 165680,166880,"Okay, [id49].",I,,,,,
 166880,168480,What does that look like to you?,I,,,,,
-170040,171280,A person.,id49,,S,,a person,
+170040,171280,A person.,id49,,S,,a person,Y
 171280,172160,A person?,I,,,Y,,
 172160,173120,It looks like a person.,I,,,Y,,
 173120,174880,"Which one looks like a person to you, [id50]?",I,,,Y,,
@@ -100,9 +100,9 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 182280,183760,"Okay, let's pass it on.",I,,,,,
 183760,185000,Do-do-do-do-do.,I,,,,,
 185000,185840,Plop.,I,,,,,
-185840,187440,It's a plane again.,id50,,S,,a plane again,
+185840,187440,It's a plane again.,id50,,S,,,Y
 187440,190160,What does this look like inside of the box?,I,,,,,
-190160,193640,A bird that has feet.,id50,,S,,a bird that has feet,
+190160,193640,A bird that has feet.,id50,,S,,a bird that has feet,Y
 193640,195080,A bird that has feet.,I,,,Y,,
 195080,197240,Which one looks like a bird that has feet?,I,,,Y,,
 200080,200920,This one.,id49,,,,,
@@ -113,7 +113,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 209360,210880,Here you go.,I,,,,,
 210880,211720,"Okay, [id49].",I,,,,,
 211720,212840,What does that look like to you?,I,,,,,
-212840,213680,A person.,id49,,S,,a person,
+212840,213680,A person.,id49,,S,,a person,Y
 213680,214520,A person.,I,,,Y,,
 214520,215800,"Which one looks like a person, [id50]?",I,,,Y,,
 215800,216640,This one.,id50,,L,,,Y
@@ -125,7 +125,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 221920,223480,Do-do-do-do-do.,I,,,,,
 223480,224320,Okay.,I,,,,,
 224320,225480,What does that look like?,I,,,,,
-225480,226960,A person.,id50,,S,,a person,
+225480,226960,A person.,id50,,S,,a person,Y
 226960,227800,A person.,I,,,,,
 228840,229680,Did you see a person?,I,,,,,
 229680,231000,Let's press it.,I,,,,,
@@ -134,7 +134,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 236280,237760,Here you go.,I,,,,,
 237760,238600,"Okay, [id49].",I,,,,,
 238600,240120,What does that look like to you?,I,,,,,
-240120,240960,A dog.,id49,,S,,a dog,
+240120,240960,A dog.,id49,,S,,a dog,Y
 240960,241800,A dog.,I,,,Y,,
 243640,245120,"Do you see a dog, [id50]?",I,,,Y,,
 245120,245960,No.,id50,,L,,,Y
@@ -151,10 +151,10 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 262160,263840,Here you go.,I,,,,,
 263840,264880,"Okay, my friend, [id50].",I,,,,,
 264880,266200,What does that look like to you?,I,,,,,
-266200,267560,Uh...,id50,,,,,
-267560,269200,A person that can fly.,id50,,S,,a person that can fly,
+266200,267560,Uh...,id50,,,,,Y
+267560,269200,A person that can fly.,id50,,S,,a person that can fly,Y
 269200,270720,A person that can fly.,I,,,Y,,
-270720,273840,"And, I mean, a bird that has feet.",id50,,S,,a bird that has feet,
+270720,273840,"And, I mean, a bird that has feet.",id50,,S,,a bird that has feet,Y
 273840,275040,"Oh, and a bird that has feet.",I,,,Y,,
 275040,277040,Which one looks like a bird that has feet?,I,,,,,
 279040,280360,Let's press it.,I,,,,,
@@ -163,23 +163,23 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 282280,284360,"Okay, let's pass it on.",I,9,,,,
 284360,285440,Here you go.,I,,,,,
 285440,287600,"Now, [id49], what does that look like to you?",I,,,,,
-287600,292600,A person that has something in front to eat.,id49,,S,,a person that has something in front to eat,
+287600,292600,A person that has something in front to eat.,id49,,S,,a person that has something in front to eat,Y
 293880,296480,A person that has something in front to eat.,I,,,Y,,
-296480,297320,In a bowl.,id49,,S,,in a bowl,
+296480,297320,In a bowl.,id49,,S,,in a bowl,Y
 297320,298160,In a bowl.,I,,,Y,,
 298160,299480,Yay!,I,,,,,
 299480,300320,Great.,I,10,,,,
 300320,301560,"Okay, let's pass it on.",I,,,,,
 301560,302400,Bam!,I,,,,,
 304480,306680,"Okay, what does that look like?",I,,,,,
-306680,311160,A person that has something to eat in his hands.,id50,,S,,a person that has something to eat in his hands,
+306680,311160,A person that has something to eat in his hands.,id50,,S,,a person that has something to eat in his hands,Y
 311160,313680,A person that has something to eat in his hands.,I,,,Y,,
 313680,315600,Which one does that look like?,I,,,,,
 315600,317600,Let's press it.,I,,,,,
 317600,319440,Great.,I,11,,,,
 319440,320600,Buh-bye.,I,,,,,
 322600,324640,"[id49], now, what does that look like to you?",I,,,,,
-324640,325880,A dead dog.,id49,,S,,a dead dog,
+324640,325880,A dead dog.,id49,,S,,a dead dog,Y
 325880,326920,A dead dog.,I,,,Y,,
 326920,328240,Which one?,id50,,L,,,Y
 328240,329640,[id49] sees a dead dog.,I,,,Y,,
@@ -189,9 +189,9 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 333720,335200,Great.,I,12,,,,
 335200,337080,"Okay, let's continue.",I,,,,,
 337080,340400,"And, now, [id50], what does that look like to you?",I,,,,,
-340400,344080,A flying person that has a jetpack.,id50,,S,,a flying person that has a jetpack,
+340400,344080,A flying person that has a jetpack.,id50,,S,,a flying person that has a jetpack,Y
 344080,347040,"Ooh, a flying person that has a jet on his back.",I,,,Y,,
-347040,348760,"No, a jet pack.",id50,,S,,a jet pack,
+347040,348760,"No, a jet pack.",id50,,S,,,Y
 348760,350120,A jet pack.,I,,,,,
 350120,351640,Do you even know what a jet pack is?,id50,,S,,,
 351640,352800,I do know what jet packs are.,I,,,,,
@@ -205,9 +205,9 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 362720,364040,Great.,I,,,,,
 364040,364880,Bam!,I,13,,,,
 367040,369320,"Okay, [id49], what does that look like to you?",I,,,,,
-369320,370320,A person.,id49,,S,,a person,
+369320,370320,A person.,id49,,S,,a person,Y
 370320,371160,A person.,I,,,Y,,
-371160,373240,Looking down and walking.,id49,,S,,looking down and walking,
+371160,373240,Looking down and walking.,id49,,S,,looking down and walking,Y
 373240,374720,Looking down and walking.,I,,,Y,,
 374720,375560,Ooh.,I,,,,,
 379400,380720,Let's try again.,I,13,,,,

@@ -55,7 +55,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 128000,131000,"So [id46] will hold Smurfy and [id45],",I,,,,,
 131000,134000,we will tell [id46] what we see in the black box.,I,,,,,
 134000,136000,What does that look like?,I,,,,,
-136000,137000,Bird.,id45,,S,,bird,
+136000,137000,Bird.,id45,,S,,bird,Y
 137000,138000,She sees a bird.,I,,,Y,,
 138000,140000,Do you see a bird?,I,,,Y,,
 140000,142000,Let's press on it.,I,,,,,
@@ -63,9 +63,9 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 143000,145000,So that was a match.,I,,,,,
 145000,148000,"Now [id45] will guess, okay?",I,,,,,
 148000,150000,What does that look like to you?,I,,,,,
-150000,152000,A dog.,id46,,S,,dog,
+150000,152000,A dog.,id46,,S,,dog,Y
 152000,153000,A what?,I,,,,,
-153000,154000,A dog.,id46,,S,,dog,
+153000,154000,A dog.,id46,,S,,,Y
 154000,156000,A dog. Do you see a dog?,I,,,Y,,
 156000,158000,Let's press on it.,I,,,,,
 158000,160000,[id45] will press on it.,I,2,,,,
@@ -74,8 +74,8 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 167000,169000,I don't know.,id45,,S,,,Y
 169000,172000,"Yeah, it's kind of silly, huh?",I,,,,,
 172000,174000,What does it look like?,I,,,,,
-174000,176000,I don't know.,id45,,S,,,
-176000,178000,I don't know.,id45,,S,,,
+174000,176000,I don't know.,id45,,S,,,Y
+176000,178000,I don't know.,id45,,S,,,Y
 178000,179000,What do you see?,I,,,,,
 179000,180000,I want to follow that.,id46,,,,,
 180000,181000,That's okay.,I,,,,,
@@ -85,7 +85,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 188000,191000,I don't know what they're like.,id45,,L,,,Y
 191000,193000,It's interesting.,I,,,,,
 193000,196000,What does it kind of look like?,I,,,,,
-196000,200000,I don't know.,id45,,,,,
+196000,200000,I don't know.,id45,,,,,Y
 200000,204000,That is a tough question.,I,,,,,
 204000,210000,How would we tell [id46] what this looks like in order to help make a guess?,I,,,,,
 210000,213000,"Because we want to help Smurfy guess, right?",I,,,,,
@@ -99,7 +99,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 230000,231000,It's a match.,I,,,,,
 231000,233000,"Yeah, okay, here you go.",I,,,,,
 233000,238000,"Now [id46], what does that look like to you?",I,,,,,
-238000,239000,Triangle.,id46,,S,,triangle,
+238000,239000,Triangle.,id46,,S,,triangle,Y
 239000,241000,A triangle?,I,,,Y,,
 241000,243000,"Okay, let's tell [id45] what we see.",I,,,,,
 243000,245000,"So you see a triangle, right?",I,,,Y,,
@@ -107,7 +107,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 249000,252000,See a triangle?,I,,,Y,,
 252000,260000,What else does it look like to you?,I,,,,,
 260000,262000,What does it kind of look like?,I,,,,,
-262000,264000,A triangle.,id46,,S,,a triangle,
+262000,264000,A triangle.,id46,,S,,,Y
 264000,266000,"Okay, well [id45], listen up.",I,,,,,
 266000,269000,[id46] said that he sees a triangle.,I,,,,,
 269000,272000,Let's try to make the best guess that we can.,I,,,,,
@@ -116,9 +116,9 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 278000,280000,"Great, it was a match.",I,,,,,
 280000,282000,Here we go.,I,4,,,,
 282000,285000,"Now [id45], my friend, what does that look like?",I,,,,,
-285000,287000,Walking the people.,id46,,L,,walking the people,
+285000,287000,Walking the people.,id46,,L,,,Y
 287000,289000,"Let's listen up, okay?",I,,,,,
-289000,290000,It looks like a person.,id45,,S,,a person,
+289000,290000,It looks like a person.,id45,,S,,a person,Y
 290000,292000,It looks like a person?,I,,,Y,,
 292000,295000,"So [id46], [id45] says it looks like a person.",I,,,Y,,
 295000,297000,Which one looks like a person to you?,I,,,Y,,
@@ -126,19 +126,19 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 299000,302000,"Great, let's pass.",I,,,,,
 302000,304000,"Okay, [id46].",I,,,,,
 304000,306000,What does that look like to you?,I,,,,,
-306000,307000,A person.,id46,,S,,a person,
+306000,307000,A person.,id46,,S,,a person,Y
 307000,310000,"A person? Okay, [id46] says a person.",I,,,Y,,
 310000,313000,"[id45], which one looks like a person?",I,,,Y,,
 313000,316000,Let's press on it.,I,,,,,
 316000,319000,"Great, my friends.",I,6,,,,
 319000,322000,"Okay, [id45], what does that look like to you?",I,,,,,
-322000,323000,A person.,id45,,S,,a person,
+322000,323000,A person.,id45,,S,,a person,Y
 323000,324000,It looks like a person.,I,,,Y,,
 324000,325000,Do you see a person?,I,,,,,
 325000,328000,Let's press on it.,I,,,,,
 328000,331000,"Great, you guys are helping Smurfy guess.",I,7,,,,
 331000,334000,"Okay, what does that look like to you?",I,,,,,
-334000,335000,A cowboy.,id46,,S,,a cowboy,
+334000,335000,A cowboy.,id46,,S,,a cowboy,Y
 335000,337000,A cowboy?,I,,,Y,,
 337000,339000,[id46] says that it looks like a cowboy.,I,,,Y,,
 339000,341000,Which one looks like a cowboy?,I,,,Y,,
@@ -146,7 +146,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 343000,345000,"Great, my friends.",I,,,,,
 345000,347000,Here you go.,I,,,,,
 347000,352000,"[id45], now what does that look like to you?",I,,,,,
-352000,353000,A whale.,id45,,S,,a whale,
+352000,353000,A whale.,id45,,S,,a whale,Y
 353000,354000,A whale.,I,,,Y,,
 354000,355000,Do you see a whale?,I,,,Y,,
 355000,357000,Let's press on it.,I,,,,,
@@ -154,34 +154,34 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 359000,361000,"Okay, let's continue on.",I,,,,,
 361000,362000,Here you go.,I,9,,,,
 362000,365000,What does that look like?,I,,,,,
-365000,366000,A person?,id46,,S,,a person,
+365000,366000,A person?,id46,,S,,a person,Y
 366000,367000,Looks like a person.,I,,,Y,,
 367000,369000,"Do you see a person, [id45]?",I,,,Y,,
 369000,372000,Let's press on it.,I,,,,,
 372000,373000,Ready?,I,,,,,
 373000,375000,I press that.,id46,10,,,,
 375000,378000,"Okay, [id45], what does that look like?",I,,,,,
-378000,379000,A person.,id45,,S,,a person,
+378000,379000,A person.,id45,,S,,a person,Y
 379000,380000,A person.,I,,,Y,,
 380000,381000,Do you see a person?,I,,,Y,,
 381000,383000,Press on it.,I,,,,,
 383000,386000,"Great, let's press on it.",I,11,,,,
 386000,389000,"Okay, what does that look like to you?",I,,,,,
-389000,390000,A boat.,id46,,S,,a boat,
+389000,390000,A boat.,id46,,S,,a boat,Y
 390000,392000,A boat.,I,,,Y,,
 392000,394000,"[id46] says a boat, [id45].",I,,,Y,,
-394000,395000,A boat.,id46,,S,,a boat,
-395000,397000,People standing in the boat.,id46,,S,,people standing in the boat,
+394000,395000,A boat.,id46,,S,,,Y
+395000,397000,People standing in the boat.,id46,,S,,people standing in the boat,Y
 397000,399000,People standing in the boat?,I,,,Y,,
 399000,400000,Which one does it look like?,I,,,,,
-400000,401000,The boat.,id46,,S,,the boat,
+400000,401000,The boat.,id46,,S,,,Y
 401000,403000,Which one does that look like?,I,,,,,
 403000,405000,Let's press it.,I,12,,,,
 405000,407000,Let's try it again.,I,,,,,
 407000,409000,Great.,I,,,,,
 409000,411000,Here you go.,I,,,,,
 411000,413000,"[id45], what does that look like?",I,,,,,
-413000,414000,A person.,id45,,S,,a person,
+413000,414000,A person.,id45,,S,,a person,Y
 414000,415000,A person.,I,,,Y,,
 415000,417000,Let's press on it.,I,,,,,
 417000,418000,That's okay.,I,,,,,
@@ -191,7 +191,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 422000,423000,Blop.,I,,,,,
 423000,424000,Blop.,I,,,,,
 424000,426000,Now what does that look like to you?,I,,,,,
-426000,427000,A person.,id46,,S,,a person,
+426000,427000,A person.,id46,,S,,a person,Y
 427000,428000,It looks like a person.,I,,,Y,,
 428000,430000,"[id45], which one looks like a person?",I,,,Y,,
 430000,433000,Let's press on it.,I,,,,,

@@ -39,7 +39,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 126000,127000,Me.,id24,,,,,
 127000,129000,What do you see? Tell [id23].,M,,,,,
 134000,136000,What does it look like?,I,,,,,
-139000,140000,A bird?,id24,,S,,a bird,
+139000,140000,A bird?,id24,,S,,a bird,Y
 140000,142000,A bird.,I,,,Y,,
 142000,144000,"[id23], do you see a bird?",I,,,Y,,
 144000,146000,Go ahead and touch it.,M,,,,,
@@ -48,42 +48,42 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 153000,155000,"It will be your turn to guess, okay?",I,,,,,
 155000,156000,So let's listen to [id23].,I,,,,,
 156000,158000,So now what do you see in the black box?,M,,,,,
-158000,160000,Banana.,id23,,S,,Banana,
+158000,160000,Banana.,id23,,S,,Banana,Y
 160000,162000,Do you see a banana?,I,,,Y,,
 165000,167000,And that's where it's going to keep going like that.,M,2,,,,
 167000,170000,So now let's tell [id23] what we see.,I,,,,,
-173000,174000,A boat.,id24,,S,,a boat,
+173000,174000,A boat.,id24,,S,,a boat,Y
 174000,176000,A boat?,I,,,Y,,
 176000,178000,Let's tap it.,I,,,,,
 180000,182000,Great!,I,,,,,
 182000,184000,Here you are.,M,,,,,
 184000,186000,Here you go.,I,3,,,,
 186000,188000,"And now we will guess. So what do we see, [id23]?",I,,,,,
-188000,190000,A boat.,id23,,S,,a boat,
+188000,190000,A boat.,id23,,S,,a boat,Y
 190000,192000,We see a boat. Do you see a boat?,I,,,Y,,
 192000,196000,Let's tap it.,I,,,,,
 197000,201000,"See, it wasn't a match, but that's okay because we can keep helping Smurfy.",M,4,,,,
 201000,203000,Man.,id24,,,,,
 203000,205000,It's okay.,I,,,,,
 205000,207000,Now what do we see?,I,,,,,
-207000,209000,Feet.,id24,,S,,feet,
+207000,209000,Feet.,id24,,S,,feet,Y
 209000,211000,Feet.,id24,,,Y,,
 211000,213000,Feet?,I,,,Y,,
 213000,215000,He says he sees feet.,I,,,Y,,
 216000,220000,Do you want to tell [id23] a bit more about what you see?,I,,,,,
-220000,222000,I see a feet.,id24,,S,,a feet,
+220000,222000,I see a feet.,id24,,S,,,Y
 222000,224000,He sees feet.,I,,,Y,,
 224000,226000,Do you see feet on this one?,I,,,Y,,
 228000,230000,No.,I,,,,,
 232000,234000,What else does it look like?,I,,,,,
-238000,240000,Yes.,id24,,,,,
+238000,240000,Yes.,id24,,,,,Y
 240000,242000,What else does it look like?,I,,,,,
-242000,244000,[mumbling],id24,,,,,
+242000,244000,[mumbling],id24,,,,,Y
 251000,255000,So we're going to make our best guess in which one we think kind of looks like feet.,M,,,Y,,
 255000,257000,We know they look kind of funny.,M,,,,,
-261000,263000,Somebody jumping.,id23,,L,,somebody jumping,Y
+261000,263000,Somebody jumping.,id23,,L,,,Y
 263000,264000,What is it?,M,,,,,
-264000,266000,Somebody jumping.,id23,,L,,somebody jumping,Y
+264000,266000,Somebody jumping.,id23,,L,,,Y
 266000,269000,Is that the one you want to guess with feet?,M,,,Y,,
 269000,272000,Go ahead and touch it.,M,,,,,
 272000,274000,Touch it one more time.,M,,,,,
@@ -93,16 +93,16 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 280000,282000,,,,,,,
 282000,285000,"Oh, let's wait a second. Let's listen to [id23], okay?",I,,,,,
 285000,287000,"[id23], what do you see?",M,,,,,
-287000,290000,A person walking.,id23,,S,,a person walking,
+287000,290000,A person walking.,id23,,S,,a person walking,Y
 290000,292000,He sees a person walking.,I,,,Y,,
 294000,296000,Great.,I,6,,,,
 296000,298000,Let's pass it on.,I,,,,,
 298000,300000,What do we see in the box?,I,,,,,
 304000,306000,What do we see?,I,,,,,
-306000,308000,Stairs.,id24,,S,,stairs,
-310000,312000,Kind of stairs.,id24,,S,,kind of stairs,
+306000,308000,Stairs.,id24,,S,,stairs,Y
+310000,312000,Kind of stairs.,id24,,S,,,Y
 312000,314000,Can you repeat? Can you say it again?,I,,,,,
-314000,316000,Stairs.,id24,,S,,stairs,
+314000,316000,Stairs.,id24,,S,,,Y
 316000,318000,Stairs?,M,,,Y,,
 318000,320000,He sees stairs.,M,,,Y,,
 320000,325000,What else does it look like?,I,,,,,
@@ -121,32 +121,32 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 365000,367000,Great.,I,7,,,,
 367000,369000,Let's pass it on.,I,,,,,
 369000,371000,"What do we see, [id23]?",I,,,,,
-373000,376000,A guy with a paper thing.,id23,,S,,a guy with a paper thing,
+373000,376000,A guy with a paper thing.,id23,,S,,a guy with a paper thing,Y
 376000,378000,A guy with a paper thing.,I,,,Y,,
 378000,380000,Do you see a guy with a paper thing?,I,,,Y,,
 382000,384000,"Oh, great.",I,,,,,
-384000,386000,Yeah!,id24,,,,,
+384000,386000,Yeah!,id24,,,,,Y
 386000,388000,Here you go.,M,8,,,,
 388000,390000,Now what do we see in the box?,I,,,,,
-390000,392000,A box with a boat.,id24,,S,,a box with a boat,
+390000,392000,A box with a boat.,id24,,S,,a box with a boat,Y
 392000,394000,A box with a boat.,I,,,Y,,
 394000,396000,Got it.,M,,,,,
 396000,398000,Touch it.,M,9,,,,
 398000,400000,Great.,M,,,,,
 400000,402000,Let's pass it on.,I,,,,,
 402000,406000,Now what do we see?,I,,,,,
-406000,408000,That.,id23,,S,,that,
+406000,408000,That.,id23,,S,,,Y
 408000,410000,What do you see in the box?,M,,,,,
-410000,414000,A person looking down.,id23,,S,,a person looking down,
+410000,414000,A person looking down.,id23,,S,,a person looking down,Y
 414000,418000,A person looking down.,M,,,Y,,
 418000,420000,Touch the one you think it is,M,,,,,
 420000,422000,Touch it.,M,,,,,
-422000,426000,There's two red little friends walking around.,id23,,S,,,
+422000,426000,There's two red little friends walking around.,id23,,S,,,Y
 426000,428000,There you go.,M,,,,,
 428000,430000,That's okay.,M,10,,,,
 430000,432000,What do we see here?,I,,,,,
 432000,434000,What do we see?,I,,,,,
-434000,436000,A walk.,id24,,S,,a walk,
+434000,436000,A walk.,id24,,S,,a walk,Y
 436000,438000,A walk.,I,,,Y,,
 440000,442000,Don't see a walk?,I,,,Y,,
 442000,444000,Okay.,I,,,,,
@@ -160,17 +160,17 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 474000,476000,No.,id24,,,,,
 476000,478000,That's okay if we're wrong.,M,,,,,
 478000,480000,Now what do we see?,I,,,,,
-480000,482000,A boat.,id23,,S,,a boat,
+480000,482000,A boat.,id23,,S,,a boat,Y
 482000,484000,See a boat.,I,,,Y,,
 484000,486000,Great.,I,,,,,
-486000,488000,Yes.,id24,,,,,
+486000,488000,Yes.,id24,,,,,Y
 488000,490000,All right.,M,12,,,,
 490000,492000,Now your turn to describe or tell.,M,,,,,
 492000,494000,What do we see there?,I,,,,,
-494000,496000,A dog.,id24,,S,,a dog,
+494000,496000,A dog.,id24,,S,,a dog,Y
 496000,498000,And.,id24,,,,,
 500000,502000,What does it look like?,M,,,,,
-502000,506000,I mean a camera?,id24,,S,,a camera,
+502000,506000,I mean a camera?,id24,,S,,a camera,Y
 506000,508000,A camera?,I,,,Y,,
 508000,510000,A camera.,M,,,Y,,
 510000,512000,Hmm.,I,,,,,
@@ -180,7 +180,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 520000,522000,That's okay.,I,,,,,
 522000,524000,I can't remember what it looks like.,id24,,L,,,Y
 524000,526000,Now what do we see in the box?,I,,,,,
-528000,530000,A person jumping again.,id23,,S,,a person jumping again,
+528000,530000,A person jumping again.,id23,,S,,a person jumping,Y
 530000,532000,A person jumping again.,I,,,Y,,
 538000,540000,Great.,I,,,,,
 540000,542000,Let's pass it on.,I,,,,,
