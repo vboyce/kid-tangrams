@@ -1,0 +1,211 @@
+start,end,text,,,,,,,,speaker
+0,2000,Do you guys want to say hi?,,,,,,,,I
+6000,12000,So today we're gonna be playing a super duper fun matching game. Let us show you how it works.,,,,,,,,M
+12000,16000,"Now this is going to be Mr. Smurphy, okay?",,,,,,,,I
+16000,21000,And Smurphy is a very sneaky animal. What animal do we think he is?,,,,,,,,I
+21000,22000,A wolf.,,,,,,,,id10
+22000,27000,"A wolf? Okay, so then we're gonna say this is Smurphy the sneaky wolf, okay?",,,,,,,,I
+27000,31000,And Smurphy wants to play this matching game today.,,,,,,,,I
+31000,37000,And what he wants to do is he wants to guess the correct picture from two pictures.,,,,,,,,I
+37000,43000,"And this correct one will be the picture in a black box, okay?",,,,,,,,I
+43000,48000,"And let's say we have Smurphy today, okay? Let's say that [id10] has Smurphy.",,,,,,,,I
+48000,56000,"If we have Smurphy, then we will be in charge of guessing the picture that is in the black box.",,,,,,,,I
+56000,66000,"If we do not have Smurphy, then you will be in charge of telling [id10] and Smurphy what you see in the black box, okay?",,,,,,,,I
+66000,69000,"So let's try it out. Let's say you have Smurphy, right?",,,,,,,,I
+69000,77000,"If [id10] has Smurphy, [id10], are you going to guess the picture that is in the black box?",,,,,,,,I
+77000,80000,Or are you going to tell someone what you see in the black box?,,,,,,,,I
+80000,90000,First I guess.,,,,,,,,I
+90000,91000,Guess.,,,,,,,,id10
+91000,93000,"You're going to guess. Great job, yeah.",,,,,,,,I
+93000,101000,"And [id9], if you do not have Smurphy, are you going to guess first or are you going to tell [id10] what you see in the black box?",,,,,,,,I
+101000,102000,Guess.,,,,,,,,id9
+102000,108000,"You are going to tell, okay? If you don't have Smurphy, because Smurphy is the guesser, okay?",,,,,,,,I
+108000,110000,Yeah.,,,,,,,,I
+110000,111000,"Okay, okay.",,,,,,,,I
+111000,116000,"So you're going to make your guess by tapping on the one you think it is on your screen, okay?",,,,,,,,I
+116000,119000,"So after you tap, you're going to see a picture.",,,,,,,,M
+119000,123000,"If you see a smiley face, that means it was a match. Great job.",,,,,,,,M
+123000,128000,"But if you see a sad face, that means it wasn't a match, but you guys can help Smurphy later.",,,,,,,,M
+128000,130000,Do you guys have any questions?,,,,,,,,M
+130000,132000,Any questions?,,,,,,,,M
+132000,133000,No.,,,,,,,,M
+133000,134000,Great. All right.,,,,,,,,M
+134000,138000,You guys can go ahead and start by pressing on the screen.,,,,,,,,M
+138000,139000,Press on that blue screen.,,,,,,,,M
+139000,142000,And it looks like you are going to be the guesser first.,,,,,,,,M
+142000,144000,So you are going to have Smurphy first.,,,,,,,,M
+144000,147000,"All right, my friend. So what do you see in this black box?",,,,,,,,M
+147000,151000,Banana.,,,,,,,,id9
+151000,152000,Great.,,,,,,,,M
+152000,153000,Great job.,,,,,,,,M
+153000,155000,So that was a match.,,,,,,,,M
+155000,158000,So now you have Smurphy and you will be in charge of guessing.,,,,,,,,I
+158000,161000,"Okay. What do you see, [id10], in the black box?",,,,,,,,I
+161000,165000,Apple,,,,,,,,id10
+165000,166000,Apply,,,,,,,,I
+166000,167000,"All right, [id9].",,,,,,,,M
+167000,169000,Go ahead and make your guess.,,,,,,,,M
+169000,170000,Great job.,,,,,,,,M
+170000,172000,Now we are going to pass Smurphy back over.,,,,,,,,M
+172000,174000,Come right over here.,,,,,,,,M
+174000,175000,There you are.,,,,,,,,M
+175000,177000,I don't know what shape this is.,,,,,,,,id9
+177000,178000,I know.,,,,,,,,M
+178000,179000,That looks dark.,,,,,,,,M
+179000,181000,"They look kind of silly, huh?",,,,,,,,M
+181000,183000,But you're just going to tell her whatever you see.,,,,,,,,M
+183000,186000,Let's listen to [id9] very carefully.,,,,,,,,I
+186000,187000,Okay.,,,,,,,,I
+187000,190000,What do we see in the black box?,,,,,,,,I
+190000,197360,"We know they look kind of silly, but you're just going to say whatever you think it kind",,,,,,,,M
+197360,198360,of looks like.,,,,,,,,M
+198360,199360,It kind of looks like a boat.,,,,,,,,id9
+199360,200360,Oh.,,,,,,,,M
+200360,201360,It kind of looks like a boat.,,,,,,,,id9
+201360,202360,Because this is the part that you stand on.,,,,,,,,id9
+202360,203360,"Oh, interesting.",,,,,,,,M
+203360,204360,"Now which one looks like a boat to you, [id10]?",,,,,,,,I
+204360,205360,This one.,,,,,,,,I
+205360,206360,Should we press it?,,,,,,,,I
+206360,207360,"If that's your guess, go ahead and press it.",,,,,,,,M
+207360,208360,Okay.,,,,,,,,I
+208360,226040,Do you think that's a boat?,,,,,,,,I
+226040,227040,No.,,,,,,,,I
+227040,229040,Do you want to give a little more descriptions?,,,,,,,,I
+229040,236040,Do you want to tell [id10] a little bit more about what you see?,,,,,,,,I
+236040,243040,"You have a triangle boat here, and a square, and a triangle that's on the boat, and a little",,,,,,,,id9
+243040,246040,triangle piece coming out.,,,,,,,,id9
+246040,254040,Which one do you think it is?,,,,,,,,M
+254040,257040,"Smurf, you really want to guess.",,,,,,,,M
+257040,260040,I want to guess.,,,,,,,,id10
+260040,264040,"Let's help him guess together, huh?",,,,,,,,I
+264040,274040,Which one do you think it would be?,,,,,,,,I
+274040,275040,Let's just pick one.,,,,,,,,I
+275040,285040,Which one do you think is the one that [id9] is telling you about?,,,,,,,,I
+285040,286040,I don't know.,,,,,,,,id10
+286040,287040,We don't know.,,,,,,,,I
+287040,290040,Do you want to learn a little bit more about what it looks like?,,,,,,,,I
+290040,293040,This is all I can tell.,,,,,,,,id9
+293040,297040,"So she said it looks like a boat, and there's some triangles that go like this.",,,,,,,,I
+297040,298040,I don't know.,,,,,,,,id10
+298040,299040,Should we press it?,,,,,,,,I
+299040,300040,Let's press it.,,,,,,,,I
+300040,301040,Maybe.,,,,,,,,id10
+301040,302040,It's okay.,,,,,,,,I
+302040,303040,It's whichever one you think.,,,,,,,,I
+303040,304040,Yeah.,,,,,,,,I
+304040,305040,"And if it's wrong, that's okay.",,,,,,,,I
+305040,306040,We can try again next time.,,,,,,,,I
+306040,307040,Yeah.,,,,,,,,I
+307040,308040,So it's okay.,,,,,,,,I
+308040,309040,Let's press the one that you think it is.,,,,,,,,I
+309040,310040,Great job.,,,,,,,,I
+310040,324040,Now we're going to pass Smurfy on .,,,,,,,,I
+324040,325040,Great job helping Smurfie.,,,,,,,,I
+325040,326040,All right.,,,,,,,,I
+326040,328040,How does that look like?,,,,,,,,I
+328040,329040,That's silly.,,,,,,,,id10
+329040,336040,"When I press this one, it turns into this one.",,,,,,,,id10
+336040,338040,"That is so silly, right?",,,,,,,,I
+338040,341040,What do we see in the black box now?,,,,,,,,I
+341040,342040,This.,,,,,,,,id10
+342040,344040,This is silly stuff.,,,,,,,,id10
+344040,346040,This is silly stuff.,,,,,,,,I
+346040,350040,So how would you tell [id9] which one to guess?,,,,,,,,M
+350040,351040,[id9].,,,,,,,,id10
+351040,352040,I will show you the which one.,,,,,,,,id10
+352040,354040,"Oh, my friend, we want to sit down.",,,,,,,,M
+354040,357040,Because we just want to tell so they can guess.,,,,,,,,M
+357040,358040,Yeah.,,,,,,,,M
+358040,362040,So you want to tell her what's in the black box so she can guess.,,,,,,,,I
+362040,363040,[id9].,,,,,,,,id10
+363040,365040,Pay attention.,,,,,,,,id10
+365040,366040,She is.,,,,,,,,M
+366040,368040,She is going to pay attention.,,,,,,,,I
+368040,369040,[id9].,,,,,,,,id10
+369040,370040,[id9].,,,,,,,,id10
+370040,371040,Yes.,,,,,,,,id9
+371040,372040,[id9].,,,,,,,,id10
+372040,383040,The one in a boat is a boat.,,,,,,,,id10
+383040,385040,I think I see it.,,,,,,,,id9
+385040,390040,Do you want to tap it so you can guess?,,,,,,,,M
+390040,392040,Try again.,,,,,,,,M
+392040,393040,It's okay.,,,,,,,,M
+393040,395040,"Oh, that's okay.",,,,,,,,M
+395040,396040,All right.,,,,,,,,M
+396040,398040,We are going to pass it back to our friend.,,,,,,,,I
+398040,399040,There you are.,,,,,,,,I
+399040,400040,Okay.,,,,,,,,I
+400040,401040,Your turn to help [id9] guess.,,,,,,,,I
+401040,402040,All right.,,,,,,,,I
+402040,403040,[id9].,,,,,,,,I
+403040,404040,What do you see in the box?,,,,,,,,I
+404040,406040,A rocket ship.,,,,,,,,id9
+406040,408040,A rocket ship.,,,,,,,,I
+408040,411040,I don't see any in mine.,,,,,,,,id10
+411040,413040,She doesn't see a rocket ship.,,,,,,,,I
+413040,414040,Do you want to tell her?,,,,,,,,I
+414040,418040,It's kind of looking like it has feet and it's walking.,,,,,,,,id9
+418040,421040,And it has a square on its head.,,,,,,,,id9
+421040,424040,She's looking down.,,,,,,,,id10
+424040,428040,"She's asking you, is the person looking down?",,,,,,,,I
+428040,429040,Yes.,,,,,,,,id9
+429040,432040,Which one do you think it is?,,,,,,,,I
+432040,433040,Great job.,,,,,,,,I
+433040,436040,Do you want to give Smurphy to me?,,,,,,,,I
+436040,437040,Thank you.,,,,,,,,I
+437040,438040,Here you go.,,,,,,,,I
+438040,441040,Let's describe what we see in the black box.,,,,,,,,I
+441040,446040,He's holding a square looking up.,,,,,,,,id10
+446040,451040,He's holding something with a square looking up.,,,,,,,,I
+451040,454040,What do you think it is?,,,,,,,,I
+454040,456040,This one.,,,,,,,,id9
+456040,458040,Let's make the guess.,,,,,,,,I
+458040,459040,This one?,,,,,,,,id9
+459040,461040,Is that the one you want to guess?,,,,,,,,M
+461040,462040,Great.,,,,,,,,M
+462040,463040,Great job.,,,,,,,,M
+463040,466040,"Whatever you want to guess, just go ahead and top it.",,,,,,,,M
+466040,468040,There you are.,,,,,,,,M
+468040,471040,Here you go.,,,,,,,,M
+471040,473040,Now what do we see [id9]?,,,,,,,,I
+473040,478040,I see a mon-,,,,,,,,id9
+478040,482040,Something that looks like a monster eating a square.,,,,,,,,id9
+482040,484040,Oh.,,,,,,,,I
+484040,490040,Do you think it's out of your guess?,,,,,,,,I
+490040,492040,"Whatever you're ready, just top it.",,,,,,,,I
+492040,494040,You can make the guess.,,,,,,,,I
+494040,496040,"Yeah, obviously.",,,,,,,, 
+496040,498040,Does that hurt anybody when you smile?,,,,,,,, 
+498040,499040,Yeah.,,,,,,,, 
+499040,500040,"Oh, I'm sorry.",,,,,,,, 
+500040,502040,I'm so sorry.,,,,,,,, 
+502040,505040,I'm so sorry.,,,,,,,, 
+505040,512040,Yeah.,,,,,,,, 
+512040,515040,She said it looks like a monster.,,,,,,,,M
+515040,516040,Ready?,,,,,,,,M
+516040,520040,You said eating something?,,,,,,,,M
+520040,522040,Great job.,,,,,,,,I
+522040,524040,Thank you for helping Smurphy.,,,,,,,,I
+524040,526040,I'll get Smurphy from you now.,,,,,,,,I
+526040,528040,Here you go.,,,,,,,,I
+528040,530040,I don't want to play it anymore.,,,,,,,,id10
+530040,531040,You want to play it more?,,,,,,,,I
+531040,532040,No.,,,,,,,,id10
+532040,534040,"Oh, you don't want to play it anymore?",,,,,,,,I
+534040,535040,Okay.,,,,,,,,I
+535040,536040,You want to go back to class?,,,,,,,,I
+536040,537040,Yeah.,,,,,,,,id10
+537040,538040,All right.,,,,,,,,I
+538040,539040,My friends want to go back to class.,,,,,,,,I
+539040,540040,Yeah.,,,,,,,,I
+540040,544040,"We want our friends to go back to class, so we want to make sure our friends are always",,,,,,,,I
+544040,545040,comfortable.,,,,,,,,I
+545040,547040,But we can play something when you're back in the classroom.,,,,,,,,M
+547040,548040,Does that sound good?,,,,,,,,M
+548040,549040,Yeah.,,,,,,,,M
+549040,550040,Great.,,,,,,,,M
+550040,551040,All right.,,,,,,,,M
+551040,552040,I'm going to go turn off the camera.,,,,,,,,M
+552040,554040,Do you guys want to wave goodbye?,,,,,,,,M
+554040,564040,All right.,,,,,,,,M
