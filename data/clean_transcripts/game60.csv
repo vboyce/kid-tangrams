@@ -85,7 +85,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 168000,169000,A bow?,I,,,,,
 169000,171000,No a bear,id52,,S,,,Y
 171000,172000,A bear?,I,,,Y,,
-172000,173000,Yes.,id52,,,,,Y
+172000,173000,Yes.,id52,,S,,,Y
 173000,174000,A bear.,I,,,Y,,
 174000,175000,It kind of looks like a bear.,I,,,Y,,
 175000,177000,"[id51], which one looks like a bear?",I,,,Y,,
@@ -203,7 +203,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 432000,439000,A gem with a triangle head and zero feet.,I,,,Y,,
 439000,442000,Let's press it.,I,,,,,
 442000,443000,Great.,I,13,,,,
-443000,446000,I tried to describe this one.,id52,,,,,Y
+443000,446000,I tried to describe this one.,id52,,L,,,Y
 446000,447000,Oh.,I,,,,,
 447000,450000,"Now what does that look like to you, [id51]?",I,,,,,
 450000,452000,It looks like a slider.,id51,,S,,a slider,Y

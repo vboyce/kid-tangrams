@@ -63,8 +63,8 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 171000,174000,It looks like a guy jumping in the air?,I,,,Y,,
 174000,175000,Guard.,id48,,S,,,Y
 175000,176000,A guard.,I,,,Y,,
-176000,177000,It does.,id47,4,,,,Y
-177000,178000,"Okay, let's press it.",I,,,,,
+176000,177000,It does.,id47,,L,,,Y
+177000,178000,"Okay, let's press it.",I,4,,,,
 180000,182000,Great. It was a match.,I,,,,,
 182000,183000,Thank you.,I,,,,,
 183000,184000,Here you go.,I,,,,,

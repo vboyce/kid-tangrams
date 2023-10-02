@@ -195,7 +195,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 363000,365000,I don't see it.,id19,,L,,,Y
 365000,366000,[id19] doesn't see it.,I,,,,,
 366000,369000,Let's try to tell [id19] a little more about what we see.,I,,,,,
-369000,370000,This thing.,id20,,,,,Y
+369000,370000,This thing.,id20,,S,,,Y
 370000,371000,"Well, we can't show him.",I,,,,,
 371000,373000,We have to use our words.,I,,,,,
 373000,375000,What do you see?,I,,,,,
@@ -205,7 +205,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 378000,381000,"You know, so we have to tell us what we see in the black box.",I,,,,,
 381000,385000,"It's kind of an airplane, it looks like one.",id20,,S,,"kind of an airplane, it looks like one",Y
 385000,387000,Kind of an airplane.,I,,,Y,,
-387000,389000,Is it this?,id19,,,,,Y
+387000,389000,Is it this?,id19,,L,,,Y
 389000,391000,"Well, I don't know if that's your choice.",I,,,,,
 391000,394000,You should tap the screen and we'll see.,I,,,,,
 394000,395000,Great.,I,6,,,,
@@ -214,9 +214,9 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 401000,405000,A girl.,id19,,S,,a girl,Y
 405000,408000,"Wow, you guys are on a roll.",I,7,,,,
 408000,410000,Let's give it to [id19] now.,I,,,,,
-410000,413000,"Now what do we see, [id20], in the black box?",I,,S,,a jumping man,Y
-413000,415000,A jumping man.,id20,,,Y,,
-415000,417000,A jumping man.,I,,,,,
+410000,413000,"Now what do we see, [id20], in the black box?",I,,,,,
+413000,415000,A jumping man.,id20,,S,,a jumping man,Y
+415000,417000,A jumping man.,I,,,Y,,
 417000,419000,"This one, can I tap it?",id19,,,,,
 419000,422000,"If that's what you think, you should tap it.",I,,,,,
 422000,424000,Let's try again.,I,,,,,

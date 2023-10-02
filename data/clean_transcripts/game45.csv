@@ -102,11 +102,11 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 331000,332000,Here you go.,M,,,,,
 332000,338000,Now what do we see?,I,,,,,
 338000,348000,That's okay.,M,,,,,
-338000,348000,I don’t know what it is,id121,,,,,Y
+338000,348000,I don’t know what it is,id21,,S,,,Y
 348000,358000,Let's try our best to tell [id22] what we kind of see.,I,,,,,
 358000,362000,I see a person sitting.,id21,,S,,a person sitting,Y
 362000,364000,He sees a person sitting?,I,,,Y,,
-364000,365000,Yeah.,id21,11,,,,Y
+364000,365000,Yeah.,id21,11,,,,
 365000,367000,Great job.,M,,,,,
 367000,370000,Here you are.,M,,,,,
 370000,377000,I see a crocodile in a black box.,id22,,S,,a crocodile,Y

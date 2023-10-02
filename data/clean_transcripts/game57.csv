@@ -85,7 +85,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 188000,191000,I don't know what they're like.,id45,,L,,,Y
 191000,193000,It's interesting.,I,,,,,
 193000,196000,What does it kind of look like?,I,,,,,
-196000,200000,I don't know.,id45,,,,,Y
+196000,200000,I don't know.,id45,,L,,,Y
 200000,204000,That is a tough question.,I,,,,,
 204000,210000,How would we tell [id46] what this looks like in order to help make a guess?,I,,,,,
 210000,213000,"Because we want to help Smurfy guess, right?",I,,,,,

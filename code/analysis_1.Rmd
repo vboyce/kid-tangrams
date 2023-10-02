@@ -49,6 +49,9 @@ dat %>% left_join(exclusion) %>% filter(S_talked==1) %>%
 # Rate of echoing
 
 will need to check more closely, may have missed some
+
+or we'll just say that the rate is high and we can't subset but need to deal with the fact there just is echoing (in this experiment)
+
 ```{r}
 dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
   mutate(type=case_when(trialNum<2 ~ "practice",

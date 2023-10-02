@@ -137,6 +137,8 @@ stage_timing <- stages |> left_join(gameStarts) |>
   select(game=gameConfig, trialNumStart, trialNumEnd, start, end) |> filter(!is.na(game)) |> filter(!is.na(start)) |> filter(!is.na(end))
 ```
 
+
+
 ```{r}
 timed_transcripts <-  transcripts |>
   mutate(start=start-offset_sec, end=end-offset_sec) |> 
@@ -176,4 +178,13 @@ transcript_full %>% filter(!is.na(trialNumStart)) %>% filter(str_detect(speaker,
 
 ```
 
+checks on data:
+* anything that has a description should be from a speaker and have Y for backchannel
+* anything that has a Y for backchannel should be from a child
 
+```{r}
+transcript_full %>% filter(!is.na(description)) %>% filter(is.na(backchannel))
+transcript_full %>% filter(!is.na(description)) %>% ungroup() %>% select(role) %>% unique()
+transcript_full %>% filter(backchannel=="Y") %>% ungroup() %>% select(role) %>% unique() 
+transcript_full %>% filter(backchannel=="Y") %>% ungroup() %>% filter(!str_detect(speaker,"id"))
+```

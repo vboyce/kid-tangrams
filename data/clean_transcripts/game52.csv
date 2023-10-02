@@ -65,7 +65,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 136000,137000,Apple.,id36,,S,,apple,Y
 137000,138000,Apple.,I,,,Y,,
 138000,139000,Do you see an apple?,I,,,,,
-139000,140000,Yes.,id35,,,,,Y
+139000,140000,Yes.,id35,,L,,,Y
 140000,142000,Let's press on it.,I,,,,,
 142000,146000,Let's go try again.,I,,,,,
 146000,149000,Let's do a quick tap.,I,2,,,,

@@ -72,10 +72,10 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 145000,151000,Feet that are up and a bite like this and a head.,id58,,S,,feet that are up and a bite like this and a head,Y
 151000,156000,Feet that are up and what?,I,,,Y,,
 156000,160000,Let's try to tell him instead of showing.,I,,,,,
-160000,161000,Like that.,id58,,,,,Y
+160000,161000,Like that.,id58,,S,,,Y
 161000,162000,So like that.,I,,,,,
 162000,164000,So which one looks like that?,I,,,,,
-164000,165000,That one.,id57,,,,,Y
+164000,165000,That one.,id57,,S,,,Y
 165000,169000,"If that's your guess, let's just press on it.",I,3,,,,
 169000,171000,Let's try again.,I,,,,,
 171000,173000,So that wasn't a match.,I,,,,,

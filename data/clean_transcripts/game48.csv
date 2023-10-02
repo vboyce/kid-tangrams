@@ -79,7 +79,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 172000,174000,A apple.,id27,,S,,a apple,Y
 174000,175000,Apple.,I,,,Y,,
 175000,177000,"Do you see an apple, [id28]?",I,,,,,
-177000,178000,Yes.,id28,,,,,Y
+177000,178000,Yes.,id28,,L,,,Y
 178000,182000,Let's press it.,I,2,,,,
 182000,183000,Great.,I,,,,,
 183000,185000,Thank you.,I,,,,,

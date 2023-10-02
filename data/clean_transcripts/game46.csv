@@ -76,9 +76,9 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 224000,226000,Do you see feet on this one?,I,,,Y,,
 228000,230000,No.,I,,,,,
 232000,234000,What else does it look like?,I,,,,,
-238000,240000,Yes.,id24,,,,,Y
+238000,240000,Yes.,id24,,S,,,Y
 240000,242000,What else does it look like?,I,,,,,
-242000,244000,[mumbling],id24,,,,,Y
+242000,244000,[mumbling],id24,,S,,,Y
 251000,255000,So we're going to make our best guess in which one we think kind of looks like feet.,M,,,Y,,
 255000,257000,We know they look kind of funny.,M,,,,,
 261000,263000,Somebody jumping.,id23,,L,,,Y
@@ -125,7 +125,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 376000,378000,A guy with a paper thing.,I,,,Y,,
 378000,380000,Do you see a guy with a paper thing?,I,,,Y,,
 382000,384000,"Oh, great.",I,,,,,
-384000,386000,Yeah!,id24,,,,,Y
+384000,386000,Yeah!,id24,,L,,,Y
 386000,388000,Here you go.,M,8,,,,
 388000,390000,Now what do we see in the box?,I,,,,,
 390000,392000,A box with a boat.,id24,,S,,a box with a boat,Y
@@ -163,7 +163,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 480000,482000,A boat.,id23,,S,,a boat,Y
 482000,484000,See a boat.,I,,,Y,,
 484000,486000,Great.,I,,,,,
-486000,488000,Yes.,id24,,,,,Y
+486000,488000,Yes.,id24,,L,,,Y
 488000,490000,All right.,M,12,,,,
 490000,492000,Now your turn to describe or tell.,M,,,,,
 492000,494000,What do we see there?,I,,,,,

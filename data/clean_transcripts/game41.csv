@@ -84,8 +84,8 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 219000,221000,Now what do we see?,I,3,,,,
 221000,224000,A person walking.,id14,,S,,A person walking,Y
 224000,232000,So our friend says she sees someone walking in the box.,M,,,Y,,
-232000,235000,I don't see any blocks.,id13,,,,,Y
-235000,237000,I don't see a box.,id13,,,,,Y
+232000,235000,I don't see any blocks.,id13,,L,,,Y
+235000,237000,I don't see a box.,id13,,L,,,Y
 237000,240000,"Oh, so since you have Smurfie, you are the guesser right now.",M,,,,,
 240000,246000,"And [id14] is the teller, so she's telling you what she sees in the box.",M,,,,,
 246000,249000,So she says she sees someone walking.,M,,,Y,,
@@ -152,7 +152,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 434000,438000,We're going to listen to our friend while she sees it in the box.,M,,,,,
 438000,440000,I see a person walking.,id14,,S,,a person walking,Y
 440000,444000,The person's head is square.,id14,,S,,the person’s head is square,Y
-440000,444000,I see a person walking,id13,,,,,Y
+440000,444000,I see a person walking,id13,,L,,,Y
 444000,451000,You're going to push it.,M,,,,,
 451000,456000,"All right, Mr. Smurfie.",M,10,,,,
 456000,461000,"[id13], what do you see in the black box?",M,,,,,
@@ -184,8 +184,8 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 548000,554000,"All right, [id13] and Smurfie, do we see a person jumping?",M,,,Y,,
 554000,555000,Yes.,id13,,,,,
 555000,561000,"All right, you guys can go ahead and make your guess.",M,,,,,
-561000,565000,Come on.,id14,,,,,Y
-565000,568000,I'm looking for a smiley face.,id14,,,,,Y
+561000,565000,Come on.,id14,,S,,,Y
+565000,568000,I'm looking for a smiley face.,id14,,S,,,Y
 568000,571000,All right.,M,,,,,
 571000,575000,"Yay, we just helped Smurfie and we're done with our game.",M,,,,,
 575000,577000,Thank you guys for playing our game.,M,,,,,

@@ -151,7 +151,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 262160,263840,Here you go.,I,,,,,
 263840,264880,"Okay, my friend, [id50].",I,,,,,
 264880,266200,What does that look like to you?,I,,,,,
-266200,267560,Uh...,id50,,,,,Y
+266200,267560,Uh...,id50,,S,,,Y
 267560,269200,A person that can fly.,id50,,S,,a person that can fly,Y
 269200,270720,A person that can fly.,I,,,Y,,
 270720,273840,"And, I mean, a bird that has feet.",id50,,S,,a bird that has feet,Y
