@@ -1,6 +1,8 @@
 ---
 title: "Analysis - expt 1"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
@@ -9,48 +11,28 @@ library(tidyverse)
 library(here)
 library(jsonlite)
 library(ggplot2)
+library(lme4)
 
+knitr::opts_chunk$set(
+                      echo=F, warning=F, cache=T, 
+                      message=F, sanitize = T)
+theme_set(theme_classic())
 transcript <- read_csv(here("data/timed_transcript.csv"))
 
 dat <- read_csv(here("data/clean_data.csv"))
+exclusion <- transcript %>% filter(!is.na(description)) %>% filter(role=="S") %>% select(game, trialNum=trial, echo) %>% unique() %>% mutate("S_talked"=1)
 
-time_palette <- c("practice"="grey","block 1"="blue","block 2"="green", "block 3"="red")#TODO FIX
+time_palette <- c("practice"="grey","block 1"="#E41A1C","block 2"="#377EB8", "block 3"="#4DAF4A")#TODO FIX
+
+ 
 ```
 
 Trials were excluded if the speaker did not provide any description before the listener clicked.
-# Accuracy over time
 
-```{r}
-# want to know which trials to exclude b/c no description given
-exclusion <- transcript %>% filter(!is.na(description)) %>% filter(role=="S") %>% select(game, trialNum=trial, echo) %>% unique() %>% mutate("S_talked"=1)
-
-dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
-  mutate(type=case_when(trialNum<2 ~ "practice",
-                        trialNum<6 ~ "block 1",
-                        trialNum<10 ~ "block 2",
-                        trialNum<14 ~ "block 3")) %>% 
-  ggplot(aes(x = trialNum+1, y = as.numeric(correct), fill=type)) +
-  stat_summary(fun.data="mean_cl_boot", geom="bar") +
-    stat_summary(fun.data="mean_cl_boot", geom="linerange", color="black") +
-  scale_fill_manual(values=time_palette)+
-  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
-  #geom_smooth(method="lm")+
-  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
-  theme_classic() +
-  xlab("\nTrial") +
-  ylab("Percent accuracy\n") +
-  #scale_x_continuous(breaks=seq(1,12,1)) +
-  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
-  theme(aspect.ratio = 4/5,
-        axis.title=element_text(size=14,face="bold"),
-        axis.text=element_text(size=9, color = "black"),
-        legend.position = "none")
-```
 # Rate of echoing
 
-will need to check more closely, may have missed some
-
-or we'll just say that the rate is high and we can't subset but need to deal with the fact there just is echoing (in this experiment)
+I may be missing some echoes, although the rate of echoing is high enough we can't subset based on it (not to mention it's not independent of child behavior). 
+So we're not going to exclude based on this and it'll just be a caveat to interpretation. 
 
 ```{r}
 dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
@@ -77,19 +59,72 @@ dat %>% left_join(exclusion) %>% filter(S_talked==1) %>%
         legend.position = "none")
 ```
 
-# Speed to start of description
+# Accuracy over time
+
+```{r}
+dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
+  mutate(type=case_when(trialNum<2 ~ "practice",
+                        trialNum<6 ~ "block 1",
+                        trialNum<10 ~ "block 2",
+                        trialNum<14 ~ "block 3")) %>% 
+  ggplot(aes(x = trialNum+1, y = as.numeric(correct), fill=type)) +
+  stat_summary(fun.data="mean_cl_boot", geom="bar") +
+    stat_summary(fun.data="mean_cl_boot", geom="linerange", color="black") +
+  scale_fill_manual(values=time_palette)+
+  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  #geom_smooth(method="lm")+
+  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("\nTrial") +
+  ylab("Percent accuracy\n") +
+  #scale_x_continuous(breaks=seq(1,12,1)) +
+  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
+  theme(aspect.ratio = 4/5,
+        axis.title=element_text(size=14,face="bold"),
+        axis.text=element_text(size=9, color = "black"),
+        legend.position = "none")
+```
+
+The practice trials are great -- probably some improvement over time in regular trials?
+
 
 ```{r}
 
-transcript %>% filter(role=="S") %>% filter(!is.na(description)) %>% group_by(game, trial) %>% 
+
+data_for_mods <- dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
+  filter(trialNum>1) %>% 
+  mutate(trialNum=trialNum-2,
+         correct.num=ifelse(correct, 1,0),
+         time_sec= time/1000)
+  
+```
+
+
+```{r}
+acc_mod <- glmer(correct.num ~ trialNum + (trialNum|game) + (1|target), family=binomial(), data=data_for_mods)
+
+summary(acc_mod)
+confint(acc_mod, parm=c("(Intercept)","trialNum"))
+
+```
+
+Accuracy is probably increasing, but interval overlaps 0. 
+
+# Speed to start of description
+
+I was trying to look at whether speakers initiated descriptions faster later on. Some weird negative outliers suggest a timing glitch in at least one expt. But also, it doesn't look like this is true (also requires relying on more layers of timing accuracy & alignment). 
+
+```{r}
+transcript %>% filter(role=="S") %>% filter(backchannel=="Y") %>% group_by(game,speaker, trial) %>% 
   mutate(diff=end_time-trial_start) %>% summarize(first=min(diff)) %>% 
   mutate(type=case_when(trial<2 ~ "practice",
                         trial<6 ~ "block 1",
                         trial<10 ~ "block 2",
                         trial<14 ~ "block 3")) %>% 
   ggplot(aes(x = trial+1, y = first, color=type)) +
-  geom_jitter(width=.2, height=0, alpha=.5)+
-    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
+  #geom_jitter(width=.2, height=0, alpha=.5)+
+  geom_line(aes(group=speaker), color="black")+
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange") +
   scale_color_manual(values=time_palette)+
   #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
   #geom_smooth(method="lm")+
@@ -105,12 +140,20 @@ transcript %>% filter(role=="S") %>% filter(!is.na(description)) %>% group_by(ga
         legend.position = "none")
 
 ```
+```{r}
+transcript %>% filter(role=="S") %>% filter(backchannel=="Y") %>% group_by(game,speaker, trial) %>% 
+  mutate(diff=end_time-trial_start) %>% summarize(first=min(diff)) %>% filter(first<0)
+
+```
 
 TO DO try to understand negative outliers? 
 
 
-
 # Speed to response
+
+How long do trials take? 
+
+Note, some high outliers cut out of view. 
 
 ```{r}
 
@@ -119,8 +162,10 @@ TO DO try to understand negative outliers?
                         trialNum<6 ~ "block 1",
                         trialNum<10 ~ "block 2",
                         trialNum<14 ~ "block 3")) %>% 
+  mutate(time=ifelse(is.na(time),180000,time)) %>% #treat the one that timed out as being max time
   ggplot(aes(x = trialNum+1, y = time/1000, color=type)) +
   geom_jitter(width=.2, height=0, alpha=.5)+
+  #geom_line(aes(group=game))+
     stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
   scale_color_manual(values=time_palette)+
   #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
@@ -128,20 +173,299 @@ TO DO try to understand negative outliers?
   #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
   theme_classic() +
   xlab("\nTrial") +
-  coord_cartesian(ylim=c(0,100))+
+  ylab("Time to answer in seconds")+
+  coord_cartesian(ylim=c(0,60))+
   #ylab("Percent trials with echoing \n by experimenter\n") +
   #scale_x_continuous(breaks=seq(1,12,1)) +
-  scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
+  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
   theme(aspect.ratio = 4/5,
         axis.title=element_text(size=14,face="bold"),
         axis.text=element_text(size=9, color = "black"),
         legend.position = "none")
 
 ```
+speed to response does get faster over time! 
 
-# Total kid words said in at least vague reference
+```{r}
 
-# Descriptive something something
-- qualitative on descriptions and similarities of descriptions (within/between kids) (maybe cut when kids say the same thing thrice down to once?)
+  
+  
+speed_mod <- lmer(time_sec ~ trialNum + (trialNum|game) + (1|target),  data=data_for_mods)
 
-- what descriptions "worked" -- some sort of qualitative range 
+summary(speed_mod)
+confint(speed_mod, parm=c("(Intercept)","trialNum"))
+
+```
+Is getting faster over time at about 1 second / trial. 
+
+# Length of description from speaker
+
+```{r}
+
+correctness <- dat %>% select(game, trial=trialNum, target, distractor, correct)
+transcript %>% filter(!is.na(description)) %>% group_by(game,speaker, trial) %>% 
+  summarize(words=str_c(description, sep=" ", collapse=", ")) %>% 
+  left_join(correctness) %>% 
+  mutate(word_count=str_count(words, "\\S+")) %>% 
+  mutate(type=case_when(trial<2 ~ "practice",
+                        trial<6 ~ "block 1",
+                        trial<10 ~ "block 2",
+                        trial<14 ~ "block 3")) %>% 
+  ggplot(aes(x = trial+1, y = word_count, color=type)) +
+    geom_jitter(width=.2, height=0, alpha=.5)+
+  #geom_line(aes(group=game))+
+ # facet_wrap(.~correct) + 
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
+  scale_color_manual(values=time_palette)+
+  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  #geom_smooth(method="lm")+
+  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("\nTrial") +
+  #coord_cartesian(ylim=c(0,60))+
+  #ylab("Percent trials with echoing \n by experimenter\n") +
+  #scale_x_continuous(breaks=seq(1,12,1)) +
+  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
+  theme(aspect.ratio = 4/5,
+        axis.title=element_text(size=14,face="bold"),
+        axis.text=element_text(size=9, color = "black"),
+        legend.position = "none")
+    
+
+```
+
+Going up slightly, if anything, not down. (Although for this task, not sure I'd expect adults to go down rather than to start at fast and stay there).  But it's still different! 
+
+Could also look at total words that are at least vaguely game related, although this will have "it looks like", repetition, and inconsistently tagged "Yes" in response to "do you see it" so idk if that's useful
+
+```{r}
+
+
+words_for_mod <- transcript %>% filter(!is.na(description)) %>% rename(trialNum=trial) %>%  left_join(dat) %>% 
+  group_by(game,speaker, trialNum, target) %>% 
+  summarize(words=str_c(description, sep=" ", collapse=", ")) %>% 
+  mutate(word_count=str_count(words, "\\S+")) %>%  
+  filter(trialNum>1) %>% 
+  mutate(trialNum=trialNum-2)
+  
+word_mod  <- lmer(word_count ~ trialNum + (trialNum|game) + (1|target), data=words_for_mod)
+
+summary(word_mod)
+confint(word_mod, parm=c("(Intercept)","trialNum"))
+```
+If anything, a slight positive relationship. 
+
+# Sbert
+
+```{r}
+sims <- read_rds(here("data/similarities.rds"))
+
+labels <- read_csv(here("data/pre_sbert.csv"))
+
+labels1 <- labels %>% rename(trial1=trial, game1=game, words1=words, target1=target, distractor1=distractor)
+
+labels2 <- labels %>% rename(trial2=trial, game2=game, words2=words, target2=target, distractor2=distractor)
+```
+
+## Check practice trials
+
+```{r}
+
+sims %>% filter(trial1 %in% c("0","1")) %>% filter(trial2 %in% c("0","1")) %>% left_join(labels1) %>% left_join(labels2) %>% mutate(same=target1==target2) %>% ggplot(aes(x=sim, fill=same))+geom_density(alpha=.5)
+```
+We expect when it's the same, high agreement and when they're different, low agreement. This checks out. 
+
+## Within a game 
+Descriptions from different kids of the same item are more similar than diff items. Same item is described more like partner describes it than like random other kid does. (Note that within game we can only compare targets across blocks, so doing cross-block for everything)
+
+
+```{r}
+
+sims %>%  filter(!is.na(sim)) %>% 
+  filter(!trial1 %in% c("0","1")) %>% filter(!trial2 %in% c("0","1"))%>% #not practice
+  left_join(labels1) %>% left_join(labels2) %>%
+  mutate(same_target=ifelse(target1==target2, "same_target", "diff_target"),  #label if target is same or not
+  same_child=case_when(
+    game1!=game2 ~ "diff game",
+    (as.numeric(trial1)-as.numeric(trial2))%%2==1~"diff_child", #children alternate
+    T ~"same_child"),
+  type1=case_when(trial1<2 ~ "practice",
+                        trial1<6 ~ "block 1",
+                        trial1<10 ~ "block 2",
+                        trial1<14 ~ "block 3"),
+         type2=case_when(trial2<2 ~ "practice",
+                        trial2<6 ~ "block 1",
+                        trial2<10 ~ "block 2",
+                        trial2<14 ~ "block 3")) %>% 
+  filter(type1!=type2) %>% # can only compare across blocks in some cases, so only cross ever
+    mutate(blocks=case_when(
+      type1=="block 1" & type2=="block 2"~ "1-2",
+      type1=="block 2" & type2=="block 1"~ "1-2",
+      type1=="block 1" & type2=="block 3"~ "1-3",
+      type1=="block 3" & type2=="block 1"~ "1-3",
+      type1=="block 2" & type2=="block 3"~ "2-3",
+      type1=="block 3" & type2=="block 2"~ "2-3"
+      )) %>% 
+  ggplot(aes(x=str_c(same_target,"\n",same_child), y=sim, color=blocks)) +
+  geom_jitter(alpha=.01, color="black") +
+      stat_summary(fun.data="mean_cl_boot", geom="pointrange", position=position_dodge(width=.2))+
+  labs(x="Conditions compared")
+```
+
+## Do descriptions get more different?
+
+Not seeing noticeable change over time. 
+
+```{r}
+
+sims %>%  filter(!is.na(sim)) %>% 
+  filter(!trial1 %in% c("0","1")) %>% filter(!trial2 %in% c("0","1"))%>% #not practice
+  left_join(labels1) %>% left_join(labels2) %>%
+  mutate(same_target=ifelse(target1==target2, "same_target", "diff_target"),  #label if target is same or not
+  same_child=case_when(
+    game1!=game2 ~ "diff game",
+    (as.numeric(trial1)-as.numeric(trial2))%%2==1~"diff_child", #children alternate
+    T ~"same_child"),
+  type1=case_when(trial1<2 ~ "practice",
+                        trial1<6 ~ "block 1",
+                        trial1<10 ~ "block 2",
+                        trial1<14 ~ "block 3"),
+         type2=case_when(trial2<2 ~ "practice",
+                        trial2<6 ~ "block 1",
+                        trial2<10 ~ "block 2",
+                        trial2<14 ~ "block 3")) %>% 
+  filter(type1==type2) %>% # can only compare across blocks in some cases, so only cross ever
+  ggplot(aes(x=str_c(same_target,"\n",same_child), y=sim, color=type1)) +
+  geom_jitter(alpha=.01, color="black") +
+      stat_summary(fun.data="mean_cl_boot", geom="pointrange", position=position_dodge(width=.2))+
+  labs(x="Conditions compared")
+```
+
+For above, could try subsetting by successful utterances or something. 
+
+# The fun part
+
+What sorts of wacky descriptions do kids use successfully?
+
+```{r, out.width="25%"}
+
+knitr::include_graphics(here("experiments/preschool_tangram/public/experiment/E1.jpg"))
+
+labels %>% left_join(dat %>% rename(trial=trialNum)) %>% filter(correct) %>% filter(target=="jump") %>% select(words)
+```
+
+```{r, out.width="25%"}
+
+knitr::include_graphics(here("experiments/preschool_tangram/public/experiment/B1.jpg"))
+
+labels %>% left_join(dat %>% rename(trial=trialNum)) %>% filter(correct) %>% filter(target=="walk") %>% select(words)
+```
+
+```{r, out.width="25%"}
+
+knitr::include_graphics(here("experiments/preschool_tangram/public/experiment/D1.jpg"))
+
+labels %>% left_join(dat %>% rename(trial=trialNum)) %>% filter(correct) %>% filter(target=="swim") %>% select(words)
+```
+
+```{r, out.width="25%"}
+
+knitr::include_graphics(here("experiments/preschool_tangram/public/experiment/I1.jpg"))
+
+labels %>% left_join(dat %>% rename(trial=trialNum)) %>% filter(correct) %>% filter(target=="hold") %>% select(words)
+```
+
+
+# Pre-reg
+In addition to graphical analyses (above), we said
+We plan to run the model:
+DV  ~ trial_num + (trial_num|dyad) + (1|target) 
+for the DVs: accuracy (logistic model), speed (linear model) and number of words of speaker description (linear model ). 
+
+# Pretty for CAMP
+
+```{r, fig.height=8, fig.width=5}
+library(cowplot)
+
+acc_w_legend <- dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
+  mutate(type=case_when(trialNum<2 ~ "practice",
+                        trialNum<6 ~ "block 1",
+                        trialNum<10 ~ "block 2",
+                        trialNum<14 ~ "block 3"),
+         type=factor(type, levels=c("practice", "block 1", "block 2", "block 3"))) %>% 
+  ggplot(aes(x = trialNum+1, y = as.numeric(correct), fill=type)) +
+  stat_summary(fun.data="mean_cl_boot", geom="bar") +
+    stat_summary(fun.data="mean_cl_boot", geom="linerange") +
+  scale_fill_manual(values=time_palette)+
+  theme_bw() +
+  xlab("Trial") +
+  ylab("Accuracy") +
+  labs(fill="")+
+  geom_hline(yintercept=.5, linetype="dashed")+
+    coord_cartesian(ylim=c(0,1), expand=F)+
+  theme(axis.text=element_text(size=10, color = "black"),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        #axis.title.x=element_blank(),
+                axis.title=element_text(size=12),
+        legend.text=element_text(size=12),
+        legend.position = "bottom")
+
+acc_legend <- cowplot::get_legend(acc_w_legend)
+acc_plot <- acc_w_legend + theme(legend.position="none")
+
+
+speed_plot <- dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
+  mutate(type=case_when(trialNum<2 ~ "practice",
+                        trialNum<6 ~ "block 1",
+                        trialNum<10 ~ "block 2",
+                        trialNum<14 ~ "block 3")) %>% 
+  mutate(time=ifelse(is.na(time),180000,time)) %>% #treat the one that timed out as being max time
+  ggplot(aes(x = trialNum+1, y = time/1000, color=type)) +
+  geom_jitter(width=.2, height=0, alpha=.7)+
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
+  scale_color_manual(values=time_palette)+
+  theme_bw() +
+  ylab("Speed (seconds)")+
+  xlab("Trial")+
+  coord_cartesian(ylim=c(0,60), expand=F)+
+  theme(axis.text=element_text(size=10, color = "black"),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+                axis.title=element_text(size=12),
+        #axis.title.x=element_blank(),
+        legend.position = "none")
+
+word_plot <- transcript %>% filter(!is.na(description)) %>% group_by(game,speaker, trial) %>% 
+  summarize(words=str_c(description, sep=" ", collapse=", ")) %>% 
+  mutate(word_count=str_count(words, "\\S+")) %>% 
+  mutate(type=case_when(trial<2 ~ "practice",
+                        trial<6 ~ "block 1",
+                        trial<10 ~ "block 2",
+                        trial<14 ~ "block 3")) %>% 
+  ggplot(aes(x = trial+1, y = word_count, color=type)) +
+    geom_jitter(width=.2, height=0, alpha=.7)+
+  #geom_line(aes(group=game))+
+ # facet_wrap(.~correct) + 
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
+  scale_color_manual(values=time_palette)+
+  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  #geom_smooth(method="lm")+
+  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_bw() +
+  xlab("Trial") +
+  ylab("Description length (words)")+
+  coord_cartesian(ylim=c(0,20), expand=F)+
+  #ylab("Percent trials with echoing \n by experimenter\n") +
+  #scale_x_continuous(breaks=seq(1,12,1)) +
+  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
+  theme(axis.text=element_text(size=10, color = "black"),
+        axis.title=element_text(size=12),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        legend.position = "none")
+
+plot_grid(acc_legend,acc_plot,speed_plot,word_plot, ncol=1, rel_heights = c(.2,.7,1,1), labels=c("","A", "B","C"), label_size = 18, label_x=0.12,label_y=.97 )
+
+ggsave(here("plot1.pdf"))
+```

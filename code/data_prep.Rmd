@@ -188,3 +188,73 @@ transcript_full %>% filter(!is.na(description)) %>% ungroup() %>% select(role) %
 transcript_full %>% filter(backchannel=="Y") %>% ungroup() %>% select(role) %>% unique() 
 transcript_full %>% filter(backchannel=="Y") %>% ungroup() %>% filter(!str_detect(speaker,"id"))
 ```
+
+# Sbert data prep
+
+```{r}
+transcript <- read_csv(here("data/timed_transcript.csv"))
+
+dat <- read_csv(here("data/clean_data.csv")) %>% select(trial=trialNum, game, target, distractor)
+
+transcript %>% filter(!is.na(description)) %>% group_by(trial, game) %>% 
+  summarize(words=str_c(description, sep=" ", collapse=", ")) %>% left_join(dat) %>% write_csv(here("data/pre_sbert.csv"))
+
+
+```
+
+```{r}
+library(reticulate)
+np <- import("numpy")
+mat = np$load(here('data/post_sbert.npy'))
+saveRDS(mat,here('data/post_sbert.RData'))
+```
+
+```{r}
+sbert <- read_csv(here("data/pre_sbert.csv")) %>% bind_cols(read_rds(here("data/post_sbert.RData")) %>% 
+  as_tibble())
+
+### helper funcs
+get_sim_matrix = function(df, F_mat, method = 'cosine') {
+  feats = F_mat[df$feature_ind,]
+  if(method == 'cor') {
+    return(cor(t(feats), method = 'pearson'))
+  } else if (method == 'euclidean') {
+    return(as.matrix(dist(feats, method = 'euclidean')))
+  } else if (method == 'cosine') {
+    return(as.matrix(lsa::cosine(t(feats))))
+  } else {
+    stop(paste0('unknown method', method))
+  }
+}
+
+# note this does de-duplicated version
+flatten_sim_matrix <- function(cormat, ids) {
+  ut <- upper.tri(cormat)
+  data.frame(
+    dim1 = ids[row(cormat)[ut]],
+    dim2 = ids[col(cormat)[ut]],
+    sim  = as.numeric(cormat[ut])
+  ) %>%
+    mutate(dim1 = as.character(dim1),
+           dim2 = as.character(dim2))
+}
+
+
+make_across_df <- function(M_mat, F_mat, method) {
+  M_mat %>%
+    do(flatten_sim_matrix(get_sim_matrix(., F_mat, method = method),
+                          as.character(.$combinedId)))
+}
+
+### funcs
+  F_mat <- sbert%>% select(starts_with("V")) %>% as.matrix() #Features
+  M_mat <- sbert %>% select(-starts_with("V")) %>% mutate(feature_ind=row_number())
+
+similarities <- M_mat %>%
+    mutate(combinedId=str_c(game,trial,sep="_")) %>%
+    make_across_df(F_mat, 'cosine') %>%
+    separate(dim1, into=c("game1","trial1"), convert=T, sep="_") %>%
+    separate(dim2, into=c("game2","trial2"), convert=T, sep="_") %>%
+    mutate(sim = ifelse(is.nan(sim), NA, sim)) %>% write_rds(here("data/similarities.rds"))
+ 
+```
