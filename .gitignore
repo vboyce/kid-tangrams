@@ -6,4 +6,4 @@
 *.tex
 *.out
 *.log
-
+*.synctex.gz
