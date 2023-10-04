@@ -49,20 +49,34 @@
 % Intro
 %TODO citations
 
+%TODO math
 
-\textbf{Methods:} 
+%TODO crossref figures!
 
+As children acquire language, they must master many communication skills such as using metaphor and tracking the knowledge state of their partner. Adults demonstrate their communicative abilities in iterated reference games, where they describe novel figures to communicative partners with high accuracy. Over repetitions, description length reduces as partners come to share a nickname for the figure (Clark \& Wilkes-Gibbs 1986, Hawkins et al. 2020). This paradigm is commonly studied with adults, but very little research on iterated communication games has been done with pre-literate children. 
+
+Glucksberg et al. (1966) found that 5 year old children were not able to successfully communicate with each other about novel figures in a more complicated paradigm involving stacking blocks. However, children as young as 4 were successful at a two-choice, child-friendly iterated reference game when playing with their parent (Leung et al., 2020). Here, we test child-child dyads using a simplified version of Leung et al. 2020 to determine if children can communicate with each other about novel figures and whether they show partner-specificity. 
+
+
+
+\textbf{Methods:} Pairs of children played a matching game tablet game while sitting across the table from each other. On each trial, the "speaker" child would see two images, one in a box, and describe the boxed image (orally) to their partner. The "listener" child saw the same two images and was tasked with helping Smurfy (a stuffy) guess the matching target image by touching it on the screen. Children alternated roles trial by trial; to help children keep track of role, they passed Smurfy back and forth. We had 4 target images (a subset of stimuli from Leung et al. 2020); distractors were drawn from the set of other targets. Children completed 2 practice trials with familiar shapes, and then 12 target trials (3 blocks of the 4 target images). We recruited 4-5 year old children from a university preschool; 20 pairs completed at least 8 out of 12 target trials and were included in the analysis. Children's utterances were transcribed from video recording, using Whisper and hand-checked. 
 % Results
 
 \textbf{Results:} 
+Children were above chance at selecting the target image, and accuracy barely increased over time ($\beta=$0.13 [-.04, .31]). Children's speed to selecting a target increased over time ($\beta=$-1.24 [-1.89, -.59]). Children tended to produce fairly short descriptions, and the length of descriptions did not decrease over time ($\beta=$0.11 [-.03, .25]). 
 
-\textbf{Conclusion:} 
+To compare the similarities of children's descriptions to those of their partners and other children; we embedded the utterances using S-BERT (Reimers \& Gurevych 2019) and used pairwise cosine similarity of embeddings as a proxy for utterance similarity. Children's utterances for an image are most similar to their own descriptions of the same image in different blocks. However, children's descriptions for an image are more similar to their partner's descriptions than the descriptions of children in other games. This indicates some level of partner specificity -- children are not just talking past each other, but are influenced by the descriptions used by their partner. 
 
+\textbf{Caveats and Future Directions:} 
+Transcripts of the sessions revealed that the research assistant echoed the children's descriptions on the majority of trials (ex: "Mary says she sees a bear. Do you see a bear?"). While this does not add any description not given by the children, repetition and prosody could influence children, and it does lend some "authority" to the description. Additionally, we have a small sample size of only 20 pairs of children, 4 images, and 3 repetitions. In a planned experiment 2, we will replicate this experiment, with a clearer experimenter script to avoid echoing, as well as additional tweaks to clarify the experiment for children. 
+
+This preliminary study suggests that (contra Glucksberg et al.) 4-5 year old children *can* describe and select novel figures with each other at above chance accuracy. However, the initially short utterances and lack of reduction offers intriguing suggestions about possible differences between children's and adults approaches. These could be due to different linguistic abilities, social expectations, or different task difficulty. 
 \newpage
 
 \begin{figure}
-
+%TODO open materials
 	\caption{Schematic of methods}
+	TODO schematic; stim pictures ; repetition structure 
 \end{figure}
 
 
@@ -83,12 +97,14 @@
 		\begin{small}
 		Descriptions given by children were compared using sentence embeddings. Descriptions were most similar when provided by the same child for the same image. However, children described images more similarly to their partners than to children in other games.  
 		\end{small}
+		
+		TODO examples of the cute things kids say
 		\end{minipage}
 	\end{figure}
 
 
 
 \begin{figure}\textbf{References:}
-
+Leung, Hawkins, Yurovsky. Cogsci, 2020. $\cdot$ Glucksberg, Krauss, Weisberg. J of Expt Child Psychology, 1966. $\cdot$ Clark \& Wilkes-Gibbs. Cognition, 1986. $\cdot$ Hawkins, Frank, Goodman. Cognitive Science, 2020. $\cdot$ Reimers \& Gurevych. arXiv 2019.
 \end{figure}
 \end{document}
