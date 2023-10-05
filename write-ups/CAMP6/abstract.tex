@@ -63,12 +63,12 @@ Glucksberg et al. (1966) found that 5 year old children were not able to success
 % Results
 
 \textbf{Results:} 
-Children were above chance at selecting the target image, and accuracy barely increased over time ($\beta=$0.13 [-.04, .31]). Children's speed to selecting a target increased over time ($\beta=$-1.24 [-1.89, -.59]). Children tended to produce fairly short descriptions, and the length of descriptions did not decrease over time ($\beta=$0.11 [-.03, .25]). 
+Children were above chance at selecting the target image, and accuracy barely increased over time ($\beta=$0.13 [-.04, .31]). Children's speed to selecting a target increased over time ($\beta=$-1.24 [-1.89, -.59]). Children generally produced short descriptions, and the length of descriptions tended to slightly increase over time ($\beta=$0.11 [-.03, .25]). 
 
-To compare the similarities of children's descriptions to those of their partners and other children; we embedded the utterances using S-BERT (Reimers \& Gurevych 2019) and used pairwise cosine similarity of embeddings as a proxy for utterance similarity. Children's utterances for an image are most similar to their own descriptions of the same image in different blocks. However, children's descriptions for an image are more similar to their partner's descriptions than the descriptions of children in other games. This indicates some level of partner specificity -- children are not just talking past each other, but are influenced by the descriptions used by their partner. 
+To compare the similarities of children's descriptions to those of their partners and other children; we embedded the utterances using S-BERT (Reimers \& Gurevych 2019) and used pairwise cosine similarity of embeddings as a proxy for utterance similarity. Children's utterances for an image are most similar to their own descriptions of the same image in different blocks. However, children's descriptions for an image are more similar to their partner's descriptions than the descriptions of children in other games. This indicates some level of partner specificity -- children are not just talking past each other, but are influenced by what their partner has said. 
 
 \textbf{Caveats and Future Directions:} 
-Transcripts of the sessions revealed that the research assistant echoed the children's descriptions on the majority of trials (ex: "Mary says she sees a bear. Do you see a bear?"). While this does not add any description not given by the children, repetition and prosody could influence children, and it does lend some "authority" to the description. Additionally, we have a small sample size of only 20 pairs of children, 4 images, and 3 repetitions. In a planned experiment 2, we will replicate this experiment, with a clearer experimenter script to avoid echoing, as well as additional tweaks to clarify the experiment for children. 
+Transcripts of the sessions revealed that the research assistant echoed the children's descriptions on the majority of trials (ex: "Mary says she sees a bear. Do you see a bear?"). While this does not add any description not given by the children, repetition and prosody could influence children, and it does lend some "authority" to the description. Additionally, we have a small sample size of only 20 pairs of children, 4 images, and 3 repetitions. In a planned experiment 2, we will replicate this experiment, with a clearer experimenter script to avoid echoing and additional tweaks to clarify the procedure. 
 
 This preliminary study suggests that (contra Glucksberg et al.) 4-5 year old children *can* describe and select novel figures with each other at above chance accuracy. However, the initially short utterances and lack of reduction offers intriguing suggestions about possible differences between children's and adults approaches. These could be due to different linguistic abilities, social expectations, or different task difficulty. 
 \newpage
@@ -76,16 +76,15 @@ This preliminary study suggests that (contra Glucksberg et al.) 4-5 year old chi
 \begin{figure}
 %TODO open materials
 	\caption{Schematic of methods}
-	TODO schematic; stim pictures ; repetition structure 
+ \begin{center}{ \includegraphics[width=.8\textwidth, trim={8cm 6cm 1cm 6.4cm}, clip]{exp-diagram.pdf}}
+ 	\end{center}
 \end{figure}
-
-
 	\begin{figure}
 		\begin{minipage}{.5\textwidth}
 			\captionof{figure}{Results}
 			{	\includegraphics[width=\textwidth]{plot1.pdf}} 
 			\begin{small}
-				FOOBAR
+			\textbf{	A.} Children's accuracy is at ceiling on practice trials and above chance on target trials.\textbf{ B.} Children speed up over time on target trials. \textbf{C.} Children's descriptions are usually short, but do not reduce in length over time. 
 				
 			\end{small}
 			
@@ -95,16 +94,37 @@ This preliminary study suggests that (contra Glucksberg et al.) 4-5 year old chi
 		\captionof{figure}{Similarity Results}
 		{\includegraphics[width=\textwidth]{sims.pdf}} 
 		\begin{small}
-		Descriptions given by children were compared using sentence embeddings. Descriptions were most similar when provided by the same child for the same image. However, children described images more similarly to their partners than to children in other games.  
+		Descriptions given by children were compared using sentence embeddings. Descriptions were most similar when provided by the same child for the same image. However, children described images more similarly to their partners than to children in other games.  Across games, the same image is described more similarly than different images.
 		\end{small}
 		
-		TODO examples of the cute things kids say
+		\bigskip
+		\begin{small}
+\textbf{\centering Example successful descriptions:\\}
+		a person $\bullet$ a person walking $\bullet$ sad walking $\bullet$ a man with two foot and a diamond shaped tummy and a square head
+		
+		a flying person $\bullet$
+		a superhero$\bullet$
+		somebody jumping $\bullet$ two wings with a square in the back with two feet
+		
+		someone building a funnel $\bullet$
+		a server$\bullet$
+		a person holding up a plate $\bullet$ a man with one foot and a line and a square and a triangle
+		
+		
+		a crocodile tasting an animal in the water$\bullet$
+		a whale$\bullet$
+		someone flying a plane without a cover$\bullet$
+		a person lying on the ground
+		
+		\end{small}
 		\end{minipage}
 	\end{figure}
 
 
 
-\begin{figure}\textbf{References:}
-Leung, Hawkins, Yurovsky. Cogsci, 2020. $\cdot$ Glucksberg, Krauss, Weisberg. J of Expt Child Psychology, 1966. $\cdot$ Clark \& Wilkes-Gibbs. Cognition, 1986. $\cdot$ Hawkins, Frank, Goodman. Cognitive Science, 2020. $\cdot$ Reimers \& Gurevych. arXiv 2019.
+\begin{figure}
+	\begin{small} \textbf{References:}
+Leung, Hawkins, Yurovsky. Cogsci, 2020. $\bullet$ Glucksberg, Krauss, Weisberg. J of Expt Child Psychology, 1966. $\bullet$ Clark \& Wilkes-Gibbs. Cognition, 1986. $\bullet$ Hawkins, Frank, Goodman. Cognitive Science, 2020. $\bullet$ Reimers \& Gurevych. arXiv 2019.
+\end{small}
 \end{figure}
 \end{document}
