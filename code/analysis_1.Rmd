@@ -108,6 +108,12 @@ confint(acc_mod, parm=c("(Intercept)","trialNum"))
 
 ```
 
+```{r}
+
+data_for_mods %>% ungroup() %>% summarize(correct=sum(correct.num)/n())
+```
+
+
 Accuracy is probably increasing, but interval overlaps 0. 
 
 # Speed to start of description
