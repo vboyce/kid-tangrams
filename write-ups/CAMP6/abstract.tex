@@ -28,7 +28,7 @@
 % \toggletrue{anonymous} with \togglefalse{anonymous} to de-anonymize.
 \usepackage{etoolbox}
 \newtoggle{anonymous}
-\togglefalse{anonymous}
+\toggletrue{anonymous}
 
 \renewcommand{\title}[1]{\textbf{#1}\\}
 \newcommand{\authors}[1]{\iftoggle{anonymous}{\phantom{#1}}{#1}\\}
@@ -61,7 +61,7 @@ As children acquire language, they must master many communication skills such as
 \bigskip
 
 \textbf{Results:} 
-Children uses a variety of different referential expressions to successfully convey the target to their partner (see Examples on next page). Children were 84\% accurate at selecting the target image, and accuracy was relatively stable over time ($\beta=$0.13 [-.04, .31]; Fig 2A). Children's speed to select a target increased over time ($\beta=$-1.24 [-1.89, -.59]; Fig 2B). Children generally produced short descriptions, and the length of descriptions tended to slightly increase over time ($\beta=$0.11 [-.03, .25]; Fig 2C). 
+Children use a variety of different referential expressions to successfully convey the target to their partner (see Examples on next page). Children were 84\% accurate at selecting the target image, and accuracy was relatively stable over time ($\beta=$0.13 [-.04, .31]; Fig 2A). Children's speed to select a target increased over time ($\beta=$-1.24 [-1.89, -.59]; Fig 2B). Children generally produced short descriptions, and the length of descriptions tended to slightly increase over time ($\beta=$0.11 [-.03, .25]; Fig 2C). 
 
 To compare the similarities of children's descriptions to those of their partners and other children, we embedded the utterances using S-BERT (Reimers \& Gurevych 2019) and used pairwise cosine similarity of embeddings as a proxy for utterance similarity. Children's utterances for an image are most similar to their own descriptions of the same image in different blocks (Fig 3). However, children's descriptions for an image are more similar to their partner's descriptions than the descriptions of children in other games. This indicates some level of partner specificity: children are not just talking past each other but are influenced by their partners prior descriptions.
 
@@ -105,22 +105,22 @@ This preliminary study suggests that (contra Glucksberg et al.) 4-5 year old chi
 		\begin{small}
 \textbf{\centering Example successful descriptions:\\}
 \smallskip
-		a person $\bullet$ a person walking $\bullet$ sad walking $\bullet$ a man with two foot and a diamond shaped tummy and a square head
+		a person $\bullet$ a person walking $\bullet$ sad walking  $\bullet$ a man with two foot and a diamond shaped tummy and a square head
 		
 		\smallskip
 		a flying person $\bullet$
-		a superhero$\bullet$
+		a superhero $\bullet$
 		somebody jumping $\bullet$ two wings with a square in the back with two feet
 		\smallskip
 		
 		someone building a funnel $\bullet$
-		a server$\bullet$
+		a server $\bullet$
 		a person holding up a plate $\bullet$ a man with one foot and a line and a square and a triangle
 		\smallskip
 		
-		a crocodile tasting an animal in the water$\bullet$
-		a whale$\bullet$
-		someone flying a plane without a cover$\bullet$
+		a crocodile tasting an animal in the water $\bullet$
+		a whale $\bullet$
+		someone flying a plane without a cover $\bullet$
 		a person lying on the ground
 		
 		\end{small}
