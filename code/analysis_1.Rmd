@@ -403,22 +403,22 @@ for the DVs: accuracy (logistic model), speed (linear model) and number of words
 ```{r, fig.height=8, fig.width=5}
 library(cowplot)
 
-acc_w_legend <- dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
+acc_dat <- dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
   mutate(type=case_when(trialNum<2 ~ "practice",
                         trialNum<6 ~ "block 1",
                         trialNum<10 ~ "block 2",
                         trialNum<14 ~ "block 3"),
-         type=factor(type, levels=c("practice", "block 1", "block 2", "block 3"))) %>% 
-  ggplot(aes(x = trialNum+1, y = as.numeric(correct), fill=type)) +
-  stat_summary(fun.data="mean_cl_boot", geom="bar") +
-    stat_summary(fun.data="mean_cl_boot", geom="linerange") +
-  scale_fill_manual(values=time_palette)+
+         type=factor(type, levels=c("practice", "block 1", "block 2", "block 3")))
+  acc_w_legend <- ggplot(acc_dat, aes(x = trialNum+1, y = as.numeric(correct), color=type)) +
+  stat_summary(data=acc_dat |> filter(type!="practice"), fun.data="mean_cl_boot", geom="line", color="black") +
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange") +
+  scale_color_manual(values=time_palette)+
   theme_bw() +
   xlab("Trial") +
   ylab("Accuracy") +
   labs(fill="")+
   geom_hline(yintercept=.5, linetype="dashed")+
-    coord_cartesian(ylim=c(0,1), expand=F)+
+    coord_cartesian(ylim=c(0,1), expand=T)+
   theme(axis.text=element_text(size=10, color = "black"),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank(),
@@ -431,14 +431,15 @@ acc_legend <- cowplot::get_legend(acc_w_legend)
 acc_plot <- acc_w_legend + theme(legend.position="none")
 
 
-speed_plot <- dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
+speed_dat <- dat %>% left_join(exclusion) %>% filter(S_talked==1) %>% 
   mutate(type=case_when(trialNum<2 ~ "practice",
                         trialNum<6 ~ "block 1",
                         trialNum<10 ~ "block 2",
                         trialNum<14 ~ "block 3")) %>% 
-  mutate(time=ifelse(is.na(time),180000,time)) %>% #treat the one that timed out as being max time
-  ggplot(aes(x = trialNum+1, y = time/1000, color=type)) +
+  mutate(time=ifelse(is.na(time),180000,time)) #treat the one that timed out as being max time
+ speed_plot <-  ggplot(speed_dat, aes(x = trialNum+1, y = time/1000, color=type)) +
   geom_jitter(width=.2, height=0, alpha=.7)+
+  stat_summary(data=speed_dat |> filter(type!="practice"), fun.data="mean_cl_boot", geom="line", color="black") +
     stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
   scale_color_manual(values=time_palette)+
   theme_bw() +
@@ -452,18 +453,20 @@ speed_plot <- dat %>% left_join(exclusion) %>% filter(S_talked==1) %>%
         #axis.title.x=element_blank(),
         legend.position = "none")
 
-word_plot <- transcript %>% filter(!is.na(description)) %>% group_by(game,speaker, trial) %>% 
+word_dat <- transcript %>% filter(!is.na(description)) %>% group_by(game,speaker, trial) %>% 
   summarize(words=str_c(description, sep=" ", collapse=", ")) %>% 
   mutate(word_count=str_count(words, "\\S+")) %>% 
   mutate(type=case_when(trial<2 ~ "practice",
                         trial<6 ~ "block 1",
                         trial<10 ~ "block 2",
-                        trial<14 ~ "block 3")) %>% 
-  ggplot(aes(x = trial+1, y = word_count, color=type)) +
-    geom_jitter(width=.2, height=0, alpha=.7)+
+                        trial<14 ~ "block 3"))
+word_plot <- 
+  ggplot(word_dat, aes(x = trial+1, y = word_count)) +
+    geom_jitter(aes(color=type), width=.2, height=0, alpha=.7)+
   #geom_line(aes(group=game))+
  # facet_wrap(.~correct) + 
-    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
+      stat_summary(data=word_dat |> filter(type!="practice"), fun.data="mean_cl_boot", geom="line", color="black") +
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange") +
   scale_color_manual(values=time_palette)+
   #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
   #geom_smooth(method="lm")+
@@ -481,12 +484,14 @@ word_plot <- transcript %>% filter(!is.na(description)) %>% group_by(game,speake
         axis.ticks.x=element_blank(),
         legend.position = "none")
 
-plot_grid(acc_legend,acc_plot,speed_plot,word_plot, ncol=1, rel_heights = c(.2,.7,1,1), labels=c("","A", "B","C"), label_size = 18, label_x=0.12,label_y=.97 )
+plot_grid(acc_plot,speed_plot,word_plot, ncol=1, rel_heights = c(1,1,1)) #labels=c("","A", "B","C"), label_size = 18, label_x=0.12,label_y=.97 )
 
-ggsave(here("write-ups/CAMP6/plot1.pdf"))
+ggsave(here("write-ups/CAMP6/plot1.png"))
 ```
 
 ```{r}
+plot_grid(acc_legend)
 
+ggsave(here("write-ups/CAMP6/legend.pdf"), width=6, height=2)
 
 ```

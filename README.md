@@ -10,3 +10,7 @@ For these, tagging
 * echo: is this an RA echoing (note: probably incomplete, echoing was very common in expt 1)
 * description: what is the target tangram being called? (note: if the exact same thing is said or restarted, only a clean part of the "noun")
 * backchannel: Y for all game-relevant kid speech (which isn't necessarily backchannel)
+
+## tagging Leung data for comparison
+
+* rough pass, currently some inconsistency that could be cleaned up
