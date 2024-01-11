@@ -409,9 +409,10 @@ acc_dat <- dat %>% left_join(exclusion) %>% filter(S_talked==1) %>%
                         trialNum<10 ~ "block 2",
                         trialNum<14 ~ "block 3"),
          type=factor(type, levels=c("practice", "block 1", "block 2", "block 3")))
-  acc_w_legend <- ggplot(acc_dat, aes(x = trialNum+1, y = as.numeric(correct), color=type)) +
-  stat_summary(data=acc_dat |> filter(type!="practice"), fun.data="mean_cl_boot", geom="line", color="black") +
-    stat_summary(fun.data="mean_cl_boot", geom="pointrange") +
+  acc_w_legend <- ggplot(acc_dat, aes(x = trialNum+1, y = as.numeric(correct))) +
+ # stat_summary(data=acc_dat |> filter(type!="practice"), fun.data="mean_cl_boot", geom="line", color="black") +
+    geom_smooth(data=acc_dat |> filter(type!="practice"), method="lm", color="black", se=F)+
+    stat_summary(aes(color=type), fun.data="mean_cl_boot", geom="pointrange") +
   scale_color_manual(values=time_palette)+
   theme_bw() +
   xlab("Trial") +
@@ -438,9 +439,10 @@ speed_dat <- dat %>% left_join(exclusion) %>% filter(S_talked==1) %>%
                         trialNum<14 ~ "block 3")) %>% 
   mutate(time=ifelse(is.na(time),180000,time)) #treat the one that timed out as being max time
  speed_plot <-  ggplot(speed_dat, aes(x = trialNum+1, y = time/1000, color=type)) +
-  geom_jitter(width=.2, height=0, alpha=.7)+
-  stat_summary(data=speed_dat |> filter(type!="practice"), fun.data="mean_cl_boot", geom="line", color="black") +
-    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
+  geom_jitter(width=.2, height=0, alpha=.3, color="grey")+
+       geom_smooth(data=acc_dat |> filter(type!="practice"), method="lm", color="black", se=F)+
+
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange") +
   scale_color_manual(values=time_palette)+
   theme_bw() +
   ylab("Speed (seconds)")+
@@ -461,11 +463,12 @@ word_dat <- transcript %>% filter(!is.na(description)) %>% group_by(game,speaker
                         trial<10 ~ "block 2",
                         trial<14 ~ "block 3"))
 word_plot <- 
-  ggplot(word_dat, aes(x = trial+1, y = word_count)) +
-    geom_jitter(aes(color=type), width=.2, height=0, alpha=.7)+
+  ggplot(word_dat, aes(x = trial+1, y = word_count, color=type)) +
+    geom_jitter(aes(color=type), width=.2, height=0, alpha=.3, color="grey")+
   #geom_line(aes(group=game))+
  # facet_wrap(.~correct) + 
-      stat_summary(data=word_dat |> filter(type!="practice"), fun.data="mean_cl_boot", geom="line", color="black") +
+       geom_smooth(data=word_dat |> filter(type!="practice"), method="lm", color="black", se=F)+
+
     stat_summary(fun.data="mean_cl_boot", geom="pointrange") +
   scale_color_manual(values=time_palette)+
   #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
