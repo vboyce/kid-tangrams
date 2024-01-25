@@ -9,7 +9,8 @@ import Empirica from "meteor/empirica:core";
 
 
 import Overview from "./intro/Overview.jsx";
-
+import Bubbles from "./intro/bubbles.jsx";
+import Smileys from "./intro/smileys.jsx";
 import Round from "./game/Round.jsx";
 import Thanks from "./exit/Thanks.jsx";
 
@@ -26,7 +27,7 @@ import customBreadcrumb from "./game/Breadcrumb.jsx";
 // At this point they have been assigned a treatment. You can return
 // different instruction steps depending on the assigned treatment.
 Empirica.introSteps((game, treatment) => {
-  return [Overview];
+  return [Overview, Bubbles, Smileys, Overview];
 });
 
 // The Round component containing the game UI logic.
