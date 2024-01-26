@@ -10,10 +10,11 @@ export const targetSets = {
 };
 
 export const practiceSet = [
-  "/experiment/apple.png",
-  "/experiment/banana.png",
-  "/experiment/dog.png",
-  "/experiment/bird.jpeg"
+  ["/experiment/apple.png", "/experiment/banana.png"],
+  ["/experiment/dog.png","/experiment/bird.jpeg"],
+  ["/experiment/boat.jpg", "/experiment/house.jpg"],
+  ["/experiment/tree.jpg", "/experiment/swan.jpg"],
+  ["/experiment/horse.jpg", "/experiment/cat.jpg"]
 ]
 
 export const names = [

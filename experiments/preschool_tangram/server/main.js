@@ -71,47 +71,36 @@ Empirica.gameInit((game, treatment) => {
     game.set("speakerQueue", _.shuffle(_.map(game.players, '_id')));
 
     // practice rounds
-    const practice = _.shuffle(practiceSet);
-    let round = game.addRound();
-    let targ = practice[0];
-    let dist = practice[1];
-    let tangramURL=[targ,dist]
-    round.set('target', targ);
-    round.set('distractor', dist)
-    round.set("tangramURLs", _.shuffle(tangramURL))
-    round.set('numPlayers', game.players.length)
-    round.set('trialNum', 0);
-    round.set('sound',"yay");        
-    round.addStage({
-      name: "selection",
-      displayName: "Selection",
-      durationInSeconds: treatment.selectionDuration
+    const practice = practiceSet;
+
+
+    // Loop through targets in block
+    _.times(practice.length, targetNum => {      
+      const round = game.addRound();
+      const pair=_.shuffle(practice[targetNum])
+      const targ = pair[0];
+      const dist = pair[1];
+      const tangramURL=[targ,dist]
+      round.set("sound", _.shuffle(["woo","yay"])[0])
+      round.set('target', targ);
+      round.set('distractor', dist)
+      round.set("tangramURLs", _.shuffle(tangramURL))
+      round.set('targetNum', targetNum);
+      round.set('trialNum', targetNum);
+      round.set('numPlayers', game.players.length)
+              
+      round.addStage({
+        name: "selection",
+        displayName: "Selection",
+        durationInSeconds: treatment.selectionDuration
+      });
+      round.addStage({
+        name: "feedback",
+        displayName: "Feedback",
+        durationInSeconds: treatment.feedbackDuration
+      });
     });
-    round.addStage({
-      name: "feedback",
-      displayName: "Feedback",
-      durationInSeconds: treatment.feedbackDuration
-    });
-    round=game.addRound();
-    targ=practice[2];
-    dist=practice[3];
-    tangramURL=[targ,dist];
-    round.set('target', targ);
-    round.set('distractor', dist)
-    round.set("tangramURLs", _.shuffle(tangramURL))
-    round.set('numPlayers', game.players.length)
-    round.set('trialNum', 1);
-    round.set("sound","yay");        
-    round.addStage({
-      name: "selection",
-      displayName: "Selection",
-      durationInSeconds: treatment.selectionDuration
-    });
-    round.addStage({
-      name: "feedback",
-      displayName: "Feedback",
-      durationInSeconds: treatment.feedbackDuration
-    });
+
 
     // Loop through repetition blocks
     _.times(reps, repNum => {
@@ -128,7 +117,7 @@ Empirica.gameInit((game, treatment) => {
         round.set("tangramURLs", _.shuffle(tangramURL))
         round.set('targetNum', targetNum);
         round.set('repNum', repNum);
-        round.set('trialNum', 2+repNum * numTargets + targetNum);
+        round.set('trialNum', practice.length+repNum * numTargets + targetNum);
         round.set('numPlayers', game.players.length)
                 
         round.addStage({

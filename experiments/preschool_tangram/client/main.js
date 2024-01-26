@@ -28,6 +28,7 @@ import customBreadcrumb from "./game/Breadcrumb.jsx";
 // different instruction steps depending on the assigned treatment.
 Empirica.introSteps((game, treatment) => {
   return [Overview, Bubbles, Smileys, Overview];
+  //return[];
 });
 
 // The Round component containing the game UI logic.
