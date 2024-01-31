@@ -14,7 +14,7 @@ export const practiceSet = [
   ["/experiment/dog.png","/experiment/bird.jpeg"],
   ["/experiment/boat.jpg", "/experiment/house.jpg"],
   ["/experiment/tree.jpg", "/experiment/swan.jpg"],
-  ["/experiment/horse.jpg", "/experiment/cat.jpg"]
+  //["/experiment/horse.jpg", "/experiment/cat.jpg"]
 ]
 
 export const names = [
