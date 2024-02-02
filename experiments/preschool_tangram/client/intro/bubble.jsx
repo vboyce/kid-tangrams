@@ -2,7 +2,7 @@ import React from "react";
 
 import { Centered } from "meteor/empirica:core";
 import { Button } from "@blueprintjs/core";
-const roundSound = new Audio("experiment/round-sound.mp3");
+const bubbleSound = new Audio("experiment/bubble.mp3");
 
 export default class Bubble extends React.Component {
     constructor(props) {
@@ -20,6 +20,7 @@ export default class Bubble extends React.Component {
     handleClick = e => {
       const {onNext, popped} = this.props;
       if (this.state.unclicked){
+        bubbleSound.play()
         popped()
         this.setState({unclicked:false})
       } 
