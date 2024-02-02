@@ -2,7 +2,7 @@ import React from "react";
 
 import { Centered } from "meteor/empirica:core";
 import { Button } from "@blueprintjs/core";
-const bubbleSound = new Audio("experiment/bubble.mp3");
+const bubbleSound = new Audio("experiment/short_bubble.mp3");
 
 export default class Bubble extends React.Component {
     constructor(props) {
