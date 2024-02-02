@@ -2,16 +2,20 @@ import React from "react";
 
 import { Centered } from "meteor/empirica:core";
 import { Button } from "@blueprintjs/core";
-const roundSound = new Audio("experiment/round-sound.mp3");
+const endSound = new Audio("experiment/end.mp3");
 
 export default class Pause extends React.Component {
     constructor(props) {
         super(props);
         const{onNext} = this.props;
-        
+
+      
         setTimeout(function() {
             onNext()
         }, 30000);
+      }
+      componentWillMount() {
+        endSound.play()
       }
   render() {
 

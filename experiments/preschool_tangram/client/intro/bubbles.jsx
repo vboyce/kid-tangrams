@@ -5,7 +5,6 @@ import { Button } from "@blueprintjs/core";
 
 import Bubble from "./bubble.jsx";
 
-const endSound = new Audio("experiment/end.mp3");
 
 
   
@@ -69,7 +68,6 @@ export default class Bubbles extends React.Component {
     let allBubbles;
     const check_all_popped= ()=>{if(this.state.count==this.dotCount){
         setTimeout(function() {
-          endSound.play()
           onNext()
         }, 1000);
     }};
