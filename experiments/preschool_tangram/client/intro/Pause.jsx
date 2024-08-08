@@ -21,10 +21,10 @@ export default class Pause extends React.Component {
 
         const mystyle = {
           "background" : "url(" + "experiment/smurfy.jpg" + ")",
-          "backgroundSize" : "65%",
+          "backgroundSize" : "85%",
           "backgroundRepeat" : "no-repeat",
           "backgroundPosition" : "50% 50%",
-          "height": "500px"
+          "height": "700px"
         }
         
         return (
