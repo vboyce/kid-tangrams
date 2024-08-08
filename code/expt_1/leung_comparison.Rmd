@@ -1,0 +1,243 @@
+---
+title: "Leung data comparison"
+output:
+  html_document:
+    df_print: paged
+---
+```{r prep, echo=F, message=F, warning=F}
+library(here)
+library(tidyverse)
+
+knitr::opts_chunk$set(
+                      echo=F, warning=F, cache=T, 
+                      message=F, sanitize = T)
+theme_set(theme_bw())
+```
+
+```{r, eval=F}
+all_4yos <- list.files(here("leung_data/4yos")) |> map_df(~read_csv(here("leung_data/4yos/",.))) |> bind_rows() |> 
+  write_csv(here("leung_data/4yos_uncoded.csv"))
+
+all_adults <- list.files(here("leung_data/adult")) |> map_df(~read_csv(here("leung_data/adult/",.))) |> bind_rows() |> 
+  write_csv(here("leung_data/adults_uncoded.csv"))
+
+
+```
+
+** note **: in the adult data, for sub id 104, trial 9 (target D1), it had been that two lines had selections marked. I believe the first should have had selection NA b/c it has text as well and this has been fixed so we don't have duplicates. 
+
+```{r}
+kids <- read_csv(here("leung_data/4yos_coded_filtered.csv")) |> 
+  filter(target %in% c("B1", "D1", "E1", "I1")) 
+
+adults <- read_csv(here("leung_data/adults_coded_filtered.csv"))|> 
+  filter(target %in% c("B1", "D1", "E1", "I1"))
+
+kids_selection <- kids |> filter(!is.na(selection)) |> select(listener=selection, target, trial, subid, type)
+
+adults_selection <- adults |> filter(!is.na(selection)) |> select(listener=person, target, trial, subid, type)
+
+adults_tagged <- adults |> left_join(adults_selection) |> 
+  mutate(role=ifelse(person==listener, "listener", "speaker")) |> 
+  mutate(words=str_count(description, "\\S+"),
+         words=ifelse(is.na(words), 0, words),
+         all_words=str_count(utterance, "\\S+"),
+         all_words=ifelse(is.na(all_words), 0, all_words),
+         block=(trial-1)%/%10)
+
+kids_tagged <- kids |> 
+  left_join(kids_selection) |> 
+  mutate(role=ifelse(person==listener, "listener", "speaker")) |> 
+   mutate(words=str_count(description, "\\S+"),
+         words=ifelse(is.na(words), 0, words),
+         all_words=str_count(utterance, "\\S+"),
+         all_words=ifelse(is.na(all_words), 0, all_words),
+         block=(trial-1)%/%10)
+  
+```
+
+```{r, fig.height=3, fig.width=6}
+
+adults_summary <- adults_tagged  |> 
+  group_by(subid, role, block, target) |> 
+  summarize(words=sum(words),
+            all_words=sum(all_words)) 
+
+
+  # ggplot(adults_summary, aes(x=block, y=words))+
+  #   geom_jitter(width=.2, height=0, alpha=.5, color="blue")+
+  #   stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black")+
+  #   coord_cartesian(ylim=c(0,20))+
+  # theme_classic()
+  
+  
+  # ggplot(adults_summary, aes(x=block, y=all_words))+
+  #   geom_jitter(width=.2, height=0, alpha=.5, color="blue")+
+  #   stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black")+
+  #   coord_cartesian(ylim=c(0,40))+
+  # theme_classic()
+  
+  
+  kids_summary <- kids_tagged  |> 
+    filter(!is.na(role)) |> 
+  group_by(subid, person, role, block, target) |> 
+  summarize(words=sum(words),
+            all_words=sum(all_words)) 
+  
+  #   ggplot(kids_summary, aes(x=block, y=words))+
+  #   geom_jitter(width=.2, height=0, alpha=.5, color="blue")+
+  #   stat_summary(fun.data="mean_cl_boot", color="black")+
+  #   coord_cartesian(ylim=c(0,20))+facet_grid(~ person)
+  # 
+  # 
+  # ggplot(kids_summary, aes(x=block, y=all_words))+
+  #   geom_jitter(width=.2, height=0, alpha=.5, color="blue")+
+  #   stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black")+
+  #   coord_cartesian(ylim=c(0,40))+facet_grid(~person)
+  
+  all <- adults_summary |> mutate(person="adult-to-adult") |> 
+    bind_rows(kids_summary) |> 
+    mutate(person=case_when(
+      person=="child" ~ "child-to-parent",
+      person=="parent" ~ "parent-to-child",
+      T ~ person
+    ))
+
+  time_palette <- c("practice"="grey","1"="#E41A1C","2"="#377EB8", "3"="#4DAF4A", "4"="purple")#TODO FIX
+      ggplot(all |> filter(role=="speaker"), aes(x=block+1, y=words, color=as.factor(block+1)))+
+    geom_jitter(width=.2, height=0, alpha=.4)+
+    stat_summary(fun.data="mean_cl_boot", color="black")+
+                stat_summary(fun.data="mean_cl_boot", geom="line", color="black")+
+          scale_color_manual(values=time_palette)+
+        theme(legend.position="none")+
+    coord_cartesian(ylim=c(0,20), expand=F)+facet_grid(~ person)+
+        labs(title="Re-analysis of Leung et al 2023 data", x="Block", y="Description length")
+  
+ggsave(here("foo.png"))
+  
+  ggplot(all |> filter(role=="speaker"), aes(x=block+1, y=all_words))+
+    geom_jitter(width=.2, height=0, alpha=.2, color="blue")+
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black")+
+        stat_summary(fun.data="mean_cl_boot", geom="line", color="black")+
+    coord_cartesian(ylim=c(0,40))+facet_grid(~person)+
+    labs(title="Total Words from speaker", x="Block", y="Total words")
+  
+        ggplot(all |> filter(role=="listener"), aes(x=block+1, y=words))+
+    geom_jitter(width=.2, height=0, alpha=.2, color="blue")+
+    stat_summary(fun.data="mean_cl_boot", color="black")+
+                stat_summary(fun.data="mean_cl_boot", geom="line", color="black")+
+    coord_cartesian(ylim=c(0,20))+facet_grid(~ person)+
+        labs(title="Referential words from listener", x="Block", y="Referential words")
+  
+  
+  ggplot(all |> filter(role=="listener"), aes(x=block+1, y=all_words))+
+    geom_jitter(width=.2, height=0, alpha=.2, color="blue")+
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black")+
+        stat_summary(fun.data="mean_cl_boot", geom="line", color="black")+
+    coord_cartesian(ylim=c(0,40))+facet_grid(~person)+
+    labs(title="Total Words from listener", x="Block", y="Total words")
+  
+  
+```
+
+### SBERT
+
+```{r eval=F}
+all <- adults_tagged |> bind_rows(kids_tagged) |> filter(!is.na(description)) |> filter(role=="speaker") |> 
+  select(subid, target, person, description, block) %>%
+  group_by(subid, block, target, person) |> filter(!is.na(description)) %>% 
+  summarize(words=str_c(description, sep=" ", collapse=", ")) %>% write_csv(here("leung_data/pre_sbert.csv"))
+```
+
+```{r eval=F}
+library(reticulate)
+np <- import("numpy")
+mat = np$load(here('leung_data/post_sbert.npy'))
+saveRDS(mat,here('leung_data/post_sbert.RData'))
+```
+
+
+```{r}
+sbert <- read_csv(here("leung_data/pre_sbert.csv")) %>% bind_cols(read_rds(here("leung_data/post_sbert.RData")) %>% 
+  as_tibble())
+
+### helper funcs
+get_sim_matrix = function(df, F_mat, method = 'cosine') {
+  feats = F_mat[df$feature_ind,]
+  if(method == 'cor') {
+    return(cor(t(feats), method = 'pearson'))
+  } else if (method == 'euclidean') {
+    return(as.matrix(dist(feats, method = 'euclidean')))
+  } else if (method == 'cosine') {
+    return(as.matrix(lsa::cosine(t(feats))))
+  } else {
+    stop(paste0('unknown method', method))
+  }
+}
+
+# note this does de-duplicated version
+flatten_sim_matrix <- function(cormat, ids) {
+  ut <- upper.tri(cormat)
+  data.frame(
+    dim1 = ids[row(cormat)[ut]],
+    dim2 = ids[col(cormat)[ut]],
+    sim  = as.numeric(cormat[ut])
+  ) %>%
+    mutate(dim1 = as.character(dim1),
+           dim2 = as.character(dim2))
+}
+
+
+make_across_df <- function(M_mat, F_mat, method) {
+  M_mat %>%
+    do(flatten_sim_matrix(get_sim_matrix(., F_mat, method = method),
+                          as.character(.$combinedId)))
+}
+
+### funcs
+  F_mat <- sbert%>% select(starts_with("V")) %>% as.matrix() #Features
+  M_mat <- sbert %>% select(-starts_with("V")) %>% mutate(feature_ind=row_number())
+
+similarities <- M_mat %>%
+    mutate(combinedId=str_c(subid,block,person,target,sep="_")) %>%
+    make_across_df(F_mat, 'cosine') |> 
+    separate(dim1, into=c("game1","block1","person1", "target1"), convert=T, sep="_") %>%
+    separate(dim2, into=c("game2","block2","person2", "target2"), convert=T, sep="_") %>%
+    mutate(sim = ifelse(is.nan(sim), NA, sim)) %>% write_rds(here("leung_data/similarities.rds"))
+ 
+```
+
+```{r, fig.width=5, fig.height=3}
+sims <- read_rds(here("leung_data/similarities.rds")) |> as_tibble()
+
+sims %>%  filter(!is.na(sim)) %>% 
+  mutate(same_target=ifelse(target1==target2, "Same target", "Different target"),  
+  same_child=case_when(
+    game1!=game2 ~ "Different\n games",
+    person1!=person2 ~ "Different\n speakers",
+    T ~"Same\n speaker"),
+  roles=case_when(
+    person1 %in%c("left", "right") & person2 %in% c("left", "right") ~ "adult-adult",
+    person1 == "parent" & person2=="parent" ~ "parent-parent",
+    person1 == "child" & person2=="child" ~ "child-child",
+    person1 == "child" & person2=="parent" ~ "parent-child",
+    person1 == "parent" & person2=="child" ~ "parent-child",
+    T ~ "bad"
+  ) )|> 
+    filter(roles!="bad") |> # don't want mix between adult & parent-child
+  filter(block1!=block2) |> # can only compare across blocks in some cases, so only cross ever
+  ggplot(aes(x=str_c(same_child), y=sim, color=roles)) +
+  facet_grid(.~same_target) +
+  theme_bw()+
+  labs(x="", y="Cosine similarity", color="")+
+  scale_color_brewer(type="qual", palette="Dark2")+
+  scale_y_continuous(limits=c(0,1), expand=c(0,0))+
+      stat_summary(fun.data="mean_cl_boot", geom="pointrange", position=position_dodge(width=.2))+
+    guides( color = guide_legend( override.aes = list(linetype=0, size=1)))+
+  theme(strip.background =element_rect(fill="white"),
+        legend.position="bottom",
+        axis.title.x=element_blank())
+
+ggsave(here("bar.png"))
+
+```
