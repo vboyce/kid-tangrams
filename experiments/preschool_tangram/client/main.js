@@ -3,10 +3,7 @@ import { render } from "react-dom";
 import "@blueprintjs/icons/lib/css/blueprint-icons.css";
 import "@blueprintjs/core/lib/css/blueprint.css";
 
-
-
 import Empirica from "meteor/empirica:core";
-
 
 import Overview from "./intro/Overview.jsx";
 import Bubbles from "./intro/bubbles.jsx";
@@ -17,8 +14,7 @@ import Pause from "./intro/Pause.jsx";
 
 import customBreadcrumb from "./game/Breadcrumb.jsx";
 
-
- Empirica.header(() => null);
+Empirica.header(() => null);
 
 // Set the Consent Component you want to present players (optional).
 //Empirica.consent(Consent);
@@ -27,7 +23,7 @@ import customBreadcrumb from "./game/Breadcrumb.jsx";
 // At this point they have been assigned a treatment. You can return
 // different instruction steps depending on the assigned treatment.
 Empirica.introSteps((game, treatment) => {
-  return [Overview, Bubbles, Smileys, Pause, Overview];
+  return [Overview, Bubbles, Bubbles, Pause, Overview];
   //return[];
 });
 
@@ -45,7 +41,7 @@ Empirica.round(Round);
 // If you don't return anything, or do not define this function, a default
 // exit screen will be shown.
 Empirica.exitSteps((game, player) => {
-    return [Thanks];
+  return [Thanks];
 });
 
 // Empirica.breadcrumb would probably go here

@@ -1,6 +1,0 @@
-﻿_id,name,timeoutType,timeoutInSeconds,timeoutStrategy,timeoutBots,extendCount,createdAt,archivedAt
-DmrZpmbCRJP7wy2ED,,lobby,300,fail,,,2023-06-28T21:23:49Z,
-wcmNKjSL4u7SzczSq,,lobby,5,fail,,,2023-06-28T21:23:49Z,
-npwwMX9MoT5GiNfwT,test,lobby,20,ignore,,,2023-06-28T21:23:49Z,
-4Dt46SdBQrgnEYRQT,start_anyway,lobby,300,ignore,,,2023-06-28T21:23:49Z,
-xYX7EarZmjKNNFLrz,longwait,lobby,3000,fail,,,2023-06-28T21:24:17Z,
