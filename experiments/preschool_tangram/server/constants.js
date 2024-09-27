@@ -13,7 +13,7 @@ export const practiceSet = [
   ["/experiment/apple.png", "/experiment/banana.png"],
   ["/experiment/dog.png", "/experiment/bird.jpeg"],
   ["/experiment/lemon.png", "/experiment/star.png"],
-  ["/experiment/fluffspike.png", "/experiment/factory.png"],
+  ["/experiment/crown.png", "/experiment/pinwheel.png"],
   //["/experiment/horse.jpg", "/experiment/cat.jpg"]
 ];
 
