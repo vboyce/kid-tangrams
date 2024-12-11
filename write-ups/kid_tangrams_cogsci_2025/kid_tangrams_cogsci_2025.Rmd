@@ -1,0 +1,551 @@
+---
+title: "TODO"
+bibliography: library.bib
+csl: apa7.csl
+document-params: "10pt, letterpaper"
+
+author-information: > 
+    \author{{\large \bf Veronica Boyce (vboyce@stanford.edu)} \\ Department of Psychology, \\Stanford University \And {\large \bf Bobby Sparks (TODO email) } Department of Psychology, \\Stanford University
+    \AND {\large \bf Yannick Mofor (TODO email)} \\ TODO affiliation, Stanford University \And {\large \bf Michael C. Frank (mcfrank@stanford.edu)} \\ Department of Psychology, \\ Stanford University}
+
+abstract: >
+    TODO abstract
+    Communication is important and stuff and kids need to learn it to. One task that illustrates the rich communicative capabilities is iterated reference games, where adults jointly converge on mutually understandable names for novel objects. Some prominent early experiments where children did not succeed led to the belief that children could not do this task. TODO FIX. However, more recent work with lessened task demands suggests that children may be more capable than previously thought. Here, we test children's communicative adaption to a partner with iterated reference games played by pairs of 4-5 year old preschoolers. Across a total of N pairs of children, we find children can accurately pick out referents for each other and that they are sensitive to the descriptions of their partners. TODO wrap up sentence. 
+    
+keywords: >
+    TODO keywords
+    
+output: cogsci2024::cogsci_paper
+#final-submission: \cogscifinalcopy
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width=3, fig.height=3, fig.crop = F, 
+                      fig.pos = "tb", fig.path='figs/',
+                      echo=F, warning=F, cache=F, 
+                      message=F, sanitize = T)
+
+library(png)
+library(grid)
+library(ggplot2)
+library(xtable)
+library(tidyverse)
+library(here)
+library(brms)
+library(rstan)
+library(rstanarm)
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+
+expt_1 <- "data/expt_1"
+expt_2 <- "data/expt_2"
+mod_loc <- "code/models"
+time_palette <- c("practice" = "grey", "block 1" = "#E41A1C", "block 2" = "#377EB8", "block 3" = "#4DAF4A", "block 4" = "purple") # TODO FIX
+
+# experiment 1 imports
+transcript_1 <- read_csv(here(expt_1,"timed_transcript.csv"))
+dat_1 <- read_csv(here(expt_1, "clean_data.csv")) |> rename(trial=trialNum)
+exclusion_1 <- transcript_1 %>% filter(!is.na(description)) %>% filter(role=="S") %>% select(game,  echo,) %>% unique() %>% mutate("S_talked"=1)
+
+words_1 <- transcript_1 |> filter(!is.na(description)) |> mutate(words=description |> str_count("\\S+")) |> 
+  filter(role=="S") |> 
+  group_by(game, trial) |> 
+  summarize(words=sum(words)) 
+
+clean_1 <- dat_1 %>% left_join(exclusion_1) %>% filter(S_talked==1) |> left_join(words_1) |>  mutate(type=case_when(trial<2 ~ "practice",
+                        trial<6 ~ "block 1",
+                        trial<10 ~ "block 2",
+                        trial<14 ~ "block 3"))
+ 
+
+# sims_1 <- read_rds(here(expt_1,"similarities.rds")) |> 
+#     as_tibble() 
+#   inner_join(clean_1|> select(game1 = game, trial1 = trial, target1 = target, speaker1 = speaker)) |>
+#   inner_join(clean_1 |> select(game2 = game, trial2 = trial, target2 = target, speaker2 = speaker)) |>
+#   filter(target1 == target2) |>
+#   mutate(block1 = trial1 %/% 4, block2 = trial2 %/% 4) |> 
+#   mutate(same_speaker=(speaker1==speaker2) |> as.numeric(),
+#          same_game=(game1==game2) |> as.numeric(),
+#         later = ifelse(block1 > block2, block1, block2), 
+#         earlier = ifelse(block1 > block2, block2, block1)) |> mutate(target=target1)
+
+
+# expt 2 imports
+transcript_2 <- read_csv(here(expt_2, "transcripts.csv"))
+link <- read_csv(here(expt_2, "link_transcripts.csv"))
+
+exclude_2 <- transcript_2 |>
+  filter(!is.na(echo)) |>
+  select(gameId, trial)
+
+data_2 <- read_csv(here(expt_2, "clean_data.csv")) |>
+  rename(trial = trialNum) |>
+  anti_join(exclude_2)
+
+transcript_2 <- transcript_2 |>
+  anti_join(exclude_2) |>
+  filter(!is.na(description))
+
+words_2 <- transcript_2 |> mutate(words=description |> str_count("\\S+")) |> 
+  filter(role=="S") |> 
+  group_by(gameId, gameConfig, trial) |> 
+  summarize(words=sum(words)) 
+
+clean_2 <- data_2 |> left_join(words_2) |>
+  filter(!is.na(words)) |> 
+   mutate(type = case_when(
+    trial < 4 ~ "practice",
+    trial < 8 ~ "block 1",
+    trial < 12 ~ "block 2",
+    trial < 16 ~ "block 3",
+    trial < 20 ~ "block 4"
+  )) |>
+  filter(!is.na(response)) |> 
+  mutate(correct=as.numeric(correct))
+
+# sims_2 <- read_rds(here(expt_2, "similarities.rds")) |>
+#   as_tibble() |>
+#   inner_join(clean_2 |> select(game1 = gameId, trial1 = trial, target1 = target, speaker1 = speaker)) |>
+#   inner_join(clean_2 |> select(game2 = gameId, trial2 = trial, target2 = target, speaker2 = speaker)) |>
+#   filter(target1 == target2) |>
+#   mutate(block1 = trial1 %/% 4, block2 = trial2 %/% 4) |> 
+#   mutate(same_speaker=(speaker1==speaker2) |> as.numeric(),
+#          same_game=(game1==game2) |> as.numeric(),
+#         later = ifelse(block1 > block2, block1, block2), 
+#         earlier = ifelse(block1 > block2, block2, block1)) |> mutate(target=target1)
+```
+
+# TODOs
+
+* Check transcription for expt 1 and 2 especially for ref expression
+
+* Rerun sbert stuff
+
+* Run models
+
+* Double check pre-regs and note deviations
+
+* Include fun examples of the things kiddos said
+
+
+# Pre-regs
+https://osf.io/kcv8j
+
+https://osf.io/y2dax
+
+Analyses -- Expt 1
+
+This is exploratory research, and we will explore the following questions graphically:
+* how accurate are children over time
+* how many words of description does the speaker produce over time
+* do children speed up in their selections over time
+* do children match the descriptions their partner uses 
+
+We will also analyze the transcripts to look at children’s turn-taking structure and how they understand each other. 
+
+We plan to run the model:
+DV  ~ trial_num + (trial_num|dyad) + (1|target) 
+for the DVs: 
+[x] accuracy (logistic model), 
+[ ] speed (linear model) and 
+[ ] number of words of speaker description (linear model ). 
+
+Analyses -- Expt 2
+
+Primarily, we aim to replicate the results of experiment 1, using the following models. 
+
+[x] Logistic model of accuracy: correct ~ trialNum + (trialNum|game) + (1|target) (prior normal(0,1) for beta and sd, lkj(1) for correlation)
+
+[ ] Linear model of description length: words ~ trialNum + (trialNum|game) + (1|target) (prior intercept of normal(5,10), beta and sd priors of normal(0,5), and correlation of lkj(1))
+
+[ ] Speed: time_seconds ~ trialNum + (trialNum|game) + (1|target) (prior intercept of normal(60,100), beta and sd priors of (0,20) and correlation of lkj(1))
+
+We will interpret the fixed effect of trial number as being about changes in referring over time. 
+
+For utterance similarities, we will embed the describer’s descriptions using S-BERT and use cosine similarity as a proxy for utterance similarity. 
+
+We are unsure whether 4 blocks will be sufficient to see potential change over time, so we will 
+[ ] * compare similarities of utterances between different games v within one game v within one speaker: sim ~ same_game + same_speaker + (1|target) 
+[ ] * compare similarities of utterances to the last utterance within a game: sim_to_last ~ earlier_block + same_speaker + (1|game) + (1|target)
+[ ] * compare similarities of utterances to the next utterance: sim_to_next ~ earlier_block + same_speaker + (1|game) + (1|target)
+[ ] * compare the similarity level of descriptions from the same block in different games: sim ~ block + (1|target)
+Priors for the above similarity models: normal(.5,.2) for intercept, normal(0,.1) for
+beta, and normal(0,.05) for sd.
+
+We will also qualitatively explore children’s turn-taking structure and how they understand each other. 
+
+# Introduction
+
+TODO introduction
+
+# Experiment 1 Methods
+
+Our goal for experiment 1 was to test young children's ability to coordinate on descriptions to abstract shapes that their partner could understand. Young children can be very sensitive to task demands and cognitive load that can hide early abilities (TODO cite something for this), so we wanted to use a simple paradigm with experimenter scaffolding. We adapted the experimental framework from @leung, but further simplified it by reducing the total pool of targets and the number of trials children completed. 
+
+TODO link to pre-registration 
+
+## Participants
+4 and 5 year old children were recruited from a university nursery school during the school day. Children played with another child from the same class. TODO any exclusions Experiment 1 was conducted between June and August 2023. Children were only included in analysis if they completed at least 8 of the critical trials. We had XX complete games and YY incomplete, but included games. 
+
+## Materials
+For the target stimuli, we used four of the ten tangram images from @leung, chosen based on visual dissimilarity. The matching game was coded as an Empirica experiment (CITATION) and run on two tablets locked in a kiosk mode so children could access other websites or apps. 
+
+## Procedure
+Once a pair of children agreed to play the game, they were taken to a quiet testing room where procedure was explained to them. Children were introduced to a stuffed animal "Smurfy" who wanted to play a matching game. Children sat across a table from each other, each with a tablet in front of them. On each trial, one child saw two images, one of them in a black box, and was asked to "say what they saw" in the black box so their partner (and Smurfy) could tap the corresponding image. The guesser saw the same two images (in a randomized order), but with neither boxed. Upon tapping an image, both children recieved feedback in form of a smiley or frowney face and an audible sound. After each trial, children's roled switched, demarcated by passing Smurfy back and forth. 
+
+Children completed two warm-up trials with black and white images of familiar shapes, followed by 3 blocks of the 4 targets. Targets were randomly paired with another of the critical images as the foil. 
+
+The experimenters running the game did not volunteer descriptions, but did scaffold the interaction, prompting children to describe the images, and sometimes repeating children's statements. The entire interaction was video-recorded. 
+
+TODO DIAGRAM OF EXPERIMENT + Picture of children playing the game as top bar
+
+## Data processing
+
+Children's selections and the time to selection were recorded from the experiment software. Children's descriptions were transcribed from the video-recording, using Whisper (CITE) for the first pass and then hand-corrected by experimenters. Transcripts were hand-annotated for when each trial started, who said each line, and what referential descriptions were used. 
+
+# Experiment 1 Results
+
+## Accuracy
+
+```{r}
+ clean_1 |> 
+  ggplot(aes(x = trial+1, y = as.numeric(correct), fill=type)) +
+  stat_summary(fun.data="mean_cl_boot", geom="bar") +
+    stat_summary(fun.data="mean_cl_boot", geom="linerange", color="black") +
+  scale_fill_manual(values=time_palette)+
+  theme_classic() +
+  xlab("\nTrial") +
+  ylab("Percent accuracy\n") +
+  theme(aspect.ratio = 4/5,
+        axis.title=element_text(size=14,face="bold"),
+        axis.text=element_text(size=9, color = "black"),
+        legend.position = "none")
+
+```
+
+```{r}
+acc_priors <- c(
+set_prior("normal(0,1)", class="b"),
+set_prior("normal(0,1)", class="sd"),
+set_prior("lkj(1)", class="cor")
+)
+
+acc_mod_data <- clean_1 |> mutate(correct.num=ifelse(correct==TRUE, 1,0),
+                                  trial.num=trial-2) |> filter(type!="practice")
+acc_mod <- brm(correct.num ~ trial.num + (trial.num|game) + (1|target),
+               family = bernoulli(link = "logit"),
+               data=acc_mod_data,
+               file = here(mod_loc, "acc_1.rds"),
+               prior=acc_priors,
+               control = list(adapt_delta=.95))
+```
+
+## Speed
+
+```{r}
+ clean_1 |> 
+  mutate(time=ifelse(is.na(time),180000,time)) %>% #treat the one that timed out as being max time
+  ggplot(aes(x = trial+1, y = time/1000, color=type)) +
+  geom_jitter(width=.2, height=0, alpha=.5)+
+  #geom_line(aes(group=game))+
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
+  scale_color_manual(values=time_palette)+
+  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  #geom_smooth(method="lm")+
+  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("\nTrial") +
+  ylab("Time to answer in seconds")+
+  coord_cartesian(ylim=c(0,60))+
+  #ylab("Percent trials with echoing \n by experimenter\n") +
+  #scale_x_continuous(breaks=seq(1,12,1)) +
+  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
+  theme(aspect.ratio = 4/5,
+        axis.title=element_text(size=14,face="bold"),
+        axis.text=element_text(size=9, color = "black"),
+        legend.position = "none")
+```
+
+## Description length
+
+```{r}
+
+clean_1 |> 
+  ggplot(aes(x = trial+1, y = words, color=type)) +
+    geom_jitter(width=.2, height=0, alpha=.5)+
+  #geom_line(aes(group=game))+
+ # facet_wrap(.~correct) + 
+    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
+  scale_color_manual(values=time_palette)+
+  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  #geom_smooth(method="lm")+
+  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("\nTrial") +
+  #coord_cartesian(ylim=c(0,60))+
+  #ylab("Percent trials with echoing \n by experimenter\n") +
+  #scale_x_continuous(breaks=seq(1,12,1)) +
+  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
+  theme(aspect.ratio = 4/5,
+        axis.title=element_text(size=14,face="bold"),
+        axis.text=element_text(size=9, color = "black"),
+        legend.position = "none")
+    
+
+
+```
+
+## Convergence 
+
+
+
+```{r, fig.width=4, fig.height=3}
+
+# sims_1 %>%  filter(!is.na(sim)) %>% 
+#   filter(!trial1 %in% c("0","1")) %>% filter(!trial2 %in% c("0","1"))%>% #not practice
+#   left_join(labels1) %>% left_join(labels2) %>%
+#   mutate(same_target=ifelse(target1==target2, "Same target", "Different target"),  #label if target is same or not
+#   same_child=case_when(
+#     game1!=game2 ~ "Different\n games",
+#     (as.numeric(trial1)-as.numeric(trial2))%%2==1~"Different\n speaker", #children alternate
+#     T ~"Same\n speaker"),
+#   type1=case_when(trial1<2 ~ "practice",
+#                         trial1<6 ~ "block 1",
+#                         trial1<10 ~ "block 2",
+#                         trial1<14 ~ "block 3"),
+#          type2=case_when(trial2<2 ~ "practice",
+#                         trial2<6 ~ "block 1",
+#                         trial2<10 ~ "block 2",
+#                         trial2<14 ~ "block 3")) %>% 
+#   filter(type1!=type2) %>% # can only compare across blocks in some cases, so only cross ever
+#     mutate(blocks=case_when(
+#       type1=="block 1" & type2=="block 2"~ "Block 1 v 2   ",
+#       type1=="block 2" & type2=="block 1"~ "Block 1 v 2   ",
+#       type1=="block 1" & type2=="block 3"~ "Block 1 v 3   ",
+#       type1=="block 3" & type2=="block 1"~ "Block 1 v 3   ",
+#       type1=="block 2" & type2=="block 3"~ "Block 2 v 3   ",
+#       type1=="block 3" & type2=="block 2"~ "Block 2 v 3   "
+#       )) %>%
+#   ggplot(aes(x=str_c(same_child), y=sim, color=blocks)) +
+#   facet_grid(.~same_target) +
+#   theme_bw()+
+#   #geom_jitter(alpha=.01, color="black") +
+#   labs(x="", y="Cosine similarity", color="")+
+#   scale_color_brewer(type="qual", palette="Dark2")+
+#   scale_y_continuous(limits=c(0,1), expand=c(0,0))+
+#       stat_summary(fun.data="mean_cl_boot", geom="pointrange", position=position_dodge(width=.2))+
+#     guides( color = guide_legend( override.aes = list(linetype=0, size=1)))+
+#   theme(strip.background =element_rect(fill="white"),
+#         legend.position="bottom",
+#         axis.title.x=element_blank())
+
+```
+
+```{r}
+# sims_1 %>%  filter(!is.na(sim)) %>% 
+#   filter(!trial1 %in% c("0","1")) %>% filter(!trial2 %in% c("0","1"))%>% #not practice
+#   left_join(labels1) %>% left_join(labels2) %>%
+#   mutate(same_target=ifelse(target1==target2, "same_target", "diff_target"),  #label if target is same or not
+#   same_child=case_when(
+#     game1!=game2 ~ "diff game",
+#     (as.numeric(trial1)-as.numeric(trial2))%%2==1~"diff_child", #children alternate
+#     T ~"same_child"),
+#   type1=case_when(trial1<2 ~ "practice",
+#                         trial1<6 ~ "block 1",
+#                         trial1<10 ~ "block 2",
+#                         trial1<14 ~ "block 3"),
+#          type2=case_when(trial2<2 ~ "practice",
+#                         trial2<6 ~ "block 1",
+#                         trial2<10 ~ "block 2",
+#                         trial2<14 ~ "block 3")) %>% 
+#   filter(type1==type2) %>% # can only compare across blocks in some cases, so only cross ever
+#   ggplot(aes(x=str_c(same_target,"\n",same_child), y=sim, color=type1)) +
+#   geom_jitter(alpha=.01, color="black") +
+#       stat_summary(fun.data="mean_cl_boot", geom="pointrange", position=position_dodge(width=.2))+
+#   labs(x="Conditions compared")
+```
+
+# Experiment 1 Discussion
+
+# Experiment 2 Methods
+
+After the first experiment, we wanted to run another study using the same paradigm, but fixing issues that arose during experiment 1. We also tightened the experimenter script to reduce the possibility that the experimenters were influencing children's descriptions and understanding of descriptions. Given that most pairs in experiment 1 were able to play the game fairly quickly, we also added a 4th experimental block to be able to look for change over time. 
+
+As Experiment 2 was very similar to Experiment 1, here we note the differences. 
+
+## Participants
+Experiment 2 was run between March and August of 2024, at the same university preschool. No children participated in both experiments. ZZ pairs of children completed all 16 critical trials, and YY pairs of children completed between 8 and 16 critical trials. 
+
+## Materials
+The same 4 critical images were used as in experiment 1, although this time, children saw these images 4 times. In response to some children struggling with the abrupt switch from nameable to non-nameable shapes, we introduced more practice trials for experiment 2. Additionally, before the practice trials, we added a "bubble popping" exercise to familiarize children with how to tap the tablet appropriately (a problem in experiment 1). 
+
+## Procedure
+The procedure was much the same. The smurfy puppet was swapped out for a more attractive smurfy stuffed animal. The experimental script was tightened. TODO link to materials for where the script is. 
+
+## Data processing
+Data was processed in the same way as experiment 1. 
+
+# Experiment 2 Results
+
+## Accuracy
+
+```{r}
+clean_2 |>
+  ggplot(aes(x = trial + 1, y = correct)) +
+  stat_summary(aes(fill = type), fun.data = "mean_cl_boot", geom = "bar") +
+  stat_summary(fun.data = "mean_cl_boot", geom = "linerange", color = "black") +
+  scale_fill_manual(values = time_palette) +
+  # geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  geom_smooth(data = clean_2 |> filter(trial > 3), method = "lm", color = "black") +
+  # geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("\nTrial") +
+  ylab("Percent accuracy\n") +
+  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
+  scale_y_continuous(breaks = seq(0, 1, .1), expand = c(0, 0)) +
+  geom_hline(yintercept = .5) +
+  theme(
+    aspect.ratio = 4 / 5,
+    axis.title = element_text(size = 14, face = "bold"),
+    axis.text = element_text(size = 9, color = "black"),
+    legend.position = "none"
+  )
+```
+
+```{r}
+acc_priors <- c(
+set_prior("normal(0,1)", class="b"),
+set_prior("normal(0,1)", class="sd"),
+set_prior("lkj(1)", class="cor")
+)
+
+acc_mod_data <- clean_2 |> mutate(correct.num=ifelse(correct==TRUE, 1,0),
+                                  trial.num=trial-4) |> filter(type!="practice")
+acc_mod <- brm(correct.num ~ trial.num + (trial.num|gameId) + (1|target),
+               family = bernoulli(link = "logit"),
+               data=acc_mod_data,
+               file = here(mod_loc, "acc_2.rds"),
+               prior=acc_priors,
+               control = list(adapt_delta=.95))
+```
+
+## Speed
+
+```{r}
+clean_2 |> ggplot( aes(x = trial + 1, y = time / 1000, color = type)) +
+  geom_jitter(alpha = .5, color = "grey") +
+  stat_summary(fun.data = "mean_cl_boot") +
+  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
+  scale_color_manual(values = time_palette) +
+  theme_classic() +
+  geom_smooth(data = clean_2 |> filter(trial > 3), method = "lm", color = "black") +
+  xlab("Trial") +
+  ylab("Time (seconds)") +
+  theme(legend.position = "none")
+```
+
+## Description length
+
+```{r}
+
+clean_2 |> ggplot( aes(x = trial + 1, y = words, color = type)) +
+  geom_jitter(alpha = .5, color = "grey") +
+  stat_summary(fun.data = "mean_cl_boot") +
+  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
+  scale_color_manual(values = time_palette) +
+  theme_classic() +
+  geom_smooth(data = clean_2|> filter(trial > 3), method = "lm", color = "black") +
+  xlab("Trial") +
+  ylab("Words") +
+  theme(legend.position = "none")
+```
+
+
+## Convergence 
+
+```{r}
+# sims_2 |>
+#   mutate(source = case_when(
+#     speaker1 == speaker2 ~ "same speaker",
+#     game1 == game2 ~ "same game",
+#     T ~ "different games"
+#   )) |>
+#   ggplot(aes(x = source, y = sim, color = target1)) +
+#   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+#   labs(y = "Cosine similarity", x = "Comparing two utterances from ...", color = "target image") +
+#   theme(legend.position = "bottom")
+
+
+```
+
+```{r}
+# sims_2 |>
+#   filter(game1 == game2) |>
+#   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+#   filter(later == 4) |>
+#   mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |>
+#   ggplot(aes(as.character(earlier), sim, color = target1)) +
+#   geom_point(alpha = .1, position = position_dodge(width = .2)) +
+#   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+#   facet_wrap(~same_speaker) +
+#   labs(x = "Earlier block to last block", y = "cosine similarity", color = "target") +
+#   theme(legend.position = "bottom")
+```
+
+```{r}
+# sims_2 |>
+#   filter(game1 == game2) |>
+#   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+#   filter(later == earlier + 1) |>
+#   mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |>
+#   ggplot(aes(as.character(earlier), sim, color = target1)) +
+#   geom_point(alpha = .1, position = position_dodge(width = .2)) +
+#   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+#   facet_wrap(~same_speaker) +
+#   labs(x = "Earlier block to *next* block", y = "cosine similarity", color = "target") +
+#   theme(legend.position = "bottom")
+```
+
+```{r}
+# sims_2 |>
+#   filter(game1 != game2) |>
+#   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+#   filter(later == earlier) |>
+#   ggplot(aes(as.character(earlier), sim, color = target1)) +
+#   geom_point(alpha = .01, position = position_dodge(width = .2)) +
+#   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+#   labs(x = "Cross game similarity in block ...", y = "cosine similarity", color = "target") +
+#   theme(legend.position = "bottom")
+```
+
+# General Discussion
+
+Summary of experiments
+
+Limitations. The population of children at university nursery schools is non-representative, and the set of materials we used was also not that varied. This set of tangram images may be easier to distinguish and refer to than some sets used with adults, leading to overall shorter utterances. Probably shouldn't say based on this that children can "do reference" at age 4, but it is evidence that under supportive circumstances, a number of children at this age are able to. 
+
+We also specifically target the construction of referring expressions that can be jointly understood. There are other parts of the coordination where help was provided in children seemed stuck or confused, such as when to make a choice or ask for more information. 
+
+Broader implications
+
+This work (along with other work on children's referential communicaiton) suggests that there's a more gradual development
+Has implications for how we think about children's language development. There's debate over how that is ordered and whether communication/pragmatics is a final stage, or how all the stages are boostrapped (CITATIONS). This early ability to use language for communicative purposes is more consistent with the early pragmatics viewpoint. 
+
+Suggestive of a gradual development where children's capabilities are increasing for a wide amount of childhood, as their working memory capacity and executive function improve and they are able to better track other's states of knowledge and keep track of wider arrays of images. 
+
+
+<!--# Acknowledgements
+
+Place acknowledgments (including funding information) in a section at
+the end of the paper.-->
+
+# References 
+
+```{r}
+# References will be generated automatically by Pandoc and included here.
+# The following code is some latex to format the bibliography. Do not remove it.
+```
+
+\setlength{\parindent}{-0.1in} 
+\setlength{\leftskip}{0.125in}
+\noindent

@@ -1,7 +1,6 @@
 trial,gameId,words,target,distractor
 4,5LuHx6piA3FAjEEvF,A boat,swim,jump
 4,6FrMxuQqHPG6BQ4id,A diamond,hold,walk
-4,6NZ8uhHHsyQ9m8jRC,N/A,jump,swim
 4,8Pg9tqNTkvAHXD4YW,triangle feet,jump,swim
 4,D6vdTyHjB9pWy9oTk,A person,hold,swim
 4,DD5546uyAjpEZB7Df,A person,hold,swim
@@ -59,10 +58,8 @@ trial,gameId,words,target,distractor
 5,uT4ySBFpCWunpYMmn,a triangle with a head on it with feet,jump,hold
 5,uidAFavaAGAqJ8HYY,somebody falling down,jump,hold
 5,xwPovSuJgpqMFZruP,A ghost,jump,walk
-5,yubEzRSKnPkFZDJWS,N/A,jump,swim
 6,5LuHx6piA3FAjEEvF,Person,hold,jump
 6,6FrMxuQqHPG6BQ4id,A falcon,jump,walk
-6,6NZ8uhHHsyQ9m8jRC,N/A,hold,walk
 6,8Pg9tqNTkvAHXD4YW,a person holding a sandwich,hold,jump
 6,D6vdTyHjB9pWy9oTk,a racecar,swim,hold
 6,DD5546uyAjpEZB7Df,the one looking up,jump,walk
@@ -75,7 +72,6 @@ trial,gameId,words,target,distractor
 6,Qx7HLhhMwYRCosRyX,"a snow skater, a snow skater, a snow skater, a snow skater",swim,jump
 6,R83tnLDcgGTD3F4SR,a boat,swim,walk
 6,RZu2haHpawM28eRuK,A person that fell down,swim,jump
-6,S9c9v6fAqdxuedydx,N/A,jump,walk
 6,TDdHXhZK29W9z7d8H,A boat,swim,jump
 6,WcEaqZRmgk5YCnxPZ,a human,walk,hold
 6,XA9YvXhM83Tack4qy,airplane,swim,hold
@@ -106,7 +102,6 @@ trial,gameId,words,target,distractor
 7,Qx7HLhhMwYRCosRyX,"a diamond, a human carrying a diamond, a human",hold,walk
 7,R83tnLDcgGTD3F4SR,a people,walk,swim
 7,RZu2haHpawM28eRuK,A paintballer,hold,walk
-7,S9c9v6fAqdxuedydx,N/A,swim,hold
 7,TDdHXhZK29W9z7d8H,A people,walk,swim
 7,WcEaqZRmgk5YCnxPZ,"walking feet, feet",jump,walk
 7,XA9YvXhM83Tack4qy,"a human, a human, a human, a human",walk,swim
@@ -212,7 +207,6 @@ trial,gameId,words,target,distractor
 10,sfLKxjjG6efGYekzK,boat,hold,jump
 10,uT4ySBFpCWunpYMmn,race car,swim,jump
 10,uidAFavaAGAqJ8HYY,a person holding a flute,hold,walk
-10,xwPovSuJgpqMFZruP,N/A,walk,hold
 10,yubEzRSKnPkFZDJWS,A person,swim,hold
 11,5LuHx6piA3FAjEEvF,Boat,jump,swim
 11,6FrMxuQqHPG6BQ4id,An airplane,swim,hold
@@ -272,7 +266,6 @@ trial,gameId,words,target,distractor
 12,sfLKxjjG6efGYekzK,boat,hold,walk
 12,uT4ySBFpCWunpYMmn,"person, a square on the head",walk,jump
 12,uidAFavaAGAqJ8HYY,somebody holding a trumpey,hold,swim
-12,xwPovSuJgpqMFZruP,N/A,swim,walk
 12,yubEzRSKnPkFZDJWS,Tail,walk,swim
 13,5LuHx6piA3FAjEEvF,Person,walk,hold
 13,6FrMxuQqHPG6BQ4id,The human,hold,swim
@@ -400,7 +393,7 @@ trial,gameId,words,target,distractor
 17,EaHFpvRKrAeZqnBz6	2,"the one that is showing his hands, someone that is showing his hands, someone that is showing his hands",NA,NA
 17,F35AwXNeMjhzbWkKq,Somebody jumping,jump,swim
 17,GCpwyMdn9qNTNhyqf,Person,walk,hold
-17,GdxgdDaNrmnpHhnSc,A human but two triangles,swim,walk
+17,GdxgdDaNrmnpHhnSc,"A human but two triangles, airplane",swim,walk
 17,KPBNaTzQ8rxDECjgD,the beaver,hold,jump
 17,R83tnLDcgGTD3F4SR,a person,walk,jump
 17,RZu2haHpawM28eRuK,A person holding a triangle,hold,swim
@@ -418,7 +411,7 @@ trial,gameId,words,target,distractor
 17,sfLKxjjG6efGYekzK,human with head up with eyes,swim,hold
 17,uT4ySBFpCWunpYMmn,a diamond head,jump,swim
 17,uidAFavaAGAqJ8HYY,somebody on the boat,swim,walk
-17,xwPovSuJgpqMFZruP,A ghost / A person,jump,walk
+17,xwPovSuJgpqMFZruP,"A ghost, a person",jump,walk
 17,yubEzRSKnPkFZDJWS,Away,jump,walk
 18,5LuHx6piA3FAjEEvF,Person walking,hold,swim
 18,6FrMxuQqHPG6BQ4id,Human,hold,walk

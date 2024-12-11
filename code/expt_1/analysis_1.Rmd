@@ -209,6 +209,7 @@ Is getting faster over time at about 1 second / trial.
 ```{r}
 
 correctness <- dat %>% select(game, trial=trialNum, target, distractor, correct)
+
 transcript %>% filter(!is.na(description)) %>% group_by(game,speaker, trial) %>% 
   summarize(words=str_c(description, sep=" ", collapse=", ")) %>% 
   left_join(correctness) %>% 
