@@ -153,7 +153,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 277000,278000,Great.,I,8,,,,
 278000,280000,"Okay, here you go.",I,,,,,
 280000,283000,"Now, [id33], what do we see?",I,,,,,
-283000,285000,A person sad walking again.,id33,,S,,a person sad walking again,Y
+283000,285000,A person sad walking again.,id33,,S,,a person sad walking,Y
 285000,288000,A person sat walking again.,I,,,Y,,
 288000,290000,[id33].,I,,,,,
 290000,292000,"Great, here you go.",I,9,,,,
@@ -173,7 +173,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 318000,321000,Not again.,id33,,S,,,Y
 321000,323000,Here you go.,I,,,,,
 323000,326000,"[id34], what do we see?",I,11,,,,
-326000,331000,A triangle that's on the ground again.,id34,,S,,a triangle that’s on the ground again,Y
+326000,331000,A triangle that's on the ground again.,id34,,S,,a triangle that’s on the ground,Y
 331000,333000,"A triangle that's on the ground again, [id33].",I,,,Y,,
 333000,335000,Do you see that?,I,,,,,
 335000,337000,Let's press it.,I,12,,,,

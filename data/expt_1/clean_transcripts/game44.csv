@@ -203,7 +203,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 376000,377000,Is that in the black box?,I,,,,,
 377000,378000,No.,id20,,,,,
 378000,381000,"You know, so we have to tell us what we see in the black box.",I,,,,,
-381000,385000,"It's kind of an airplane, it looks like one.",id20,,S,,"kind of an airplane, it looks like one",Y
+381000,385000,"It's kind of an airplane, it looks like one.",id20,,S,,an airplane,Y
 385000,387000,Kind of an airplane.,I,,,Y,,
 387000,389000,Is it this?,id19,,L,,,Y
 389000,391000,"Well, I don't know if that's your choice.",I,,,,,

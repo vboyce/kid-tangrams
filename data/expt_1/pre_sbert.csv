@@ -94,7 +94,7 @@ trial,game,words,target,distractor
 4,game63,someone that’s holding a backwards triangle cup,hold,jump
 5,game41,a person jumping,jump,swim
 5,game42,two wings with a square in the back with two feet,jump,walk
-5,game44,"airplane, a guy driving a jet plane, kind of an airplane, it looks like one",swim,walk
+5,game44,"airplane, a guy driving a jet plane, an airplane",swim,walk
 5,game45,a crocodile tasting an animal in the water,swim,walk
 5,game46,a person walking,walk,hold
 5,game47,a water fountain,hold,jump
@@ -117,7 +117,7 @@ trial,game,words,target,distractor
 6,game44,a girl,hold,jump
 6,game45,a guy,hold,jump
 6,game46,stairs,jump,hold
-6,game47,"a lego, Why is this not a person without any arms and I don't know what it is?",walk,hold
+6,game47,"a lego, not a person without any arms",walk,hold
 6,game48,a walking person,walk,jump
 6,game50,a person trying to fly,jump,swim
 6,game51,a flying person,jump,walk
@@ -130,7 +130,7 @@ trial,game,words,target,distractor
 6,game59,a person,walk,swim
 6,game60,someone’s like walking while sliding,swim,walk
 6,game61,a boat,swim,hold
-6,game63,"A diamond head and a backwards triangle butt and triangle feet and a backwards triangle head, head",jump,hold
+6,game63,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle head,jump,hold
 7,game41,someone dying,swim,jump
 7,game42,a man with one foot and a line and a square and a triangle.,hold,jump
 7,game44,a jumping man,jump,swim
@@ -160,7 +160,7 @@ trial,game,words,target,distractor
 8,game48,a lying person,swim,jump
 8,game49,a kid,walk,jump
 8,game50,a person holding something,hold,swim
-8,game51,a person sad walking again,walk,swim
+8,game51,a person sad walking,walk,swim
 8,game52,a person,hold,jump
 8,game54,an airplane,jump,swim
 8,game55,a person,jump,hold
@@ -169,7 +169,7 @@ trial,game,words,target,distractor
 8,game59,"a person that can fly, a bird that has feet",jump,hold
 8,game60,a person,walk,swim
 8,game61,a person,walk,hold
-8,game63,"a head down square and like this, a triangle feet and one rectangle and one triangle and then a square head.",walk,hold
+8,game63,"a head down square, a triangle feet and one rectangle and one triangle and then a square head.",walk,hold
 9,game41,"A person walking, a person walking, the person’s head is square",walk,jump
 9,game42,"a guy with two foot and a line and one square, a man with two foot and a tummy shaped as a diamond and a square head",walk,hold
 9,game44,a walking man,walk,swim
@@ -181,7 +181,7 @@ trial,game,words,target,distractor
 9,game50,people walking,walk,jump
 9,game51,a person holding a triangle,hold,walk
 9,game52,a person walking,walk,hold
-9,game54,"a man falling again, the man is holding food",hold,swim
+9,game54,"a man falling, a man holding something, the man is holding food",hold,swim
 9,game55,"a plane, a whale",swim,hold
 9,game56,a statue,hold,swim
 9,game57,a person,hold,walk
@@ -219,7 +219,7 @@ trial,game,words,target,distractor
 11,game48,a laying person,swim,walk
 11,game49,a flying person,jump,walk
 11,game50,a person holding something,hold,jump
-11,game51,a triangle that’s on the ground again,swim,hold
+11,game51,a triangle that’s on the ground,swim,hold
 11,game52,a car,swim,jump
 11,game54,a man falling down,swim,walk
 11,game55,a whale,swim,jump

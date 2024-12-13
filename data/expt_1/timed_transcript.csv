@@ -645,7 +645,7 @@ game44,142,143,Walking man.,id20,5,S,NA,Y,5,5,Y,103
 game44,143,144,Is that in the black box?,I,5,NA,NA,NA,5,5,Y,103
 game44,144,145,No.,id20,5,NA,NA,NA,5,5,Y,103
 game44,145,148,"You know, so we have to tell us what we see in the black box.",I,5,NA,NA,NA,5,5,Y,103
-game44,148,152,"It's kind of an airplane, it looks like one.",id20,5,S,"kind of an airplane, it looks like one",Y,5,5,Y,103
+game44,148,152,"It's kind of an airplane, it looks like one.",id20,5,S,an airplane,Y,5,5,Y,103
 game44,152,154,Kind of an airplane.,I,5,NA,NA,NA,5,5,Y,103
 game44,154,156,Is it this?,id19,5,L,NA,Y,5,5,Y,103
 game44,156,158,"Well, I don't know if that's your choice.",I,5,NA,NA,NA,5,5,Y,103
@@ -1160,7 +1160,7 @@ game47,219,225,"I see, maybe that’s  a Lego.",id26,6,S,a lego,Y,6,6,Y,212
 game47,225,228,You see a Lego?,I,6,NA,NA,NA,6,6,Y,212
 game47,228,231,I don't know if I see a Lego.,id25,6,L,NA,Y,6,6,Y,212
 game47,231,234,I don't know what it's that.,id26,6,S,NA,Y,6,6,Y,212
-game47,234,239,Why is this not a person without any arms and I don't know what it is?,id26,6,S,Why is this not a person without any arms and I don't know what it is?,Y,6,6,Y,212
+game47,234,239,Why is this not a person without any arms and I don't know what it is?,id26,6,S,not a person without any arms,Y,6,6,Y,212
 game47,239,245,She says it's kind of not a person without any arms.,I,6,NA,NA,NA,6,6.5,Y,212
 game47,245,246,Great.,I,7,NA,NA,NA,6.5,6.5,Y,248
 game47,246,247,Yeah.,id26,7,NA,NA,NA,6.5,6.5,Y,248
@@ -1917,7 +1917,7 @@ game51,167,170,Let's try again.,I,7,NA,NA,NA,7,7.5,Y,148
 game51,170,171,Great.,I,8,NA,NA,NA,7.5,7.5,Y,173
 game51,171,173,"Okay, here you go.",I,8,NA,NA,NA,7.5,8,Y,173
 game51,173,176,"Now, [id33], what do we see?",I,8,NA,NA,NA,7.5,8,Y,173
-game51,176,178,A person sad walking again.,id33,8,S,a person sad walking again,Y,8,8,Y,173
+game51,176,178,A person sad walking again.,id33,8,S,a person sad walking,Y,8,8,Y,173
 game51,178,181,A person sat walking again.,I,8,NA,NA,NA,8,8.5,Y,173
 game51,181,183,[id33].,I,8,NA,NA,NA,8.5,8.5,Y,173
 game51,183,185,"Great, here you go.",I,9,NA,NA,NA,8.5,9,Y,184
@@ -1937,7 +1937,7 @@ game51,210,211,Sad walking.,I,10,NA,NA,NA,10,10,Y,205
 game51,211,214,Not again.,id33,10,S,NA,Y,10,10.5,Y,205
 game51,214,216,Here you go.,I,10,NA,NA,NA,10.5,11,Y,205
 game51,216,219,"[id34], what do we see?",I,11,NA,NA,NA,11,11,Y,215
-game51,219,224,A triangle that's on the ground again.,id34,11,S,a triangle that’s on the ground again,Y,11,11,Y,215
+game51,219,224,A triangle that's on the ground again.,id34,11,S,a triangle that’s on the ground,Y,11,11,Y,215
 game51,224,226,"A triangle that's on the ground again, [id33].",I,11,NA,NA,NA,11,11,Y,215
 game51,226,228,Do you see that?,I,11,NA,NA,NA,11,11,Y,215
 game51,228,230,Let's press it.,I,12,NA,NA,NA,11,11,Y,236
@@ -2417,13 +2417,13 @@ game54,335.64,336.64,That's okay.,I,8,NA,NA,NA,8.5,8.5,Y,318
 game54,336.64,337.64,Let's try again.,I,8,NA,NA,NA,8.5,9,Y,318
 game54,337.64,339.64,Let's help Smurfy out.,I,9,NA,NA,NA,9,9,Y,337
 game54,339.64,341.64,"[id39], what does that look like to you?",I,9,NA,NA,NA,9,9,Y,337
-game54,341.64,343.64,A man falling again.,id39,9,S,a man falling again,Y,9,9,Y,337
+game54,341.64,343.64,A man falling again.,id39,9,S,a man falling,Y,9,9,Y,337
 game54,343.64,344.64,This one?,I,9,NA,NA,NA,9,9,Y,337
 game54,344.64,345.64,Yeah.,I,9,NA,NA,NA,9,9,Y,337
 game54,345.64,346.64,The one in the black box.,I,9,NA,NA,NA,9,9,Y,337
 game54,346.64,347.64,Okay.,I,9,NA,NA,NA,9,9,Y,337
 game54,347.64,348.64,What does this one look like?,I,9,NA,NA,NA,9,9,Y,337
-game54,348.64,351.64,A man holding something.,id39,9,S,NA,Y,9,9,Y,337
+game54,348.64,351.64,A man holding something.,id39,9,S,a man holding something,Y,9,9,Y,337
 game54,351.64,354.64,It looks like a man holding something.,I,9,NA,NA,NA,9,9,Y,337
 game54,354.64,357.64,A gem or something.,id40,9,L,NA,Y,9,9,Y,337
 game54,357.64,358.64,It looks like a what?,I,9,NA,NA,NA,9,9,Y,337
@@ -2445,9 +2445,9 @@ game54,392.64,394.64,It looks like another man.,I,10,NA,NA,NA,10,10.5,Y,386
 game54,394.64,396.64,"Oh, that's okay.",I,11,NA,NA,NA,10.5,10.5,Y,397
 game54,396.64,402.64,"Let's pass for Smurfy on. Okay, here you go. [id39], what does that look like?",I,11,NA,NA,NA,10.5,11,Y,397
 game54,402.64,413.64,A man falling down.,id39,11,S,a man falling down,Y,11,12,Y,397
-game54,413.64,421.52,a man falling down. Which one looks like that Wallace. Let’s press it.,I,11,NA,NA,NA,12,12.5,Y,397
+game54,413.64,421.52,a man falling down. Which one looks like that [id140]. Let’s press it.,I,11,NA,NA,NA,12,12.5,Y,397
 game54,413.64,421.52,There you go.,I,11,NA,NA,NA,12,12.5,Y,397
-game54,413.64,421.52,"Wallace, what does that look like?",I,12,NA,NA,NA,12,12.5,NA,413
+game54,413.64,421.52,"[id140], what does that look like?",I,12,NA,NA,NA,12,12.5,NA,413
 game54,421.52,431.4,A man.,id40,12,S,a man,Y,12.5,13,NA,413
 game54,421.52,431.4,Another man.,I,12,NA,NA,NA,12.5,13,NA,413
 game54,431.4,446.4,"Great, let’s pass Smurfy on. [id39], what does that look like to you?",I,13,NA,NA,NA,13,NA,Y,422
@@ -3949,7 +3949,7 @@ game63,126,128,You guys are on a roll.,I,6,NA,NA,NA,5,5,NA,132
 game63,128,129,Okay.,I,6,NA,NA,NA,5,5.5,NA,132
 game63,129,131,What does that look like?,I,6,NA,NA,NA,5,5.5,NA,132
 game63,131,146,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle,id58,6,S,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle head,Y,5.5,6,NA,132
-game63,146,150,head and a backwards triangle butt and triangle feet.,id58,6,S,head,Y,6,6,NA,132
+game63,146,150,head and a backwards triangle butt and triangle feet.,id58,6,S,NA,Y,6,6,NA,132
 game63,150,152,Which one does that look like?,I,6,NA,NA,NA,6,6,NA,132
 game63,152,153,Let's press it.,I,6,NA,NA,NA,6,6,NA,132
 game63,153,154,"Oh, that's okay.",I,6,NA,NA,NA,6,6.5,NA,132
@@ -3965,7 +3965,7 @@ game63,162,163,Thank you.,I,8,NA,NA,NA,7,7,NA,172
 game63,163,164,Here you go.,I,8,NA,NA,NA,7,7,NA,172
 game63,164,165,"Okay, [id58].",I,8,NA,NA,NA,7,7,NA,172
 game63,165,166,What does that look like?,I,8,NA,NA,NA,7,7,NA,172
-game63,166,180,"It's a head, down, square and like this.",id58,8,S,a head down square and like this,Y,7,8,NA,172
+game63,166,180,"It's a head, down, square and like this.",id58,8,S,a head down square,Y,7,8,NA,172
 game63,180,181,Let's try to tell [id57].,I,8,NA,NA,NA,8,8,NA,172
 game63,181,193,"Okay, so it's a triangle feet and one rectangle and one triangle and then a square head.",id58,8,S,a triangle feet and one rectangle and one triangle and then a square head.,Y,8,8,NA,172
 game63,193,195,"Which one does that look like, [id57]?",I,8,NA,NA,NA,8,8,NA,172

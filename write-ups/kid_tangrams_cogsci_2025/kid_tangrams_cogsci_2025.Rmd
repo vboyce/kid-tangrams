@@ -117,9 +117,9 @@ clean_2 <- data_2 |> left_join(words_2) |>
 
 # TODOs
 
-* Check transcription for expt 1 and 2 especially for ref expression
 
-* Rerun sbert stuff
+* Rerun [re-processing 
+sbert stuff
 
 * Run models
 
@@ -127,6 +127,17 @@ clean_2 <- data_2 |> left_join(words_2) |>
 
 * Include fun examples of the things kiddos said
 
+* fix transcripts to have kid ids that are more consistent (not pear123)
+
+* are there analyses to link success with description sticking (do successful descriptions stick more) 
+
+* qual description of different ways kids do coordinate with each other
+
+* do we want to meta-analyze at all
+
+* get age range mean and gender distributions!
+
+* mention that we post-hoc excluded trials where we couldn't transcript any speaker description (either didn't happen or completely unintelligible) 
 
 # Pre-regs
 https://osf.io/kcv8j
@@ -374,7 +385,7 @@ After the first experiment, we wanted to run another study using the same paradi
 As Experiment 2 was very similar to Experiment 1, here we note the differences. 
 
 ## Participants
-Experiment 2 was run between March and August of 2024, at the same university preschool. No children participated in both experiments. ZZ pairs of children completed all 16 critical trials, and YY pairs of children completed between 8 and 16 critical trials. 
+Experiment 2 was run between March and August of 2024, at the same university preschool. No children participated in both experiments. ZZ pairs of children completed all 16 critical trials, and YY pairs of children completed between 8 and 16 critical trials. TODO mention that one kid was actually too young
 
 ## Materials
 The same 4 critical images were used as in experiment 1, although this time, children saw these images 4 times. In response to some children struggling with the abrupt switch from nameable to non-nameable shapes, we introduced more practice trials for experiment 2. Additionally, before the practice trials, we added a "bubble popping" exercise to familiarize children with how to tap the tablet appropriately (a problem in experiment 1). 

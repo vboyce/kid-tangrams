@@ -22,8 +22,8 @@ pilot_end=lubridate::ymd('2023-07-12')
 real_start=lubridate::ymd('2023-07-17')
 real_end=lubridate::ymd('2023-08-09')
 
-data_source <- "data/rounds.csv"
-player_source <- "data/players.csv"
+data_source <- "data/expt_1/rounds.csv"
+player_source <- "data/expt_1/players.csv"
 
 pilot_ids <- str_c("id", 3:12) # Ids 1, 2 were adult pilot test 
 
@@ -36,7 +36,7 @@ real_ids <-str_c("id", c(13:16, 19:36, 39:54, 57:58)) # skipping kids who didn't
 
 players <- read_csv(here(player_source)) |> filter(id %in% real_ids) %>% select(id, playerId=`_id`) 
 
-games <- read_csv(here("data/games.csv"), col_types="ccc")|> filter(is.na(exclude)) |>  mutate(offset_sec=lubridate::ms(offset) |> lubridate::period_to_seconds()) |> select(-offset)
+games <- read_csv(here("data/expt_1/games.csv"), col_types="ccc")|> filter(is.na(exclude)) |>  mutate(offset_sec=lubridate::ms(offset) |> lubridate::period_to_seconds()) |> select(-offset)
 
 ```
 
@@ -102,7 +102,7 @@ real_offset <- games
 
 
 wrangle_transcript <- function(game_num){
- read_csv(here("data/clean_transcripts", str_c(game_num,".csv")), show_col_types=F) |> 
+ read_csv(here("data/expt_1/clean_transcripts", str_c(game_num,".csv")), show_col_types=F) |> 
   select(start, end, text, speaker, trial, role, echo, description, backchannel) |> 
     fill(trial) %>% 
   mutate(start=start/1000, end=end/1000) |> 
@@ -122,7 +122,7 @@ transcripts <- real_offset |> unnest(transcripts) |> unnest(data)
 
 ```{r}
 
-stages <- read_csv(here("data/stages.csv")) |> select(index, gameId, startTimeAt) |> group_by(gameId)
+stages <- read_csv(here("data/expt_1/stages.csv")) |> select(index, gameId, startTimeAt) |> group_by(gameId)
 
 gameStarts <- stages |> filter(index==0) |> rename(first=startTimeAt) |> select(-index)
 
@@ -163,7 +163,7 @@ trial_timing <- stage_timing %>% select(game, trial=trialNumStart, trial_start=s
 transcript_full <- timed_transcripts %>% select(-echo, -exclude) %>% left_join(echoes) %>% 
   left_join(trial_timing) %>% 
   rename(start_time=start, end_time=end) %>% 
-  write_csv(here("data/timed_transcript.csv"))
+  write_csv(here("data/expt_1/timed_transcript.csv"))
 ```
 
 # Checks
@@ -192,12 +192,12 @@ transcript_full %>% filter(backchannel=="Y") %>% ungroup() %>% filter(!str_detec
 # Sbert data prep
 
 ```{r}
-transcript <- read_csv(here("data/timed_transcript.csv"))
+transcript <- read_csv(here("data/expt_1/timed_transcript.csv"))
 
-dat <- read_csv(here("data/clean_data.csv")) %>% select(trial=trialNum, game, target, distractor)
+dat <- read_csv(here("data/expt_1/clean_data.csv")) %>% select(trial=trialNum, game, target, distractor)
 
 transcript %>% filter(!is.na(description)) %>% group_by(trial, game) %>% 
-  summarize(words=str_c(description, sep=" ", collapse=", ")) %>% left_join(dat) %>% write_csv(here("data/pre_sbert.csv"))
+  summarize(words=str_c(description, sep=" ", collapse=", ")) %>% left_join(dat) %>% write_csv(here("data/expt_1/pre_sbert.csv"))
 
 
 ```
@@ -205,12 +205,12 @@ transcript %>% filter(!is.na(description)) %>% group_by(trial, game) %>%
 ```{r}
 library(reticulate)
 np <- import("numpy")
-mat = np$load(here('data/post_sbert.npy'))
-saveRDS(mat,here('data/post_sbert.RData'))
+mat = np$load(here('data/expt_1/post_sbert.npy'))
+saveRDS(mat,here('data/expt_1/post_sbert.RData'))
 ```
 
 ```{r}
-sbert <- read_csv(here("data/pre_sbert.csv")) %>% bind_cols(read_rds(here("data/post_sbert.RData")) %>% 
+sbert <- read_csv(here("data/expt_1/pre_sbert.csv")) %>% bind_cols(read_rds(here("data/expt_1/post_sbert.RData")) %>% 
   as_tibble())
 
 ### helper funcs
@@ -255,6 +255,6 @@ similarities <- M_mat %>%
     make_across_df(F_mat, 'cosine') %>%
     separate(dim1, into=c("game1","trial1"), convert=T, sep="_") %>%
     separate(dim2, into=c("game2","trial2"), convert=T, sep="_") %>%
-    mutate(sim = ifelse(is.nan(sim), NA, sim)) %>% write_rds(here("data/similarities.rds"))
+    mutate(sim = ifelse(is.nan(sim), NA, sim)) %>% write_rds(here("data/expt_1/similarities.rds"))
  
 ```

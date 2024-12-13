@@ -109,7 +109,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 225000,226000,Okay.,I,,,,,
 226000,228000,What does that look like?,I,,,,,
 228000,243000,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle,id58,,S,,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle head,Y
-243000,247000,head and a backwards triangle butt and triangle feet.,id58,,S,,head,Y
+243000,247000,head and a backwards triangle butt and triangle feet.,id58,,S,,,Y
 247000,249000,Which one does that look like?,I,,,,,
 249000,250000,Let's press it.,I,,,,,
 250000,251000,"Oh, that's okay.",I,,,,,
@@ -125,7 +125,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 260000,261000,Here you go.,I,,,,,
 261000,262000,"Okay, [id58].",I,,,,,
 262000,263000,What does that look like?,I,,,,,
-263000,277000,"It's a head, down, square and like this.",id58,,S,,a head down square and like this,Y
+263000,277000,"It's a head, down, square and like this.",id58,,S,,a head down square,Y
 277000,278000,Let's try to tell [id57].,I,,,,,
 278000,290000,"Okay, so it's a triangle feet and one rectangle and one triangle and then a square head.",id58,,S,, a triangle feet and one rectangle and one triangle and then a square head.,Y
 290000,292000,"Which one does that look like, [id57]?",I,,,,,

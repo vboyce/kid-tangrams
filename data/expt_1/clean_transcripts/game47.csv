@@ -115,7 +115,7 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 349000,352000,You see a Lego?,I,,,,,
 352000,355000,I don't know if I see a Lego.,id25,,L,,,Y
 355000,358000,I don't know what it's that.,id26,,S,,,Y
-358000,363000,Why is this not a person without any arms and I don't know what it is?,id26,,S,,Why is this not a person without any arms and I don't know what it is?,Y
+358000,363000,Why is this not a person without any arms and I don't know what it is?,id26,,S,,not a person without any arms,Y
 363000,369000,She says it's kind of not a person without any arms.,I,,,Y,,
 369000,370000,Great.,I,7,,,,
 370000,371000,Yeah.,id26,,,,,

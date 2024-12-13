@@ -222,13 +222,13 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 524640,525640,Let's try again.,I,,,,,
 525640,527640,Let's help Smurfy out.,I,9,,,,
 527640,529640,"[id39], what does that look like to you?",I,,,,,
-529640,531640,A man falling again.,id39,,S,,a man falling again,Y
+529640,531640,A man falling again.,id39,,S,,a man falling ,Y
 531640,532640,This one?,I,,,,,
 532640,533640,Yeah.,I,,,,,
 533640,534640,The one in the black box.,I,,,,,
 534640,535640,Okay.,I,,,,,
 535640,536640,What does this one look like?,I,,,,,
-536640,539640,A man holding something.,id39,,S,,,Y
+536640,539640,A man holding something.,id39,,S,,a man holding something,Y
 539640,542640,It looks like a man holding something.,I,,,Y,,
 542640,545640,A gem or something.,id40,,L,,,Y
 545640,546640,It looks like a what?,I,,,,,
@@ -250,9 +250,9 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 582640,584640,"Oh, that's okay.",I,11,,,,
 584640,590640,"Let's pass for Smurfy on. Okay, here you go. [id39], what does that look like?",I,,,,,
 590640,601640,A man falling down.,id39,,S,,a man falling down,Y
-601640,609520,a man falling down. Which one looks like that Wallace. Let’s press it. ,I,,,Y,,
+601640,609520,a man falling down. Which one looks like that [id140]. Let’s press it. ,I,,,Y,,
 601640,609520,There you go. ,I,,,,,
-601640,609520,"Wallace, what does that look like?",I,12,,,,
+601640,609520,"[id140], what does that look like?",I,12,,,,
 609520,619400,A man.,id40,,S,,a man,Y
 609520,619400,Another man.,I ,,,,,
 619400,634400,"Great, let’s pass Smurfy on. [id39], what does that look like to you?",I,13,,,,
