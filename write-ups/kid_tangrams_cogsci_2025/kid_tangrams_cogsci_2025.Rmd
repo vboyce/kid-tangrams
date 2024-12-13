@@ -147,19 +147,6 @@ save_summary <- function(model) {
   stats
 }
 
-
-
-form <- function(model) {
-  dep <- as.character(model$formula[2])
-  ind <- as.character(model$formula[3])
-
-  str_c(dep, " ~ ", ind) %>%
-    str_replace_all(" ", "") %>%
-    str_replace_all("\\*", " $\\\\times$ ") %>%
-    str_replace_all("\\+", "&nbsp;+ ") %>%
-    str_replace_all("~", "$\\\\sim$ ")
-}
-
 do_model <- function(path) {
   model <- read_rds(here(mod_loc, path))
   save_summary(model) |> write_rds(here(mod_loc, "summary", path))
@@ -172,9 +159,45 @@ mods <- list.files(path = here(mod_loc), pattern = ".*rds") |> walk(~ do_model(.
 
 ```
 
-# TODOs
+```{r}
+stats <- function(model, row, decimal = 2) {
+  model <- model |>
+    mutate(
+      Estimate = round(Estimate, digits = decimal),
+      Lower = round(lower, digits = decimal),
+      Upper = round(upper, digits = decimal),
+      `Credible Interval` = str_c("[", Lower, ", ", Upper, "]")
+    ) |>
+    select(Term, Estimate, `Credible Interval`)
+  str_c(model[row, 1], ": ", model[row, 2], " ", model[row, 3])
+}
 
-* save model summaries
+stats_text <- function(model, row, decimal = 2) {
+  model <- model |>
+    mutate(
+      Estimate = round(Estimate, digits = decimal),
+      Lower = round(lower, digits = decimal),
+      Upper = round(upper, digits = decimal),
+      `Credible Interval` = str_c("[", Lower, ", ", Upper, "]")
+    ) |>
+    select(Term, Estimate, `Credible Interval`)
+  str_c(model[row, 2], "  ", model[row, 3])
+}
+
+form <- function(model_form) {
+  dep <- as.character(model_form$formula[2])
+  ind <- as.character(model_form$formula[3])
+
+  str_c(dep, " ~ ", ind) |>
+    str_replace_all(" ", "") |>
+    str_replace_all("\\*", " $\\\\times$ ") |>
+    str_replace_all("\\+", "&nbsp;+ ") |>
+    str_replace_all("~", "$\\\\sim$ ")
+}
+
+```
+
+# TODOs
 
 * Include fun examples of the things kiddos said
 
@@ -215,30 +238,46 @@ The experimenters running the game did not volunteer descriptions, but did scaff
 
 TODO DIAGRAM OF EXPERIMENT + Picture of children playing the game as top bar
 
+
+```{r interface, fig.env = "figure*", fig.pos = "t!", fig.width=6, fig.height=2, fig.align = "center", set.cap.width=T, num.cols.cap=2, fig.cap = "TODO \\label{game}", cache=FALSE}
+
+
+```
+
 ## Data processing
 
 Children's selections and the time to selection were recorded from the experiment software. Children's descriptions were transcribed from the video-recording, using Whisper (CITE) for the first pass and then hand-corrected by experimenters. Transcripts were hand-annotated for when each trial started, who said each line, and what referential descriptions were used. 
 
 We excluded trials where the child in the teller role did not produce a description, or where all description was unintelligible and impossible to transcribe. 
 
+## Statistical analysis
+
+Statistical analyses were run in brms with weakly informative priors. We present the estimate and 95% credible intervals. 
+
 # Experiment 1 Results
 
 ## Accuracy
 
-```{r}
- clean_1 |> 
-  ggplot(aes(x = trial+1, y = as.numeric(correct), fill=type)) +
-  stat_summary(fun.data="mean_cl_boot", geom="bar") +
-    stat_summary(fun.data="mean_cl_boot", geom="linerange", color="black") +
-  scale_fill_manual(values=time_palette)+
-  theme_classic() +
-  xlab("\nTrial") +
-  ylab("Percent accuracy\n") +
-  theme(aspect.ratio = 4/5,
-        axis.title=element_text(size=14,face="bold"),
-        axis.text=element_text(size=9, color = "black"),
-        legend.position = "none")
-
+```{r accuracy, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "TODO \\label{accuracy}" }
+clean_2 |>
+    filter(type!="practice") |> mutate(trial=trial-3, expt="Expt 2") |> 
+  bind_rows(clean_1 |> filter(type!="practice") |> mutate(trial=trial-1, expt="Expt 1")) |> 
+  ggplot(aes(x = trial, y = correct)) +
+  stat_summary(aes(fill = type), fun.data = "mean_cl_boot", geom = "bar") +
+  stat_summary(fun.data = "mean_cl_boot", geom = "linerange", color = "black") +
+  scale_fill_manual(values = time_palette) +
+  # geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  geom_smooth(method = "lm", color = "black") +
+  # geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  xlab("Trial") +
+  ylab("Accuracy") +
+  scale_x_continuous(breaks = seq(1, 16, 4), expand = c(0, 0)) +
+  scale_y_continuous(breaks = seq(0, 1, .2), expand = c(0, 0)) +
+  geom_hline(yintercept = .5) +
+  facet_grid(expt~.)+
+  theme(legend.position = "none",
+        panel.grid = element_blank(),
+        strip.background = element_blank())
 ```
 
 ```{r, eval=F}
@@ -257,6 +296,14 @@ acc_mod_1 <- brm(correct.num ~ trial.num + (trial.num|game) + (1|target),
                prior=acc_priors,
                control = list(adapt_delta=.95))
 ```
+
+```{r}
+acc_mod_1 <- read_rds(here(mod_results, "acc_1.rds")) |> mutate(across(c(`Estimate`,`lower`,`upper`), ~exp(.)))
+
+acc_form <- read_rds(here(mod_form,"acc_1.rds"))
+```
+
+We fit a mixed effects model of accuracy (`r acc_form |> form()`). Children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_1,1)`) and accuracy slightly increased over the game (OR of one trial later: `r stats_text(acc_mod_1, 2)`). 
 
 ## Speed
 
@@ -280,28 +327,12 @@ speed_mod_1 <- brm(time.sec ~ trial.num + (trial.num|game) + (1|target),
 ```
 
 ```{r}
- clean_1 |> 
-  mutate(time=ifelse(is.na(time),180000,time)) %>% #treat the one that timed out as being max time
-  ggplot(aes(x = trial+1, y = time/1000, color=type)) +
-  geom_jitter(width=.2, height=0, alpha=.5)+
-  #geom_line(aes(group=game))+
-    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
-  scale_color_manual(values=time_palette)+
-  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
-  #geom_smooth(method="lm")+
-  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
-  theme_classic() +
-  xlab("\nTrial") +
-  ylab("Time to answer in seconds")+
-  coord_cartesian(ylim=c(0,60))+
-  #ylab("Percent trials with echoing \n by experimenter\n") +
-  #scale_x_continuous(breaks=seq(1,12,1)) +
-  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
-  theme(aspect.ratio = 4/5,
-        axis.title=element_text(size=14,face="bold"),
-        axis.text=element_text(size=9, color = "black"),
-        legend.position = "none")
+speed_mod_1 <- read_rds(here(mod_results, "speed_1.rds"))
+
+speed_form <- read_rds(here(mod_form, "speed_1.rds"))
 ```
+
+We ran a Bayesian mixed effects model of how long each trial took over time: `r speed_form |> form()`. The first trial was `r stats_text(speed_mod_1, 1)`, and children got faster over time (`r stats_text(speed_mod_1, 2)`). 
 
 ## Description length
 
@@ -326,51 +357,68 @@ description_mod_1 <- brm(words ~ trial.num + (trial.num|game) + (1|target),
 
 ```
 
-```{r}
-
-clean_1 |> 
-  ggplot(aes(x = trial+1, y = words, color=type)) +
-    geom_jitter(width=.2, height=0, alpha=.5)+
-  #geom_line(aes(group=game))+
- # facet_wrap(.~correct) + 
-    stat_summary(fun.data="mean_cl_boot", geom="pointrange", color="black") +
-  scale_color_manual(values=time_palette)+
-  #geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
-  #geom_smooth(method="lm")+
-  #geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
-  theme_classic() +
-  xlab("\nTrial") +
-  #coord_cartesian(ylim=c(0,60))+
-  #ylab("Percent trials with echoing \n by experimenter\n") +
-  #scale_x_continuous(breaks=seq(1,12,1)) +
-  #scale_y_continuous(breaks=seq(0,100,10), expand=c(0,0)) +
-  theme(aspect.ratio = 4/5,
-        axis.title=element_text(size=14,face="bold"),
-        axis.text=element_text(size=9, color = "black"),
-        legend.position = "none")
+```{r description, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "TODO \\label{accuracy}" }
     
 
+clean_2 |>
+    filter(type!="practice") |> mutate(trial=trial-3, expt="Expt 2") |> 
+  bind_rows(clean_1 |> filter(type!="practice") |> mutate(trial=trial-1, expt="Expt 1")) |> ggplot( aes(x = trial, y = words, color = type)) +
+  geom_jitter(alpha = .5, color = "grey") +
+  stat_summary(fun.data = "mean_cl_boot") +
+  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
+  scale_color_manual(values = time_palette) +
+  geom_smooth(method = "lm", color = "black") +
+  xlab("Trial") +
+  ylab("Words") +
+  facet_grid(expt~.)+
+  theme(legend.position = "none",
+        panel.grid = element_blank(),
+        strip.background = element_blank())
+```
+
+
+
+
+```{r}
+description_mod_1 <- read_rds(here(mod_results, "description_1.rds"))
+
+description_form <- read_rds(here(mod_form, "description_1.rds"))
 
 ```
 
+We ran a Bayesian mixed effects model of how long of a description the "teller" produced: `r description_form |> form()`. The initial length was `r stats_text(description_mod_1, 1)` and description length was relatively stable over time (`r stats_text(description_mod_1, 2)`). 
+
 ## Convergence 
 
-```{r}
-sims_1 |>
+```{r sims, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "TODO \\label{accuracy}" }
+
+sims_2 |>
   mutate(source = case_when(
     speaker1 == speaker2 ~ "same speaker",
     game1 == game2 ~ "same game",
     T ~ "different games"
-  )) |>
+  )) |> mutate(expt="Expt 2") |> 
+  bind_rows(sims_1 |>
+  mutate(source = case_when(
+    speaker1 == speaker2 ~ "same speaker",
+    game1 == game2 ~ "same game",
+    T ~ "different games"
+  )) |> mutate(expt="Expt 1")) |> 
   ggplot(aes(x = source, y = sim, color = target1)) +
   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
   labs(y = "Cosine similarity", x = "Comparing two utterances from ...", color = "target image") +
-  theme(legend.position = "bottom")
+  facet_grid(expt~.)+
+  theme(legend.position = "bottom",
+        panel.grid = element_blank(),
+        strip.background = element_blank())
 
 
 ```
 
-```{r}
+
+
+
+```{r, include=F}
 sims_1 |>
   filter(game1 == game2) |>
   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
@@ -384,7 +432,7 @@ sims_1 |>
   theme(legend.position = "bottom")
 ```
 
-```{r}
+```{r include=F}
 sims_1 |>
   filter(game1 == game2) |>
   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
@@ -396,9 +444,10 @@ sims_1 |>
   facet_wrap(~same_speaker) +
   labs(x = "Earlier block to *next* block", y = "cosine similarity", color = "target") +
   theme(legend.position = "bottom")
+
 ```
 
-```{r}
+```{r, include=F}
 sims_1 |>
   filter(game1 != game2) |>
   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
@@ -409,6 +458,11 @@ sims_1 |>
   labs(x = "Cross game similarity in block ...", y = "cosine similarity", color = "target") +
   theme(legend.position = "bottom")
 ```
+
+There were too few trials to really look at change over time in this short experiment. However, we were able to look at ... 
+
+We tried various ways of looking at the semantic similarities of descriptions children produced. TODO talk about SBERT
+
 # Experiment 1 Discussion
 
 # Experiment 2 Methods
@@ -433,28 +487,7 @@ Data was processed in the same way as experiment 1.
 
 ## Accuracy
 
-```{r}
-clean_2 |>
-  ggplot(aes(x = trial + 1, y = correct)) +
-  stat_summary(aes(fill = type), fun.data = "mean_cl_boot", geom = "bar") +
-  stat_summary(fun.data = "mean_cl_boot", geom = "linerange", color = "black") +
-  scale_fill_manual(values = time_palette) +
-  # geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
-  geom_smooth(data = clean_2 |> filter(trial > 3), method = "lm", color = "black") +
-  # geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
-  theme_classic() +
-  xlab("\nTrial") +
-  ylab("Percent accuracy\n") +
-  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
-  scale_y_continuous(breaks = seq(0, 1, .1), expand = c(0, 0)) +
-  geom_hline(yintercept = .5) +
-  theme(
-    aspect.ratio = 4 / 5,
-    axis.title = element_text(size = 14, face = "bold"),
-    axis.text = element_text(size = 9, color = "black"),
-    legend.position = "none"
-  )
-```
+
 
 ```{r, eval=F}
 acc_priors <- c(
@@ -472,6 +505,13 @@ acc_mod <- brm(correct.num ~ trial.num + (trial.num|gameId) + (1|target),
                prior=acc_priors,
                control = list(adapt_delta=.95))
 ```
+
+```{r}
+acc_mod_2 <- read_rds(here(mod_results, "acc_2.rds")) |> mutate(across(c(`Estimate`,`lower`,`upper`), ~exp(.)))
+
+```
+
+ Children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_2,1)`) and accuracy slightly increased over the game (OR of one trial later: `r stats_text(acc_mod_2, 2)`). 
 
 ## Speed
 
@@ -495,17 +535,11 @@ speed_mod_2 <- brm(time.sec ~ trial.num + (trial.num|gameId) + (1|target),
 ```
 
 ```{r}
-clean_2 |> ggplot( aes(x = trial + 1, y = time / 1000, color = type)) +
-  geom_jitter(alpha = .5, color = "grey") +
-  stat_summary(fun.data = "mean_cl_boot") +
-  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
-  scale_color_manual(values = time_palette) +
-  theme_classic() +
-  geom_smooth(data = clean_2 |> filter(trial > 3), method = "lm", color = "black") +
-  xlab("Trial") +
-  ylab("Time (seconds)") +
-  theme(legend.position = "none")
+speed_mod_2 <- read_rds(here(mod_results, "speed_2.rds"))
+
 ```
+
+ The first trial was `r stats_text(speed_mod_2, 1)`, and children got faster over time (`r stats_text(speed_mod_2, 2)`). 
 
 ## Description length
 
@@ -528,20 +562,13 @@ description_mod_2 <- brm(words ~ trial.num + (trial.num|gameId) + (1|target),
                control = list(adapt_delta=.95))
 ```
 
-```{r}
 
-clean_2 |> ggplot( aes(x = trial + 1, y = words, color = type)) +
-  geom_jitter(alpha = .5, color = "grey") +
-  stat_summary(fun.data = "mean_cl_boot") +
-  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
-  scale_color_manual(values = time_palette) +
-  theme_classic() +
-  geom_smooth(data = clean_2|> filter(trial > 3), method = "lm", color = "black") +
-  xlab("Trial") +
-  ylab("Words") +
-  theme(legend.position = "none")
+```{r}
+description_mod_2 <- read_rds(here(mod_results, "description_2.rds"))
+
 ```
 
+ The initial length was `r stats_text(description_mod_2, 1)` and description length was relatively stable over time (`r stats_text(description_mod_2, 2)`). 
 
 ## Convergence 
 
@@ -606,22 +633,8 @@ sim_across_mod_2 <- brm(sim ~ block.num+(1|target),
 
 ```
 
-```{r}
-sims_2 |>
-  mutate(source = case_when(
-    speaker1 == speaker2 ~ "same speaker",
-    game1 == game2 ~ "same game",
-    T ~ "different games"
-  )) |>
-  ggplot(aes(x = source, y = sim, color = target1)) +
-  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
-  labs(y = "Cosine similarity", x = "Comparing two utterances from ...", color = "target image") +
-  theme(legend.position = "bottom")
 
-
-```
-
-```{r}
+```{r sim2, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "TODO \\label{accuracy}" }
 sims_2 |>
   filter(game1 == game2) |>
   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
@@ -635,7 +648,7 @@ sims_2 |>
   theme(legend.position = "bottom")
 ```
 
-```{r}
+```{r, include=F}
 sims_2 |>
   filter(game1 == game2) |>
   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
@@ -649,7 +662,7 @@ sims_2 |>
   theme(legend.position = "bottom")
 ```
 
-```{r}
+```{r, include=F}
 sims_2 |>
   filter(game1 != game2) |>
   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
@@ -660,6 +673,38 @@ sims_2 |>
   labs(x = "Cross game similarity in block ...", y = "cosine similarity", color = "target") +
   theme(legend.position = "bottom")
 ```
+
+
+```{r}
+sim_across_between_2_results <- read_rds(here(mod_results, "sim_across_between_2.rds"))
+
+sim_across_between_form<- read_rds(here(mod_form, "sim_across_between_2.rds"))
+
+sim_across_2_results <- read_rds(here(mod_results, "sim_across_2.rds"))
+
+sim_across_form<- read_rds(here(mod_form, "sim_across_2.rds"))
+
+sim_to_next_2_results <- read_rds(here(mod_results, "sim_to_next_2.rds"))
+
+sim_to_next_form<- read_rds(here(mod_form, "sim_to_next_2.rds"))
+
+sim_to_last_2_results <- read_rds(here(mod_results, "sim_to_last_2.rds"))
+
+sim_to_last_form<- read_rds(here(mod_form, "sim_to_last_2.rds"))
+```
+
+We tried various ways of looking at the semantic similarities of descriptions children produced. TODO talk about SBERT
+
+As a coarse comparison, we repeated the analysis from Experiment 1, comparing the similarity of descriptions to the same target for the same-speaker, same-game, or different-game. We modeled this as `r sim_across_between_form |> form()`. Utterances were more similar if they came from the same partnership (`r sim_across_between_2_results |> stats_text(2,3)`) and were slightly more similar still if they came from the same person with the partnership (`r sim_across_between_2_results |> stats_text(3,3)`). The big differences in descriptions between games compared to within games is a measure of partner sensitivity -- children are more likely to use descriptions semantically similar to their partners than to another child. 
+
+With the greater length of experiment 2, we are also able to look for change over time, that could be indicative of convergence to shared descriptions within a game and divergence between games. 
+
+To look for convergence, we compare the utterances from the first three blocks to the descriptions in the last block: `r sim_to_last_form |> form()`. Over the first three blocks, descriptions do become increasingly similar to the last block description (`r sim_to_last_2_results |> stats_text(2,3)`). Descriptions are more similar to the last block if they come from the same child who gaves the description in the last block (`r sim_to_last_2_results |> stats_text(3,3)`). 
+
+Another way to look for convergence is to look at the semantic distance between utterances in adjacent blocks: `r sim_to_next_form |> form()`. Although over time descriptions do get more similar to the last block utterance, the distance between adjacent block utterances is relatively constant `r sim_to_next_2_results |> stats_text(2,3)`. 
+
+Finally, we can see if descriptions in different games diverge across time: `r sim_across_form |> form()`. As the games progress, descriptions from different games become slightly further apart in semantic space (`r sim_across_2_results |> stats_text(2,3)`). 
+
 
 # General Discussion
 
