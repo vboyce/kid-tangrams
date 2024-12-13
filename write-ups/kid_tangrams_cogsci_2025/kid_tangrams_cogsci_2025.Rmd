@@ -36,6 +36,7 @@ library(rstan)
 library(rstanarm)
 rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
+theme_set(theme_bw())
 
 expt_1 <- "data/expt_1"
 expt_2 <- "data/expt_2"
@@ -45,7 +46,7 @@ time_palette <- c("practice" = "grey", "block 1" = "#E41A1C", "block 2" = "#377E
 # experiment 1 imports
 transcript_1 <- read_csv(here(expt_1,"timed_transcript.csv"))
 dat_1 <- read_csv(here(expt_1, "clean_data.csv")) |> rename(trial=trialNum)
-exclusion_1 <- transcript_1 %>% filter(!is.na(description)) %>% filter(role=="S") %>% select(game,  echo,) %>% unique() %>% mutate("S_talked"=1)
+exclusion_1 <- transcript_1 %>% filter(!is.na(description)) %>% filter(role=="S") %>% select(game, trial) %>% unique() %>% mutate("S_talked"=1)
 
 words_1 <- transcript_1 |> filter(!is.na(description)) |> mutate(words=description |> str_count("\\S+")) |> 
   filter(role=="S") |> 
@@ -58,16 +59,20 @@ clean_1 <- dat_1 %>% left_join(exclusion_1) %>% filter(S_talked==1) |> left_join
                         trial<14 ~ "block 3"))
  
 
-# sims_1 <- read_rds(here(expt_1,"similarities.rds")) |> 
-#     as_tibble() 
-#   inner_join(clean_1|> select(game1 = game, trial1 = trial, target1 = target, speaker1 = speaker)) |>
-#   inner_join(clean_1 |> select(game2 = game, trial2 = trial, target2 = target, speaker2 = speaker)) |>
-#   filter(target1 == target2) |>
-#   mutate(block1 = trial1 %/% 4, block2 = trial2 %/% 4) |> 
-#   mutate(same_speaker=(speaker1==speaker2) |> as.numeric(),
-#          same_game=(game1==game2) |> as.numeric(),
-#         later = ifelse(block1 > block2, block1, block2), 
-#         earlier = ifelse(block1 > block2, block2, block1)) |> mutate(target=target1)
+sims_1 <- read_rds(here(expt_1,"similarities.rds")) |>
+    as_tibble() |> 
+  inner_join(clean_1|> select(game1 = game, trial1 = trial, target1 = target, speaker1 = speaker)) |>
+  inner_join(clean_1 |> select(game2 = game, trial2 = trial, target2 = target, speaker2 = speaker)) |>
+  filter(target1 == target2) |>
+  filter(trial1>1) |> 
+  filter(trial2>1) |> 
+  mutate(trial1=trial1+2,
+         trial2=trial2+2) |> 
+  mutate(block1 = trial1 %/% 4, block2 = trial2 %/% 4) |>
+  mutate(same_speaker=(speaker1==speaker2) |> as.numeric(),
+         same_game=(game1==game2) |> as.numeric(),
+        later = ifelse(block1 > block2, block1, block2),
+        earlier = ifelse(block1 > block2, block2, block1)) |> mutate(target=target1)
 
 
 # expt 2 imports
@@ -103,27 +108,21 @@ clean_2 <- data_2 |> left_join(words_2) |>
   filter(!is.na(response)) |> 
   mutate(correct=as.numeric(correct))
 
-# sims_2 <- read_rds(here(expt_2, "similarities.rds")) |>
-#   as_tibble() |>
-#   inner_join(clean_2 |> select(game1 = gameId, trial1 = trial, target1 = target, speaker1 = speaker)) |>
-#   inner_join(clean_2 |> select(game2 = gameId, trial2 = trial, target2 = target, speaker2 = speaker)) |>
-#   filter(target1 == target2) |>
-#   mutate(block1 = trial1 %/% 4, block2 = trial2 %/% 4) |> 
-#   mutate(same_speaker=(speaker1==speaker2) |> as.numeric(),
-#          same_game=(game1==game2) |> as.numeric(),
-#         later = ifelse(block1 > block2, block1, block2), 
-#         earlier = ifelse(block1 > block2, block2, block1)) |> mutate(target=target1)
+sims_2 <- read_rds(here(expt_2, "similarities.rds")) |>
+  as_tibble() |>
+  inner_join(clean_2 |> select(game1 = gameId, trial1 = trial, target1 = target, speaker1 = speaker)) |>
+  inner_join(clean_2 |> select(game2 = gameId, trial2 = trial, target2 = target, speaker2 = speaker)) |>
+  filter(target1 == target2) |>
+  mutate(block1 = trial1 %/% 4, block2 = trial2 %/% 4) |>
+  mutate(same_speaker=(speaker1==speaker2) |> as.numeric(),
+         same_game=(game1==game2) |> as.numeric(),
+        later = ifelse(block1 > block2, block1, block2),
+        earlier = ifelse(block1 > block2, block2, block1)) |> mutate(target=target1)
 ```
 
 # TODOs
 
-
-* Rerun [re-processing 
-sbert stuff
-
-* Run models
-
-* Double check pre-regs and note deviations
+* save model summaries
 
 * Include fun examples of the things kiddos said
 
@@ -135,55 +134,9 @@ sbert stuff
 
 * do we want to meta-analyze at all
 
-* get age range mean and gender distributions!
+* Experiment 1: do children match the descriptions their partner uses 
 
-* mention that we post-hoc excluded trials where we couldn't transcript any speaker description (either didn't happen or completely unintelligible) 
-
-# Pre-regs
-https://osf.io/kcv8j
-
-https://osf.io/y2dax
-
-Analyses -- Expt 1
-
-This is exploratory research, and we will explore the following questions graphically:
-* how accurate are children over time
-* how many words of description does the speaker produce over time
-* do children speed up in their selections over time
-* do children match the descriptions their partner uses 
-
-We will also analyze the transcripts to look at children’s turn-taking structure and how they understand each other. 
-
-We plan to run the model:
-DV  ~ trial_num + (trial_num|dyad) + (1|target) 
-for the DVs: 
-[x] accuracy (logistic model), 
-[ ] speed (linear model) and 
-[ ] number of words of speaker description (linear model ). 
-
-Analyses -- Expt 2
-
-Primarily, we aim to replicate the results of experiment 1, using the following models. 
-
-[x] Logistic model of accuracy: correct ~ trialNum + (trialNum|game) + (1|target) (prior normal(0,1) for beta and sd, lkj(1) for correlation)
-
-[ ] Linear model of description length: words ~ trialNum + (trialNum|game) + (1|target) (prior intercept of normal(5,10), beta and sd priors of normal(0,5), and correlation of lkj(1))
-
-[ ] Speed: time_seconds ~ trialNum + (trialNum|game) + (1|target) (prior intercept of normal(60,100), beta and sd priors of (0,20) and correlation of lkj(1))
-
-We will interpret the fixed effect of trial number as being about changes in referring over time. 
-
-For utterance similarities, we will embed the describer’s descriptions using S-BERT and use cosine similarity as a proxy for utterance similarity. 
-
-We are unsure whether 4 blocks will be sufficient to see potential change over time, so we will 
-[ ] * compare similarities of utterances between different games v within one game v within one speaker: sim ~ same_game + same_speaker + (1|target) 
-[ ] * compare similarities of utterances to the last utterance within a game: sim_to_last ~ earlier_block + same_speaker + (1|game) + (1|target)
-[ ] * compare similarities of utterances to the next utterance: sim_to_next ~ earlier_block + same_speaker + (1|game) + (1|target)
-[ ] * compare the similarity level of descriptions from the same block in different games: sim ~ block + (1|target)
-Priors for the above similarity models: normal(.5,.2) for intercept, normal(0,.1) for
-beta, and normal(0,.05) for sd.
-
-We will also qualitatively explore children’s turn-taking structure and how they understand each other. 
+* Experiment 1 + experiment 2: We will also analyze the transcripts to look at children’s turn-taking structure and how they understand each other. 
 
 # Introduction
 
@@ -193,10 +146,10 @@ TODO introduction
 
 Our goal for experiment 1 was to test young children's ability to coordinate on descriptions to abstract shapes that their partner could understand. Young children can be very sensitive to task demands and cognitive load that can hide early abilities (TODO cite something for this), so we wanted to use a simple paradigm with experimenter scaffolding. We adapted the experimental framework from @leung, but further simplified it by reducing the total pool of targets and the number of trials children completed. 
 
-TODO link to pre-registration 
+This experiment was pre-registered at https://osf.io/kcv8j. 
 
 ## Participants
-4 and 5 year old children were recruited from a university nursery school during the school day. Children played with another child from the same class. TODO any exclusions Experiment 1 was conducted between June and August 2023. Children were only included in analysis if they completed at least 8 of the critical trials. We had XX complete games and YY incomplete, but included games. 
+4 and 5 year old children were recruited from a university nursery school during the school day. Children played with another child from the same class. TODO any exclusions Experiment 1 was conducted between June and August 2023. Children were only included in analysis if they completed at least 8 of the critical trials. We had XX complete games and YY incomplete, but included games. TODO children's age range + median and gender split. 
 
 ## Materials
 For the target stimuli, we used four of the ten tangram images from @leung, chosen based on visual dissimilarity. The matching game was coded as an Empirica experiment (CITATION) and run on two tablets locked in a kiosk mode so children could access other websites or apps. 
@@ -213,6 +166,8 @@ TODO DIAGRAM OF EXPERIMENT + Picture of children playing the game as top bar
 ## Data processing
 
 Children's selections and the time to selection were recorded from the experiment software. Children's descriptions were transcribed from the video-recording, using Whisper (CITE) for the first pass and then hand-corrected by experimenters. Transcripts were hand-annotated for when each trial started, who said each line, and what referential descriptions were used. 
+
+We excluded trials where the child in the teller role did not produce a description, or where all description was unintelligible and impossible to transcribe. 
 
 # Experiment 1 Results
 
@@ -234,24 +189,43 @@ Children's selections and the time to selection were recorded from the experimen
 
 ```
 
-```{r}
+```{r, eval=F}
 acc_priors <- c(
 set_prior("normal(0,1)", class="b"),
 set_prior("normal(0,1)", class="sd"),
 set_prior("lkj(1)", class="cor")
 )
 
-acc_mod_data <- clean_1 |> mutate(correct.num=ifelse(correct==TRUE, 1,0),
+acc_mod_data_1 <- clean_1 |> mutate(correct.num=ifelse(correct==TRUE, 1,0),
                                   trial.num=trial-2) |> filter(type!="practice")
-acc_mod <- brm(correct.num ~ trial.num + (trial.num|game) + (1|target),
+acc_mod_1 <- brm(correct.num ~ trial.num + (trial.num|game) + (1|target),
                family = bernoulli(link = "logit"),
-               data=acc_mod_data,
+               data=acc_mod_data_1,
                file = here(mod_loc, "acc_1.rds"),
                prior=acc_priors,
                control = list(adapt_delta=.95))
 ```
 
 ## Speed
+
+```{r, eval=F}
+
+speed_priors <- c(
+  set_prior("normal(60,100)", class="Intercept"),
+set_prior("normal(0,20)", class="b"),
+set_prior("normal(0,20)", class="sd"),
+set_prior("lkj(1)", class="cor")
+)
+
+speed_mod_data_1 <- clean_1 |> mutate(time.sec=time/1000,
+                                  trial.num=trial-2) |> filter(type!="practice")
+
+speed_mod_1 <- brm(time.sec ~ trial.num + (trial.num|game) + (1|target),
+               data=speed_mod_data_1,
+               file = here(mod_loc, "speed_1.rds"),
+               prior=speed_priors,
+               control = list(adapt_delta=.95))
+```
 
 ```{r}
  clean_1 |> 
@@ -278,6 +252,27 @@ acc_mod <- brm(correct.num ~ trial.num + (trial.num|game) + (1|target),
 ```
 
 ## Description length
+
+
+```{r, eval=F}
+
+description_priors <- c(
+  set_prior("normal(5,10)", class="Intercept"),
+set_prior("normal(0,5)", class="b"),
+set_prior("normal(0,5)", class="sd"),
+set_prior("lkj(1)", class="cor")
+)
+
+description_mod_data_1 <- clean_1 |> mutate(
+                                  trial.num=trial-2) |> filter(type!="practice")
+
+description_mod_1 <- brm(words ~ trial.num + (trial.num|game) + (1|target),
+               data=description_mod_data_1,
+               file = here(mod_loc, "description_1.rds"),
+               prior=speed_priors,
+               control = list(adapt_delta=.95))
+
+```
 
 ```{r}
 
@@ -308,84 +303,70 @@ clean_1 |>
 
 ## Convergence 
 
+```{r}
+sims_1 |>
+  mutate(source = case_when(
+    speaker1 == speaker2 ~ "same speaker",
+    game1 == game2 ~ "same game",
+    T ~ "different games"
+  )) |>
+  ggplot(aes(x = source, y = sim, color = target1)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  labs(y = "Cosine similarity", x = "Comparing two utterances from ...", color = "target image") +
+  theme(legend.position = "bottom")
 
-
-```{r, fig.width=4, fig.height=3}
-
-# sims_1 %>%  filter(!is.na(sim)) %>% 
-#   filter(!trial1 %in% c("0","1")) %>% filter(!trial2 %in% c("0","1"))%>% #not practice
-#   left_join(labels1) %>% left_join(labels2) %>%
-#   mutate(same_target=ifelse(target1==target2, "Same target", "Different target"),  #label if target is same or not
-#   same_child=case_when(
-#     game1!=game2 ~ "Different\n games",
-#     (as.numeric(trial1)-as.numeric(trial2))%%2==1~"Different\n speaker", #children alternate
-#     T ~"Same\n speaker"),
-#   type1=case_when(trial1<2 ~ "practice",
-#                         trial1<6 ~ "block 1",
-#                         trial1<10 ~ "block 2",
-#                         trial1<14 ~ "block 3"),
-#          type2=case_when(trial2<2 ~ "practice",
-#                         trial2<6 ~ "block 1",
-#                         trial2<10 ~ "block 2",
-#                         trial2<14 ~ "block 3")) %>% 
-#   filter(type1!=type2) %>% # can only compare across blocks in some cases, so only cross ever
-#     mutate(blocks=case_when(
-#       type1=="block 1" & type2=="block 2"~ "Block 1 v 2   ",
-#       type1=="block 2" & type2=="block 1"~ "Block 1 v 2   ",
-#       type1=="block 1" & type2=="block 3"~ "Block 1 v 3   ",
-#       type1=="block 3" & type2=="block 1"~ "Block 1 v 3   ",
-#       type1=="block 2" & type2=="block 3"~ "Block 2 v 3   ",
-#       type1=="block 3" & type2=="block 2"~ "Block 2 v 3   "
-#       )) %>%
-#   ggplot(aes(x=str_c(same_child), y=sim, color=blocks)) +
-#   facet_grid(.~same_target) +
-#   theme_bw()+
-#   #geom_jitter(alpha=.01, color="black") +
-#   labs(x="", y="Cosine similarity", color="")+
-#   scale_color_brewer(type="qual", palette="Dark2")+
-#   scale_y_continuous(limits=c(0,1), expand=c(0,0))+
-#       stat_summary(fun.data="mean_cl_boot", geom="pointrange", position=position_dodge(width=.2))+
-#     guides( color = guide_legend( override.aes = list(linetype=0, size=1)))+
-#   theme(strip.background =element_rect(fill="white"),
-#         legend.position="bottom",
-#         axis.title.x=element_blank())
 
 ```
 
 ```{r}
-# sims_1 %>%  filter(!is.na(sim)) %>% 
-#   filter(!trial1 %in% c("0","1")) %>% filter(!trial2 %in% c("0","1"))%>% #not practice
-#   left_join(labels1) %>% left_join(labels2) %>%
-#   mutate(same_target=ifelse(target1==target2, "same_target", "diff_target"),  #label if target is same or not
-#   same_child=case_when(
-#     game1!=game2 ~ "diff game",
-#     (as.numeric(trial1)-as.numeric(trial2))%%2==1~"diff_child", #children alternate
-#     T ~"same_child"),
-#   type1=case_when(trial1<2 ~ "practice",
-#                         trial1<6 ~ "block 1",
-#                         trial1<10 ~ "block 2",
-#                         trial1<14 ~ "block 3"),
-#          type2=case_when(trial2<2 ~ "practice",
-#                         trial2<6 ~ "block 1",
-#                         trial2<10 ~ "block 2",
-#                         trial2<14 ~ "block 3")) %>% 
-#   filter(type1==type2) %>% # can only compare across blocks in some cases, so only cross ever
-#   ggplot(aes(x=str_c(same_target,"\n",same_child), y=sim, color=type1)) +
-#   geom_jitter(alpha=.01, color="black") +
-#       stat_summary(fun.data="mean_cl_boot", geom="pointrange", position=position_dodge(width=.2))+
-#   labs(x="Conditions compared")
+sims_1 |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == 3) |>
+  mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |> 
+  ggplot(aes(as.character(earlier), sim, color = target1)) +
+  geom_point(alpha = .1, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  facet_wrap(~same_speaker) +
+  labs(x = "Earlier block to last block", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
 ```
 
+```{r}
+sims_1 |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == earlier + 1) |>
+  mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |>
+  ggplot(aes(as.character(earlier), sim, color = target1)) +
+  geom_point(alpha = .1, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  facet_wrap(~same_speaker) +
+  labs(x = "Earlier block to *next* block", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
+```
+
+```{r}
+sims_1 |>
+  filter(game1 != game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == earlier) |>
+  ggplot(aes(as.character(earlier), sim, color = target1)) +
+  geom_point(alpha = .01, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  labs(x = "Cross game similarity in block ...", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
+```
 # Experiment 1 Discussion
 
 # Experiment 2 Methods
 
 After the first experiment, we wanted to run another study using the same paradigm, but fixing issues that arose during experiment 1. We also tightened the experimenter script to reduce the possibility that the experimenters were influencing children's descriptions and understanding of descriptions. Given that most pairs in experiment 1 were able to play the game fairly quickly, we also added a 4th experimental block to be able to look for change over time. 
 
-As Experiment 2 was very similar to Experiment 1, here we note the differences. 
+As Experiment 2 was very similar to Experiment 1, here we note the differences. Experiment 2 was pre-registered at https://osf.io/y2dax. 
 
 ## Participants
-Experiment 2 was run between March and August of 2024, at the same university preschool. No children participated in both experiments. ZZ pairs of children completed all 16 critical trials, and YY pairs of children completed between 8 and 16 critical trials. TODO mention that one kid was actually too young
+Experiment 2 was run between March and August of 2024, at the same university preschool. No children participated in both experiments. ZZ pairs of children completed all 16 critical trials, and YY pairs of children completed between 8 and 16 critical trials. TODO mention that one kid was actually too young TODO mention age range / median and gender distribution. 
 
 ## Materials
 The same 4 critical images were used as in experiment 1, although this time, children saw these images 4 times. In response to some children struggling with the abrupt switch from nameable to non-nameable shapes, we introduced more practice trials for experiment 2. Additionally, before the practice trials, we added a "bubble popping" exercise to familiarize children with how to tap the tablet appropriately (a problem in experiment 1). 
@@ -423,7 +404,7 @@ clean_2 |>
   )
 ```
 
-```{r}
+```{r, eval=F}
 acc_priors <- c(
 set_prior("normal(0,1)", class="b"),
 set_prior("normal(0,1)", class="sd"),
@@ -443,6 +424,25 @@ acc_mod <- brm(correct.num ~ trial.num + (trial.num|gameId) + (1|target),
 ## Speed
 
 ```{r}
+
+speed_priors <- c(
+  set_prior("normal(60,100)", class="Intercept"),
+set_prior("normal(0,20)", class="b"),
+set_prior("normal(0,20)", class="sd"),
+set_prior("lkj(1)", class="cor")
+)
+
+speed_mod_data_2<- clean_2 |> mutate(time.sec=time/1000,
+                                  trial.num=trial-2) |> filter(type!="practice")
+
+speed_mod_2 <- brm(time.sec ~ trial.num + (trial.num|gameId) + (1|target),
+               data=speed_mod_data_2,
+               file = here(mod_loc, "speed_2.rds"),
+               prior=speed_priors,
+               control = list(adapt_delta=.95))
+```
+
+```{r}
 clean_2 |> ggplot( aes(x = trial + 1, y = time / 1000, color = type)) +
   geom_jitter(alpha = .5, color = "grey") +
   stat_summary(fun.data = "mean_cl_boot") +
@@ -456,6 +456,25 @@ clean_2 |> ggplot( aes(x = trial + 1, y = time / 1000, color = type)) +
 ```
 
 ## Description length
+
+```{r, eval=F}
+
+description_priors <- c(
+  set_prior("normal(5,10)", class="Intercept"),
+set_prior("normal(0,5)", class="b"),
+set_prior("normal(0,5)", class="sd"),
+set_prior("lkj(1)", class="cor")
+)
+
+description_mod_data_2 <- clean_2 |> mutate(
+                                  trial.num=trial-2) |> filter(type!="practice")
+
+description_mod_2 <- brm(words ~ trial.num + (trial.num|gameId) + (1|target),
+               data=description_mod_data_2,
+               file = here(mod_loc, "description_2.rds"),
+               prior=speed_priors,
+               control = list(adapt_delta=.95))
+```
 
 ```{r}
 
@@ -474,59 +493,120 @@ clean_2 |> ggplot( aes(x = trial + 1, y = words, color = type)) +
 
 ## Convergence 
 
+
 ```{r}
-# sims_2 |>
-#   mutate(source = case_when(
-#     speaker1 == speaker2 ~ "same speaker",
-#     game1 == game2 ~ "same game",
-#     T ~ "different games"
-#   )) |>
-#   ggplot(aes(x = source, y = sim, color = target1)) +
-#   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
-#   labs(y = "Cosine similarity", x = "Comparing two utterances from ...", color = "target image") +
-#   theme(legend.position = "bottom")
+conv_priors <- c(
+  set_prior("normal(.5,.2)", class="Intercept"),
+set_prior("normal(0,.1)", class="b"),
+set_prior("normal(0,.05)", class="sd")
+)
+
+sim_across_between_data_2 <- sims_2 |> 
+mutate(same_game = case_when(
+    game1 == game2 ~ 1,
+    T ~ 0
+  )) |>
+    mutate(same_speaker = ifelse(speaker1 == speaker2, 1, 0))
+  
+
+sim_across_between_mod_2 <- brm(sim ~ same_game + same_speaker+ (1|target),
+               data=sim_across_between_data_2,
+               file = here(mod_loc, "sim_across_between_2.rds"),
+               prior=conv_priors,
+               control = list(adapt_delta=.95))
+
+sim_to_last_data_2 <- sims_2 |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == 4) |> 
+    mutate(same_speaker = ifelse(speaker1 == speaker2, 1, 0),
+           earlier_block.num=earlier-1) 
+
+sim_to_last_mod_2 <- brm(sim ~ earlier_block.num+ same_speaker+ (1|game1)+(1|target),
+               data=sim_to_last_data_2,
+               file = here(mod_loc, "sim_to_last_2.rds"),
+               prior=conv_priors,
+               control = list(adapt_delta=.95))
+
+sim_to_next_data_2 <- sims_2 |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == earlier+1) |> 
+    mutate(same_speaker = ifelse(speaker1 == speaker2, 1, 0),
+           earlier_block.num=earlier-1) 
+
+sim_to_next_mod_2 <- brm(sim ~ earlier_block.num+ same_speaker+ (1|game1)+(1|target),
+               data=sim_to_next_data_2,
+               file = here(mod_loc, "sim_to_next_2.rds"),
+               prior=conv_priors,
+               control = list(adapt_delta=.95))
+
+sim_across_data_2 <- sims_2 |>
+  filter(game1 != game2) |>
+  filter(block1 == block2) |> 
+    mutate(block.num=block1-1) 
+
+sim_across_mod_2 <- brm(sim ~ block.num+(1|target),
+               data=sim_across_data_2,
+               file = here(mod_loc, "sim_across_2.rds"),
+               prior=conv_priors,
+               control = list(adapt_delta=.95))
+
+```
+
+```{r}
+sims_2 |>
+  mutate(source = case_when(
+    speaker1 == speaker2 ~ "same speaker",
+    game1 == game2 ~ "same game",
+    T ~ "different games"
+  )) |>
+  ggplot(aes(x = source, y = sim, color = target1)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  labs(y = "Cosine similarity", x = "Comparing two utterances from ...", color = "target image") +
+  theme(legend.position = "bottom")
 
 
 ```
 
 ```{r}
-# sims_2 |>
-#   filter(game1 == game2) |>
-#   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
-#   filter(later == 4) |>
-#   mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |>
-#   ggplot(aes(as.character(earlier), sim, color = target1)) +
-#   geom_point(alpha = .1, position = position_dodge(width = .2)) +
-#   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
-#   facet_wrap(~same_speaker) +
-#   labs(x = "Earlier block to last block", y = "cosine similarity", color = "target") +
-#   theme(legend.position = "bottom")
+sims_2 |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == 4) |>
+  mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |>
+  ggplot(aes(as.character(earlier), sim, color = target1)) +
+  geom_point(alpha = .1, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  facet_wrap(~same_speaker) +
+  labs(x = "Earlier block to last block", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
 ```
 
 ```{r}
-# sims_2 |>
-#   filter(game1 == game2) |>
-#   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
-#   filter(later == earlier + 1) |>
-#   mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |>
-#   ggplot(aes(as.character(earlier), sim, color = target1)) +
-#   geom_point(alpha = .1, position = position_dodge(width = .2)) +
-#   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
-#   facet_wrap(~same_speaker) +
-#   labs(x = "Earlier block to *next* block", y = "cosine similarity", color = "target") +
-#   theme(legend.position = "bottom")
+sims_2 |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == earlier + 1) |>
+  mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |>
+  ggplot(aes(as.character(earlier), sim, color = target1)) +
+  geom_point(alpha = .1, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  facet_wrap(~same_speaker) +
+  labs(x = "Earlier block to *next* block", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
 ```
 
 ```{r}
-# sims_2 |>
-#   filter(game1 != game2) |>
-#   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
-#   filter(later == earlier) |>
-#   ggplot(aes(as.character(earlier), sim, color = target1)) +
-#   geom_point(alpha = .01, position = position_dodge(width = .2)) +
-#   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
-#   labs(x = "Cross game similarity in block ...", y = "cosine similarity", color = "target") +
-#   theme(legend.position = "bottom")
+sims_2 |>
+  filter(game1 != game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == earlier) |>
+  ggplot(aes(as.character(earlier), sim, color = target1)) +
+  geom_point(alpha = .01, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  labs(x = "Cross game similarity in block ...", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
 ```
 
 # General Discussion
