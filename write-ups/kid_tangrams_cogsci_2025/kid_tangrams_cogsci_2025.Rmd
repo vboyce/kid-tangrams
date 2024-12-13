@@ -41,6 +41,8 @@ theme_set(theme_bw())
 expt_1 <- "data/expt_1"
 expt_2 <- "data/expt_2"
 mod_loc <- "code/models"
+mod_results <- "code/models/summary"
+mod_form <- "code/models/formulae"
 time_palette <- c("practice" = "grey", "block 1" = "#E41A1C", "block 2" = "#377EB8", "block 3" = "#4DAF4A", "block 4" = "purple") # TODO FIX
 
 # experiment 1 imports
@@ -118,6 +120,56 @@ sims_2 <- read_rds(here(expt_2, "similarities.rds")) |>
          same_game=(game1==game2) |> as.numeric(),
         later = ifelse(block1 > block2, block1, block2),
         earlier = ifelse(block1 > block2, block2, block1)) |> mutate(target=target1)
+```
+
+
+
+```{r, eval=F}
+
+library(tidybayes)
+
+save_summary <- function(model) {
+  intervals <- gather_draws(model, `b_.*`, regex = T) %>% mean_qi()
+
+  stats <- gather_draws(model, `b_.*`, regex = T) %>%
+    mutate(above_0 = ifelse(.value > 0, 1, 0)) %>%
+    group_by(.variable) %>%
+    summarize(pct_above_0 = mean(above_0)) %>%
+    left_join(intervals, by = ".variable") %>%
+    mutate(
+      lower = .lower,
+      upper = .upper,
+      Term = str_sub(.variable, 3, -1),
+      Estimate = .value
+    ) %>%
+    select(Term, Estimate, lower, upper)
+
+  stats
+}
+
+
+
+form <- function(model) {
+  dep <- as.character(model$formula[2])
+  ind <- as.character(model$formula[3])
+
+  str_c(dep, " ~ ", ind) %>%
+    str_replace_all(" ", "") %>%
+    str_replace_all("\\*", " $\\\\times$ ") %>%
+    str_replace_all("\\+", "&nbsp;+ ") %>%
+    str_replace_all("~", "$\\\\sim$ ")
+}
+
+do_model <- function(path) {
+  model <- read_rds(here(mod_loc, path))
+  save_summary(model) |> write_rds(here(mod_loc, "summary", path))
+  model$formula |> write_rds(here(mod_loc, "formulae", path))
+  print(summary(model))
+}
+
+
+mods <- list.files(path = here(mod_loc), pattern = ".*rds") |> walk(~ do_model(.))
+
 ```
 
 # TODOs
