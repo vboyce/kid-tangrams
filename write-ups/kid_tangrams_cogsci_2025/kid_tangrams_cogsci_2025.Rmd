@@ -34,6 +34,7 @@ library(here)
 library(brms)
 library(rstan)
 library(rstanarm)
+library(ggthemes)
 rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
 theme_set(theme_bw())
@@ -197,21 +198,6 @@ form <- function(model_form) {
 
 ```
 
-# TODOs
-
-* Include fun examples of the things kiddos said
-
-* fix transcripts to have kid ids that are more consistent (not pear123)
-
-* are there analyses to link success with description sticking (do successful descriptions stick more) 
-
-* qual description of different ways kids do coordinate with each other
-
-* do we want to meta-analyze at all
-
-* Experiment 1: do children match the descriptions their partner uses 
-
-* Experiment 1 + experiment 2: We will also analyze the transcripts to look at children’s turn-taking structure and how they understand each other. 
 
 # Introduction
 
@@ -219,18 +205,18 @@ TODO introduction
 
 # Experiment 1 Methods
 
-Our goal for experiment 1 was to test young children's ability to coordinate on descriptions to abstract shapes that their partner could understand. Young children can be very sensitive to task demands and cognitive load that can hide early abilities (TODO cite something for this), so we wanted to use a simple paradigm with experimenter scaffolding. We adapted the experimental framework from @leung, but further simplified it by reducing the total pool of targets and the number of trials children completed. 
+Our goal for experiment 1 was to test young children's ability to coordinate on descriptions to abstract shapes that their partner could understand. Young children can be very sensitive to task demands and cognitive load that can hide early abilities (TODO cite something for this), so we used a simple paradigm where an experimenter could scaffold the children's iteraction as needed. We adapted the experimental framework from @leung, but further simplified it by reducing the total pool of targets and the number of trials children completed. 
 
 This experiment was pre-registered at https://osf.io/kcv8j. 
 
 ## Participants
-4 and 5 year old children were recruited from a university nursery school during the school day. Children played with another child from the same class. TODO any exclusions Experiment 1 was conducted between June and August 2023. Children were only included in analysis if they completed at least 8 of the critical trials. We had XX complete games and YY incomplete, but included games. TODO children's age range + median and gender split. 
+4 and 5 year old children were recruited from a university nursery school during the school day. Children played with another child from the same class. Experiment 1 was conducted between June and August 2023. Pairs of children were included in analyses if they completed at least 8 of the 12 critical trials. We had 19 complete games and 1 incomplete, but included game. TODO children's age range + median and gender split. 
 
 ## Materials
-For the target stimuli, we used four of the ten tangram images from @leung, chosen based on visual dissimilarity. The matching game was coded as an Empirica experiment (CITATION) and run on two tablets locked in a kiosk mode so children could access other websites or apps. 
+For the target stimuli, we used four of the ten tangram images from @leung, chosen based on visual dissimilarity. We coded the matching game using Empirica and hosted it on a lab server (CITATION). We then accessed the game on the web on tablets that were locked in a kiosk mode so children could not navigate to other websites or applications during the game.
 
 ## Procedure
-Once a pair of children agreed to play the game, they were taken to a quiet testing room where procedure was explained to them. Children were introduced to a stuffed animal "Smurfy" who wanted to play a matching game. Children sat across a table from each other, each with a tablet in front of them. On each trial, one child saw two images, one of them in a black box, and was asked to "say what they saw" in the black box so their partner (and Smurfy) could tap the corresponding image. The guesser saw the same two images (in a randomized order), but with neither boxed. Upon tapping an image, both children recieved feedback in form of a smiley or frowney face and an audible sound. After each trial, children's roled switched, demarcated by passing Smurfy back and forth. 
+Once a pair of children agreed to play the game, a research assistant took them to a quiet testing room where the game was explained to them. Children were introduced to a stuffed animal "Smurfy" who wanted to play a matching game. Children sat across a table from each other, each with a tablet in front of them. On each trial, one child saw two images, one of them in a black box, and was asked to "say what they saw" in the black box so their partner (and Smurfy) could tap the corresponding image. The guesser saw the same two images (in a randomized order), but with neither boxed. Upon tapping an image, both children received feedback in form of a smiley or frowny face and an audible sound. After each trial, children's roles switched. Children passed Smurfy back and forth to help them keep track of whether they were the "guesser" or "teller" on a given trial.
 
 Children completed two warm-up trials with black and white images of familiar shapes, followed by 3 blocks of the 4 targets. Targets were randomly paired with another of the critical images as the foil. 
 
@@ -248,7 +234,7 @@ TODO DIAGRAM OF EXPERIMENT + Picture of children playing the game as top bar
 
 Children's selections and the time to selection were recorded from the experiment software. Children's descriptions were transcribed from the video-recording, using Whisper (CITE) for the first pass and then hand-corrected by experimenters. Transcripts were hand-annotated for when each trial started, who said each line, and what referential descriptions were used. 
 
-We excluded trials where the child in the teller role did not produce a description, or where all description was unintelligible and impossible to transcribe. 
+We excluded trials where the "teller" did not produce a description, or where all description was unintelligible and impossible to transcribe. After exclusions, we had `r clean_2 |> filter(!is.na(repNum)) |> nrow()` trials remaining. 
 
 ## Statistical analysis
 
@@ -258,7 +244,7 @@ Statistical analyses were run in brms with weakly informative priors. We present
 
 ## Accuracy
 
-```{r accuracy, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "TODO \\label{accuracy}" }
+```{r fig-accuracy, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "Children's accuracy at selecting the correct target over time. Experiment 1 had 3 blocks (12 total critical trials) and experiment 2 had 4 blocks (16 critical trials). Error bars are bootstrapped 95% CIs with a linear trend line overlaid. \\label{acc}" }
 clean_2 |>
     filter(type!="practice") |> mutate(trial=trial-3, expt="Expt 2") |> 
   bind_rows(clean_1 |> filter(type!="practice") |> mutate(trial=trial-1, expt="Expt 1")) |> 
@@ -303,7 +289,7 @@ acc_mod_1 <- read_rds(here(mod_results, "acc_1.rds")) |> mutate(across(c(`Estima
 acc_form <- read_rds(here(mod_form,"acc_1.rds"))
 ```
 
-We fit a mixed effects model of accuracy (`r acc_form |> form()`). Children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_1,1)`) and accuracy slightly increased over the game (OR of one trial later: `r stats_text(acc_mod_1, 2)`). 
+Our primary measure of interest was whether children could accurately communicate the intended target, as prior work is often interpreted as indicating the children at kindergarten age cannot communicate about abstract shapes successfully (CITATION). As shown in Figure \ref{acc}, children were above chance in their selections. To confirm this and test for any changes in accuracy over time, we fit a mixed effects model of accuracy (`r acc_form |> form()`). Children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_1,1)`) and accuracy slightly increased over the game (OR of one trial later: `r stats_text(acc_mod_1, 2)`). 
 
 ## Speed
 
@@ -332,7 +318,7 @@ speed_mod_1 <- read_rds(here(mod_results, "speed_1.rds"))
 speed_form <- read_rds(here(mod_form, "speed_1.rds"))
 ```
 
-We ran a Bayesian mixed effects model of how long each trial took over time: `r speed_form |> form()`. The first trial was `r stats_text(speed_mod_1, 1)`, and children got faster over time (`r stats_text(speed_mod_1, 2)`). 
+As another measure of children's performance, we looked at how long each trial took to see if children were getting faster over time. We ran a Bayesian mixed effects model of how long each trial took over time: `r speed_form |> form()`. The first trial critical trial averaged `r stats_text(speed_mod_1, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_1, 2)`). 
 
 ## Description length
 
@@ -357,7 +343,7 @@ description_mod_1 <- brm(words ~ trial.num + (trial.num|game) + (1|target),
 
 ```
 
-```{r description, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "TODO \\label{accuracy}" }
+```{r description, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "Length of referential expression (in words) produced by the speaker each trial. Grey dots are individual data points, colored dots are per trial means with bootstrapped 95% CIs. \\label{length}" }
     
 
 clean_2 |>
@@ -386,11 +372,14 @@ description_form <- read_rds(here(mod_form, "description_1.rds"))
 
 ```
 
-We ran a Bayesian mixed effects model of how long of a description the "teller" produced: `r description_form |> form()`. The initial length was `r stats_text(description_mod_1, 1)` and description length was relatively stable over time (`r stats_text(description_mod_1, 2)`). 
+In iterated reference games in adults, a canonical finding is that the length of descriptions goes from long to short over repeated references to the initially hard to describe shapes. We looked at how long the descriptions the children used were to see if the same trend occurred. 
+We ran a Bayesian mixed effects model of how long of a description the "teller" produced: `r description_form |> form()`. The initial length was `r stats_text(description_mod_1, 1)` and description length was relatively stable over time (`r stats_text(description_mod_1, 2)`, shown in Figure \ref{length}). How long of a description is initially warranted depends on how iconic or easily describable the shape is, as well as how large and close the contrast set is. In this case, the low number of options to distinguish and relatively easy to describe shapes may mean long initial descriptions are less necessary (todo mention how long the similar things are in leung). However, young children may also choose to provide shorter descriptions than adults would. 
+
+TODO add anecdotes here with some examples of children's descriptions. 
 
 ## Convergence 
 
-```{r sims, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "TODO \\label{accuracy}" }
+```{r sims, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "Semantic similarity between referential descriptions from the speaker to the same target under different circumstances. Different games refers to similarities across two speakers from different games, same game to similarities across the two participants in one game, and same speaker to descriptions from the same person in different blocks. Dots are means and lines are bootstrapped 95% CIs.  \\label{sim}" }
 
 sims_2 |>
   mutate(source = case_when(
@@ -408,6 +397,7 @@ sims_2 |>
   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
   labs(y = "Cosine similarity", x = "Comparing two utterances from ...", color = "target image") +
   facet_grid(expt~.)+
+  scale_color_solarized()+
   theme(legend.position = "bottom",
         panel.grid = element_blank(),
         strip.background = element_blank())
@@ -459,31 +449,36 @@ sims_1 |>
   theme(legend.position = "bottom")
 ```
 
-There were too few trials to really look at change over time in this short experiment. However, we were able to look at ... 
+While description length is used as a proxy for measuring convention formation, better measurements for convergence look at the actual content of the utterances, which does not always track description length (cite boyce 2024). With only 3 repetitions for each target, we do not have enough data to look at convergence over time. However, we can still analalyze the semantics of the descriptions to see if children are influenced by their partner's descriptions or not. 
 
-We tried various ways of looking at the semantic similarities of descriptions children produced. TODO talk about SBERT
+Following cite Boyce et al 2024, we use Sentence-BERT to embed the descriptions in a semantic vector space, and then use the cosine between embeddings as a measure of semantic similarity between descriptions. We compare the semantic similarities between descriptions of the same target based on who produced the description. Our question is whether the two children within the same game produce descriptions that are more similar to each other than two children in different games. As shown in Figure \ref{sim}, different children in the same game do produce more similar descriptions than children in different games, although the descriptions are less similar than descriptions from the same child in different rounds. This provides weak evidence for some coordination between chidren. 
+
+TODO could provide anecdotes about children's coordination approaches
+
+TODO should we run the brms model on this? 
 
 # Experiment 1 Discussion
 
 # Experiment 2 Methods
 
-After the first experiment, we wanted to run another study using the same paradigm, but fixing issues that arose during experiment 1. We also tightened the experimenter script to reduce the possibility that the experimenters were influencing children's descriptions and understanding of descriptions. Given that most pairs in experiment 1 were able to play the game fairly quickly, we also added a 4th experimental block to be able to look for change over time. 
+In experiment 1, children were above chance accuracy in their selections. In experiment 2, we aimed to repeat the same paradigm with a tighter experimental script to reduce possible influence of experimenters. Additionally, we aimed to fix sources of confusion and frustration in experiment 1. As most pairs in experiment 1 completed the game fairly quickly, we added a 4th experimental block to allow for more analyses of change over time. 
 
 As Experiment 2 was very similar to Experiment 1, here we note the differences. Experiment 2 was pre-registered at https://osf.io/y2dax. 
 
 ## Participants
-Experiment 2 was run between March and August of 2024, at the same university preschool. No children participated in both experiments. ZZ pairs of children completed all 16 critical trials, and YY pairs of children completed between 8 and 16 critical trials. TODO mention that one kid was actually too young TODO mention age range / median and gender distribution. 
+Experiment 2 was run between March and August of 2024, at the same university preschool as experiment 1. No children participated in both experiments. 30 pairs of children completed all 16 critical trials, and 1 pair of children completed between 8 and 16 critical trials. TODO mention that one kid was actually too young TODO mention age range / median and gender distribution. 
 
 ## Materials
-The same 4 critical images were used as in experiment 1, although this time, children saw these images 4 times. In response to some children struggling with the abrupt switch from nameable to non-nameable shapes, we introduced more practice trials for experiment 2. Additionally, before the practice trials, we added a "bubble popping" exercise to familiarize children with how to tap the tablet appropriately (a problem in experiment 1). 
-
+The same 4 critical images were used as in experiment 1, although this time, children saw these images 4 times. In response to some children struggling with the abrupt switch from nameable to non-nameable shapes, we introduced more practice trials for experiment 2. We used a total of 4 practice trials, designed to transition from easily recognizable shapes to slightly blockier black and wide shapes to smooth the transition to the critical trials. 
 ## Procedure
-The procedure was much the same. The smurfy puppet was swapped out for a more attractive smurfy stuffed animal. The experimental script was tightened. TODO link to materials for where the script is. 
+The procedure was much the same. We added an initial "bubble popping" exercise to give children practice with how to tap the tablet appropriately (this was an issue for some children in the first experiment). The smurfy puppet was swapped out for a more attractive smurfy stuffed animal. The experimental script was fully written out so children all recieved the same instructions. To prevent experimenter's influencing children's descriptions or understanding of descriptions, we wrote up contingency statements that the experimenter could use to prompt children who were not giving descriptions or making selections. TODO link to materials for where the script is. 
 
 ## Data processing
-Data was processed in the same way as experiment 1. 
+Data was processed in the same way as experiment 1. After excluding trials where children did not give a description or where the experimenter echoed a child's description, we had `r clean_2 |> filter(!is.na(repNum)) |> nrow()` trials total. 
 
 # Experiment 2 Results
+
+We report the same set of analyses and model results as in Experiment 1 as well as additional analyses of how the semantic content of children's descriptions changes over time. 
 
 ## Accuracy
 
@@ -511,7 +506,7 @@ acc_mod_2 <- read_rds(here(mod_results, "acc_2.rds")) |> mutate(across(c(`Estima
 
 ```
 
- Children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_2,1)`) and accuracy slightly increased over the game (OR of one trial later: `r stats_text(acc_mod_2, 2)`). 
+As in Experiment 1, in Experiment 2, children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_2,1)`) and accuracy slightly increased over the course of the game (OR of one trial later: `r stats_text(acc_mod_2, 2)`, Figure \ref{acc}). This confirms that children are able to communicate with each other about these abstract shapes. 
 
 ## Speed
 
@@ -539,7 +534,7 @@ speed_mod_2 <- read_rds(here(mod_results, "speed_2.rds"))
 
 ```
 
- The first trial was `r stats_text(speed_mod_2, 1)`, and children got faster over time (`r stats_text(speed_mod_2, 2)`). 
+In Experiment 2, the first critical trial averaged `r stats_text(speed_mod_2, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_2, 2)`). Children were initially faster in Experiment 2 than Experiment 1, possibly due to the increased number of practice trials and pre-training on how to press the screens. 
 
 ## Description length
 
@@ -568,7 +563,9 @@ description_mod_2 <- read_rds(here(mod_results, "description_2.rds"))
 
 ```
 
- The initial length was `r stats_text(description_mod_2, 1)` and description length was relatively stable over time (`r stats_text(description_mod_2, 2)`). 
+The average length of descriptions on the first trial was `r stats_text(description_mod_2, 1)` words and description length was relatively stable over time (`r stats_text(description_mod_2, 2)`, Figure \ref{length}). This is comparable to Experiment 1, again finding that children produce short utterances without much change in length over time. 
+
+TODO could include examples of cute things kiddos said here
 
 ## Convergence 
 
@@ -634,7 +631,7 @@ sim_across_mod_2 <- brm(sim ~ block.num+(1|target),
 ```
 
 
-```{r sim2, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "TODO \\label{accuracy}" }
+```{r sim2, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "Semantic similarity between earlier blocks (1-3) with last block (4) for descriptions to the same image within the same group. SImilarity measured as cosine similarity between S-BERT embeddings of referential descriptions. Heavy dots are means with bootstrapped 95% CIs; light dots are individual values. \\label{tolast}" }
 sims_2 |>
   filter(game1 == game2) |>
   mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
@@ -644,6 +641,7 @@ sims_2 |>
   geom_point(alpha = .1, position = position_dodge(width = .2)) +
   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
   facet_wrap(~same_speaker) +
+  scale_color_solarized()+
   labs(x = "Earlier block to last block", y = "cosine similarity", color = "target") +
   theme(legend.position = "bottom")
 ```
@@ -693,17 +691,17 @@ sim_to_last_2_results <- read_rds(here(mod_results, "sim_to_last_2.rds"))
 sim_to_last_form<- read_rds(here(mod_form, "sim_to_last_2.rds"))
 ```
 
-We tried various ways of looking at the semantic similarities of descriptions children produced. TODO talk about SBERT
+To look at semantic distance between utterances, we again operationalize similarity between pairs of utterances as the cosine similarity between their SBERT embeddings (CITE SBERT). 
 
-As a coarse comparison, we repeated the analysis from Experiment 1, comparing the similarity of descriptions to the same target for the same-speaker, same-game, or different-game. We modeled this as `r sim_across_between_form |> form()`. Utterances were more similar if they came from the same partnership (`r sim_across_between_2_results |> stats_text(2,3)`) and were slightly more similar still if they came from the same person with the partnership (`r sim_across_between_2_results |> stats_text(3,3)`). The big differences in descriptions between games compared to within games is a measure of partner sensitivity -- children are more likely to use descriptions semantically similar to their partners than to another child. 
+As a coarse comparison, we repeated the analysis from Experiment 1, comparing the similarity of descriptions to the same target for the same-speaker, same-game, or different-game. We modeled this as `r sim_across_between_form |> form()`. Utterances were more similar if they came from the same partnership (`r sim_across_between_2_results |> stats_text(2,3)`) and were slightly more similar still if they came from the same person with the partnership (`r sim_across_between_2_results |> stats_text(3,3)`). The big differences in descriptions between games compared to within games is a measure of partner sensitivity -- children are more likely to use descriptions semantically similar to their partner's than to another child's. 
 
-With the greater length of experiment 2, we are also able to look for change over time, that could be indicative of convergence to shared descriptions within a game and divergence between games. 
+The greater number of trials in Experiment 2 makes it possible to look for changes over time that could be indicative of convergence to shared descriptions within a game and divergence between games. 
 
-To look for convergence, we compare the utterances from the first three blocks to the descriptions in the last block: `r sim_to_last_form |> form()`. Over the first three blocks, descriptions do become increasingly similar to the last block description (`r sim_to_last_2_results |> stats_text(2,3)`). Descriptions are more similar to the last block if they come from the same child who gaves the description in the last block (`r sim_to_last_2_results |> stats_text(3,3)`). 
+To look for convergence to shared descriptions within games, we compared the utterances from the first three blocks to the descriptions in the last block: `r sim_to_last_form |> form()`. Over the first three blocks, descriptions become increasingly similar to the last block description (`r sim_to_last_2_results |> stats_text(2,3)`). Descriptions are more similar to the last block if they come from the same child who gave the description in the last block (`r sim_to_last_2_results |> stats_text(3,3)`). 
 
-Another way to look for convergence is to look at the semantic distance between utterances in adjacent blocks: `r sim_to_next_form |> form()`. Although over time descriptions do get more similar to the last block utterance, the distance between adjacent block utterances is relatively constant `r sim_to_next_2_results |> stats_text(2,3)`. 
+Another way to look for convergence is to look at the semantic distance between utterances in adjacent blocks: `r sim_to_next_form |> form()`. Although over time descriptions do get more similar to the last block utterance, the distance between adjacent block utterances is relatively constant: `r sim_to_next_2_results |> stats_text(2,3)`. 
 
-Finally, we can see if descriptions in different games diverge across time: `r sim_across_form |> form()`. As the games progress, descriptions from different games become slightly further apart in semantic space (`r sim_across_2_results |> stats_text(2,3)`). 
+As each partnership converges to their shared nicknames, partnerships often diverge from one another as groups focus on distinct aspects of the image. We tested whether descriptions in different games to the same target diverged over time: `r sim_across_form |> form()`. As the games progress, descriptions from different games became slightly further apart in semantic space (`r sim_across_2_results |> stats_text(2,3)`). 
 
 
 # General Discussion
