@@ -9,13 +9,13 @@ author-information: >
     \AND {\large \bf Yannick Mofor (TODO email)} \\ TODO affiliation, Stanford University \And {\large \bf Michael C. Frank (mcfrank@stanford.edu)} \\ Department of Psychology, \\ Stanford University}
 
 abstract: >
-  Learning language requires not just learning the facts of a language, but also learning how to use that language to communicate. Iterated reference games require rich communicative skills as participants jointly converge on mutually understandable names for initially novel objects. Some classical experiments with young children are interpreted as showing that 4-5 year old children were incapable of succeeding at iterated references games with eac other. More recent work on young children and their parents using simpler paradigms reveal greater abilities even in young children. Here, we revisit the question of young children's referential communicative abilitlies with iterated reference games played between pairs of 4-5 year old preschoolers. Across 51 pairs of children (TODO double check N), we find that children were Y% accurate, and that they often used descriptions similar to their partner's. Preschoolers' capacity to construct effective referring expressions in novel contexts is consistent with a larger picture of early emerging ability to use language in pragmatic and communicative ways. TODO fix wrap up sentence! 
+  Learning language requires not just learning the facts of a language, but also learning how to use that language to communicate. Iterated reference games require rich communicative skills as participants jointly converge on mutually understandable names for initially novel objects. Some classical experiments with young children are interpreted as showing that 4-5 year old children were incapable of succeeding at iterated references games with each other. More recent work on young children and their parents using simpler paradigms reveal greater abilities even in young children. Here, we revisit the question of young children's referential communicative abilites with iterated reference games played between pairs of 4-5 year old preschoolers. Across 51 pairs of children (TODO double check N), we find that children were Y% accurate, and that they often used descriptions similar to their partner's. Preschoolers' capacity to construct effective referring expressions in novel contexts is consistent with a larger picture of early emerging ability to use language in pragmatic and communicative ways. TODO fix wrap up sentence! TODO possibly shorten!
 
 keywords: >
     development; iterated reference game; TODO keywords
     
 output: cogsci2024::cogsci_paper
-#final-submission: \cogscifinalcopy
+final-submission: \cogscifinalcopy
 ---
 
 ```{r global_options, include=FALSE}
@@ -36,6 +36,7 @@ library(brms)
 library(rstan)
 library(rstanarm)
 library(ggthemes)
+library(kableExtra)
 rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
 theme_set(theme_bw())
@@ -223,33 +224,33 @@ form <- function(model_form) {
 # Introduction
 
 <!-- intro --> 
-Learning language requires not just learning the facts of a language, but also learning how to use that language to communicate. One common test environment for language use is referential communication, the ability to give a description so that an interlocuter can pick out a referent (object, picture, idea) from a set of possibilities. Adults show sensitivity to both the visual context and their audience during referential communication, calibrating the type of description and the amount of information they provide to their beliefs about the interlocuters knowledge state. 
 
-One particular skill in referential communication is the ability to build up a new shared name for an object that initially does not have a canonical name, such as an abstract shape. This ability is tested in *iterated reference games* where a describer identifies abstract shapes from an array of images repeatedly to the same partner [@clark1986; @krauss1964; @hawkins2020b; @boyce2024]. Over repetition, features of the initial verbose descriptions are conventionalized as each pair comes to agree on a shared understanding of how to label each image. Success at this task requires mastery of a number of linguistic and communicative skills: the ability to produce initial descriptions of abstract shapes, monitoring for comprehension and asking for clarification, and appropriately using the shared conversation history to inform referring expressions in later rounds.
+[way to long, please chop down]
+Learning language requires not just learning the facts of a language, but also learning how to use that language to communicate. One common test environment for language use is referential communication, the ability to give a description so that an interlocuter can pick out a target referent from a set of possibilities. Adults show sensitivity to both the visual context and their audience during referential communication, calibrating the type of description and the amount of information they provide to their beliefs about the interlocuters knowledge state. 
 
-All of these are skills that children must learn as part of their acquisition of language, but there is debate on the acquisition trajectories of different linguistic and communicative skills. Studying how children play iterated reference games can provide inisght into the developmental trajectories of the ability to produce expressions to achieve joint understanding. TODO this paragraph needs help
-(I'm unsure if we want to explicitly connect to the pragmatics-last v pragmatics-always debate in how ordered kid language acquisition is -- maybe we leave it and mention it in the discussion?)
+One test of referential communication skill is *iterated reference games* where a describer identifies abstract shapes from an array of images repeatedly to the same partner [@clark1986; @krauss1964; @hawkins2020b; @boyce2024]. Over repetition, features of the initial verbose descriptions are conventionalized as each pair comes to agree on a shared understanding of how to label each image. Success at this task requires mastery of a number of linguistic and communicative skills including producing adequate initial descriptions, monitoring for comprehension and asking for clarification, and appropriately using the shared conversation history to inform referring expressions in later rounds. 
 
-A study on children's referential communication declared 4-5 year old preschoolers incapable of the task of child-child referential communication [@glucksberg1966]. In their paradigm, one child was given blocks in a specific order from a dispenser. Their task was to describe the drawing on the block so their their partner could pick out the corresponding block from an unordered set of 6 blocks. Then each child would put their block on a peg, and repeat, until they had stacked all 6 blocks. Children then played the game repeatedly with the same sets of blocks. The 4-5 year old children were successful on practice trials where the blocks had recognizable drawings and they were able to see each other. Younger children (3-4 years old) were not able to understand the instructions and complete the practice trials.  However, even children who were able to do the practice trials were not successful when they could not see the other child's blocks and the drawings were abstract shapes; children produced referential descriptions that were not clearly pick out the target shape to the other child. In similar experiments with older children, children improved gradually across age (up to the teen years) both at their initial accuracy and on their improvement over repetitions, although even the 9th grade sample was noticeably worse than their adult college student sample [@glucksberg1967; @krauss1969]. @glucksberg1966 attributed the young children's failures to the children’s use of idiosyncratic referring expressions unique to their own experiences, making it difficult for the pair to converge on shared descriptions. The researchers thus declared children converse in a manner that is too egocentric to accommodate the cooperation required of referential communication. However, the complexity of the stacking paradigm and the large number of potential targets meant that this was not a clean test of children's ability to produce adequate referent expressions as the experiment had substantial task demands that could mask children's abilities. 
+All of these are skills that children must learn as part of their acquisition of language, but there is debate on the acquisition trajectories of different linguistic and communicative skills. Studying how children play iterated reference games can provide insight into the developmental trajectories of the ability to produce expressions to achieve joint understanding. 
 
-Since then, a number of studies have targeted specific skills needed for referential communication, including expectations around consistent labeling ("conversational pacts"), awareness of other's perspectives, and sensitivity to descriptive adequacy in varying contexts. These skills are intertwined, but studies targeting each of them suggest that children show the roots of understanding during the preschool years, albeit expressed inconsistently, and often in non-adultlike ways. HAHA maybe this just isn't true for near/far context stuff and they're just bad at it TODO fix
+A study on children's referential communication declared 4-5 year old preschoolers incapable of the task of child-child referential communication [@glucksberg1966]. In their paradigm, one child was given a set of 6 blocks in a specific order. Their task was to describe the images on the block so their partner could pick out their corresponding block. As children described and selected blocks, they stacked them on pegs, so that the order of blocks on the peg was a measure of correct matching. 4-5 year old children were successful on practice trials where the blocks had drawings of farm animals and they had visual access to each others blocks; however, younger children (3-4 year olds) were not even able to understand the instructions and complete the practice trials.  On the critcal trials, the 4-5 year old children were tested with abstract shapes on the blocks and no visual access to the other child's blocks. In this condition, even after multiple rounds with the same images, children were not able to produce referential descriptions that allowed for success at the matching task. 
 
-One piece of cooperative communication is the expectation that one person will re-use a description that worked before, and not imposing this expectation on other people who were not present. As listeners, preschoolers (3-5 year olds) show an expectation that the same term will be repeated as they are faster to select a target when it is referred to in a consistent way [@graham2014; @matthews2010]. However, this preference for familiar descriptions is applied regardless of whether they are said by the same person or a new person. Preschoolers are said to be "hyperconventional", often verbally protesting the use of a new term ("That's a horse, not a pony!") [@matthews2010]. As the producers of descriptions, children show some partner-specificity, but are far from consistent. @koymen2014 had 4 and 6 year old children do a version of the paradigm from @brennan1996. In a near referring context of different shoes, children used specific referring expressions ("woman's shoe") with one partner. The question was in later trials, when only one shoe was present in the context, would children keep the entrained term or switch back to a more general term ("shoe"). Both 4 and 6 year olds did some of each, but 6 year olds were somewhat more likely to continue using the specific term with the same partner than with a new partner, whereas 4 year olds used expressions at the same rate regardless of partner. 
+Similar experiments with older children indicated a gradual improvement across age (up to the teen years) both at their initial accuracy and on their improvement over repetitions, although even the 9th grade sample was noticeably worse than their adult college student sample [@glucksberg1967; @krauss1969]. @glucksberg1966 attributed the young children's failures to the children’s use of idiosyncratic referring expressions unique to their own experiences, making it difficult for the pair to converge on shared descriptions. However, the complexity of the stacking paradigm and the large number of potential targets meant that this was not a clean test of children's ability to produce adequate referent expressions as the experiment had substantial task demands that could mask children's abilities. 
 
-Expectations of consistency are entwined with knowing who knows what and being able to take the perspective of an interlocuter. Young children are notoriously ego-centric [@epley2004; TODO there are probably better things to cite here instead], but even preschoolers are able to take other's perspectives, especially when the are not under too much cognitive load [@sanjuan2015]. Across the 2-4 year olds range, children are developing sensitivity to what is given their interlocuter based on the discourse history and visual context available to their interlocuter [@matthews2006]. Older preschoolers are more likely to use more given forms such as pronouns when their interlocuter has more context and indefinite forms when their interlocuter has less context. 4 to 6 year old children show sensitivity to what their adult partner can or cannot see when picking out objects where there is a size competitor [@nadig2002, @nilsen2009]. Children are more likely to use a more specific reference expression with a size modifier when their partner can see the size competitor than when their partner cannot see the competitor, but children produce the modifier inconsistently even when it is necessary to distinguish the target.
+Since then, a number of studies have targeted specific skills needed for referential communication, including expectations around consistent labeling ("conversational pacts"), awareness of other's perspectives, and sensitivity to descriptive adequacy in varying contexts. A number of these studies have found roots of understanding emerging during hte preschool years, albeit with inconsistent expression. 
 
+Young children show some sensitivity to the expectation that during cooperative communicate a person will likely re-use their own descriptions.  As listeners, preschoolers (3-5 year olds) are faster to select a target when it is referred to in a consistent way [@graham2014; @matthews2010]. However, this preference for familiar descriptions is applied regardless of whether they are said by the same person or a new person, and they sometimes verbally protesting the use of a new term ("That's a horse, not a pony!") [@matthews2010]. As the producers of descriptions, children show some partner-specificity, but are far from consistent. @koymen2014 had 4 and 6 year old children do a version of the paradigm from @brennan1996. Children used specific referring expressions ("woman's shoe") with one partner in a visual context of different types of shes. In later trials when only one shoe was present and thus a general expression like "shoe" was adequate, 6 year olds were somewhat more likely to continue using the specific term with the same partner than with a new partner, whereas 4 year olds used both specific and general expressions at the same rate regardless of partner. 
 
-Another skill children need to tailoring the specificity of their utterances to the context. Children struggle with this, with 4 year olds showing some improvement after getting specific feedback that models appropriate descriptions, but still a lot of inconsistency [@matthews2012]  Children ages 4-8 often produce the same label for a target object regardless of whether the context is close or far, leading to descriptions that are underinformative for close contexts [@leung2024].
-When children must pick out one of two very similar images, 4 and 5 year olds aren't good at mentioning the relevant features, although they do better when playing in an interactive game than when not [@grigoroglou2019]. This suggests that understanding the task and having the task be more similar to children's everyday experiences may be important. 
-By age 5, children are sensitive to utterances that are over- or under-informative, asking for clarification on some under-informative utterances and taking longer to make selections on over-informative utterances, although children still do not ask for clarification all the time [@morisseau2013]. Their receptive sensitivity to ambiguity is sometimes mirrored in production. 
+Expectations of consistency are entwined with being able to take the perspective of an interlocuter. Young children are notoriously ego-centric [@epley2004; TODO there are probably better things to cite here instead], but even preschoolers are able to take other's perspectives, especially when the are not under too much cognitive load [@sanjuan2015]. Across the 2-4 year olds range, children are developing sensitivity to what is given their interlocuter based on the discourse history and visual context available to their interlocuter [@matthews2006]. Older preschoolers are more likely to use more given forms such as pronouns when their interlocuter has more context and indefinite forms when their interlocuter has less context.  4-6 year old children are more likely to use a more specific reference expression with a size modifier when their partner can see the size competitor than when their partner cannot see the competitor, but children produce the modifier inconsistently even when it is necessary to distinguish the target [@nadig2002; @nilsen2009].
 
-In addition to testing these 3 skills mentioned above, iterated reference games also pose a couple additional challenges. Producing descriptions is harder since there are not canonical names for the target objects or their features. Additionally, depending on the set up of the game and the number of options, children's limited cognitive resources may impair their performance. A common thread between many studies in referential expression production is that children perform better when the cognitive load of the task is reduced, i.e. fewer distractor referents [@abbot-smith2016]. This suggests that tailored referential expression production is possible in children, but it is likely to be masked in situations that involve cognitive load. 
+The skill children seem to struggle the most with is appropriately tailoring the specificity of their utterances to the visual context. 4 year olds showing some improvement after getting specific feedback that models appropriate descriptions, but still a lot of inconsistency [@matthews2012].  Children ages 4-8 often produce the same label for a target object regardless of whether the context is close or far, leading to descriptions that are underinformative for close contexts [@leung2024]. When children must pick out one of two very similar images, 4 and 5 year olds aren't good at mentioning the relevant features, although they do better when playing in an interactive game than when not [@grigoroglou2019]. By age 5, children are sensitive to utterances that are over- or under-informative, asking for clarification on some under-informative utterances and taking longer to make selections on over-informative utterances, although children still do not ask for clarification all the time [@morisseau2013]. 
+
+A common thread between many studies in referential expression production is that children perform better when the cognitive load of the task is reduced, i.e. fewer distractor referents [@abbot-smith2016]. This suggests that tailored referential expression production is possible in children, but it is likely to be masked in situations that involve cognitive load. 
 
 Since @glucksberg1966, only a few studies have revisited the question of how well children can put together different skills to communicate in an iterated reference game. @branigan2016 tested 72 8-10 year olds on iterated referential communication using a paradigm based on @wilkes-gibbs1992. In the training period, pairs of children matched tangrams in order from a pool of 8 images. Qualitatively, children on average showed the classic patterns of increasing accuracy, increasing speed, and shorter descriptions across repetitions. However, children's level of accuracy was far below what is typical for adults and varied dramatically from pair to pair. 
 
-Some of the skills required in iterated reference games are communicative rather than purely linguistic. In @bohn2019, 4 and 6 year olds communicated target images from a pool of 5 images via a video link (no audio). Children's comprehension was good and increased over repetitions, and children showed signs of agreeing on conventionalized gestures with the partner tending to use the same gestures back when roles switched. Conventionalization was stronger for 6 year olds than 4 year olds, based on the rating of the similarity of gestures within a dyad versus gestures between dyads. 
+Some of the skills required in iterated reference games are communicative rather than purely linguistic. In @bohn2019, 4 and 6 year olds communicated target images from a pool of 5 images via a video link without audio. Children's comprehension was good and increased over repetitions, and children, especially the 6 year olds,  showed signs of agreeing on conventionalized gestures with their partner.  
 
-A recent study on younger children examines children's abilities to play an iterated reference game with a parent. @leung2024 had 63 children ages 4-8 year olds play a matching game with their parents. This experiment was implemented on tablets, so on each trial, participants saw two imiages on the tablet.  The describer's tablet had a box around one image and their task was to verbally describe the image so their partner could select the corresponding image on their tablet. The target images were tangrams, with a total of 10 target images, which repeated across 4 blocks for a total of 40 trials per pair. In this task, even 4 year olds had an initial accuracy above 80% which rose to above 90% on the later repetitions. 
+A recent study on younger children examined children's abilities to play an iterated reference game with a parent. @leung2024 had 63 children ages 4-8 year olds play a matching game on tablets, where, on each trial, participants saw two images.  The describer's tablet had a box around one image and their task was to verbally describe the image so their partner could select the corresponding image. The target images were tangrams, with a total of 10 target images, which repeated across 4 blocks for a total of 40 trials per pair. In this task, even 4 year olds had an initial accuracy above 80% which rose to above 90% on the later repetitions. 
 
 Given the potential for task demands in @glucksberg1966 and the level of success young children had with their parents at a simplified, less demanding paradigm, we revisit the question of children's ability to converge on appropriate referential expressions with each other.
 In the present study, we re-examine young children's ability to establish effective referring expressions with each other in an iterated reference game using a simplified paradigm to reduce cognitive demands.
@@ -267,7 +268,7 @@ knitr::include_graphics("diagram.pdf")
 
 (Note: we should talk about whether it makes more sense to do all the methods and then all the results versus the current expt 1 than expt 2 layout.)
 
-Our goal for experiment 1 was to test young children's ability to coordinate on descriptions to abstract shapes that their partner could understand. Young children can be very sensitive to task demands and cognitive load that can hide early abilities [CITATION WANTED], so we used a simple paradigm where an experimenter could scaffold the children's iteraction as needed. We adapted the experimental framework from @leung2024, but further simplified it by reducing the total pool of targets and the number of trials children completed. 
+Our goal for experiment 1 was to test young children's ability to coordinate on descriptions to abstract shapes that their partner could understand. Young children can be very sensitive to task demands and cognitive load that can hide early abilities [CITATION WANTED], so we adapted the experimental framework from @leung2024, but further simplified it by reducing the total pool of targets and the number of trials children completed. 
 
 This experiment was pre-registered at https://osf.io/kcv8j. 
 
@@ -297,7 +298,7 @@ This experiment was pre-registered at https://osf.io/kcv8j.
 For the target stimuli, we used four of the ten tangram images from @leung2024, chosen based on visual dissimilarity (Figure \ref{game}B). We coded the matching game using Empirica and hosted it on a lab server [@almaatouq2020]. We then accessed the game on the web on tablets that were locked in a kiosk mode so children could not navigate to other websites or applications during the game.
 
 ## Procedure
-Once a pair of children agreed to play the game, a research assistant took them to a quiet testing room where the game was explained to them. Children were introduced to a stuffed animal "Smurfy" who wanted to play a matching game. Children sat across a table from each other, each with a tablet in front of them (Figure \ref{game}A). On each trial, one child saw two images, one of them in a black box, and was asked to "say what they saw" in the black box so their partner (and Smurfy) could tap the corresponding image. The guesser saw the same two images (in a randomized order), but with neither boxed. Upon tapping an image, both children received feedback in form of a smiley or frowny face and an audible sound. After each trial, children's roles switched. Children passed Smurfy back and forth to help them keep track of whether they were the "guesser" or "teller" on a given trial.
+Once a pair of children agreed to play the game, a research assistant took them to a quiet testing room where the game was explained to them. Children were introduced to a stuffed animal "Smurfy" who wanted to play a matching game. Children sat across a table from each other, each with a tablet in front of them (Figure \ref{game}A). On each trial, one child saw two images, one of them in a black box, and was asked to "say what they saw" in the black box so their partner (and Smurfy) could tap the corresponding image. The guesser saw the same two images (in a randomized order). Upon tapping an image, both children received feedback in form of a smiley or frowny face and an audible sound. After each trial, children's roles switched. Children passed Smurfy back and forth to help them keep track of whether they were the "guesser" or "teller" on a given trial.
 
 Children completed two warm-up trials with black and white images of familiar shapes, followed by 3 blocks of the 4 targets (Figure \ref{game}C). Targets were randomly paired with another of the critical images as the foil. 
 
@@ -313,9 +314,7 @@ Children's selections and the time to selection were recorded from the experimen
 
 We excluded trials where the "teller" did not produce a description, or where all description was unintelligible and impossible to transcribe. After exclusions, we had `r clean_2 |> filter(!is.na(repNum)) |> nrow()` trials remaining. 
 
-## Statistical analysis
-
-Statistical analyses were run in brms with weakly informative priors. We present the estimate and 95% credible intervals. 
+Statistical analyses were run in TODO CITE brms with weakly informative priors. We present the estimate and 95% credible intervals. 
 
 # Experiment 1 Results
 
@@ -374,7 +373,7 @@ acc_mod_1 <- read_rds(here(mod_results, "acc_1.rds")) |> mutate(across(c(`Estima
 acc_form <- read_rds(here(mod_form, "acc_1.rds"))
 ```
 
-Our primary measure of interest was whether children could accurately communicate the intended target, as prior work is often interpreted as indicating the children at kindergarten age cannot communicate about abstract shapes successfully (CITATION). As shown in Figure \ref{acc}, children were above chance in their selections. To confirm this and test for any changes in accuracy over time, we fit a mixed effects model of accuracy (`r acc_form |> form()`). Children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_1,1)`) and accuracy slightly increased over the game (OR of one trial later: `r stats_text(acc_mod_1, 2)`). 
+Our primary measure of interest was whether children could accurately communicate the intended target, as prior work is often interpreted as indicating the children at kindergarten age cannot communicate about abstract shapes successfully [@glucksberg1966]. As shown in Figure \ref{acc}, children were above chance in their selections. To confirm this and test for any changes in accuracy over time, we fit a mixed effects model of accuracy (`r acc_form |> form()`). Children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_1,1)`) and accuracy slightly increased over the game (OR of one trial later: `r stats_text(acc_mod_1, 2)`). 
 
 ## Speed
 
@@ -407,7 +406,7 @@ speed_mod_1 <- read_rds(here(mod_results, "speed_1.rds"))
 speed_form <- read_rds(here(mod_form, "speed_1.rds"))
 ```
 
-As another measure of children's performance, we looked at how long each trial took to see if children were getting faster over time. We ran a Bayesian mixed effects model of how long each trial took over time: `r speed_form |> form()`. The first trial critical trial averaged `r stats_text(speed_mod_1, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_1, 2)`). 
+[less important, could drop] As another measure of children's performance, we looked at how long each trial took to see if children were getting faster over time. We ran a Bayesian mixed effects model of how long each trial took over time: `r speed_form |> form()`. The first trial critical trial averaged `r stats_text(speed_mod_1, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_1, 2)`). 
 
 ## Description length
 
@@ -464,7 +463,7 @@ description_mod_1 <- read_rds(here(mod_results, "description_1.rds"))
 description_form <- read_rds(here(mod_form, "description_1.rds"))
 ```
 
-In iterated reference games in adults, a canonical finding is that the length of descriptions goes from long to short over repeated references to the initially hard to describe shapes. We looked at how long the descriptions the children used were to see if the same trend occurred. 
+In iterated reference games in adults, a canonical finding is that the length of descriptions goes from long to short over repeated references to the initially hard to describe shapes [@clark1986; @hawkins2020b; @boyce2024]. We looked at how long the descriptions the children used were to see if the same trend occurred. 
 We ran a Bayesian mixed effects model of how long of a description the "teller" produced: `r description_form |> form()`. The initial length was `r stats_text(description_mod_1, 1)` and description length was relatively stable over time (`r stats_text(description_mod_1, 2)`, shown in Figure \ref{length}). How long of a description is initially warranted depends on how iconic or easily describable the shape is, as well as how large and close the contrast set is. In this case, the low number of options to distinguish and relatively easy to describe shapes may mean long initial descriptions are less necessary. (The adult controls in @leung2024 use shorter initial descriptions than adults in studies with larger arrays of harder to distinguish images.) However, young children may also choose to provide shorter descriptions than adults would, and young children may accept shorter descriptions as adequate whereas adults may ask for more information to increase their confidence level before making a guess. 
 
 ## Convergence 
@@ -566,28 +565,26 @@ sims_1 |>
   theme(legend.position = "bottom")
 ```
 
-While description length is used as a proxy for measuring convention formation, better measurements for convergence look at the actual content of the utterances, which does not always track description length [@boyce2024]. With only 3 repetitions for each target, we do not have enough data to look at convergence over time. However, we can still analalyze the semantics of the descriptions to see if children are influenced by their partner's descriptions or not. 
+While description length is used as a proxy for measuring convention formation, better measurements for convergence look at the actual content of the utterances, which does not always track description length [@boyce2024]. Following @boyce2024, we use Sentence-BERT to embed the descriptions in a semantic vector space, and then use the cosine between embeddings as a measure of semantic similarity between descriptions. We compared the semantic similarities between descriptions of the same target based on who produced the description. Our question was whether the two children within the same game produced descriptions that are more similar to each other than two children in different games. 
 
-Following @boyce2024, we use Sentence-BERT to embed the descriptions in a semantic vector space, and then use the cosine between embeddings as a measure of semantic similarity between descriptions. We compare the semantic similarities between descriptions of the same target based on who produced the description. Our question is whether the two children within the same game produce descriptions that are more similar to each other than two children in different games. As shown in Figure \ref{sim}, different children in the same game do produce more similar descriptions than children in different games, although the descriptions are less similar than descriptions from the same child in different rounds. We modeled this as `r sim_across_between_form |> form()`. Utterances were more similar if they came from the same partnership (`r sim_across_between_1_results |> stats_text(2,3)`) and were slightly more similar still if they came from the same person with the partnership (`r sim_across_between_1_results |> stats_text(3,3)`). The big differences in descriptions between games compared to within games is a measure of partner sensitivity -- children are more likely to use descriptions semantically similar to their partner's than to another child's. This provides weak evidence for some coordination between chidren. 
+As shown in Figure \ref{sim}, different children in the same game produced more similar descriptions than children in different games, although the descriptions were less similar than descriptions from the same child in different rounds. We modeled this as `r sim_across_between_form |> form()`. Utterances were more similar if they came from the same partnership (`r sim_across_between_1_results |> stats_text(2,3)`) and were slightly more similar still if they came from the same person with the partnership (`r sim_across_between_1_results |> stats_text(3,3)`). The big differences in descriptions between games compared to within games is a measure of partner sensitivity.
 
 # Experiment 1 Discussion
 
-In the first experiment, we adapted the paradigm of @leung2024 for pairs of children, taking an already simple set up and making it shorter. As our goal here was to see if young children were at all able to provide descriptions to each other adequate to identify abstract figures, children recieved a lot of scaffolding around the experimental interaction. Sometimes, this included experimenter echoing children's descriptions "Child A says they see a ... Do you see a ...?" which could potentially influence children's responses. In Experiment 2, we repeat the same paradigm, with tighter experimenter controls and a larger sample size. 
+In the first experiment, we adapted the paradigm of @leung2024 for pairs of children, taking an already simple set up and making it shorter. Our goal was to see if young children were at all able to provide descriptions to each other adequate to identify abstract figures. so children recieved a lot of scaffolding around the experimental interaction. Sometimes, this included experimenter echoing children's descriptions which could potentially influence children's responses. In Experiment 2, we repeated the same paradigm, with tighter experimenter controls and a larger sample size. 
 
 # Experiment 2 Methods
 
-In experiment 1, children were above chance accuracy in their selections. In experiment 2, we aimed to repeat the same paradigm with a tighter experimental script to reduce possible influence of experimenters. Additionally, we aimed to fix sources of confusion and frustration in experiment 1. As most pairs in experiment 1 completed the game fairly quickly, we added a 4th experimental block to allow for more analyses of change over time. 
-
-As Experiment 2 was very similar to Experiment 1, here we note the differences. Experiment 2 was pre-registered at https://osf.io/y2dax. 
+As Experiment 2 was very similar to Experiment 1, we focus on the changes made compared to Experiment 1. Experiment 2 was pre-registered at https://osf.io/y2dax. 
 
 ## Participants
 Experiment 2 was run between March and August of 2024, at the same university preschool as experiment 1. No children participated in both experiments. 30 pairs of children completed all 16 critical trials, and 1 pair of children completed between 8 and 16 critical trials. Our target age range was 4 and 5 year olds, but one almost 4-year-old was unintentionally included. Of the 62 children, 30 were girls, and the children had a median age of 56 months, and a range of 45-69 months. 
 
 ## Materials
-The same 4 critical images were used as in experiment 1, although this time, children saw these images 4 times. In response to some children struggling with the abrupt switch from nameable to non-nameable shapes, we introduced more practice trials for experiment 2. We used a total of 4 practice trials, designed to transition from easily recognizable shapes to slightly blockier black and wide shapes to smooth the transition to the critical trials. 
+The same 4 critical images were used as in experiment 1, although this time, children saw these images 4 times. In response to some children struggling with the abrupt switch from nameable to non-nameable shapes, we introduced more practice trials for experiment 2. We used a total of 4 practice trials to provide a gradient from more recognizable shapes to less recognizable, blockier shapes (Figure \ref{game}D). 
 
 ## Procedure
-The procedure was much the same (Figure \ref{game}D). We added an initial "bubble popping" exercise to give children practice with how to tap the tablet appropriately (this was an issue for some children in the first experiment). The smurfy puppet was swapped out for a more attractive smurfy stuffed animal. The experimental script was fully written out so children all received the same instructions. To prevent experimenter's influencing children's descriptions or understanding of descriptions, we wrote up contingency statements that the experimenter could use to prompt children who were not giving descriptions or making selections. TODO link to materials for where the script is. The idea was that the experimenter would help with understanding of game mechanics such as who's turn it was to tell and who should press the screen to move the game along if children stalled, but would not provide or repeat any content about the images, what to ask, or whether a description was adequate. 
+The procedure was much the same (Figure \ref{game}D). We added an initial "bubble popping" exercise to give children practice with how to tap the tablet appropriately (this was an issue for some children in the first experiment).  The experimental script was fully written out so children all received the same instructions. We wrote up contingency statements that the experimenter could use to prompt children who were not giving descriptions or making selections. Experimenters would help with game mechanics such as who's turn it was to tell and who should press the screen to move the game along, but would not provide or repeat any content about the images, what to ask, or whether a description was adequate. 
 
 ## Data processing
 Data was processed in the same way as experiment 1. After excluding trials where children did not give a description or where the experimenter echoed a child's description, we had `r clean_2 |> filter(!is.na(repNum)) |> nrow()` trials total. 
@@ -689,8 +686,62 @@ description_mod_2 <- read_rds(here(mod_results, "description_2.rds"))
 ```
 
 The average length of descriptions on the first trial was `r stats_text(description_mod_2, 1)` words and description length was relatively stable over time (`r stats_text(description_mod_2, 2)`, Figure \ref{length}). This is comparable to Experiment 1, again finding that children produce short utterances without much change in length over time. 
+Children used a wide range of descriptions successfully, and some example descriptions are shown in Table \ref{example}. Often children would use the same description as their partner, although there were some transitions such as from "a person holding a flute" to "a person holding a trumpet".
 
-TODO could include examples of cute things kiddos said here
+(not sure how much to say or where to put)
+Pairs of children varied significantly in how well they could scaffold their own interaction versus needed reminders from experimenters about the structure of the game. 
+In one game, the experimenter provided no input after the practice trials because the children rapidly took turns producing referring expressions and selecting the targets. Their advantage could partially be due to being best friends with each other, who may have been more comfortable with each other and had more common ground to start with. All children were paired with another child from the same classroom they were willing to play with, but friendship levels varied. 
+
+Some children asked clarifying questions of their partner, but knowing how much information to provide was not always consistent. In one game, child A described the figure as "A human", prompting child B to note "There's two humans." Later in the game, child B used the description "A human", leading child A to ask "Which one?", which child B clarified with"The one that is walking". This anecdote illustrates how emerging abilities can be inconsistent -- finding a description inadequate as a guesser does not always translate into providing a more informative description as a teller. 
+
+
+
+
+```{=latex}
+
+\begin{table}
+	\caption{Example descriptions children used for different tangrams. TODO may want to shorter or pair with the tangram images}
+		\label{example}
+	\begin{tabular}[H]{p{22em}}
+		Descriptions \\
+		\hline
+		%hold
+		"Hold":\\
+		$\bullet$ person\\
+		$\bullet$ a person holding a sandwich\\
+		$\bullet$ a people carrying a box of dirt\\
+		$\bullet$ a monster\\
+		$\bullet$ someone holding a plate and giving it to a restaurant and has watermelon\\
+		\hline
+	"Jump":\\
+		$\bullet$ vampire\\
+		$\bullet$ hopping\\
+		$\bullet$ a person flying\\
+		$\bullet$ somebody skydiving, not in the airplane\\
+		$\bullet$ a person\\
+		$\bullet$ a kite\\
+		$\bullet$ a triangle with a head on it with feet\\
+		\hline
+		"Swim":\\
+		$\bullet$ racecar\\
+		$\bullet$ airplane\\
+		$\bullet$ alligator\\
+		$\bullet$ a person fell down\\
+		$\bullet$ a boat\\
+		$\bullet$ a person that's in a race car that has one triangle and two triangles\\
+		\hline
+		"Walk":\\
+		$\bullet$ person\\
+		$\bullet$ a person walking\\
+		$\bullet$ a person looking down\\
+		$\bullet$ a people, but it doesn't have any arms\\
+		\hline
+	\end{tabular}
+\end{table}
+
+```
+
+
 
 ## Convergence 
 
@@ -825,7 +876,7 @@ sim_to_last_form <- read_rds(here(mod_form, "sim_to_last_2.rds"))
 
 To look at semantic distance between utterances, we again operationalize similarity between pairs of utterances as the cosine similarity between their Sentence-BERT embeddings [@reimers2019]. 
 
-As a coarse comparison, we repeated the analysis from Experiment 1, comparing the similarity of descriptions to the same target for the same-speaker, same-game, or different-game. We modeled this as `r sim_across_between_form |> form()`. Utterances were more similar if they came from the same partnership (`r sim_across_between_2_results |> stats_text(2,3)`) and were slightly more similar still if they came from the same person with the partnership (`r sim_across_between_2_results |> stats_text(3,3)`). The big differences in descriptions between games compared to within games is a measure of partner sensitivity -- children are more likely to use descriptions semantically similar to their partner's than to another child's. 
+As a coarse comparison, we repeated the analysis from Experiment 1. Utterances were more similar if they came from the same partnership (`r sim_across_between_2_results |> stats_text(2,3)`) and were slightly more similar still if they came from the same person with the partnership (`r sim_across_between_2_results |> stats_text(3,3)`). 
 
 The greater number of trials in Experiment 2 makes it possible to look for changes over time that could be indicative of convergence to shared descriptions within a game and divergence between games. 
 
@@ -837,9 +888,9 @@ As each partnership converges to their shared nicknames, partnerships often dive
 
 # Post hoc results
 
-## TODO Meta-analytic placeholder 
-TODO question for the group: do we want to include any meta analysis across the two expts?
+## Meta-analytic placeholder 
 
+Might want to split out and incorporate in along with expt 2 analyses?
 
 ```{r, eval=F}
 
@@ -977,8 +1028,7 @@ Since the two expeirments had different length games, we do not want to pool the
 
 Query -- I did not include experiment # as a random effect here, and maybe should have? I can rerun if we decide we want this analysis and think expt # as a random effect with game nested within it would be useful. 
 
-## using accuracy to predict similarities 
-
+## Accuracy is predictive of similarity to next 
 
 
 ```{r}
@@ -1047,34 +1097,21 @@ sim_acc_to_next_form <- read_rds(here(mod_form, "sim_acc_to_next_meta.rds"))
 
 ```
 
-As a post-hoc measure, we look at whether descriptions that elicit correct selections have more staying power than descriptions that do not elicit correct selections. Here we operationalize "staying power" as similarity to the next block utterance, and we model with `r form(sim_acc_to_next_form)`. Correct utterances have an increase in similarity with the next block by `r stats_text(sim_acc_to_next_mod_meta, 2, 3)` with no substantial interaction with block number or same speaker. Numerically, the size of the boost for being correct is similar to the size of the boost from coming form the same speaker `r stats_text(sim_acc_to_next_mod_meta, 6,3)`. 
+As a post-hoc measure, we look at whether descriptions that elicit correct selections have more staying power than descriptions that do not elicit correct selections. Here we operationalized "staying power" as similarity to the next block utterance, and we model with `r form(sim_acc_to_next_form)`. Correct utterances have an increase in similarity with the next block by `r stats_text(sim_acc_to_next_mod_meta, 2, 3)` with no substantial interaction with block number or same speaker. Numerically, the size of the boost for being correct is similar to the size of the boost from coming form the same speaker `r stats_text(sim_acc_to_next_mod_meta, 6,3)`. 
 
-## Not sure where to put, cute things kids said
 
-Pairs of children varied significantly in how well they could scaffold their own interaction versus needed reminders from experimenters about the structure of the game. game 62 is example of played well and fast (also kids bffs) Children sometimes asked clarifying questions of their partner (for instance, when the partner described the shape as "human" or "person", children sometimes sought clarification and arrived at descriptions such as "... see game 81, 79?)
 
-game 66 triangle feet
-
-game 61 generally good
-
-For utterances just look through for examples TODO
 
 
 
 
 # General Discussion
 
-Across 2 experiments and 51 pairs of 4 and 5 year old children, we tested how well children were at producing referential expressions to allow their partner to find a matching abstract shape. Children varied substantially in how easily they understood the task and what sorts of descriptions they produced, but overall accuracy was high (NUMBER), indicating that children were able to produce adequate descriptions. Additionally, children's utterances were more similar to the descriptions their partner used than to other children, and in experiment 2, children's utterances showed signs of converging toward conceptual pacts. This provides evidence that at least some preschoolers, in an environment with low task demands and support for understanding the structure of the task, can succeed at iterated referential communication. While this task is substantially scaled down relative to measures used for adult competence, and children do not display all the typical trends (i.e no sign of shortening of referential expression), it is a sign that the relevant skills are continuously improving across childhood, rather than only appearing later on. 
+Across 2 experiments and 51 pairs of 4 and 5 year old children, we tested how well children were at producing referential expressions to allow their partner to find a matching abstract shape. Children varied substantially in what sorts of descriptions they produced, but overall accuracy was high (NUMBER), indicating that children were generally able to produce adequate descriptions. Additionally, children's utterances showed signs of converging toward conceptual pacts.  While this task is substantially scaled down relative to measures used for adult competence, and children do not display all the typical trends (i.e no sign of shortening of referential expression), it does suggest that the relevant communication skills are present at least in rudimentary form by the end of the preschool years. 
 
-Limitations. The population of children at university nursery schools is non-representative, and the set of materials we used was also not that varied. This set of tangram images may be easier to distinguish and refer to than some sets used with adults, leading to overall shorter utterances. Probably shouldn't say based on this that children can "do reference" at age 4, but it is evidence that under supportive circumstances, a number of children at this age are able to. 
+At least some preschoolers, in an environment with low task demands and support for understanding the structure of the task, can succeed at iterated referential communication. Our task is limited by the non-representative population of children at university nursery schools who participated, and by a limited set of target images. This set of tangram images may be easier to distinguish and refer to than some sets used with adults, leading to overall shorter utterances. We specifically targeted children's abilities to construct of referring expressions that can be jointly understood. Children were provided scaffolding around the larger coordination problems of taking turns nad talking to their partner. 
 
-We also specifically target the construction of referring expressions that can be jointly understood. There are other parts of the coordination where help was provided in children seemed stuck or confused, such as when to make a choice or ask for more information. We think this is reasonable, because our goal is on coordination of referring expressions, not larger coordination on tasks or joint instruction following. 
-
-Broader implications
-
-This work (along with other work on children's referential communicaiton) suggests that there's a more gradual development of children's communicative and linguistic skills. Rather than an abrupt acquisition of a skill, children seem to be refining their abilities across childhood, leading to to the presence of skills early on that become more consistently expressed later. 
-Has implications for how we think about children's language development. There's debate over how that is ordered and whether communication/pragmatics is a final stage, or how all the stages are boostrapped (CITATIONS WANTED). This early ability to use language for communicative purposes is more consistent with the early pragmatics viewpoint. 
-Suggestive of a gradual development where children's capabilities are increasing for a wide amount of childhood, as their working memory capacity and executive function improve and they are able to better track other's states of knowledge and keep track of wider arrays of images. 
+In the broader picture of language acquisition, there's debate over whether children learn the facts of their language first, followed much later, but pragmatic and communicative competency (CITATIONS), or whether sensitivity to communicative intent is an early emerging skill that develops in parallel with linguistic knowledge and may bootstrap language learning (CITATIONS). The findings in the current work are most consistent with a gradual development of children's communicative and linguistic skills, where the skills emerge early and then are refined over time, as children's cogntive capacities increase. At ages 4-5 years old, children are able to use their linguistic skills communicatively, even as their utterances are not fully adult-like in form. 
 
 
 <!--# Acknowledgements
