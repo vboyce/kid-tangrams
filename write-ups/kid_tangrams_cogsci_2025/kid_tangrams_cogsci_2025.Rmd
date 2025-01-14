@@ -1,22 +1,22 @@
 ---
-title: "TODO Preschoolers form conventional pacts with each other to communicate about novel shapes"
+title: "Preschoolers form conventional pacts with each other to communicate about novel shapes"
 bibliography: preschool-tangrams.bib
 csl: apa7.csl
 document-params: "10pt, letterpaper"
 
 author-information: > 
-    \author{{\large \bf Veronica Boyce (vboyce@stanford.edu)} \\ Department of Psychology, \\Stanford University \And {\large \bf Robert Z. Sparks (bsparks@stanford.edu) } Department of Psychology, \\Stanford University
-    \AND {\large \bf Yannick Mofor (TODO email)} \\ TODO affiliation, Stanford University \And {\large \bf Michael C. Frank (mcfrank@stanford.edu)} \\ Department of Psychology, \\ Stanford University}
+    \author{{\large \bf Veronica Boyce (vboyce@stanford.edu)} \\ Department of Psychology, \\Stanford University \And {\large \bf Robert Z. Sparks (bsparks@stanford.edu) }\\ Department of Psychology, \\Stanford University
+    \AND {\large \bf Yannick Mofor (yannickm@stanford.edu)} \\ Department of Computer Science, \\ Stanford University \And {\large \bf Michael C. Frank (mcfrank@stanford.edu)} \\ Department of Psychology, \\ Stanford University}
 
 abstract: >
-   Learning language requires learning not only the content of language, but also skills that allow us to use language to communicate. Iterated reference games provide a window into such skills, requiring rich communication as participants jointly converge on mutually understandable names for initially novel objects. Some classical experiments with young children are interpreted as showing that 4-5-year old children are incapable of succeeding at iterated reference games. Here, we revisit the question of young children's referential communicative abilities using a simpler, child-friendly paradigm. Across 51 pairs of 4-5-year old children, we find that preschool-aged children were successful in an iterated reference game. Children were Y% accurate, and they often used descriptions similar to their partner's. These findings suggest that children’s capacity to construct effective referring expressions in novel contexts emerges earlier than once thought, consistent with a larger picture of the early emerging ability to pragmatically use language in communication. TODO fix wrap up sentence! TODO possibly shorten!
+   Learning language requires learning not only the content of language, but also skills that allow us to use language to communicate. Iterated reference games provide a window into such skills, requiring rich communication as participants jointly converge on mutually understandable names for initially novel objects. Some classical experiments with young children are interpreted as showing that 4-5-year old children are incapable of succeeding at iterated reference games. Here, we revisit the question of young children's referential communicative abilities using a simpler, child-friendly paradigm. Across 51 pairs of 4-5-year old children, we find that preschool-aged children were successful in an iterated reference game. Children were 85% accurate, and they often used descriptions similar to their partner's. These findings suggest that children’s capacity to construct effective referring expressions in novel contexts emerges earlier than once thought, consistent with a larger picture of the early emerging ability to pragmatically use language in communication. 
 
 
 keywords: >
-    development; iterated reference game; TODO keywords
+    development; iterated reference game; pragmatics; preschoolers
     
 output: cogsci2024::cogsci_paper
-final-submission: \cogscifinalcopy
+header-includes: \cogscifinalcopy
 ---
 
 ```{r global_options, include=FALSE}
@@ -258,11 +258,9 @@ knitr::include_graphics("diagram.pdf")
 
 # Experiment 1 Methods
 
-(Note: we should talk about whether it makes more sense to do all the methods and then all the results versus the current expt 1 than expt 2 layout.)
+<!--(Note: we should talk about whether it makes more sense to do all the methods and then all the results versus the current expt 1 than expt 2 layout.) -->
 
-Our goal for experiment 1 was to test young children's ability to coordinate on descriptions to abstract shapes that their partner could understand. Young children can be very sensitive to task demands and cognitive load that can hide early abilities [CITATION WANTED], so we adapted the experimental framework from @leung2024, but further simplified it by reducing the total pool of targets and the number of trials children completed. 
-
-This experiment was pre-registered at https://osf.io/kcv8j. 
+Our goal for experiment 1 was to test young children's ability to coordinate on descriptions to abstract shapes that their partner could understand. Young children can be very sensitive to task demands and cognitive load that can hide early abilities (CITATIONS), so we adapted the experimental framework from @leung2024, but further simplified it by reducing the total pool of targets and the number of trials children completed. This experiment was pre-registered at https://osf.io/kcv8j. 
 
 ## Participants
 4 and 5-year old children were recruited from a university nursery school during the school day. Children played with another child from the same class. Experiment 1 was conducted between June and August 2023. Pairs of children were included in analyses if they completed at least 8 of the 12 critical trials. We had 19 complete games and 1 incomplete, but included the game. Of the 40 children, 21 were girls, and the median age was 57 months, with a range of 48-70 months. 
@@ -296,17 +294,13 @@ Children completed two warm-up trials with black and white images of familiar sh
 
 The experimenters running the game did not volunteer descriptions, but did scaffold the interaction, prompting children to describe the images, and sometimes repeating children's statements. The entire interaction was video-recorded. 
 
-
-
-
-
 ## Data processing
 
 Children's selections and the time to selection were recorded from the experiment software. Children's descriptions were transcribed from the video-recording, using Whisper [@radford2022] for the first pass and then hand-corrected by experimenters. Transcripts were hand-annotated for when each trial started, who said each line, and what referential descriptions were used. 
 
 We excluded trials where the "teller" did not produce a description, or where all description was unintelligible and impossible to transcribe. After exclusions, we had `r clean_2 |> filter(!is.na(repNum)) |> nrow()` trials remaining. 
 
-Statistical analyses were run in TODO CITE brms with weakly informative priors. We present the estimate and 95% credible intervals. 
+Statistical analyses were run in brms [@burkner2018] with weakly informative priors. We present the estimate and 95% credible intervals. 
 
 # Experiment 1 Results
 
@@ -398,7 +392,7 @@ speed_mod_1 <- read_rds(here(mod_results, "speed_1.rds"))
 speed_form <- read_rds(here(mod_form, "speed_1.rds"))
 ```
 
-[less important, could drop] As another measure of children's performance, we looked at how long each trial took to see if children were getting faster over time. We ran a Bayesian mixed effects model of how long each trial took over time: `r speed_form |> form()`. The first critical trial averaged `r stats_text(speed_mod_1, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_1, 2)`). 
+<!--[less important, could drop] --> As another measure of children's performance, we looked at how long each trial took to see if children were getting faster over time. We ran a Bayesian mixed effects model of how long each trial took over time: `r speed_form |> form()`. The first critical trial averaged `r stats_text(speed_mod_1, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_1, 2)`). 
 
 ## Description length
 
@@ -456,7 +450,7 @@ description_form <- read_rds(here(mod_form, "description_1.rds"))
 ```
 
 In iterated reference games in adults, a canonical finding is that the length of descriptions goes from long to short over repeated references to the initially hard to describe shapes [@clark1986; @hawkins2020b; @boyce2024]. We looked at how long the descriptions the children used were to see if the same trend occurred. 
-We ran a Bayesian mixed effects model of how long of a description the "teller" produced: `r description_form |> form()`. The initial length was `r stats_text(description_mod_1, 1)` and description length was relatively stable over time (`r stats_text(description_mod_1, 2)`, shown in Figure \ref{length}). How long of a description is initially warranted depends on how iconic or easily describable the shape is, as well as how large and close the contrast set is. In this case, the low number of options to distinguish and relatively easy to describe shapes may mean long initial descriptions are less necessary. (The adult controls in @leung2024 use shorter initial descriptions than adults in studies with larger arrays of harder to distinguish images.) However, young children may also choose to provide shorter descriptions than adults would, and young children may accept shorter descriptions as adequate whereas adults may ask for more information to increase their confidence level before making a guess. 
+We ran a Bayesian mixed effects model of how long of a description the "teller" produced: `r description_form |> form()`. The initial length was `r stats_text(description_mod_1, 1)` words and description length was relatively stable over time (change of `r stats_text(description_mod_1, 2)` per trial, shown in Figure \ref{length}). How long of a description is initially warranted depends on how iconic or easily describable the shape is, as well as how large and close the contrast set is. In this case, the low number of options to distinguish and relatively easy to describe shapes may have meant long initial descriptions were less necessary. The adult controls in @leung2024 use shorter initial descriptions than adults in studies with larger arrays of harder to distinguish images. However, young children may also choose to provide shorter descriptions than adults would, and young children may accept shorter descriptions as adequate whereas adults may ask for more information to increase their confidence level before making a guess. 
 
 ## Convergence 
 
@@ -557,13 +551,13 @@ sims_1 |>
   theme(legend.position = "bottom")
 ```
 
-While description length is used as a proxy for measuring convention formation, better measurements for convergence look at the actual content of the utterances, which does not always track description length [@boyce2024]. Following @boyce2024, we use Sentence-BERT to embed the descriptions in a semantic vector space, and then use the cosine between embeddings as a measure of semantic similarity between descriptions. We compared the semantic similarities between descriptions of the same target based on who produced the description. Our question was whether the two children within the same game produced descriptions that are more similar to each other than two children in different games. 
+While description length is used as a proxy for measuring convention formation, better measurements for convergence look at the actual content of the utterances, which does not always track description length [@boyce2024]. Following @boyce2024, we use Sentence-BERT to embed the descriptions in a semantic vector space, and then use the cosine between embeddings as a measure of semantic similarity between descriptions [@reimers2019]. We compared the semantic similarities between descriptions of the same target based on who produced the description. Our question was whether the two children within the same game produced descriptions that are more similar to each other than two children in different games. 
 
 As shown in Figure \ref{sim}, different children in the same game produced more similar descriptions than children in different games, although the descriptions were less similar than descriptions from the same child in different rounds. We modeled this as `r sim_across_between_form |> form()`. Utterances were more similar if they came from the same partnership (`r sim_across_between_1_results |> stats_text(2,3)`) and were slightly more similar still if they came from the same person with the partnership (`r sim_across_between_1_results |> stats_text(3,3)`). The big differences in descriptions between games compared to within games is a measure of partner sensitivity.
 
 # Experiment 1 Discussion
 
-In the first experiment, we adapted the paradigm of @leung2024 for pairs of children, taking an already simple set up and making it shorter. Our goal was to see if young children were at all able to provide descriptions to each other adequate to identify abstract figures. so children received a lot of scaffolding around the experimental interaction. Sometimes, this included experimenters echoing children's descriptions which could potentially influence children's responses. In Experiment 2, we repeated the same paradigm, with tighter experimenter controls and a larger sample size. 
+In the first experiment, we adapted the paradigm of @leung2024 for pairs of children, taking an already simple set up and making it shorter. Our goal was to see if young children were at all able to provide descriptions to each other adequate to identify abstract figures, so children received a lot of scaffolding around the experimental interaction. Sometimes, this included experimenters echoing children's descriptions which could potentially influence children's responses. In Experiment 2, we repeated the same paradigm, with tighter experimenter controls and a larger sample size. 
 
 # Experiment 2 Methods
 
@@ -690,43 +684,39 @@ Some children asked clarifying questions of their partner, but knowing how much 
 
 
 ```{=latex}
-
 \begin{table}
-	\caption{Example descriptions children used for different tangrams. TODO may want to shorter or pair with the tangram images}
-		\label{example}
-	\begin{tabular}[H]{p{22em}}
-		Descriptions \\
+	\caption{Example descriptions children used for different target tangram images.}
+	\label{example}
+	\begin{tabular}[H]{p{16em}p{4em}}
 		\hline
 		%hold
-		"Hold":\\
-		$\bullet$ person\\
-		$\bullet$ a person holding a sandwich\\
-		$\bullet$ a people carrying a box of dirt\\
-		$\bullet$ a monster\\
-		$\bullet$ someone holding a plate and giving it to a restaurant and has watermelon\\
+		$\bullet$ person & 		\multirow{6}{*}{\includegraphics[width=.5in]{I1.jpg}}\\
+		
+		$\bullet$ a person holding a sandwich &\\
+		$\bullet$ a people carrying a box of dirt &\\
+		$\bullet$ a monster &\\
+		$\bullet$ someone holding a plate and giving it to a restaurant and has watermelon &\\
 		\hline
-	"Jump":\\
-		$\bullet$ vampire\\
-		$\bullet$ hopping\\
-		$\bullet$ a person flying\\
-		$\bullet$ somebody skydiving, not in the airplane\\
-		$\bullet$ a person\\
-		$\bullet$ a kite\\
-		$\bullet$ a triangle with a head on it with feet\\
+		$\bullet$ vampire & \multirow{7}{*}{\includegraphics[width=.5in]{E1.jpg}}\\
+		$\bullet$ hopping & \\
+		$\bullet$ a person flying &\\
+		$\bullet$ a person &\\
+		$\bullet$ a kite &\\
+		$\bullet$ a triangle with a head on it with feet &\\
+				\multicolumn{2}{l}{$\bullet$  somebody skydiving, not in the airplane}\\
 		\hline
-		"Swim":\\
-		$\bullet$ racecar\\
-		$\bullet$ airplane\\
-		$\bullet$ alligator\\
-		$\bullet$ a person fell down\\
-		$\bullet$ a boat\\
-		$\bullet$ a person that's in a race car that has one triangle and two triangles\\
+		$\bullet$ racecar & \multirow{7}{*}{\includegraphics[width=.5in]{D1.jpg}}\\
+		$\bullet$ airplane &\\
+		$\bullet$ alligator &\\
+		$\bullet$ a person fell down &\\
+		$\bullet$ a boat &\\
+		$\bullet$ a person that's in a race car that has one triangle and two triangles &\\
 		\hline
-		"Walk":\\
-		$\bullet$ person\\
-		$\bullet$ a person walking\\
-		$\bullet$ a person looking down\\
-		$\bullet$ a people, but it doesn't have any arms\\
+		
+		$\bullet$ person & \multirow{4}{*}{\includegraphics[width=.5in]{B1.jpg}}\\
+		$\bullet$ a person walking &\\
+		$\bullet$ a person looking down &\\
+		$\bullet$ a people, but it doesn't have any arms& \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -878,11 +868,11 @@ Another way to look for convergence is to look at the semantic distance between 
 
 As each partnership converges to their shared nicknames, partnerships often diverge from one another as groups focus on distinct aspects of the image. We tested whether descriptions in different games to the same target diverged over time: `r sim_across_form |> form()`. As the games progress, descriptions from different games became slightly further apart in semantic space (`r sim_across_2_results |> stats_text(2,3)`). 
 
-# Post hoc results
+# Additional results
 
-## Meta-analytic placeholder 
+## Combining across experiments 
 
-Might want to split out and incorporate in along with expt 2 analyses?
+<!-- Might want to split out and incorporate in along with expt 2 analyses? --> 
 
 ```{r, eval=F}
 
@@ -904,6 +894,8 @@ acc_mod_data_meta <-  clean_1 |>
     trial.num = trial - 4
   ) |>
   filter(type != "practice"))
+
+# acc_mod_data_meta |> summarize(m=mean(correct.num))
 
 acc_mod_both <- brm(correct.num ~ trial.num + (trial.num | gameId) + (1 | target),
   family = bernoulli(link = "logit"),
@@ -1018,9 +1010,9 @@ Since the two experiments had different length games, we do not want to pool the
 
  The distance between adjacent block utterances is relatively constant: `r sim_to_next_mod_meta |> stats_text(2,3)`. 
 
-Query -- I did not include experiment # as a random effect here, and maybe should have? I can rerun if we decide we want this analysis and think expt # as a random effect with game nested within it would be useful. 
+<!-- Query -- I did not include experiment # as a random effect here, and maybe should have? I can rerun if we decide we want this analysis and think expt # as a random effect with game nested within it would be useful. -->
 
-## Accuracy is predictive of similarity to next 
+## Relation between accuracy and convergence 
 
 
 ```{r}
@@ -1099,7 +1091,7 @@ As a post-hoc measure, we look at whether descriptions that elicit correct selec
 
 # General Discussion
 
-Across 2 experiments and 51 pairs of 4 and 5-year old children, we tested how well children were at producing referential expressions to allow their partner to find a matching abstract shape. Children varied substantially in what sorts of descriptions they produced, but overall accuracy was high (NUMBER), indicating that children were generally able to produce adequate descriptions. Additionally, children's utterances showed signs of converging toward conceptual pacts.  While this task is substantially scaled down relative to measures used for adult competence, and children do not display all the typical trends (i.e no sign of shortening of referential expression), it does suggest that the relevant communication skills are present at least in rudimentary form by the end of the preschool years. 
+Across 2 experiments and 51 pairs of 4 and 5-year old children, we tested how well children were at producing referential expressions to allow their partner to find a matching abstract shape. Children varied substantially in what sorts of descriptions they produced, but overall accuracy was high (85%), indicating that children were generally able to produce adequate descriptions. Additionally, children's utterances showed signs of converging toward conceptual pacts.  While this task is substantially scaled down relative to measures used for adult competence, and children do not display all the typical trends (i.e no sign of shortening of referential expression), it does suggest that the relevant communication skills are present at least in rudimentary form by the end of the preschool years. 
 
 At least some preschoolers, in an environment with low task demands and support for understanding the structure of the task, can succeed at iterated referential communication. Our task is limited by the non-representative population of children at university nursery schools who participated, and by a limited set of target images. This set of tangram images may be easier to distinguish and refer to than some sets used with adults, leading to overall shorter utterances. We specifically targeted children's abilities to construct referring expressions that can be jointly understood. Children were provided scaffolding around the larger coordination problems of taking turns and talking to their partner. 
 
