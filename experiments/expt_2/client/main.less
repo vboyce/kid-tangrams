@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700");
+
+.instructions {
+  align-items: center;
+  text-align: center;
+
+  button {
+    margin: 200px;
+    min-width: 60px;
+    min-height: 30px;
+    scale: 400%;
+    text-align: center;    
+  }
+}
+.grid {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 2rem;
+
+    .game {
+      height: 100%;
+    }
+  }
+}
+
+.transition {
+    width: 50%;
+    margin: 0 auto;
+
+    h3 {
+        font-weight: 100;
+    }
+}
+
+.round {
+  display: flex;
+  height: 100%;
+  align-items: stretch;
+}
+
+.task {
+  width: 100%;
+
+
+  //TODO: need to resize tangrams
+  .board {
+
+    .roleIndicator {
+      position: relative;
+      background-color: white;
+      height: 300px;
+      width: 100%;
+      min-height: 300px;
+      align-items:center;
+      text-align: center;
+    
+        img {
+        max-width: 20vw;
+        max-height: 300px;
+        display: inline-block;
+        padding: 20px;
+
+      }
+    }
+    
+    .all-tangrams {
+      width:100%;
+      align-items: center;
+      position: relative;
+
+      .tangram {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .tangrams {
+        display: grid;
+        flex-wrap: nowrap;
+        width:100%;
+        grid-gap: 100px;
+        justify-content: center;
+        //max-width:100%;
+
+        .tangram {
+            min-width: 500px;
+            min-height: 500px;
+            //padding: 100px;
+            //border: 2px solid black;
+            //outline: #4CAF50 solid 10px;
+            //margin: auto;  
+            //padding: 20px;
+            //text-align: center;
+            cursor: pointer;
+
+        }
+      }
+    }
+}
+
+}
