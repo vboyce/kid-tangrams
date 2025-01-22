@@ -1,0 +1,657 @@
+Set-up instructions:
+The game is running as a website hosted on a lab server 
+The admin interface lets you start and cancel games 
+Then go the website on each ipad (should have a blue boxed arrow waiting screen). Server gets data continuously, so nothing special to do after the game.
+
+Admin side: 
+[url / username / pw] 
+Start a batch with one game of
+Treatment = pilot_01_26, 
+Lobby configuration = “longwait”
+or Can just “duplicate” a previous game with these settings
+Hit “start” to launch the game (only have 1 game running at a time to make sure both ipads join the same game)
+
+Ipad side:
+Ipad password is XXXX
+http://[website]/?playerIdKey=uniqueidentifiergoeshere
+We’ll need to pick a code for each child (numbers work) and keep the code <--> child correspondence somewhere (doc in this folder?) so we can reassociate ages if needed. We’ll also need to coordinate the video recordings and the codes so we can line responses up with what kids say. 
+Use the code where in the URL is says “uniqueidentifiergoeshere”
+Set ipad volumes to 1/3 or ½
+We use Kiosk Pro Lite: 
+Lock into guided mode with triple press home button (unlock same way – password is)
+Screen should just show a blue boxed arrow
+
+Introductory script:
+[assign children to seats at the table]
+
+[turn on camera] Alright, now you are on camera.
+
+Today we're going to play a fun matching game. But before we do that, we’re going to practice touching the iPads by playing a little game of popping bubbles. 
+To start, touch the blue button. Now can you touch all the bubbles to make them pop?
+
+Great job with the bubbles! [Let’s wait for $OTHERKID to finish!] 
+
+Okay, now I’m going to explain the matching game. 
+
+In the game, you’re going to help Smurfy! This is Smurfy, do you want to say hi?
+	 
+On your screens, you’re each going to see two pictures. One of you will have a black box around one of the pictures. [show yellow exemplar]. Smurfy’s job is to guess which picture is in the box, and he needs your help! 
+
+If you see the black box [show yellow exemplar], you are the **teller**, and you will **tell** Smurfy what you see in the black box. 
+
+If you are holding Smurfy, you are the **guesser**, and you will help Smurfy **guess** [show green exemplar]. When you think you know what picture is in the black box, you will touch the picture you think it is [tap image in the green exemplar]. 
+
+If you guess the right picture for Smurfy, you’ll see a smiley face. If you don’t, you’ll see a frowny face. But that’s okay, because we’ll have more chances to help Smurfy. 
+
+We’re going to take turns telling and guessing. So if you see a black box, what do you do? 
+Yes, you’ll tell what you see.
+And if you are holding Smurfy, what will you do? 
+You guess. 
+
+Okay, you’re ready to play! Touch the blue box to get started. 
+Who has the black box?
+[give Smurfy to other kid] So, you’re going to help Smurfy guess. 
+Prompting:
+[in general, minimize prompting] 
+
+[in general, wait for a slow count of 5 since the last utterance or your last prompt before prompting again] 
+if you need to prompt and TELLER hasn’t given a description: 
+(1st time) $KID can you tell $OTHERKID what you see in the black box?
+(2nd time) $OTHERKID, do you want to help $KID out and say what you see?
+(3rd time) $KID, can you tell $OTHERKID what you see in the black box? 
+ It’s okay if you’re not sure, just give it a try.  
+(4th time) $OTHERKID, why don’t you take your best guess?
+
+GUESSER has been given a description, but seems stuck:
+(1st time) $OTHERKID, if you have a guess, you can touch your guess. [pause] If you’re not sure, do you want to ask $KID a question? To tell you more?  
+(2nd time) $KID, can you help out your friend by saying more?  
+(3rd time) $OTHERKID, why don’t you take your best guess.
+
+They get it wrong:
+That’s okay! Let’s pass Smurfy and try the next one. 
+
+They get it right (but haven’t passed Smurfy):
+Let’s pass Smurfy and now it’s $KID’s turn to guess|tell. 
+
+Assorted behavioral things: 
+If kids get up and try to gesture: “Please sit down – in this game, we’re going to use our words to **tell** $OTHERKID what we see.” 
+If kids try to show screen to other kid: “Oh, let’s not turn the iPads. This is a guessing game where we use our words to *tell* what we see.”
+Other behavioral stuff: use your judgment and try to redirect back to the game and the script. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Date tested
+Child’s Name
+Personal ID
+Configuration 
+File Name
+
+
+3/8
+Benjamin Hittle
+id59
+#16
+MVI_0002.MP4
+
+
+3/8
+Simon Hebert
+id60
+#16
+MVI_0002.MP4
+
+
+3/8
+Sonya Mehta
+apple62
+#17
+MVI_0003.MP4
+
+
+3/8
+Alina He
+pear63
+#17
+MVI_0003.MP4
+
+
+3/13
+Annabel Choi
+id63
+#18
+MVI_0004.MP4
+
+
+3/13
+Nora Leloglu
+id64
+#18
+MVI_0004.MP4
+
+
+3/13
+Emma Katz
+id66
+#20
+MVI_0005.MP4
+
+
+3/13
+Elena Melnyk-Fagan
+id67
+#20
+MVI_0005.MP4
+
+
+4/10
+Aila Gulati
+id70
+#24
+MVI_0056.MP4
+1
+4/10
+Haon Hwang
+id71
+#24
+MVI_0056.MP4
+1
+4/10
+William Qin
+id72
+#25
+MVI_0057.MP4
+2
+4/10
+Hasan Ali-Moiz
+id73
+#25
+MVI_0057.MP4
+2
+4/12 
+Niels Backstrom
+Apple123 = id74
+#28
+MVI_0063.MP4
+3
+4/12
+Lev Small
+Pear124 =id75
+#28
+MVI_0063.MP4
+3
+4/12
+Aria Gulati
+Apple127 =id76
+#30
+MVI_0061.MP4
+4
+4/12
+Elliot Re
+Pear128 =id77
+#30
+MVI_0061.MP4
+4
+5/22
+Madison Han
+Id80 = id78
+
+
+#32
+M2U00003.MPG
+5
+5/22
+Tomiris Jussupova
+id81= id79
+#32
+M2U00003.MPG
+5
+5/22
+Gemma Chao
+id84
+#34
+M2U00004.MPG
+6
+5/22
+Zoe Caballero
+id85
+#34
+M2U00004.MPG
+6
+
+
+
+
+
+5/24
+Josephine Lee
+apple111
+#38
+MVI_0065.MP4
+7
+5/24
+Olakemi Sobomehin
+pear222
+#38
+MVI_0065.MP4
+7
+5/24
+Jaden Choi
+apple333
+#41
+MVI_0066.MP4
+8
+5/24
+Noam Druckmann
+pear444
+#41
+MVI_0066.MP4
+8
+5/29
+Lucas Riskin
+id86
+#42
+MVI_0067.MP4
+9
+5/29
+Edison Sheng
+id87
+#42
+MVI_0067.MP4
+9
+5/29
+Theo Kong-auclert
+id88
+#43
+MVI_0068.MP4
+10
+5/29
+Emika Sugio
+id89
+#43
+MVI_0068.MP4
+10
+5/31
+Laleh Ebtekar
+apple255
+#44
+MVI_0069.MP4
+11
+5/31
+Harper Yang
+pear257
+#44
+MVI_0069.MP4
+11
+6/5
+Annabella Kapke
+id96
+#46
+MVI_0071.MP4
+12
+6/5
+Aidan Faustman
+id97
+#46
+MVI_0071.MP4
+12
+6/5
+Caleb Chow
+id98
+#49
+MVI_0072.MP4
+13
+6/5
+Celine Sargin
+id99
+#49
+MVI_0072.MP4
+13
+7/8
+Alina Aalaei
+id102
+#57
+No file
+
+
+7/8
+Sarah Martinez
+id103
+#57
+No file
+
+
+7/8
+Leonardo 
+id104
+#58
+M2U00098.MPG
+
+
+7/8
+Reid Overduin
+id105
+#58
+M2U00098.MPG
+
+
+7/8
+Leonardo
+id106
+#59
+M2U00098.MPG
+
+
+
+
+
+7/8
+Reid Overduin
+id107
+#59
+M2U00098.MPG
+
+
+7/9
+Julliette Milo-Mohajer
+id108
+#60
+MVI_0076.MP4
+14
+7/9
+Eslan Yan
+id109
+#60
+MVI_0076.MP4
+14
+7/9
+Michael Grayson Robles
+id110
+#61
+MVI_0077.MP4
+15
+7/9
+Kian Fraces
+id111
+#61
+MVI_0077.MP4
+15
+7/11
+Aurelia Kiang
+id112
+#62
+MVI_0078.MP4
+16
+7/11
+Jia Snow Rey Bao
+id113
+#62
+MVI_0078.MP4
+16
+7/15
+Yifeng Han
+id116
+#64
+M2U00110.MP4
+17
+7/15
+Nathan Hu
+id117
+#64
+M2U00110.MP4
+17
+7/16
+Peter McCaulley
+id118
+#66
+MVI_0086.MP4
+18
+7/16
+Josiah Klein
+id119
+#66
+MVI_0086.MP4
+18
+7/16
+
+
+id120
+#66
+
+
+
+
+7/16
+Bodhi Jones
+id121
+#67
+MVI_0087.MP4
+19
+7/16
+Sebastian Johnson
+id122
+#67
+MVI_0087.MP4
+19
+7/18
+Asher Mandal
+id123
+#68
+MVI_0088.MP4
+20
+7/18
+Coraline Garigulo
+id124
+#68
+MVI_0088.MP4
+20
+7/30
+Ajuni Sidhu
+id125
+#69
+MVI_0089.MP4
+21
+7/30
+Rian Gupta
+id126
+#69
+MVI_0089.MP4
+21
+7/30
+River Nordholm
+id127
+#70
+MVI_0090.MP4
+
+
+7/30
+Jack He
+id128
+#70
+MVI_0090.MP4
+
+
+7/30
+Vivian Wilsey
+id129
+#71
+MVI_0091.MP4
+22
+7/30
+Maya Murch
+id130
+#71
+MVI_0091.MP4
+22
+8/1
+Logan Kang
+id131
+#72
+MVI_0093.MP4
+23
+8/1
+Lucas Coquillard
+id132
+#72
+MVI_0093.MP4
+23
+8/1
+Deven Veeravagu
+id133
+#73
+MVI_0094.MP4
+24
+8/1
+Wellesley Alden
+id134
+#73
+MVI_0094.MP4
+24
+8/1
+Madison Hirsch
+id135
+#74
+M2U00111.MPG
+25
+8/1
+Emilie Seigel
+id136
+#74
+M2U00111.MPG
+25
+8/1
+Nora Leloglu
+id137
+#75
+No Video
+
+
+8/1
+Kit Lai
+id138
+#75
+No Video
+
+
+8/1
+Chloe Lee-Yunus
+id139
+#76
+M2U00112.MPG
+26
+8/1
+Marvel Pham
+id140
+#76
+M2U00112.MPG
+26
+8/2
+Adeline Doan
+id141
+#77
+M2U00168.MPG
+27
+8/2
+James Hong
+id142
+#77
+M2U00168.MPG
+27
+8/6
+Grady Clare
+id143
+#78
+MVI_0096.MP4
+28
+8/6
+Kian Jame
+id144
+#78
+MVI_0096.MP4
+28
+8/6
+Filan Ramirez
+id145
+#79
+MVI_0097.MP4
+29
+8/6
+Elias (Yuma) Tan
+id146
+#79
+MVI_0097.MP4
+29
+8/8
+Zara MacDonald
+id147
+#80
+MVI_0098.MP4
+30
+8/8
+Serena Salek
+id148
+#80
+MVI_0098.MP4
+30
+8/8
+Neil Hashin
+id149
+#81
+MVI_0099.MP4
+31
+8/8
+Liam Mokrian
+id150
+#81
+MVI_0099.MP4 
+31
+
+
+
+Processing pipeline: 
+Goal: get transcripts like https://github.com/vboyce/kid-tangrams/tree/main/data/clean_transcripts with
+Who said what when
+Children’s names replaced by their id number (in who said what and if the names were spoken)
+Which trial utterances correspond to
+Column with referential language 
+Tagged for if there is experimenter echoing (so we can exclude trial) or other disruption (kids out of chairs)
+
+Steps:
+Use whisper (https://github.com/m-bain/whisperX) to do a first pass transcription… actually might have just been whisper and not whisperx, possible done with ```whisper --output_format tsv --output_dir raw_transcripts --model small --language English  raw_recording/*.MP4```
+Manually fix:
+Whisper is sometimes bad at child speech; because of how the language modelling works, it sometimes helps to clip the beginning of the video and try whisper again
+Label who said what (using id numbers for the children)
+Censor kids names in the utterances
+Labelling: 
+Mark what trial number utterances go with (if we know when the bell that starts the game happening, we can get approximate timing from the server, but it wasn’t always well-aligned)
+Mark if there’s a disruption (children out of seats) or if the experimenter using referential language / hints to the children 
+Separate the referential parts of speech out
+
+Once we have transcripts, then we can combine them with the selection data and start analyses! 
+
+
