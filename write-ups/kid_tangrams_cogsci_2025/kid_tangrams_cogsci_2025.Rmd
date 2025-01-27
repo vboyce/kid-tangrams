@@ -111,7 +111,7 @@ The experimenters running the game did not volunteer descriptions, but they did 
 Children's selections and the time to selection were recorded from the experiment software. Children's descriptions were transcribed from the video using Whisper [@radford2022] for the first pass and then hand-corrected by experimenters. Transcripts were hand-annotated for when each trial started, who said each line, and what referential descriptions were used. 
 We excluded trials where the "teller" did not produce a description, or where all description was unintelligible and impossible to transcribe. After exclusions, we had `r clean_2 |> filter(!is.na(repNum)) |> nrow()` trials remaining. 
 
-Statistical analyses were run in brms [@burkner2018] with weakly informative priors. We present the estimate and 95% credible intervals. The experimental set-up, analysis code, de-identified transcripts, and performance data for both experiments is available at VERONICA SHOULD MAKE AN OSF LINK.
+Statistical analyses were run in brms [@burkner2018] with weakly informative priors. We present the estimate and 95% credible intervals. The experimental set-up, analysis code, de-identified transcripts, and performance data for both experiments is available at \url{https://osf.io/7d3ne/?view_only=d094ccd6438741bfbcaa7fde9fbb56b2}.
 
 
 ## Results
