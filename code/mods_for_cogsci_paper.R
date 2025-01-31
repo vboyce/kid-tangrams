@@ -77,7 +77,7 @@ description_mod_data_1 <- clean_1 |>
 description_mod_1 <- brm(words ~ trial.num + (trial.num | game) + (1 | target),
                          data = description_mod_data_1,
                          file = here(mod_loc, "description_1.rds"),
-                         prior = speed_priors,
+                         prior = description_priors,
                          control = list(adapt_delta = .95)
 )
 
@@ -169,7 +169,7 @@ description_mod_data_2 <- clean_2 |>
 description_mod_2 <- brm(words ~ trial.num + (trial.num | gameId) + (1 | target),
                          data = description_mod_data_2,
                          file = here(mod_loc, "description_2.rds"),
-                         prior = speed_priors,
+                         prior = description_priors,
                          control = list(adapt_delta = .95)
 )
 
@@ -297,7 +297,7 @@ description_mod_data_meta <- clean_1 |>
 description_mod_meta <- brm(words ~ trial.num + (trial.num | gameId) + (1 | target) + (1|expt),
                             data = description_mod_data_meta,
                             file = here(mod_loc, "description_meta.rds"),
-                            prior = speed_priors,
+                            prior = description_priors,
                             control = list(adapt_delta = .95)
 )
 
