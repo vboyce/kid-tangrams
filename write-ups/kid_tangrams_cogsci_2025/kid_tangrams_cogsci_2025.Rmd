@@ -7,8 +7,7 @@ csl: apa7.csl
 document-params: "10pt, letterpaper"
 
 author-information: > 
-    \author{{\large \bf Veronica Boyce (vboyce@stanford.edu)} \\ Department of Psychology, \\Stanford University \And {\large \bf Robert Z. Sparks (bsparks@stanford.edu) }\\ Department of Psychology, \\Stanford University
-    \AND {\large \bf Yannick Mofor (yannickm@stanford.edu)} \\ Department of Computer Science, \\ Stanford University \And {\large \bf Michael C. Frank (mcfrank@stanford.edu)} \\ Department of Psychology, \\ Stanford University}
+    \author{Anonymized}
 
 abstract: > 
   Learning language requires learning not only the content of language, but also how to use language to communicate. Iterated reference games provide a window into such skills, requiring rich communication as participants converge on mutually understandable names for initially novel referents. Some early experiments are interpreted as evidence that 4-5-year-old children cannot converge to the mutually understandable names needed to communicate in an iterated reference game. Here, we revisit young children's referential communicative abilities using a simpler, child-friendly paradigm. Across 51 pairs of children, we found that 4-5-year-olds successfully established reference with each other. Children were 85% accurate, and they often used descriptions similar to their partner's. These findings suggest that children’s capacity to construct effective referring expressions in novel contexts emerges earlier than once thought, consistent with the view that children show early pragmatic competence in supportive contexts.
@@ -94,7 +93,7 @@ Given the task demands in @glucksberg1966 and work showing that children can suc
 
 ## Methods
 
-Our goal for Experiment 1 was to test young children's ability to coordinate on descriptions of abstract shapes that their partner could understand. Young children can be very sensitive to task demands and cognitive load [@turan-kucuk2024; @keen2003; @carruthers2013], so we adapted the experimental framework from @leung2024, and further simplified it by reducing the total pool of targets and the number of trials. This experiment was pre-registered at https://osf.io/kcv8j. 
+Our goal for Experiment 1 was to test young children's ability to coordinate on descriptions of abstract shapes that their partner could understand. Young children can be very sensitive to task demands and cognitive load [@turan-kucuk2024; @keen2003; @carruthers2013], so we adapted the experimental framework from @leung2024, and further simplified it by reducing the total pool of targets and the number of trials. This experiment was pre-registered at https://osf.io/kcv8j?view_only=fd55733671194962b868a4ba19377631. 
 
 ### Participants
 
@@ -296,7 +295,7 @@ In Experiment 1, we adapted the paradigm of @leung2024 for pairs of children, ta
 
 ## Methods
 
-As Experiment 2 was very similar to Experiment 1, we focus on the changes made compared to Experiment 1. Experiment 2 was pre-registered at https://osf.io/y2dax. 
+As Experiment 2 was very similar to Experiment 1, we focus on the changes made compared to Experiment 1. Experiment 2 was pre-registered at https://osf.io/y2dax/?view_only=fd55733671194962b868a4ba19377631. 
 
 The biggest change between the experiments was increasing the number of repetitions of target stimuli from 3 to 4 (from 12 to 16 trials). The greater number of trials in Experiment 2 made it possible to look for changes over time that could be indicative of convergence to shared descriptions within a game and divergence between games. 
 
