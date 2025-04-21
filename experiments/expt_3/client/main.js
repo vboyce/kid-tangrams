@@ -23,7 +23,7 @@ Empirica.header(() => null);
 // At this point they have been assigned a treatment. You can return
 // different instruction steps depending on the assigned treatment.
 Empirica.introSteps((game, treatment) => {
-  return [Overview, Bubbles, Smileys, Pause, Overview];
+  return [Overview];
   //return[];
 });
 
