@@ -1,0 +1,76 @@
+---
+title: "demog"
+format: html
+---
+
+```{r}
+library(tidyverse)
+library(here)
+raw_demog <- read_csv(here("demographics.csv"))
+```
+
+```{r}
+expt_1 <- read_csv(here("data/expt_1/clean_data.csv")) |>
+  select(game, speaker, listener) |>
+  pivot_longer(c("speaker", "listener"), values_to = "id") |>
+  select(-name) |>
+  unique() |>
+  mutate(expt = 1) |>
+  mutate(sid = id)
+
+
+id_sub <- tribble(
+  ~id, ~sid,
+  "apple123", "id74",
+  "pear124", "id75",
+  "apple127", "id76",
+  "pear128", "id77",
+  "80", "id78",
+  "81", "id79",
+  "apple111", "id90",
+  "pear222", "id91",
+  "apple333", "id92",
+  "pear444", "id93",
+  "apple255", "id94",
+  "pear257", "id95"
+)
+
+expt_2 <- read_csv(here("data/expt_2/clean_data.csv")) |>
+  select(game = gameId, speaker, listener) |>
+  pivot_longer(c("speaker", "listener"), values_to = "id") |>
+  select(-name) |>
+  unique() |>
+  mutate(expt = 2) |>
+  left_join(id_sub) |>
+  mutate(sid = case_when(
+    !is.na(sid) ~ sid,
+    str_detect(id, "id") ~ id,
+    T ~ str_c("id", id)
+  ))
+
+
+
+
+
+
+kids <- expt_1 |> bind_rows(expt_2) # included kids!
+```
+
+```{r}
+demogs <- raw_demog |>
+  mutate(
+    date_test = mdy(date_test),
+    date_birth = mdy(date_birth)
+  ) |>
+  select(sid, included, date_test, date_birth, hispanic, ethnicity, gender) |>
+  full_join(kids) |>
+  filter(!is.na(included)) |>
+  mutate(
+    age_days = (date_test - date_birth) |> as.numeric(),
+    age_month = floor(age_days / 30.43)
+  ) |>
+  select(-age_days) |>
+  select(expt, id, game, sid, gender, age_month, ethnicity, hispanic) |>
+  write_csv(here("data/clean_demog_1_2.csv"))
+```
+
