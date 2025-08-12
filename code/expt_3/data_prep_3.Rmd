@@ -1,0 +1,214 @@
+---
+title: "Wrangle transcripts"
+output: html_notebook
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(jsonlite)
+library(ggplot2)
+
+ParseJSONColumn <- function(x) {
+  str_c("[ ", str_c(x, collapse = ",", sep = " "), " ]") %>%
+    fromJSON(flatten = T)
+}
+
+
+data_source <- "data/expt_3/rounds.csv"
+
+player_source <- "data/expt_3/players.csv"
+
+real_ids <- c(str_c("", c(
+  159:162, 167:170,
+  173:174, 181:184,
+  187:188, 191:196,
+  199:200, 203:204,
+  207:208, 227:234,
+  237:240, 243:252
+)))
+# kids ids to include
+```
+
+# Empirica output prep
+
+```{r}
+players <- read_csv(here(player_source)) |>
+  filter(id %in% real_ids) %>%
+  select(id, playerId = `_id`)
+
+# expect 50 kids (25 games)
+```
+
+```{r}
+raw_data <- read.csv(here(data_source), header = TRUE) %>%
+  rename_with(~ gsub("data.", "", .x, fixed = TRUE)) %>%
+  # select(-chat) |>
+  pivot_longer(
+    cols = starts_with("player"), names_to = c("playerId", "info"), names_prefix = "player_", names_sep = "_",
+    values_to = "values", values_transform = as.character, values_drop_na = T
+  ) %>%
+  filter(values != "") %>%
+  filter(playerId != speaker) %>%
+  pivot_wider(names_from = info, values_from = values) |>
+  left_join(players, by = c("playerId")) |>
+  select(-playerId) |>
+  rename(playerId = id) |>
+  filter(!is.na(playerId)) |>
+  left_join(players, by = c("speaker" = "playerId")) |>
+  select(-speaker) |>
+  rename(speaker = id)
+
+
+raw_data |>
+  filter(!is.na(repNum)) |>
+  filter(submitted == "true") |>
+  group_by(gameId) |>
+  tally()
+
+
+label_image <- function(string) {
+  new_string <- case_when(
+    string == "/experiment/tangram_E.png" ~ "bunny",
+    string == "/experiment/tangram_G.png" ~ "dancer",
+    string == "/experiment/tangram_H.png" ~ "baby",
+    string == "/experiment/tangram_A.png" ~ "zombie",
+    string == "/experiment/banana.png" ~ "banana",
+    string == "/experiment/bird.jpeg" ~ "bird",
+    string == "/experiment/dog.png" ~ "dog",
+    string == "/experiment/apple.png" ~ "apple",
+    string == "/experiment/star.png" ~ "star",
+    string == "/experiment/crown.png" ~ "crown",
+    string == "/experiment/lemon.png" ~ "lemon",
+    string == "/experiment/pinwheel.png" ~ "pinwheel"
+  )
+  return(new_string)
+}
+
+
+less_raw_data <- raw_data %>%
+  select(target, distractor, trialNum, targetNum, repNum, response, correct, time, listener = playerId, speaker, gameId) %>%
+  mutate(across(c(target, distractor, response), ~ label_image(.x))) %>%
+  write_csv(here("data/expt_2/clean_data.csv"))
+```
+
+below here copied from expt 2 and not updated!
+
+# Transcript wrangle - new
+
+```{r}
+library(readxl)
+
+wrangle_transcript <- function(game_num) {
+  read_xlsx(here("data/expt_2/raw_transcripts", str_c(game_num, ".xlsx"))) |>
+    select(start, end, text, speaker, trial, role, echo, description) |>
+    fill(trial) %>%
+    mutate(start = start / 1000, end = end / 1000) |>
+    mutate(trial = as.character(trial)) |>
+    nest(data = c(start, end, text, speaker, trial, role, echo, description))
+}
+
+transcripts <- read_csv(here("data/expt_2/link_transcripts.csv")) |>
+  select(gameId, gameConfig) |>
+  mutate(transcript = map_df(gameConfig, wrangle_transcript)) |>
+  unnest(transcript) |>
+  unnest(data)
+
+
+write_csv(transcripts, here("data/expt_2/transcripts.csv"))
+```
+
+
+# Checks
+
+how much echoing is there?
+
+```{r}
+transcripts |> filter(!is.na(echo))
+
+# not much, yay!
+```
+
+
+# Sbert data prep
+
+```{r}
+transcript <- read_csv(here("data/expt_2/transcripts.csv"))
+
+dat <- read_csv(here("data/expt_2/clean_data.csv")) %>% select(trial = trialNum, gameId, target, distractor)
+transcript %>%
+  filter(!is.na(description)) %>%
+  group_by(trial, gameId) %>%
+  mutate(trial = as.numeric(trial)) |>
+  filter(trial > 3) |>
+  summarize(words = str_c(description, sep = " ", collapse = ", ")) %>%
+  left_join(dat) %>%
+  write_csv(here("data/expt_2/pre_sbert.csv"))
+```
+
+```{r}
+library(reticulate)
+np <- import("numpy")
+mat <- np$load(here("data/expt_2/post_sbert.npy"))
+saveRDS(mat, here("data/expt_2/post_sbert.RData"))
+```
+
+```{r}
+sbert <- read_csv(here("data/expt_2/pre_sbert.csv")) %>% bind_cols(read_rds(here("data/expt_2/post_sbert.RData")) %>%
+  as_tibble())
+
+### helper funcs
+get_sim_matrix <- function(df, F_mat, method = "cosine") {
+  feats <- F_mat[df$feature_ind, ]
+  if (method == "cor") {
+    return(cor(t(feats), method = "pearson"))
+  } else if (method == "euclidean") {
+    return(as.matrix(dist(feats, method = "euclidean")))
+  } else if (method == "cosine") {
+    return(as.matrix(lsa::cosine(t(feats))))
+  } else {
+    stop(paste0("unknown method", method))
+  }
+}
+
+# note this does de-duplicated version
+flatten_sim_matrix <- function(cormat, ids) {
+  ut <- upper.tri(cormat)
+  data.frame(
+    dim1 = ids[row(cormat)[ut]],
+    dim2 = ids[col(cormat)[ut]],
+    sim  = as.numeric(cormat[ut])
+  ) %>%
+    mutate(
+      dim1 = as.character(dim1),
+      dim2 = as.character(dim2)
+    )
+}
+
+
+make_across_df <- function(M_mat, F_mat, method) {
+  M_mat %>%
+    do(flatten_sim_matrix(
+      get_sim_matrix(., F_mat, method = method),
+      as.character(.$combinedId)
+    ))
+}
+
+### funcs
+F_mat <- sbert %>%
+  select(starts_with("V")) %>%
+  as.matrix() # Features
+M_mat <- sbert %>%
+  select(-starts_with("V")) %>%
+  mutate(feature_ind = row_number())
+
+similarities <- M_mat %>%
+  mutate(combinedId = str_c(gameId, trial, sep = "_")) %>%
+  make_across_df(F_mat, "cosine") %>%
+  separate(dim1, into = c("game1", "trial1"), convert = T, sep = "_") %>%
+  separate(dim2, into = c("game2", "trial2"), convert = T, sep = "_") %>%
+  mutate(sim = ifelse(is.nan(sim), NA, sim)) %>%
+  write_rds(here("data/expt_2/similarities.rds"))
+```
