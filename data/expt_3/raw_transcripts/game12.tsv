@@ -1,0 +1,449 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	1560	And now you're on camera.	R					
+3000	4360	So, I'm gonna explain.	R					
+4360	5680	What is that?	id162					
+5680	6760	What is that?	id161					
+6760	8680	Okay, I'm gonna explain my game now	R					
+8680	9840	just before we get started.	R					
+9840	10680	Who's that stuff?	id161					
+10680	11520	Animal?	id161					
+11520	14800	Yeah, well, we're gonna play a fun matching game,	R					
+14800	16760	but before we do that,	R					
+16760	21760	we are going to practice touching the iPads	R					
+21800	23560	with a bubble popping game.	R					
+23560	24400	So when you're ready,	R					
+24400	26080	I'm gonna scoot this a little closer.	R					
+26080	28640	When you're ready, you can touch the blue button.	R					
+28640	29680	I'm not ready.	id162					
+29720	30880	You're not ready?	R					
+30880	32320	Okay, we'll be ready in three seconds.	R					
+32320	33160	Ready?	R					
+33160	34120	Three, two, one.	R					
+34120	34960	Touch the blue button.	R					
+34960	35800	I'm not ready yet.	id162					
+37040	37880	Good job.	R					
+37880	39720	Okay, now touch the blue button.	R					
+39720	40880	Well, we have to touch with our finger	R					
+40880	42200	else that won't work.	R					
+42200	43960	I'm not ready yet.	id162					
+43960	44800	Only our finger.	R					
+44800	46520	I'm going with the bubbles.	R					
+46520	48280	Good job, keep going.	R					
+48280	49600	[id161]'s gonna be done.	R					
+49600	52480	Now, touch all of them with your finger, like this.	R					
+52480	53800	There you go.	R					
+53800	55440	Good job.	R					
+55440	57120	No, look at that.	id161					
+57120	58240	Do you see my friend?	R					
+58240	59320	Oh my goodness.	R					
+59320	60160	Perfect.	R					
+60160	61480	Okay, I'm gonna take this	R					
+61480	62480	while I explain the game	R					
+62480	64240	and then I'll give it back to you, okay?	R					
+64240	66680	We're gonna wait for [id162] to finish popping the bubbles.	R					
+66680	68440	With this finger.	R					
+68440	70640	With this finger, you gotta just touch it.	R					
+71760	72760	There you go.	R					
+72760	74560	Oh, you got a couple more.	R					
+75400	76640	I do my pinky.	id162					
+77800	79240	Yeah, with that finger.	R					
+79240	80960	There you go.	R					
+80960	84320	Now you do the blue first and then the pink first.	R					
+84320	85480	Perfect.	R					
+85480	86480	Do you see my friends working?	R					
+86480	87920	Yay, now we're ready.	R					
+87920	89000	I'm gonna explain the game	R					
+89000	90560	and then we're gonna play the game, right?	R					
+90560	92480	I'm gonna go to your friend, go.	id162					
+92480	95360	So, wait, we're not gonna touch that just yet, ready?	R					
+95360	97960	So, in this game, it's a fun little matching game	R					
+97960	99600	and you're gonna help my friend, Smurphy.	R					
+99600	100680	Do you wanna say hi?	R					
+100680	101520	Hi, hi.	id161					
+101520	103040	Hi, hi, hi, hi.	id162					
+103040	106880	So in this game, you are going to see a picture	R					
+106880	108960	on your screen, two pictures.	R					
+108960	112520	One of you will have a black box around your picture.	R					
+112520	115600	If you have the black box, you're gonna be the teller	R					
+115600	117880	and you're gonna tell my friend Smurphy,	R					
+117880	120600	what you see inside the black box.	R					
+120600	122600	If you don't have the black box, just like this,	R					
+122600	123800	there's no black box.	R					
+123800	125520	You're gonna be holding, Murphy,	R					
+125520	126840	and you're gonna be the guesser	R					
+126840	128960	and you're gonna help, Murphy, guess	R					
+128960	130800	what is in the black box.	R					
+131640	132920	It's a banana.	id162					
+132920	135160	Well, yeah, it's gonna be a bunch of different pictures	R					
+135160	137160	and you guys are gonna work together	R					
+137160	139760	to help, Murphy, get the right answers.	R					
+140960	141800	Okay, ready?	R					
+141800	145040	And you're gonna switch being the teller and the guesser.	R					
+145040	147800	And if you get it, and why?	R					
+148000	152280	Cause you guys are gonna both help, Murphy, tell and guess.	R					
+152280	157280	And if you have the black box, what does that mean?	R					
+157880	159560	Do you remember?	R					
+159560	160800	It means you're the teller,	R					
+160800	162160	so you're gonna tell what you see.	R					
+162160	164880	If you don't have the black box, where do you?	R					
+164880	167160	You're the guesser.	R					
+167160	169720	And you're gonna take turns telling and guessing.	R					
+169720	172200	And if you get it right, you'll see a smiley face	R					
+172200	174000	and if you get it wrong, you'll see a frowny face.	R					
+174000	176400	But that's okay, cause you're gonna have many chances	R					
+176400	177520	to help, Murphy.	R					
+177520	178360	Does that sound good?	R					
+178360	179680	How many chances?	id162					
+179680	181320	We're gonna have a lot of games.	R					
+181320	182640	100?	id162					
+182640	184200	Hmm, maybe not 100.	R					
+184200	186440	Ha ha ha, cause you're 100.	id162					
+186440	187800	Are you guys ready to play the game?	R					
+187800	188640	Yeah!	id162					
+188640	189480	Yes?	id161					
+189480	192040	Okay, you're gonna touch the blue button.	R					
+195200	196040	Yay!	R					
+196040	197720	Okay, who has the black box?	R	1				
+197720	198560	Me.	id161		S			
+198560	199400	[id161].	R					
+199400	200800	Now, [id162], you're gonna hold, Murphy.	R					
+200800	203640	And [id161], you're gonna tell what you see in the black box.	R					
+203640	205000	A banana.	id161		S		a banana	
+205000	206600	And [id162], you're gonna touch what you think	R					
+206600	207680	is in the black box.	R					
+208720	210480	With your finger, it's Murphy can't touch it.	R					
+210480	212840	That's why Murphy needs your help.	R					
+212840	213680	Good job!	R					
+213680	214840	And now you're gonna switch.	R	2				
+214840	216720	Now, [id161]'s gonna be the guesser.	R					
+216720	218120	And [id162], you're gonna tell [id161]	R					
+218120	220120	what you see in the black box.	R					
+220120	221680	A dog.	id162		S		a dog	
+221680	224480	And [id161], you're gonna touch the one that you think it is.	R					
+227320	228640	Good job!	R	3				
+228640	230280	We always know what it is.	id162		L			
+230280	232560	Yeah, you guys are gonna take turns.	R					
+232560	234760	Now, [id161], what do you see in the black box?	R					
+235760	237040	A hat.	id161		S		a hat	
+237040	238440	You're gonna tell.	R					
+238440	239480	And you're gonna guess, [id162].	R					
+239480	241920	What does a hat look like?	id162		L			x
+241920	243680	Can you tell [id162] what you see?	R					
+243680	244520	With your words.	R					
+244520	246360	A hat.	id161		S			
+246360	247480	A hat?	id161		S			
+247480	249360	Yeah, touch what you think it is.	R					
+249360	250200	Is this a hat?	id161		L			
+250200	251040	With your finger.	R					
+251040	253440	Arrows, I think I see arrows.	id161		S		arrows	
+254680	257000	What does an arrow look like?	id162		L			x
+257000	258720	It points towards the red,	id161		S		it points towards 	
+258720	260560	what arrow is right here.	id161		S			
+260560	261400	Good job!	R					
+261440	263240	You're gonna touch the one that you think it is.	R					
+263240	264360	I don't know what it is.	id162		L			
+264360	265640	Make your best guess.	R					
+267240	268480	I don't know what it is.	id162		L			
+268480	271280	Okay, [id161], can you tell us again,	R					
+271280	272760	tell [id162] again what you see?	R					
+273680	275440	I don't know what they look like.	id161		S			
+275440	277160	Okay, that's okay, make your best guess.	R					
+277160	279200	And then we can move on to the next one.	R					
+280080	280920	No.	id162		L			
+280920	282200	I don't know what it is.	id162		L			
+282200	283040	You have to touch it.	R					
+283040	286920	I don't know what size, how many sides does it have?	id162		L			
+286920	289240	You can ask [id161] questions.	R					
+289240	291240	[id161], how many sides does it have?	id162		L			x
+								
+297880	299200	Two?	id161		S		two	
+299200	300360	Two?	id161		S			
+300360	302000	Like a little?	id161		S		a little	
+302000	302840	Good job!	R					
+302840	303680	I just pressed it.	id162		L			
+303680	305920	Yeah, you pressed it correctly.	R	4				
+305920	307480	Okay, now you're gonna be the guesser	R					
+307480	308480	and you're gonna tell [id161] what you see.	R					
+308480	311160	I see an upside down crown.	id162		S		an upside down crown	
+312280	313400	Me too.	id161		L			x
+313400	315680	Touch the one that you think it is.	R					
+								
+316520	317360	Good job!	R	5				
+317360	318440	Now you guys know how to play,	R					
+318440	321000	so we're gonna keep playing.	R					
+321440	322760	What are these?	id162		L			
+322760	323600	What are these?	id162		L			
+323600	324720	Oh, you have to listen to [id161].	R					
+324720	326840	[id161], what do you see inside the black box?	R					
+326840	327920	Blocks.	id161		S		blocks	
+327920	329000	Boo!	id162		L			
+329000	330200	You listen to [id161],	R					
+330200	331640	because you need to help my friend Smurphy, remember?	R					
+331640	333240	I see blocks.	id161		S			
+333240	335320	Touch the one that you think it is.	R					
+335320	338080	They both have blocks. 	id162		L			x
+339400	342160	What does that picture look like in the box?	R					
+342160	343000	Blocks.	id161		S			
+344840	346400	I don't know what it looks like.	id162		L			x
+346400	349400	Can you tell, can you tell [id161] what you see?	R					
+350360	352320	I see this and this.	id162		L			
+352320	353560	Use your words.	R					
+353560	356680	I see the shoe and the different shoe.	id162		L		the shoe and the different shoe	x
+356680	357520	Okay.	R					
+358840	360960	[id161], what does this look like?	R					
+360960	362440	Blocks.	id161		S			
+362440	364840	Okay, can you make your best guess?	R					
+366440	368040	Touch the one that you think it is.	R					
+368040	369000	I don't know.	R					
+369000	369840	That's okay.	R					
+370600	373280	I don't want to play it now.	id162		L			
+373280	374720	You don't want to play anymore?	R					
+374720	375640	No, it's too...	id162		L			
+375640	376880	I don't know what to do.	id162		L			
+377080	378280	[id161]'s saying.	id162		L			
+378280	380680	They're both, both of them are blocks.	id162		L			
+380680	383200	Okay, can you tell [id161] what you see?	R					
+384480	385600	And maybe that will help.	R					
+385600	387600	What do you, what two pictures do you see?	R					
+390040	392480	A cruise shoe and a nice shoe.	id162		L		a cruise shoe and a nice shoe	
+392480	395400	Okay, which one do you think it's in the black box?	R					
+397560	398880	What does that look like?	R					
+398880	400240	Blocks.	id161		S			
+400240	403160	Okay, let's just touch one, touch one that you think it is,	R					
+403160	404640	and then we'll move on, okay?	R					
+405640	407600	Just make your best guess.	R					
+408800	412640	I don't know what [id161]'s, he keeps saying blocks.	id162		L			
+412640	415040	I know, that's what [id161] thinks it looks like.	R					
+415040	417640	So which one do you think looks the most like that?	R			x		
+419720	423000	And what size does it have in the box?	id162		L			
+423000	424080	Ask [id161].	R					
+424080	426800	[id161], what size does it, does it blow?	id162		L			x
+428360	429520	Blow?	id161		S			
+429520	432600	Well, what does this look like?	R					
+432600	433520	Blocks.	id161		S			
+433520	434360	Okay.	R					
+435640	438000	I'm tired already, I had to do a lot.	id162		L			
+438000	439920	Okay, I'll hold it for you, but can you,	R					
+439920	441920	can you touch the one that you think it is?	R					
+441920	443320	Which one do you think it is?	R					
+443320	448320	I don't know, I don't, I don't have a thing in my body.	id162		L			
+448680	452200	Okay, let's just touch one then, touch one so we can.	R					
+452200	454120	I don't have a touch anymore.	id162		L			
+454120	455600	You have to touch, if you don't touch them,	R					
+455600	457240	we can't play the game.	R					
+457240	458520	But if you don't want to play the game anymore,	R					
+458520	460040	that's okay, we can go back.	R					
+465640	470000	[id161], what are you, what are you, what are you, what are you?	id162		L			
+470000	471880	[id161]'s waiting for you to touch one.	R					
+471880	475200	I'm asking him, I need someone to touch me.	id162					
+475200	478120	Okay, we can, you can show him after we play the game, okay?	R					
+479120	481520	Let's keep going, let's touch one of them.	R					
+481520	485840	I need someone to touch the, which side does the,	id162		L			
+485840	489080	which side has the box?	id162		L			
+489080	491360	This side, which side?	id161		S			
+491360	492960	Remember, use your words.	R					
+492960	494040	This?	id162		L			
+494040	495360	It's gonna be different for both of them.	R					
+495360	498840	This side, this side.	id161		S			
+498840	500480	Oh, don't, don't show your iPad,	R					
+500480	501920	you gotta keep it on this side.	R					
+501920	503040	That's okay.	R					
+503040	504560	What did he do?	R					
+504560	505440	Now we're gonna switch.	R	6				
+505440	507560	Now you're gonna tell [id161] what you see.	R					
+507560	509880	I see blocks.	id162		S		blocks	
+509880	511400	I see.	id161		L			
+511400	512640	What does it look like though?	R					
+512640	514640	It looks like a, it looks like a person.	id161		S		a person	
+514640	517800	Wait, [id162]'s telling you what she sees in the box.	R					
+517800	522040	It's so, it looks like it, stay still people,	id162		S		a stay still people	
+522040	527040	it stays to, this guy is so small and it, it stays still.	id162		S		this guy is so small and it stays still	
+528480	530760	Which one do you think that is?	R					
+530760	532520	Touch the one that you think it is.	R					
+534160	535440	That's okay.	R	7				
+535440	536280	It's okay.	R					
+536280	537680	Yeah, we're gonna have another one.	R					
+537680	541440	Now, [id161], what do you see in the box?	R					
+541440	543160	Blocks.	id161		S		blocks	
+543160	544560	Which one does that look like?	R					
+546560	547720	It does look like a shoe.	id162		L			
+547720	550560	Can you just, can you say, say something different about it?	R					
+550600	552680	What side does it have?	id162		L			x
+552680	554080	What side does it have?	id162		L			x
+556960	558840	What's blocks?	id162		L			x
+558840	561000	What side does the square have?	id162		L			x
+562920	565800	Can you ask more questions about what, what do you see?	R					
+565800	569640	is this the left side?	id162		L			
+		I see a shoe	id161		S		a shoe	
+569640	571880	Well, it's gonna be different for you and [id162].	R					
+571880	574400	So it's, you wanna describe what's in the box,	R					
+574400	575600	not which side it's on.	R					
+576600	579080	So what else do you see in the box?	R					
+579080	579920	Blocks.	id161		S			
+580880	582600	Why do what blocks mean?	id162		L			
+582600	586640	How about [id162], you tell [id161] the two things that you see.	R					
+586640	587480	What do you see?	R					
+587480	591000	I see a stay still person and a shoe.	id162		L		a stay still person and a shoe	x
+591000	592360	Which one is it, [id161]?	R					
+593720	595240	[id162], say that one more time.	R					
+595240	596080	I see.	id161		S			
+597520	598440	Say it one more time.	R					
+598440	600280	Wait, listen to what [id162] says.	R					
+600280	605280	I have a stay still person and I see a shoe.	id162		L			
+605680	607560	Okay, which one is it?	R					
+607560	609440	Which one is it from what [id162] said?	R					
+611400	613720	This one?	id161		S			
+614800	616160	What, what is this?	R					
+617680	619000	A shoe.	id161		S			
+619000	621160	Okay, touch the one that you think it is.	R					
+621160	622280	Is that a shoe?	id162		L			
+622280	624400	Touch it, if that's what you think it is.	R					
+626000	628160	What did you say, repeat that one more time?	R					
+628160	629000	A shoe.	id161		S			
+630640	631800	You can't show [id162], but you can.	R					
+631800	632640	A shoe.	id161		S			
+632640	633480	Okay, now touch it.	R					
+633480	634400	This is a shoe.	id162		L			x
+634400	636280	Touch the one that you think it is.	R					
+636280	637680	Is this a shoe, no?	id162		L			x
+637680	639560	Which one do you think is a shoe?	R			x		
+639680	640720	 I think that one’s a shoe.	id162		L		a shoe	x
+640720	644280	Touch the one that you think is in the black box.	R					
+644280	646320	Good job, there you go.	R					
+646320	649160	Okay, now it's your turn to guess.	R	8				
+649160	654160	I see a guy that has a leg and I will see a guy that has.	id162		S		a guy that has a leg	
+655840	659200	Wait, [id161], remember when you don't have the black box,	R	9				
+659200	661400	[id162]'s going to tell you what she sees, okay?	R					
+661400	663280	And then you'll tap it after that.	R					
+663280	664920	So now [id162], you're gonna guess again.	R					
+664920	666480	I don't want to taste it.	id162		L			
+666480	668480	Okay, I can hold it for you.	R					
+668520	672840	But [id161], okay, [id161], what do you see in your black box?	R					
+674800	679800	A man that has like a tag on his back	id161		S		a man that has like a tag on his back	
+		is it a shoe	id162		L		a shoe	x
+680000	681920	Touch the one that you think it is.	R					
+								
+682760	683600	Good job.	R	10				
+683600	686320	That's a man, that's not that’s a shoe.	id162		S			
+687160	689560	Now I see a funny shoe.	id162		S		a funny shoe	
+690720	692880	Which one looks like, which one do you think is in the black	R					
+692880	695280	box of what [id162] said?	R					
+695280	696120	Touch it.	R					
+697520	698360	Touch it.	R					
+699480	700320	With your finger?	R					
+700320	701160	Yeah.	R					
+701160	702000	There you go.	R					
+702000	703760	Good job.	R	11				
+703760	705680	Now you guys are getting the hang of it.	R					
+705680	709160	Okay, now [id161], what do you see in the black box?	R					
+710800	712760	Why is it a shoe?	id161		S		a shoe	
+712760	715080	Touch the one that you think is in the black box.	R					
+715080	716480	There you go.	R					
+719800	723040	I see a face to a funny person.	id162	12				
+723040	725640	Remember, [id161], [id162]'s gonna tell you what she sees.	R					
+725640	728360	I have a face to a funny person.	id162		S		a face to a funny person	
+728400	729920	Okay, which one do you think it is?	R					
+729920	730760	Yeah.	R					
+732680	733920	This one?	id161		L			
+733920	736720	If you think it's that one, touch it.	R					
+736720	737560	Perfect.	R	13				
+737560	738960	Good job.	R					
+738960	739800	Out.	R					
+739800	740880	I can hold this for you again.	R					
+740880	742720	Today I got shots and it hurts.	id162		L			
+742720	743560	You got shots?	R					
+743560	744400	Okay.	R					
+744400	747280	Well, now it's [id161]'s turn to tell us what he sees.	R					
+747280	748600	[id161], what do you see?	R					
+748600	750320	I see a cat's shoe.	id161		S		a cat’s shoe	
+750320	753040	I see another shoe.	id161		S		another shoe	
+753040	754600	Good job.	R					
+754600	756640	Can I already know what a shoe looks like, Dan?	id161		S			
+756640	757480	Yeah, you're right.	R	14				
+758160	759000	I see a shoe.	id161		L		a shoe	
+762720	764760	Remember, you're listening to what [id162] says.	R					
+764760	768480	I see a stay still funny person.	id162		S		a stay still funny person	
+768480	770440	Okay, which one is in the black box?	R					
+772200	773720	Which one do you think is in the black box?	R					
+773720	775200	[id162], can you say what you think?	R					
+775200	780200	I found a people that stays still and then it's funny.	id162		S		a people that stays still and then it’s funny	
+780640	782480	Okay, which one do you think that is?	R					
+785960	786800	That's okay.	R	 				
+786800	788200	That one’s a shoe	id162		S			
+788200	789280	Okay, now it's your turn.	R	15				
+789280	791320	Which one is in there?	R					
+791320	792960	This is my watch.	id162					
+792960	793800	Blocks.	id161		S		blocks	
+								
+794640	795600	What does it look like?	R					
+795600	796840	Blocks.	id161		S			
+796840	797680	Okay.	R					
+797680	799000	Blocks.	id161		S		 	
+799000	801720	I don't know what blocks means.	id162		L			x
+801720	803960	Okay, how about you tell [id161] what you see?	R					
+803960	808120	I see a shoe and a stay still person.	id162		L		a shoe and a stay still person	x
+808120	810520	Which one is in the black box?	R					
+810520	814120	My mom knows what the game	id162		L			
+		Blocks.	id161		S		 	
+814120	814960	Okay.	R					
+814960	815800	Blocks.	id161		S		 	
+817640	820120	My mom sent me a message.	id162		L			
+820120	820960	Okay.	R					
+820960	821960	I need to see it first.	id162		L			
+821960	824160	Can you touch the one that you think it is?	R					
+825960	826800	Good job.	R	 				
+826800	828280	It's a shoe.	id162		L		a shoe	x
+828280	830200	Okay, and now [id162], it's your turn.	R	16				
+830200	831520	What do you see in the black box?	R					
+831520	836520	I see a guy with a shoe holding a ball.	id162		S		a guy with a shoe holding a ball	
+836760	839040	Okay, which one do you think it is?	R					
+839040	841000	Say that, wait, say that again.	R					
+841000	844880	I see a shoe in front of the guy.	id162		S		a shoe in front of the guy	
+844880	848000	Listen to what [id162] says.	R					
+848000	849080	And then you can touch.	R					
+849080	851480	Okay, and then touch the one that you think it is.	R					
+852880	853720	Touch?	id161		L			
+853720	855960	Touch, if you think it's that one, touch it.	R					
+855960	857560	Oh.	R					
+857560	858400	That's okay.	R	17				
+859560	860400	I know.	R					
+860400	861240	We're gonna keep trying.	R					
+861240	863200	My mom sent me another message, no fair.	id162		L			
+863200	865400	How many messages I'm getting out of it?	id162		L			
+865400	867240	[id162], now, [id162].	R					
+867240	870280	She didn't let me a polar bear.	id162		L			
+870280	872600	Ooh, okay, now [id161]'s gonna tell you	R					
+872600	874640	what he sees in the black box.	R					
+874640	877760	I see a shoe.	id161		S		a shoe	
+877760	879920	Touch the one that you think it is.	R					
+879920	881600	There you go, good job.	R					
+882880	884760	You guys are doing a good job.	R	18				
+884760	887480	I see a man with a foot in front of these.	id162		S		a man with a foot in front of these	
+891400	893400	I think it was this one.	id161		L			
+893400	894240	Touch it.	R					
+896800	898800	Can you say that again, [id162]?	R					
+898800	899960	Oh.	R	19				
+899960	900800	That's okay.	R					
+900800	903400	That's a shoe, I said a man.	id162	 	L			
+905600	907880	Okay, now [id161], what do you see in the black box?	R					
+907880	909360	What does that look like?	R					
+909360	911480	An arrow.	id161	 	S		an arrow	
+911480	912400	What does that look like?	R					
+912400	913920	This looks like an arrow.	id161	 	S			
+915520	919000	Can you, if you don't know what it is,	R	20				
+919000	921600	you can always ask [id161] to help you.	R					
+921600	923000	I see a shoe.	id162		S		a shoe	
+926040	928000	A blocks	id161		L		a blocks	x
+928000	929440	Touch the one that you think it is.	R					
+929440	930280	I'll shoot it out of the box.	id162		S			
+930280	932880	Remember, touch it.	R					
+932880	933840	Maybe this one.	id161		L			
+934720	938040	You have to think about what [id162]'s saying first.	R					
+939160	940920	Remember, if you don't have the black box,	R					
+940920	943120	then you're gonna be the guesser, okay?	R					
+943120	945680	Well, thank you for playing my game.	R					
+945680	947000	We are all done now.	R					
+947000	948720	Can I share a funny message?	id162		S			
+948720	949560	Sure.	R					
+949560	951160	Oh my goodness.	R					
+951160	952560	It's a four of a again.	id162		S			

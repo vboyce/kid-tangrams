@@ -1,0 +1,539 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	2000	What animal is this?	id169					
+2000	4000	What do you think it is?	R					
+4000	5600	It looks like a dog.	id169					
+5600	7400	Yeah, I think so too.	R					
+7400	11080	OK, so today we're going to play a fun matching game.	R					
+11080	12800	But before we do that, we're going	R					
+12800	15040	to get used to using the iPads.	R					
+15040	17480	So if you guys can start by clicking the blue button,	R					
+17480	18920	saw that?	R					
+18920	19920	Nice.	R					
+19920	21920	And then so first, just click all the bubbles	R					
+21920	23800	to make them pop until you don't see anymore.	R					
+23800	25960	OK.	id170					
+25960	28000	Yep.	R					
+28000	29120	Yeah?	R					
+29120	30680	I'm done with mine.	id169					
+30680	32440	Now I'm done with you.	id170					
+32440	32940	Yep.	R					
+32940	36040	And then there's more bubbles.	R					
+36040	36540	Good job.	R					
+36540	38040	And now we're going to wait for.	R					
+38040	39040	Yep.	R					
+39040	41000	This is what my did.	id170					
+41000	41680	Nice.	R					
+41680	42920	Yeah?	R					
+42920	44120	That's Murphy.	R					
+44120	45040	He's right here.	R					
+45040	46840	All right, so now I'm going to explain the game.	R					
+46840	47880	So this is Murphy.	R					
+47880	49600	And the goal of the game is to help him guess.	R					
+49600	50960	Do you want to say hi to Murphy?	R					
+50960	51720	Hi.	id170					
+51720	53120	Hi, Murphy.	id169					
+53120	53680	Yeah.	R					
+53680	54440	OK.	R					
+54440	57800	So the goal of the game is to help Murphy guess	R					
+57840	59160	between two pictures.	R					
+59160	61880	So on your screens, you're going to see two pictures,	R					
+61880	63800	just like this, or like this one.	R					
+63800	67400	And if you see a black box around one of the pictures,	R					
+67400	68960	then you are going to be the teller.	R					
+68960	72480	And you're going to tell Murphy what you see in the black box.	R					
+72480	74240	So if you saw this one, then you'd	R					
+74240	77200	be saying that you see the banana in the square.	R					
+77200	77700	Yeah.	R					
+77700	78280	It's very visible.	R					
+78280	79320	Not yet.	R					
+79320	81280	I'll tell you when to press it.	R					
+81280	84000	So yeah, if you see the black box, you're the teller.	R					
+84000	87780	And otherwise, the other person is going to be holding Murphy.	R					
+87780	89700	And if you're holding Murphy, then you	R					
+89700	90900	are going to be the guesser.	R					
+90900	93140	And you have to guess what is in the black box,	R					
+93140	95700	based on what the other person tells you.	R					
+95700	99260	So if you're holding Murphy, you're going to be the guesser.	R					
+99260	100500	Yeah.	R					
+100500	102780	And if you get it right when you're guessing,	R					
+102780	103980	then you'll see a smiley face.	R					
+103980	105820	And if you get it wrong, you'll see a frowny face.	R					
+105820	107660	But that's tot[id170] OK, because there's	R					
+107660	110140	going to be a lot of chances to help Murphy.	R					
+110140	114660	So just to remember, if you see the black box,	R					
+114660	115860	what are you going to do?	R					
+118740	119740	Remind.	id169					
+119740	120260	What?	R					
+120260	121700	Remind.	id169					
+121700	121980	Yeah.	R					
+121980	123540	So if you see the black box, then you	R					
+123540	126100	are going to be the one telling the other person what	R					
+126100	127820	you see in the black box.	R					
+127820	129140	So you're going to be the teller.	R					
+129140	130460	Can I hit the blue button?	id170					
+130460	131620	In one second.	R					
+131620	136140	And then if you're holding Murphy, what are you going to do?	R					
+136140	137380	Hey, the teller.	id169					
+137380	138940	You're going to be the guesser.	R					
+138940	141500	So if you're holding Murphy, you're going to be the guesser.	R					
+141500	144100	And if you see the black box on your screen,	R					
+144100	146180	then you are going to be the teller.	R					
+146180	146980	Yeah.	R					
+146980	147700	OK.	R					
+147740	149420	And you guys are ready, then.	R					
+149420	151100	OK, so you guys can click the blue button.	R					
+154900	157020	And so who has the black box?	R	1				
+157020	157660	Not me.	id170		L			
+157660	158220	I do.	id169		S			
+158220	158780	OK.	R					
+158780	160940	So that means that you are going to be the guesser.	R					
+160940	163060	So you get Murphy.	R					
+163060	165620	And this one is the apple.	id169		S		the apple	
+165620	166020	OK.	R					
+166020	168820	So then now you guess by touching your screen,	R					
+168820	171860	which one that you think is the apple.	R			x		
+171860	172660	Yes.	R					
+172660	173340	Nice.	R	2				
+173340	173620	All right.	R					
+173620	174500	And now we're going to switch.	R					
+174500	175900	So now you're going to have the black box,	R					
+175900	177380	and you're going to have Murphy.	R					
+177420	178460	So you're going to be the teller.	R					
+178460	180820	Oh, I have the dog with the box.	id170		S		the dog	
+180820	181100	Yeah.	R					
+181100	183060	So what do you see inside the box?	R					
+183060	186180	A dog.	id170		S		a dog	
+186180	189860	So now you're going to click your screen based on what	R					
+189860	190700	[id170] just said.	R					
+190700	192780	This one?	R					
+192780	195340	Just take your best guess based on what she just said.	R					
+195340	196820	The dog.	id169		L		the dog	x
+196820	198860	Do you want to ask her?	R					
+198860	199780	Ask [id170].	R					
+199780	202740	Do you want to ask [id170] a question about what you see?	R					
+202740	207300	I see a dog and a bird.	id169		S			
+		a bird	id170		L			
+207980	208260	Yeah.	R					
+208260	211340	So which one has the box around it?	R					
+211340	212580	Mine.	id170		L			
+212580	212860	Oh, yeah.	R					
+212860	213980	But what's inside the box?	R					
+213980	217420	Because you're trying to describe what's in the box to [id169].	R					
+217420	219060	Oh, a dog.	id170		L			
+219060	220380	OK.	R					
+220380	222940	It's a dog, isn't it?	id170					
+222940	224540	So then click the answer that you think it is.	R					
+228140	229020	Oh, OK.	R					
+229020	230740	So we'll have more chances to help.	R	3				
+230740	233700	But so you're trying to click on the one that you think that.	R					
+233700	237140	Oh, I don't have the clue on mine then.	id170		L			
+237180	239500	Yeah, so now you're the guesser, you're going to ask Murphy,	R					
+239500	240900	and you're going to be the teller.	R					
+240900	243580	So now describe what's in the box.	R					
+243580	247380	Or tell [id170] what's inside.	R					
+247380	248220	Oh, OK.	R					
+248220	250740	So we've got to wait until, here, can I have Murphy back?	R	4				
+250740	253540	So you've got to wait until the person with the box	R					
+253540	256980	gives a description, and then you click, OK?	R					
+256980	258940	I got the one with the box.	id170		S			
+258940	259580	OK.	R					
+259580	262940	So now you're going to wait for a description from [id170],	R					
+262940	264740	and then you're going to click which one you think it is.	R					
+264740	266140	Can I click this?	id170		S			
+266140	268220	No, no, no, you're the teller right now.	R					
+268220	272220	So you're going to tell [id169] what you think you see in the box.	R					
+272220	274820	OK.	R					
+274820	277820	I don't know what that is.	id170		S			
+277820	279100	Just give me your best shot.	R					
+289180	291340	Just, oh, you can't look at it.	R					
+291340	292780	You're going to use our words in this game	R					
+292780	295940	to try to describe what's on the screen.	R					
+296940	299500	Does it look like anything?	R					
+299500	300540	Anything that you know of?	R					
+300540	303980	Or can you describe it with any, like, shapes?	R			x		
+303980	306620	Or did it look like anything else?	R					
+311460	313660	Well, you've got to help Murphy and help [id169] guess,	R					
+313660	315540	because otherwise they won't know anything.	R					
+315540	317580	I don't know what it is.	id170		S			
+317580	319700	Yeah, but you just have to describe it.	R					
+319700	321060	You don't have to know what it is.	R					
+321060	323540	It can just be any description about it.	R					
+326940	328940	A window?	id170		S		a window	
+328940	330940	It looks like a window.	R			x		
+330940	331940	Yeah.	R					
+331940	333940	OK.	R					
+333940	335940	If you think you know what it is, then you can try taking a guess.	R					
+335940	339940	Or you can ask [id170] more questions about it.	R					
+339940	342940	Don't try asking [id170] some questions about which one it is.	R					
+342940	345940	Which one it is?	id169		L			
+345940	346940	What does it look like?	id169		L			
+		I don’t know	id170		S			
+352940	354940	You keep saying I don't know.	id169		L			
+355940	357940	I don't know.	id170		S			
+365940	368940	How did you make Murphy?	id169		L			
+368940	370940	How did you make Murphy?	id169		L			
+370940	371940	It's Murphy.	R					
+371940	372940	I didn't make him.	R					
+372940	377940	But, OK, so do you want to just take your best guess at which one it is?	R					
+381940	382940	OK.	id169		L			
+382940	383940	This one?	id169		L			
+383940	384940	I don't know.	id170		S			
+384940	386940	Well, you can also ask questions.	R					
+387940	389940	Which one it is?	id169		L			
+389940	391940	I don't know.	id170		S			
+391940	393940	Just take it.	R					
+397940	399940	I don't know what it is.	id170		S			
+401940	402940	You want to click your answer.	R					
+402940	404940	You can just take your best guess.	R					
+405940	406940	OK.	R					
+406940	407940	We're going to switch back now.	R	5				
+407940	410940	So now you're going to be the guesser and you're going to be the teller.	R					
+413940	415940	So can you describe what's in the...	R					
+415940	418940	Or can you explain to [id170] what's in the black box?	R					
+419940	421940	It looks like...	id169		S			
+423940	426940	What do you mean if they say it?	id170		L			
+426940	429940	It looks like a man with some squares.	id169		S		a man with some squares	
+429940	432940	A square in his teeth.	id169		S		a square in his teeth	
+432940	433940	OK.	R					
+433940	434940	Did you hear that?	R					
+434940	435940	Yeah.	R					
+435940	436940	OK.	R					
+436940	439940	So based on that, then, which one do you think it is?	R					
+439940	442940	You can also ask [id169] a question if you want to...	R					
+442940	444940	Who had the dog...	id170		L		the dog	x
+444940	445940	Who had...	id170		L			
+445940	448940	Who had the triangle?	id170		L		who had the triangle	x
+450940	451940	OK.	R					
+451940	453940	Then do you want to take your best guess?	R					
+453940	454940	OK.	R					
+454940	456940	Then just click the screen when you think you know which one it is.	R					
+458940	459940	Oh.	R	6				
+459940	460940	That's OK.	R					
+460940	461940	And now we're going to switch back.	R					
+461940	462940	And now you're going to be the teller.	R					
+462940	464940	Was that me or her?	id169		L			
+464940	466940	Well, now it's your turn to guess.	R					
+466940	469940	Was that me or her at all?	id169		L			
+469940	474940	That was her iPad, because the guesser is the one who gets it right or wrong.	R					
+474940	477940	But that's OK, because there's a lot of chances to help some of you.	R					
+477940	482940	So do you want to tell [id169] what you see in the box?	R					
+482940	483940	No?	R					
+488940	491940	[id169], do you want to ask questions about what's in the box?	R					
+491940	493940	I don't have anything in the box.	id169		L			
+493940	496940	Oh, well, do you want to ask [id170] about what's in the box?	R					
+496940	498940	To try and figure out what's in the box?	R					
+498940	500940	To try and figure out what it is.	R					
+500940	502940	This one was this.	id169		L			
+502940	503940	Well, do you want to ask?	R					
+503940	504940	Do you want to ask [id170]?	R					
+504940	505940	I don't know what it is.	id169		L			
+505940	507940	It's kind of like a shape.	id169		L			
+507940	509940	I don't know what it is either.	id170		S			
+509940	512940	And I just like to say to me too.	id170		S			
+512940	516940	Well, is there anything that it looks like?	R					
+516940	518940	Anything that could help you figure out?	R					
+518940	520940	Mine looks like this.	id169		L			
+520940	525940	This one looks like a sun and  stairs.	id169		L		a sun and stairs	x
+525940	529940	This one looks like a girl that is kneeling down.	id169		L		a girl that is kneeling down	x
+529940	534940	OK, so then which one of those two do you think is in the black box?	R					
+534940	538940	The girl has the tape.	id170		S		the girl has the tape	
+538940	539940	What was that?	R					
+539940	543940	The girl that has the tape.	id170		S			
+543940	546940	The girl that has the dress.	id170		S		the girl that has the dress	
+546940	547940	The one that has the dress?	R			x		
+547940	548940	Yeah.	id170		S			
+548940	552940	OK, then which one do you think has the dress?	R			x		
+552940	553940	The girl.	id169		L			
+553940	555940	OK, then tap your answer.	R					
+555940	557940	Whatever you think you know.	R					
+557940	558940	Nice.	R					
+558940	559940	OK, cool.	R					
+559940	560940	And now we're going to switch back.	R	7				
+560940	561940	And you're going to be the guest here.	R					
+561940	565940	And you're going to be the teller.	R					
+565940	566940	So.	R					
+566940	568940	A tower.	id169		S		a tower	
+568940	570940	And stairs.	id169		S		and stairs	
+570940	573940	Oh, so you're going to explain which one is in the box.	R					
+		That one gives me the stairs and that one gives me the tower. 	id170		L			
+574940	576940	Yeah, so you've got to explain it to [id170] though.	R					
+576940	577940	Explain it to [id170].	R					
+577940	579940	It is a tower.	id169		S			
+579940	580940	Power?	id170		L			
+580940	582940	Tower!	id169		S			
+582940	584940	OK, so then pick your answer.	R					
+584940	589940	Whichever one do you think is the tower?	R			x		
+589940	590940	Nice.	R	8				
+590940	591940	OK.	R					
+591940	592940	And now we're going to switch back.	R					
+592940	593940	And now it's your turn to be the teller.	R					
+593940	594940	You guys got it.	R					
+594940	595940	You guys are figuring it out.	R					
+595940	599940	Mine has a tail and a man who has a shoe on his back.	id170		S		a tail	
+599940	602940	So remember, you're only explaining the one that has the box around it.	R					
+618940	620940	The one that has the tail.	id170		S		has a tail	
+621940	623940	Mind is in the mean.	id169		L			
+623940	625940	Oh, so only the teller is going to explain.	R					
+625940	627940	So which one do you think?	R					
+627940	629940	Which one has the box?	R					
+629940	631940	The tail, the tad. 	id170		S		the tad	
+		The tad?	id169		L			
+635940	636940	I don't know.	id170		S			
+636940	638940	You want to ask some questions?	R					
+638940	639940	OK.	id169		L			
+639940	642940	What does it look like to you?	id169		L			
+642940	643940	A tad.	id170		S			
+643940	644940	A tad?	id169		L			
+644940	645940	No.	id170		S			
+645940	647940	A tad.	id170		S			
+647940	648940	A tad?	id169		L			
+648940	649940	No.	id170		S			
+658940	660940	I don't know where you can describe it.	R					
+660940	664940	Another, like, a different way of saying what it looks like.	R					
+667940	672940	Oh, why don't you take your best guess about which one it is?	R					
+672940	677940	I think it's like a circle.	id169		L			
+677940	679940	Do you see a circle?	id169		L			
+679940	681940	No.	id170		S			
+684940	690940	Tell me what shapes you see in your cave.	id169		L			
+690940	694940	Ellen, what shapes do you see in your cave?	R			x		
+694940	705940	I see two triangle, a triangle, and one triangle, and a big triangle.	id170		S		two triangle, a triangle, and one triangle, and a big triangle	
+705940	706940	OK.	R					
+706940	709940	OK, that will remind me of the person.	id169		L		the person	x
+709940	710940	OK.	R					
+710940	715940	Do you want to tap your answer and take your best guess at it?	R					
+715940	716940	OK.	R					
+716940	717940	So it's the other one.	R	9				
+717940	719940	But that's OK, because there's going to be one.	R					
+719940	721940	Now, you're going to be the guessing.	R					
+721940	722940	Oh, he fell.	R					
+722940	724940	And you're going to be the teller.	R					
+724940	726940	How does he make that noise?	id169		S			
+726940	727940	What noise?	R					
+727940	729940	My hand.	id170		L			
+729940	731940	Oh, when he hit the ground, I guess.	R					
+731940	732940	OK.	R					
+732940	734940	So you're going to be the teller, and you're going to be the guessing.	R					
+734940	736940	So can you tell, [id170]?	R					
+736940	737940	OK.	id169		S			
+737940	739940	I see one shape that is like...	id169		S		one shape 	
+739940	742940	Oh, we're going to use our words in this one, not our bodies.	R					
+742940	745940	So just try to describe it without using your hands.	R					
+745940	752940	It's like, you know, like a thing, like this, and this, and it has like that.	id169		S		a thing, like this	
+752940	754940	Try to explain it just using your words.	R					
+754940	755940	So can you explain this?	R					
+755940	766940	A triangle, and a square, and a big, like...	id169		S		a triangle and a square and a big	
+767940	770940	Well, it connects like a square.	id169		S		connects like a square	
+770940	772940	Does it have like a square?	id169		S			
+772940	773940	OK.	R					
+773940	779940	And it's maybe a rectangle?	id169		S		maybe a rectangle	
+779940	782940	[id170], do you have any guesses of which one it is?	R					
+782940	783940	I don't know what shape.	id169		S		I don’t know what shape	
+783940	785940	No?	id170		L			
+785940	787940	Then do you want to ask, [id169] some questions?	R					
+787940	790940	Oh, yeah, I want to do it.	id170		L			
+790940	791940	Oh, yeah.	id170		L			
+791940	792940	OK.	R					
+792940	794940	Well, if you know what one is, then you can just tap your answer,	R					
+794940	795940	which one do you think it is.	R					
+795940	796940	Or you can ask [id169] some questions.	R					
+796940	798940	No, I want to do it.	R					
+798940	799940	OK.	R					
+799940	800940	Nice.	R					
+800940	801940	OK.	R					
+801940	802940	Then now we're going to switch back.	R	10				
+802940	803940	Oh, sorry.	R					
+803940	804940	All righty.	R					
+804940	809940	And now you're going to be the guesser and you're going to be the teller.	R					
+809940	813940	So can you tell [id169] what you see in the black box?	R					
+813940	814940	No?	R					
+814940	815940	Why not?	R					
+815940	816940	I don't know.	id170		S			
+816940	821940	Oh, they were doing the black box on the tower.	id170		S		the black box on the tower	
+821940	822940	The tower?	R			x		
+822940	823940	No.	id170		S			
+823940	824940	OK.	R					
+824940	825940	Who made this guy?	id169		L			
+825940	827940	I don't know where he came from.	R					
+827940	829940	Did you buy him?	id170		S			
+829940	830940	I don't know.	R					
+830940	832940	He was just in here where I got here.	R					
+832940	838940	So can you explain what it looks like in the black box for [id169]?	R					
+838940	841940	A door?	id170		S		a door	
+841940	842940	A door.	id170		S			
+842940	843940	Where is your house?	id169		L			
+843940	844940	A door?	id170		S			
+844940	845940	Your house.	id169		L			
+845940	847940	It's not here.	R					
+847940	849940	It's kind of out of the way.	R					
+849940	850940	But let’s focus on the game. 	R					
+850940	852940	Let's try to finish it.	R					
+852940	859940	So, [id170], could you give the description again?	R					
+859940	860940	Yes.	id170		S			
+860940	866940	About what's in the black box for [id169] and Murphy to guess.	R					
+866940	868940	Can you give me your best shot?	R					
+868940	871940	Anything you think of when you look at the picture?	R					
+871940	874940	I don't know.	id170		S			
+874940	876940	A door?	id170		S			
+876940	878940	OK.	R					
+878940	879940	A door.	R			x		
+879940	881940	Yeah.	id170		S			
+881940	886940	So, [id169], do you based on that, do you want to guess?	R					
+889940	892940	I don't see a door in here.	id169		L			
+892940	894940	Then do you want to ask [id170] some questions?	R					
+894940	896940	No.	id169		L			
+896940	897940	OK.	R					
+897940	899940	Let's get ready.	R					
+899940	902940	I want to hit it.	id170		S			
+902940	903940	OK.	R					
+903940	905940	Well, you can hit it once you tell the description.	R					
+905940	907940	Once you explain it to [id170], because you're the teller right now.	R					
+907940	910940	But once you're done being the teller, then you're going to be the guesser.	R					
+910940	918940	So, can you tell [id169] some more about what's in the black box?	R					
+918940	920940	[id169], do you want to take your best guess?	R					
+920940	922940	That was in the box.	R					
+922940	923940	Which one?	R					
+923940	925940	Can you hit it?	id170		S			
+925940	926940	OK.	R	11				
+926940	928940	And now we're going to switch back.	R					
+928940	934940	And now you're going to be the teller, and you're going to be the guesser.	R					
+934940	937940	So can you tell [id170] what you see in the black box?	R					
+937940	942940	I see a door with a square.	id169		S		a door with a square	
+942940	945940	OK.	R					
+945940	947940	So, which one do you think it is?	R					
+947940	949940	A door with a square?	R			x		
+949940	950940	No.	id170		L			
+950940	951940	No, yes.	id170		L			
+951940	953940	I mean, no.	id170		L			
+953940	954940	Listen to [id169]'s description.	R					
+954940	956940	I like this.	R					
+956940	959940	No, the guy who put it on his shoe.	id170		L		the guy who put it on his shoe	
+959940	961940	Oh, you're going to be guessing right now.	R					
+961940	963940	So listen to what [id169] is saying.	R					
+963940	975940	Do you have the one that has a square up and a door and a thing that links this?	id169		S		 a square up and a door and a thing that links this	
+975940	977940	Did you hear [id169]?	R					
+977940	979940	OK, then which one do you think it is?	R					
+979940	982940	This one.	id170		L			
+982940	984940	Oh, that's the other one.	R					
+984940	986940	It's OK though, because we're going to switch back now.	R	12				
+986940	992940	So now you're turn to be the teller, and you're turn to be the guesser.	R					
+993940	997940	It's OK.	R					
+997940	1000940	So yeah, you're trying to be the teller.	R					
+1000940	1004940	So can you tell [id169] what you see in the black box?	R					
+1004940	1011940	Can you give it your best shot as much as you can say about what it looks like?	R					
+1011940	1015940	Can you use a car or a bicycle, or do you walk?	id169		L			
+1015940	1020940	I can tell you after the game is over, but we should focus on the game right now.	R					
+1020940	1022940	We'll be back to the classroom, then I can tell you.	R					
+1022940	1024940	Alright, so can you...	R					
+1027940	1029940	I can tell you guys...	R					
+1029940	1037940	I'll tell you guys after, but can you tell [id169] what you see in the black box?	R					
+1037940	1042940	OK, [id169], do you want to take your best guess at which one it is?	R					
+1042940	1045940	Or do you want to ask all these questions?	R					
+		[id170], what do you think it looks like?	id169		L			x
+		I might put in a taytan house and see what [incomprehensible] dress	id170		S			
+		Can I press it?	id169		L			
+1046940	1056940	If you think you know which one it is...	R					
+1056940	1058940	Can I press it too?	id170		S			
+1058940	1060940	I think it’s this one	id169		L			
+1060940	1062940	OK, then tap it.	R					
+1062940	1065940	Nice, OK, cool.	R	13				
+1065940	1067940	Oh, they're connected!	id170		L			
+1067940	1069940	Now it's your turn to guess, and your turn to tell.	R					
+1069940	1072940	So can you describe what's in the black box?	R					
+1073940	1079940	It's a girl that is kneeling down.	id169		S		a girl that is kneeling down	
+1079940	1081940	OK.	R					
+1085940	1087940	Is that the other one?	id170		L			x
+1087940	1088940	What?	R					
+1088940	1090940	The other one with the tower.	id170		L		the other one with a tower	x
+1090940	1093940	Yeah, so then she just gave a description.	R					
+1093940	1096940	So then do you want to choose which one you think it is?	R					
+1096940	1097940	Yeah.	id170		L			
+1097940	1101940	OK, so click the answer that you think it is.	R					
+1101940	1102940	You guys are doing great.	R	14				
+1102940	1103940	Awesome.	R					
+1103940	1106940	OK, and now we're going to switch again, and you're going to be the guesser, and you're going to be the teller.	R					
+1106940	1108940	You guys figured it out.	R					
+1108940	1113940	OK, so now can you tell [id169] what you see?	R					
+1113940	1115940	Well, based on what you think.	R					
+1115940	1118940	Like, if you look at the two pictures, which one do you think...	R					
+1118940	1122940	How would you describe it to [id169]?	R					
+1123940	1126940	[id169], OK.	R					
+1126940	1127940	OK.	R					
+1127940	1131940	Irving, do you want to ask another question about which one it is?	R					
+1131940	1133940	What does it look like to you?	id169		L			x
+1133940	1140940	A man who taken her pudding on his tooth, and a tower.	id170		S		a man who taken her pudding on his tooth and a tower	
+1140940	1142940	OK, nice.	R	15				
+1142940	1144940	OK, and now we go back.	R					
+1144940	1146940	You're re[id170] good at telling.	R					
+1146940	1148940	OK, now do you want to be the teller?	R					
+1148940	1152940	OK, the one with the box.	id169		S			
+1152940	1154940	Tell [id170].	R					
+1154940	1160940	It looks like a door, a square, and one like this, again.	id169		S		a door, a square, and one like this again	
+1160940	1162940	Can you use your words to explain what that is?	R					
+1162940	1164940	It looks like this.	id169		S			
+1164940	1165940	It's like this.	id169		S			
+1165940	1166940	Wait, tell [id170].	R					
+1166940	1167940	Make sure you're telling [id170].	R					
+1167940	1173940	It looks like a little, like that, and the square on top, and the door.	id169		S		the square on top and the door	
+1173940	1174940	OK.	R					
+1174940	1175940	[id170], do you have your guess?	R					
+1175940	1176940	Yeah.	id170		L			
+1176940	1179940	OK, then click your answer.	R					
+1179940	1180940	Nice.	R					
+1180940	1181940	OK.	R					
+1181940	1184940	And now we're going to switch back, and you're going to be the guesser.	R	16				
+1184940	1188940	And you're going to be the teller.	R					
+1188940	1194940	I see a door with a man taking his shoe off.	id170		S		a door with a man taking his shoe off	
+1194940	1196940	Again?	id169		L			x
+1196940	1198940	Let me click it.	id169		L			
+1198940	1201940	Are you describing the one that's in the box?	R					
+1201940	1202940	OK.	R	17				
+1202940	1205940	Then we're going to switch back, and now you're going to be the teller again.	R					
+1205940	1208940	So make sure you're listening to [id169] right now.	R					
+1208940	1209940	OK.	R					
+1209940	1211940	Do you want to describe what's in the black box?	R					
+1211940	1213940	Do you want to tell [id170]?	R					
+1213940	1218940	It is stairs.	id169		S		stairs	
+1218940	1219940	OK.	R					
+1219940	1220940	Did you hear [id169]?	R					
+1220940	1223940	Stairs.	id169		S			
+1223940	1224940	OK.	R					
+1224940	1225940	Do you want to click your answer?	R					
+1225940	1230940	You can also ask [id169] more questions if you want.	R					
+1230940	1231940	OK.	R					
+1231940	1234940	Now we're going to switch back, and now you're going to be the guesser.	R	18				
+1234940	1237940	And you're going to be the teller.	R					
+1237940	1240940	What do we need to fix?	id170		S			
+1240940	1244940	You're going to be the teller, so you're going to tell [id169] what you see in the black box.	R					
+1244940	1249940	I see a tower and chairs	id170		S		a tower and chairs	
+1249940	1251940	Just explain what's in the black box.	R					
+1251940	1253940	That's the only one that matters.	R					
+1253940	1257940	I see a tower in there	id170		S			
+1257940	1258940	OK.	R					
+1258940	1261940	A tower.	R			x		
+1261940	1262940	A tower.	id170		S			
+1262940	1263940	OK.	R	19				
+1264940	1265940	Yeah.	R					
+1265940	1268940	And now you're going to be the teller.	R					
+1268940	1269940	OK.	R					
+1269940	1275940	The one in the black box is a girl that is kneeling down.	id169		S		a girl that is kneeling down	
+1275940	1278940	OK.	R					
+1278940	1284940	So you can take your best guess once you heard what [id169] said.	R					
+1284940	1285940	OK.	R					
+1285940	1286940	Other one.	id169		S			
+1286940	1287940	OK.	R	 				
+1287940	1289940	Now we're going to switch back, and you're going to be the teller now.	R	20				
+1289940	1291940	And you're going to be the guesser.	R					
+1291940	1292940	Me?	id169		L			
+1292940	1293940	Yeah.	R					
+1293940	1296940	So now you're the teller.	R					
+1296940	1299940	So do you want to tell [id169] what it looks like?	R					
+1299940	1306940	I see a dad who's taking off his shoe.	id170		S		a dad who’s taking off his shoe	
+1306940	1310940	OK.	R					
+1310940	1311940	Nice.	R					
+1311940	1313940	And now we're going to switch back.	R					
+1313940	1314940	OK.	R					
+1314940	1316940	That's the end of the game.	R					
+1316940	1317940	Good job, guys.	R					
+1317940	1318940	OK.	R					
+1318940	1321940	Now I'm going to stop the recording, and then we're going to put your name tag back on.	R					
+1321940	1323940	And then you go back to the classroom.	R					

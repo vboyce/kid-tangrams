@@ -1,0 +1,402 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	3020	Hello! Hello!	id184					
+		Hello! Hello!	id183					
+3020	5140	Yeah. Okay.	R					
+5140	7120	What's going on inside?	id184					
+7300	8640	There's nothing on the back.	R					
+8640	11720	Okay. So today we're gonna play a fun matching game.	R					
+11800	15440	But before we do that, we're gonna practice using the iPads so...	R					
+15460	17380	My home has iPads?	id184					
+17380	19980	Oh then you're gonna be an expert on this. You totally know how to do it.	R					
+19980	22020	Umm a pink iPad.	id184					
+22060	22680	Yeah?	R					
+22680	25220	Okay I have my mom's iPads.	id184					
+25220	27060	Oh wait, don't look at its screen!	R					
+27060	28300	Just look at your own!	R					
+28300	31100	Um, so then, can you guys start by clicking the blue button?	R					
+33100	34500	Can you sit all the way in your chair, please?	R					
+35000	35500	Thank you.	R					
+35900	38800	And then, now just touch the screen to pop all the bubbles.	R					
+41000	42600	With your, with your finger, just touch.	R					
+44000	45800	I'll pop all the bubbles.	id184					
+45800	49600	Yeah, and then just keep popping them until it stops trying to bubbles.	R					
+50700	51200	Nice.	R					
+51600	53000	Now let’s wait for [id183] to finish.	R					
+58700	59200	Good job.	R					
+59400	60000	Okay, cool.	R					
+60400	63300	Um, so now I'm going to explain the game.	R					
+63300	64700	Oh, let's not turn our iPads.	R					
+65100	67000	Um, so now I'm going to explain the game.	R					
+67400	69900	So in this game, you're going to be helping Smurphy.	R					
+70100	70800	This is Smurphy.	R					
+71100	71700	Do you want to say hi?	R					
+		hi	id184					
+73900	79200	So Smurphy's job is to try to guess what shapes are on the screen.	R					
+79700	85100	So if you see a black box on your screen, then you are going to be the teller	R					
+85600	87700	and you are going to, oh, look at this down.	R					
+88000	92000	You're going to be the teller and you are going to tell Smurphy what you see	R					
+92000	93000	in the black box.	R					
+94500	98200	And if you are the one holding Smurphy, then you are going to be the	R					
+98200	102700	guesser and you're going to try to guess what's in the black box after the	R					
+102700	105700	teller tells you what they see in the box.	R					
+106500	107000	Okay.	R					
+107000	110500	I didn't know, I didn't know, I didn't, I thought.	id184					
+111200	111700	What?	R					
+111700	112400	I thought.	id184					
+112900	113400	I thought?	R					
+113900	114700	No, I thought.	id184					
+115200	115700	I thought.	R					
+118700	122200	Anyway, wait, let's listen to the instructions so we can play the game.	R					
+122200	122600	Okay.	R					
+123200	127100	So yeah, if you are the one holding Smurphy, you're going to be the guesser	R					
+127300	131600	and if you get it right, then you'll see a smiley face and if you get it wrong,	R					
+131600	134600	you'll see a frowny face, but that's okay because you'll have a lot more	R					
+134600	135500	chances to help Smurphy.	R					
+136900	137300	Yeah.	id184					
+138200	138600	Okay.	R					
+138800	142800	So just to remember, if you, oh wait, don't touch that one yet.	R					
+143400	147100	So if you see it, if you see the black box, what are you going to do?	R					
+148000	148700	Guessing.	id184					
+149000	150200	No, you're going to be the teller.	R					
+150400	153200	So you're going to tell Smurphy what you see in the black box.	R					
+		is that a banana?	id183					
+153800	158000	And if, yeah, it is.	R					
+158200	161900	And then so if you're the guesser or if you are the one holding Smurphy,	R					
+161900	162600	what are you going to do?	R					
+		guesser 	id183					
+		guesser 	id184					
+164500	167700	Yeah, you're going to guess what the person tells you.	R					
+168000	168400	Okay.	R					
+168600	170800	So I think you guys are ready to play.	R					
+170900	174900	So now can you click the blue button and then don't touch anything else?	R					
+175900	176400	Okay.	R					
+176700	178400	So which one of you has the black box?	R	1				
+		apple	id183		S			
+		apple	id184		L			
+182200	183700	Wait, so which one of you has the black box?	R					
+		Um, banana.	id184		L			
+185700	186800	Do you have the black box?	R					
+187500	188500	Do you have the black box?	R					
+189000	189300	Okay.	R					
+189300	191900	So then you're going to be the teller and you're going to be the guesser.	R					
+192200	196100	So, [id183], could you tell [id184] what you see in the black box?	R					
+199600	200000	a apple 	id183		S		a apple	
+200200	204100	And [id184], if you have a guess, you can just tap the screen on which one that you	R					
+204100	204800	think it is.	R					
+205300	208400	Um, banana.	id184		L			
+210100	214100	Well, but you got to listen to what [id183] says and [id183]'s trying to tell	R					
+214100	215100	you which one to tap.	R					
+217300	219500	apple?	id184		L			
+219500	221300	So then on your screen, do you want to tap that?	R	2				
+222500	223000	Good job.	R					
+223100	223500	Okay.	R					
+223600	226200	And now we're going to switch over and now you're going to be the teller	R					
+226400	227500	and you're going to be the guesser.	R					
+227900	230900	So [id184], could you tell [id183] what you see in the black box?	R					
+231500	233500	What do you see in the black box?	id184		S			
+233700	234000	Yeah.	R					
+234000	235200	So what do you see on your screen?	R					
+235500	236500	What's in the black box?	R					
+240300	240700	a bird	id184		S		a bird	
+		a dog	id183		L			
+		a dog	id184		S			
+245700	246900	Well, no, no.	R					
+246900	249900	So then, so since you're the guesser, then you're not going to say anything	R					
+249900	253400	right now, but you can tap the screen if you have a guess from what.	R					
+253900	254800	[id184] just told you.	R					
+258300	261800	So [id184], could you, could you help [id183] by saying what's in the black box?	R					
+		what’s in the black box?	id184		S			
+263500	264000	Yeah.	R					
+264000	266100	Like on the screen, what you see in the black box?	R					
+266100	267000	Could you tell [id183]?	R					
+268600	269300	A bird	id184		S			
+270000	270400	Okay.	R					
+270600	273100	And then now you can tap your screen if you have a guess.	R					
+279000	279400	Okay.	R					
+279500	281000	So that was the other one, but that's okay.	R	3				
+281000	282200	We'll have more chances to help.	R					
+282600	285600	So now you're going to be the teller and you're going to be the guesser.	R					
+285800	287700	So [id183].	R					
+287700	288200	Okay.	R					
+294700	295700	It's okay.	R					
+		hey look, two arrows	id184		L		two arrows	
+295700	297200	You can just give it your best try.	R					
+300500	301500	Two arrows	id183		S		two arrows	
+302200	303200	And the star?	id183		S		and the star	
+304000	304900	No.	id184		L			
+304900	307500	So you only have to describe the one that's in the black box.	R					
+307700	308300	Only that one.	R					
+309100	312700	So can you tell [id184] what you see inside the box?	R					
+313500	314000	Okay.	R	4				
+314300	314700	Cool.	R					
+314800	317700	And now you're going to be the guesser and you're going to be the teller.	R					
+318100	319500	Or you're going to be the teller.	R					
+320300	323700	So [id184], could you tell [id183] what you see in the box?	R					
+324900	326300	A little boat.	id184		S		a little boat	
+327000	327500	Okay.	R					
+328400	330500	And then [id183], when you have a guess, you can just tap the screen.	R					
+330800	332000	A flower.	id183		L		a flower	x
+332000	332500	No, no.	R					
+332500	334000	So you're going to be the guesser right now.	R					
+334000	338000	So you just have to listen to what [id184] says and then tap the one that you think it is.	R					
+338900	341400	So [id184], can you say again what it is?	R					
+342000	343400	I see a little boat.	id184		S			
+343900	344400	Okay.	R					
+344600	347400	So then [id183], can you tap your screen and show me what you think it is?	R					
+347700	348400	This one?	id183		L			
+349000	349600	I don't know.	R					
+349900	350400	This one?	id183		L			
+350400	351900	Wait, so you're not going to tap the screen right now.	R					
+351900	352900	But [id183] is, yeah.	R					
+353300	353900	Good job.	R	5				
+353900	354700	Okay, cool.	R					
+355100	361100	And now we're going to switch back and now, [id183], can you tell [id184] what you see in the blak box?	R					
+362600	363500	Just in the box.	R					
+366000	370400	 um, little banana walk like a worm	id183		S		little banana walk like a worm	
+371400	373400	Uh, maybe.	id184		L			
+376400	379400	Do you know a worm has a two-head?	id184		L			
+381400	385400	And the dragon has double, double words.	id183		S			
+388400	391400	So is that what this one looks like in the box?	R					
+391400	392400	In the box here.	R					
+392400	394400	Is that what it looks like in the box?	R					
+395400	395900	Oh, no.	R					
+395900	396900	Let's not turn our iPads.	R					
+396900	399900	In this game, we're going to use our words to tell the other person what we see.	R					
+401400	404400	No, so you only have to tell [id184] what's in this box.	R					
+405400	407400	So can you try to help [id184]?	R					
+407400	408400	It's a blaster.	id183		S		a blaster	
+409400	410400	A blaster?	id184		L		a blaster	x
+412400	412900	Yeah.	R					
+412900	413400	A snake.	id183		S		a snake	
+416400	417400	A monster.	id183		S		a monster	
+417900	420400	So you're going to just guess, so listen to what [id183] say.	R					
+		I don’t know what to	id183		S			
+426400	429400	Okay, then [id184], do you want to take your best guess on which one it is?	R					
+		I see a horse.	id184		L		a horse	x
+431400	434400	No, so you're just going to, you're guessing right now.	R					
+434400	438400	So you just tap the screen after you hear what [id183] says.	R					
+440400	443400	Or you can also, if you're not sure, then you can ask [id183] more questions.	R					
+445400	446400	Oh, okay.	R	6				
+446400	447400	It was the other one, but that's okay.	R					
+447400	448400	We'll have more chances.	R					
+449400	454400	So now [id184], could you tell [id183]	R					
+		what’s this one?	id183		L			
+		oh wait until [id184] tells you what it is	R					
+454400	455400	Which one to tap?	R					
+456400	459400	Or you're going to tell [id183] now what you see.	R					
+459400	461400	So what do you see in the box?	R					
+461400	463400	What do you see in the box?	id184		S			
+463400	466400	No, no, can you tell [id183] what you see in there?	R					
+467400	469400	What do you see in the black box?	id184		S			
+469400	470400	What do you see?	R					
+470400	471400	You have the black box.	R					
+471400	473400	So you're going to tell [id183] what you see.	R					
+473400	476400	I see a horse.	id184		S		a horse	
+478400	479400	Okay.	R					
+481400	483400	So [id183], if you have a guess, then you can tap the screen.	R					
+484400	488400	You can also ask [id184] more questions about what it is.	R					
+488400	490400	It's a man.	id183		L		a man	x
+490400	492400	No, so you're just going to be guessing right now.	R					
+492400	494400	Hey, can you sit down please?	R					
+494400	498400	So [id184], you're going to be the teller right now.	R					
+498400	501400	So you just have to tell [id183] what you see in the box.	R					
+501400	503400	And you're just the guesser.	R					
+503400	506400	So you don't have to try to say anything about the pictures right now,	R					
+506400	508400	since you're the one with Murphy.	R					
+508400	510400	So since you have Murphy, then you're just guessing.	R					
+510400	513400	So could you try to guess which one it is?	R					
+514400	515400	this one?	id183		L			
+515400	517400	Yeah, so [id184], could you say what's in the box again?	R					
+517400	519400	A horse.	id184		S			
+519400	520400	Yeah.	R					
+521400	523400	Could you say more, maybe?	R					
+525400	529400	Okay, then do you want to tap which one you think it is?	R					
+531400	532400	Yeah!	R					
+532400	533400	You're awesome.	R	7				
+533400	534400	Okay, and now we're going to switch back,	R					
+534400	536400	and you're going to be the guesser now.	R					
+536400	539400	So you have Murphy, and you're the guesser, and you're the teller.	R					
+539400	541400	So can you tell [id184] what you see in the box?	R					
+543400	544400	A horse?	id184		L		horse	x
+544400	546400	A snail.	id183		S		a snail	
+546400	547400	A snail?	id184		L		a snail	x
+547400	548400	Yeah!	id183		S			
+549400	553400	You know my grandpa has a lot of snails at night.	id184		L			
+553400	557400	If you're watering the grass,	id184		L			
+557400	560400	whole grass, my grandpa.	id184		L			
+560400	563400	Okay, but right now can we play the game, please?	R					
+563400	567400	So [id183] just told you what he sees in the box.	R					
+567400	569400	So do you want to take a guess of which one you think it is?	R					
+572400	573400	An arrow?	id184		L		an arrow	
+574400	576400	No, just take a guess on the screen.	R					
+576400	578400	So like, when you think you know which one it is,	R					
+578400	580400	then just tap the screen of which one you think.	R					
+581400	583400	Okay, so it was the other one.	R	8				
+583400	586400	So make sure we're really listening to what the other person is saying, okay?	R					
+586400	588400	And now we're going to switch, and you're going to be the guesser,	R					
+588400	590400	and you're going to be the teller.	R					
+590400	593400	So now, can you tell [id183] what you see inside the box?	R					
+597400	598400	A slide?	id184		S		a slide	
+599400	600400	Okay.	R					
+601400	603400	So [id183], so since you're the guesser,	R					
+603400	606400	then you're just going to tap the screen when you think you know which one it is.	R					
+		this?	id183		L			
+607400	610400	I can't help you, but you can just tap it whichever one you think.	R	9				
+612400	614400	Okay, so it was the other one, but that's okay.	R					
+615400	616400	I didn't tap!	id184		L			
+616400	620400	So maybe you guys can try giving us some more words to try to help the other person.	R					
+620400	621400	I didn't tap!	id184		L			
+621400	626400	He was just controlled by himself.	id184		L			
+626400	629400	All right, well now you're going to be the guesser,	R					
+629400	630400	and you're going to be the teller.	R					
+630400	633400	So [id183], could you tell [id184] what you see inside the box?	R					
+		banana worms	id183		S		banana worms	
+		a little worm	id184		L		a little worm	x
+641400	643400	So then [id184], do you want to try guessing?	R					
+646400	648400	[id184], do you want to try guessing?	R					
+		uhhhh	id184		L			
+650400	653400	If you're not sure, you can also ask [id183] more questions.	R					
+		I see a diamond	id184		L		a diamond	x
+657400	659400	Well, you're the guesser right now,	R					
+659400	662400	so you just have to tap the screen of which one you think it is.	R					
+662400	665400	Can we just go right in front of the iPad please?	R					
+667400	668400	Nice, okay.	R	10				
+668400	669400	And now we're going to switch back,	R					
+669400	671400	and you're going to be the guesser,	R					
+671400	673400	and you're going to be the teller.	R					
+673400	675400	So can you tell [id183] what you see inside the box?	R					
+679400	681400	A bunny and a slide?	id184		S		a bunny and a slide	
+682400	683400	Okay.	R					
+686400	687400	So you're the guesser right now,	R					
+687400	690400	so you're just going to tap the screen of which one you think it is.	R					
+		is it this one?	id183		L			
+692400	693400	I can't help you,	R					
+693400	695400	but you can ask [id184] questions if you're not sure.	R					
+697400	698400	Just whichever one you think that you,	R					
+698400	699400	whichever one you want to tap,	R					
+699400	701400	which the guess that you have.	R					
+705400	707400	Okay, so it's the other one.	R	11				
+707400	708400	But that's okay.	R					
+708400	709400	Now we're going to switch back,	R					
+709400	712400	and now, can you sit down please?	R					
+712400	713400	Stay in your chair.	R					
+713400	715400	So now [id183], you're going to be the teller,	R					
+715400	718400	so can you tell [id184] what you see inside the box?	R					
+		banana snail	id183		S		banana snail	
+725400	726400	Yeah, so [id184],	R					
+726400	727400	since you're the guesser,	R					
+727400	730400	now you can tap the screen of which one you think it is.	R					
+731400	733400	Okay, so it was the other one.	R	12				
+733400	734400	But that's okay.	R					
+734400	735400	And now we're going to switch back,	R					
+735400	736400	and you're going to be the guesser,	R					
+736400	738400	and you're going to be the teller.	R					
+741400	743400	So [id184], could you please tell [id183]	R					
+743400	744400	what you see inside the box?	R					
+745400	748400	Oh, people watching at work.	id184		S		people watching at work	
+750400	751400	Okay.	R					
+755400	756400	So [id183], since you're the guesser,	R					
+756400	758400	do you want to take a guess?	R					
+		this one man	id183		L		this one man	
+762400	764400	So did you hear what [id184] said?	R					
+764400	766400	Okay, then do you want to take a guess?	R					
+769400	770400	Nice.	R	13				
+770400	771400	Okay.	R					
+771400	772400	Now we're going to switch back,	R					
+772400	773400	and you're going to be the guesser,	R					
+773400	774400	and you're going to be the teller.	R					
+		it said woo. Whee	id184		L			
+		whee	id183		S			
+775400	777400	Yeah, that's what happens when you get it right.	R					
+780400	783400	Alrighty, so now you're going to be the teller,	R					
+783400	784400	and you're going to be the guesser.	R					
+784400	786400	So can you tell [id184] what you see in the box?	R					
+		a worm	id183		S		a worm	
+		a worm? Another worm, oh my goodness not again	id184		L		a worm	x
+794400	795400	Yeah, so if that's what it is,	R					
+795400	797400	then do you want to tap the screen and say,	R					
+797400	798400	I heard a choose?	R					
+801400	802400	Nice.	R	14				
+802400	803400	Now we're going to switch back,	R					
+803400	804400	and you're going to be the teller now,	R					
+804400	805400	and you're going to be the guesser.	R					
+814400	815400	So you're going to be the teller,	R					
+815400	816400	and you're going to be the guesser.	R					
+816400	818400	So can you tell [id183] what you see in the box?	R					
+827400	828400	I see a people, people was sleeping	id184		S		a people was sleeping	
+829400	830400	So [id183], did you hear that?	R					
+831400	832400	Okay.	R					
+832400	833400	So how can you tap the screen?	R					
+833400	834400	Which one do you think it is?	R					
+836400	837400	Yes!	R	15				
+839400	841400	People is sleeping?	id184		L			
+841400	842400	Now you're going to be the guesser,	R					
+842400	843400	and you're going to be the teller.	R					
+843400	845400	So can you tell [id184] what you see in the box?	R					
+852400	856400	I see a bird like a camera.	id183		S		a bird like a camera	
+857400	858400	Grass.	id183		S		grass	
+868400	869400	Okay.	R					
+870400	871400	[id184], if you have a guess,	R					
+871400	872400	then you can tap the screen.	R					
+872400	873400	Which one do you think it is?	R					
+878400	879400	Nice.	R	16				
+880400	881400	Now we're going to switch back.	R					
+882400	883400	Yeah.	id184		S			
+883400	884400	Now you're going to be the teller,	R					
+884400	885400	and you're going to be the guesser.	R					
+887400	890400	So [id184], could you tell [id183] what you see inside the box?	R					
+892400	893400	A horse	id184		S		a horse	
+896400	898400	Another horse went my head.	id183		L			
+899400	901400	Where are my socks?	id184		S			
+902400	903400	So [id183], if you...	R					
+903400	904400	Hello!	id184		S			
+905400	906400	So [id183], if you have a guess,	R					
+906400	908400	do you want to tap the screen?	R					
+914400	915400	Now we're going to switch over,	R	17				
+916400	918400	and now it's your turn to be the teller.	R					
+918400	920400	So can you tell [id184] what you see inside the box?	R					
+922400	923400	A horsey.	id184		L		a horse	x
+924400	925400	A chew.	id184		L		a chew	x
+925400	927400	Wait, hey, let's listen to [id183], okay?	R					
+		a worm	id183		S		a worm	
+		a worm, another worm, not again	id184		L		a worm	x
+932400	934400	Yeah, so do you want to tap the screen?	R					
+936400	937400	Oh, not that one.	R	18				
+937400	938400	That's okay.	R					
+938400	939400	Now we're going to switch over,	R					
+940400	941400	and now it's your turn to guess,	R					
+941400	942400	and your turn to tell.	R					
+943400	945400	Hey [id184], hey [id184], hey.	R					
+945400	948400	Can we tell [id183] what we see inside the box?	R					
+949400	952400	Uh, a horse?	id184		S		a horse	
+953400	954400	Another horse again?	id183		L			x
+955400	956400	What my heck?	id183		L			
+957400	958400	Yeah, so then [id183],	R					
+959400	961400	do you want to tap the screen?	R					
+		what my heck?	id184		S			
+965400	966400	Okay, awesome.	R	19				
+967400	968400	Now it's your turn to be the guesser,	R					
+968400	969400	and your turn to be the teller.	R					
+973400	975400	So [id183], [id183], [id183], hey.	R					
+975400	976400	[id183], hey.	R					
+977400	979400	Hey [id184], can you listen to [id183] right now,	R					
+979400	980400	because right now [id183]'s the teller.	R					
+980400	983400	So can you tell [id184] what you see inside the box?	R					
+984400	988400	I see another light with a halo with grass.	id183		S		another light with a halo with grass	
+989400	990400	Oh my heck.	id184		L			
+991400	992400	Yeah, so...	R					
+993400	994400	I see another.	id184		L			
+994400	995400	Wait, hey, you're the guesser right now.	R					
+996400	997400	So right now do you want to just tap your screen	R					
+997400	998400	and see which one you have to guess it?	R					
+999400	1000400	Awwww.	R	20				
+1001400	1002400	That's your other one.	R					
+1002400	1004400	Okay, but it's okay, there's more chances.	R					
+1004400	1007840	there's more chances so now you're gonna be the teller and you're gonna be the	R					
+1007840	1011400	guesser so [id184] can you tell me what you see inside the box?	R					
+1011400	1016400	A people with learning kung fu?	id184		S		a people with learning kung fu	
+1018400	1024400	okay so [id183] when you have a guess then you can tap the screen of which answer you think it is	R					
+1026400	1027400	Nice	R					
+1027400	1030400	A people with playing go fu?	id184		S			
+1030400	1035400	and that's the end of the game awesome thank you so much for playing my game guys	R					
+1035400	1039400	so I'm gonna turn off the camera now and then we're gonna head back to the classroom	R					

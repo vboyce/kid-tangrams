@@ -91,7 +91,7 @@ label_image <- function(string) {
 less_raw_data <- raw_data %>%
   select(target, distractor, trialNum, targetNum, repNum, response, correct, time, listener = playerId, speaker, gameId) %>%
   mutate(across(c(target, distractor, response), ~ label_image(.x))) %>%
-  write_csv(here("data/expt_2/clean_data.csv"))
+  write_csv(here("data/expt_3/clean_data.csv"))
 ```
 
 below here copied from expt 2 and not updated!

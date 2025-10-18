@@ -1,0 +1,128 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+19000	22000	Okay, so before we play our fun matching game,	R					
+22000	25000	we're going to practice touching our iPads	R					
+25000	28000	by playing a little game of pumping bubbles.	R					
+28000	32000	Okay, so you all want to press the blue buttons on your screen.	R					
+32000	33000	Okay.	id246					
+33000	36000	And then pop all the bubbles.	R					
+36000	39000	Yeah.	id246					
+39000	40000	I did them all.	id245					
+40000	44000	And then get the new ones, yeah.	R					
+44000	47000	We just check.	R					
+47000	50000	Awesome, thank you guys so much.	R					
+50000	53000	So now I'm going to explain the matching game.	R					
+53000	57000	So each of you on your screen is going to see two pictures.	R					
+57000	62000	And one of you will see a picture surrounded by a black box.	R					
+62000	64000	And that person is the teller.	R					
+64000	70000	And the teller's job is to tell Smurphy which picture is in the black box.	R					
+70000	71000	This is Smurphy.	R					
+71000	73000	Do you guys want to say hi to Smurphy?	R					
+73000	74000	Hi Smurphy.	id246					
+74000	75000	Hi Smurphy.	id245					
+75000	77000	So we're going to be helping Smurphy out today.	R					
+77000	78000	Okay.	id246					
+78000	82000	If you don't see the black box and you're holding Smurphy,	R					
+82000	84000	then you're the guesser.	R					
+84000	89000	And your job is to guess which picture is in the black box.	R					
+89000	92000	When you think you know which picture it is,	R					
+92000	95000	you're going to touch that picture, okay?	R					
+96000	99000	If you get it right, you'll see a smiley face.	R					
+99000	102000	If you get it wrong, you'll see a frowny face.	R					
+102000	105000	But that's okay because Smurphy has a lot of chances.	R					
+105000	106000	How many chances?	id246					
+106000	108000	A good one, like 10 or 15.	R					
+108000	113000	So you're going to take terms guessing and telling, okay?	R					
+113000	114000	Okay.	id246					
+114000	117000	If you see the black box, what do you do?	R					
+117000	118000	Guess.	id246					
+118000	124000	You're going to tell Smurphy which picture is in the black box.	R					
+124000	128000	If you're holding Smurphy, what do you do?	R					
+128000	129000	Guess.	id246					
+129000	130000	Yeah.	R					
+130000	131000	How do you guess?	R					
+131000	134000	You're going to touch the picture.	R					
+134000	135000	Yeah.	id246					
+135000	136000	Okay?	R					
+136000	138000	Make sense once we start.	R					
+138000	139000	Okay.	R					
+139000	142000	You want to press the blue button to begin?	R					
+142000	144000	Who has the black box?	R	1				
+144000	145000	Me.	id246		S			
+145000	149000	So you're going to be telling and you're going to be helping Smurphy guess.	R					
+149000	151000	Which picture is in the black box?	id246		S			
+151000	153000	So you're going to tell her.	R					
+153000	154000	Why?	R					
+154000	157000	Which picture is in the black box?	R					
+157000	159000	The banana.	id246		S		the banana	
+159000	160000	What do you see?	R					
+160000	162000	The banana.	id246		S			
+163000	166000	Awesome.	R	2				
+166000	173000	And now we're going to pass Smurphy and you're going to be telling.	R					
+173000	176000	What do you see in the black box, [id245]?	R					
+176000	178000	A dog.	id245		S		a dog	
+178000	180000	Awesome.	R					
+180000	182000	It makes sense.	id246		L			
+182000	189000	What do you see in the black box?	R	3				
+189000	198000	Just do your best to tell her what's in it.	R					
+198000	202000	Like a walk sign.	id246		S		a walk sign	
+202000	204000	Do you think you know which one it is?	R					
+204000	206000	Is it this one?	id245		L			
+206000	208000	You can guess if you think you know.	R					
+208000	212000	You can also ask him a question to tell you more.	R					
+212000	213000	Can you?	id245		L			
+213000	214000	You can't see.	R					
+214000	218000	We're going to use our words to describe.	R					
+218000	221000	Does it have like two points?	id245		L		two points	x
+221000	224000	Yes.	id246		S			x
+224000	226000	Awesome.	R	4				
+226000	231000	Now we're going to pass Smurphy.	R					
+231000	237000	It's like a fan.	id245		S		a fan	
+237000	244000	Awesome.	R	5				
+244000	247000	It's like a shoe.	id246		S		a shoe	
+247000	249000	Nice.	R	6				
+249000	250000	What is it?	id245		S			
+250000	256000	Same view.	id245		S			
+256000	261000	What do you see, [id245], in the black box?	R					
+261000	267000	It's like a girl's shoe.	id245		S		a girl’s shoe	
+267000	273000	Nice.	R	7				
+273000	279000	It looks like a person walking, but with no arms.	id246		S		a person walking but with no arms	
+279000	281000	Nice.	R	8				
+281000	283000	What if we get it wrong?	id245		S			
+283000	285000	That's okay.	R					
+285000	289000	Tell me what you see.	id246		L			
+289000	294000	It's like a square thing.	id245		S		a square thing	
+294000	301000	Nice.	R	9				
+301000	307000	I get the person walking with a bag.	id246		S		the person walking with a bag	
+307000	312000	It's getting rude for me.	id245		L			
+312000	318000	I just guessed it randomly.	id246	10	L			
+318000	324000	It's like a woman's shoe ties a string.	id246	11	S		a woman’s shoe ties a string	
+324000	328000	That's okay.	R	12				
+329000	335000	You can wait for the description too.	R	13				
+335000	339000	What do you see in the black box?	R					
+339000	343000	Something like a jar.	id246		S		a jar	
+343000	345000	Nice.	R	14				
+345000	347000	What do you see, [id245]?	R					
+347000	352000	It's like a woman's shoe.	id245		S		a woman’s shoe	
+352000	354000	Nice.	R	15				
+354000	357000	It's like a person dancing.	id246		S		a person dancing	
+357000	361000	I see a man walking in there.	id246		S		a man walking in there	
+361000	365000	Nice.	R	16				
+365000	367000	What do you see, [id245]?	R					
+367000	371000	You can wait for her to describe it next time, [id246].	R	17				
+371000	375000	It's like a shoe.	id245		L			
+		I just knew it	id246		S			
+375000	381000	It looks like a person dancing.	id246		S		a person dancing	
+381000	385000	That's okay.	R	18				
+385000	387000	What do you see, [id245]?	R					
+387000	392000	It's not a person dancing.	id245		S		not a person dancing	
+392000	396000	A person walking with no arms.	id245		S		a person walking with no arms	
+396000	401000	Nice.	R	19				
+401000	406000	It's like a jar that has a little bit pointy space	id246		S		a jar that has a little bit pointy space	
+406000	409000	Nice.	R	20				
+409000	411000	What do you see in the box, [id245]?	R					
+411000	414000	A shoe.	id245		S		a shoe	
+414000	416000	Nice.	R					
+416000	418000	What do you see, [id246]?	R					
+418000	420000	Oh, you're done.	R					
+420000	422000	Thank you so much for playing my game.	R					
+422000	424000	That's going to be it.	R					

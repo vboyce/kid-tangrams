@@ -1,2 +1,3 @@
 whisper --output_format tsv --output_dir raw_transcripts --model small --language English  raw_recording/*.MP4
 
+

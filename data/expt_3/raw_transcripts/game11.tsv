@@ -1,0 +1,245 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	3440	Awesome, you got any scary parts or scary parts?	id160					
+3440	5040	No, no scary parts.	R					
+5040	6640	It is really fun.	R					
+6640	9600	It is going to be a really fun matching game.	R					
+9600	12000	So we're going to play a really fun matching game,	R					
+12000	16560	but before we do that, we're going to play a little bubble popping game.	R					
+16560	19280	So you can practice touching the iPads. How does that sound?	R					
+19280	22960	Good? Okay, so here is yours.	R					
+22960	24880	Do I have to play this?	id160					
+24880	27760	Yeah, to start you're going to press the blue button.	R					
+27760	31040	Perfect, and then you're going to touch all the bubbles to make them pop.	R					
+35840	37280	Great job. Keep going.	R					
+40800	44480	Good job. Tell me when you see my friend Smurphy.	R					
+44480	45280	I see that.	id160					
+45280	47680	You see Smurphy? Awesome.	R					
+47680	55120	Okay, so now before we play, I'm going to tell you how to play my game.	R					
+56080	59600	So this is my friend Smurphy, and today you're going to help my friend Smurphy.	R					
+59600	60800	Do you want to say hi?	R					
+60800	61840	Hi Smurphy.	id159					
+61840	63040	Hello, hello.	R					
+63040	64640	Tickle, tickle, tickle.	R					
+64640	65440	Oh my goodness.	R					
+65440	68080	Okay, so in this game, you're going to see...	R					
+68080	69840	You're going to see Smurphy or someone else.	R					
+69840	71280	This is my friend Smurphy.	R					
+71920	74320	So he's my stuffy, and he helps me in the game,	R					
+74320	76080	and you guys are going to help Smurphy play the game.	R					
+76880	80480	So on your screens, you're going to see two pictures just like this.	R					
+81120	84000	One of you guys will have a black box around the picture.	R					
+84000	84960	Do you see the black box?	R					
+85680	89120	If you have the black box, you're going to be the teller,	R					
+89120	92400	and you're going to tell Smurphy what you see inside the black box.	R					
+93200	95280	If you don't have the black box, just like this,	R					
+95840	97680	you're going to be holding Smurphy,	R					
+97680	101120	and you're going to help Smurphy guess what's in the black box of your friend.	R					
+102160	105840	So we're going to take turns telling and guessing.	R					
+105840	108240	So just give me one second, and then we can play.	R					
+108240	109760	I know you're super excited.	R					
+109760	112960	I just didn't even know I had a...	id160					
+113360	114960	I was about to sleep.	id160					
+114960	115920	You're about to sleep?	R					
+115920	116400	Yeah.	id160					
+116400	119360	Okay, so we're going to take turns telling and guessing.	R					
+120000	121760	If you have the black box, what are you going to do?	R					
+123520	125040	You're going to tell, right?	R					
+125040	125680	Sniffy.	id160					
+125680	129120	You're going to tell Smurphy what you see inside.	R					
+129120	132160	If you don't have the black box, you're going to guess,	R					
+132160	135280	and you're going to help Smurphy guess what's in the black box.	R					
+135280	137840	If you think you know what's in the black box,	R					
+137840	140080	you're going to touch the iPad with your finger,	R					
+140080	141600	the picture that you think it is, okay?	R					
+142160	144800	And we're going to take turns telling and guessing.	R					
+144800	145760	If you get it right...	R					
+145760	146320	I know this.	id160					
+147840	148480	I know this.	id160					
+149920	151360	I know this game.	id160					
+151360	152080	You know this game?	R					
+152080	153280	Okay, if you get it right...	R					
+153280	154160	Me too.	id159					
+154160	156160	If you get it right, then you're going to see a smiley face,	R					
+156160	158720	and if you get it wrong, you're going to get a frowny face.	R					
+158720	161120	But that's okay, because you're going to have many opportunities	R					
+161120	163120	to help Smurphy get the right answer.	R					
+163120	163600	You got it?	R					
+163600	164160	Okay.	id160					
+164160	165520	Okay, you guys ready to play?	R					
+166080	168160	And in this game, we're going to use our words, okay?	R					
+169200	171360	Okay, here, let's place it like this.	R					
+171360	171840	There you go.	R					
+171840	173040	And press the blue button.	R					
+173760	174160	Perfect.	R					
+175600	177040	Who has the black box?	R	1				
+177040	177760	I do.	id159		S			
+177760	178080	Okay.	R					
+178720	180960	Now, Justine's going to tell us what's in the black box.	R					
+181760	183440	In the black box?	R					
+183440	185680	Yeah, what picture is in the black box?	R					
+185680	186640	A banana.	id159		S		a banana	
+186640	188320	Okay, you're going to touch the one that you think it is.	R					
+189120	190240	Yay, good job.	R					
+191680	193280	And now you guys are going to switch.	R	2				
+193280	195200	And now [id160]'s going to tell what's in the black box.	R					
+195920	196400	A bird.	id160		S		a bird	
+199440	200400	Good job.	R					
+200400	202320	Now we're going to keep switching back and forth.	R	3				
+204320	206240	So what do you see in the black box?	R					
+206240	206800	A sun.	id159		S		a sun	
+210400	211360	Great job.	R					
+212560	212880	Okay.	R					
+215600	217120	Now [id160], what do you see in the black box?	R	4				
+		I don’t know what that is.	id160		S			
+218080	218720	That's okay.	R					
+218720	219760	Give your best guess.	R					
+221440	222800	Maybe upside down house.	id160		S		maybe upside down house	
+224960	225440	Maybe.	id159		L			x
+226080	226400	Maybe any button. 	id160		S			
+228640	231120	I'm not sure if it looks good.	id159		L			x
+231120	234640	You're going to just tell [id159] what you see.	R					
+234640	237200	It looks like an upside down crown.	id160		S		an upside down crown	
+239200	241040	And then you're going to touch the one that you think it is.	R					
+								
+241600	242240	Perfect.	R					
+242240	243040	Good job.	R					
+243040	243600	Yes.	id160					
+245040	245680	Keep going.	R					
+246400	247040	Okay.	R					
+247040	248720	Now [id159], what do you see in your box?	R	5				
+248720	250240	It just looks like a...	id159		S			
+252640	253520	A shoe mate?	id159		S		a shoe mate	
+253520	254640	It looks like a...	id159		S			
+254640	255360	A shoemate.	id159		S			
+255680	256560	A shoemate?	id159		S			
+256560	258000	It just looks like a...	id159		S			
+258000	259120	I don't know what I'm saying.	id159		S			
+259120	259520	That's okay.	R					
+260160	261040	What do you think it is?	R					
+261760	263040	Is that this one?	id160					
+264640	265280	Good job.	R	6				
+268480	269040	Okay.	R					
+269040	270080	Now you're going to tell us.	R					
+270080	272160	It looks like a shoe.	id160		S		a shoe	
+274560	275440	This one?	id159		L			x
+275440	276560	Touch the one that you think it is.	R					
+277200	278880	We're going to use our words remember.	R					
+278880	280560	So tell [id159].	R					
+280560	281680	It looks like a shoe.	id160		S			
+283280	285200	And then now you can touch the one that you think it is.	R					
+285920	286640	Good job.	R					
+289600	290080	Okay.	R					
+290080	290960	Now [id159]'s turn.	R	7				
+290960	292080	What does that look like?	R					
+292080	293680	It just looks...	id159		S			
+294800	296480	I don't know.	id159		S			
+296480	298000	Make your best guess.	R					
+298880	301200	It just looks like a...	id159		S			
+301200	304400	A hanger for a dad when they go to work.	id160		L		a hanger for a dad when they go to work	x
+307120	310480	What does look like a person walking?	id160		L		a person walking	x
+311680	312160	It's...	id159		S			
+312880	318480	There's a diamond on the top and a shape on the bottom that I don't know.	id159		S		a diamond on the top and a shape on the bottom that I don’t know	
+319680	320480	That's okay.	R					
+320480	321600	We're going to keep going.	R	8				
+321600	322080	Good job.	R					
+322960	324480	What's in the box?	id159		L			x
+324480	324960	Okay.	R					
+324960	326480	Now what do you see in the box?	R					
+326480	328880	It looks like something on the top.	id160		S		something on the top	
+330080	331920	A diamond on the top.	id160		S		a diamond on the top	
+332480	335520	It looks like a person walking with no hands.	id160		S		a person walking with no hands	
+342160	342960	Good job.	R					
+343760	344720	I win.	id159		L			
+344720	346000	You guys are doing great.	R	9				
+346000	346400	Okay.	R					
+346400	347840	Now it's your turn, [id159].	R					
+347840	349040	It just looks...	id159		S			
+349040	356160	It tells me there's like a diamond on the top and it looks like a shoe.	id159		S		a diamond on the top and it looks like a shoe	
+357360	357600	Okay.	R					
+357600	358960	Now touch the one that you think it is.	R					
+359760	360400	Awesome.	R					
+362000	363040	We're going to keep going.	R	10				
+363760	365440	It looks like a bow tie.	id160		S		a bow tie	
+366400	371280	I mean, I mean something that dad would wear when they go to work.	id160		S		something that dad would wear when they go to work	
+372880	376480	You mean the diamond on the back right now?	id159		L		the diamond on the back	x
+377600	378560	I don't know.	id160		S			
+378560	380480	What do you see, [id159]?	R					
+381040	385040	I see there's a diamond on the back of this person with no hands.	id159		L		a diamond on the back of this person with no hands	x
+385040	388960	And this one looks like a diamond on the top.	id159		L		a diamond on the top	x
+390480	392000	Which one do you see in the black box?	R					
+393920	394800	I don't know.	id160		S			
+394800	395360	That's okay.	R					
+395360	397040	Tell [id159] what you think it looks like.	R	 				
+397040	402000	It looks like something a bow tie that dad would wear when they go to work.	id160		S		a bow tie that dad would wear when they go to work	
+404160	405360	Touch the one that you think it is.	R					
+406320	407360	You can make your best guess.	R					
+409120	409760	Good job.	R	11				
+410960	411520	I know it.	id160		L			
+411520	413440	I just almost kind of fell asleep.	id159		S			
+413440	414560	Oh, okay.	R					
+414560	417760	Well, now you can tell [id160] what you see.	R	 				
+417760	418960	I didn't know what it is.	id160		L			
+419760	425520	So there's a bow tie on the top of a shoe that's...	id159		S		a bow tie on the top of a shoe	
+426400	427200	Good job.	R					
+428880	429360	Awesome.	R					
+430160	430960	It's [id160]'s turn.	R	12				
+431600	432720	What's in the black box?	R					
+432720	435200	It's something that has a diamond on the top.	id160		S		something that has a diamond on top	
+440000	440640	That's okay.	R					
+441440	442560	We can have another turn.	R	13				
+443520	451120	So in the box, there's a diamond on here and it's on a shoe.	id159		S		diamond on here and it’s on a shoe	
+454880	455600	Perfect.	R	14				
+459600	460480	What's in the bottom?	id159		L			x
+463840	465440	A diamond on the top.	id160		S		a diamond on the top	
+466800	468800	In the middle.	id160		S		in the middle	
+470240	470880	Middle?	id159		L			x
+470880	471360	Yeah.	id160		S			
+472240	473360	I don't know what it is.	id160		S			
+474400	475760	Still have your best guess.	id160		S			
+476640	479440	Can you tell [id159] more about what it looks like?	R					
+479440	480080	What do you see?	R					
+480400	483360	I have two triangles on the top.	id160		S		two triangles on the top	
+485760	486720	Great job.	R	15				
+486720	489520	I saw something that like fell backwards.	id159		S			
+489520	489920	What?	R					
+490560	492960	Okay, now it's your turn to tell [id160] what you see.	R					
+492960	498480	There's like a diamond on his back with no hand to his feet and a head looking on the...	id159		S		a diamond on his back with no hand to his feed and a head looking 	
+499120	499840	Good job.	R					
+499840	500800	That was so quick.	R					
+501680	503600	Okay, now you're going to tell [id159] what you see.	R	16				
+503600	506640	It looks like a bow tie.	id160		S		a bow tie	
+512000	512560	That's okay.	R					
+513680	513920	No.	id160		S			
+514880	515920	Okay, now it's your turn.	R	17				
+517440	519440	I almost said you keep like...	id160		L			
+522400	522960	I just said...	id159		S			
+524080	524880	Oh my goodness.	R					
+524880	528000	Okay, well now [id159]'s going to tell so let's turn our list.	R					
+528000	533600	In the box there's a diamond and then there's like a...	id159		S		a diamond 	
+533600	534960	It looks like a jay.	id160				a J	x
+534960	536560	Let's use your words.	R					
+536560	538880	Something that looks like a jay.	id160				a J	x
+538880	540400	It just looks like a jay.	id159				a J	x
+543520	544240	Good job.	R					
+547760	549120	Now it's your turn, [id160].	R	18				
+549120	549680	The next one.	id160		S		a diamond on the top	
+551680	553360	A diamond on the top.	id160		S		and a triangle on the bottom	
+555200	557280	And a triangle on the bottom.	id160		S			
+558960	561120	Touch the one that you see.	R					
+561120	561840	Good job.	R	19				
+565760	567120	Now it's [id159]'s turn.	R					
+567120	574800	So in the box there is like two triangles on the top and one's a triangle on the bottom	id159		S		two triangles on the top and one’s a triangle on the bottom	
+574800	575760	that's like this.	id159		S			
+576400	578000	Remember use your words, not your hands.	R					
+580560	581280	Good job.	R	20				
+581280	582560	She's kidding me.	id159		L			
+584000	585040	What's in the box?	id159		L			x
+585760	587360	Now [id160], what do you see in the box?	R					
+587360	590080	This looks like a man with a triangle on his head.	id160		S		a man with a triangle on his head	
+592560	593120	A man?	id159		L		a man	x
+593840	594080	Yeah.	id160		S			
+598960	599680	Good job.	R					
+603840	605520	You guys finished my game.	R					
+606240	608080	Thank you so much for playing.	R					
+609680	610560	Did you have fun?	R					
+611600	612080	Yes.	id160					

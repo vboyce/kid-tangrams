@@ -1,0 +1,168 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+13000	18000	So today, we're going to play a fun matching game.	R					
+18000	23000	But before we do that, we're going to practice touching our iPads	R					
+23000	27000	by playing a little game of popping bubbles, okay?	R					
+27000	31000	So I want each of you to press the blue button on your screen.	R					
+31000	32000	I did.	id240					
+32000	33000	You did?	R					
+33000	34000	I did.	id240					
+34000	35000	And I want you to pop all the bubbles.	R					
+35000	41000	Just touch them, yeah.	R					
+41000	46000	And when you get new bubbles, I want you to pop those ones.	R					
+46000	53000	Yeah, so just like, yeah, there you go.	R					
+53000	54000	Awesome.	R					
+54000	59000	Let's just wait for you to finish now.	R					
+59000	63000	Almost there, [id239].	R					
+63000	64000	Yeah.	R					
+64000	67000	And now top the red one.	R					
+67000	69000	Can I see?	id240					
+69000	70000	No.	R					
+70000	73000	We're going to be using our own iPad today.	R					
+73000	76000	So today, we're going to help Smurphy.	R					
+76000	77000	This is Smurphy.	R					
+77000	79000	Do you guys want to say hi?	R					
+79000	80000	Hi.	id240					
+80000	82000	Smurphy says hi back.	R					
+82000	86000	So each of you on your screen is going to see two pictures.	R					
+86000	90000	One of the pictures will be in a black box.	R					
+90000	94000	Smurphy's job is to guess which picture is in the black box	R					
+94000	96000	and you guys get to help Smurphy.	R					
+96000	98000	I know what it is. Banana	id240					
+98000	100000	Yeah, exactly.	R					
+100000	101000	So if you see the-	R					
+101000	102000	This is an apple.	id240					
+102000	103000	That is true.	R					
+103000	108000	If you see the black box on your screen, your job is to tell Smurphy	R					
+108000	111000	which picture is in the black box.	R					
+111000	114000	If you don't see the black box on the screen	R					
+114000	116000	and you're holding Smurphy,	R					
+116000	121000	your job is to help Smurphy guess which picture is in the black box.	R					
+121000	126000	If you think you know which picture it is,	R					
+126000	129000	you're just going to go ahead and touch that picture.	R					
+129000	133000	If you get it right, you'll get a smiley face.	R					
+133000	136000	If you don't, you'll get a frowny face,	R					
+136000	140000	but that's okay because Smurphy has a lot more chances to guess.	R					
+140000	143000	You're going to take turns guessing and telling.	R					
+143000	150000	So if you see the black box on your screen, what should you do?	R					
+150000	152000	Put it on the screen.	id240					
+152000	156000	You're going to tell Smurphy which picture is in the black box.	R					
+156000	160000	And if you don't see the black box and you're holding Smurphy,	R					
+160000	163000	what do you do?	R					
+163000	164000	Tap.	R					
+164000	165000	Does that make sense, [id239]?	R					
+165000	166000	Yeah.	id240					
+166000	168000	You're going to help Smurphy guess.	R					
+168000	170000	All right.	R					
+170000	172000	Now we can get started.	R					
+172000	175000	You can press the blue button on your screen.	R					
+175000	178000	Which of you sees a black box?	R	1				
+178000	179000	Not me.	id240		L			
+179000	180000	Me.	id239		S			
+180000	181000	All right.	R					
+181000	185000	So you'll be telling [id240] what's in the black box.	R					
+185000	187000	Banana.	id239		S		banana	
+187000	190000	And you can just tap it when you think you know what it is.	R					
+190000	191000	Me?	id240		L			
+191000	193000	Yeah.	R					
+193000	194000	Awesome.	R	2				
+194000	196000	We're going to pass Smurphy.	R					
+196000	198000	And now it's [id240]'s turn.	R					
+198000	203000	I have an eagle.	id240		S			
+203000	205000	I see doggie.	id240		S			
+205000	207000	Which one is in the black box?	R					
+207000	208000	You can't.	R					
+208000	210000	We're going to use our words today.	R					
+210000	211000	Eagle.	id240		S		eagle	
+211000	217000	Do you want to tap it, [id239]?	R					
+217000	222000	Awesome.	R	3				
+222000	226000	What do you see in the black box, [id239]?	R					
+226000	229000	A star.	id239		S		a star	
+229000	231000	You think you know which one it is?	R					
+234000	238000	Do you want to use more words to describe what you see in the black box?	R					
+238000	241000	Which one?	id240		L			
+241000	244000	It's blue.	id239		S		blue	
+244000	245000	Can I see?	id240		L			
+245000	247000	No, you have to use your words.	R					
+247000	251000	Oh, but this one?	id240		L			
+251000	253000	Why don't you take your best guess?	R					
+253000	254000	Yeah.	R					
+254000	255000	This one?	id240		L			
+255000	258000	Just choose one.	R					
+258000	260000	Is it this side?	id240		L			
+260000	264000	They're going to be on different sides.	R					
+264000	267000	Is it this side?	id240		L			
+267000	270000	Just take a guess, yeah.	R					
+270000	273000	Tap it.	R					
+273000	275000	That's okay.	R	4				
+275000	277000	We have a lot more chances.	R					
+277000	280000	What do you see in the black box, [id240]?	R					
+280000	283000	A crown.	id240		S		a crown	
+283000	286000	Is it a crown?	id240		S			
+286000	298000	You think you know which one it is, [id239]?	R					
+298000	299000	Awesome.	R	5				
+299000	303000	Great job.	R					
+303000	305000	What do you see in the black box, [id239]?	R					
+305000	309000	A bunny.	id239		S		a bunny	
+309000	313000	Press it when you think you know what it is.	R					
+313000	320000	Oh, that's okay.	R	6				
+320000	322000	What do you see in the black box, [id240]?	R					
+322000	330000	I see candy.	id240		S		candy	
+330000	339000	Awesome.	R	7				
+339000	342000	What do you see in the black box, [id239]?	R					
+342000	352000	A bunny.	id239		S		a bunny	
+352000	359000	That's a bunny.	id240		L			x
+359000	362000	What do you see in the black box, [id240]?	R	8				
+362000	365000	What does it look like?	R					
+365000	368000	It looks like that.	id240		S			
+368000	374000	Do you want to ask her a question, [id239]?	R					
+374000	375000	No.	id239		L			
+375000	376000	No?	R					
+376000	378000	Why don't you just take a guess then?	R					
+378000	382000	It had a hammer.	id240		S		a hammer	
+382000	387000	A head looking down.	id240		S		a head looking down	
+387000	392000	Why don't you take a guess, [id239]?	R					
+392000	394000	It's a sculpture.	id240		S		a sculpture	
+394000	396000	Awesome.	R	9				
+396000	400000	Yeah, it's that.	id240		L			
+400000	406000	What do you see, [id239]?	R					
+406000	411000	What does it look like?	R					
+411000	418000	looking down, something looking down.	id239		S		looking down, something looking down	
+418000	425000	Awesome.	R	10				
+425000	426000	What does it look like?	R					
+426000	428000	Oh, yeah.	R	11				
+428000	431000	We can also wait for clues.	R					
+431000	432000	What does it look like, [id239]?	R					
+432000	434000	We're not even going to do the clues.	id240		L			
+434000	438000	A bunny.	id239		S		a bunny	
+438000	440000	A bunny?	id240		L			
+440000	442000	Yes, when you think you know.	R					
+442000	446000	Awesome.	R	12				
+446000	448000	What does it look like, [id240]?	R					
+448000	449000	This.	id240		S			
+449000	458000	Candy.	id240		S		candy	
+458000	462000	Awesome.	R	13				
+462000	464000	What does it look like, [id239]?	R					
+464000	469000	A bunny.	id239		S		a bunny	
+469000	474000	Awesome.	R					
+474000	478000	What does it look like, [id240]?	R	14				
+478000	484000	A head looking down.	id240		S		a head looking down	
+484000	488000	Great.	R	15				
+488000	490000	What does it look like, [id239]?	R					
+490000	498000	Candy.	id239		S		candy	
+498000	505000	What does it look like, [id240]?	R	16				
+505000	513000	Sculpture.	id240		S		sculpture	
+513000	515000	Sculpture, a down sculpture	id240		S		a down sculpture	
+515000	520000	Awesome.	R	17				
+520000	529000	What does it look like, [id239]?	R					
+529000	537000	Something looking down.	id239		S		something looking down	
+537000	539000	What do you see, [id240]?	R	18				
+539000	547000	Candy.	id240		S		candy	
+547000	551000	What do you see, [id239]?	R	19				
+551000	556000	Something looking down.	id239		S		something looking down	
+556000	560000	This.	id240		L			
+560000	564000	Awesome.	R	20				
+564000	566000	What do you see, [id240]?	R					
+566000	576000	Something looking down.	id240		S		something looking down	
+576000	577000	Awesome, you're done.	R					
+577000	579000	Thank you so much for playing my game.	R					
+579000	582000	I'm going to stop the recording now.	R					

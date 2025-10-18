@@ -1,0 +1,271 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	6000	Alright, and then let me know if you want to go back to the classroom at any point, okay?	R					
+6000	9000	Okay, why is the camera not flashing?	id231					
+9000	12000	It is flashing, it's just flashing in the back.	R					
+12000	17000	Okay, so today we're going to play a fun matching game, but before we do that,	R					
+17000	22000	we're going to practice touching our iPads by playing a game of popping bubbles.	R					
+22000	24000	Why? Is there a stuffy?	id231					
+24000	29000	I'll explain in one moment. You want to press the blue button on your screen?	R					
+29000	32000	And I want you to pop all the bubbles.	R					
+34000	37000	Yeah, great job.	R					
+37000	40000	And then you want to pop the rest of the bubbles.	R					
+45000	50000	Yeah, if you just tap quickly, yeah.	R					
+50000	53000	You can just go like this, like this, yeah.	R					
+55000	57000	Look!	id232					
+57000	61000	Oh, you finished. Now we just have to wait for [id231], and he's almost...	R					
+61000	63000	And [id231] finished, too. Awesome.	R					
+63000	67000	Okay, so now I'm going to explain the matching game, okay?	R					
+67000	71000	So today we're going to help out Smurphy.	R					
+71000	73000	This is Smurphy, do you guys want to say hi?	R					
+		hi	id231					
+73000	75000	Smurphy says hi back.	R					
+75000	79000	So each of you on your screen is going to see two pictures,	R					
+79000	83000	and one of you will see a picture surrounded by a black box.	R					
+83000	88000	And Smurphy's job is to guess which picture is inside the black box,	R					
+88000	90000	and you guys get to help him, okay?	R					
+90000	93000	So one of you on your screen will see the black box,	R					
+93000	100000	and that person's job is to tell Smurphy which picture is in the black box.	R					
+100000	102000	So you'll use your word to tell Smurphy.	R					
+102000	106000	The other person will not see a black box,	R					
+106000	111000	and their job is to help Smurphy guess which picture is in the black box.	R					
+111000	114000	And when you feel pretty sure you know which picture it is,	R					
+114000	116000	you're just going to touch that picture.	R					
+116000	119000	If you get it right, you'll see a smiley face.	R					
+119000	121000	If not, you'll see a frowny face,	R					
+121000	124000	but that's okay because Smurphy has more chances.	R					
+124000	128000	So you're going to take turns guessing and telling.	R					
+128000	132000	If you see the black box, what do you do?	R					
+132000	135000	Tell Smurphy.	id231					
+135000	137000	You tell Smurphy, that's exactly right.	R					
+137000	140000	You'll tell Smurphy what's in the black box.	R					
+140000	146000	If you don't see the black box and you're holding Smurphy, what should you do?	R					
+146000	149000	You touch it, yeah, you're going to help Smurphy guess.	R					
+149000	153000	All right, we're ready to begin.	R					
+153000	157000	Do you guys want to touch the blue button?	R					
+157000	159000	Okay, which of you sees the black box?	R	1				
+		me	id232		S			
+159000	164000	So you're the teller, and you're going to help Smurphy guess.	R					
+164000	165000	So what do you see?	R					
+165000	169000	Which one is in the black box?	R					
+		banana	id232		S		banana	
+169000	174000	And then you can press whichever one you think that is.	R					
+174000	177000	Yeah, and now we pass Smurphy.	R					
+177000	179000	And now it's your turn.	R	2				
+179000	180000	What do you see?	R					
+180000	182000	A dog.	id231		S		a dog	
+182000	183000	Me too.	id232		L			
+183000	188000	So you can press the one that you think he's describing.	R					
+188000	190000	Dog.	id232		L			
+		Dog.	id231		S			
+190000	195000	There you go.	R					
+195000	197000	All right, what do you see?	R	3				
+197000	199000	Sun.	id232		S		sun	
+199000	201000	Sun.	id232		S			
+201000	202000	What?	id231		L			
+202000	203000	Sun.	id232		S			
+203000	204000	Sun?	id231		L			
+204000	206000	Sun in a box.	id232		S			
+206000	212000	Sun in a box.	id232		S			
+212000	215000	Do you want to ask any questions, [id231], or do you think you know which one it is?	R					
+215000	216000	This one.	id231		L			
+216000	218000	Then you can just press it.	R					
+218000	221000	Awesome.	R	4				
+221000	222000	Now it's your turn, [id231].	R					
+222000	223000	What do you see?	R					
+223000	230000	A square half triangle in a box.	id231		S		a square half triangle 	
+230000	232000	Which one do you think it is, [id232]?	R					
+232000	234000	Not the...	id231		S			
+234000	236000	Oh, you got it.	R					
+236000	239000	Yeah.	R	5				
+239000	242000	All right, what do you see, [id232]?	R					
+242000	245000	Garbage in a box.	id232		S		garbage 	
+245000	247000	Which one is it?	id231		L			
+247000	248000	This one?	id231		L			
+248000	249000	On your left?	id231		L			
+249000	252000	They're going to be on different sides, but you can ask him questions.	R					
+252000	253000	This one?	id231		L			
+253000	258000	This one.	id231		L			
+258000	261000	So you have to use your words to describe, but that's okay.	R	6				
+261000	263000	We have more chances.	R					
+263000	264000	Who?	id232		L			
+264000	266000	What do you see, [id231]?	R					
+266000	268000	I saw this side.	id231		S			
+268000	274000	So it's not going to be on the same side, but what does it look like?	R					
+274000	276000	It looks...	id231		S			
+276000	279000	Oh, okay.	R	7				
+279000	282000	What do you see, [id232]?	R					
+282000	285000	What does it look like?	R					
+285000	287000	A bunny?	id232		S		a bunny	
+287000	291000	Yeah.	id232		S			
+291000	295000	Yeah, great job.	R	8				
+295000	297000	All right, what do you see, [id231]?	R					
+297000	299000	Is there a yeti on your shirt?	id231		S			
+299000	300000	There is.	R					
+300000	302000	You can wait for him to guess.	R	9				
+302000	304000	What is a yeti?	id232		S			
+304000	305000	What do you now see, [id232]?	R					
+305000	306000	It looks like a big foot.	id231		L			
+306000	307000	In the box.	R					
+307000	309000	What do you see in the box?	R					
+309000	313000	Yeti.	id232		S		yeti	
+313000	315000	There's no yeti.	id231		L			x
+315000	317000	We can't turn around the picture.	R					
+317000	319000	Do you want to ask any questions, [id231]?	R					
+319000	321000	I want to see it.	id232		S			
+321000	322000	We can't see it.	R					
+322000	324000	We have to use our words for this game.	R					
+324000	330000	Is it the thing that looks like a banana that's like...	id231		L		a banana	x
+330000	336000	We can't use our hands, but do you want to describe it using any more words?	R					
+336000	337000	[id232]?	R					
+337000	338000	No.	id232		S			
+338000	339000	No?	R					
+339000	343000	This is the thing that looks like a banana and how...	id231		L			x
+343000	344000	Look.	id232		S			
+344000	349000	But it's not...	id232		S			
+349000	351000	Which one are you pushing, [id232]?	id231		L			
+351000	356000	You can just take your best guess if you think you know what it is.	R					
+356000	358000	It's okay if you get it wrong.	R					
+358000	360000	I'll push both.	id231		L			
+360000	365000	You can only push one, but...	R					
+365000	368000	I did it.	id231		L			
+368000	369000	All right.	R					
+369000	371000	What do you see, [id231]?	R	10				
+371000	373000	Oh.	R					
+373000	377000	You can wait to guess, so you can have a better chance of getting it right.	R	11				
+377000	381000	It's a...	id231		L			
+381000	386000	This one looks like a bird with a little flag on its back walking.	id231		L		a bird with a little flag on its back walking	x
+386000	389000	Which one is it, [id232]?	R					
+389000	391000	Do you want to use your words to tell?	R					
+391000	393000	This one.	id232		S		this one	
+393000	397000	You can't look, but what does it look like to you, [id232]?	R					
+397000	398000	This plus one.	id231		L			
+398000	399000	It's...	R					
+399000	404000	[id232], do you want to try and help him figure out which one is inside the black box?	R					
+404000	405000	This one.	id232		S			
+405000	407000	And what does it look like?	R					
+407000	417000	A flag that has what he said about...	id232		S		a flag that has what he said about	
+417000	420000	Do you want to ask him a question, [id231], about which one it is?	R					
+420000	421000	I don't know.	id231		L			
+421000	422000	You don't know?	R					
+423000	424000	Yeah, okay.	R					
+424000	427000	Why don't we just press one, then, and we can move on?	R					
+427000	429000	You want to just press one, [id231]?	R					
+435000	436000	All right.	R	12				
+436000	438000	Now it's your turn to describe, [id231], and you can wait to guess.	R					
+438000	440000	You can wait to guess.	R					
+440000	442000	Oh.	R	13				
+442000	445000	It's okay to wait to guess, [id232].	R					
+445000	448000	And then you'll have a better chance of getting it right.	R					
+448000	449000	Okay.	R					
+449000	451000	What do you see, [id232]?	R					
+452000	456000	What does it look like?	R					
+456000	457000	This.	id232		S			
+459000	464000	Like, how might [id231] differentiate it from the other one?	R					
+466000	469000	Do you want to ask him a question about which one it is, [id231]?	R					
+469000	470000	I don't know.	id231		L			
+470000	477000	And the one that looks like a pterodactyl, with a flag on it back again.	id231		L		a pterodactyl with a flag on its back	x
+479000	480000	Press it.	id232		S			x
+480000	482000	You want to help him out, though, [id232]?	R					
+482000	485000	Tell him which one it might be inside the black box.	R					
+487000	489000	What does it look like?	R					
+494000	495000	a pterodactyl with a flag on its back 	id232		S		a pterodactyl with a flag on its back	
+495000	496000	Why don't you take a guess, [id231]?	R					
+496000	498000	You have to press with your fingers.	R					
+498000	499000	Yeah.	R					
+506000	507000	All right.	R	14				
+507000	509000	Now it's your turn to describe, [id231].	R					
+511000	514000	Let's try and guess based on what he says, [id232].	R					
+514000	516000	What do you see, [id231]?	R					
+516000	521000	It looks like a pterodactyl with a flag on it back again.	id231		S		a pterodactyl with a flag on its back	
+525000	526000	Is it white?	id232		L			x
+526000	528000	You press it when you think you know what it is.	R					
+528000	529000	Yeah.	R					
+529000	530000	Press it, [id231].	id232		L			
+530000	531000	Oh, you press it.	R					
+531000	532000	You press it, yeah.	R					
+532000	533000	I press it.	id232		L			
+533000	536000	You've got to tap it and then come back up.	R					
+536000	537000	Yeah.	R					
+537000	539000	Hey, great job.	R	15				
+539000	541000	All right.	R					
+541000	543000	Now what does it look like, [id232]?	R					
+546000	549000	Can you use your words to say what it is?	R					
+549000	552000	Does it look like Peter Rabbit?	id231		L		peter rabbit	
+552000	553000	Yeah.	id232		S			x
+553000	554000	Okay.	R					
+554000	555000	Press it.	id232		S			
+556000	557000	Great job.	R					
+558000	561000	What does it look like, [id231]?	R	16				
+561000	563000	And you can wait to press, [id232].	R					
+563000	568000	It looks like a bird walking with a flag on its back.	id231		S		a bird walking with a flag on its back	
+568000	570000	Let's see.	id232		L			
+570000	571000	Press it.	id232		L			
+571000	574000	Oh, you press it when you think you know what it is, [id232].	R					
+575000	577000	You go like this.	R					
+580000	581000	Just quick.	R					
+583000	584000	Try it one more time.	R					
+587000	588000	Like that, yeah.	R					
+590000	592000	Here, you think it's this one, right?	R					
+593000	595000	You want me to press it for you?	R					
+595000	596000	Yeah.	id232		L			
+597000	598000	Great job.	R	17				
+599000	600000	All right.	R					
+600000	602000	Now what do you see, [id232]?	R					
+603000	605000	Trash in a box.	id232		S		trash	
+607000	609000	Trash in a box.	id232		S			
+612000	613000	A bird?	id231		L		a bird	
+613000	614000	No.	id232		S			x
+614000	615000	Trash in a box.	id232		S			
+615000	616000	Like a banana?	id231		L		a banana	x
+616000	618000	Yeah, in a box.	id232		S			
+619000	621000	It looks like trash.	id232		S			
+625000	626000	That's okay.	R	18				
+626000	628000	Why are there two cameras?	id232		L			
+628000	630000	We're not only using one of the cameras.	R					
+630000	632000	So that one's just, it's just there.	R					
+632000	634000	[id231], what do you see in the box?	R					
+636000	638000	Peter Rabbit.	id231		S		peter rabbit	
+639000	640000	I can't see.	id232		L			
+640000	641000	Do you think you know which one it is?	R					
+641000	644000	I can't see anything in the box.	R					
+644000	647000	I know because you're trying to guess which one is in the box.	R					
+649000	651000	I see Peter Rabbit.	id231		S			
+652000	653000	Great job.	R	19				
+654000	656000	All right, let's pass Murphy back.	R					
+657000	659000	And now what do you see in the box?	R					
+663000	665000	Do you want to help him out, [id231]?	R					
+666000	668000	And see, ask him a question.	R					
+671000	673000	What do you see on your screen, [id231]?	R					
+674000	677000	A pterodactyl with a flag or a banana.	id231		L		a pterodactyl with a flag or a banana	x
+677000	678000	I caught it.	id232		S			
+678000	679000	But I'm not off.	id232		S			
+679000	682000	And which one is in the black box?	R					
+683000	684000	Press it oak	id232		S			
+685000	686000	Which one?	id231		L			
+688000	690000	You want to give him a few words to help him out?	R					
+690000	691000	This one.	id232		S			
+691000	693000	I can't, I can't see.	id231		L			
+696000	698000	You want to ask him one more question, [id231]?	R					
+698000	699000	And then we can just press it.	R					
+699000	701000	What does it look like?	id231		L			
+704000	706000	Let's just take our best guess, [id231].	R					
+706000	707000	You can just press one of them.	R					
+707000	708000	It's okay.	R					
+710000	711000	Too close.	id232		S			
+718000	720000	All right, which one is it?	R	20				
+720000	724000	A bird with a flag on its back marching.	id231		S		a bird with a flag on its back marching	
+725000	727000	But what are you trying to guess?	id232					
+728000	730000	You're trying to guess what he just said.	R					
+730000	732000	So do you want to press the one that looks like that?	R					
+733000	734000	You think it's that one?	R					
+734000	736000	You want to just press it for me?	R					
+737000	738000	Like that?	R					
+739000	740000	York, should I press it for you?	R					
+740000	741000	You think it's this one?	R					
+742000	743000	Yeah?	R					
+745000	746000	All right.	R					
+749000	750000	Hey, great job.	R					
+750000	751000	We finished.	R					
+751000	753000	Thank you so much for playing my game.	R					
+753000	755000	I hope you had a good time.	R					
+755000	757000	I'm just going to stop the camera now.	R					

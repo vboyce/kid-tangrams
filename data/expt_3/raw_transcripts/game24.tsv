@@ -1,0 +1,276 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	3280	Alrighty, there it is.	R					
+3280	9440	Okay, so today we're going to play a fun ball matching game, but before we do that we're	R					
+9440	14280	going to get used to using the iPads, and so if you click the blue buttons, then we're	R					
+14280	19720	going to see some bubbles on the screen, and if you can click all the bubbles to pop them.	R					
+19720	20720	Nice.	R					
+20720	21720	Yep.	R					
+22440	30720	And then keep going until you see no bubbles, and there's going to be like a blue swan.	R					
+30720	32720	Oh, there it is.	R					
+32720	33720	Awesome.	R					
+33720	36960	Okay, so now I'm going to explain the rules of the game.	R					
+36960	38960	So this is Murphy.	R					
+38960	40960	Do you want to say hi to Murphy?	R					
+40960	41960	Hi Murphy.	id167					
+41960	42960	Hi.	id168					
+42960	48840	The goal of this game is to try to help Murphy to guess some pictures.	R					
+48840	52280	So on your screen, you're going to see two pictures.	R					
+52280	56400	One of them will have a black box around them, and your goal is to help Murphy to guess which	R					
+56400	58520	one has the black box around it.	R					
+58520	60520	So this one would be the banana.	R					
+60520	62520	Wait, don't like that one yet.	R					
+62520	64840	Wait until I'm not explaining the rules.	R					
+64840	66840	So leave the blue button on.	R					
+66840	69840	I knew you would say that.	id168					
+69840	71840	We can do it again.	id167					
+71840	72840	What?	R					
+72840	74520	Well, I'm explaining the new game now.	R					
+74520	76960	The bubbles were just to get used to using the iPads.	R					
+76960	82080	So in this game, you're going to see the two pictures, and when you see the black box,	R					
+82080	86320	then you're going to be the teller, and you're going to try to tell Murphy what you see in	R					
+86320	87880	the black box.	R					
+87880	91360	And then if you're the one holding Murphy, then you're going to be the guesser, and you're	R					
+91360	93400	going to see this, and there's no black box.	R					
+93400	97600	And your goal is to try to help Murphy guess which one the other person sees that has a	R					
+97600	99760	black box around it.	R					
+99760	102720	And so if you guess right, then you're going to see a smiley face.	R					
+102720	105120	And if you guess it wrong, you're going to see a frowny face.	R					
+105120	108720	But that's okay because we're going to have more chances to help Murphy.	R					
+108720	109720	Yeah.	R					
+109720	110720	Okay.	R					
+110720	115720	So if you see a black box around the picture, what are you going to do?	R					
+115720	120120	We're going to tell Murphy what's in it.	id168					
+120120	121120	Yeah.	R					
+121120	123200	So you're going to try to tell Murphy what's going on.	R					
+123200	126120	And if you're holding Murphy, what are you going to do?	R					
+126120	131120	Try to figure out which has the black box in it.	id168					
+131120	132120	Yeah, that's right.	R					
+132120	133120	You're going to be the guesser.	R					
+133120	134920	So you're going to listen to the teller and try to guess.	R					
+134920	135920	Okay.	R					
+135920	136920	I think yours are ready.	R					
+136920	137920	Okay.	R					
+137920	141920	So if you click the blue buttons and you can start, and don't click anything yet.	R					
+141920	142920	Okay.	R					
+142920	144920	So which one of you has the black box?	R	1				
+144920	145920	The apple.	id167	 	S		the apple	
+145920	146920	Okay.	R					
+146920	148920	So you have the black box?	R					
+148920	149920	Okay.	R					
+149920	150920	Yeah.	R					
+150920	151920	So you have the black box.	R					
+151920	153920	So we're not going to turn our iPads in this game.	R					
+153920	154920	We're going to use our words.	R					
+154920	156920	So then that means that you are the guesser.	R					
+156920	157920	So you get Murphy.	R					
+157920	162920	And so can you tell [id168] what is on the screen?	R					
+163920	167920	There's an apple, but the banana was not a square.	id167		S			
+167920	168920	Okay.	R					
+168920	170920	So you explain the one that has the box.	R					
+170920	173920	The box is on the banana.	id167		S			
+173920	174920	Here.	R					
+174920	175920	Yeah.	R					
+175920	177920	But on your screen, which one has the box around it?	R					
+177920	178920	The apple.	id167		S			
+178920	179920	Okay.	R					
+179920	181920	So then you're going to help Murphy guess.	R					
+181920	188920	So you're going to touch the iPad, whichever one follows what she said.	R					
+188920	190920	Push the apple.	id168		L			x
+190920	191920	Okay.	R					
+191920	192920	So click it.	R					
+192920	193920	Click a little harder.	R					
+197920	198920	Do I click?	id168		L			
+198920	199920	Try again.	R					
+202920	203920	Okay.	R					
+203920	204920	Let me try.	R					
+204920	205920	Okay.	R					
+205920	207920	So you just click a little longer and harder on it.	R					
+207920	208920	Okay.	R					
+208920	209920	And now we're going to switch.	R	2				
+209920	212920	So now you are going to be the guesser and you're going to be the teller.	R					
+212920	215920	So can you explain what you see in the black box?	R					
+215920	220920	The bird is in the box, but the dog is not.	id168		S		the bird	
+220920	221920	Okay.	R					
+221920	223920	So you only have to explain the one in the black box.	R					
+223920	224920	Okay.	R					
+224920	225920	Oh.	R					
+225920	226920	And then so you're going to guess.	R					
+226920	229920	So you're going to click what you think it is that he was explaining.	R					
+233920	234920	Okay.	R					
+234920	237920	So it wasn't right, but we're going to have more chances.	R	3				
+237920	242920	So now we're going to switch and now explain what you see in the black box.	R					
+242920	245920	It's a Mr. Sun in the box.	id167		S		a mister sun	
+251920	253920	It's the Sun in the box.	id168		L		the sun	x
+257920	261920	So try clicking with the middle of your finger and like holding it for a little longer.	R					
+263920	264920	Oh no, not your middle finger.	R					
+264920	266920	Just like, oh there you got it.	R					
+266920	267920	Awesome.	R					
+267920	268920	I knew it.	id168					
+268920	269920	Yeah.	R		L			
+269920	270920	And now.	R					
+270920	271920	I’m really good at the game.	id168		L			
+271920	272920	Yeah.	R	4				
+272920	273920	Okay.	R					
+273920	275920	So now you're going to be the guesser and you're going to be the teller.	R					
+275920	276920	So.	R					
+276920	279920	Try to explain what's in the black box.	R					
+279920	280920	So.	id168		S	so		
+280920	281920	So.	id168		S			
+281920	282920	So.	id168		S			
+282920	283920	What's that?	id168		S	what’s that		
+283920	284920	so, what’s that sort of soft circle that you throw at people?	id168		S	sort of soft circle that you throw at people. 		
+		what do you guess?	id167		L			
+302920	303920	are there any other ways to explain it?	R					
+303920	304920	It's a poop so.	id168		S	a poop		
+305920	306920	It's a big square.	id168		S	a big square		
+306920	307920	Listen to that. Be sure you’re listening to [id168]. 	R					
+312920	313920	It's a big.	id168		S	a big		
+317920	318920	It's a soft thing.	id168		S	a soft thing		
+319920	320920	That you throw at people.	id168		S	that you throw at people		
+320920	321920	Okay,	id167		L			
+321920	322920	Oh yeah,	R					
+322920	324920	you have your best guess.	R					
+327920	328920	you got to pick your finger up.	R					
+328920	329920	Yeah.	R					
+329920	332880	Hey, nice, alrighty.	R	5				
+332880	334200	And now you're gonna be the guesser here	R					
+334200	335520	and you're gonna be the teller.	R					
+336600	337940	So can you explain what's in the black box?	R					
+337940	340260	There's a people in the square.	id167		S	a people		
+341160	342840	There's a people in the square.	id168		L	a people	x	
+346360	347200	Okay.	R	6				
+347200	348040	Yes!	id168		S			
+348040	348960	I knew it.	id168		S			
+348960	350080	And now you're the guesser here again	R					
+350080	351480	and you're the teller.	R					
+351480	354260	There's a house with a diamond.	id168		S	a house with a diamond		
+355560	359200	There's a house with a diamond on the top.	id168		S	on the top		
+359200	360040	Okay.	id167		L			
+366560	369640	Oh, you gotta click like right on the image	R					
+369640	371480	that you think it is.	R					
+371480	372320	Yes!	R	7				
+372320	373240	Nice.	R					
+373240	374440	Okay.	R					
+374440	375880	Now you're the guest here	R					
+375880	377080	and you're the teller again.	R					
+383720	385360	It’s your turn to tell?	id167		S			
+385360	386320	Oh no, your turn to tell	R					
+386320	387760	because you have a black box.	R					
+389920	393160	There's a dog in the square.	id167		S	a dog		
+394960	396720	Wait, which one is the dog?	id168		L		x	
+396720	400480	Oh, well, you can also ask us a question	R					
+400480	401680	if you wanna learn more.	R					
+401680	405000	Oh, in this game, we're gonna use our words to tell.	R					
+405000	406520	[id168], what's in the black box?	R					
+406520	407520	There's a dog.	id167		S			
+407520	409960	Oh, well, that's okay.	R	8				
+409960	411520	You're gonna have more chances to help Murphy.	R					
+411520	412600	So we're gonna switch now.	R					
+412600	413640	Now you're gonna be the teller	R					
+413640	415440	and you're gonna be the guest here.	R					
+416440	421360	There's a steep hill with a box	id168		S	a steep hill with a box		
+421360	425840	and some triangles on top.	id168		S	and some triangles on top		
+427120	431960	They're on top of each other	id168		S	they’re on top of each other		
+		and?	id167		L			
+		and that’s all	id168		S	and that’s all		
+433200	434600	They're just in the box.	id168		S			
+436160	437920	You can just do like a quick tap.	R					
+441640	443680	Oh, that's okay.	R					
+443680	444840	We'll have more chances.	R	9				
+445560	447400	Okay, now it's your turn to guess	R					
+447400	448960	and your turn to tell.	R					
+448960	453960	There's someone, there's a person sitting in the square.	id167		S	a person sitting		
+464920	466160	Well, that's okay.	R	10				
+466160	467560	We're gonna switch again	R					
+467560	469800	and now it's your turn to guess	R					
+469800	471000	and your turn to tell.	R					
+476440	477760	So [id168], do you wanna help out [id167]	R					
+477760	480920	and tell her what you see in the box?	R					
+480920	483160	I see the same thing.	id168		S	the same thing		
+483160	485440	A steep hill, one,	id168		S	a steep hill		
+487760	488600	one,	id168		S			
+490760	494760	it's a person with two triangles on his head?	id168		S	a person with two triangles on his head		
+497880	499920	You can also ask him any questions that you wanna ask.	R					
+499920	500920	I press it.	id167		L			
+500920	502920	Yeah, if you think you know which one it is.	R					
+503680	508040	Oh, well, now we're gonna switch back to the other one.	R	11				
+508040	509480	Now, you're the teller.	R					
+509480	514480	I see a dog with a triangle.	id167		S	a dog with a triangle		
+521360	522600	Nice, okay.	R	12				
+522600	523880	And now we're gonna switch back	R					
+523880	525240	and you're gonna be the guesser again	R					
+525240	526640	and you're gonna be the teller.	R					
+527720	531440	I see some kind of creature	id168		S	some kind of creature		
+531440	534560	that if this is up,	id168		S	that if this is up		
+534560	536520	one is down like this	id168		S	one is down like this		
+536520	538720	and it's heading for him down	id168		S	and it’s heading for him down		
+538720	540720	and they'll sway on his back.	id168		S	and they’ll sway on his back		
+542280	543120	Okay.	id167		L			
+545200	546640	Nice okay.	R	13				
+546640	548360	Now we're gonna switch back.	R					
+548360	549760	Now you're the teller again.	R					
+553200	554680	So [id167], do you wanna give a description?	R					
+554680	559680	There's a person with a diamond on the top.	id167		S	a person with a diamond on the top		
+563760	565640	Yeah, that was fast.	R	14				
+565640	569000	All right, and now you're the guesser, you're the teller.	R					
+571040	574600	I see, I see, I see	id168		S			
+577360	580520	a whale going down,	id168		S	a whale going down		
+580520	583520	square at the top	id168		S	square at the top		
+583520	587120	and a triangle to hold it up.	id168		S	and a triangle to hold it up		
+587120	587960	Okay.	id167		L			
+589240	590560	Yay!	R	15				
+590640	591480	Nice.	R					
+591480	593240	All right, now we're gonna switch back.	R					
+593240	594240	Now you're the guesser	R					
+596040	597040	and you're the teller.	R					
+600600	604520	There's a mountain with some triangles.	id167		S	a mountain with some triangles		
+610640	611680	Nice.	R	16				
+611680	613520	All righty, here you go [id167].	R					
+613520	616560	You're the guesser and teller, you're the teller.	R					
+616560	617720	Same thing.	id168		S	same thing		
+618720	621720	So we've got a creature like this,	id168		S	a creature like this		
+621720	624720	like this, trying to go on the back.	id168		S	trying to go on the back		
+624720	625560	Okay.	id167		L			
+628720	631720	Well, there's gonna be more.	R	17				
+631720	633720	All righty, here you go.	R					
+633720	635720	And now it's your turn to tell.	R					
+635720	636720	How many more?	id168		L			
+636720	637720	I'm not sure.	R					
+637720	640720	There's a mountain with some triangles.	id167		S	a mountain with some triangles		
+641720	642720	Yay!	R	18				
+642720	643720	Nice.	R					
+643720	644720	You too.	R					
+644720	645720	Too easy.	id168		S			
+646720	648720	Now we're gonna switch back.	R					
+648720	649720	I'm the teller?	id167		L			
+649720	651720	You're guessing, because you're holding Smurphy	R					
+651720	653720	and so he's gonna tell.	R					
+653720	656720	I think I have a fish with the diamond on the top.	id168		S	a fish with the diamond on the top		
+658720	659720	Yes.	R	19				
+659720	660720	Now we switch back.	R					
+660720	661720	Yes.	id168		L			
+661720	662720	Here you go.	R					
+664720	666720	And so you're gonna be the teller	R					
+666720	667720	and you're the guesser.	R					
+667720	668720	I see	id167		S			
+670720	673720	a dog with some triangle.	id167		S	a dog with some triangle		
+676720	677720	Okay.	id168		L			
+681720	682720	Nice.	R	20				
+682720	683720	Yes.	R					
+683720	684720	There we go back.	R					
+684720	685720	You're the guesser.	R					
+685720	686720	You're the teller.	R					
+687720	689720	I say, say,	id168		S			
+691720	693720	creature like this,	id168		S	creature like this		
+693720	694720	down	id168		S	down		
+694720	697720	and a diamond on the back.	id168		S	and a diamond on the back		
+701720	703720	Oh, that's okay.	R					
+704720	705720	Oh.	R					
+705720	707720	So that's the end of the game.	R					
+707720	708720	Okay.	R					
+708720	709720	Thank you guys.	R					
+709720	710720	Thanks for playing my game.	R					
+710720	712720	And so now I'm gonna get your name tags	R					
+712720	714720	or I'm gonna stop the recording first.	R					
+714720	715720	But.	R					
+715720	716720	Alrighty.	R					

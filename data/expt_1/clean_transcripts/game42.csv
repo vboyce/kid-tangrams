@@ -193,8 +193,8 @@ start,end,text,speaker,trial,role,echo,description,backchannel
 405000,406000,Great.,I,,,,,
 406000,407000,Here you are.,I,9,,,,
 407000,417000,Now what do we see?,I,,,,,
-417000,427000,I see a guy with two foot and a line and a square.,id15,,S,,,Y
-417000,427000,I see a guy with two foot and a line and one square.,id15,,S,,a guy with two foot and a line and one square,Y
+417000,427000,I see a guy with two foot and a line and a square.,id15,,L,,,Y
+417000,427000,I see a guy with two foot and a line and one square.,id15,,L,,a guy with two foot and a line and one square,Y
 427000,429000,Let's listen to [id15].,I,,,,,
 429000,440000,"When we have Smurfy and when there's no black box, we just want to listen.",M,,,,,
 440000,441000,Okay?,M,,,,,

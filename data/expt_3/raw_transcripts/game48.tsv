@@ -1,0 +1,183 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	3000	We can play against each other.	R					
+3000	7000	Uh, no, you're working together, actually. It's a cooperative game.	R					
+7000	9000	Okay, so...	R					
+9000	11000	Let me guess, try to play.	id199					
+11000	15000	Okay, yeah, well, I'm gonna explain the game of how to play, so don't worry about it.	R					
+15000	18000	Um, so yeah, today we're gonna do a little fun matching game,	R					
+18000	21000	but before we do that, we're gonna learn how to use the iPads,	R					
+21000	23000	which I'm sure you guys know how to use them, but we're gonna practice, okay?	R					
+23000	25000	Yeah, I play every night and day.	id200					
+25000	26000	Exactly.	R					
+26000	27000	But we're gonna...	R					
+27000	29000	I play my iPad every night.	id199					
+29000	30000	Really? Nice.	R					
+30000	36000	Usually, I actually watch The Nature Show after I do some of my games.	id199					
+36000	37000	Uh-huh.	R					
+37000	39000	And there's a way to gather face paint.	id199					
+39000	41000	Yeah, it looks really cool.	R					
+41000	42000	Well, it's a rainbow.	id199					
+42000	43000	Yeah.	R					
+43000	45000	Yeah, I gather thumbs then for baseball games.	id199					
+45000	47000	Oh, wow. That's super fun.	R					
+47000	50000	Okay, so you guys can start by clicking the blue buttons.	R					
+50000	51000	You guys started.	R					
+51000	55000	And then, now, if you just touch the iPads and pop all the bubbles.	R					
+55000	58000	Awesome. Yeah, just like that.	R					
+59000	60000	Done.	id200					
+60000	61000	And now there's more.	R					
+63000	65000	Super speed. You're going so fast.	R					
+65000	66000	Awesome.	R					
+66000	68000	Now we're gonna wait for [id199] to finish.	R					
+68000	69000	Cool.	R					
+69000	72000	Okay, so now on your screens, you see this guy.	R					
+72000	73000	Yeah.	id200					
+73000	74000	This is Smurfy. Do you wanna say hi, Smurfy?	R					
+74000	75000	Hi, Smurfy.	id199					
+75000	81000	So, today, you're gonna be helping Smurfy to try to guess between two shapes that you see on your screen.	R					
+81000	85000	So, if you see a black box around your shape,	R					
+85000	87000	then you're gonna help Smurfy.	R					
+87000	89000	You're gonna tell Smurfy what you see inside the box.	R					
+89000	90000	Okay.	id200					
+90000	92000	Yeah, so you're gonna be the teller, just like that.	R					
+92000	95000	So, if you see the black box, you're gonna be the teller.	R					
+95000	98000	And if you're the one holding Smurfy, you're gonna be the guesser.	R					
+98000	103000	So, you're gonna listen to the teller and try to guess which one of them that they're talking about.	R					
+103000	107000	And when you think you know the right answer, then you're just gonna tap it on your screen, just like that.	R					
+107000	108000	Okay.	id200					
+108000	109000	Okay, so, just to...	R					
+109000	112000	Oh, and if you get it right, then you'll see a smiley face.	R					
+112000	114000	And if you get it wrong, you'll see a frowny face.	R					
+114000	117000	But that's okay, because there's a lot of chances to help Smurfy.	R					
+117000	118000	So, yeah.	R					
+118000	121000	If you see the black box, what are you gonna do?	R					
+121000	122000	Teller.	id199					
+122000	123000	Yeah.	R					
+123000	124000	You're gonna be the teller.	R					
+124000	126000	And then, if you're the one holding Smurfy, what are you gonna do?	R					
+126000	127000	Guess.	id200					
+127000	128000	Exactly.	R					
+128000	129000	Wow, you guys are doing great.	R					
+129000	131000	Okay, I think you guys are ready to play.	R					
+131000	134000	So, now, if you press the blue button, and we can get started.	R					
+136000	138000	All right, so, who has the black box?	R	1				
+138000	139000	I do.	id200		S			
+139000	143000	Okay, so that means you're gonna start, and you're gonna be the teller, and you're gonna be the guesser.	R					
+143000	145000	So, you can take Smurfy.	R					
+146000	147000	There you go.	R					
+148000	152000	So, [id200], could you tell [id199] what you see inside the black box?	R					
+153000	154000	Um, apple.	id200		S		apple	
+154000	155000	Yeah.	R					
+155000	159000	And then, [id199], when you have a guess, then you can just click the screen of which one you think it is.	R					
+161000	162000	Yeah, just like that.	R	2				
+162000	164000	Okay, I see a smiley face.	id200		L			
+164000	165000	Yeah.	R					
+165000	166000	Okay, so now we're gonna switch.	R					
+166000	170000	So, now, you have the black box, so you're gonna be the teller, and you're gonna be the guesser.	R					
+170000	173000	So, [id199], could you tell [id200] what you see inside the black box?	R					
+174000	175000	A dog.	id199		S		a dog	
+177000	178000	Nice.	R	3				
+178000	179000	Wow, we're going so fast, guys.	R					
+179000	180000	Okay, now we're gonna switch.	R					
+180000	182000	You're gonna be the guesser, and you're gonna be the teller.	R					
+185000	187000	I see a spike.	id200		S			
+187000	188000	A spike ball.	id200		S		a spike ball	
+191000	192000	Nice.	R	4				
+192000	194000	And now we're gonna switch back.	R					
+194000	196000	Now, you're gonna be the guesser, and you're gonna be the teller.	R					
+197000	199000	Uh, crown.	id199		S		crown	
+200000	202000	Up, upside down crown.	id199		S		Upside-down crown	
+204000	205000	Nice.	R	5				
+205000	207000	Okay, now we're gonna keep going.	R					
+207000	208000	You're the guesser, and you're the teller.	R					
+211000	213000	This weird-looking shoe.	id200		S		Weird-looking shoe	
+216000	218000	Okay, here's the other one, but that's okay.	R	6				
+219000	220000	Don't worry about it.	R					
+220000	221000	Now we're gonna switch.	R					
+221000	223000	Now you're gonna be the guesser, and you're gonna be the teller.	R					
+224000	229000	Um, someone walking in clothes, and they don't see the possum.	id199		S		someone walking in clothes and they don’t see the possum	
+232000	233000	Nice.	R	7				
+233000	234000	And now we're gonna switch.	R					
+234000	235000	You're gonna be the guesser.	R					
+237000	242000	Um, a shoe that has two, um, one spike that's big,	id200		S		a shoe that has one spike that’s big	
+242000	245000	and one other one that's smaller, and that's a square,	id200		S		and one other one that’s smaller and that’s a square	
+245000	252000	and a tip of a shoe that has a little, um,	id200		S		and a top of a shoe that has a little	
+253000	255000	triangle at the bottom.	id200		S		triangle at the bottom	
+255000	256000	Okay.	R	8				
+258000	259000	Nice.	R					
+259000	260000	There was a hand.	id200		L			
+260000	262000	Awesome, that was a great description.	R					
+262000	264000	Okay, and now you're going to be the guesser,	R					
+264000	266000	you're going to be the teller.	R					
+266000	274000	I see this bow with a square that's on tipping like this.	id199		S		this bow with a square that’s on tipping like this	
+277000	279000	Aw, here's the other one,	R	9				
+279000	280000	because don't worry about it.	R					
+280000	281000	Now we're gonna slide,	R					
+281000	283000	and you're gonna be the guesser.	R					
+284000	285000	You're the teller.	R					
+285000	289000	Um, this weird looking picture window.	id200		S		weird looking picture window	
+290000	291000	Oh, why?	R					
+293000	294000	Awesome.	R	10				
+294000	297000	I said a weird looking picture window.	id200		L			
+297000	299000	Oh, that worked.	R					
+299000	301000	Now you're gonna be the teller.	R					
+301000	305000	Um, this weird shoe.	id199		S		this weird shoe	
+309000	310000	Nice.	R	11				
+310000	311000	Now we’ll switch	R					
+314000	317000	Um, a man with a square on his back.	id200		S		a man with a square on his back	
+320000	321000	Nice.	R					
+322000	324000	We’ll swap	R	12				
+326000	327000	Um.	id200		L			
+327000	328000	Oh, you're the guesser.	R					
+328000	330000	So, [id199], you're the teller.	R					
+331000	333000	Um, no, that's right.	id199		S			
+333000	338000	Actually, we're looking to with this thing,	id199		S		this thing	
+338000	342000	part of a, doesn't have a square,	id199		S			
+342000	347000	part of a square, and the square tipping over,	id199		S		part of a square and the square tipping over	
+347000	354000	and the part of the square is facing down on the back.	id199		S		and the part of the square is facing down on the back	
+357000	358000	That's okay.	R	13				
+359000	361000	That's okay, we have more chances.	R					
+361000	362000	There you go.	R					
+362000	364000	Now you're gonna be the teller.	R					
+364000	366000	Oh, weird looking shoe.	id200		S		weird looking shoe	
+370000	371000	Nice.	R	14				
+375000	377000	Okay, now you're gonna be the teller.	R					
+377000	382000	Then this guy walking in here without being seen.	id199		S		this guy walking in here without being seen	
+382000	385000	A square on, does he have a square on his back?	id200		L		a square on his back?	x
+385000	386000	Yes.	id199		S			
+387000	388000	Nice.	R					
+389000	390000	Now we're gonna swap back.	R					
+390000	391000	You're the guesser.	R					
+391000	392000	You’re the teller?	R	15				
+393000	396000	Um, a weird looking shoe that has two.	id200		S		a weird looking shoe that has two	
+396000	399000	No, you don't have to say that.	id199		L			x
+400000	401000	You already knew.	R					
+401000	402000	You knew so fast.	R					
+403000	405000	Now you're gonna be the guesser and you're the teller.	R	16				
+406000	408000	This is weird looking banana.	id199		S		a weird looking banana	
+410000	411000	Yay!	R	17				
+412000	414000	Now you're the guesser and you're the teller.	R					
+415000	424000	Um, weird looking shoe banana.	id200		S		weird looking shoe banana	
+425000	426000	Nice.	R	18				
+428000	430000	Now you're the guesser and you're the teller.	R					
+432000	434000	This is weird looking banana.	id199		S		weird looking banana	
+435000	436000	Yay!	R					
+436000	437000	Nice.	R	19				
+438000	443000	This shoe is a square that's tippin' off.	id200		S		this shoe is a square that’s square off	
+445000	446000	Yay!	R					
+446000	447000	Wow.	R	20				
+448000	449000	You're doing great guys.	R					
+450000	451000	You know you're the teller.	R					
+452000	456000	There's this guy walking in this clothes.	id199		S		this guy walking in this clothes	
+457000	459000	Does he have a square on his back?	id200		L		a square on his back?	x
+459000	460000	Yes.	id199		S			
+461000	462000	Nice.	R					
+462000	463000	It did move.	id200		L			
+465000	468000	Oh, that's the end of the game guys.	R					
+468000	469000	Wow, you went so fast.	R					
+469000	470000	Okay, cool.	R					
+471000	473000	Well, I haven't had back to the classroom.	R					
+473000	476000	Well, I only have one game, but yeah.	R					
+476000	478000	Maybe when I have another game.	R					
+478000	479000	Or there's other game room teachers in there	R					
+479000	481000	that you could ask to go play games too.	R					
