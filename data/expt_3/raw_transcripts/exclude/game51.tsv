@@ -1,0 +1,129 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	3780	okay and then whatever you guys want then just let me know we can go back to	R					
+3780	8600	my classroom okay okay so today we're gonna play a fun little matching game	R					
+8600	13480	on the iPads I'll explain these guys later don't look at them yet but yeah so we're gonna play a little matching game	R					
+		what is that?	id206					
+		is that a prize?	id205					
+13480	18800	 I'll tell you later but so not a prize	R					
+18800	25400	it's part of the game I'll tell you 	R					
+		ooh, that’s soft	id205					
+		so it is you're gonna hold it later so but	R					
+25400	29400	first we're gonna get used to using the iPads and so to do that I want you to	R					
+29400	33600	press the blue button to get started and then just tap all the bubbles to make	R					
+33600	39000	them pop which I'm sure you guys know how to use an iPad yeah you're doing great	R					
+39000	43320	and so just keep popping the bubbles until you don't see it anymore	R					
+45720	53320	yep and now you see this guy so this is Murphy do you want to say hi Murphy	R					
+		hi Smurfy	id206					
+53320	58440	okay so in this game you're gonna be helping Smurphy to try to guess between	R					
+58440	65080	two shapes that you see under screens so you're gonna see two shapes if you	R					
+65080	69480	see a black box around the shape then you're gonna be the teller and you're	R					
+69480	74160	gonna tell Smurphy what you see inside the box okay so if you see the black	R					
+74160	78720	box you're the teller and then if you're the one holding Smurphy you're gonna be	R					
+78720	83160	the guesser so you're gonna help Smurphy guess which one you think it is and	R					
+83160	86560	when you think you know which one it is then you're just gonna tap the answer	R					
+86680	90720	that you think it is okay and if you get it right you'll see a smily face if	R					
+90720	93800	you get it wrong you'll see a frowny face but that's okay because there's gonna	R					
+93800	99520	be a lot more chances to help Smurphy so just to remember if you see the black	R					
+99520	101200	box what are you gonna do?	R					
+101200	103200	can it be my turn?	id205					
+105200	111200	 so if you see the black box then what are you gonna do?	R					
+111200	114800	tell her	id206					
+114840	117600	yeah you're gonna be the teller so you're gonna tell the other person what you see	R					
+117600	121560	inside the box and then if you're the one holding Smurphy what are you gonna do?	R					
+121560	122560	tell her	id206					
+122560	127560	you're gonna be the guesser so you're gonna guess what the other person is telling you	R					
+127560	129560	okay are you guys ready to get started?	R					
+129560	135560	yeah but can I please always be the guesser?	id205					
+135560	139280	oh well you guys get a switch back and forth so you get sometimes you're the	R					
+139280	142080	teller and sometimes you're the guesser	R					
+142360	148360	okay sounds good so do you want to press the blue button to get started?	R					
+148360	153560	alright so who has the black box around all the pictures okay so that means	R	1				
+153560	156440	you're gonna be the teller and you're gonna be the guesser so you're gonna be	R					
+156440	161400	the guesser first okay so [id206] could you tell her really what you see inside	R					
+161400	162400	the black box?	R					
+162400	163400	banana	id206		S		banana	
+163400	164400	okay	R					
+164400	165400	banana	id205		L			x
+165400	170920	okay yep just like that that's great yay and now we're gonna switch and so now	R	2				
+170920	175480	it's your turn to be the teller and your turn to be the guesser so [id205] could you	R					
+175480	176480	tell me	R					
+176480	177480	dog	id205		S		dog	
+177480	178480	yep	R					
+178480	179480	dog	id205		S			
+179480	184040	nice and then we're gonna switch back now you're gonna be the guesser again and you're	R	3				
+184040	185040	gonna be the teller	R					
+185040	188040	uh a pointy thing	id206		S		a pointy thing	
+188040	191040	hey which one is pointy?	id205		L			x
+191040	194040	that's the end of the box	id206		S			
+194040	197040	I don't see anything in the box	id205		L			
+197040	200840	oh yeah so [id205] doesn't have a box on her screen so you have to describe what	R					
+200840	202840	is inside the box	R					
+202840	203840	okay	id206		S			
+203840	207840	hey I didn't mean that so	id205		L			
+		on that side	id206		S			
+207840	211800	oh it's not gonna be on the same side either so just try to try to use your words to describe	R					
+211800	212800	what you see inside the box	R					
+212800	213800	wait what is it?	id206		S			
+213800	219120	it's okay if you don't know what it is just try to just try to describe it	R					
+219120	228040	it doesn't have does it have three spikes or more than three	id205		L			x
+		Uh three spikes	id206		S		three spikes	
+229040	230040	well	id205		L			
+230040	235040	oh wait let's not turn our screen let’s keep it facing you	R					
+235040	238040	can you tell me because I don't know what this is	id205		L			x
+238040	239040	wait	id206		S			
+239040	241040	I don't know what it is	id206		S			
+241040	243040	that's okay just give it your best shot	R					
+243040	253040	well which one what word does it have like is it a ball shape or is it not a ball shape	id205		L			x
+253040	258040	is it a ball and it has spikes or is it not a ball and it doesn't have spikes	id205		L			x
+258040	260040	it's a ball and has spikes on it	id206		S		a ball and has spikes on it	
+260040	263040	a ball and it has spikes on it	id205		L			x
+263040	265040	that's what she said I think	R					
+265040	266040	is it	id205		L			
+266040	271040	so well whenever you have a guess then you can just click the answer that you think it is	R					
+271040	272040	perfect	R	4				
+272040	274040	that’s how you play	R					
+274040	278040	okay yep so now you're gonna be the teller and you're gonna be the guesser	R					
+278040	282040	it's something that's pointy downwards	id205		S		something that’s pointy downwards	
+286040	289040	okay it is the other one but that's okay there's gonna be a lot more chances	R	5				
+289040	292040	so now we're gonna switch and you're gonna be the guesser	R					
+292040	294040	and now you're gonna be the teller	R					
+294040	295040	which one is it	id205		L			x
+295040	297040	it has a diamond	id206		S		a diamond	
+298040	300040	does it have a diamond on the top	id205		L		a diamond on top	x
+300040	301040	yeah	id206		S			
+303040	304040	nice	R	6				
+304040	306040	I can win it I can win it	id205		S			
+306040	308040	you guys are both winning you guys are working together	R					
+308040	310040	I know but I have more	id205		S			
+310040	313040	what okay well now it's your turn to be the teller	R					
+313040	315040	your turn to be the guesser	R					
+315040	320040	it has a square and a pointy thing on the other side	id205		S		a square and a pointy thing on the other side	
+322040	324040	that's okay	R	7				
+324040	326040	well more chances now we're gonna switch back	R					
+326040	328040	and now it's your turn to be the teller	R					
+328040	329040	which one is it	id205		L			x
+329040	331040	it has a square on the back	id206		S		a square on the back	
+331040	332040	what	id205		L			
+333040	335040	does it have a pointy snout	id205		L			x
+335040	337040	and a bit sticking	id205		L			x
+337040	339040	a pointy bit sticking up	id205		L		a pointy bit sticking up	x
+339040	340040	yeah	id206		S			
+342040	343040	nice	R	8				
+343040	344040	cool	R					
+344040	347040	now you're gonna be the guesser and you're gonna be the teller	R					
+348040	351040	it has two pointy things sticking up	id205		S		two pointy things sticking up	
+352040	354040	two pointies	id205		S			
+354040	355040	two pointies	id205		S			
+355040	356040	nice	R	9				
+357040	359040	now switching back	R					
+359040	362040	can I go back to playing that thing	id205		L			
+362040	363040	back to what	R					
+363040	364040	playing that thing	id205		L			
+364040	365040	oh	R					
+366040	368040	yeah well do you want to finish the game first	R					
+368040	370040	or do you want to leave right now	R					
+370040	371040	leave right now	id205		L			
+371040	372040	you want to leave right now	R					
+372040	373040	me too	id206		S			
+373040	375040	okay no worries	R					
+375040	377040	okay then we can head back to the classroom	R					

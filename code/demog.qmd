@@ -74,3 +74,35 @@ demogs <- raw_demog |>
   write_csv(here("data/clean_demog_1_2.csv"))
 ```
 
+# expt 3
+
+```{r}
+
+expt_3_demog <- read_csv(here("expt_3_demog.csv"))
+
+expt_3 <- read_csv(here("data/expt_3/clean_data.csv")) |>
+  select(game = gameId, speaker, listener) |>
+  pivot_longer(c("speaker", "listener"), values_to = "sid") |>
+  select(-name) |>
+  unique() |> 
+  mutate(expt=3)
+
+expt_3_demog <- read_csv(here("expt_3_demog.csv")) |> 
+ mutate(
+    date_test = mdy(date_test),
+    date_birth = ymd(date_birth)
+  ) |>
+  select(sid=SID, date_test, date_birth, hispanic, ethnicity, gender) |> 
+  full_join(expt_3) |> 
+  filter(!is.na(game)) |> 
+  mutate(
+    age_days = (date_test - date_birth) |> as.numeric(),
+    age_month = floor(age_days / 30.43)
+  ) |>
+  select(-age_days) |>
+  mutate(id=sid) |> 
+  select(expt, game, id, sid, gender, age_month, ethnicity, hispanic) |> write_csv(here("data/clean_demog_3.csv"))
+
+```
+
+

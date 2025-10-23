@@ -1,0 +1,184 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+8000	12000	Okay, so today we're going to be playing a matching game.	R					
+12000	15000	But before that, can we pop some bubbles?	R					
+15000	16000	Yeah.	id185					
+16000	20000	By pressing the blue button, let's tap the screen and pop all of the bubbles.	R					
+24000	25000	I did mine.	id185					
+25000	26000	You did yours?	R					
+26000	27000	I did mine.	id186					
+27000	29000	Oh, there's more bubbles.	R					
+29000	32000	Let's make sure to tap all of the bubbles.	R					
+32000	34000	Make them pop.	R					
+34000	36000	I did all of them.	id185					
+36000	37000	Yeah.	id185					
+38000	39000	Yay!	R					
+39000	40000	Murphy.	id186					
+40000	41000	Murphy.	R					
+41000	42000	Beautiful.	R					
+42000	45000	Now, this is a matching game and we have our friends Murphy.	R					
+45000	46000	Can we say hi to Murphy again?	R					
+46000	47000	Hi to Murphy.	id186					
+47000	48000	Hi to Murphy.	id185					
+48000	50000	Hi to [id185].	R					
+50000	54000	Okay, so this matching game takes in two pictures.	R					
+54000	56000	If once we press the blue button.	R					
+56000	58000	I know that.	id186					
+58000	59000	You know that.	R					
+59000	61000	Can I just explain it really, really quickly?	R					
+61000	62000	Why?	id186					
+62000	64000	Just to make sure that we know.	R					
+64000	66000	We know it already.	id185					
+66000	67000	Okay.	R					
+67000	70000	And so, if there's a black box, what do we do?	R					
+70000	71000	Tell the person.	id186					
+71000	72000	Tell the person.	R					
+72000	74000	And if you're holding to Murphy, what do we do?	R					
+74000	75000	Guess.	id186					
+75000	76000	Guess.	R					
+76000	78000	And if it's a match, there's a smiley face.	R					
+78000	81000	And if it's not a match, there's a frowny face.	R					
+81000	83000	But that's okay, because we can try again.	R					
+83000	84000	Are we ready?	R	1				
+84000	85000	Yeah.	id186		L			
+85000	86000	Okay, let's press the blue button.	R					
+86000	87000	I did.	id185		S			
+87000	90000	Who has the black box around the picture?	R					
+90000	91000	Me.	id185		S			
+91000	92000	Okay.	R					
+92000	94000	Now, [id186], can you guess?	R					
+94000	97000	And [id185], can you tell [id186] what you see?	R					
+97000	100000	I see a banana.	id185		S		a banana	
+100000	101000	Yay!	R					
+101000	103000	And now we pass Murphy.	R	2				
+103000	106000	And [id186], can you tell [id185] what you see?	R					
+106000	111000	Let's be careful with our friend, Murphy.	R					
+111000	114000	Can you tell [id185] what you see?	R					
+114000	116000	A dog.	id186		S		a dog	
+116000	117000	Yay!	R	3				
+117000	118000	Hide that.	id185		S			
+118000	119000	Okay.	R					
+119000	123000	Let's not throw, Murphy.	R					
+123000	127000	He's our friend.	R					
+127000	134000	I see a yellow sun.	id185		S		a yellow sun	
+134000	136000	Yay!	R	4				
+136000	141000	[id186], [id185], can you please not throw, Murphy?	R					
+141000	142000	He's our friend.	R					
+142000	147000	Let's treat him with love and care.	R					
+147000	150000	Okay, so [id186], can you tell [id185] what you see?	R					
+150000	151000	A crown.	id186		S		a crown	
+151000	152000	Yay!	R	5				
+152000	153000	Yay!	R					
+153000	156000	And now let's pass, Murphy.	R					
+156000	162000	Next time, can we try passing, Murphy?	R					
+162000	163000	A fly.	id185		S			
+163000	165000	Oh, there is a fly.	R					
+165000	166000	Oopsies.	R					
+166000	167000	It's okay.	R					
+167000	171000	Now, [id185], can you tell [id186] what you see?	R					
+171000	177000	I see a square.	id185		S		a square	
+177000	178000	Yay!	R	6				
+178000	181000	And let's pass, Murphy.	R					
+181000	183000	Let's pass, Murphy, to [id185].	R					
+183000	184000	Beautiful.	R					
+184000	187000	Thank you.	R					
+187000	191000	No, next time we don't throw it, we pass.	R					
+191000	193000	I see a diamond.	id185		L		a diamond	x
+193000	196000	Oh, [id185], it's your turn to guess.	R					
+196000	200000	I see a diamond.	id186		S		a diamond	
+200000	201000	Yay!	R	7				
+201000	202000	Yay!	R					
+202000	210000	Oh, and let's pass, Murphy.	R					
+210000	212000	No, let's not throw, Murphy.	R					
+212000	214000	Remember, he's our friend.	R					
+214000	215000	He's our friend.	R					
+215000	218000	What do you see?	id186		L			x
+218000	220000	It's your turn.	id186		L			x
+220000	224000	I see a diamond.	id185		S		a diamond	
+224000	225000	Yay!	R	8				
+225000	230000	Remember, let's pass, Murphy, to our friend.	R					
+230000	233000	Oh, no!	R					
+233000	238000	Okay, next time, can we please try passing, Murphy?	R					
+238000	240000	I see a diamond.	id185		L		a diamond	x
+240000	241000	No, it's my turn.	id186		S			x
+241000	242000	Oh, it is.	R					
+242000	243000	[id186]'s turn.	R					
+243000	246000	I see a square.	id186		S		a square	
+246000	247000	Yay!	R					
+247000	253000	Beautiful.	R	9				
+253000	258000	I see a diamond.	id185		S		a diamond	
+258000	263000	Yay!	R	10				
+263000	268000	I see a square.	id186		S		a square	
+268000	269000	Oh, no!	R	11				
+269000	271000	It wasn’t a match.	R					
+271000	272000	It was the wrong one.	id186		L			
+272000	273000	It was the wrong one, but it's okay.	R					
+273000	275000	We can try again.	R					
+275000	277000	I see a diamond.	id185		S		a diamond	
+277000	278000	Square.	id186		L		square	x
+278000	281000	Oh, this time it's [id185]'s turn to tell.	R					
+281000	282000	I see a diamond.	id185		S		a diamond	
+282000	284000	it’s your turn to guess.	R					
+284000	287000	I knew that.	id186		L			
+287000	289000	Yay!	R	12				
+289000	296000	Let's pass, Murphy.	R					
+296000	299000	A square.	id186		S		a square	
+299000	304000	Yay!	R	13				
+304000	308000	I see a square.	id185		S		a square	
+308000	312000	Whoo!	R	14				
+312000	314000	A diamond.	id186		S		a diamond	
+314000	317000	And can we pass, Murphy, to [id185]?	R					
+317000	320000	Hey!	R					
+320000	321000	He fell.	R					
+321000	323000	Just a little bit.	R					
+323000	324000	No.	R					
+324000	327000	Remember, we pass our friend, Murphy.	R					
+327000	329000	We don't throw our friend, Murphy.	R					
+329000	330000	Your turn, [id186].	id185		L			
+330000	331000	Your turn, [id186].	R					
+331000	336000	Diamond.	id186		S			
+337000	340000	Yay!	R	15				
+340000	345000	Remember, let's pass our friend, Murphy.	R					
+345000	349000	I see a square.	id185		S		a square	
+349000	355000	Yay!	R	16				
+355000	357000	I see a diamond.	id186		S		a diamond	
+357000	358000	I mean, not another diamond.	id186		S		not another diamond	
+358000	359000	A square.	id186		S		a square	
+359000	360000	Oh, no.	R					
+360000	361000	It's okay.	R					
+361000	362000	It was a square.	id186		S			
+362000	363000	It was a square.	id186		S			
+363000	364000	It's okay.	R					
+364000	365000	We can try again.	R	17				
+365000	366000	Okay.	R					
+366000	367000	Okay.	R					
+367000	369000	Let's be kind with Murphy.	R					
+369000	371000	He's our friend.	R					
+371000	377000	I see a diamond.	id185		S		a diamond	
+377000	378000	Yay!	R	18				
+378000	390000	Yay!	R					
+390000	397000	A square.	id186		S		a square	
+397000	401000	Yay!	R	19				
+401000	402000	Let's pass, Murphy.	R					
+402000	405000	Oh, let's get our friend, Murphy.	R					
+405000	406000	He's on the floor.	R					
+406000	407000	No!	R					
+407000	409000	He doesn't like that.	id186		L			
+409000	411000	He does not like being on the floor.	R					
+411000	415000	So, remember, let's pass, Murphy gently.	R					
+415000	416000	Okay.	id186		L			
+416000	417000	Okay.	R					
+417000	422000	I see a square.	id185		S		a square	
+422000	425000	I mean, a diamond.	id185		S		a diamond	
+425000	430000	A diamond.	id185		S		a diamond	
+430000	435000	Yay!	R	20				
+435000	437000	And move it.	id186		S			
+437000	439000	I know.	R					
+439000	440000	Yeah.	R					
+440000	441000	Let's pass, Murphy.	R					
+441000	448000	a shoe	id186		S		a shoe	
+448000	451000	Oh, no.	id186		S			
+451000	453000	It was the other shoe.	id186		S			
+453000	454000	It was the other shoe.	R					
+454000	455000	But it's okay.	R					
+455000	456000	Yay!	R					
+456000	457000	We finished our game.	R					

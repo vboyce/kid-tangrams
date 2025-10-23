@@ -16,6 +16,13 @@
 
 To re-create from raw data, use the data_prep.Rmd files in code/expt1 and code/expt2. You will need to use code/expt_1/sbert_play.ipynb in the middle to generate pairwise similarities. For the statistical models, run code/mods_for_cogsci_paper.R -- note that this may take a while to run some models. 
 
+Pre-processing for datasets was re-standardized again later, so use a commit from May 2025ish. 
+
+# Pipeline needed for manuscript 
+* write-up renders using write-ups/manuscript/ 
+To re-create from raw data, use the data_prep.Rmd's from each code folder. 
+
+To re-create from raw data, use the data_prep.Rmd files in code/expt1 and code/expt2. You will need to use code/expt_1/sbert_play.ipynb in the middle to generate pairwise similarities. For the statistical models, run code/mods_for_cogsci_paper.R -- note that this may take a while to run some models. 
 ## how transcripts were tagged
 
 For the game (non-intro) parts of games that are included (not pilots, not excluded), checked transcripts against videos and filled in as needed (time stamps on fill are approximate and copied from adjacent lines). 

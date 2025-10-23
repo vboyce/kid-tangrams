@@ -1,0 +1,168 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	9760	Okay, cool. Alrighty, so today we're gonna play a fun little matching game, but before we do that	R					
+9760	13680	we're gonna get used to using the iPads. So if you want you can press the blue button to get	R					
+13680	18980	started, and then, and then just have all the bubbles make them pop.	R					
+19980	26980	All of them?	id215					
+		 Yep. Just pop those. 	R					
+		Or the match ones.	id215					
+		 All of them, just every bubble you see.	R					
+28980	31980	But I did it. 	id216					
+		Yeah, and then keep going, did more bubbles.	R					
+34980	39980	I popped them. 	id215					
+		Wow, you're doing great. 	R					
+		I have to pop them again.	id215					
+		 Yeah, I keep going.	R					
+40980	44980	Oh, shhh, let's wait for it. Let's wait for it to keep it in the other finish.	R					
+48980	53980	Nice. Okay, so now you see this guy on your screen. So this guy's name is Smurphy.	R					
+53980	56980	Do you want to say hi Smurphy? Hi.	R					
+57980	63980	Anyway, so in this game we're gonna be helping Smurphy to guess between two shapes that you see on the screen.	R					
+63980	69980	So if you see a black box on your screen, then that means that you're gonna be the teller,	R					
+69980	76980	and you're gonna tell Smurphy what you see inside the black box. So what you see inside right here.	R					
+76980	81980	I don't see a black box. 	id215					
+		Oh yeah, you'll see it once we start the game.	R					
+81980	84980	So I'm just trying to explain the rules right now. 	R					
+		I have to start it again.	id215					
+84980	90980	Oh, well this is gonna be for the start of the actual game, but I'll tell you when we're gonna press play, okay?	R					
+90980	96980	Yeah, let's keep our iPads facing each other, and then I'll tell you when to start.	R					
+96980	102980	Okay, so if you see the black box, you're gonna be the teller,	R					
+102980	104980	and you're gonna tell them what you see inside the black box.	R					
+104980	107980	And if you're the one holding Smurphy, that means you're the guesser,	R					
+107980	111980	and you're gonna guess which shape it is from what the teller tells you.	R					
+111980	116980	And when you think you know the right answer, you're gonna tap the answer you think it is.	R					
+116980	120980	And if you get it right, you'll see a smiley face, and if you get it wrong, you'll see a frowny face.	R					
+120980	123980	But that's okay, because you'll have a lot of chances to help Smurphy.	R					
+123980	129980	So hope, and then, so just to remember, if you have the black box, what are you gonna do?	R					
+129980	131980	The big...	id215					
+132980	134980	The...	id215					
+134980	138980	No, you're gonna be the teller, so you're gonna tell them what you see inside the black box.	R					
+138980	142980	And if you're the one holding Smurphy, what are you gonna do?	R					
+142980	145980	You're gonna get the guesser.	R					
+145980	148980	You're gonna be the guesser, so you're gonna click the answer you think it is.	R					
+148980	153980	So, if you have the black box, what are you gonna do?	R					
+153980	155980	The teller.	id215					
+155980	157980	So you're gonna tell them what you see inside the black box.	R					
+157980	159980	And if you're holding Smurphy...	R					
+163980	166980	They can click the answer.	id216					
+166980	167980	Yeah, you're gonna be the guesser.	R					
+167980	169980	So you're gonna guess which one you think it is.	R					
+169980	171980	And then tap the answer you want to know.	R					
+171980	172980	Okay?	R					
+172980	174980	Okay, I think you guys are ready to start.	R					
+174980	177980	Okay, so if you wanna click the blue buttons to get started.	R					
+179980	181980	Alright, so which one of you has the black box?	R	1				
+181980	184980	Oh, okay, so make sure you keep it facing yourself.	R					
+184980	187980	So, that means you're gonna be the teller and you're gonna be the guesser.	R					
+187980	188980	So you get to hold Smurphy.	R					
+188980	193980	And so, now [id215], can you tell [id216] what you see inside the black box?	R					
+193980	196980	There's a banana in the black box.	id215		S		a banana	
+196980	201980	Okay, and then [id216], when you have a guess, then you can just tap the screen of which one you think it is.	R					
+203980	206980	Yeah, just like that, that's perfect.	R	2				
+206980	208980	I got a happy face.	id216		S			
+208980	211980	I got a happy face also.	id215		L			
+211980	215980	Yeah, so now we're gonna switch and now you're gonna be the teller and you're gonna be the guesser.	R					
+215980	219980	So [id216], could you tell [id215] what you see inside the black box?	R					
+219980	220980	A bird.	id216		S		a bird	
+220980	221980	Okay.	R					
+221980	223980	I have to bird also.	id215		L			x
+223980	226980	Yeah, so then you just tap the screen of the one you think it is.	R					
+228980	229980	Perfect, yeah.	R	3				
+229980	231980	I got a happy face.	id216		L			
+231980	232980	So that's how you play the game.	R					
+232980	236980	So now we're gonna keep going back and forth and you're gonna be the teller and you're gonna be the guesser.	R					
+237980	242980	There's a star in the black box.	id215		S		a star	
+244980	247980	Make sure you stay right in front of the iPad, so stay in the middle of your seat.	R					
+248980	252980	Okay, and then so [id216], when you have a guess, then you can just click the answer you think it is.	R					
+252980	254980	I got a happy face.	R	4				
+254980	257980	Yeah, you guys are doing great, you guys are only happy faces so far.	R					
+257980	261980	And so now we're gonna switch and now you're gonna be the guesser and you're gonna be the teller.	R					
+262980	269980	There's a boat in the black box.	id216		S		a boat	
+270980	271980	Nice.	R					
+272980	273980	Here.	R					
+273980	275980	And then [id215], when you have a guess, then you can just tap the screen.	R					
+278980	279980	Maybe we can try it again.	R					
+281980	282980	Nice.	R					
+282980	283980	A smiley face.	R	5				
+283980	284980	Okay.	R					
+284980	285980	Now we're gonna switch.	R					
+285980	286980	Only smiley.	id216		L			
+286980	287980	Only smiley faces here.	R					
+287980	288980	Hey!	id215		S			
+288980	291980	I switched this one to a black box.	id215		S			
+291980	292980	This one is the black box.	id215		S			
+292980	294980	Yeah, so you're just gonna say what's inside the black box.	R					
+294980	295980	Regardless of which side.	R					
+295980	297980	There's a bunny in the black box.	id215		S		a bunny	
+299980	300980	Okay.	R					
+302980	303980	I got happy.	id215	6	L			
+303980	305980	Yeah, you guys are doing super good.	R					
+305980	307980	So now you're gonna be the guesser and you're gonna be the teller.	R					
+310980	311980	What's this?	id216		S			
+311980	312980	I don't know.	R					
+312980	313980	You can just use your words.	R					
+313980	315980	Try to say what it is.	R					
+319980	320980	This is...	id216		S			
+323980	325980	I don't know what it is.	id216		S			
+325980	326980	That's okay.	R					
+326980	328980	I think I can tell him.	id215		L			
+328980	329980	Oh, well, right now you're the guesser.	R					
+329980	331980	So when we switch back, then you can be the teller.	R					
+331980	333980	But right now, then [id215] is the teller.	R					
+333980	337980	So is there anything you can say about it to tell [id215] and Smurphy?	R					
+339980	343980	This is a person.	id216		S		a person	
+344980	345980	Okay.	R					
+345980	346980	Is there anything else about it?	R					
+348980	349980	No.	id216		S			
+349980	350980	No? Okay.	R					
+350980	353980	And [id215], you can also ask questions if you want about which one it is.	R					
+354980	355980	This one.	id215		L			
+355980	356980	Oh, okay.	R					
+356980	357980	It was the other one, but that's okay.	R	7				
+357980	359980	We'll have more chances.	R					
+359980	360980	So now we're gonna switch back.	R					
+360980	361980	Now you're gonna be the teller.	R					
+361980	363980	You're gonna be the guesser.	R					
+363980	367980	There's a people in the black box.	id215		S		a people	
+367980	368980	Okay.	R					
+370980	371980	Yay!	R	8				
+371980	372980	Okay, cool.	R					
+372980	373980	So just like that.	R					
+373980	374980	I know we're gonna switch.	R					
+374980	375980	You're gonna be the guesser.	R					
+375980	376980	You're the teller.	R					
+378980	381980	There's a person in the black box.	id216		S		a person	
+383980	384980	Okay.	R					
+384980	385980	Is there anything else about it?	R					
+385980	386980	No.	id216		S			
+386980	387980	Oh, okay.	R	9				
+387980	388980	Oh, okay.	R					
+388980	389980	It was the other one.	R					
+389980	390980	Now we're gonna switch back.	R					
+390980	392980	And you're gonna be the guesser.	R					
+392980	394980	And you're gonna be the teller.	R					
+396980	400980	There's a people in the black box.	id215		S		a people	
+400980	402980	Is there anything else you can say about it?	R					
+402980	403980	Maybe like more words?	R					
+403980	404980	No.	id215		S			
+404980	405980	No?	R					
+405980	406980	That's it?	R					
+406980	407980	That's all you see inside?	R					
+407980	408980	Okay.	R					
+408980	410980	Then [id216], do you want to take your best guess?	R					
+410980	411980	Yes.	id216		L			
+411980	412980	Okay.	R	10				
+412980	413980	Oh, okay.	R					
+413980	414980	It was the other one.	R					
+414980	419980	So maybe we should try using a little bit more words to try to help the other person	R					
+419980	421980	since we've gotten a couple of them wrong now.	R					
+421980	422980	Okay.	R					
+422980	423980	So now we're gonna be...	R					
+423980	424980	Very long.	id215		L			
+424980	427980	Okay, so here now it's your turn to be the guesser.	R					
+427980	429980	I want to go back to the classroom.	id216		S			
+429980	430980	You want to go back to the classroom?	R					
+430980	431980	Yes.	id216		S			
+431980	432980	Me too.	id215		L			
+432980	435980	Do you want to give it like one more shot for the game and then go back?	R					
+435980	436980	Or do you want to go back right now?	R					
+		Right now.	id215		L			
+436980	439980	Okay, then we'll go back to the classroom.	R					

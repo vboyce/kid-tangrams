@@ -61,14 +61,6 @@ raw_data <- read.csv(here(data_source), header = TRUE) %>%
   select(-speaker) |>
   rename(speaker = id)
 
-
-raw_data |>
-  filter(!is.na(repNum)) |>
-  filter(submitted == "true") |>
-  group_by(gameId) |>
-  tally()
-
-
 label_image <- function(string) {
   new_string <- case_when(
     string == "/experiment/tangram_E.png" ~ "bunny",
@@ -102,22 +94,22 @@ below here copied from expt 2 and not updated!
 library(readxl)
 
 wrangle_transcript <- function(game_num) {
-  read_xlsx(here("data/expt_2/raw_transcripts", str_c(game_num, ".xlsx"))) |>
+  read_tsv(here("data/expt_3/raw_transcripts", str_c(game_num, ".tsv"))) |>
     select(start, end, text, speaker, trial, role, echo, description) |>
     fill(trial) %>%
     mutate(start = start / 1000, end = end / 1000) |>
-    mutate(trial = as.character(trial)) |>
+    mutate(trial = trial-1) |>
     nest(data = c(start, end, text, speaker, trial, role, echo, description))
 }
 
-transcripts <- read_csv(here("data/expt_2/link_transcripts.csv")) |>
+transcripts <- read_tsv(here("data/expt_3/link_transcripts.csv")) |> 
   select(gameId, gameConfig) |>
   mutate(transcript = map_df(gameConfig, wrangle_transcript)) |>
   unnest(transcript) |>
   unnest(data)
 
 
-write_csv(transcripts, here("data/expt_2/transcripts.csv"))
+write_csv(transcripts, here("data/expt_3/transcripts.csv"))
 ```
 
 
@@ -135,9 +127,9 @@ transcripts |> filter(!is.na(echo))
 # Sbert data prep
 
 ```{r}
-transcript <- read_csv(here("data/expt_2/transcripts.csv"))
+transcript <- read_csv(here("data/expt_3/transcripts.csv"))
 
-dat <- read_csv(here("data/expt_2/clean_data.csv")) %>% select(trial = trialNum, gameId, target, distractor)
+dat <- read_csv(here("data/expt_3/clean_data.csv")) %>% select(trial = trialNum, gameId, target, distractor)
 transcript %>%
   filter(!is.na(description)) %>%
   group_by(trial, gameId) %>%
@@ -145,18 +137,18 @@ transcript %>%
   filter(trial > 3) |>
   summarize(words = str_c(description, sep = " ", collapse = ", ")) %>%
   left_join(dat) %>%
-  write_csv(here("data/expt_2/pre_sbert.csv"))
+  write_csv(here("data/expt_3/pre_sbert.csv"))
 ```
 
 ```{r}
 library(reticulate)
 np <- import("numpy")
-mat <- np$load(here("data/expt_2/post_sbert.npy"))
-saveRDS(mat, here("data/expt_2/post_sbert.RData"))
+mat <- np$load(here("data/expt_3/post_sbert.npy"))
+saveRDS(mat, here("data/expt_3/post_sbert.RData"))
 ```
 
 ```{r}
-sbert <- read_csv(here("data/expt_2/pre_sbert.csv")) %>% bind_cols(read_rds(here("data/expt_2/post_sbert.RData")) %>%
+sbert <- read_csv(here("data/expt_3/pre_sbert.csv")) %>% bind_cols(read_rds(here("data/expt_3/post_sbert.RData")) %>%
   as_tibble())
 
 ### helper funcs
@@ -210,5 +202,5 @@ similarities <- M_mat %>%
   separate(dim1, into = c("game1", "trial1"), convert = T, sep = "_") %>%
   separate(dim2, into = c("game2", "trial2"), convert = T, sep = "_") %>%
   mutate(sim = ifelse(is.nan(sim), NA, sim)) %>%
-  write_rds(here("data/expt_2/similarities.rds"))
+  write_rds(here("data/expt_3/similarities.rds"))
 ```

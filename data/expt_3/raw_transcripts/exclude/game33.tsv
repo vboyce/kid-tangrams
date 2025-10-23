@@ -1,0 +1,123 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	10000	Yeah, okay, recording has started and welcome friends to my game before we start.	R					
+10000	12000	Do you guys want to pop some bubbles?	R					
+12000	13000	Yeah.	id180					
+13000	18000	Yeah, so let's press the blue button and tap the screen to pop the bubbles.	R					
+		I finished	id179					
+30000	35000	Beautiful!	R					
+35000	39000	Okay, now I'm going to share to you guys my game.	R					
+39000	42000	This is Smurphy. Can we say hi to Smurphy?	R					
+42000	43000	Hi to Smurphy.	id179					
+		Hi Smurfy	id180					
+43000	46000	Hi, hi [id180], hi [id179].	R					
+46000	49000	Okay, so Smurphy needs your help.	R					
+49000	53000	When we press the blue button, you're not going to press the blue button yet.	R					
+53000	55000	You will have pictures.	R					
+55000	64000	If your picture has the square around it, you are the teller and you will tell what your picture is.	R					
+64000	73000	If your picture doesn't have the black box around it and you're holding Smurphy, then you will be the guesser	R					
+73000	77000	and you will guess the picture by tapping the screen.	R					
+77000	82000	Okay, if you have the black box around you, what will you do?	R					
+82000	84000	Tell what it is.	id179					
+84000	90000	And if you're holding Smurphy, what will you do?	R					
+90000	91000	Guess.	R					
+91000	92000	Guess.	id179					
+92000	93000	You will guess.	R					
+93000	95000	You will guess the picture.	R					
+95000	98000	And if it's a match, there will be a smiley face.	R					
+98000	101000	And if it's not a match, there will be a frowny face.	R					
+101000	104000	But that's okay, because we can try again.	R					
+104000	105000	Okay?	R					
+105000	111000	Okay, let's all tap our screen.	R					
+112000	115000	Who has the black box around the picture?	R	1				
+115000	116000	Me.	id180		S			
+116000	117000	Okay?	R					
+117000	118000	Yeah, I have it.	id180		S			
+118000	119000	Okay?	R					
+119000	120000	I got apple.	id180		S		apple	
+120000	121000	Okay?	R					
+121000	123000	And [id179], you'll be guessing the picture.	R					
+123000	126000	 can you repeat what you see?	R					
+126000	127000	Apple.	id180		S			
+129000	131000	And [id179], you will guess.	R					
+131000	133000	Which one has the square?	id179		L			
+133000	134000	The apple.	id179		L			
+134000	137000	And can you tap your screen?	R					
+137000	138000	Yay!	R					
+138000	139000	Yay!	R	2				
+139000	141000	I have a smile.	id180		L			
+141000	143000	You do have a smile.	R					
+143000	144000	I've done it.	id180		L			
+144000	147000	And now, [id179], you will be the teller.	R					
+147000	150000	And [id180], you will be guessing.	R					
+150000	153000	[id179], can you tell [id180] what you see?	R					
+153000	156000	I see a bird and a doggy.	id179		S			
+156000	160000	And which one has the black box around it?	R					
+165000	166000	Doggy.	id179		S		doggy	
+167000	171000	[id180], can you try and guess the picture?	R					
+173000	174000	Doggy.	id180		L			
+177000	179000	Can you tap the screen?	R					
+181000	182000	Yay!	R	3				
+182000	183000	Yay!	R					
+183000	185000	I have a smile.	id179		L			
+185000	187000	Oh, now [id180] is the teller.	R					
+187000	190000	And we pass Murphy to [id179].	R					
+190000	192000	And [id179], you'll be guessing.	R					
+192000	193000	Okay.	id179		L			
+193000	196000	Can you tell [id179] what you see?	R					
+197000	200000	I see an arrow and a...	id180		S			
+200000	202000	and a stone.	id180		S			
+211000	215000	[id180], can you repeat what picture is inside the box?	R					
+215000	216000	Mmm.	id180		S			
+219000	220000	Shana.	id180		S			
+221000	223000	I mean, stone.	id180		S		stone	
+225000	226000	Yay!	R	4				
+226000	227000	Yay!	R					
+227000	229000	I have yay, too.	id180		L			
+229000	231000	I have yay, too.	id179		S			
+231000	232000	you do have yay. 	R					
+232000	233000	Okay.	R					
+233000	236000	Now, [id179], can you tell [id180] what you see in the box?	R					
+236000	239000	Uh, upside down boat and a star.	id179		S			
+243000	245000	There's another star.	id180		L			x
+246000	247000	Mmm.	R					
+247000	250000	The star has the box around it.	id179		S		the star	
+251000	252000	Oh!	R					
+252000	253000	No!	R					
+253000	254000	It's okay.	R					
+254000	256000	We can try again.	R	5				
+256000	258000	Now [id179] will be guessing.	R					
+258000	263000	And [id180], can you tell [id179] and Murphy what you see in the black box?	R					
+265000	266000	Mmm.	id180		S		a diamond	
+268000	270000	I see a diamond.	id180		S			
+275000	276000	Okay.	R					
+278000	280000	I don't know exactly.	id180		S			
+281000	283000	Does the diamond have the box around it?	id179		L			x
+		Yeah	id180		S			
+286000	288000	You can tap the screen.	id179		L			
+288000	290000	Oh, [id179], you're guessing.	R					
+290000	292000	You tap the screen.	R					
+294000	295000	It’s not working.	id179		L			
+296000	298000	Oh, no!	R					
+298000	299000	It's okay.	R	6				
+299000	300000	We can try again.	R					
+300000	303000	And now, [id180], you will be guessing.	R					
+303000	307000	And [id179], can you tell [id180] what you see in the black box?	R					
+307000	308000	I don't know.	id179		S			
+309000	311000	It's kind of strange.	id179		S		kind of strange	
+311000	313000	It's kind of strange.	R			x		
+314000	316000	That's not right.	id180		L			
+316000	318000	What does it look like?	R					
+318000	320000	It kind of looks like this.	id179		S			
+334000	338000	[id180], you stay on your side of the iPad.	R					
+338000	343000	And let [id179] have her time to explain what she sees in the black box.	R					
+343000	345000	Strange thing.	id179		S		strange thing	
+345000	347000	It's a strange thing.	R			x		
+351000	352000	Let's see.	R					
+352000	354000	Do you want to ask this question to [id179]?	R					
+354000	355000	No.	id180		L			
+355000	356000	About the picture?	R					
+356000	357000	No.	id180		L			
+358000	360000	Or do you want to ask [id179]?	R					
+364000	367000	[id179], I want to go to...	id179		S			
+367000	369000	I want to go over there.	R					
+369000	370000	You want to go back?	R					

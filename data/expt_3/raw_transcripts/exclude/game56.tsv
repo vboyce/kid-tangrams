@@ -1,0 +1,134 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+42560	47200	okay so uh just to get started though we're gonna get used to using the ipad so could you	R					
+47200	51360	click the blue button to get started and you already clicked it um and now now just tap all	R					
+51360	57920	the bubbles to make them pop yep just like that oh yeah you guys are great and now keep going more	R					
+57920	70080	bubbles perfect okay and now you see this guy so this is smurfy do you want to say hi smurfy	R					
+		hi smurfy	id213					
+		hi smurfy	id214					
+		I got a dog of my own a real one	id214					
+		is it named smurfy	R					
+73440	80720	a real one	id214					
+		 well i like smurfy this is my old dog okay so in this game we're	R					
+80720	85920	gonna be teaching we're gonna be trying to help smurfy to guess between two shapes so	R					
+85920	92240	on your screen you are going to see a black box and if you see the black box you're going to be	R					
+92240	97520	the teller oh don't click sorry yet uh i'll tell you when to start so if you see the black box that	R					
+97520	102080	means you're going to be the teller and you're going to tell smurfy what you see inside the box	R					
+102880	107920	okay and then if you're the one holding smurfy then you're not going to have a black box and you're	R					
+107920	112960	going to be the guesser and if you're the guesser then you're going to try to guess which one it is	R					
+113520	117120	from what the teller tells you and when you think you know the answer then you're going to	R					
+117120	123040	tap the answer you think it is on your screen okay so oh and if you get it right you'll see a smiley	R					
+123040	126960	face and if you get it wrong you'll see a frowny face but that's okay because there's a lot of	R					
+126960	136960	chances to help	R					
+		frowny face frowny face	id214					
+		a frowny thing so just to remember so if you see the black box	R					
+136960	143360	what are you gonna do 	R					
+		tell	id214					
+		yes you're gonna be the teller so you're gonna tell them what you see	R					
+143360	150160	inside the black box 	R					
+		okay I’m going to push	id214					
+		okay not yet okay if you're the one holding smurfy what are you gonna do	R					
+		tell them what it is	id213					
+152960	158160	you're gonna guess you're gonna be the guesser so if you have the black box you're the teller	R					
+158640	162000	or hold smurfy you're the guesser okay okay i think yours are ready to go	R					
+169920	171280	okay so who has the black box	R	1				
+172880	176320	okay so that means [id214] you're gonna be the teller and you're gonna be the guesser	R					
+176400	180800	there's something that is around like a moon shape	id214		S		a moon shape	
+185920	189440	nice okay and now we're gonna switch now you're gonna be the teller and you're gonna be the guesser	R	2				
+191120	193280	there's something that has wings	id213		S		has wings	
+196560	198080	wow you guys are really good at this game	R					
+199920	201920	now you're gonna be the guesser and you're gonna be the teller	R	3				
+		it’s something I don’t know what it is	id214		S			
+202080	207040	it's okay just give me your best shot	R					
+		it’s something that points left and right	id214		S		points left and right	
+217920	221760	uh let me try again just a quick tap yeah awesome nice	R	4				
+224640	229120	now you're trying to be the teller 	R					
+		what’s that	id213		S			
+		 i don't know just give me your best shot 	R					
+229360	230720	It looks like an upside down crown	id213		S		an upside down crown	
+		that was great	R	5				
+235680	241840	up-side down crown 	id213		L			
+		that looks like a person with a neck tie going on the back	id214		S		a person with a neck tie going on the back	
+244640	247600	yeah there's a switch guess who you're the teller	R	6				
+249280	254560	it's something that has a shoe but on the top there is a diamond	id213		S		has a shoe but on the top this is a diamond	
+259120	262720	you're trying to be the teller 	R	7				
+265440	268240	that's something that it looks like a like a person sitting down in a chair	id214		S		a person sitting down in a chair	
+270800	274240	nice now you're the guesser and you're the teller	R	8				
+275120	279120	it has a shoe and it and on the top it has a little bow	id213		S		a shoe and on the top it has a little bow	
+281680	284800	nice now a switch you're the guesser	R	9				
+285760	288960	it looks like a 	id214		S			
+		shoe?	id213		L		shoe	x
+292160	294160	necktie	id214		S		necktie	
+		name tag?	id213		L		name tag	x
+295440	296640	kind of looks like that	id214		S			
+298080	302240	you know doesn't kind of i can't tell what that looks like	id214		S			
+304160	308240	your favorite 	id213		L			
+		I  think i'm looking at the wrong one	id214		S			
+308800	310720	you look at the one inside the box so that one	R					
+311600	312560	looks like a shirt	id214		S		a shirt	
+315520	320000	that was perfect	R	10				
+321280	323920	so yeah just make sure you're describing the one that's inside the box	R					
+325840	328960	it has a shoe and it has a bun but on the top that i don't get	id213		S		a shoe and it has a bun but on top	
+		nice yes	R	11				
+331440	334880	nice yes a bum bum 	id213		L			
+		nice I’ll take smurfy back	R					
+335600	339600	the toes go out of your head 	id213		L			
+		now you're the guesser you're the teller	R					
+340320	345520	this looks like a shoe 	id214		S			
+		oh so you're telling the one inside the box	R					
+345520	349920	looks like a person having a necktie out	id214		S		a person having a necktie out	
+		nice	R	12				
+353040	359840	nice i always look on the other one 	id214		L			
+		yeah so you just describe the one inside the box	R					
+		that's all you do	R					
+359840	366800	 I can't even tell 	id214		L			
+		it’s okay	R					
+		it's a person that has something on the back	id213		S		a person that has something on the back	
+367520	371600	yay nice 	R	13				
+		oh we don't even have a ground	id213		L			
+373360	378080	it looks like a person 	id214		S			
+		in the box	R					
+		it looks like a shoe	id214		S		a shoe	
+379600	381280	i always get it wrong	id214		S			
+		you’re doing really good	R	14				
+		I’m ready I haven’t said anything	id213		S			
+390720	393760	so you're telling me to tell her wait for the wait for me to say it	R					
+394720	398320	it looks like a person that's sitting down	id213		S		a person that’s sitting down	
+407680	409120	all right so now you're trying to be the teller	R	15				
+409120	416320	i know i don't laugh yeah but it looks like a person sitting down and trying to sit down on a chair	id214		S		a person sitting down and trying to sit down on a chair	
+416640	418880	nice	R	16				
+431680	433920	it's a shoe that has a bow at the top	id213		S		a shoe that has a bow at the top	
+438000	438880	now you're going to be the guesser	R	17				
+439440	444720	so it looks like a it looks like a person sitting down on a	id214		S		a person sitting down on a	
+447440	455680	the floor but does it 	id214		S		floor	
+		but it but i thought it was a shoe it looks like a shoe	id213		L		a shoe, it looks like a shoe	x
+455680	459040	no it looks like a person 	id214		S			x
+		but i got two shoes on mine	id213		L			x
+460320	462640	is there anything else you can say about it say about that one	R					
+463040	470160	one shoe I  got one shoe 	id214		S			x
+		but does it have a bow no bows i didn't even know	id213		L			x
+471120	472080	i got two shoes up	id213		L			x
+475280	477600	does it have a bow	id213		L			x
+		 yes	id214		S			x
+481680	487200	no bow it looks like just uh i don't know what to call it	id214		S			x
+487920	494080	what is it 	id213		L			x
+		uh it looks like a person sitting down but i don't know	id214		S			x
+494800	504320	wait what wait there's like two feet like me and you 	id213		L		two feet	x
+		the person got no the person got no feet	id214		S		the person got no feet	x
+504320	506320	that's really important to me	id214		S			
+517360	521040	you gotta help him okay nice okay now you're the guesser and you're the teller	R	18				
+521040	522960	so you're the guesser	R					
+525440	528480	i'm so wrong	id214		L			
+		 no you're doing really good	R					
+529440	532640	it's a person that has something on his back	id213		S		a person that has something on his back	
+		that was really fast, and we’re going to switcch	R	19				
+536800	544640	so it looks like the thing that someone's sitting down	id214		S		someone’s sitting down	
+546960	551360	try to sit	id214		S		trying to sit	
+		nice	R	20				
+		i'll just have to say try to sit	id214		L			
+552240	555760	is it still this time	id214		L			
+		no you’re the teller	R					
+556480	559120	i don't get him so wrong	id214		L			
+560480	562080	that's just an address of being which one is it	R					
+562800	566800	so it has a shoe it has a shoe with no bows	id213		S		a shoe with no bows	
+568640	574800	nice and now you got to be the teller stop oh oh that's it that's the only game	R					
+575440	578480	wow well good job guys thanks for playing my game	R					
