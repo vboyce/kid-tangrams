@@ -1,0 +1,240 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+11000	16000	Alright, today we're going to play a really fun matching game. Are you guys ready?	R					
+16000	22000	But before we do that, we're going to practice touching our iPads by playing a really fun bubble popping game.	R					
+22000	28000	Guys ready? Okay, so when you get your iPads, you're going to touch the blue square in the middle of your screen	R					
+28000	33000	and then you're going to touch all the bubbles that you see on your screen to make them pop. Okay?	R					
+		This one?	id165					
+33000	37000	Yeah, you can start by touching that one. Good job.	R					
+37000	42000	Yeah, and then you're going to touch all the bubbles to make them pop.	R					
+42000	43000	The red one?	id165					
+43000	47000	Yeah, all of them. Good job.	R					
+47000	59000	Good job, [id166], and good job, [id165].	R					
+59000	60000	I want to start again.	id166					
+60000	65000	Oh, you do? Okay, so we're going to start our actual game now. Thank you both so much for popping the bubbles.	R					
+65000	70000	So in our game, we're going to be helping our friends Smurfy. Do you guys want to say hi to Smurfy?	R					
+70000	72000	Hi smurfy.	id165					
+72000	74000	Hi smurfy.	id166					
+74000	80000	Okay, so in the game, both of you are going to see pictures on your iPad screens, okay?	R					
+80000	85000	But one of you, each time, is going to see a black box around one of your pictures.	R					
+85000	89000	And white is going to be a banana.	id165					
+89000	92000	Yeah, there's going to be like bananas, apples, all kinds of shapes.	R					
+92000	95000	But each time, one of you is going to have a black box around one of your pictures.	R					
+95000	101000	If you have a black box, that means you're the teller, and you're going to tell your friend that's holding Smurfy	R					
+101000	104000	which one of your pictures has the black box around it.	R					
+104000	105000	Okay.	id166					
+105000	108000	If you're the friend with holding Smurfy, that means you're the guesser.	R					
+108000	114000	And that means that you're going to help Smurfy guess which one of the pictures has the black box around it, okay?	R					
+114000	117000	If you guess right, you're going to see a happy face.	R					
+117000	119000	If you guess wrong, you'll see a frowny face.	R					
+119000	125000	But that's okay, because we'll have lots of chances to help Smurfy guess which picture has the black box around it, okay?	R					
+125000	126000	So just to recap.	R					
+		Is that gonna be my ipad?	id166					
+126000	127000	Yeah, that's going to be your iPad.	R					
+127000	131000	So just to recap, if you see the black box around it, what are you going to do?	R					
+131000	136000	You're going to tell your friend which picture has the black box.	R					
+136000	140000	And if you're holding Smurfy, that means you're the guesser, and you're going to help Smurfy guess, okay?	R					
+140000	141000	You guys ready?	R					
+141000	147000	Okay, you're going to press the blue box on your iPad to start, and we'll see who has the black box.	R					
+147000	150000	Who has the black box?	R	1				
+150000	151000	It's [id166].	R					
+151000	156000	Okay, so [id166], you're the teller, and [id165], you're the guesser, so you're going to hold Smurfy.	R					
+156000	161000	So [id166], tell Smurfy and [id165] which one of your pictures has the black box around it.	R					
+161000	162000	Me.	id166		S			
+162000	163000	Which one?	R					
+163000	165000	Which one has that black box?	R					
+165000	167000	The banana.	id166		S		the banana	
+167000	171000	Okay, and now [id165], you're going to guess which one, based on what [id166] told you.	R					
+171000	172000	Yay!	R	2				
+172000	173000	Good job!	R					
+173000	174000	You guys did such a good job.	R					
+174000	175000	Okay, so now we're going to switch.	R					
+175000	179000	So [id166], now you're the guesser with Smurfy, and [id165], you're the teller.	R					
+179000	183000	So tell [id166] and Smurfy which picture has the black box.	R					
+183000	185000	bird	id165		S		bird	
+185000	189000	Okay, now you're going to guess [id166].	R					
+189000	190000	the bird	id165		S			
+190000	192000	Yeah, so press it.	R					
+192000	193000	Good job!	R	3				
+193000	195000	You guys are doing so great.	R					
+195000	199000	Okay, now you're the guesser, [id165], with Smurfy, and you're the teller, [id166].	R					
+199000	203000	So tell them which picture has the black box.	R					
+203000	204000	The...	id166		S			
+204000	206000	What is this again?	id166		S			
+206000	207000	What does that look like?	R					
+207000	208000	igloo	id166		S		igloo	
+208000	209000	Okay.	R					
+209000	211000	You know, [id165]'s going to guess.	R					
+211000	213000	igloo	id165		L			x
+213000	216000	You have to touch it with your finger.	R					
+216000	217000	Good job!	R					
+217000	219000	Smurfy's so happy.	R	4				
+219000	223000	Okay, now you're the guesser, [id166], and you're the teller, [id165].	R					
+223000	225000	So tell [id166] which picture has the...	R					
+225000	228000	Oh, don't press yet, until you hear what [id165] tells you.	R					
+228000	231000	mine looks like a boat	id165		S		a boat	
+231000	235000	Okay, now you can guess.	R					
+235000	238000	Touch it a little softer.	R					
+238000	239000	Good job!	R					
+239000	240000	You're doing so great.	R	5				
+240000	242000	Okay, now you're the guesser, [id165], and you're the teller.	R					
+243000	247000	What's inside that box?	R					
+247000	250000	You've got to tell [id165] what it is so she can guess it.	R					
+250000	253000	It's a dinosaur!	id166		S		a dinosaur	
+253000	255000	Okay, now [id165]'s going to guess.	R					
+255000	257000	It's a dinosaur.	id165		L			x
+257000	259000	Good job!	R					
+259000	265000	Okay, now you're the guesser, you're going to hold Smurfy, and you're the teller, [id165].	R	6				
+265000	269000	So tell [id166] and Smurfy which picture has the black box.	R					
+269000	271000	It's like a dancer.	id165		S		a dancer	
+271000	273000	Oh, okay.	R					
+273000	275000	Good job!	R					
+275000	276000	Nice job, [id166].	R	7				
+276000	280000	Okay, now you're the guesser, [id165], and you're the teller, [id166].	R					
+280000	284000	So tell Smurfy and [id165] which picture has the black box.	R					
+284000	287000	The banana.	id166		S		the banana	
+287000	289000	Okay, now [id165]'s going to guess.	R					
+289000	292000	The banana.	id165		L			x
+292000	294000	Yay!	R					
+294000	295000	Good job!	R	8				
+295000	296000	Okay, I'm going to take Smurfy.	R					
+296000	299000	Now you're the guesser with Smurfy, [id166].	R					
+299000	302000	And you're the teller, [id165], so tell Smurfy.	R					
+302000	307000	It looks like a people.	id165		S		a people 	
+307000	309000	Okay.	R					
+312000	313000	Good job!	R					
+313000	315000	You're going to do such a good job.	R					
+315000	319000	Okay, now you're the guesser, [id165], and you're the teller, [id166].	R	9				
+319000	323000	So tell [id165] and Smurfy what you see in your black box.	R					
+323000	326000	A dinosaur.	id166		S		a dinosaur	
+326000	328000	Okay, now [id165]'s going to guess.	R					
+328000	331000	A dinosaur.	id165		L			x
+331000	333000	Oh, that's okay.	R	10				
+333000	334000	We'll try again.	R					
+334000	335000	I just miss it	id165		S			
+335000	336000	It's okay.	R					
+336000	338000	it’s sad	id166		L			
+338000	339000	It's okay.	R					
+339000	340000	We'll try again.	R					
+340000	343000	So now you're the guesser, [id166], and you're the teller, [id165].	R					
+343000	346000	A dinosaur.	id165		S		a dinosaur	
+346000	348000	Okay, now you're going to guess, [id166].	R					
+348000	351000	A dinosaur.	id166		L			x
+351000	354000	Okay, touch it with your finger.	R					
+354000	356000	Good job!	R					
+356000	357000	Smurfy's so happy.	R	11				
+357000	358000	Yeah.	R					
+358000	362000	Okay, now you're the guesser, [id165], and you're the teller, [id166].	R					
+362000	366000	So tell Smurfy and [id165] which picture has the black box.	R					
+366000	371000	A dinosaur.	id166		S		a dinosaur	
+371000	375000	Could you tell her more about what's in that box?	R					
+375000	377000	What is it again?	id166		S			
+377000	381000	What does that look like?	R					
+381000	383000	What does it look like?	R					
+383000	386000	Can you describe to [id165] what it looks like?	R					
+386000	387000	A banana.	id166		S		a banana	
+387000	388000	You can't show her.	R					
+388000	391000	You can't show her, but just tell her what you think it looks like.	R					
+391000	393000	Or what shapes it has.	R			x		
+393000	400000	One, two, three, four, five, six, seven, eight, nine, ten.	id166		S		One, two, three, four, five, six, seven, eight, nine, ten.	
+400000	403000	You want to tell her more about what that one looks like?	R					
+403000	404000	No.	id166		S			
+404000	406000	Okay, [id165], you want to make a guess?	R					
+406000	408000	Um, I don't know.	id165		L			
+408000	411000	Can you tell her anything about what it looks like?	R					
+411000	412000	No.	id166		S			
+412000	415000	Can you just guess whichever one then won't?	R					
+415000	417000	Two, the tens.	id166		S			
+417000	421000	Maybe we'll just guess whichever one and then start to get next round.	R					
+421000	423000	Two, the tens.	id166		S			
+423000	427000	Yeah, take a guess and touch it.	R					
+427000	428000	That's okay.	R	12				
+428000	429000	We'll keep trying.	R					
+429000	434000	Okay, so now you're the guesser, [id166], and you're the teller, [id165].	R					
+434000	437000	So tell [id166] which one has the black box.	R					
+437000	440000	Um, I don't know what that is.	id165		S			
+440000	445000	What does that look like?	R					
+445000	446000	Oh, tell [id166].	R					
+446000	447000	Tell [id166].	R					
+447000	449000	Oh no, [id166] pressed.	R					
+449000	450000	Did you press it accidentally?	R	13				
+450000	451000	It's okay.	R					
+451000	452000	We'll keep going.	R					
+452000	455000	Just try to not touch anything until she tells you, okay?	R					
+455000	458000	So now you're the guesser, [id165], and you're the teller, [id166].	R					
+458000	463000	So tell [id165] and Smurphy which one of your boxes has the black box.	R					
+463000	468000	Uh, the banana.	id166		S		the banana	
+468000	470000	And then [id165]'s gonna guess.	R					
+470000	471000	Banana.	id165		L			x
+471000	475000	Go ahead and press.	R					
+475000	476000	That's okay.	R	14				
+476000	477000	We'll keep trying.	R					
+477000	481000	Okay, so now you're the guesser, [id166], and you're the teller, [id165].	R					
+481000	484000	So tell [id166] which one has the black box.	R					
+484000	486000	Um, banana.	id165		S		the banana	
+486000	488000	Okay, now [id166]'s gonna guess.	R					
+488000	490000	Uh, the banana.	id166		L			x
+490000	493000	And touch it with your finger.	R					
+493000	494000	Yay!	R					
+494000	495000	Yay!	R	15				
+495000	497000	Good job, Smurphy's so happy.	R					
+497000	500000	Okay, now you're the guesser, [id165], and you're the teller, [id166].	R					
+500000	501000	So tell...	R					
+501000	502000	Like a red.	id165		L			
+502000	507000	Yeah, tell [id165] and Smurphy which one has the black box.	R					
+507000	508000	The banana.	id166		S		the banana	
+508000	509000	The banana.	R			x		
+509000	511000	Okay, now [id165]'s gonna guess.	R					
+512000	515000	Okay, touch it.	R					
+515000	517000	Oh, that's okay.	R					
+517000	518000	We'll keep trying.	R					
+518000	520000	Okay, now you're the guesser, [id166].	R	16				
+520000	523000	You have Smurphy, and you're the teller, [id165].	R					
+523000	524000	Dinosaur.	id165		S		dinosaur	
+524000	526000	Okay, now [id166]'s gonna guess.	R					
+526000	527000	Dinosaur.	id166		L			x
+527000	529000	Okay, touch it with your finger.	R					
+529000	530000	Yay!	R					
+530000	531000	Yay!	R	17				
+531000	532000	Good job!	R					
+532000	533000	Okay.	R					
+533000	535000	It's gonna be sad this morning.	id166		S			
+535000	536000	It's gonna be sad?	R					
+536000	537000	No, hopefully he's happy.	R					
+537000	541000	Okay, so now you're the guesser, [id165], and you're the teller, [id166].	R					
+541000	545000	So [id166], you're gonna tell [id165] which picture has the black box.	R					
+545000	547000	Describe it to her.	R					
+547000	548000	Dinosaur.	id166		S		dinosaur	
+548000	551000	Okay, now [id165]'s gonna guess.	R					
+551000	552000	Dinosaur.	id165		L			x
+552000	553000	Okay, touch it with your finger.	R					
+553000	554000	Which one?	id165		L			
+554000	556000	Which ever one you think.	R					
+556000	557000	This one.	id165		L			
+557000	558000	Oh!	R					
+558000	559000	Good job!	R	18				
+559000	560000	I pressed it!	id166		L			
+560000	562000	No, you could have pressed it.	R					
+562000	566000	Now you're the guesser, [id166], and you're the teller, [id165].	R					
+566000	570000	So tell [id166] and Smurphy what you see in your black box.	R					
+570000	571000	Banana.	id165		S		banana	
+571000	573000	Okay, now you're gonna guess, [id166].	R					
+573000	574000	Banana.	id166		L			
+574000	576000	Okay, now touch it with your finger.	R					
+576000	577000	Yay!	R					
+577000	578000	Yay!	R					
+578000	579000	Good job!	R	19				
+579000	581000	It's gonna be sad.	id166		S			
+581000	592000	No. Okay, so now [id165]'s the guesser and [id166], you're the teller. So, tell [id165] what you see in your box.	R					
+592000	596000	Uh, big, big dinosaur.	id166		S		big, big dinosaur	
+596000	598000	Okay, now [id165]'s going to guess.	R					
+598000	599000	Dinosaur.	id165		L			x
+599000	600000	She's going to touch it.	R					
+600000	602000	Good job!	R					
+		I touched it	id166		S			
+602000	605000	You did not touch it.	R					
+605000	612000	Okay, now you're the guesser. You're the guesser, [id166]. So [id165], tell [id166] and Smurphy what you see in your box.	R	20				
+612000	616000	um dog big big dinosaur	id165		S		dog big big dinosaur	
+616000	618000	Okay, now [id166]'s going to guess.	R					
+618000	619000	Big, big dinosaur.	id166		L			x
+619000	622000	Okay, touch it.	R					
+622000	623000	Good job!	R					

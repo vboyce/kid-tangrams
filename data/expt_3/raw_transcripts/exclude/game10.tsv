@@ -1,0 +1,373 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	840	Hi.	R					
+840	4120	Hi, okay, now we're on camera.	R					
+4120	6880	Thank you both for playing my game,	R					
+6880	9200	[id158] and [id157].	R					
+9200	11280	Okay, so today we're gonna play	R					
+11280	13200	a really fun matching game.	R					
+13200	14560	Are you guys ready?	R					
+14560	17940	Okay, but first we're gonna practice touching our iPads	R					
+17940	21440	by playing a really fun bubble popping game, okay?	R					
+21440	22960	So once you see a bubble, you just...	R					
+22960	27080	Wait a second, I've done this before on my dad's iPad.	id158					
+27080	28480	You've done it before?	R					
+28480	29920	Oh yeah, then you'll be a pro.	R					
+29920	32480	You're just gonna touch all of the bubbles that you see.	R					
+32480	35480	I do the alphabet with a special pad	id158					
+35480	37320	and I play with my daddy too.	id157					
+37320	38160	Really?	R					
+38160	41280	And I also had a tray flutter	id158					
+41280	43400	and then it came up some fun stuff	id158					
+43400	45800	and then one of those were popping bubbles.	id158					
+45800	47480	Wow, that's amazing.	R					
+47480	48800	So you guys are gonna be so good at this.	R					
+48800	50160	So you're gonna touch the blue button	R					
+50160	51760	in the middle of your iPad to start	R					
+51760	53800	and then you're gonna touch all of the bubbles	R					
+53800	56560	that you see on your screen and just make them pop.	R					
+56560	57680	Yeah, you're gonna touch it to start.	R					
+57680	59560	Yeah, good, there you go.	R					
+59600	61000	Good job, [id158].	R					
+61880	63200	All mine are done.	id158					
+63200	64960	Good job, [id157].	R					
+65880	67640	You guys are doing so good.	R					
+71200	72960	Wait, there's another popping.	id158					
+72960	74480	Oh, there we go.	R					
+74480	75480	Good job.	R					
+75480	78120	Okay, I'm gonna take the iPad from you real quick.	R					
+78120	80680	We're gonna wait for [id157] to finish.	R					
+80680	81960	Good job, [id157].	R					
+83680	84760	Just a few more.	R					
+86760	87600	Good job.	R					
+89680	90520	Good job.	R					
+94440	95280	Good job.	R					
+100920	101760	Give me high five.	R					
+101760	102800	Both of you guys are so good.	R					
+102800	104560	Okay, now I'm going to explain	R					
+104560	106560	the matching game to you both, okay?	R					
+106560	107880	So in our matching game,	R					
+107880	110280	we're gonna help our friend, Smurphy.	R					
+110280	112200	This is Smurphy, do you wanna say hi?	R					
+112200	113560	Hi, [id157].	R					
+113560	114400	Hi.	id157					
+114400	115680	Hi, [id158].	R					
+115680	117080	Okay, so in this game,	R					
+117080	119560	we're gonna help Smurphy guess some pictures.	R					
+119560	121840	So on each of your screens,	R					
+121840	124960	you guys are gonna see two pictures, okay?	R					
+124960	127760	But one of you is going to see a black box	R					
+127760	129480	around one of the pictures.	R					
+129480	131800	Smurphy's job is to guess	R					
+131800	133200	which one of these pictures	R					
+133200	135520	has the black box around it, okay?	R					
+135520	137960	So if you see the black box around your screen,	R					
+137960	140080	that means that you're the teller.	R					
+140080	142480	And that means that you're gonna tell Smurphy	R					
+142480	145320	which one of these pictures has the black box around it,	R					
+145320	146160	which means you're gonna have	R					
+146160	148880	to describe what's inside the box, okay?	R					
+148880	152400	If you have these on your screen without any black box,	R					
+152400	153880	that means you're the guesser.	R					
+153880	155640	And you're gonna be holding Smurphy,	R					
+155640	157240	and you guys are gonna be guessing	R					
+157240	159400	which picture has the black box.	R					
+159400	162280	You're gonna press the picture you think has the black box.	R					
+162280	163680	If you guys get it right,	R					
+163680	165440	you're gonna see a happy face.	R					
+165440	166880	If you guys guess it wrong,	R					
+166880	168680	you'll see a frowny face, but that's okay,	R					
+168680	170480	because you guys are gonna have lots of chances	R					
+170480	173040	to help Smurphy guess the right picture, okay?	R					
+173040	175240	So we're gonna switch places every time	R					
+175280	177160	who's the guesser and who's the teller.	R					
+177160	179520	So if you see a black box around your screen,	R					
+179520	180560	who are you?	R					
+180560	181400	The teller.	id158					
+181400	183960	You are the teller, that's correct, [id158].	R					
+183960	186200	And if there's no black box around your screen	R					
+186200	188560	and holding Smurphy, you are the …	R					
+		guesser	id158					
+188560	190280	Guesser, good job.	R					
+190280	192680	Okay, we're gonna start, you guys ready?	R					
+192680	195040	You're just gonna press the blue box to get started.	R					
+195040	196440	And then we'll see who has the black box	R					
+196440	198080	around their picture first.	R					
+199280	202760	Okay, who has the black box?	R	1				
+202760	205160	Oh, you have the black box, so you're gonna be the teller.	R					
+205160	206240	You're gonna be the teller, [id158],	R					
+206240	208000	and you're gonna be the guesser, [id157].	R					
+208000	210560	So, [id158], tell [id157] and Smurphy	R					
+210560	212880	which picture has the black box.	R					
+212880	213720	The apple.	id158		S		the apple	
+214840	218680	Okay, and now you and Smurphy are gonna guess which one,	R					
+218680	220640	based on what she told you.	R					
+220640	222640	So you're gonna touch it on your screen.	R					
+228920	231480	So, do you remember what she told you?	R					
+232920	233760	Yeah.	id157		L			
+233920	236120	Now, you're gonna touch that picture on your screen,	R					
+236120	237800	just like you touched the bubbles.	R					
+237800	238640	Okay.	id157		L			
+238640	239480	Okay.	R					
+241000	241840	Yay!	R					
+241840	243640	Good job, you guys got it right.	R					
+243640	247200	Okay, so now, [id158] is the guesser with Smurphy	R	2				
+247200	248520	and you're the teller, [id157].	R					
+248520	250960	So, you're gonna tell [id158] and Smurphy	R					
+250960	253160	which picture has the black box around it.	R					
+257040	258040	The eagle.	id157		S		the eagle	
+260520	262400	Doesn't that look like an eagle?	id157		S			
+262400	265240	So, up to you, whatever you think it looks like.	R					
+265240	266800	And now, [id158] and Smurphy,	R					
+266800	269080	you guys are gonna press which one you think	R					
+269080	270240	has the black box.	R					
+273240	274440	You can press it again.	R					
+275800	277600	Or maybe touch, touch again.	R					
+278600	279440	Yay!	R					
+279440	280280	Yay!	R					
+280280	281120	Good job!	R					
+281120	281960	Nice job, [id158].	R	3				
+281960	285000	Okay, so now, you're the guesser, [id157], with Smurphy	R					
+285000	286200	and you're the teller, [id158].	R					
+286200	288480	So, you're gonna tell [id157] and Smurphy	R					
+288480	289840	which picture has the black box.	R					
+289840	290840	What is this?	id158		S			
+291840	293720	What does that look like to you?	R					
+293720	294560	A sign.	id158		S		a sign	
+298880	302880	the sign has a black box along with it?	id158		S			
+306720	307720	Good job!	R					
+307720	309560	You guys are doing so good.	R	4				
+309560	312120	Okay, now, you're the guesser, [id158], with Smurphy	R					
+312120	313560	and you're the teller, [id157].	R					
+313560	315200	So, you're gonna tell [id158] and Smurphy	R					
+315200	317280	which picture has the black box.	R					
+319200	320200	That.	id157		S			
+320200	321040	What's inside?	R					
+322440	323840	I don't know.	id157		S			
+323840	325280	What does it look like to you?	R					
+329960	331120	An airplane	id157		S		an airplane	
+333240	334120	You're gonna guess.	R					
+334120	334960	Now, you're gonna touch.	R					
+334960	337160	I actually didn’t hear, [id157].	id158		L			
+337160	338920	Oh, can you say it again, [id157]?	R					
+341760	343880	What did you say was in the box?	R					
+343880	345640	I don't remember.	id157		S			
+345640	346480	Let's look at it again.	R					
+346480	348400	What does that look like to you?	R					
+349400	350400	An airplane.	id157		S			
+351400	352960	Did you hear her?	R					
+352960	354200	Can you say it louder?	R					
+354200	355480	A airplane	id157		S			
+356840	359200	I don’t have an airplane on here	id158		L			x
+359200	361040	What most looks like?	R					
+362920	364040	Good job!	R					
+364040	365160	Nice job, girls.	R	5				
+365160	368760	Okay, now, you're gonna be the guesser, [id157]	R					
+368760	370240	and you're gonna be the teller, [id158].	R					
+370240	373040	So, tell them which one has the black box.	R					
+373040	376640	I actually don't know what it looks like to me.	id158		S			
+376640	378160	What does that look like to you?	R					
+378160	379560	A volcano.	id158		S		a volcano	
+379560	380400	Ooh.	R					
+382160	385640	[id157] with a volcano has a box around it.	id158		S			
+388080	388920	Yeah!	R					
+388920	390160	Good job!	R					
+390160	391160	Good job!	R	6				
+391160	392960	Okay, now, you're the guesser, [id158].	R					
+392960	395080	So, you have Smurfy and you're the teller, [id157].	R					
+395080	396920	So, you're gonna tell [id158] and Smurfy	R					
+396920	399160	which picture has the black box around it.	R					
+403280	404120	There's a giant.	id157		S		a giant	
+404120	406760	Which one has the black box?	R					
+406760	407800	That.	id157		S			
+407800	408800	What's inside that?	R					
+410760	411800	I don't know.	id157		S			
+413480	415280	What does that look like to you?	R					
+418520	420440	I don't know what it looks like.	id157		S			
+422040	423120	Can I see it?	id158		L			
+423120	424080	You can't.	R					
+425720	426680	Maybe you could guess.	R					
+426680	428520	What do you think it looks like?	R					
+428520	430520	Or could you describe it in any way?	R					
+432200	433480	A lot of fall.	id157		S		a lot of fall	
+436520	437360	Okay.	R					
+438800	440040	Maybe a hole?	id157		S		maybe a hole	
+441960	442960	Oh, that's okay.	R					
+442960	443800	That was a hard one.	R					
+443800	445440	We'll keep trying, okay?	R	7				
+445440	448080	Okay, you're gonna be the guesser now, [id157].	R					
+448080	449360	And you're gonna be the teller, [id158].	R					
+449360	451200	So, tell [id157] and Smurfy	R					
+451200	453160	which picture has the black box.	R					
+457160	459200	It kind of looks like a shoe.	id158		S		a shoe	
+463840	467200	The shoe has a black box around it	id158		S			
+467800	468640	Okay.	R					
+477240	478360	Oh, that's okay.	R	8				
+478360	479200	That's all right.	R					
+479200	480040	We'll keep trying.	R					
+480040	480880	We got this.	R					
+480880	483280	Okay, you're gonna be the guesser now, [id158], Smurfy.	R					
+483280	484920	And you're the teller, [id157].	R					
+484920	486760	So, tell [id158] and Smurfy	R					
+486760	488520	which picture has the black box?	R					
+492520	493360	Okay.	id158		L			
+493360	494840	I'm gonna tell [id158] again.	R					
+496200	497040	The shoe.	id157		S		the shoe	
+498800	500400	Oh.	R					
+500400	501760	Oh, that's okay.	R	9				
+501760	503440	Here, you can give me Smurfy now.	R					
+503440	505920	Well, I guess both of them look like a shoe.	id158		S			
+505920	507120	Yeah.	R					
+507120	508440	Okay, and here you go, [id157].	R					
+508440	509840	So, you're now, you're the guesser	R					
+509840	511080	and you're the teller, [id158].	R					
+511080	512920	So, you're gonna tell Smurfy and [id157]	R					
+512920	514920	which picture has the black box.	R					
+514920	515760	[id157].	id158		S			
+516920	520200	Like, the shoe has the picture.	id158		S		the shoe	
+522240	523360	The black box around it.	id158		S			
+523360	526120	And I know it kind of looks	id158		S			
+526760	528200	this way or this way.	id158		S		this way or this way	
+528200	529200	Oh, no, she can't tell you.	R					
+529200	530040	She can't tell you.	R					
+530040	530880	Not this way or this way.	R					
+530880	533280	Just tell her what's inside the black box.	R					
+533280	536880	It looks like a shoe, but it's actually high heels.	id158		S		looks like a shoe, but it’s actually high heels	
+543440	544280	That's all right.	R					
+544280	545120	That's all right.	R	10				
+545120	545960	We're gonna keep trying.	R					
+546960	549440	Okay, now you're the guesser, [id158], Smurfy	R					
+549440	550680	and [id157], you're the teller.	R					
+550680	552160	So, you're gonna tell [id158] and Smurfy	R					
+552160	554080	what you see in that black box.	R					
+554920	556160	It's a high heel.	id157		S		a high heel	
+557960	558800	Okay.	R					
+563960	565800	Oh, that's okay.	R	11				
+565800	566640	Yay.	id158		S			
+566640	567480	Thank you.	R					
+567480	569640	Now, you're the guesser, [id157]	R					
+569640	570960	and you're the teller, [id158].	R					
+570960	574960	So, tell [id157] and Smurfy which one has the black box.	R					
+577960	578800	The slipper.	id158		S		the slipper	
+579800	581240	And can I tell you something?	id158		S			
+581240	584800	Can I tell you something my grandma got me new slippers from?	id158		S			
+584800	585640	From...	id158		S			
+590360	591680	Whoa, that's really cool.	R					
+591680	596680	And they have two eyes and a nose and a slipper.	id158		S			
+598640	600360	Okay, so what do you think?	R					
+600360	605360	And my mama got me a cow.	id157		L			
+605360	606120	What?	R					
+606120	606960	A cow?	R					
+606960	608920	That is so cool.	R					
+608920	611520	I wish I got those presents.	R					
+611520	612440	Okay, so what do you think?	R					
+612440	613800	Which one do you think has the black box	R					
+613800	615000	based on what she said?	R					
+617360	618360	I’m hot.	id157		L			
+618360	620200	Okay, we can take off her sweaters.	R					
+621440	623880	Good job, that's a very pretty dress.	R					
+623880	625520	There, I can hold it for you.	R					
+625520	627640	And it came to my face.	id158		S			
+627640	628480	Cool.	R					
+628480	630280	Okay, so do you want to tell [id157] again	R					
+630280	631480	what you see in the black box?	R					
+631480	632320	Oh, can I take off?	R					
+632320	633560	A slipper.	id158		S			
+633560	635480	Okay, did you hear her what she said?	R					
+637240	638400	Oh, here we go.	R					
+639440	640280	Okay.	R					
+642440	645440	All right, did you hear [id158]?	R					
+645440	646280	No	id157		L			
+646280	647120	Okay, one more time, sorry.	R					
+647120	647960	A slipper.	id158		S			
+649880	651200	Okay, that's okay.	R					
+651200	652760	So you and Smurfy are going to guess.	R					
+652760	654520	Which one has the black box?	R					
+661560	662880	That one.	id157		L			
+662880	664640	Press it, or touch it.	R					
+665640	666480	Oh!	R	12				
+666520	668680	That's all right, that's okay.	R					
+668680	671360	All right, so now you're the guesser, [id158],	R					
+671360	672400	and you're the teller, [id157].	R					
+672400	675920	So tell a shell what you see in your black box.	R					
+675920	676920	I see a bear.	id157		S		a bear	
+680600	681440	Yay!	R	13				
+682440	685440	Good job, you guys are doing so good.	R					
+685440	688120	Okay, now you're the guesser, [id157], with Smurfy,	R					
+688120	689440	and [id158], you're the teller.	R					
+689440	691880	So tell [id157] what you see in your black box.	R					
+700560	701400	A shoe.	id158		S		a shoe	
+707640	709640	Isn't that a short shoe?	id157		L			x
+711280	712960	Ask her.	R					
+712960	715160	Isn't that a short shoe?	id157		L			
+715160	716840	It's a big shoe.	id158		S		a big shoe	
+719200	720040	Yay!	R					
+720040	722360	Yay, good job.	R	14				
+722360	725440	Okay, now you're the guesser, [id158],	R					
+725440	728360	and you're the teller, [id157].	R					
+728360	731840	So tell [id158] and Smurfy what you see in your black box.	R					
+731840	732680	What do you see?	R					
+744080	745080	It's a long shoe.	id157		S		a long shoe	
+753360	757600	That's okay, you can pass Smurfy over.	R	15				
+757600	759080	You're the guesser now, [id157],	R					
+759080	760320	and you're the teller, [id158].	R					
+760320	763800	So tell [id157] and Smurfy what you see in your black box.	R					
+766640	767480	A bear.	id158		S		a bear	
+773760	776160	Now you guess what she said.	R					
+776160	777000	Did you hear her?	R					
+779880	780720	No.	id157		L			
+780720	781760	Can you tell her again what you see?	R					
+781760	782600	A bear.	id158		S			
+783880	784880	A bear, okay.	id157		L			
+788000	788840	Yay!	R					
+788840	791120	Yay, good job.	R					
+791120	794200	Okay, now you're the guesser, [id158],	R	16				
+794200	796160	and you're the teller, [id157].	R					
+796160	798640	So tell [id158] what you see in your black box.	R					
+802440	803840	What do you see in there?	R					
+812760	814760	What does it look like to you?	R					
+823840	824680	A heel.	id157		S		a heel	
+832560	833880	Yay, good job.	R					
+833880	835960	You guys are doing such a good job.	R	17				
+835960	838920	Okay, now you're the guesser, [id157],	R					
+838920	840240	and you're the teller, [id158].	R					
+840280	842440	Okay, so tell [id157] and Smurfy	R					
+842440	843880	what you see in your box.	R					
+847000	852000	It's kind of still a little bit low, but not that low.	id158		S		kind of still a little bit low, but not that low	
+852200	854880	Okay, [id157], now you're gonna guess.	R					
+862680	864160	I think it's that one.	id157		L			x
+864160	865240	Okay, press it.	R					
+866560	867920	Good job!	R					
+867920	868760	Okay.	R	18				
+869640	871960	Now you're the guesser, [id158],	R					
+871960	873920	and Smurfy, and you're the teller, [id157].	R					
+873920	876960	So tell [id158] and Smurfy what you see in your black box.	R					
+879760	880960	What do you see in there?	R					
+885600	886800	What does it look like?	R					
+886800	891800	It looks like, it looks like a shoe.	id157		S		a shoe	
+904680	906320	Okay.	R					
+906320	908120	What type of shoe?	id158		L			x
+911640	914440	It's like a tennis shoe.	id157		S		a tennis shoe	
+917800	920400	Okay, press it, touch it with your finger.	R					
+922600	923880	Oh, that's okay.	R	19				
+925120	926320	Okay, here you go.	R					
+926320	927680	You're the guesser, now [id157],	R					
+927680	928920	and you're the teller, [id158].	R					
+928920	931640	So tell [id157] and Smurfy what you see in your box.	R					
+933320	934160	A high heel	id158		S		a high heel	
+943440	944600	I think that one.	id157		L			x
+944600	945440	Okay.	R					
+947800	950640	That's okay, we'll keep trying.	R	20				
+950640	952960	Okay, now you're the guesser, [id158],	R					
+952960	954840	with Smurfy, and you're the teller, [id157].	R					
+954840	957400	So tell [id158] of Smurfy what you see in your box.	R					
+964960	966160	What do you see in there?	R					
+972560	974120	What's inside of there?	R					
+974120	975320	I don't know.	id157		S			
+975320	976720	What does it look like?	R					
+976800	977640	What do you see?	R					
+		It looks like a tower.	id157		S		a tower	
+981800	982640	Okay.	R					
+989880	990960	Touch it again.	R					
+992240	994440	Yay, good job.	R					
+994440	995280	Okay.	R					
+996720	998040	We finished!	R					

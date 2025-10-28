@@ -1,0 +1,123 @@
+start	end	text	speaker	trial	role	echo	description	backchannel
+0	11040	Okay, so welcome friends to my game! Oh yes! Welcome friends to my game. Before we	R					
+11040	16160	start, do you guys want to pop some bubbles? 	R					
+		Yes!	id172					
+		Yes. 	id171					
+16160	27680	So let’s press the blue button and pop some bubbles. If you tap the screen, you can pop the bubbles.	R					
+30960	38640	Look! I did it! 	id172					
+		You did it!	R					
+		I did it!	id171					
+		 Oh, you still have some more bubbles to pop.	R					
+39680	40960	I did it. 	id172					
+44720	49120	Yay! Oh, let's tap one tap. One more tap.	R					
+50720	58880	Yay! Beautiful. Oh, let's look at our own iPads. Great. So now-	R					
+59120	66240	This is the same. 	id171					
+		This is the same. So we have a matching game and we have Smurphy.	R					
+67360	79520	So, hi Smurphy! 	R					
+		Hi Smurfy!	id172					
+		Hi!  My stuffed animal has not our name.	id171					
+		Your stuffed animal has lots of names.	R					
+79600	87680	Beautiful.	R					
+		I have lots of stuffed animals.	id171					
+		Look! Then you will know all mine!	id172					
+		Oh no.	R					
+89520	96240	What is happening? Oh, it's because [id171] has to press his blue button, but we're going to wait on that.	R					
+97600	104320	So, look! Yes, let's not share our iPads and let's look at our own iPads. Look! Beautiful,	R					
+104320	112160	but let's look at our own iPads and if we have a box around our image, you are the teller	R					
+113040	120560	and you're going to tell Smurphy what you see in the black box. If you have Smurphy, you are the	R	1				
+120560	128080	guesser and you're going to guess the picture by tapping the screen. So if you have the black box	R					
+128080	139360	around your image, what will you do? Will you tell or will you guess? 	R					
+		No.	id172		S			
+		Yes, [id172]?	R					
+		No. Oh wow. 	id172		S			
+140800	150960	Let's see. Let's look at our pictures and let's see. Well, if we have a black box around our image,	R					
+150960	161280	will we tell or will we guess? 	R					
+		Guess.	id171		L			
+		Tell! Correct! And if we have Smurphy, will we tell or will we guess?	R					
+163280	169440	Guess! 	id171		L			
+		Yay! Beautiful. So now that we've started the game, who has the black box around their image?						
+		Me.	id172		S			
+170480	177120	Good job, [id172]. So now, [id171], you will have Smurphy and [id172], can you tell Smurphy and	R					
+177120	185360	[id171] what you see?	R					
+		I see a banana. 	id172		S		a banana	
+		[id171], can you tap the one that looks like a banana?	R			x		
+187520	195680	Yay! And if it's a match, we will see a smiley face. If it's not a match, we'll see it. 	R	2				
+		I got a bird.	id171		S		a bird	
+195680	206880	you saw a bird?	R			x		
+								
+		Yay! Okay, now [id172], you will tell [id171] and Smurphy what you see. 	R	3				
+		I see.	id172		S			
+214320	221840	[id172], can you repeat what you see?	R					
+		 I see a... I see a...	id172		S			
+221840	226480	A windmill.	id172		S		a windmill	
+		 [id171], can you tap the one that looks like a windmill?	R			x		
+227520	237200	Where’s the windmill? This?	id171		L			
+		 If that's your best guess. Yay! Yay! Now, [id172], it's your turn to guess.	R	4				
+241760	244320	[id171], can you tell [id172] and Smurphy what you see?	R					
+244720	260800	I saw looks like flower.	id171		S		flower	
+								
+		Yay! Now, we pass Smurphy to [id171]. [id172], can you tell [id171] what you see?	R	5				
+260800	266880	I see. A foot. A foot.	id172		S		a foot	
+267120	277440	Yay! Yay! Now, we pass Smurphy to [id172]. [id171], can you tell [id172] what you see?	R	6				
+281040	291600	Yay! Yay! So, can we wait and see what [id171] has to say to tell you and Smurphy what to guess before we tap the screen?	R	7				
+292240	299920	Okay. Now, [id172], can you tell [id171] and Smurphy what you see? 	R					
+		I see a kid	id172		S		a kid	
+302640	310880	Which one looks like a kid? 	R			x		
+		This one.	id171					
+		Oh no, it's okay. We can try again. Now, [id172].	R	8				
+311200	324080	Oh, can we wait and see what the teller is going to tell the guesser what to press? 	R	9				
+		Let’s see	R	10				
+325920	332080	Okay. [id172], now you are the teller and you're going to tell [id171] what you see. And [id171],	R	11				
+332080	337440	you're the guesser and you're going to tap the screen. [id172], can you tell [id171] what you see?	R					
+338000	347680	I see a kitty. 	id172		S		a kitty	
+		Look, it's a little baby. 	id172		S		a little baby	
+		Yay! Now, [id171], you're the teller and [id172],	R	12				
+347680	360080	you're the guesser.	R					
+		 Can we wait and see?	R					
+		 I saw bunny.	id171		S		bunny	
+		 I'm Lee. 	id172		L			
+		Yes. On your screen, which one looks like a bunny?	R			x		
+360320	363280	Bunny.	id171					
+		Oh no. 	R	13				
+366400	371200	Let's go with this. And now, [id172], we can pass Smurphy to [id171].	R					
+375520	379600	Are you trying to hide him? And now, can you tell [id171] what we see?	R					
+381520	385200	I see a foot.	id172		S		a foot	
+390880	392720	I forgot it.	id172		S			
+395760	405200	Oh no. Oh no. It's okay. We can try again. Now, [id171], can you tell [id172] what you see?	R	14				
+406160	411680	Wow, you did it. But [id172], let's wait and see and what [id171] tells you so you can guess.	R	15				
+412960	417680	Now, [id172], you're the teller. So, can you tell [id171] and Smurphy what you see?	R					
+418240	429120	I see nothing. 	id172		S		nothing	
+		You see nothing? 	R			x		
+		Yeah.	id172		S			
+		 [id171], [id172], what do you see inside the black box?	R					
+431840	444000	Nothing. 	id172		S			
+		Nothing? 	R					
+		See more. 	id172		S		see more	
+		A sea?	R					
+		Yeah, a little, a little, all. 	id172		S		a little	
+		Oh no, it's okay.	R	16				
+444160	451680	Okay. Now, [id172], you're the guesser. 	R	17				
+		Yeah. Oh, yay. But [id172], let's wait and see what [id171] says	R					
+451680	459840	so that you can guess the match. Can we try that next time? 	R					
+		Yeah. 	id172		S			
+		Okay. So, now you are the teller	R					
+459840	471360	and [id171] is the guesser. 	R					
+		Look.	id172		S			
+		Hey. Can you tell [id171] what you see? 	R					
+		And Rosie. I see Rosie.	id172		S		rosie	
+471680	480400	And Rosie. 	id172		S			
+		Yes, but can you, can you tell [id171] what you see? 	R					
+		I see. And you're in the black box?	R					
+481520	491040	Nothing. 	id172		S		nothing	
+		You see nothing? 	R			x		
+		Are there, is there anything you can say? 	R					
+		Let's go back to class.	id172		S			
+491040	496880	Yeah, let's go back to class. 	R					
+		Yeah. 	id171		L			
+		You don't want to play the game anymore? 	R					
+		Yeah. I want to play the	id171		L			
+496880	503360	other game. 	id171		L			
+		You want to play the other game? I think. Oh, the cards game. Well, this is the	R					
+503360	510480	only game we have, but [id172], you say you want to go back in class?	R					
+		 Yeah. Okay. So, we can finish the	R					
+510480	520240	game here. Yay. Good job. Yay. Okay. We can head back into class.	R	18				
