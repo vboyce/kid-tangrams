@@ -16,35 +16,23 @@ ParseJSONColumn <- function(x) {
     fromJSON(flatten = T)
 }
 
-pilot_start=lubridate::ymd('2023-07-07') 
-pilot_end=lubridate::ymd('2023-07-12')
-
-real_start=lubridate::ymd('2023-07-17')
-real_end=lubridate::ymd('2023-08-09')
-
 data_source <- "data/expt_1/rounds.csv"
 player_source <- "data/expt_1/players.csv"
 
-pilot_ids <- str_c("id", 3:12) # Ids 1, 2 were adult pilot test 
-
-real_ids <-str_c("id", c(13:16, 19:36, 39:54, 57:58)) # skipping kids who didn't complete enough trials
 ```
 
 # Empirica output prep
 
 ```{r}
 
-players <- read_csv(here(player_source)) |> filter(id %in% real_ids) %>% select(id, playerId=`_id`) 
+players <- read_csv(here(player_source)) |> select(id, playerId=`_id`) 
 
-games <- read_csv(here("data/expt_1/games.csv"), col_types="ccc")|> filter(is.na(exclude)) |>  mutate(offset_sec=lubridate::ms(offset) |> lubridate::period_to_seconds()) |> select(-offset)
 
 ```
 
 ```{r}
 
 raw_data <- read.csv(here(data_source), header = TRUE) %>% 
-  filter(createdAt >= real_start) %>%
-  filter(createdAt <= real_end) %>% 
   rename_with(~ gsub("data.", "", .x, fixed = TRUE)) %>% 
   select(-chat) |> 
   pivot_longer(cols=starts_with('player'), names_to=c("playerId", "info"), names_prefix="player_", names_sep="_",
@@ -57,12 +45,7 @@ raw_data <- read.csv(here(data_source), header = TRUE) %>%
   rename(playerId=id) |> 
   left_join(players, by=c("speaker"="playerId")) |> 
   select(-speaker) |> 
-  rename(speaker=id) %>% 
-  left_join(games) |> 
-  rename(game=gameConfig) |> 
-  select(-gameId, -offset_sec) |> 
-  filter(!is.na(game)) |> 
-  mutate(time=as.numeric(time))
+  rename(speaker=id)
 
 
 
@@ -81,124 +64,67 @@ label_image <- function(string){
   return(new_string)
 }
 
-less_raw_data <- raw_data %>% select(game, target, distractor, trialNum, targetNum, repNum, response, correct, time, listener=playerId, speaker) %>% 
-  mutate(across(c(target, distractor, response), ~ label_image(.x))) %>% write_csv(here("data/clean_data.csv"))
-```
-
-```{r}
-#just for pilot, need to fix offset
-#fix <- raw_data |> filter(trialNum==0) |> select(game, time)
-
-#real_offset <- games |> left_join(fix, by=c("gameConfig"="game")) |> mutate(offset_sec=offset_sec-time/1000)
-
-real_offset <- games
+less_raw_data <- raw_data %>% select(gameId, target, distractor, trialNum, targetNum, repNum, response, correct, time, listener=playerId, speaker) %>% 
+  mutate(across(c(target, distractor, response), ~ label_image(.x))) %>%
+ inner_join(read_csv(here("data/expt_1/link_transcripts.csv")) |> select(gameId, game)) |> 
+write_csv(here("data/expt_1/clean_data.csv"))
 
 ```
 
-# Transcript wrangle - new
 
+# Transcript wrangle
 ```{r}
+wrangle_transcript <- function(game_num) {
+  if(file.exists(here("data/expt_1/raw_transcripts", str_c(game_num, ".csv")))){
+  file = read_csv(here("data/expt_1/raw_transcripts", str_c(game_num, ".csv")))
+  }
+  else{
+    if(file.exists(here("data/expt_1/raw_transcripts/exclude", str_c(game_num, ".csv")))){
+        #file = read_csv(here("data/expt_1/raw_transcripts/exclude", str_c(game_num, ".csv")))
+         file=tibble(start=NA, end=NA, text=NA, speaker=NA, trial=NA, role=NA, echo=NA, description=NA)
+    }
+    else{
+      file=tibble(start=NA, end=NA, text=NA, speaker=NA, trial=NA, role=NA, echo=NA, description=NA)
+    }
+  }
+  file|>
+    select(start, end, text, speaker, trial, role, echo, description) |>
+    fill(trial) |> 
+    mutate(start = start / 1000, end = end / 1000) |>
+   nest(data = c(start, end, text, speaker, trial, role, echo, description))
 
-
-
-wrangle_transcript <- function(game_num){
- read_csv(here("data/expt_1/clean_transcripts", str_c(game_num,".csv")), show_col_types=F) |> 
-  select(start, end, text, speaker, trial, role, echo, description, backchannel) |> 
-    fill(trial) %>% 
-  mutate(start=start/1000, end=end/1000) |> 
-    nest(data=c(start, end, text, speaker, trial, role, echo, description, backchannel))
 }
 
-#wrangle_transcript("game41") %>% unnest(data) %>% View()
-
-real_offset$transcripts <- map_df(real_offset$gameConfig, wrangle_transcript)
-
-transcripts <- real_offset |> unnest(transcripts) |> unnest(data)
-
-# this section is janky as hell, but it does work
-
-```
+transcripts <- read_csv(here("data/expt_1/link_transcripts.csv")) |> 
+  select(gameId, game) |>
+  mutate(transcript = map_df(game, wrangle_transcript)) |>
+  unnest(transcript) |>
+  unnest(data)
 
 
-```{r}
-
-stages <- read_csv(here("data/expt_1/stages.csv")) |> select(index, gameId, startTimeAt) |> group_by(gameId)
-
-gameStarts <- stages |> filter(index==0) |> rename(first=startTimeAt) |> select(-index)
-
-stage_timing <- stages |> left_join(gameStarts) |>
-  mutate(rel_time=startTimeAt-first) |> 
-  mutate(rel_time=lubridate::as.period(rel_time) |> lubridate::period_to_seconds()) |> 
-   mutate(trialNum=index/2,
-          start=rel_time,
-          end=lead(rel_time)) |> 
-  select(gameId, trialNum,start, end) |>  left_join(games) |>  ungroup() |> 
-  mutate(trialNumStart=trialNum, trialNumEnd=trialNum) |> 
-  select(game=gameConfig, trialNumStart, trialNumEnd, start, end) |> filter(!is.na(game)) |> filter(!is.na(start)) |> filter(!is.na(end))
+write_csv(transcripts, here("data/expt_1/transcripts.csv"))
 ```
 
 
 
-```{r}
-timed_transcripts <-  transcripts |>
-  mutate(start=start-offset_sec, end=end-offset_sec) |> 
-  select(-offset_sec, -gameId) |> 
-  mutate(trialNumStart=NA, trialNumEnd=NA) |> 
-  rename(game=gameConfig) |> 
-  bind_rows(stage_timing) |> 
-  group_by(game) |> 
-  arrange(start) |> 
-  fill(trialNumStart) |> 
-  arrange(end) |> 
-  fill(trialNumEnd, .direction="up") |> 
-  arrange(game) |> 
-  filter(!is.na(text))
 
-
-
-echoes <- timed_transcripts %>% select(game,trial, echo) %>% filter(echo=="Y") %>% unique()
-
-trial_timing <- stage_timing %>% select(game, trial=trialNumStart, trial_start=start)
-
-transcript_full <- timed_transcripts %>% select(-echo, -exclude) %>% left_join(echoes) %>% 
-  left_join(trial_timing) %>% 
-  rename(start_time=start, end_time=end) %>% 
-  write_csv(here("data/expt_1/timed_transcript.csv"))
-```
-
-# Checks
-```{r}
-# Quick check -- for kid talking, so auto-trial and hand-trial align?
-
-transcript_full %>% filter(!is.na(trialNumStart)) %>% filter(str_detect(speaker, "id")) %>% filter(!is.na(role)) %>% filter(trial!=trialNumStart)
-
-# we'll go with the by-hand method -- these mostly seem to be when there's a wide span of time! possibly due to whisper being silly or us hand filling due to whisper missing things
-
-
-
-```
-
-checks on data:
-* anything that has a description should be from a speaker and have Y for backchannel
-* anything that has a Y for backchannel should be from a child
-
-```{r}
-transcript_full %>% filter(!is.na(description)) %>% filter(is.na(backchannel))
-transcript_full %>% filter(!is.na(description)) %>% ungroup() %>% select(role) %>% unique()
-transcript_full %>% filter(backchannel=="Y") %>% ungroup() %>% select(role) %>% unique() 
-transcript_full %>% filter(backchannel=="Y") %>% ungroup() %>% filter(!str_detect(speaker,"id"))
-```
 
 # Sbert data prep
 
 ```{r}
-transcript <- read_csv(here("data/expt_1/timed_transcript.csv"))
+transcript <- read_csv(here("data/expt_1/transcripts.csv"))
 
-dat <- read_csv(here("data/expt_1/clean_data.csv")) %>% select(trial=trialNum, game, target, distractor)
 
-transcript %>% filter(!is.na(description)) %>% group_by(trial, game) %>% 
-  summarize(words=str_c(description, sep=" ", collapse=", ")) %>% left_join(dat) %>% write_csv(here("data/expt_1/pre_sbert.csv"))
+dat <- read_csv(here("data/expt_1/clean_data.csv")) %>% select(trial = trialNum, gameId, target, distractor)
 
+transcript %>%
+  filter(!is.na(description)) %>%
+  group_by(trial, gameId) %>%
+  mutate(trial = as.numeric(trial)) |>
+  filter(trial > 1) |>
+  summarize(words = str_c(description, sep = " ", collapse = ", ")) %>%
+  left_join(dat) %>%
+  write_csv(here("data/expt_1/pre_sbert.csv"))
 
 ```
 
@@ -251,7 +177,7 @@ make_across_df <- function(M_mat, F_mat, method) {
   M_mat <- sbert %>% select(-starts_with("V")) %>% mutate(feature_ind=row_number())
 
 similarities <- M_mat %>%
-    mutate(combinedId=str_c(game,trial,sep="_")) %>%
+    mutate(combinedId=str_c(gameId,trial,sep="_")) %>%
     make_across_df(F_mat, 'cosine') %>%
     separate(dim1, into=c("game1","trial1"), convert=T, sep="_") %>%
     separate(dim2, into=c("game2","trial2"), convert=T, sep="_") %>%

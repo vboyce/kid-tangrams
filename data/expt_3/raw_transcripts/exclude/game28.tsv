@@ -622,7 +622,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 1443000	1444000	I don't know.	id175		S			
 1444000	1445000	Because I see the fog	id176		L			
 1445000	1446000	just on my head.	id176		L			
-1446000	1448000	I think I have...	id176		S			
+1446000	1448000	I think I have...	id176		L			
 1448000	1449000	Right now, you're the guesser.	R					
 1449000	1451000	So can you listen to what [id175] has to say?	R					
 1451000	1453000	[id175], can you tell...	R					

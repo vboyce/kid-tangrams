@@ -1,271 +1,232 @@
-trial,game,words,target,distractor
-0,game41,A bird,bird,dog
-0,game42,apple,apple,banana
-0,game44,a bird,bird,banana
-0,game45,apple,apple,dog
-0,game46,a bird,bird,apple
-0,game47,a doggy,dog,bird
-0,game48,a birdie,bird,banana
-0,game49,a dog,dog,apple
-0,game50,that apple,apple,dog
-0,game51,a dog,dog,banana
-0,game52,a bird,bird,dog
-0,game54,a dog,dog,banana
-0,game55,a dog,dog,apple
-0,game56,a banana,banana,dog
-0,game57,bird,bird,banana
-0,game58,bird,bird,banana
-0,game59,a banana,banana,bird
-0,game60,"banana, a log",banana,apple
-0,game63,an apple,apple,bird
-1,game41,A banana,banana,apple
-1,game42,crow,bird,dog
-1,game44,dog,dog,apple
-1,game45,bird,bird,banana
-1,game46,Banana,banana,dog
-1,game47,an apple,apple,banana
-1,game48,a apple,apple,dog
-1,game49,a banana,banana,bird
-1,game50,a banana,banana,bird
-1,game51,apple,apple,bird
-1,game52,apple,apple,banana
-1,game54,apple,apple,bird
-1,game55,a bird,bird,banana
-1,game56,apple,apple,bird
-1,game57,dog,dog,apple
-1,game58,apple,apple,dog
-1,game59,a dog,dog,apple
-1,game60,an eagle,bird,dog
-1,game61,an eagle,bird,banana
-1,game63,a banana,banana,dog
-2,game41,"a person, an animal",hold,walk
-2,game42,"a square, with one feet",hold,swim
-2,game44,a person,walk,hold
-2,game46,a boat,swim,walk
-2,game47,a birdie that’s flying,swim,jump
-2,game48,a person,hold,walk
-2,game49,"stickles, seesaw",swim,jump
-2,game50,a person,walk,hold
-2,game51,magnet,hold,swim
-2,game52,a person in the mountains,swim,jump
-2,game55,a whale,swim,jump
-2,game56,human,hold,swim
-2,game58,a person,hold,swim
-2,game59,"a plane, a boat, that has a turbo engine on the back",swim,hold
-2,game60,a bear,jump,walk
-2,game63,feet that are up and a bite like this and a head,jump,walk
-3,game41,A person walking,walk,swim
-3,game44,a girl,hold,walk
-3,game45,a person holding a plate,hold,walk
-3,game46,a boat,jump,swim
-3,game47,"a person that’s walking, an angel",jump,walk
-3,game48,a person,walk,hold
-3,game49,a flying people,jump,walk
-3,game50,a whale,swim,jump
-3,game51,"a block, it has a triangle, it’s on the ground",swim,hold
-3,game52,a person,hold,walk
-3,game54,"a block, the squares, square",jump,walk
-3,game55,"a person, a person",hold,swim
-3,game56,a person,walk,hold
-3,game57,triangle,jump,swim
-3,game58,"a bird, a guard jumping in the air",jump,walk
-3,game59,a person,hold,jump
-3,game61,a boat,swim,walk
-3,game63,a car,swim,walk
-4,game41,"a person with one leg, a flamingo with a triangle",swim,hold
-4,game42,a guy,walk,hold
-4,game44,someone jumping,jump,swim
-4,game45,a kind of person,walk,swim
-4,game46,feet,hold,jump
-4,game47,"a person, looks like a person but it’s not",walk,hold
-4,game48,a flying person,jump,walk
-4,game49,a kid,walk,jump
-4,game50,a person holding something,hold,walk
-4,game51,"bird, a person flying",jump,hold
-4,game52,a person walking,walk,hold
-4,game54,a man,hold,jump
-4,game55,a person,jump,hold
-4,game56,a flying human,jump,hold
-4,game57,a person,hold,walk
-4,game58,a person walking,walk,jump
-4,game59,a bird that has feet,jump,swim
-4,game60,a person,walk,hold
-4,game61,a person,walk,swim
-4,game63,someone that’s holding a backwards triangle cup,hold,jump
-5,game41,a person jumping,jump,swim
-5,game42,two wings with a square in the back with two feet,jump,walk
-5,game44,"airplane, a guy driving a jet plane, an airplane",swim,walk
-5,game45,a crocodile tasting an animal in the water,swim,walk
-5,game46,a person walking,walk,hold
-5,game47,a water fountain,hold,jump
-5,game48,a laying person,swim,jump
-5,game49,a server,hold,walk
-5,game50,a bird,jump,hold
-5,game51,a person sad walking,walk,jump
-5,game52,"a person, this way",jump,hold
-5,game54,a man,walk,swim
-5,game55,a sad face,walk,hold
-5,game56,a boat,swim,jump
-5,game57,a person,walk,swim
-5,game58,a person lying on the ground,swim,jump
-5,game59,a person,walk,jump
-5,game60,a sloth,swim,walk
-5,game61,a superhero,jump,walk
-5,game63,a human,walk,swim
-6,game41,someone jumping,jump,swim
-6,game42,a guy with a triangle and with two feet and with a square,jump,walk
-6,game44,a girl,hold,jump
-6,game45,a guy,hold,jump
-6,game46,stairs,jump,hold
-6,game47,"a lego, not a person without any arms",walk,hold
-6,game48,a walking person,walk,jump
-6,game50,a person trying to fly,jump,swim
-6,game51,a flying person,jump,walk
-6,game52,a person dancing,jump,walk
-6,game54,another man,walk,hold
-6,game55,a sad face,walk,hold
-6,game56,a human,walk,swim
-6,game57,a person,walk,swim
-6,game58,a person,hold,jump
-6,game59,a person,walk,swim
-6,game60,someone’s like walking while sliding,swim,walk
-6,game61,a boat,swim,hold
-6,game63,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle head,jump,hold
-7,game41,someone dying,swim,jump
-7,game42,a man with one foot and a line and a square and a triangle.,hold,jump
-7,game44,a jumping man,jump,swim
-7,game45,a person walking,walk,jump
-7,game46,a guy with a paper thing,hold,jump
-7,game47,an angel,jump,walk
-7,game48,a person with this cube,hold,walk
-7,game49,a diver,swim,hold
-7,game50,whale,swim,hold
-7,game51,on the floor and it has a triangle,swim,hold
-7,game52,a car,swim,hold
-7,game54,"a square that’s on the mouth, a man, falling",swim,hold
-7,game55,a silly person,hold,walk
-7,game56,a boat,swim,hold
-7,game57,a cowboy,jump,hold
-7,game58,a guy jumping in the air,jump,hold
-7,game59,a dog,swim,jump
-7,game60,a spider,jump,hold
-7,game61,a superhero,jump,walk
-7,game63,a car,swim,hold
-8,game41,"a flamingo, a triangle and a person holding it with one leg",hold,swim
-8,game42,a boat,swim,walk
-8,game44,a falling man,swim,hold
-8,game45,a crocodile,swim,jump
-8,game46,a box with a boat,swim,jump
-8,game47,a person holding up a plate,hold,swim
-8,game48,a lying person,swim,jump
-8,game49,a kid,walk,jump
-8,game50,a person holding something,hold,swim
-8,game51,a person sad walking,walk,swim
-8,game52,a person,hold,jump
-8,game54,an airplane,jump,swim
-8,game55,a person,jump,hold
-8,game56,a boat,jump,swim
-8,game57,a whale,swim,jump
-8,game59,"a person that can fly, a bird that has feet",jump,hold
-8,game60,a person,walk,swim
-8,game61,a person,walk,hold
-8,game63,"a head down square, a triangle feet and one rectangle and one triangle and then a square head.",walk,hold
-9,game41,"A person walking, a person walking, the person’s head is square",walk,jump
-9,game42,"a guy with two foot and a line and one square, a man with two foot and a tummy shaped as a diamond and a square head",walk,hold
-9,game44,a walking man,walk,swim
-9,game45,a person jumping from a pole all the way down to the ground,jump,walk
-9,game46,a person looking down,walk,hold
-9,game47,someone flying a plane without a cover,swim,jump
-9,game48,a flying person,jump,hold
-9,game49,a flying person,jump,swim
-9,game50,people walking,walk,jump
-9,game51,a person holding a triangle,hold,walk
-9,game52,a person walking,walk,hold
-9,game54,"a man falling, a man holding something, the man is holding food",hold,swim
-9,game55,"a plane, a whale",swim,hold
-9,game56,a statue,hold,swim
-9,game57,a person,hold,walk
-9,game58,a person walking,walk,swim
-9,game59,"a person that has something in front to eat, in a bowl",hold,jump
-9,game60,someone’s holding a plate,hold,jump
-9,game61,a person doing something,hold,jump
-9,game63,somebody holding a triangle,hold,jump
-10,game41,someone with a triangle and one leg,hold,swim
-10,game42,one guy with one foot and a triangle and a square,hold,walk
-10,game44,"a walking man, not the jumping man",walk,jump
-10,game45,a person sitting,jump,walk
-10,game46,a walk,walk,jump
-10,game47,an angel,jump,walk
-10,game48,a person standing up with a cube,hold,swim
-10,game49,"a kid, a big kid",walk,jump
-10,game50,a person trying to fly,jump,walk
-10,game51,sad walking,walk,hold
-10,game52,a person dancing,jump,hold
-10,game54,another man,hold,swim
-10,game55,a person,hold,jump
-10,game56,a human,walk,swim
-10,game57,a person,walk,jump
-10,game58,a person lying on the ground,swim,jump
-10,game59,a person that has something to eat in his hands,hold,swim
-10,game60,someone has two hands and a diamond head,walk,hold
-10,game61,a person doing something,walk,jump
-10,game63,a race car,swim,walk
-11,game41,a person walking with a square head,walk,swim
-11,game42,a man with two foot and a diamond shaped tummy and a square head.,walk,swim
-11,game44,a jet plane,swim,hold
-11,game45,a crocodile,swim,jump
-11,game46,a boat,swim,jump
-11,game47,a person that kind of looks sad without any arms walking away from,walk,hold
-11,game48,a laying person,swim,walk
-11,game49,a flying person,jump,walk
-11,game50,a person holding something,hold,jump
-11,game51,a triangle that’s on the ground,swim,hold
-11,game52,a car,swim,jump
-11,game54,a man falling down,swim,walk
-11,game55,a whale,swim,jump
-11,game56,a butterfly,jump,swim
-11,game57,"a boat, people standing in the boat",swim,walk
-11,game58,a person holding a tray,hold,walk
-11,game59,a dead dog,swim,walk
-11,game60,a spider,jump,swim
-11,game61,a superhero,jump,hold
-11,game63,a human that’s dancing,jump,walk
-12,game41,someone that looks like dying,swim,jump
-12,game42,two feets of a guy with one square tummy and one triangle tummy and one square,swim,jump
-12,game44,a girl,hold,swim
-12,game45,a guy holding a triangle,hold,walk
-12,game46,"a dog, a camera",hold,swim
-12,game47,a person that’s flying a plane,swim,hold
-12,game48,a walking person,walk,jump
-12,game49,a server,hold,jump
-12,game50,a whale swimming,swim,hold
-12,game51,"a flying person, a butterfly",jump,hold
-12,game52,a person walking,walk,swim
-12,game54,a man,walk,swim
-12,game55,a person,walk,hold
-12,game56,a airplane,swim,hold
-12,game57,a person,jump,hold
-12,game58,somebody jumping,jump,swim
-12,game59,a flying person that has a jetpack,jump,swim
-12,game60,"a gem with a triangle head, zero feet",hold,jump
-12,game61,a boat,swim,jump
-12,game63,"a triangle leg, a rectangle, and a diamond body and a square head",walk,jump
-13,game41,a person jumping,jump,hold
-13,game42,a man with two feet and two triangle wings and one square in the back shaped like a jet,jump,walk
-13,game44,a jumping man,jump,swim
-13,game45,a guy walking,walk,swim
-13,game46,a person jumping,jump,walk
-13,game47,someone building a funnel,hold,jump
-13,game48,a flying person,jump,walk
-13,game49,a diver,swim,walk
-13,game50,a people walking,walk,swim
-13,game51,a person holding a triangle,hold,swim
-13,game52,a person holding a pot,hold,walk
-13,game54,a man,jump,swim
-13,game56,a person,hold,jump
-13,game57,a person,hold,jump
-13,game58,a person walking,walk,hold
-13,game59,"a person, looking down and walking",walk,swim
-13,game60,a slider,swim,hold
-13,game61,a person doing something,hold,walk
-13,game63,someone holding a triangle in a cup,hold,jump
+trial,gameId,words,target,distractor
+2,5T8wESy34MKBRkBJr,a boat,swim,walk
+2,5WPekHjNG898YuMXe,"a person, an animal",hold,walk
+2,8PWtSpgpocS3Jvzph,a bear,jump,walk
+2,9uKTejKqe3TNXkfAW,a person,walk,hold
+2,Ce897yATiBxGr92Xo,a person,walk,hold
+2,D5CPASpy5Aj3aZNtS,a person in the mountains,swim,jump
+2,SowubDEr7fQNBP6te,magnet,hold,swim
+2,X3KGngsmofwhPuzW2,a birdie that’s flying,swim,jump
+2,Yrc2wiX7ZxZFS2wX6,human,hold,swim
+2,bcszyeDMyWZqFeMBh,a person,hold,walk
+2,euCvEekqCAQC9sfav,feet that are up and a bite like this and a head,jump,walk
+2,hueqkSoqSjYjcD9En,"a square, with one feet",hold,swim
+2,kduAREQdY39j2SgoC,"stickles, seesaw",swim,jump
+2,qL2AxZnRykJWLDA7H,a whale,swim,jump
+2,xCqhPo6f65u6PJhy3,a person,hold,swim
+2,ymmWkP9LexXqZPujp,"a plane, a boat, that has a turbo engine on the back",swim,hold
+3,5T8wESy34MKBRkBJr,a boat,jump,swim
+3,5WPekHjNG898YuMXe,A person walking,walk,swim
+3,9uKTejKqe3TNXkfAW,a whale,swim,jump
+3,A7RxNsfTJqTwfBejN,a person holding a plate,hold,walk
+3,Ce897yATiBxGr92Xo,a girl,hold,walk
+3,D5CPASpy5Aj3aZNtS,a person,hold,walk
+3,SowubDEr7fQNBP6te,"a block, it has a triangle, it’s on the ground",swim,hold
+3,X3KGngsmofwhPuzW2,"a person that’s walking, an angel",jump,walk
+3,XWpuLuSnNumcHxf7w,triangle,jump,swim
+3,Yrc2wiX7ZxZFS2wX6,a person,walk,hold
+3,baPLK5TnMYMSDvksA,"a block, the squares, square",jump,walk
+3,bcszyeDMyWZqFeMBh,a person,walk,hold
+3,euCvEekqCAQC9sfav,a car,swim,walk
+3,gF7PeenLLsSHsF4CG,a boat,swim,walk
+3,kduAREQdY39j2SgoC,a flying people,jump,walk
+3,qL2AxZnRykJWLDA7H,"a person, a person",hold,swim
+3,xCqhPo6f65u6PJhy3,"a bird, a guard jumping in the air",jump,walk
+3,ymmWkP9LexXqZPujp,a person,hold,jump
+4,5T8wESy34MKBRkBJr,feet,hold,jump
+4,5WPekHjNG898YuMXe,"a person with one leg, a flamingo with a triangle",swim,hold
+4,8PWtSpgpocS3Jvzph,a person,walk,hold
+4,9uKTejKqe3TNXkfAW,a person holding something,hold,walk
+4,A7RxNsfTJqTwfBejN,a kind of person,walk,swim
+4,Ce897yATiBxGr92Xo,someone jumping,jump,swim
+4,D5CPASpy5Aj3aZNtS,a person walking,walk,hold
+4,SowubDEr7fQNBP6te,"bird, a person flying",jump,hold
+4,X3KGngsmofwhPuzW2,"a person, looks like a person but it’s not",walk,hold
+4,XWpuLuSnNumcHxf7w,a person,hold,walk
+4,Yrc2wiX7ZxZFS2wX6,a flying human,jump,hold
+4,baPLK5TnMYMSDvksA,a man,hold,jump
+4,bcszyeDMyWZqFeMBh,a flying person,jump,walk
+4,euCvEekqCAQC9sfav,someone that’s holding a backwards triangle cup,hold,jump
+4,gF7PeenLLsSHsF4CG,a person,walk,swim
+4,hueqkSoqSjYjcD9En,a guy,walk,hold
+4,kduAREQdY39j2SgoC,a kid,walk,jump
+4,qL2AxZnRykJWLDA7H,a person,jump,hold
+4,xCqhPo6f65u6PJhy3,a person walking,walk,jump
+4,ymmWkP9LexXqZPujp,a bird that has feet,jump,swim
+5,5T8wESy34MKBRkBJr,a person walking,walk,hold
+5,5WPekHjNG898YuMXe,a person jumping,jump,swim
+5,8PWtSpgpocS3Jvzph,a sloth,swim,walk
+5,9uKTejKqe3TNXkfAW,a bird,jump,hold
+5,A7RxNsfTJqTwfBejN,a crocodile tasting an animal in the water,swim,walk
+5,Ce897yATiBxGr92Xo,"airplane, a guy driving a jet plane, an airplane",swim,walk
+5,D5CPASpy5Aj3aZNtS,"a person, this way",jump,hold
+5,SowubDEr7fQNBP6te,a person sad walking,walk,jump
+5,X3KGngsmofwhPuzW2,a water fountain,hold,jump
+5,XWpuLuSnNumcHxf7w,a person,walk,swim
+5,Yrc2wiX7ZxZFS2wX6,a boat,swim,jump
+5,baPLK5TnMYMSDvksA,a man,walk,swim
+5,bcszyeDMyWZqFeMBh,a laying person,swim,jump
+5,euCvEekqCAQC9sfav,a human,walk,swim
+5,gF7PeenLLsSHsF4CG,a superhero,jump,walk
+5,hueqkSoqSjYjcD9En,two wings with a square in the back with two feet,jump,walk
+5,kduAREQdY39j2SgoC,a server,hold,walk
+5,qL2AxZnRykJWLDA7H,a sad face,walk,hold
+5,xCqhPo6f65u6PJhy3,a person lying on the ground,swim,jump
+5,ymmWkP9LexXqZPujp,a person,walk,jump
+6,5T8wESy34MKBRkBJr,stairs,jump,hold
+6,5WPekHjNG898YuMXe,someone jumping,jump,swim
+6,8PWtSpgpocS3Jvzph,someone’s like walking while sliding,swim,walk
+6,9uKTejKqe3TNXkfAW,a person trying to fly,jump,swim
+6,A7RxNsfTJqTwfBejN,a guy,hold,jump
+6,Ce897yATiBxGr92Xo,a girl,hold,jump
+6,D5CPASpy5Aj3aZNtS,a person dancing,jump,walk
+6,SowubDEr7fQNBP6te,a flying person,jump,walk
+6,X3KGngsmofwhPuzW2,"a lego, not a person without any arms",walk,hold
+6,XWpuLuSnNumcHxf7w,a person,walk,swim
+6,Yrc2wiX7ZxZFS2wX6,a human,walk,swim
+6,baPLK5TnMYMSDvksA,another man,walk,hold
+6,bcszyeDMyWZqFeMBh,a walking person,walk,jump
+6,euCvEekqCAQC9sfav,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle head,jump,hold
+6,gF7PeenLLsSHsF4CG,a boat,swim,hold
+6,hueqkSoqSjYjcD9En,a guy with a triangle and with two feet and with a square,jump,walk
+6,qL2AxZnRykJWLDA7H,a sad face,walk,hold
+6,xCqhPo6f65u6PJhy3,a person,hold,jump
+6,ymmWkP9LexXqZPujp,a person,walk,swim
+7,5T8wESy34MKBRkBJr,a guy with a paper thing,hold,jump
+7,5WPekHjNG898YuMXe,someone dying,swim,jump
+7,8PWtSpgpocS3Jvzph,a spider,jump,hold
+7,9uKTejKqe3TNXkfAW,whale,swim,hold
+7,A7RxNsfTJqTwfBejN,a person walking,walk,jump
+7,Ce897yATiBxGr92Xo,a jumping man,jump,swim
+7,D5CPASpy5Aj3aZNtS,a car,swim,hold
+7,SowubDEr7fQNBP6te,on the floor and it has a triangle,swim,hold
+7,X3KGngsmofwhPuzW2,an angel,jump,walk
+7,XWpuLuSnNumcHxf7w,a cowboy,jump,hold
+7,Yrc2wiX7ZxZFS2wX6,a boat,swim,hold
+7,baPLK5TnMYMSDvksA,"a square that’s on the mouth, a man, falling",swim,hold
+7,bcszyeDMyWZqFeMBh,a person with this cube,hold,walk
+7,euCvEekqCAQC9sfav,a car,swim,hold
+7,gF7PeenLLsSHsF4CG,a superhero,jump,walk
+7,hueqkSoqSjYjcD9En,a man with one foot and a line and a square and a triangle.,hold,jump
+7,kduAREQdY39j2SgoC,a diver,swim,hold
+7,qL2AxZnRykJWLDA7H,a silly person,hold,walk
+7,xCqhPo6f65u6PJhy3,a guy jumping in the air,jump,hold
+7,ymmWkP9LexXqZPujp,a dog,swim,jump
+8,5T8wESy34MKBRkBJr,a box with a boat,swim,jump
+8,5WPekHjNG898YuMXe,"a flamingo, a triangle and a person holding it with one leg",hold,swim
+8,8PWtSpgpocS3Jvzph,a person,walk,swim
+8,9uKTejKqe3TNXkfAW,a person holding something,hold,swim
+8,A7RxNsfTJqTwfBejN,a crocodile,swim,jump
+8,Ce897yATiBxGr92Xo,a falling man,swim,hold
+8,D5CPASpy5Aj3aZNtS,a person,hold,jump
+8,SowubDEr7fQNBP6te,a person sad walking,walk,swim
+8,X3KGngsmofwhPuzW2,a person holding up a plate,hold,swim
+8,XWpuLuSnNumcHxf7w,a whale,swim,jump
+8,Yrc2wiX7ZxZFS2wX6,a boat,jump,swim
+8,baPLK5TnMYMSDvksA,an airplane,jump,swim
+8,bcszyeDMyWZqFeMBh,a lying person,swim,jump
+8,euCvEekqCAQC9sfav,"a head down square, a triangle feet and one rectangle and one triangle and then a square head.",walk,hold
+8,gF7PeenLLsSHsF4CG,a person,walk,hold
+8,hueqkSoqSjYjcD9En,a boat,swim,walk
+8,kduAREQdY39j2SgoC,a kid,walk,jump
+8,qL2AxZnRykJWLDA7H,a person,jump,hold
+8,ymmWkP9LexXqZPujp,"a person that can fly, a bird that has feet",jump,hold
+9,5T8wESy34MKBRkBJr,a person looking down,walk,hold
+9,5WPekHjNG898YuMXe,"A person walking, a person walking, the person’s head is square",walk,jump
+9,8PWtSpgpocS3Jvzph,someone’s holding a plate,hold,jump
+9,9uKTejKqe3TNXkfAW,people walking,walk,jump
+9,A7RxNsfTJqTwfBejN,a person jumping from a pole all the way down to the ground,jump,walk
+9,Ce897yATiBxGr92Xo,a walking man,walk,swim
+9,D5CPASpy5Aj3aZNtS,a person walking,walk,hold
+9,SowubDEr7fQNBP6te,a person holding a triangle,hold,walk
+9,X3KGngsmofwhPuzW2,someone flying a plane without a cover,swim,jump
+9,XWpuLuSnNumcHxf7w,a person,hold,walk
+9,Yrc2wiX7ZxZFS2wX6,a statue,hold,swim
+9,baPLK5TnMYMSDvksA,"a man falling, a man holding something, the man is holding food",hold,swim
+9,bcszyeDMyWZqFeMBh,a flying person,jump,hold
+9,euCvEekqCAQC9sfav,somebody holding a triangle,hold,jump
+9,gF7PeenLLsSHsF4CG,a person doing something,hold,jump
+9,hueqkSoqSjYjcD9En,"a guy with two foot and a line and one square, a man with two foot and a tummy shaped as a diamond and a square head",walk,hold
+9,kduAREQdY39j2SgoC,a flying person,jump,swim
+9,qL2AxZnRykJWLDA7H,"a plane, a whale",swim,hold
+9,xCqhPo6f65u6PJhy3,a person walking,walk,swim
+9,ymmWkP9LexXqZPujp,"a person that has something in front to eat, in a bowl",hold,jump
+10,5T8wESy34MKBRkBJr,a walk,walk,jump
+10,5WPekHjNG898YuMXe,someone with a triangle and one leg,hold,swim
+10,8PWtSpgpocS3Jvzph,someone has two hands and a diamond head,walk,hold
+10,9uKTejKqe3TNXkfAW,a person trying to fly,jump,walk
+10,A7RxNsfTJqTwfBejN,a person sitting,jump,walk
+10,Ce897yATiBxGr92Xo,"a walking man, not the jumping man",walk,jump
+10,D5CPASpy5Aj3aZNtS,a person dancing,jump,hold
+10,SowubDEr7fQNBP6te,sad walking,walk,hold
+10,X3KGngsmofwhPuzW2,an angel,jump,walk
+10,XWpuLuSnNumcHxf7w,a person,walk,jump
+10,Yrc2wiX7ZxZFS2wX6,a human,walk,swim
+10,baPLK5TnMYMSDvksA,another man,hold,swim
+10,bcszyeDMyWZqFeMBh,a person standing up with a cube,hold,swim
+10,euCvEekqCAQC9sfav,a race car,swim,walk
+10,gF7PeenLLsSHsF4CG,a person doing something,walk,jump
+10,hueqkSoqSjYjcD9En,one guy with one foot and a triangle and a square,hold,walk
+10,kduAREQdY39j2SgoC,"a kid, a big kid",walk,jump
+10,qL2AxZnRykJWLDA7H,a person,hold,jump
+10,xCqhPo6f65u6PJhy3,a person lying on the ground,swim,jump
+10,ymmWkP9LexXqZPujp,a person that has something to eat in his hands,hold,swim
+11,5T8wESy34MKBRkBJr,a boat,swim,jump
+11,5WPekHjNG898YuMXe,a person walking with a square head,walk,swim
+11,8PWtSpgpocS3Jvzph,a spider,jump,swim
+11,9uKTejKqe3TNXkfAW,a person holding something,hold,jump
+11,A7RxNsfTJqTwfBejN,a crocodile,swim,jump
+11,Ce897yATiBxGr92Xo,a jet plane,swim,hold
+11,D5CPASpy5Aj3aZNtS,a car,swim,jump
+11,SowubDEr7fQNBP6te,a triangle that’s on the ground,swim,hold
+11,X3KGngsmofwhPuzW2,a person that kind of looks sad without any arms walking away from,walk,hold
+11,XWpuLuSnNumcHxf7w,"a boat, people standing in the boat",swim,walk
+11,Yrc2wiX7ZxZFS2wX6,a butterfly,jump,swim
+11,baPLK5TnMYMSDvksA,a man falling down,swim,walk
+11,bcszyeDMyWZqFeMBh,a laying person,swim,walk
+11,euCvEekqCAQC9sfav,a human that’s dancing,jump,walk
+11,gF7PeenLLsSHsF4CG,a superhero,jump,hold
+11,hueqkSoqSjYjcD9En,a man with two foot and a diamond shaped tummy and a square head.,walk,swim
+11,kduAREQdY39j2SgoC,a flying person,jump,walk
+11,qL2AxZnRykJWLDA7H,a whale,swim,jump
+11,xCqhPo6f65u6PJhy3,a person holding a tray,hold,walk
+11,ymmWkP9LexXqZPujp,a dead dog,swim,walk
+12,5T8wESy34MKBRkBJr,"a dog, a camera",hold,swim
+12,5WPekHjNG898YuMXe,someone that looks like dying,swim,jump
+12,8PWtSpgpocS3Jvzph,"a gem with a triangle head, zero feet",hold,jump
+12,9uKTejKqe3TNXkfAW,a whale swimming,swim,hold
+12,A7RxNsfTJqTwfBejN,a guy holding a triangle,hold,walk
+12,Ce897yATiBxGr92Xo,a girl,hold,swim
+12,D5CPASpy5Aj3aZNtS,a person walking,walk,swim
+12,SowubDEr7fQNBP6te,"a flying person, a butterfly",jump,hold
+12,X3KGngsmofwhPuzW2,a person that’s flying a plane,swim,hold
+12,XWpuLuSnNumcHxf7w,a person,jump,hold
+12,Yrc2wiX7ZxZFS2wX6,a airplane,swim,hold
+12,baPLK5TnMYMSDvksA,a man,walk,swim
+12,bcszyeDMyWZqFeMBh,a walking person,walk,jump
+12,euCvEekqCAQC9sfav,"a triangle leg, a rectangle, and a diamond body and a square head",walk,jump
+12,gF7PeenLLsSHsF4CG,a boat,swim,jump
+12,hueqkSoqSjYjcD9En,two feets of a guy with one square tummy and one triangle tummy and one square,swim,jump
+12,kduAREQdY39j2SgoC,a server,hold,jump
+12,qL2AxZnRykJWLDA7H,a person,walk,hold
+12,xCqhPo6f65u6PJhy3,somebody jumping,jump,swim
+12,ymmWkP9LexXqZPujp,a flying person that has a jetpack,jump,swim
+13,5T8wESy34MKBRkBJr,a person jumping,jump,walk
+13,5WPekHjNG898YuMXe,a person jumping,jump,hold
+13,8PWtSpgpocS3Jvzph,a slider,swim,hold
+13,9uKTejKqe3TNXkfAW,a people walking,walk,swim
+13,A7RxNsfTJqTwfBejN,a guy walking,walk,swim
+13,Ce897yATiBxGr92Xo,a jumping man,jump,swim
+13,D5CPASpy5Aj3aZNtS,a person holding a pot,hold,walk
+13,SowubDEr7fQNBP6te,a person holding a triangle,hold,swim
+13,X3KGngsmofwhPuzW2,someone building a funnel,hold,jump
+13,XWpuLuSnNumcHxf7w,a person,hold,jump
+13,Yrc2wiX7ZxZFS2wX6,a person,hold,jump
+13,baPLK5TnMYMSDvksA,a man,jump,swim
+13,bcszyeDMyWZqFeMBh,a flying person,jump,walk
+13,euCvEekqCAQC9sfav,someone holding a triangle in a cup,hold,jump
+13,gF7PeenLLsSHsF4CG,a person doing something,hold,walk
+13,hueqkSoqSjYjcD9En,a man with two feet and two triangle wings and one square in the back shaped like a jet,jump,walk
+13,kduAREQdY39j2SgoC,a diver,swim,walk
+13,xCqhPo6f65u6PJhy3,a person walking,walk,hold
+13,ymmWkP9LexXqZPujp,"a person, looking down and walking",walk,swim

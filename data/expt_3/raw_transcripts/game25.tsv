@@ -111,17 +111,17 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 196820	198860	Do you want to ask her?	R					
 198860	199780	Ask [id170].	R					
 199780	202740	Do you want to ask [id170] a question about what you see?	R					
-202740	207300	I see a dog and a bird.	id169		S			
-		a bird	id170		L			
+202740	207300	I see a dog and a bird.	id169		L			
+		a bird	id169		L			
 207980	208260	Yeah.	R					
 208260	211340	So which one has the box around it?	R					
-211340	212580	Mine.	id170		L			
+211340	212580	Mine.	id170		S			
 212580	212860	Oh, yeah.	R					
 212860	213980	But what's inside the box?	R					
 213980	217420	Because you're trying to describe what's in the box to [id169].	R					
-217420	219060	Oh, a dog.	id170		L			
+217420	219060	Oh, a dog.	id170		S			
 219060	220380	OK.	R					
-220380	222940	It's a dog, isn't it?	id170					
+220380	222940	It's a dog, isn't it?	id170		S			
 222940	224540	So then click the answer that you think it is.	R					
 228140	229020	Oh, OK.	R					
 229020	230740	So we'll have more chances to help.	R	3				

@@ -132,11 +132,11 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 544860	548860	You could just guess if you think you know what it is.	R					
 548860	552860	Just take your best guess. It's okay.	R					
 552860	554860	Nice.	R	15				
-558860	564860	It's something... this is something that has a diamond on the back.	id251		S		a diamond on the back	
-564860	566860	And this leg is all like this.	id251		S		this leg is all like this	
-566860	568860	And one is on the floor.	id251		S		one is one the floor	
-568860	570860	And one is like up on the air.	id251		S		one is like up on the air	
-570860	572860	And this has a view.	id251		S		this has a view	
+558860	564860	It's something... this is something that has a diamond on the back.	id252		S		a diamond on the back	
+564860	566860	And this leg is all like this.	id252		S		this leg is all like this	
+566860	568860	And one is on the floor.	id252		S		one is one the floor	
+568860	570860	And one is like up on the air.	id252		S		one is like up on the air	
+570860	572860	And this has a view.	id252		S		this has a view	
 572860	574860	Nice.	R	16				
 578860	580860	What is it?	id252		L			x
 580860	584860	So there's two diamonds on the top.	id251		S		two diamonds on the top	

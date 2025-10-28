@@ -16,14 +16,14 @@ trial,gameId,words,target,distractor
 4,S9c9v6fAqdxuedydx,A person,hold,jump
 4,TDdHXhZK29W9z7d8H,"a human, The human is holding a square, a rectangular, and he's bending, and then he has one foot, and there's one square head, a kite",hold,swim
 4,WcEaqZRmgk5YCnxPZ,"a person, a human",hold,jump
-4,XHYAxKnSNRMEbigrq,the jumping person,walk,jump
+4,XHYAxKnSNRMEbigrq,person,walk,jump
 4,ZdZx6K6ecNYj9KbGY,kite,jump,walk
 4,eqxTepQjfWyhW5s7a,a boat,swim,jump
 4,iRoAhttnXMgZ4Fw3x,"a person, the walking person",walk,hold
 4,ku3ztvaAALvwJNEFk,A person jumping,jump,walk
 4,n2qx434RYW8fxnEbP,the human that is walking,walk,swim
 4,pxT5YubmAaAEgd9T9,"the boat, a camera",swim,hold
-4,sfLKxjjG6efGYekzK,person,jump,swim
+4,sfLKxjjG6efGYekzK,the jumping person,jump,swim
 4,uT4ySBFpCWunpYMmn,a race car,swim,hold
 4,uidAFavaAGAqJ8HYY,"a person, a person holding a flute",hold,jump
 4,xwPovSuJgpqMFZruP,A person,hold,jump
@@ -46,14 +46,14 @@ trial,gameId,words,target,distractor
 5,S9c9v6fAqdxuedydx,A person,walk,hold
 5,TDdHXhZK29W9z7d8H,A kite,jump,swim
 5,WcEaqZRmgk5YCnxPZ,the airport,swim,jump
-5,XHYAxKnSNRMEbigrq,a walking person and his head is looking down,swim,walk
+5,XHYAxKnSNRMEbigrq,boat,swim,walk
 5,ZdZx6K6ecNYj9KbGY,a monster,hold,swim
 5,eqxTepQjfWyhW5s7a,"a kite, a kite",jump,walk
 5,iRoAhttnXMgZ4Fw3x,a boat,swim,jump
 5,ku3ztvaAALvwJNEFk,A person lying down,swim,walk
 5,n2qx434RYW8fxnEbP,"a square like walking, square walking, it has feet, jumping",swim,jump
 5,pxT5YubmAaAEgd9T9,camel,hold,walk
-5,sfLKxjjG6efGYekzK,boat,walk,hold
+5,sfLKxjjG6efGYekzK,a walking person and his head is looking down,walk,hold
 5,uT4ySBFpCWunpYMmn,a triangle with a head on it with feet,jump,hold
 5,uidAFavaAGAqJ8HYY,somebody falling down,jump,hold
 5,xwPovSuJgpqMFZruP,A ghost,jump,walk
@@ -63,7 +63,7 @@ trial,gameId,words,target,distractor
 6,D6vdTyHjB9pWy9oTk,a racecar,swim,hold
 6,DD5546uyAjpEZB7Df,the one looking up,jump,walk
 6,Doyf4BCTAGKcZo7rC,a person looking down,walk,hold
-6,EaHFpvRKrAeZqnBz6,"hoppy, jumo, a jumping",jump,walk
+6,EaHFpvRKrAeZqnBz6,"hoppy, jump, a jumping",jump,walk
 6,F35AwXNeMjhzbWkKq,Something with a square,swim,walk
 6,GCpwyMdn9qNTNhyqf,A person,hold,swim
 6,GdxgdDaNrmnpHhnSc,Spider,jump,swim
@@ -74,14 +74,14 @@ trial,gameId,words,target,distractor
 6,TDdHXhZK29W9z7d8H,A boat,swim,jump
 6,WcEaqZRmgk5YCnxPZ,a human,walk,hold
 6,XA9YvXhM83Tack4qy,airplane,swim,hold
-6,XHYAxKnSNRMEbigrq,the one who's holding the triangle in its hand and it's bowing,jump,hold
+6,XHYAxKnSNRMEbigrq,"sitting down, jump",jump,hold
 6,ZdZx6K6ecNYj9KbGY,boat,swim,walk
 6,eqxTepQjfWyhW5s7a,The person with the diamond in his hand.,hold,jump
 6,iRoAhttnXMgZ4Fw3x,a dog that's holding a triangle,hold,jump
 6,ku3ztvaAALvwJNEFk,A person walking,walk,jump
 6,n2qx434RYW8fxnEbP,the ship,jump,walk
 6,pxT5YubmAaAEgd9T9,"a people or something, a people, but it doesn't have any arms",walk,swim
-6,sfLKxjjG6efGYekzK,"sitting down, jump",hold,jump
+6,sfLKxjjG6efGYekzK,the one who's holding the triangle in its hand and it's bowing,hold,jump
 6,uT4ySBFpCWunpYMmn,a triangle with feet,hold,swim
 6,uidAFavaAGAqJ8HYY,a person walking,walk,jump
 6,xwPovSuJgpqMFZruP,A boat,swim,walk
@@ -104,14 +104,14 @@ trial,gameId,words,target,distractor
 7,TDdHXhZK29W9z7d8H,A people,walk,swim
 7,WcEaqZRmgk5YCnxPZ,walking feet,jump,walk
 7,XA9YvXhM83Tack4qy,"a human, a human, a human, a human",walk,swim
-7,XHYAxKnSNRMEbigrq,a boat,hold,walk
+7,XHYAxKnSNRMEbigrq,standing,hold,walk
 7,ZdZx6K6ecNYj9KbGY,a person,walk,jump
 7,eqxTepQjfWyhW5s7a,a person,walk,swim
 7,iRoAhttnXMgZ4Fw3x,"a person flying, a person jumping, flying",jump,hold
 7,ku3ztvaAALvwJNEFk,A person holding something,hold,swim
 7,n2qx434RYW8fxnEbP,the one bending down and holding something,hold,walk
 7,pxT5YubmAaAEgd9T9,a pastry or something but it has legs,jump,walk
-7,sfLKxjjG6efGYekzK,standing,swim,walk
+7,sfLKxjjG6efGYekzK,a boat,swim,walk
 7,uT4ySBFpCWunpYMmn,a person,walk,jump
 7,uidAFavaAGAqJ8HYY,someone in the boat,swim,jump
 7,xwPovSuJgpqMFZruP,A person,walk,swim
@@ -135,14 +135,14 @@ trial,gameId,words,target,distractor
 8,TDdHXhZK29W9z7d8H,A human,walk,swim
 8,WcEaqZRmgk5YCnxPZ,the airplane,jump,walk
 8,XA9YvXhM83Tack4qy,a airplane,swim,jump
-8,XHYAxKnSNRMEbigrq,"a person that's just walking, but with it's head down.",jump,walk
+8,XHYAxKnSNRMEbigrq,jumping,jump,walk
 8,ZdZx6K6ecNYj9KbGY,"a monster, monster",hold,walk
 8,eqxTepQjfWyhW5s7a,the kite,jump,walk
 8,iRoAhttnXMgZ4Fw3x,a person that's in a race car that has one triangle and two triangles,swim,hold
 8,ku3ztvaAALvwJNEFk,A person jumping,jump,hold
 8,n2qx434RYW8fxnEbP,the one bending down and holding something,hold,jump
 8,pxT5YubmAaAEgd9T9,"a tree but something like is jumping and they have legs, two legs",jump,hold
-8,sfLKxjjG6efGYekzK,jumping,walk,jump
+8,sfLKxjjG6efGYekzK,"a person that's just walking, but with it's head down.",walk,jump
 8,uT4ySBFpCWunpYMmn,The diamond on the head,jump,walk
 8,uidAFavaAGAqJ8HYY,a person flying,jump,walk
 8,xwPovSuJgpqMFZruP,A fishing book,swim,walk
@@ -165,17 +165,18 @@ trial,gameId,words,target,distractor
 9,S9c9v6fAqdxuedydx,A person,hold,swim
 9,TDdHXhZK29W9z7d8H,A boat,swim,hold
 9,WcEaqZRmgk5YCnxPZ,a toy airplane,hold,swim
-9,XHYAxKnSNRMEbigrq,a boat,hold,swim
+9,XHYAxKnSNRMEbigrq,"human, standing human",hold,swim
 9,ZdZx6K6ecNYj9KbGY,a person,walk,hold
 9,eqxTepQjfWyhW5s7a,"a diamond, a diamond, a person is holding a diamond",hold,jump
 9,iRoAhttnXMgZ4Fw3x,"a person standing holding, a person that's holding something",hold,jump
 9,ku3ztvaAALvwJNEFk,A person holding something,hold,jump
 9,n2qx434RYW8fxnEbP,the one that's walking,swim,hold
 9,pxT5YubmAaAEgd9T9,a boat,swim,walk
-9,sfLKxjjG6efGYekzK,"human, standing human",swim,jump
+9,sfLKxjjG6efGYekzK,a boat,swim,jump
 9,uT4ySBFpCWunpYMmn,a person,hold,jump
 9,uidAFavaAGAqJ8HYY,somebody walking,walk,jump
 9,xwPovSuJgpqMFZruP,"a person, holding a ball",hold,walk
+9,yubEzRSKnPkFZDJWS,A person,walk,hold
 10,5LuHx6piA3FAjEEvF,Racecar,swim,jump
 10,6FrMxuQqHPG6BQ4id,A diamond,hold,jump
 10,6NZ8uhHHsyQ9m8jRC,person,hold,walk
@@ -195,17 +196,17 @@ trial,gameId,words,target,distractor
 10,TDdHXhZK29W9z7d8H,A human,hold,swim
 10,WcEaqZRmgk5YCnxPZ,the airplane,swim,hold
 10,XA9YvXhM83Tack4qy,a human,hold,jump
-10,XHYAxKnSNRMEbigrq,something that's holding something,swim,walk
+10,XHYAxKnSNRMEbigrq,boat,swim,walk
 10,ZdZx6K6ecNYj9KbGY,a boat,swim,walk
 10,eqxTepQjfWyhW5s7a,the boat,swim,jump
 10,iRoAhttnXMgZ4Fw3x,a person walking,walk,jump
 10,ku3ztvaAALvwJNEFk,A person walking,walk,swim
 10,n2qx434RYW8fxnEbP,the ship,jump,swim
 10,pxT5YubmAaAEgd9T9,"someone holding a plate and giving it to a restaurant and has watermelon, has one leg it's like and then someone and then like one leg so it's giving with their leg to someone else",hold,walk
-10,sfLKxjjG6efGYekzK,boat,hold,jump
+10,sfLKxjjG6efGYekzK,something that's holding something,hold,jump
 10,uT4ySBFpCWunpYMmn,race car,swim,jump
 10,uidAFavaAGAqJ8HYY,a person holding a flute,hold,walk
-10,yubEzRSKnPkFZDJWS,A person,swim,hold
+10,yubEzRSKnPkFZDJWS,"A boat, a big boat, a person in a boat",swim,hold
 11,5LuHx6piA3FAjEEvF,Boat,jump,swim
 11,6FrMxuQqHPG6BQ4id,An airplane,swim,hold
 11,6NZ8uhHHsyQ9m8jRC,alligator,swim,hold
@@ -224,18 +225,18 @@ trial,gameId,words,target,distractor
 11,TDdHXhZK29W9z7d8H,A kite,jump,hold
 11,WcEaqZRmgk5YCnxPZ,puppy,walk,swim
 11,XA9YvXhM83Tack4qy,a man,jump,swim
-11,XHYAxKnSNRMEbigrq,a jumping person,walk,hold
+11,XHYAxKnSNRMEbigrq,"putting head down, eyes down",walk,hold
 11,ZdZx6K6ecNYj9KbGY,a kite,jump,hold
 11,eqxTepQjfWyhW5s7a,a person,walk,swim
 11,iRoAhttnXMgZ4Fw3x,a person jumping,jump,walk
 11,ku3ztvaAALvwJNEFk,A person lying.,swim,hold
 11,n2qx434RYW8fxnEbP,"the one that's jumping, And has feet",walk,jump
 11,pxT5YubmAaAEgd9T9,"someone like a plate or something giving it to someone, a person that is walking",walk,jump
-11,sfLKxjjG6efGYekzK,"putting head down, eyes down",jump,walk
+11,sfLKxjjG6efGYekzK,a jumping person,jump,walk
 11,uT4ySBFpCWunpYMmn,a person,walk,jump
 11,uidAFavaAGAqJ8HYY,someone in a boat,swim,hold
 11,xwPovSuJgpqMFZruP,A ghost,jump,swim
-11,yubEzRSKnPkFZDJWS,"A boat, a big boat, a person in a boat",jump,swim
+11,yubEzRSKnPkFZDJWS,Tail,jump,swim
 12,5LuHx6piA3FAjEEvF,Racecar,swim,hold
 12,6FrMxuQqHPG6BQ4id,Human,walk,swim
 12,6NZ8uhHHsyQ9m8jRC,Person,walk,jump
@@ -255,17 +256,17 @@ trial,gameId,words,target,distractor
 12,TDdHXhZK29W9z7d8H,A boat,swim,jump
 12,WcEaqZRmgk5YCnxPZ,"the person, a person, a person, the person",hold,walk
 12,XA9YvXhM83Tack4qy,a human,walk,hold
-12,XHYAxKnSNRMEbigrq,something that's holding something,swim,jump
+12,XHYAxKnSNRMEbigrq,boat,swim,jump
 12,ZdZx6K6ecNYj9KbGY,a kite,jump,swim
 12,eqxTepQjfWyhW5s7a,"the person, it's holding a diamond",hold,swim
 12,iRoAhttnXMgZ4Fw3x,a person that is jumping,jump,swim
 12,ku3ztvaAALvwJNEFk,A person jumping,jump,hold
 12,n2qx434RYW8fxnEbP,the human that is walking bending its head down,swim,walk
 12,pxT5YubmAaAEgd9T9,a boat,swim,walk
-12,sfLKxjjG6efGYekzK,boat,hold,walk
+12,sfLKxjjG6efGYekzK,something that's holding something,hold,walk
 12,uT4ySBFpCWunpYMmn,"person, a square on the head",walk,jump
 12,uidAFavaAGAqJ8HYY,somebody holding a trumpet,hold,swim
-12,yubEzRSKnPkFZDJWS,Tail,walk,swim
+12,yubEzRSKnPkFZDJWS,A person,walk,swim
 13,5LuHx6piA3FAjEEvF,Person,walk,hold
 13,6FrMxuQqHPG6BQ4id,The human,hold,swim
 13,6NZ8uhHHsyQ9m8jRC,Person,jump,swim
@@ -284,16 +285,17 @@ trial,gameId,words,target,distractor
 13,TDdHXhZK29W9z7d8H,A human,hold,jump
 13,WcEaqZRmgk5YCnxPZ,the hat,walk,swim
 13,XA9YvXhM83Tack4qy,a airplane,swim,walk
-13,XHYAxKnSNRMEbigrq,a boat,jump,hold
+13,XHYAxKnSNRMEbigrq,jumper,jump,hold
 13,ZdZx6K6ecNYj9KbGY,a person,walk,jump
 13,iRoAhttnXMgZ4Fw3x,the person in a race car,swim,jump
 13,ku3ztvaAALvwJNEFk,A person lying.,swim,hold
 13,n2qx434RYW8fxnEbP,the one that's bending down and putting something,walk,jump
 13,pxT5YubmAaAEgd9T9,"it's flying, flying and it's jumping",jump,swim
-13,sfLKxjjG6efGYekzK,jumper,swim,walk
+13,sfLKxjjG6efGYekzK,a boat,swim,walk
 13,uT4ySBFpCWunpYMmn,has a triangle body,jump,hold
 13,uidAFavaAGAqJ8HYY,"somebody falling, somebody falling",jump,walk
 13,xwPovSuJgpqMFZruP,A person holding a bow in his hand,hold,jump
+13,yubEzRSKnPkFZDJWS,A person,hold,walk
 14,5LuHx6piA3FAjEEvF,Person walking,hold,swim
 14,6FrMxuQqHPG6BQ4id,Airplane,swim,hold
 14,6NZ8uhHHsyQ9m8jRC,Alligator,hold,swim
@@ -312,18 +314,17 @@ trial,gameId,words,target,distractor
 14,TDdHXhZK29W9z7d8H,"A human, A kite",jump,swim
 14,WcEaqZRmgk5YCnxPZ,a person,jump,walk
 14,XA9YvXhM83Tack4qy,"a old man, old man, a old man",jump,swim
-14,XHYAxKnSNRMEbigrq,a person that's walking,walk,swim
+14,XHYAxKnSNRMEbigrq,"stand up and eyes down, walking human",walk,swim
 14,ZdZx6K6ecNYj9KbGY,monster,hold,swim
 14,eqxTepQjfWyhW5s7a,"the person, a person that's doing a silly thing",jump,walk
 14,iRoAhttnXMgZ4Fw3x,a person walking,walk,swim
 14,ku3ztvaAALvwJNEFk,a person walking,walk,jump
 14,n2qx434RYW8fxnEbP,the ship,hold,jump
 14,pxT5YubmAaAEgd9T9,someone holding a plate and giving it to someone,hold,walk
-14,sfLKxjjG6efGYekzK,"stand up and eyes down, walking human",walk,swim
+14,sfLKxjjG6efGYekzK,a person that's walking,walk,swim
 14,uT4ySBFpCWunpYMmn,race car,swim,walk
 14,uidAFavaAGAqJ8HYY,a person on a boat floating,swim,walk
 14,xwPovSuJgpqMFZruP,A ghost,walk,jump
-14,yubEzRSKnPkFZDJWS,A person,jump,swim
 15,5LuHx6piA3FAjEEvF,Boat,jump,walk
 15,6FrMxuQqHPG6BQ4id,A human,jump,hold
 15,6NZ8uhHHsyQ9m8jRC,alligator,swim,jump
@@ -342,18 +343,18 @@ trial,gameId,words,target,distractor
 15,TDdHXhZK29W9z7d8H,A human,walk,hold
 15,WcEaqZRmgk5YCnxPZ,tree,swim,hold
 15,XA9YvXhM83Tack4qy,"a human, a human, a human, a human, a human",hold,jump
-15,XHYAxKnSNRMEbigrq,a jumping person,hold,swim
+15,XHYAxKnSNRMEbigrq,standing,hold,swim
 15,ZdZx6K6ecNYj9KbGY,a boat,swim,walk
 15,eqxTepQjfWyhW5s7a,a boat,swim,hold
 15,iRoAhttnXMgZ4Fw3x,"a person standing, holding something",hold,walk
 15,ku3ztvaAALvwJNEFk,A person holding something,hold,walk
 15,n2qx434RYW8fxnEbP,the one that's jumping,jump,hold
 15,pxT5YubmAaAEgd9T9,someone that kind of looks like it's walking,walk,swim
-15,sfLKxjjG6efGYekzK,standing,jump,walk
+15,sfLKxjjG6efGYekzK,a jumping person,jump,walk
 15,uT4ySBFpCWunpYMmn,one has a triangle,hold,swim
 15,uidAFavaAGAqJ8HYY,somebody walking,walk,jump
 15,xwPovSuJgpqMFZruP,A ghost,jump,hold
-15,yubEzRSKnPkFZDJWS,"A person, An airplane",swim,hold
+15,yubEzRSKnPkFZDJWS,An airplane,swim,hold
 16,5LuHx6piA3FAjEEvF,Animal,jump,hold
 16,6FrMxuQqHPG6BQ4id,"human, A superhero human",jump,hold
 16,6NZ8uhHHsyQ9m8jRC,Person,jump,hold
@@ -371,14 +372,14 @@ trial,gameId,words,target,distractor
 16,S9c9v6fAqdxuedydx,A person,hold,jump
 16,TDdHXhZK29W9z7d8H,A human,walk,jump
 16,XA9YvXhM83Tack4qy,airplane,swim,walk
-16,XHYAxKnSNRMEbigrq,a horse jumping,walk,hold
+16,XHYAxKnSNRMEbigrq,"walking and head down and eyes down, walking human",walk,hold
 16,ZdZx6K6ecNYj9KbGY,a kite,jump,hold
 16,eqxTepQjfWyhW5s7a,the person that has a silly thing,jump,hold
 16,iRoAhttnXMgZ4Fw3x,a race car and somebody inside,swim,walk
 16,ku3ztvaAALvwJNEFk,A person jumping,jump,hold
-16,n2qx434RYW8fxnEbP,the human that is bending down his head like this and walking,hold,jump
+16,n2qx434RYW8fxnEbP,"the human that is bending down his head like this is having the square, and walking",hold,jump
 16,pxT5YubmAaAEgd9T9,someone's jumping,jump,walk
-16,sfLKxjjG6efGYekzK,"walking and head down and eyes down, walking human",jump,walk
+16,sfLKxjjG6efGYekzK,a horse jumping,jump,walk
 16,uT4ySBFpCWunpYMmn,race car,swim,jump
 16,uidAFavaAGAqJ8HYY,"a person flying, a person flying",jump,swim
 16,xwPovSuJgpqMFZruP,A person holding a ball,walk,hold
@@ -400,14 +401,14 @@ trial,gameId,words,target,distractor
 17,S9c9v6fAqdxuedydx,A person,walk,swim
 17,TDdHXhZK29W9z7d8H,A human holding a roof,hold,jump
 17,XA9YvXhM83Tack4qy,a man,jump,swim
-17,XHYAxKnSNRMEbigrq,a boat,hold,walk
+17,XHYAxKnSNRMEbigrq,"human with head up, with eyes",hold,walk
 17,ZdZx6K6ecNYj9KbGY,a person,walk,jump
 17,eqxTepQjfWyhW5s7a,"the diamond, the person",walk,swim
 17,iRoAhttnXMgZ4Fw3x,someone is jumping,jump,swim
 17,ku3ztvaAALvwJNEFk,Holding something,hold,swim
 17,n2qx434RYW8fxnEbP,the one that's bending down and holding something,swim,hold
 17,pxT5YubmAaAEgd9T9,someone that's walking,walk,swim
-17,sfLKxjjG6efGYekzK,"human with head up, with eyes",swim,hold
+17,sfLKxjjG6efGYekzK,a boat,swim,hold
 17,uT4ySBFpCWunpYMmn,a diamond head,jump,swim
 17,uidAFavaAGAqJ8HYY,somebody on the boat,swim,walk
 17,xwPovSuJgpqMFZruP,"A ghost, a person",jump,walk
@@ -430,14 +431,14 @@ trial,gameId,words,target,distractor
 18,TDdHXhZK29W9z7d8H,Ship,swim,jump
 18,WcEaqZRmgk5YCnxPZ,a airplane,jump,swim
 18,XA9YvXhM83Tack4qy,"a human, a man, a human",walk,hold
-18,XHYAxKnSNRMEbigrq,something that's holding something,jump,walk
+18,XHYAxKnSNRMEbigrq,jumper,jump,walk
 18,ZdZx6K6ecNYj9KbGY,boat,swim,hold
 18,eqxTepQjfWyhW5s7a,the boat,swim,hold
 18,iRoAhttnXMgZ4Fw3x,a person holding something,hold,jump
 18,ku3ztvaAALvwJNEFk,a person’s lying,swim,hold
 18,n2qx434RYW8fxnEbP,the ship,jump,walk
 18,pxT5YubmAaAEgd9T9,someone that giving a plate to someone with one hand,hold,swim
-18,sfLKxjjG6efGYekzK,jumper,hold,jump
+18,sfLKxjjG6efGYekzK,something that's holding something,hold,jump
 18,uT4ySBFpCWunpYMmn,diamond head,hold,walk
 18,uidAFavaAGAqJ8HYY,a person holding a trumpet,hold,jump
 18,xwPovSuJgpqMFZruP,A squirrel boat,swim,hold
@@ -460,15 +461,15 @@ trial,gameId,words,target,distractor
 19,TDdHXhZK29W9z7d8H,A kite,jump,swim
 19,WcEaqZRmgk5YCnxPZ,"the doggy, a person",hold,swim
 19,XA9YvXhM83Tack4qy,"a human, a human",hold,swim
-19,XHYAxKnSNRMEbigrq,"a person, and he has no thing in his hand, walking",swim,hold
+19,XHYAxKnSNRMEbigrq,boat,swim,hold
 19,ZdZx6K6ecNYj9KbGY,a monster,hold,swim
 19,eqxTepQjfWyhW5s7a,the triangle,hold,jump
 19,iRoAhttnXMgZ4Fw3x,a person walking,walk,jump
 19,ku3ztvaAALvwJNEFk,a person is walking,walk,jump
-19,n2qx434RYW8fxnEbP,the one that’s jumping,walk,jump
+19,n2qx434RYW8fxnEbP,the one that’s jumping and has the square,walk,jump
 19,pxT5YubmAaAEgd9T9,a boat,swim,hold
-19,sfLKxjjG6efGYekzK,boat,walk,jump
+19,sfLKxjjG6efGYekzK,"a person, and he has no thing in his hand, walking",walk,jump
 19,uT4ySBFpCWunpYMmn,"it has feet, a person with a head that's square",walk,jump
 19,uidAFavaAGAqJ8HYY,somebody walking,walk,swim
-19,xwPovSuJgpqMFZruP,"Someone holding.a cup, a person",hold,walk
+19,xwPovSuJgpqMFZruP,"Someone holding a cup, a person",hold,walk
 19,yubEzRSKnPkFZDJWS,A person,walk,swim

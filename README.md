@@ -37,3 +37,14 @@ For these, tagging
 ## tagging Leung data for comparison
 
 * rough pass, currently some inconsistency that could be cleaned up
+
+## TODOs
+
+* add a "relevant" column (for refbank)
+* double check transcriptions / tagging
+
+* make sure that there is (max 1 speaker, 1 listener) / trial 
+and that things alternate, etc in trials + transcripts!!
+
+* redo sbert prep(s) post all QC
+* break cache & re-run all models

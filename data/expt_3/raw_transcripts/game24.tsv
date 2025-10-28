@@ -105,8 +105,8 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 263920	264920	Oh no, not your middle finger.	R					
 264920	266920	Just like, oh there you got it.	R					
 266920	267920	Awesome.	R					
-267920	268920	I knew it.	id168					
-268920	269920	Yeah.	R		L			
+267920	268920	I knew it.	id168		L			
+268920	269920	Yeah.	R					
 269920	270920	And now.	R					
 270920	271920	I’m really good at the game.	id168		L			
 271920	272920	Yeah.	R	4				

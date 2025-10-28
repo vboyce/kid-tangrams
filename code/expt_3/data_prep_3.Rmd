@@ -21,31 +21,33 @@ data_source <- "data/expt_3/rounds.csv"
 
 player_source <- "data/expt_3/players.csv"
 
-real_ids <- c(str_c("", c(
-  159:162, 167:170,
-  173:174, 181:184,
-  187:188, 191:196,
-  199:200, 203:204,
-  207:208, 227:234,
-  237:240, 243:252
-)))
-# kids ids to include
 ```
 
 # Empirica output prep
 
 ```{r}
-players <- read_csv(here(player_source)) |>
-  filter(id %in% real_ids) %>%
-  select(id, playerId = `_id`)
 
-# expect 50 kids (25 games)
-```
+id_sub <- function(id){
+  new_id = case_when(
+    id=="pear" ~ "id153",
+    id=="apple" ~ "id154",
+    id=="pear155" ~ "id155",
+    id=="apple156" ~ "id156",
+    id=="pear157" ~ "id157",
+    id=="apple158" ~ "id158",
+    id=="pear123" ~ "id163",
+    id=="apple124" ~ "id164",
+    id=="pear124"~"id165",
+    id=="apple125" ~ "id166",
+    T ~ str_c("id", id)
+  )
+  return(new_id)
+}
 
-```{r}
+players <- read_csv(here(player_source)) |> select(playerId=`_id`, id) |> rowwise() |>  mutate(id=id_sub(id)) |> ungroup()
+
 raw_data <- read.csv(here(data_source), header = TRUE) %>%
   rename_with(~ gsub("data.", "", .x, fixed = TRUE)) %>%
-  # select(-chat) |>
   pivot_longer(
     cols = starts_with("player"), names_to = c("playerId", "info"), names_prefix = "player_", names_sep = "_",
     values_to = "values", values_transform = as.character, values_drop_na = T
@@ -82,29 +84,41 @@ label_image <- function(string) {
 
 less_raw_data <- raw_data %>%
   select(target, distractor, trialNum, targetNum, repNum, response, correct, time, listener = playerId, speaker, gameId) %>%
-  mutate(across(c(target, distractor, response), ~ label_image(.x))) %>%
+  mutate(across(c(target, distractor, response), ~ label_image(.x))) |> 
+  inner_join(read_tsv(here("data/expt_3/link_transcripts.csv")) |> select(gameId, game)) |> 
   write_csv(here("data/expt_3/clean_data.csv"))
+
+
 ```
 
-below here copied from expt 2 and not updated!
-
-# Transcript wrangle - new
+# Transcript wrangle
 
 ```{r}
-library(readxl)
 
 wrangle_transcript <- function(game_num) {
-  read_tsv(here("data/expt_3/raw_transcripts", str_c(game_num, ".tsv"))) |>
+  if(file.exists(here("data/expt_3/raw_transcripts", str_c(game_num, ".tsv")))){
+  file = read_tsv(here("data/expt_3/raw_transcripts", str_c(game_num, ".tsv")))
+  }
+  else{
+    if(file.exists(here("data/expt_3/raw_transcripts/exclude", str_c(game_num, ".tsv")))){
+        file = read_tsv(here("data/expt_3/raw_transcripts/exclude", str_c(game_num, ".tsv")))
+    }
+    else{
+      file=tibble(start=NA, end=NA, text=NA, speaker=NA, trial=NA, role=NA, echo=NA, description=NA)
+    }
+  }
+  file|>
     select(start, end, text, speaker, trial, role, echo, description) |>
     fill(trial) %>%
     mutate(start = start / 1000, end = end / 1000) |>
     mutate(trial = trial-1) |>
     nest(data = c(start, end, text, speaker, trial, role, echo, description))
+
 }
 
 transcripts <- read_tsv(here("data/expt_3/link_transcripts.csv")) |> 
-  select(gameId, gameConfig) |>
-  mutate(transcript = map_df(gameConfig, wrangle_transcript)) |>
+  select(gameId, game) |>
+  mutate(transcript = map_df(game, wrangle_transcript)) |>
   unnest(transcript) |>
   unnest(data)
 
@@ -113,18 +127,7 @@ write_csv(transcripts, here("data/expt_3/transcripts.csv"))
 ```
 
 
-# Checks
-
-how much echoing is there?
-
-```{r}
-transcripts |> filter(!is.na(echo))
-
-# not much, yay!
-```
-
-
-# Sbert data prep
+# Sbert data prep 
 
 ```{r}
 transcript <- read_csv(here("data/expt_3/transcripts.csv"))
@@ -140,6 +143,7 @@ transcript %>%
   write_csv(here("data/expt_3/pre_sbert.csv"))
 ```
 
+(go run sbert here)
 ```{r}
 library(reticulate)
 np <- import("numpy")

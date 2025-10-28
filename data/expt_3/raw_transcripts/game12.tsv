@@ -133,7 +133,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 244520	246360	A hat.	id161		S			
 246360	247480	A hat?	id161		S			
 247480	249360	Yeah, touch what you think it is.	R					
-249360	250200	Is this a hat?	id161		L			
+249360	250200	Is this a hat?	id161		S			
 250200	251040	With your finger.	R					
 251040	253440	Arrows, I think I see arrows.	id161		S		arrows	
 254680	257000	What does an arrow look like?	id162		L			x
@@ -254,7 +254,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 507560	509880	I see blocks.	id162		S		blocks	
 509880	511400	I see.	id161		L			
 511400	512640	What does it look like though?	R					
-512640	514640	It looks like a, it looks like a person.	id161		S		a person	
+512640	514640	It looks like a, it looks like a person.	id161		L		a person	
 514640	517800	Wait, [id162]'s telling you what she sees in the box.	R					
 517800	522040	It's so, it looks like it, stay still people,	id162		S		a stay still people	
 522040	527040	it stays to, this guy is so small and it, it stays still.	id162		S		this guy is so small and it stays still	

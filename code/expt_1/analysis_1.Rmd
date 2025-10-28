@@ -17,6 +17,8 @@ knitr::opts_chunk$set(
                       echo=F, warning=F, cache=T, 
                       message=F, sanitize = T)
 theme_set(theme_classic())
+
+
 transcript <- read_csv(here("data/timed_transcript.csv"))
 
 dat <- read_csv(here("data/clean_data.csv"))
@@ -26,8 +28,44 @@ time_palette <- c("practice"="grey","block 1"="#E41A1C","block 2"="#377EB8", "bl
 
  
 ```
+.
 
-Trials were excluded if the speaker did not provide any description before the listener clicked.
+# Exclusions
+
+```{r}
+transcript <- read_csv(here(data_loc, "transcripts.csv"))
+data <- read_csv(here(data_loc, "clean_data.csv"))
+link <- read_tsv(here(data_loc, "link_transcripts.csv"))
+
+
+data <- read_csv(here(data_loc, "clean_data.csv")) |>
+  rename(trial = trialNum) |>
+  inner_join(link |> filter(is.na(exclude))) 
+
+transcript <- transcript |>
+    inner_join(link |> filter(is.na(exclude))) |> 
+  filter(!is.na(description))
+
+words <- transcript |> mutate(words=description |> str_count("\\S+")) |>
+  filter(role=="S") |>
+  group_by(gameId, game, trial) |>
+  summarize(words=sum(words))
+
+all_data <- data |>left_join(words) |> 
+  filter(!is.na(words)) |> 
+   mutate(type = case_when(
+    trial < 4 ~ "practice",
+    trial < 8 ~ "block 1",
+    trial < 12 ~ "block 2",
+    trial < 16 ~ "block 3",
+    trial < 20 ~ "block 4"
+  )) |>
+  filter(!is.na(response)) |> 
+  mutate(correct=as.numeric(correct))
+
+all_data |> select(game, speaker) |> distinct()
+
+```
 
 # Rate of echoing
 
