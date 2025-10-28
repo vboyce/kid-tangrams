@@ -1,0 +1,29 @@
+start,end,text,,,,,,,,,,,,speaker
+0,12000,"Do you want to say hi? Hi. Hi my friends. Are you ready to play the game? Okay my friends, today we will be playing a matching game. Let me show you how it works, okay?",,,,,,,,,,,,I
+12000,25000,"Now this my friends is, tada! Smurphy! Let's say hi to Smurphy. No, is he a little scary to you? Oh that's okay. Smurphy is really nice. Do you want to say hi to Smurphy? No.",,,,,,,,,,,,I
+25000,34000,"Oh it's okay. I will say hi to Smurphy then. So Smurphy really wants to play this game, okay? And specifically it's a matching game.",,,,,,,,,,,,I
+34000,41000,"So you will see two pictures on your screens, but only one of you friends will see a picture in a black box, okay?",,,,,,,,,,,,I
+41000,52000,"And Smurphy just wants to guess that picture in a black box. Now [id56], so if you have Smurphy then you will be guessing, okay? You will guess the picture that is in the black box.",,,,,,,,,,,,I
+52000,61000,"I don't want to. I'll show you. I'll show you. I can hold Smurphy for you, okay? Now if you don't have Smurphy with you, you will be telling, okay?",,,,,,,,,,,,I
+61000,68000,"So you will tell me now what you see in the black box. To make a guess we will just tap on the screen, but we don't have to do it right now.",,,,,,,,,,,,I
+68000,81000,"And you will see a picture. Now if you see a smiley face, great! It was a match. If you see a sad face, it wasn't a match. But it's okay. We can always try again next time.",,,,,,,,,,,,I
+81000,88000,"Does that sound good? Yeah. Yeah? Do we have any questions, my friends? No. No? Should we start playing the game? Yeah.",,,,,,,,,,,,I
+88000,99000,"Okay, so to start we will press the blue button. Okay, so now it is [id56]'s turn to guess, okay? So I will put Smurphy here, okay? Yeah.",,,,,,,,,,,,I
+99000,108000,"Should I hold it? Okay, I'll hold it. So [id55], let's tell me now what we see in the black box. Definitely.",,,,,,,,,,,,I
+108000,117000,"Oh, we do see something. Let's try to help Smurphy and [id56] out. What does that look like? Aseod. A what? Aseod.",,,,,,,,,,,,"I, id55"
+117000,133000,"Aseod? Oh, so [id55] sees aseod. Is that aseod? So which one looks like aseod? Let's press it. This one. Yeah. So [id56], we will sit, okay?",,,,,,,,,,,,"I, id55"
+133000,143000,"[id56], which one looks like that? Let's press it. Not that I keep this one. I can't see it. You can't see? Yeah.",,,,,,,,,,,,I
+143000,153000,"Let's try to see it again. [id56], let's sit on the seat, okay? So what does that look like? Aseod. Aseod. So which one looks like aseod?",,,,,,,,,,,,I
+153000,163000,"Let's press it. Great. So that was a match, okay? Now [id55], it'll be your turn to guess, okay? Do you want Smurphy? Yeah.",,,,,,,,,,,,I
+163000,172000,"Okay, then I will hold Smurphy. Now [id56], we will tell [id55] what we see in the box. What does that look like? Apple. Apple. Apple.",,,,,,,,,,,,I
+172000,183000,"Great. It was a match. So now we'll continue on. We'll put Smurphy on my lap. Okay. Now [id55], what does that look like to you? A shape.",,,,,,,,,,,,"I, id56"
+183000,196000,What does it look like? What does it kind of look like? I don't know. You just see shapes? Okay. [id55] sees a shape. Which one looks like a shape to you?,,,,,,,,,,,,"I, id55"
+196000,206000,"That's okay, my friends. It wasn't a match, but we can try again. Okay. Now [id56], what does that look like to you? A person. A person. Do you see a person?",,,,,,,,,,,,"I, id56"
+206000,217000,"Great. That was a match. Okay. Now [id55], it'll be your turn. So what does that look like to you? I don't know. Laying down on the ground.",,,,,,,,,,,,"I, id55"
+217000,227000,Laying down on the ground. I don't know. What is it? Laying down on the ground. Yeah. [id55] says that she sees one. Let's press it together.,,,,,,,,,,,,I
+227000,235000,We can press it together. Okay. So I will hold your finger. Ready? So which one do you want to press on? Okay. Ready? Go.,,,,,,,,,,,,I
+235000,241000,"Yay. It was a match, my friends. Okay. Now [id56]. I want to read this game.",,,,,,,,,,,,I
+241000,250000,"How about, should we finish the game before we leave? Yeah. And then it'll be snack time. I don't want to. I do. You do? Oh.",,,,,,,,,,,,"I, id56"
+250000,259000,"How about we play, if maybe three more rounds? No. You just want to leave [id56]? Okay. Well, that's okay. I don't.",,,,,,,,,,,,I
+259000,268000,"Well, [id56] wants to leave, so we have to end the game right here. [id55]. That's okay. Okay, my friends.",,,,,,,,,,,,I
+268000,273000,Now we can stop where we were today.,,,,,,,,,,,,I

@@ -1,0 +1,294 @@
+start,end,text,,,,,,,,speaker
+0,5000,"Fantastic. We've played before, right? Are you? Right, [id5]?",,,,,,,,Bobby
+5000,6000,Yeah.,,,,,,,,I
+6000,9000,"All right. Well, you are all going to have a lot of fun, okay?",,,,,,,,Bobby
+9000,10000,"Thank you, Bobby.",,,,,,,,M
+10000,11000,Of course.,,,,,,,,Bobby
+11000,13000,"All right, my friends.",,,,,,,,M
+13000,16000,"So, today, we're going to play a magic game.",,,,,,,,M
+16000,17000,It's going to be really fun.,,,,,,,,M
+17000,19000,Let us show you how it works.,,,,,,,,M
+19000,23000,"Now, this right here is Mr. Smurphy.",,,,,,,,I
+23000,25000,Okay. Do you want to say hi to Smurphy?,,,,,,,,I
+25000,26000,Hi.,,,,,,,,id6
+26000,27000,Hi.,,,,,,,,I
+27000,28000,Hi.,,,,,,,,id5
+28000,29000,Hi.,,,,,,,,I
+29000,33000,"Now, Smurphy really, really wants to play this matching game today, okay?",,,,,,,,I
+33000,36000,"And so, this is how it works.",,,,,,,,I
+36000,40000,"You'll both get two pictures on your iPads, okay?",,,,,,,,I
+40000,48000,"And if you don't have Smurphy, then you will be in charge of telling us what you see in black books.",,,,,,,,I
+48000,58000,"If you do have Smurphy, then you will be in charge of helping Smurphy guess what your friend is seeing in the black box, okay?",,,,,,,,I
+58000,61000,"So, let's say, [id6], you have Smurphy, right?",,,,,,,,I
+61000,67000,Are you going to guess or are you going to tell [id5] what you see in the box?,,,,,,,,I
+67000,72000,Which one do you think it is?,,,,,,,,I
+72000,73000,Tell.,,,,,,,,id6
+73000,74000,Tell.,,,,,,,,I
+74000,77000,"I think you're going to guess, okay?",,,,,,,,I
+77000,80000,"When you have Smurphy, you're going to guess.",,,,,,,,I
+80000,86000,"[id5], if you don't have Smurphy, are you going to guess or are you going to tell?",,,,,,,,I
+86000,89000,"You're going to tell, okay?",,,,,,,,I
+89000,96000,"Now, if you do have Smurphy, are you going to guess or are you going to tell?",,,,,,,,I
+96000,98000,Think.,,,,,,,,I
+98000,100000,Smurphy loves to guess.,,,,,,,,M
+100000,102000,He loves to guess.,,,,,,,,I
+102000,105000,"So, do you help him guess?",,,,,,,,I
+105000,106000,"Yeah, great.",,,,,,,,M
+106000,110000,"And if you don't have Smurphy, you will help him to tell, okay?",,,,,,,,I
+110000,112000,"Alright, let's try.",,,,,,,,I
+112000,117000,"Alright, my friends, so, to make your guess, you're just going to tap on the picture that",,,,,,,,M
+117000,119000,"you think it is, okay?",,,,,,,,M
+119000,122000,"And then after you guess, you'll see a picture.",,,,,,,,M
+122000,126000,"It'll either be a smiley face, which means you made the right match.",,,,,,,,M
+126000,127000,Great job.,,,,,,,,M
+127000,131000,"Or it'll be a sad face, which means it wasn't a match, but that's okay.",,,,,,,,M
+131000,133000,You can help Smurphy another time.,,,,,,,,M
+133000,137000,Do either of you have questions?,,,,,,,,M
+137000,139000,No questions.,,,,,,,,I
+139000,140000,Great.,,,,,,,,M
+140000,141000,What do you say?,,,,,,,,M
+141000,145000,"Smurphy, make some matches?",,,,,,,,M
+145000,146000,Should we?,,,,,,,,I
+146000,147000,Yeah.,,,,,,,,id6
+147000,148000,Great.,,,,,,,,M
+148000,149000,You too?,,,,,,,,I
+149000,150000,What do you think?,,,,,,,,M
+150000,151000,"Smurphy, should we do it?",,,,,,,,M
+151000,152000,Great.,,,,,,,,M
+152000,155000,"Alright, so now both of you are going to press the blue box on your screen.",,,,,,,,M
+155000,156000,Go ahead.,,,,,,,,M
+156000,157000,Great job.,,,,,,,,M
+157000,159000,"Alright, so it looks like snow.",,,,,,,,M
+159000,161000,You're going to guess first.,,,,,,,,M
+161000,162000,Here you are.,,,,,,,,M
+162000,163000,Here's Smurphy.,,,,,,,,I
+163000,166000,Let's tell snow and Smurphy what we see in the black box.,,,,,,,,I
+166000,167000,What do you see?,,,,,,,,I
+167000,168000,A banana.,,,,,,,,id6
+168000,172000,So go ahead and touch the one you think.,,,,,,,,M
+172000,174000,Which one is a banana?,,,,,,,,I
+174000,177000,Which one looks like a banana snow?,,,,,,,,I
+177000,180000,Go ahead and touch it one more time.,,,,,,,,M
+180000,181000,Alright.,,,,,,,,M
+181000,184000,You want to do it like that?,,,,,,,,M
+184000,185000,Yay.,,,,,,,, 
+185000,190000,"Alright, now Smurphy's going to go to you.",,,,,,,,M
+190000,194000,"Alright, so what do you see in the box?",,,,,,,,M
+194000,198000,"Oh, she said an apple.",,,,,,,,M
+198000,201000,Which one looks like an apple?,,,,,,,,I
+201000,203000,Let's tap it.,,,,,,,,I
+203000,204000,Yay.,,,,,,,, 
+204000,205000,Nice.,,,,,,,,I
+205000,208000,Let's pass it off to snow.,,,,,,,,I
+208000,210000,"There you are, snow.",,,,,,,,M
+210000,212000,What do we see,,,,,,,,I
+212000,213000,Yeah.,,,,,,,,I
+213000,217000,How would we tell snow what it is?,,,,,,,,I
+217000,219000,A man walking.,,,,,,,,id6
+219000,222000,A man walking.,,,,,,,,I
+222000,228000,So tap which one you think it is?,,,,,,,,M
+228000,230000,There you are.,,,,,,,,M
+230000,231000,Here you go.,,,,,,,,I
+231000,234000,We're going to guess now.,,,,,,,,I
+234000,239000,"What do you see, snow?",,,,,,,,I
+239000,251000,What do you see in the box?,,,,,,,,M
+251000,254000,What does it look like?,,,,,,,,I
+254000,256000,Is it a person?,,,,,,,,I
+256000,257000,Yeah.,,,,,,,,I
+257000,263000,What is that person doing?,,,,,,,,I
+263000,270000,What does it look like they're doing?,,,,,,,,M
+270000,275000,"Let's give snow some time to think, okay?",,,,,,,,I
+275000,277000,Do you think they're jumping?,,,,,,,,I
+277000,279000,Do you think they're walking?,,,,,,,,I
+279000,281000,Are they holding something?,,,,,,,,I
+281000,290000,What are they doing?,,,,,,,,I
+290000,295000,"It's a tough one, huh?",,,,,,,,I
+295000,300000,So what does it look like this one's doing?,,,,,,,,M
+300000,302000,Holding something.,,,,,,,,I
+302000,305000,"Which person looks like they're holding something, [id6]?",,,,,,,,I
+305000,308000,"Yeah, let's press it.",,,,,,,,I
+308000,309000,That's great.,,,,,,,,I
+309000,311000,I'm going to pass it on.,,,,,,,,I
+311000,312000,Thank you.,,,,,,,,I
+312000,314000,There you are.,,,,,,,,M
+314000,317000,What do you see?,,,,,,,,I
+317000,321000,How would you tell snow about it?,,,,,,,,I
+321000,323000,I don't know what it is.,,,,,,,,id6
+323000,326000,"Well, what do you see?",,,,,,,,M
+326000,328000,Stones.,,,,,,,,id6
+328000,331000,Stones?,,,,,,,,I
+331000,337000,What else could you help them with?,,,,,,,,I
+337000,341000,What does it look like?,,,,,,,,I
+341000,344000,Stones rolling on the ground.,,,,,,,,id6
+344000,346000,Stones rolling on the ground.,,,,,,,,I
+346000,350000,With stones stuck on the ground?,,,,,,,,id6
+350000,352000,Stones stuck on the ground.,,,,,,,,I
+352000,356000,Which one looks like stones rolling on the ground?,,,,,,,,I
+356000,362000,Whatever one you think.,,,,,,,,M
+362000,364000,"That's a tough one, huh?",,,,,,,,I
+364000,367000,Stones.,,,,,,,,I
+367000,371000,"Which one do you think, [id5]?",,,,,,,,I
+371000,374000,Do you want to ask some questions?,,,,,,,,I
+374000,378000,Just press the button that will take you there.,,,,,,,,id6
+378000,383000,"Right, so you can press whatever one you think it is.",,,,,,,,M
+383000,390000,Which one do you think looks like the stones on the ground?,,,,,,,,M
+390000,393000,Just do it right away.,,,,,,,,id6
+393000,396000,"It's okay, we can do some time for snow, okay?",,,,,,,,I
+396000,398000,That one's kind of tricky.,,,,,,,,I
+398000,401000,It is kind of tricky.,,,,,,,,I
+401000,404000,"It's okay, it'll be your turn very soon, okay?",,,,,,,,I
+404000,406000,"What do you think, [id5]?",,,,,,,,I
+406000,408000,Do you think it's...what do we have?,,,,,,,,I
+408000,410000,Do you think it's this one or this one?,,,,,,,,M
+410000,415000,"That one that's kind of flat, or do you think this one that's kind of like jumpy?",,,,,,,,I
+415000,418000,The jumpy one.,,,,,,,,id6
+418000,420000,It's a jumpy one?,,,,,,,,I
+420000,422000,"Yeah, it's a jumpy one.",,,,,,,,I
+422000,424000,Let me try.,,,,,,,,I
+424000,425000,Then press it.,,,,,,,,I
+425000,429000,Press which one do you think?,,,,,,,,I
+429000,436000,Do you want to press?,,,,,,,,I
+436000,438000,Do you want to press with your fingers?,,,,,,,,I
+438000,440000,"Yeah, let's do it.",,,,,,,,M
+440000,443000,"Here, I can do it with you too, ready?",,,,,,,,M
+443000,445000,Which one do you want to go?,,,,,,,,M
+445000,447000,I want to press which one do you think?,,,,,,,,M
+447000,450000,"Okay, let's press it, ready?",,,,,,,,M
+450000,452000,That's okay.,,,,,,,,M
+452000,453000,"That wasn't a match, right?",,,,,,,,M
+453000,454000,That's okay.,,,,,,,,M
+454000,456000,Now we're going to try to help Smurphy again.,,,,,,,,M
+456000,457000,Here you go.,,,,,,,,I
+457000,464000,"So, [id5], what do you see in this picture?",,,,,,,,M
+464000,466000,How does the picture look like?,,,,,,,,M
+466000,467000,Let's see.,,,,,,,,M
+467000,471000,"Huh, it's that one, huh?",,,,,,,,M
+471000,474000,How would you tell him about it?,,,,,,,,M
+474000,476000,Does it look like a person?,,,,,,,,I
+476000,478000,Yeah.,,,,,,,,id5
+478000,480000,Then press it.,,,,,,,,I
+480000,482000,"Well, you're going to be pressing it this time.",,,,,,,,I
+482000,484000,You need to guess which one [id5]'s looking at.,,,,,,,,I
+484000,486000,You think it's that one?,,,,,,,,I
+486000,488000,Maybe.,,,,,,,,I
+488000,489000,Nice.,,,,,,,, 
+489000,491000,That was a good guess.,,,,,,,,I
+491000,493000,"Alright, [id6], let's pass Smurphy on.",,,,,,,,I
+493000,496000,"Here you go, [id5].",,,,,,,,I
+496000,500000,"Okay, what do you see, [id6]?",,,,,,,,I
+500000,503000,A person jumping.,,,,,,,,id6
+503000,505000,A person jumping.,,,,,,,,I
+505000,507000,Which one's a person jumping?,,,,,,,,I
+507000,509000,They are running at the same time.,,,,,,,,id6
+509000,510000,And what?,,,,,,,,I
+510000,511000,At the same time.,,,,,,,,I
+511000,512000,Running.,,,,,,,,id6
+512000,513000,Running.,,,,,,,,I
+513000,514000,At the same time.,,,,,,,,I
+514000,527000,Which one looks like a person running and jumping?,,,,,,,,I
+527000,529000,Which one do you think?,,,,,,,,I
+529000,530000,That one?,,,,,,,,I
+530000,532000,"Yeah, that's pressing.",,,,,,,,I
+532000,534000,Do you want to press it together?,,,,,,,,I
+534000,535000,"Yeah, okay, let's go.",,,,,,,,I
+535000,538000,"3, 2, 1.",,,,,,,,I
+538000,540000,"Nice job, [id5].",,,,,,,,I
+540000,542000,There you go.,,,,,,,,I
+542000,544000,"We're going to guess now, okay, [id6]?",,,,,,,,I
+544000,551000,"What do you see, [id5]?",,,,,,,,I
+551000,555000,What does this one look like to you?,,,,,,,,I
+555000,559000,Do you see certain shapes?,,,,,,,,I
+559000,562000,What shapes do you see?,,,,,,,,I
+562000,566000,"I don't know, it looks so silly.",,,,,,,, 
+566000,569000,I look like it was your left knee.,,,,,,,, 
+569000,572000,Just pressed it.,,,,,,,,id6
+572000,574000,You're going to be the one pressing it this time.,,,,,,,,I
+574000,575000,This one.,,,,,,,,I
+575000,576000,"It has to be big, right?",,,,,,,, 
+576000,578000,"Smurphy needs time to be think, too.",,,,,,,,I
+578000,582000,"What do you think, [id5]?",,,,,,,,I
+582000,583000,What do we have?,,,,,,,,M
+583000,585000,"Oh, we have these two again.",,,,,,,,M
+585000,591000,"So, with these two, what kind of shapes do you see?",,,,,,,,M
+591000,606000,"Do they look like people again, [id5]?",,,,,,,,I
+606000,609000,Does this person look like they're up?,,,,,,,,I
+609000,610000,They're standing?,,,,,,,,I
+610000,613000,Or does this person look like they're down?,,,,,,,,I
+613000,616000,What do you think in this box?,,,,,,,,I
+616000,619000,"Are they up, standing, or are they down?",,,,,,,,I
+619000,621000,"They're down, huh?",,,,,,,,I
+621000,624000,"[id6], if she said they're down, which one do you think it is?",,,,,,,,I
+624000,626000,Do you want to make your guess with Smurphy?,,,,,,,,M
+626000,629000,Someone laying down.,,,,,,,,I
+629000,633000,"What do you think, [id6]?",,,,,,,,I
+633000,635000,It's that one.,,,,,,,,id6
+635000,638000,Let's press it,,,,,,,,I
+638000,639000,Nice.,,,,,,,,I
+639000,642000,"You want to pass, Smurphy?",,,,,,,,I
+642000,643000,A high five.,,,,,,,,I
+643000,644000,Could I also ask?,,,,,,,,I
+644000,646000,"Oh my gosh, that's a good question.",,,,,,,,I
+646000,647000,"Smurphy, too?",,,,,,,,I
+647000,650000,I'm going to take Smurphy from you so that it can be [id5]'s turn.,,,,,,,,I
+650000,651000,Okay?,,,,,,,,I
+651000,652000,Thank you.,,,,,,,,I
+652000,654000,"Thank you for the high five, too.",,,,,,,,I
+654000,655000,Okay.,,,,,,,,I
+655000,656000,There you are.,,,,,,,,I
+656000,660000,What do we see?,,,,,,,,I
+660000,661000,Here's Smurphy.,,,,,,,,M
+661000,662000,You're going to guess with Smurphy.,,,,,,,,M
+662000,664000,Who's this with you?,,,,,,,,
+664000,667000,I guess not.,,,,,,,,
+667000,668000,What?,,,,,,,,
+668000,669000,Where's Smurphy?,,,,,,,,
+669000,671000,Smurphy is so high.,,,,,,,,
+671000,676000,Someone walking.,,,,,,,,id6
+676000,679000,[id6] said it's someone walking.,,,,,,,,M
+679000,681000,So what do you think?,,,,,,,,M
+681000,683000,Go ahead and press it.,,,,,,,,M
+683000,684000,Nice.,,,,,,,,M
+684000,686000,Here you are.,,,,,,,,M
+686000,689000,Here you have Smurphy back.,,,,,,,,I
+689000,695000,"What do they look like they're doing, [id5]?",,,,,,,,I
+695000,697000,"Oh, we have these two again.",,,,,,,,I
+697000,699000,We have someone.,,,,,,,,I
+699000,702000,So what does it look like this person is doing?,,,,,,,,I
+702000,704000,"Yeah, I got one.",,,,,,,, 
+704000,707000,Okay.,,,,,,,, 
+707000,709000,Laying down.,,,,,,,,id6
+709000,714000,"[id6] asked, are they laying down, [id5]?",,,,,,,,I
+714000,717000,Is the one in the box laying down?,,,,,,,,I
+717000,719000,"No, it's not laying down.",,,,,,,,I
+719000,722000,Someone holding something?,,,,,,,,id6
+722000,723000,Yes.,,,,,,,,id6
+723000,724000,Yeah?,,,,,,,,I
+724000,726000,Should we press it?,,,,,,,,I
+726000,731000,"All right, my friends, we're going to play one more and then we got to get ready to go back to class, okay?",,,,,,,,M
+731000,734000,Do you want to pass it to me?,,,,,,,,I
+734000,736000,Thank you.,,,,,,,,I
+736000,738000,What do you see?,,,,,,,,I
+738000,741000,There you go.,,,,,,,,I
+741000,747000,What do you see in the black box?,,,,,,,,I
+747000,749000,Someone lying.,,,,,,,,id6
+749000,751000,I don't know.,,,,,,,,id6
+751000,755000,"What kind of shapes do you see, [id6]?",,,,,,,,M
+755000,759000,Is this one in the black box?,,,,,,,,I
+759000,765000,"Is it in the black box, [id6]?",,,,,,,,I
+765000,766000,It's snow.,,,,,,,,I
+766000,768000,Let's turn to press it.,,,,,,,,I
+768000,774000,Let's describe what we see.,,,,,,,,I
+774000,777000,"[id5], we might get our hair out of our mouth.",,,,,,,,M
+777000,779000,"It doesn't tastes really good, does it?",,,,,,,,M
+779000,780000,"What do we see, [id6]?",,,,,,,,I
+780000,782000,Is that a person?,,,,,,,,I
+782000,783000,Yeah.,,,,,,,,I
+783000,785000,What is this person doing?,,,,,,,,I
+785000,787000,Holding something.,,,,,,,,I
+787000,789000,What do you think?,,,,,,,,I
+789000,791000,That's okay.,,,,,,,,M
+791000,792000,It's okay.,,,,,,,,M
+792000,793000,Okay.,,,,,,,,M
+793000,796000,"All right, my friends, well thank you for playing our game.",,,,,,,,M
+796000,799000,"All right, we're going to go turn off the camera, okay?",,,,,,,,M
+799000,818000,"All right, and then we'll go straight back to snack.",,,,,,,,M
