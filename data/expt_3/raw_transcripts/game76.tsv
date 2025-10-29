@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 33440	37840	All right we're going to play a fun matching game but before we do that we're going to	R					
 37840	41680	practice touching our iPads by just playing a little game of popping bubbles.	R					
 43040	44960	So each of you want to press the blue button	R					
@@ -29,62 +29,62 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 160240	166880	which picture is in the box. It'll make more sense once we start playing. All right do each	R					
 166880	176320	of you want to tap the blue button? Which of you sees the black box? All right so you'll be telling	R	1				
 176320	185920	and you'll be helping [id238] guess. What do you see in the black box? 	R					
-		a banana	id237		S		a banana	
+		a banana	id237		S		a banana	Y
 		do you want to press	R					
 185920	198640	it [id238]? Awesome	R					
 		. Now it'll be your turn to tell [id238]. What do you see in the black box? 	R	2				
-		A dog.	id238		S		a dog	
+		A dog.	id238		S		a dog	Y
 199440	206160	Awesome. Now it's your turn [id237].	R	3				
 208960	212160	What do you see in the black box?	R					
-		 A sponge.	id237		S		a sponge	
+		 A sponge.	id237		S		a sponge	Y
 215040	217600	You can press it when you think you know what she's talking about.	R					
 217600	226320	Awesome. Now it's your turn [id238].	R	4				
 228880	233040	What do you see in the black box? 	R					
-		A four side thing.	id238		S		a four side thing	
+		A four side thing.	id238		S		a four side thing	Y
 235680	239680	You think you know what it is? You can press if you do.	R					
 242400	244720	You can also ask a question if you want.	R					
 247600	248720	Awesome.	R	5				
 256160	264240	What do you see [id237]? 	R					
-		I see like a thing that looks like a banana. It has like a diamond on the top.	id237		S		a banana, it has a diamond on the top	
+		I see like a thing that looks like a banana. It has like a diamond on the top.	id237		S		a banana, it has a diamond on the top	Y
 268800	269280	Awesome.	R	6				
 270000	279600	What do you see [id238]? 	R					
-		A thing that looks like a kangaroo.	id238		S		a kangaroo	
+		A thing that looks like a kangaroo.	id238		S		a kangaroo	Y
 288000	290400	That's okay. Murphy has more chances.	R	7				
-290400	298880	So I see in the black box something that looks like a walking person.	id237		S		a walking person	
+290400	298880	So I see in the black box something that looks like a walking person.	id237		S		a walking person	Y
 301840	302240	Awesome.	R	8				
 307440	309680	What do you see [id238]? 	R					
-		I don't know.	id238		S			
+		I don't know.	id238		S			Y
 312800	316240	Do you want to try and use words to help [id237] figure it out?	R					
-		I don’t know	id238		S			
+		I don’t know	id238		S			Y
 316240	322560	Do you want to ask her a question [id237] to clarify?	R					
-330000	333200	What does this picture look like?	id237		L			x
-335280	340480	It looks like a kangaroo that has a diamond on her head.	id238		S		a kangaroo that has a diamond on her head	
-341440	342480	A diamond.	id237		L		a diamond	x
+330000	333200	What does this picture look like?	id237		L			Y
+335280	340480	It looks like a kangaroo that has a diamond on her head.	id238		S		a kangaroo that has a diamond on her head	Y
+341440	342480	A diamond.	id237		L		a diamond	Y
 345920	346400	Awesome.	R	9				
-350640	360560	So I see in the black box something that looks like a person that's walking and has a square	id237		S		a person that’s walking and has a square	
-361120	362480	like on his shoulder.	id237		S		like on his shoulder	
+350640	360560	So I see in the black box something that looks like a person that's walking and has a square	id237		S		a person that’s walking and has a square	Y
+361120	362480	like on his shoulder.	id237		S		like on his shoulder	Y
 363440	363840	Awesome.	R	10				
-364560	370960	I see the same thing.	id238		S		the same thing	
+364560	370960	I see the same thing.	id238		S		the same thing	Y
 377360	379920	That's okay. Here let's pass Murphy.	R	11				
-383200	388720	I see in the black box something that looks like a banana that has a diamond on it.	id237		S		a banana that has a diamond on it	
+383200	388720	I see in the black box something that looks like a banana that has a diamond on it.	id237		S		a banana that has a diamond on it	Y
 388720	392720	Awesome.	R	12				
-396080	398480	I see it like a kangaroo.	id238		S		a kangaroo	
+396080	398480	I see it like a kangaroo.	id238		S		a kangaroo	Y
 404480	404880	Sweet.	R	13				
-406480	412880	I see something that looks like a square on top of his shoulder.	id237		S		a square on top of his shoulder	
+406480	412880	I see something that looks like a square on top of his shoulder.	id237		S		a square on top of his shoulder	Y
 416000	416400	Great.	R	14				
-419440	422480	I see it like a banana and a diamond top.	id238		S		a banana and a diamond top	
+419440	422480	I see it like a banana and a diamond top.	id238		S		a banana and a diamond top	Y
 425520	426000	Great.	R	15				
-429040	433040	I see something that looks like a walking person again.	id237		S		a walking person	
+429040	433040	I see something that looks like a walking person again.	id237		S		a walking person	Y
 436960	437360	Great.	R	16				
-440640	442560	I see it like a kangaroo.	id238		S		a kangaroo	
-449600	453600	I see something that looks like a banana on top of his shoulder.	id237	17	S		a banana on top of his shoulder	
-461600	464000	I see it like a walking person.	id238	18	S		a walking person	
-469760	472560	I see something that looks like a kangaroo.	id237	19	S		a kangaroo	
-478720	482560	A lady that has a diamond on her head.	id238	20	S		a lady that has a diamond on her head	
-484400	484720	What?	id237		L			x
-486640	489680	A lady that has a diamond on her head.	id238		S			x
-490480	493680	A lady that has a diamond on her head?	id237		L			x
-493680	494180	Yeah.	id238		S			x
+440640	442560	I see it like a kangaroo.	id238		S		a kangaroo	Y
+449600	453600	I see something that looks like a banana on top of his shoulder.	id237	17	S		a banana on top of his shoulder	Y
+461600	464000	I see it like a walking person.	id238	18	S		a walking person	Y
+469760	472560	I see something that looks like a kangaroo.	id237	19	S		a kangaroo	Y
+478720	482560	A lady that has a diamond on her head.	id238	20	S		a lady that has a diamond on her head	Y
+484400	484720	What?	id237		L			Y
+486640	489680	A lady that has a diamond on her head.	id238		S			Y
+490480	493680	A lady that has a diamond on her head?	id237		L			Y
+493680	494180	Yeah.	id238		S			Y
 499360	499920	That's okay.	R					
 501520	505920	Well thank you guys for playing my game. That's it. I hope you enjoyed it.	R					
 505920	507360	I'm just gonna stop the camera.	R					

@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	6000	Remember how you guys play the game, and let me know if you want to go back to the classroom at any time, okay?	R					
 6000	9000	Also, can I take off your name tags?	R					
 9000	10000	Yeah.	id248					
@@ -36,68 +36,68 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 148000	154000	So, we can each press the blue again, and who has a black box on your screen?	R	1				
 154000	155000	Not me.	id248		L			
 155000	160000	Okay, so you're going to tell [id248] what's in the black box.	R					
-160000	162000	Banana.	id247		S		banana	
+160000	162000	Banana.	id247		S		banana	Y
 162000	166000	Awesome, and now we're going to pass Smurphy.	R	2				
 166000	168000	I guess right away.	R					
 168000	170000	Now it's your turn to tell [id248].	R					
-170000	172000	Eagle.	id248		S		eagle	
+170000	172000	Eagle.	id248		S		eagle	Y
 172000	176000	Press it again.	R					
 176000	178000	Tap.	R					
 178000	180000	There you go.	R					
 180000	183000	We're going to pass Smurphy.	R	3				
 183000	185000	I don't have it.	id248		L			
-185000	188000	Star.	id247		S		star	
+185000	188000	Star.	id247		S		star	Y
 188000	190000	Nice.	R	4				
-		the star	id248		S		star	
+		the star	id248		S		star	Y
 191000	194000	Pass Smurphy.	R	5				
-194000	199000	Uh, the shape on this side.	id247		S		on this side	
+194000	199000	Uh, the shape on this side.	id247		S		on this side	Y
 199000	203000	They're going to be on different sides, so you have to use your words to help.	R					
 203000	205000	It's okay.	R	6				
-205000	208000	It's the one on this side.	id248		S		on this side	
+205000	208000	It's the one on this side.	id248		S		on this side	Y
 220000	222000	They're not going to be on the same side.	R					
 222000	224000	Okay.	id248		S			
 224000	226000	They could be, but they could not be.	R	7				
 226000	230000	You have to help each other by describing it.	R					
-230000	232000	Which one?	id248		L			
-232000	234000	It's on the sides.	id247		S			
+230000	232000	Which one?	id248		L			Y
+232000	234000	It's on the sides.	id247		S			Y
 236000	238000	The sides, They're going to be on different sides. 	R					
-238000	244000	It's the one with the big spot and then the little spot on top.	id247		S		the big spot and then the little spot on top	
-244000	246000	This one on this side?	id248		L			
-246000	249000	Yeah.	id247		S			
+238000	244000	It's the one with the big spot and then the little spot on top.	id247		S		the big spot and then the little spot on top	Y
+244000	246000	This one on this side?	id248		L			Y
+246000	249000	Yeah.	id247		S			Y
 249000	253000	Oh, that's okay.	R	8				
-253000	256000	Okay, it's the one that's like...	id248		S			
+253000	256000	Okay, it's the one that's like...	id248		S			Y
 256000	258000	You can't, let's use our words.	R					
-258000	260000	This one.	id248		S			
+258000	260000	This one.	id248		S			Y
 260000	262000	You have to use your words to describe it.	R					
-262000	264000	It's the one laying down.	id248		S		the one laying down	
+262000	264000	It's the one laying down.	id248		S		the one laying down	Y
 269000	271000	That's okay.	R	9				
 272000	275000	What do you see in the black box, [id247]?	R					
-275000	279000	A train.	id247		S		a train	
-279000	285000	A big dot and a little diamond on top.	id247		S		a big dot and a little diamond on top	
-285000	287000	This one?	id248		L			
+275000	279000	A train.	id247		S		a train	Y
+279000	285000	A big dot and a little diamond on top.	id247		S		a big dot and a little diamond on top	Y
+285000	287000	This one?	id248		L			Y
 289000	291000	Awesome.	R	10				
 291000	293000	Great job.	R					
 293000	295000	What do you see in the black box?	R					
-295000	297000	The one laying down, [id247].	id248		S		the one laying down	
-297000	302000	The one that's this one?	id247		L			x
-302000	305000	The one laying down.	id248		S			
-305000	307000	That's like too big.	id248		S		too big	
+295000	297000	The one laying down, [id247].	id248		S		the one laying down	Y
+297000	302000	The one that's this one?	id247		L			Y
+302000	305000	The one laying down.	id248		S			Y
+305000	307000	That's like too big.	id248		S		too big	Y
 307000	309000	Nice.	R	11				
-313000	316000	The ramp with the thing on top.	id247		S		the ramp with the thing on top	
-316000	318000	Okay.	id248		L			
+313000	316000	The ramp with the thing on top.	id247		S		the ramp with the thing on top	Y
+316000	318000	Okay.	id248		L			Y
 318000	320000	Nice.	R	12				
-		The one walking	id248		S		the one walking	
-322000	325000	The one that’s sitting	id247	13	S		the one that’s sitting	
-327000	330000	sitting down.	id248		L		sitting down	x
+		The one walking	id248		S		the one walking	Y
+322000	325000	The one that’s sitting	id247	13	S		the one that’s sitting	Y
+327000	330000	sitting down.	id248		L		sitting down	Y
 333000	336000	Sweet.	R	14				
-353000	355000	The one walking	id248		S		the one walking	
-355000	360000	The one with the, not the one that's walking, the other one.	id247	15	S		not the one that’s walking, the other one	
-368000	371000	The one that has like a ramp.	id248	16	S		that one that has like a ramp	
-379000	383000	The one that's sitting, not the one with the ramp.	id247	17	S		the one that’s sitting, not the one with the ramp	
+353000	355000	The one walking	id248		S		the one walking	Y
+355000	360000	The one with the, not the one that's walking, the other one.	id247	15	S		not the one that’s walking, the other one	Y
+368000	371000	The one that has like a ramp.	id248	16	S		that one that has like a ramp	Y
+379000	383000	The one that's sitting, not the one with the ramp.	id247	17	S		the one that’s sitting, not the one with the ramp	Y
 386000	389000	Sweet.	R					
-393000	395000	Okay, the one with the diamond on top.	id248	18	S		the one with the diamond on top	
-401000	403000	The one that's walking.	id247	19	S		the one that’s walking	
-416000	418000	The one that has a ramp.	id248	20	S		the one that has a ramp	
+393000	395000	Okay, the one with the diamond on top.	id248	18	S		the one with the diamond on top	Y
+401000	403000	The one that's walking.	id247	19	S		the one that’s walking	Y
+416000	418000	The one that has a ramp.	id248	20	S		the one that has a ramp	Y
 420000	422000	Great job.	R					
 424000	426000	Awesome. You finished playing the game.	R					
 426000	428000	I hope you guys had a little bit of fun.	R					

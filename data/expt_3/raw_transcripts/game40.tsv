@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	5000	What if he gets a good job?	id188					
 5000	11000	And so, oh, we're not going to press the blue button yet. [id188], can I get the picture, please?	R					
 11000	12000	Why?	id188					
@@ -42,26 +42,26 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 126000	129000	So now [id188], you're going to be holding Smurphy.	R	1				
 129000	131000	And you're going to be guessing.	R					
 131000	135000	And, and [id187], you're going to tell what you see.	R					
-135000	138000	Banana and apple.	id187		S			
+135000	138000	Banana and apple.	id187		S			Y
 138000	142000	And which picture is inside the black box?	R					
-142000	144000	Banana.	id187		S		banana	
+142000	144000	Banana.	id187		S		banana	Y
 144000	148000	[id188], can you tap the screen and guess the picture?	R					
-148000	149000	Banana.	id188		L			
+148000	149000	Banana.	id188		L			Y
 149000	151000	Yay!	R	2				
 151000	154000	Now let's pass Smurphy to [id187].	R					
 154000	158000	And [id188], can you tell [id187] what you see inside the black box?	R					
-158000	161000	A dog and a bird.	id188		S			
+158000	161000	A dog and a bird.	id188		S			Y
 161000	163000	And which one is inside the black box?	R					
-163000	167000	The bird.	id188		S		the bird	
-167000	169000	The bird.	id188		S			
+163000	167000	The bird.	id188		S		the bird	Y
+167000	169000	The bird.	id188		S			Y
 169000	174000	[id187], can you tap and guess which picture it is?	R					
 174000	175000	Yay!	R	3				
 175000	180000	And now we pass Smurphy to [id188].	R					
 180000	184000	And [id187], can you tell [id188] what you see inside the black box?	R					
-184000	189000	A spikey thing.	id187		S		a spikey thing	
-189000	193000	An animal thing.	id188		L		an animal thing	x
+184000	189000	A spikey thing.	id187		S		a spikey thing	Y
+189000	193000	An animal thing.	id188		L		an animal thing	Y
 193000	196000	[id188], do you want to ask a question?	R					
-196000	198000	A spikey thing and animal thing.	id188		L		a spikey thing and an animal thing	x
+196000	198000	A spikey thing and animal thing.	id188		L		a spikey thing and an animal thing	Y
 198000	199000	Okay.	R					
 199000	202000	[id187], with that information?	R					
 202000	203000	Yeah.	id187		S			
@@ -70,7 +70,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 206000	208000	How would you tell [id188]?	R					
 208000	211000	[id188], oh [id188], let's look at our own screens.	R					
 211000	215000	How would you tell [id188] what you see?	R					
-215000	218000	On the heart of the box.	id188		L			
+215000	218000	On the heart of the box.	id188		L			Y
 218000	220000	Can you explain?	R					
 220000	223000	Oh, yay!	R	4				
 223000	229000	But remember friends, let's wait and see what our friend tells us.	R					
@@ -89,17 +89,17 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 259000	261000	Who has the black box around their picture?	R					
 261000	262000	[id187].	R					
 262000	265000	[id187], can you tell [id188] what you see?	R					
-265000	266000	Box.	id187		S		box	
+265000	266000	Box.	id187		S		box	Y
 266000	268000	Inside the black box?	R					
 268000	269000	Yeah.	id187		S			
 273000	276000	[id188], can you try and guess the picture?	R					
-276000	281000	Uh, a person in the door.	id188		L		a person in the door	x
+276000	281000	Uh, a person in the door.	id188		L		a person in the door	Y
 281000	285000	This time [id187] is telling and [id188] you're guessing.	R					
 285000	289000	So [id188], can you guess by tapping the screen?	R					
 292000	295000	Oh no, it's okay, we can try again.	R	8				
 295000	300000	And now [id188], can you tell [id187] what you see inside the black box?	R					
 300000	304000	And [id187], before we guess, can we hear what [id188] has to say?	R					
-304000	307000	Uh, I think we can have it.	id188		S			
+304000	307000	Uh, I think we can have it.	id188		S			Y
 307000	308000	Oh, let's not.	R					
 308000	311000	Let's keep our iPads facing ourselves.	R					
 311000	312000	Yay!	R	9				
@@ -107,46 +107,46 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 322000	326000	Can you describe what it looks like?	R					
 326000	327000	Yeah.	id187		S			
 327000	329000	What does it look like?	R					
-330000	331000	Right?	id187		S			
-333000	335000	Looks like guys.	id187		S		guys	
+330000	331000	Right?	id187		S			Y
+333000	335000	Looks like guys.	id187		S		guys	Y
 336000	338000	[id188], with that.	R					
-339000	341000	It looks like guys.	id188		L			
+339000	341000	It looks like guys.	id188		L			Y
 346000	347000	Yay!	R	10				
 347000	350000	And now can we pass Murphy to [id187]?	R					
 350000	351000	Beautiful.	R					
 351000	355000	And now [id188], can you tell [id187] what you see inside the black box?	R					
-355000	357000	Uh, a dog.	id188		S		a dog	
-361000	362000	Right here.	id187		L			x
+355000	357000	Uh, a dog.	id188		S		a dog	Y
+361000	362000	Right here.	id187		L			Y
 363000	365000	Oh, let's not turn our iPads.	R					
 365000	367000	Let's use our words to tell.	R					
-367000	369000	It's a dog.	id188		S			
-369000	371000	It's a black dog.	id188		S		a black dog	
-371000	372000	This one.	id187		L			
-372000	374000	The one on the left.	id188		S			
-374000	376000	This one.	id187		L			
+367000	369000	It's a dog.	id188		S			Y
+369000	371000	It's a black dog.	id188		S		a black dog	Y
+371000	372000	This one.	id187		L			Y
+372000	374000	The one on the left.	id188		S			Y
+374000	376000	This one.	id187		L			Y
 376000	379000	[id188], any more information?	R					
-379000	383000	Not in the right side, in the person.	id188		S		not the person	
-383000	385000	In the person.	id188		S			
+379000	383000	Not in the right side, in the person.	id188		S		not the person	Y
+383000	385000	In the person.	id188		S			Y
 385000	389000	And which one is the one inside the black box?	R					
 389000	392000	Can you use our words to tell?	R					
 392000	395000	Oh, our words to tell?	R					
-395000	401000	It's inside the dog inside the black box.	id188		S			
+395000	401000	It's inside the dog inside the black box.	id188		S			Y
 403000	405000	[id187], do you want to ask another question?	R					
 405000	406000	Yeah.	R					
-407000	410000	I don't know where you're at.	id187		L			x
+407000	410000	I don't know where you're at.	id187		L			Y
 412000	415000	[id188], is there anything else to describe?	R					
-415000	418000	I did nothing else to describe.	id188		S			
-418000	422000	I don't know how we can get out of the picture.	id188		S			
+415000	418000	I did nothing else to describe.	id188		S			Y
+418000	422000	I don't know how we can get out of the picture.	id188		S			Y
 422000	425000	Oh, yeah. [id187] has to guess the picture.	R					
-425000	427000	It's a dog.	id188		S			
+425000	427000	It's a dog.	id188		S			Y
 427000	430000	Okay. [id187], can you give it your best guess?	R					
 431000	433000	Oh no! It's okay.	R	11				
 433000	436000	And now we pass Murphy to [id188].	R					
 436000	439000	And [id187], can you tell [id188] what you see inside the black box?	R					
-439000	441000	This.	id187		S		this	
+439000	441000	This.	id187		S		this	Y
 441000	443000	What does it look like?	R					
-449000	452000	Like a Hollywood.	id187		S		a hollywood	
-452000	455000	Like a Hollywood.	id188		L			x
+449000	452000	Like a Hollywood.	id187		S		a hollywood	Y
+452000	455000	Like a Hollywood.	id188		L			Y
 456000	458000	Can you repeat that?	R					
 458000	460000	Yes.	R					
 460000	462000	Sorry friends.	R	12				
@@ -159,11 +159,11 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 480000	482000	Yay!	R	13				
 482000	485000	And now [id188].	R					
 485000	490000	[id187], can you explain and describe your picture to [id188]?	R					
-490000	492000	Yeah. This.	id187		S		this	
-492000	495000	Look like that this.	id187		S		this	
+490000	492000	Yeah. This.	id187		S		this	Y
+492000	495000	Look like that this.	id187		S		this	Y
 495000	497000	What does it look like?	R					
-497000	499000	Guys.	id187		S		guys	
-499000	501000	Guys.	id187		S			
+497000	499000	Guys.	id187		S		guys	Y
+499000	501000	Guys.	id187		S			Y
 501000	503000	Oh no!	R	14				
 503000	506000	It's okay. Let's try again.	R					
 506000	508000	We can try again.	R					
@@ -182,16 +182,16 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 539000	541000	So [id188].	R					
 541000	544000	Oh [id187], let's not tap the screen just yet.	R	18				
 544000	548000	[id188], can you explain what the picture looks like?	R					
-548000	555000	The picture looks like a two horned dog.	id188		S		a two horned dog	
-557000	559000	What do you think?	id187		L			x
+548000	555000	The picture looks like a two horned dog.	id188		S		a two horned dog	Y
+557000	559000	What do you think?	id187		L			Y
 562000	564000	Sorry friends.	R					
 572000	575000	I'm going to tap on Murphy.	R					
 575000	577000	Oh no, it's okay.	R	19				
 577000	581000	And now [id188], you're going to be guessing.	R					
 581000	586000	And [id187], before we tap the screen, let's hear what [id187] has to say.	R					
 586000	588000	What does the picture look like?	R					
-588000	591000	Look like something.	id187		S		something	
-591000	595000	Look like something.	id187		S			
+588000	591000	Look like something.	id187		S		something	Y
+591000	595000	Look like something.	id187		S			Y
 595000	600000	Oh [id188], let's not look at our other friend's iPad.	R					
 600000	602000	Because we have to try and guess.	R					
 602000	604000	But, that's too ...	id188		L			
@@ -200,14 +200,14 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 607000	609000	We can always try again.	R					
 609000	611000	And so [id187].	R					
 611000	614000	Can you explain what the picture looks like?	R					
-614000	616000	Look like this.	id187		S		this	
+614000	616000	Look like this.	id187		S		this	Y
 616000	619000	[id188], do you want to ask a question?	R					
-620000	622000	What shape does it look like?	id188		L			x
-622000	625000	So how many shapes do they all have?	id188		L			x
-625000	631000	Tell me what kind of shapes there are	id188		L			x
+620000	622000	What shape does it look like?	id188		L			Y
+622000	625000	So how many shapes do they all have?	id188		L			Y
+625000	631000	Tell me what kind of shapes there are	id188		L			Y
 631000	633000	[id188], can you repeat that?	R					
-633000	638000	How many shapes do they all have?	id188		L			x
-638000	640000	I don't know.	id187		S			
+633000	638000	How many shapes do they all have?	id188		L			Y
+638000	640000	I don't know.	id187		S			Y
 640000	642000	No?	R					
 642000	644000	Let's see, is there another question?	R					
 644000	646000	Oh no!	R					
@@ -223,12 +223,12 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 664000	667000	Before, let's hear what our friend has to say.	R					
 667000	669000	Yay!	R					
 669000	671000	We finished the matching game.	R					
-671000	674000	What is leaving this?	id188					
+671000	674000	What is leaving this?	id188		S			
 674000	676000	Confetti.	R					
-676000	677000	It looks like sprinkles.	id188					
+676000	677000	It looks like sprinkles.	id188		S			
 677000	679000	It does look like sprinkles too.	R					
 679000	680000	What do you think it looks like?	R					
-680000	682000	I got the dog.	id188					
+680000	682000	I got the dog.	id188		S			
 682000	685000	Oh, no, we can keep that there.	R					
 685000	686000	Okay, friends.	R					
 686000	688000	So now that we finished our matching game,	R					

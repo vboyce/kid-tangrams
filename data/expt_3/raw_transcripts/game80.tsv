@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 19000	22000	Okay, so before we play our fun matching game,	R					
 22000	25000	we're going to practice touching our iPads	R					
 25000	28000	by playing a little game of pumping bubbles.	R					
@@ -53,74 +53,74 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 151000	153000	So you're going to tell her.	R					
 153000	154000	Why?	R					
 154000	157000	Which picture is in the black box?	R					
-157000	159000	The banana.	id246		S		the banana	
+157000	159000	The banana.	id246		S		the banana	Y
 159000	160000	What do you see?	R					
-160000	162000	The banana.	id246		S			
+160000	162000	The banana.	id246		S			Y
 163000	166000	Awesome.	R	2				
 166000	173000	And now we're going to pass Smurphy and you're going to be telling.	R					
 173000	176000	What do you see in the black box, [id245]?	R					
-176000	178000	A dog.	id245		S		a dog	
+176000	178000	A dog.	id245		S		a dog	Y
 178000	180000	Awesome.	R					
 180000	182000	It makes sense.	id246		L			
 182000	189000	What do you see in the black box?	R	3				
 189000	198000	Just do your best to tell her what's in it.	R					
-198000	202000	Like a walk sign.	id246		S		a walk sign	
+198000	202000	Like a walk sign.	id246		S		a walk sign	Y
 202000	204000	Do you think you know which one it is?	R					
-204000	206000	Is it this one?	id245		L			
+204000	206000	Is it this one?	id245		L			Y
 206000	208000	You can guess if you think you know.	R					
 208000	212000	You can also ask him a question to tell you more.	R					
-212000	213000	Can you?	id245		L			
+212000	213000	Can you?	id245		L			Y
 213000	214000	You can't see.	R					
 214000	218000	We're going to use our words to describe.	R					
-218000	221000	Does it have like two points?	id245		L		two points	x
-221000	224000	Yes.	id246		S			x
+218000	221000	Does it have like two points?	id245		L		two points	Y
+221000	224000	Yes.	id246		S			Y
 224000	226000	Awesome.	R	4				
 226000	231000	Now we're going to pass Smurphy.	R					
-231000	237000	It's like a fan.	id245		S		a fan	
+231000	237000	It's like a fan.	id245		S		a fan	Y
 237000	244000	Awesome.	R	5				
-244000	247000	It's like a shoe.	id246		S		a shoe	
+244000	247000	It's like a shoe.	id246		S		a shoe	Y
 247000	249000	Nice.	R	6				
-249000	250000	What is it?	id245		S			
-250000	256000	Same view.	id245		S			
+249000	250000	What is it?	id245		S			Y
+250000	256000	Same view.	id245		S			Y
 256000	261000	What do you see, [id245], in the black box?	R					
-261000	267000	It's like a girl's shoe.	id245		S		a girl’s shoe	
+261000	267000	It's like a girl's shoe.	id245		S		a girl’s shoe	Y
 267000	273000	Nice.	R	7				
-273000	279000	It looks like a person walking, but with no arms.	id246		S		a person walking but with no arms	
+273000	279000	It looks like a person walking, but with no arms.	id246		S		a person walking but with no arms	Y
 279000	281000	Nice.	R	8				
 281000	283000	What if we get it wrong?	id245		S			
 283000	285000	That's okay.	R					
-285000	289000	Tell me what you see.	id246		L			
-289000	294000	It's like a square thing.	id245		S		a square thing	
+285000	289000	Tell me what you see.	id246		L			Y
+289000	294000	It's like a square thing.	id245		S		a square thing	Y
 294000	301000	Nice.	R	9				
-301000	307000	I get the person walking with a bag.	id246		S		the person walking with a bag	
+301000	307000	I get the person walking with a bag.	id246		S		the person walking with a bag	Y
 307000	312000	It's getting rude for me.	id245		L			
 312000	318000	I just guessed it randomly.	id246	10	L			
-318000	324000	It's like a woman's shoe ties a string.	id246	11	S		a woman’s shoe ties a string	
+318000	324000	It's like a woman's shoe ties a string.	id246	11	S		a woman’s shoe ties a string	Y
 324000	328000	That's okay.	R	12				
 329000	335000	You can wait for the description too.	R	13				
 335000	339000	What do you see in the black box?	R					
-339000	343000	Something like a jar.	id246		S		a jar	
+339000	343000	Something like a jar.	id246		S		a jar	Y
 343000	345000	Nice.	R	14				
 345000	347000	What do you see, [id245]?	R					
-347000	352000	It's like a woman's shoe.	id245		S		a woman’s shoe	
+347000	352000	It's like a woman's shoe.	id245		S		a woman’s shoe	Y
 352000	354000	Nice.	R	15				
-354000	357000	It's like a person dancing.	id246		S		a person dancing	
-357000	361000	I see a man walking in there.	id246		S		a man walking in there	
+354000	357000	It's like a person dancing.	id246		S		a person dancing	Y
+357000	361000	I see a man walking in there.	id246		S		a man walking in there	Y
 361000	365000	Nice.	R	16				
 365000	367000	What do you see, [id245]?	R					
 367000	371000	You can wait for her to describe it next time, [id246].	R	17				
-371000	375000	It's like a shoe.	id245		L			
-		I just knew it	id246		S			
-375000	381000	It looks like a person dancing.	id246		S		a person dancing	
+371000	375000	It's like a shoe.	id245		L			Y
+		I just knew it	id246		S			Y
+375000	381000	It looks like a person dancing.	id246		S		a person dancing	Y
 381000	385000	That's okay.	R	18				
 385000	387000	What do you see, [id245]?	R					
-387000	392000	It's not a person dancing.	id245		S		not a person dancing	
-392000	396000	A person walking with no arms.	id245		S		a person walking with no arms	
+387000	392000	It's not a person dancing.	id245		S		not a person dancing	Y
+392000	396000	A person walking with no arms.	id245		S		a person walking with no arms	Y
 396000	401000	Nice.	R	19				
-401000	406000	It's like a jar that has a little bit pointy space	id246		S		a jar that has a little bit pointy space	
+401000	406000	It's like a jar that has a little bit pointy space	id246		S		a jar that has a little bit pointy space	Y
 406000	409000	Nice.	R	20				
 409000	411000	What do you see in the box, [id245]?	R					
-411000	414000	A shoe.	id245		S		a shoe	
+411000	414000	A shoe.	id245		S		a shoe	Y
 414000	416000	Nice.	R					
 416000	418000	What do you see, [id246]?	R					
 418000	420000	Oh, you're done.	R					

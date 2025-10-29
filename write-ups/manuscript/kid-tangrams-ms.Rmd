@@ -74,9 +74,9 @@ theme_set(theme_bw())
 expt_1 <- "data/expt_1"
 expt_2 <- "data/expt_2"
 expt_3 <- "data/expt_3"
-mod_loc <- "code/models"
-mod_results <- "code/models/summary"
-mod_form <- "code/models/formulae"
+mod_loc <- "code/mods_for_paper"
+mod_results <- "code/mods_for_paper/summary"
+mod_form <- "code/mods_for_paper/formulae"
 time_palette <- c("practice" = "grey", "block 1" = "#E41A1C", "block 2" = "#377EB8", "block 3" = "#4DAF4A", "block 4" = "purple") 
 
 library(ggtext)
@@ -147,7 +147,7 @@ One influential early study suggested that 4-5-year-old preschoolers struggle wi
 
 Similar experiments with older children indicated a gradual improvement through adolescence both for initial accuracy and for the increase in accuracy across repetitions. Still, even the 9th grade sample was noticeably worse than the adult college student sample [@glucksberg1967; @krauss1969]. Given that even teenagers had difficulties with the task, the complex stacking paradigm and the large number of potential targets may have posed task demands that prevented accurate measurement of children's abilities. 
 
-
+TODO update diagram with expt 3 stim.
 
 ```{r interface, fig.env = "figure", fig.pos = "t!", out.width="\\textwidth", fig.align = "center", set.cap.width=T, num.cols.cap=2, fig.cap = "Experimental setup and procedure. Panel A shows the experimental setup. Panel B shows the 4 possible targets; names for targets are for cross-reference with later figures only. Panel C shows the procedure for Experiment 1; within critical blocks targets were ordered randomly. Panel D shows the procedure for Experiment 2. \\label{game}", cache=FALSE}
 
@@ -293,11 +293,16 @@ joint_data |>
 description_mod_1 <- read_rds(here(mod_results, "description_1.rds"))
 
 description_form <- read_rds(here(mod_form, "description_1.rds"))
+
+description_robustness_mod_1 <- read_rds(here(mod_results, "all_description_1.rds"))
 ```
 
 In iterated reference games with adults, description lengths usually shorten over repeated references [@clark1986; @hawkins2020b; @boyce2024]. We were curious if children's descriptions would display the same trend, so we ran a Bayesian mixed effects linear regression predicting the number of words in the description the "teller" produced.^[`r description_form |> form()`] On the first critical trial, descriptions averaged `r stats_text(description_mod_1, 1)` words, and description length was relatively stable over time (change of `r stats_text(description_mod_1, 2)` words per trial, Figure \ref{length}). Thus, children's increasing speed was not from shorter utterances, but instead from some combination of improved task understanding, faster utterance planning, and faster decisions of what to select.
 
-Some examples to illustrate the variety of effective descriptions children employed are shown in Table \ref{example} (these specific examples are from Experiment 2, but both experiments had similar distributions of descriptions). TODO add examples from expt 3 as well??
+TODO this description metric is just the length of the description, taking out repetition/rephrasing from the child. We could also include the robustness check which is the length of all the (on-topic) teller-guesser interaction (including repeating/rephrasing, questions, I don't knows, etc)
+
+
+TOOD maybe move this paragraph Some examples to illustrate the variety of effective descriptions children employed are shown in Table \ref{example} (these specific examples are from Experiment 2, but both experiments had similar distributions of descriptions). TODO add examples from expt 3 as well??
 
 ### Convergence 
 
@@ -337,7 +342,7 @@ While description length is often used as a proxy for measuring convention forma
 Following the methods of @boyce2024, we embedded each description in a semantic vector space using S-BERT [@reimers2019], and then used the cosine between embeddings as a measure of semantic similarity. 
 
 We compared the semantic similarities between descriptions of the same target based on who produced the description (Figure \ref{sim}).  We used a Bayesian mixed effects linear regression to predict similarity.^[`r sim_across_between_form |> form()`] Utterances were more similar if they came from the same partnership (`r sim_across_between_1_results |> stats_text(2,3)`). Utterances were slightly more similar still if they came from the same person (`r sim_across_between_1_results |> stats_text(3,3)`), which is expected since children are likely to be fairly consistent with themselves. However, children used descriptions that were much more similar to their partner's than to other children's (Figure \ref{sim}), indicating sensitivity to their partner's expressions. 
-%TODO consider dropping this because it's not that strong an analysis? 
+TODO consider dropping this because it's not that strong an analysis? 
 
 ## Discussion
 
@@ -418,13 +423,16 @@ speed_mod_2 <- read_rds(here(mod_results, "speed_2.rds"))
 ```
 
 In Experiment 2, children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_2,1)`) and relatively stable over time (OR of one trial later: `r stats_text(acc_mod_2, 2)`, Figure \ref{acc}). 
-The first critical trial averaged `r stats_text(speed_mod_2, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_2, 2)` seconds / trial). Children were initially faster in Experiment 2 than Experiment 1, possibly due to the increased number of practice trials and pre-training on how to press the screens. Taken together, we find more evidence that children can successfully communicate with each other about these abstract shapes, and do so with increasing efficiency. 
+The first critical trial averaged `r stats_text(speed_mod_2, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_2, 2)` seconds / trial). <!--Children were initially faster in Experiment 2 than Experiment 1, possibly due to the increased number of practice trials and pre-training on how to press the screens. -->Taken together, we find more evidence that children can successfully communicate with each other about these abstract shapes, and do so with increasing efficiency. 
 
 ### Description length
 
 
 ```{r}
 description_mod_2 <- read_rds(here(mod_results, "description_2.rds"))
+
+description_robustness_mod_2 <- read_rds(here(mod_results, "all_description_2.rds"))
+
 ```
 
 
@@ -453,7 +461,7 @@ sim_to_last_form <- read_rds(here(mod_form, "sim_to_last_2.rds"))
 
 As a coarse measure of partner-sensitivity, we repeated the semantic analysis from Experiment 1. Utterances were more similar if they came from the same partnership (`r sim_across_between_2_results |> stats_text(2,3)`) and were slightly more similar if they came from the same person (`r sim_across_between_2_results |> stats_text(3,3)`). 
 
-As Experiment 2 had 4 blocks, we examined whether descriptions were converging semantically toward the final description. We compared the utterances from the first three blocks to the descriptions in the last block using a Bayesian mixed effects linear regression predicting similarity.^[`r sim_to_last_form |> form()`] Over the first three blocks, descriptions became increasingly similar to the last block description (`r sim_to_last_2_results |> stats_text(2,3)`). Descriptions were more similar if they came from the same child, which is expected as a sign of internal consistency (`r sim_to_last_2_results |> stats_text(3,3)`). Although over time descriptions did get more similar to the last block utterance, the semantic distance between adjacent block utterances was relatively constant (`r sim_to_next_2_results |> stats_text(2,3)`). 
+As Experiment 2 had 4 blocks, we examined whether descriptions were converging semantically toward the final description. We compared the utterances from the first three blocks to the descriptions in the last block using a Bayesian mixed effects linear regression predicting similarity.^[`r sim_to_last_form |> form()`] Over the first three blocks, descriptions became increasingly similar to the last block description (`r sim_to_last_2_results |> stats_text(2,3)`). Descriptions were marginally more similar if they came from the same child, which is expected as a sign of internal consistency TODO rephrase (`r sim_to_last_2_results |> stats_text(3,3)`). Although over time descriptions did get more similar to the last block utterance, the semantic distance between adjacent block utterances was relatively constant (`r sim_to_next_2_results |> stats_text(2,3)`). 
 
 Partnerships often diverged from one another as groups focused on distinct aspects of the image. We tested whether descriptions in different games diverged over time using a Bayesian mixed effects linear regression.^[`r sim_across_form |> form()`] As the games progressed, descriptions to the same target from different games became slightly less similar (`r sim_across_2_results |> stats_text(2,3)`), which indicates that games are converging to different conventions. These patterns of increasing similarity within games and increasing divergence between games qualitatively match the patterns found for adults [@boyce2024]. 
 
@@ -504,12 +512,60 @@ The procedure was the same as for Experiment 2. The bubble popping practice was 
 Data were processed in the same way as Experiment 1. After excluding trials where children did not give a description or where the experimenter echoed a child's description, we had TODO trials total. 
 
 ## Results
-
 ### Accuracy and speed
+
+```{r}
+acc_mod_3 <- read_rds(here(mod_results, "acc_3.rds")) |> mutate(across(c(`Estimate`, `lower`, `upper`), ~ exp(.)))
+
+acc_pct<- joint_data |> group_by(expt) |> summarize(acc=mean(correct, na.rm=T)*100)
+```
+
+
+```{r}
+speed_mod_3 <- read_rds(here(mod_results, "speed_3.rds"))
+```
+
+In Experiment 3, children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_3,1)`) and relatively stable over time (OR of one trial later: `r stats_text(acc_mod_3, 2)`, Figure \ref{acc}). Children's overall accuracy was lower in Experiment 3(`r round(acc_pct |> pluck(2,3))`%) than in the prior experiments (`r round(acc_pct |> pluck(2,2))`%), potentially indicating that the stimuli were more difficult. 
+
+The first critical trial averaged `r stats_text(speed_mod_3, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_3, 2)` seconds / trial). Overall, we find evidence that children's ability to communicate with increasing efficiency generalizes to different abstract images.  
 
 ### Description length
 
-### Convergence
+
+```{r}
+description_mod_3 <- read_rds(here(mod_results, "description_3.rds"))
+
+description_robustness_mod_3 <- read_rds(here(mod_results, "all_description_3.rds"))
+
+```
+
+
+The average length of descriptions on the first trial was `r stats_text(description_mod_3, 1)` words and description length was relatively stable over time (change of `r stats_text(description_mod_3, 2)` words / trial, Figure \ref{length}). TODO after we double check data again, but might be overall more words than other expts? 
+
+### Convergence 
+
+TODO reverify everything after data review + full sample 
+
+```{r}
+sim_across_between_3_results <- read_rds(here(mod_results, "sim_across_between_3.rds"))
+
+
+sim_across_3_results <- read_rds(here(mod_results, "sim_across_3.rds"))
+
+sim_to_next_3_results <- read_rds(here(mod_results, "sim_to_next_3.rds"))
+
+sim_to_last_3_results <- read_rds(here(mod_results, "sim_to_last_3.rds"))
+
+```
+
+We repeat the semantic analyses from Experiment 2. To start with, we again found that utterances were more similar if they came from the same partnership (`r sim_across_between_3_results |> stats_text(2,3)`) and if they came from the same person (`r sim_across_between_3_results |> stats_text(3,3)`). 
+
+Over the first three blocks, descriptions became increasingly similar to the last block description (`r sim_to_last_3_results |> stats_text(2,3)`). Over time, the semantic distance between adjacent block utterances increased slightly (`r sim_to_next_2_results |> stats_text(2,3)`). 
+
+Unlike in Experiment 2, we did not find that different games became less similar over time (`r sim_across_3_results |> stats_text(2,3)`). 
+TODO interpretation
+
+
 
 # Joint analysis
 
@@ -520,14 +576,28 @@ acc_mod_meta <- read_rds(here(mod_results, "acc_meta.rds")) |> mutate(across(c(`
 
 description_mod_meta <- read_rds(here(mod_results, "description_meta.rds"))
 
+description_robustness_mod_meta <- read_rds(here(mod_results, "all_description_meta.rds"))
+
 sim_across_between_mod_meta <- read_rds(here(mod_results, "sim_across_between_meta.rds"))
 
+
+sim_to_last_mod_meta <- read_rds(here(mod_results, "sim_to_last_meta.rds"))
+
 sim_to_next_mod_meta <- read_rds(here(mod_results, "sim_to_next_meta.rds"))
+
+sim_across_mod_meta <- read_rds(here(mod_results, "sim_across_meta.rds"))
 ```
 
-As the two experiments were similar to one another, we re-ran models pooling the data across the two experiments, using experiment number as a random effect. Pooling the two experiments, children's accuracy was above chance (OR: `r stats_text(acc_mod_meta,1)`) and accuracy numerically increased over the course of the game, although the credible interval included 0 (OR of one trial later: `r stats_text(acc_mod_meta, 2)`). 
+As the two experiments were similar to one another, we re-ran models pooling the data across the three experiments, using experiment number as a random effect. Pooling the three experiments, children's accuracy was above chance (OR: `r stats_text(acc_mod_meta,1)`) and accuracy numerically increased over the course of the game, although the credible interval included 0 (OR of one trial later: `r stats_text(acc_mod_meta, 2)`). 
+
+TODO decide whether to discuss speed here again. 
+
 Descriptions produced by tellers averaged `r stats_text(description_mod_meta, 1)` words on the first trial, and description length was relatively stable over time (change of `r stats_text(description_mod_meta, 2)` words per trial).
-Utterances were more similar if they came from the same partnership (increase in cosine similarity: `r sim_across_between_mod_meta |> stats_text(2,3)`) and were slightly more similar still if they came from the same person within the partnership (`r sim_across_between_mod_meta |> stats_text(3,3)`).
+Utterances were more similar if they came from the same partnership (increase in cosine similarity: `r sim_across_between_mod_meta |> stats_text(2,3)`) and were more similar still if they came from the same person within the partnership (`r sim_across_between_mod_meta |> stats_text(3,3)`).
+
+For other semantic analyses, we pooled across experiments 2 and 3 which had 4 blocks. In the combined model, we found that the similarity the last block utterance increased across blocks (`r stats_text(sim_to_last_mod_meta, 2,3)`) and was higher when the same child produced both utterances (`r stats_text(sim_to_last_mod_meta, 3,3)`). In a combined model, similarity to the next block utterance also increased across blocks (`r stats_text(sim_to_next_mod_meta, 2,3)`) and was higher when the same child produced both utterances (`r stats_text(sim_to_next_mod_meta, 3,3)`). Across the two experiments, utterances from different pairs to the same stimulus tended to decrease in similarity across blocks (`r stats_text(sim_across_mod_meta, 2,3)`). 
+
+While some of these effects were small and thus not all effects were robustness detectable in each experiment by itself, the overall picture is consistent in direction with the patterns of convergence and divergence reported in reference games between adults [@boyce2024]. 
 
 
 ## Sensitivity to prior result
@@ -544,7 +614,7 @@ We might expect that whether a description was successful influences whether the
 
 We did not account for children's age and gender when pairing children to play the game, so children of different ages (within the 4-5 year old target age range) sometimes played together, and children sometimes played with same-gender and sometimes with different-gender partners. As children of this age are rapidly developing their linguistic skills (CITATION NEEDED), we looked at possible effects of children's age and gender on performance as an exploratory measure. 
 
-```{r age-acc, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "Accuracy of selections across all experiments, graphed by the mean age of child in that game, and colored by the number of girls in the pair. Each dot is a game, and linear fits are overlayed. \\label{agewords}" }
+```{r age-acc, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "Accuracy of selections across all experiments, graphed by the mean age of child in that game, and colored by the number of girls in the pair. Each dot is a game, and linear fits are overlayed. \\label{ageacc}" }
 joint_data |>
   mutate(mean_age = (listener_age + speaker_age) / 2, girlness = (listener_gender == "female") + (speaker_gender == "female")) |>
   ggplot(aes(x = mean_age, y = correct, color = as.character(girlness))) +
@@ -555,7 +625,7 @@ joint_data |>
   geom_smooth(method = "lm", show.legend=F)
 ```
 
-```{r age-words, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "Number of words of description produced by the teller across all experiments, graphed by the age of teller in that game, and colored by teller gender. Each dot is a game, and linear fits are overlayed. \\label{ageacc}" }
+```{r age-words, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=5, fig.height=3, fig.cap = "Number of words of description produced by the teller across all experiments, graphed by the age of teller in that game, and colored by teller gender. Each dot is a game, and linear fits are overlayed. \\label{agewords}" }
 joint_data |>  ggplot(aes(x = speaker_age, y = words, color = speaker_gender)) +
   geom_smooth(method = "lm", show.legend=F)+
   geom_jitter(data=joint_data |> group_by(speaker_age, speaker, expt, game, speaker_gender) |> summarize(words=mean(words, na.rm=T)))+
@@ -563,14 +633,21 @@ joint_data |>  ggplot(aes(x = speaker_age, y = words, color = speaker_gender)) +
   labs(x="Teller Age (months)", y="Words", color="Teller gender")
 ```
 
+```{r}
+acc_demog_meta <- read_rds(here(mod_results, "acc_demog.rds")) |> mutate(across(c(`Estimate`, `lower`, `upper`), ~ exp(.)))
 
+acc_demog_form <- read_rds(here(mod_form, "acc_demog.rds"))
 
+description_demog_meta <- read_rds(here(mod_results, "description_demog.rds"))
+description_demog_form <- read_rds(here(mod_form, "description_demog.rds"))
+```
 
-For accuracy ... TODO
+The effects of children's age and gender on their performance are shown in Figure \ref{ageacc}. We ran a mixed effects logistic regression, where we considered possible effects of the age of each child (centered at mean age of all the children who participated) and the gender of each child^[`r form(acc_demog_form)`]. Accuracy was higher for older children (OR for one month older speaker: `r stats_text(acc_demog_meta, 3,2)`, OR for one month older listener: `r stats_text(acc_demog_meta, 2,2)`). Accuracy was also higher when the listener was a girl (OR: `r stats_text(acc_demog_meta, 4,2)`), but was not credibly higher when the speaker was a girl (OR: `r stats_text(acc_demog_meta, 5,2)`). 
 
-For description length ... TODO 
+For description length, we tested whether children's age or gender effected how many words they produced in descriptions when in the teller role (Figure \ref{agewords}). We also ran a mixed effects linear regression, where we considered the ages and genders of both children as possible predictors^[`r form(description_demog_form)`]. Older children tended to produce longer descriptions (effect of one month older `r stats_text(description_demog_meta,3,2)`), but there was no effect of age of listener (`r stats_text(description_demog_meta, 2,2)`). For gender, there was no effect of teller gender on description length (girls produced `r stats_text(description_demog_meta, 5,2)` words compared to boys), but tellers produced longer descriptions for boy guessers (`r stats_text(description_demog_meta, 4,2)`). There were not substantial effects of trial order or interactions between demographics and trial order. 
 
-These findings of a slight effect of age and a slight female-advantage are consistent with a wider literature of ... 
+It is curious that listener gender but not speaker gender affected description length, but for this task, it is unclear how description length would be expected to map onto linguistic sophistication for this task and demographic. For accuracy, the age and gender effects could be reflective of any of a number of developing capacities, including linguistic, executive functioning, or social/theory of mind. 
+These findings of a slight effect of age and a slight female-advantage are consistent with a wider literature of TODO
 
 # Qualitative variation in interaction structure
 
@@ -582,7 +659,7 @@ Some children asked clarifying questions of their partner, but knowing how much 
 * do want to make the point that there's really wide variability (consistent with older kids and also adults for that matter) -- some pairs one kid does the describing including of options and the other chooses
 
 * may want to be clear that structuring the interaction in an effective way is a skill that not all the kiddos have -- some relied more on the experimenter saying whose turn and needed more prompting with "do you want to give more hints" or "do you want to ask a question". whereas other groups rapidly produced descriptions and then either clicked or asked for (and got) clarification (either completely on their own, or after the option was questions offered as a possibility). 
-that said, even when children were struggling, some of their attempts such as gesturing or turning ipads or asking (can you show me) are indicative of attempts at conversational monitoring and solving the communication problem (albeit not in ways we that followed the "rules" of the game)
+that said, even when children were struggling, some of their attempts such as gesturing or turning ipads or asking (can you show me) are indicative of attempts at conversational monitoring and solving the communication problem (albeit not in ways that followed the "rules" of the game)
 where we see what looks like failures it may be hard to tell what part isn't working (is it knowing what i know, or what other knows, or cognitive control, or producing questions, or sampling)
 
 # (unclear if include)

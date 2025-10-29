@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	2000	Why recording?	R					
 2000	4000	Well why?	id181					
 4000	6000	Just so that we know how our games went.	R					
@@ -60,91 +60,91 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 124000	125000	[id181].	R					
 125000	126000	I'm sorry.	R					
 126000	130000	Okay, [id182], can you tell [id181] what you see?	R					
-130000	132000	I see.	id182		S			
-135000	137000	See what?	id181		L			
+130000	132000	I see.	id182		S			Y
+135000	137000	See what?	id181		L			Y
 137000	138000	What do you see?	R					
 138000	141000	What do you see, [id182]?	R					
-141000	144000	An apple.	id182		S		an apple	
-144000	146000	I see an apple.	id182		S			
+141000	144000	An apple.	id182		S		an apple	Y
+144000	146000	I see an apple.	id182		S			Y
 146000	150000	And can you tap what you are guessing?	R					
 150000	152000	Guessing what?	id181		L			
 152000	156000	You're guessing the picture [id182] told you.	R					
-156000	158000	She guessed an apple.	id181		L			
+156000	158000	She guessed an apple.	id181		L			Y
 158000	161000	She's telling you what to guess.	R					
-161000	163000	An apple.	id181		L			
+161000	163000	An apple.	id181		L			Y
 163000	167000	And can you tap the picture that looks like?	R					
 167000	168000	Yay!	R	2				
 168000	173000	And now, [id182], you will be guessing.	R					
 173000	176000	And [id181], you will be telling.	R					
-176000	181000	I have a doggy.	id181		S		a doggy	
+176000	181000	I have a doggy.	id181		S		a doggy	Y
 181000	182000	Yay!	R					
 182000	183000	Yay!	R	3				
 183000	186000	And now, [id181], you will be guessing.	R					
 186000	188000	And [id182], you will be telling.	R					
-188000	192000	I see a sun. 	id182		S		a sun	
+188000	192000	I see a sun. 	id182		S		a sun	Y
 192000	194000	Oh, no.	R	4				
 194000	196000	It wasn't a match.	R					
 196000	197000	But that's okay.	R					
 197000	198000	We can try again.	R					
-198000	200000	But she saw a sun.	id181		S			
+198000	200000	But she saw a sun.	id181		S			Y
 200000	201000	She did see a sun.	R					
 201000	203000	Unfortunately, it wasn't a match.	R					
 203000	205000	But we can try this one next.	R					
 205000	207000	So now, [id182], you will be guessing.	R					
 207000	209000	And [id181], you will be telling.	R					
-209000	212000	I see a flower.	id181		S		a flower	
+209000	212000	I see a flower.	id181		S		a flower	Y
 216000	217000	Oh, no.	R					
 217000	218000	It wasn't a match.	R					
 218000	220000	But let's try again.	R	5				
 220000	222000	And now, [id181], you will be guessing.	R					
 222000	227000	And [id182], you will be telling.	R					
-227000	231000	I see a shoe.	id182		S		a shoe	
+227000	231000	I see a shoe.	id182		S		a shoe	Y
 234000	235000	Yay!	R					
 235000	238000	Yay!	R	6				
 238000	240000	Now, [id182], you will be guessing.	R					
 240000	242000	And now, [id181], you keep telling.	R					
-242000	244000	I don't know what this is.	id181		S			
+242000	244000	I don't know what this is.	id181		S			Y
 244000	247000	Can you try your best?	R					
 247000	248000	No.	id181		S			
 248000	251000	See, is there any shape?	R			x		
 251000	254000	Is there diamond?	R			x		
-254000	256000	There's a diamond.	id181		S		a diamond	
-256000	258000	And I don't know the neck shape.	id181		S		I don’t know the neck shape	
+254000	256000	There's a diamond.	id181		S		a diamond	Y
+256000	258000	And I don't know the neck shape.	id181		S		I don’t know the neck shape	Y
 258000	262000	Okay.	R					
-262000	264000	And there's an on top of something.	id181		S		on top of something	
+262000	264000	And there's an on top of something.	id181		S		on top of something	Y
 264000	265000	I pressed it.	R					
 265000	267000	You pressed it?	R					
 267000	271000	So can you try tapping hard?	R					
 271000	273000	Yay!	R	7				
 273000	276000	Yay!	R					
 276000	278000	Now, [id182], can you tell what you see?	R					
-278000	282000	I don't know what these shapes are.	id182		S			
+278000	282000	I don't know what these shapes are.	id182		S			Y
 282000	285000	[id181], do you want to ask a question?	R					
 285000	287000	No question.	id181		L			
-287000	291000	I see a snail.	id182		S		a snail	
+287000	291000	I see a snail.	id182		S		a snail	Y
 291000	294000	Yay!	R	8				
 294000	296000	And now, let's pass Murphy.	R					
 296000	298000	And [id181], you will be telling.	R					
 298000	300000	And [id182], you will be guessing.	R					
-300000	305000	I see a square.	id181		S		a square	
+300000	305000	I see a square.	id181		S		a square	Y
 307000	309000	Press harder.	R					
 309000	314000	Yay!	R	9				
-314000	323000	I see a diamond.	id182		S		a diamond	
-323000	325000	I don't have it.	id181		L			x
+314000	323000	I see a diamond.	id182		S		a diamond	Y
+323000	325000	I don't have it.	id181		L			Y
 325000	326000	You don't have it?	R					
 326000	328000	Do you want to ask [id182] a question?	R					
-328000	330000	Where does it look like?	id181		L			
+328000	330000	Where does it look like?	id181		L			Y
 330000	333000	Oh, let's not turn our iPads.	R			x		
 333000	336000	And let's use our words to tell what we see.	R					
-336000	339000	I think she means this one.	id181		L			x
+336000	339000	I think she means this one.	id181		L			Y
 339000	341000	Beautiful.	R	10				
 341000	345000	Okay, now let's pass Murphy.	R					
 345000	347000	Why do you have the banana?	id181		S			
 347000	349000	Oh, these are just examples.	R					
 349000	352000	We can focus on our pictures in our iPads.	R					
-352000	358000	I see a square.	id181		S		a square	
+352000	358000	I see a square.	id181		S		a square	Y
 358000	362000	Yay!	R	11				
-362000	370000	I see a jail.	id182		S		a jail	
+362000	370000	I see a jail.	id182		S		a jail	Y
 370000	372000	Oh, no!	R					
 372000	374000	It's okay, we can try again.	R	12				
 374000	376000	Why didn't I have the box?	id181		S			
@@ -156,16 +156,16 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 388000	391000	Oh, once you guessed it.	R					
 391000	393000	Once you press the button.	R					
 393000	396000	Yeah, and now it's Murphy.	R					
-396000	402000	I see a diamond.	id181		S		a diamond	
+396000	402000	I see a diamond.	id181		S		a diamond	Y
 402000	405000	Oh, no, it wasn't a match.	R					
 405000	408000	We can try again.	R	13				
-408000	413000	I see a jail.	id182		S		a jail	
+408000	413000	I see a jail.	id182		S		a jail	Y
 413000	420000	Yay!	R	14				
-420000	427000	I see a square.	id181		S		a square	
-427000	430000	He's the other one.	id181		S			
+420000	427000	I see a square.	id181		S		a square	Y
+427000	430000	He's the other one.	id181		S			Y
 430000	432000	It's okay, we can try again.	R	15				
 432000	437000	Let's pass Murphy.	R					
-437000	441000	I see a diamond.	id182		S		a diamond	
+437000	441000	I see a diamond.	id182		S		a diamond	Y
 441000	443000	Oh, no!	R	16				
 443000	445000	It's okay.	R					
 445000	447000	Let's see, now we pass Murphy.	R					
@@ -174,9 +174,9 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 454000	456000	Is he real?	id181		S			
 456000	459000	He's a plushie, he's our friend.	R					
 459000	463000	Yeah, so he's not real, he's a stuffed, he's a stuffed.	id181		S			
-463000	467000	I see a diamond.	id181		S		a diamond	
+463000	467000	I see a diamond.	id181		S		a diamond	Y
 467000	472000	Yay!	R	17				
-472000	479000	I see a square.	id182		S		a square	
+472000	479000	I see a square.	id182		S		a square	Y
 479000	482000	Yay!	R	18				
 482000	484000	But why did I get a square?	id181		S			
 484000	486000	Oh, that's just the smiley face.	R					
@@ -184,24 +184,24 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 487000	490000	Saying it was a match.	R					
 490000	492000	So now we pass Murphy.	R					
 492000	494000	And [id181], can you tell [id182] what you see?	R					
-494000	499000	I see a square.	id181		S		a square	
+494000	499000	I see a square.	id181		S		a square	Y
 499000	501000	Oh, no!	R	19				
 501000	504000	It's okay, let's try again.	R					
-504000	509000	Do we see how many get...	id181		L			
-509000	511000	I see a diamond.	id182		S		a diamond	
+504000	509000	Do we see how many get...	id181		L			Y
+509000	511000	I see a diamond.	id182		S		a diamond	Y
 511000	512000	No, not yet.	R					
 512000	514000	At the end.	R					
-514000	517000	I see a diamond.	id182		S			
-517000	519000	I don't have it.	id181		L			x
+514000	517000	I see a diamond.	id182		S			Y
+517000	519000	I don't have it.	id181		L			Y
 519000	520000	Do you want to ask [id182] a question?	R					
-520000	522000	What does it look like?	id181		L			x
-522000	527000	It has...	id182		S			
-527000	530000	It's this way.	id182		S		this way	
-530000	535000	I don't know.	id181		L			
+520000	522000	What does it look like?	id181		L			Y
+522000	527000	It has...	id182		S			Y
+527000	530000	It's this way.	id182		S		this way	Y
+530000	535000	I don't know.	id181		L			Y
 535000	538000	Yay!	R	20				
 538000	540000	[id181], pass Murphy.	R					
 540000	543000	[id181], it's your turn to tell.	R					
-543000	546000	I see a diamond.	id181		S		a diamond	
+543000	546000	I see a diamond.	id181		S		a diamond	Y
 546000	552000	Yay!	R					
 552000	554000	Beautiful!	R					
 554000	557000	Thank you so much, [id182] and [id181] for playing with me.	R					

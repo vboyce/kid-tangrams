@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	18320	So today we're going	R					
 18320	25640	to play a fun matching game. But before we do that, we're going to practice touching our	R					
 25640	31720	iPads by playing a little game of popping bubbles. Okay. So press the blue button on	R					
@@ -34,66 +34,66 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 169480	175360	Okay so you're, oh, we can wait to guess too. So let's not touch our screens yet. You're going	R	2				
 175360	180400	to be the teller and you're holding Smurphy. So you're going to guess. What do you see in	R					
 180400	186440	the black box, [id249]? 	R					
-		 A dog.	id249		S		a dog	
+		 A dog.	id249		S		a dog	Y
 		You can guess when you think you know which picture is in	R					
 186440	194040	the black box. 	R					
-		I see a dog here. 	id249		S			
+		I see a dog here. 	id249		S			Y
 		I … Okay, so.	id250		L			
 		 You can tap it. You can tap whichever	R					
 194040	202680	one you think he's talking about. 	R					
 		Okay	id249		S			
-		A dog. 	id250		L			
+		A dog. 	id250		L			Y
 		Awesome. You got it right. Okay. Now it's	R	3				
 202680	215240	your turn, [id250], to say what you see in the black box. 	R					
-		Arrow	id250		S		arrow	
+		Arrow	id250		S		arrow	Y
 		Which do you see [id249]?	R					
-215240	225320	A sun.	id249		L		sun	
+215240	225320	A sun.	id249		L		sun	Y
 		 Right. So if you think you know which one [id250] is talking about, you can guess.	R					
 225320	235080	If not, do you want to ask him a question to tell you more?	R					
-		 I have one that's easy. Yeah,	id250		S			
+		 I have one that's easy. Yeah,	id250		S			Y
 235080	241720	what do you see in the black box, [id250]? 	R					
 		What are you supposed to?	id250		S			
 		 Just do your best	R					
 241720	249840	to describe it. 	R					
-		A sun. 	id249		L			
-		An arrow.	id250		S			
+		A sun. 	id249		L			Y
+		An arrow.	id250		S			Y
 		 Do you want to guess, [id249]? 	R					
-		To this side. 	id250		S			
+		To this side. 	id250		S			Y
 		Press which one	R					
 249840	258680	you think it is? 	R					
 		That's okay. Okay, tell me. Now it's your turn. Say what you see in the black box. 	R	4				
 								
-258680	272480	It's a spinner. It's a spinner.	id249		S		a spinner	
+258680	272480	It's a spinner. It's a spinner.	id249		S		a spinner	Y
 		 Do you think you know which one	R					
 272480	283480	it is, [id250]? Then tap it. 	R					
 		Awesome. 	R	5				
 		I won!	id249		L			
 		Now we're going to pass Murphy, and it's your turn to	R					
 283480	299160	say what you see in the black box, [id250]. 	R					
-		I got the one this way, like when we were doing the black box	id250		S			
+		I got the one this way, like when we were doing the black box	id250		S			Y
 		What do you see in the black box? 	R					
-		I don’t know what to call it	id250		S			
+		I don’t know what to call it	id250		S			Y
 299160	312240	Just do your best.	R					
-		 A doggy.	id250		S		a doggy	
-		 I see this. 	id249		L			
+		 A doggy.	id250		S		a doggy	Y
+		 I see this. 	id249		L			Y
 		Do you want to tap which one you think it is, [id249]? 	R					
 		That’s okay. 	R	6				
 312240	325200	What do you see in the black box, [id249]? 	R					
-		A rabbit.	id249		S		a rabbit	
+		A rabbit.	id249		S		a rabbit	Y
 		Do you think you know which one that is [id250]?	R					
 		Then tap it. 	R					
 		Awesome. 	R	7				
 		I win.	id249		L			
 326200	335080	No, I win	id250		S			
 		You both win. You're working together. What do you see in the black box, [id250]?	R					
-		An arrow.	id250		S		an arrow	
-		I see this.	id250		S			
+		An arrow.	id250		S		an arrow	Y
+		I see this.	id250		S			Y
 		Awesome. 	R	8				
 								
 								
 335080	348680	Let's pass Murphy. What do you see in the black box, [id249]?	R					
-		It’s a people.	id249		S		a people	
-		I also see a person.	id250		L		a person	x
+		It’s a people.	id249		S		a people	Y
+		I also see a person.	id250		L		a person	Y
 		Then you can tap whichever one you think it is	R					
 		Nice.	R	9				
 		I win.	id250		S			
@@ -102,64 +102,64 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 		Oh, you can wait for him to describe it, [id249]. 	R	10				
 		All right, [id249], what do you see in the black	R					
 376020	389920	box? 	R					
-		Another people.	id249		S		another people	
+		Another people.	id249		S		another people	Y
 		Yeah, tap it if you think you know which one it is. 	R					
 		Nice. 	R	11				
 		I win.	id250		S			
 		 All right,	R					
 389920	404240	what do you see in the black box, [id250]? 	R					
-		A bunny. 	id250		S		a bunny	
-		Can you see a bunny? 	id250		S			
+		A bunny. 	id250		S		a bunny	Y
+		Can you see a bunny? 	id250		S			Y
 		Sweet. What do you see in the black box, [id249]?	R	12				
 		I win.	id250		L			
-404240	422160	It looks like a boat cus it has this and that	id249		S		a boat cuz it has this and that	
+404240	422160	It looks like a boat cus it has this and that	id249		S		a boat cuz it has this and that	Y
 		Do you think you know which one it is, [id250]?	R					
 		 If you don't, do you want to ask	R					
 422160	441080	[id249] a question to tell you more?	R					
 		 I think I know.	id250		L			
 		 All right, then press the one that you think it is.	R					
-		Which one looks like	id250		L			
+		Which one looks like	id250		L			Y
 		That's okay.	R	13				
-		 I think that one. 	id250		S			
+		 I think that one. 	id250		S			Y
 		Let's pass Murphy.	R					
 441080	448400	All right, it's your turn to say what you think is in the black box, [id250]. Let's not press until he's given you a	R					
 448400	462640	description. 	R					
-		A person. 	id250		S		a person	
-		Do you see a person in the box? 	id250		S			
-		Do you see a person? 	id250		S			
-		A person. 	id249		L			
+		A person. 	id250		S		a person	Y
+		Do you see a person in the box? 	id250		S			Y
+		Do you see a person? 	id250		S			Y
+		A person. 	id249		L			Y
 		Nice.	R	14				
 		 I win. 	id250		L			
 								
 		All right, [id249], what do you see in the	R					
 462640	480320	black box?	R					
-		It’s a boat.	id249		S		a boat	
+		It’s a boat.	id249		S		a boat	Y
 		[id250] do you here what he said?	R					
-		What?	id250		L			
+		What?	id250		L			Y
 		Do you want to repeat yourself [id249]?	R					
 		Yep. 	id249		S			
-		 It's a boat. 	id249		S			
-		Is it this to the side?	id250		L			
-		No, this way. 	id249		S			
-480320	496400	Okay, so what's going to happen? 	id250		L			
+		 It's a boat. 	id249		S			Y
+		Is it this to the side?	id250		L			Y
+		No, this way. 	id249		S			Y
+480320	496400	Okay, so what's going to happen? 	id250		L			Y
 		That's okay. Let's pass Murphy. 	R	15				
 		Oh, okay. We can wait before we tap it next time, [id249]. 	R	16				
 		All right, [id249], what do you see in the black box?	R					
-497120	515840	A rabbit sitting. 	id249		S		a rabbit sitting	
+497120	515840	A rabbit sitting. 	id249		S		a rabbit sitting	Y
 		Nice. All right, [id250], it's your turn to say what you think is in the black box. 	R	17				
 		Let's not tap until,	R					
 		 yeah, it's okay. But if you give him a chance to describe, he might do a better job.	R	18				
-516000	524880	It's this way. It's this way. 	id249		S			
+516000	524880	It's this way. It's this way. 	id249		S			Y
 		They're going to be on different sides of your screen, so that's not going to help you.	R					
-526880	539040	What shape? 	id250		L			x
-		A bunny? 	id250		L		a bunny	
-		No, it's a boat. It's this way. 	id249		S		a boat	
+526880	539040	What shape? 	id250		L			Y
+		A bunny? 	id250		L		a bunny	Y
+		No, it's a boat. It's this way. 	id249		S		a boat	Y
 		Whether which side is on is not going to be the same for you guys.	R					
-540000	545520	So, I don't know which one is a boat. 	id250		L			
+540000	545520	So, I don't know which one is a boat. 	id250		L			Y
 		You can just press and guess if you're not sure.	R					
 		Yes yes	id250		L			
 548320	554480	All right, so, [id249], let's wait to tap until we hear [id250] say something. [id250], what do you see?	R	19				
-		bizing on black	id250		S		bizing on black	
+		bizing on black	id250		S		bizing on black	Y
 		 						
 		Did you hear what he said [id249]? Which one do you think it is?	R					
 								
@@ -169,7 +169,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 572800	580320	Oh, that's okay. 	R	20				
 		I got a pouty face	id250		L			
 		[id249], what do you see in the black box?	R					
-582320	589440	It looks like an elephant walking. 	id249		S		an elephant walking	
+582320	589440	It looks like an elephant walking. 	id249		S		an elephant walking	Y
 		Okay now Smurfy’s going  to tap on my screen	id250		L			
 590640	593440	You might have to use your finger, though. It's only going to work if you use your finger.	R					
 597840	598320	Nice.	R					

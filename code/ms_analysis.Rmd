@@ -1,0 +1,1018 @@
+---
+title: "Kid tangrams joint analysis"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F)
+library(tidyverse)
+library(here)
+library(jsonlite)
+library(ggplot2)
+library(brms)
+library(rstan)
+library(rstanarm)
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+theme_set(theme_bw())
+ParseJSONColumn <- function(x) {
+  str_c("[ ", str_c(x, collapse = ",", sep = " "), " ]") %>%
+    fromJSON(flatten = T)
+}
+
+data_loc_1 <- "data/expt_1"
+data_loc_2 <- "data/expt_2"
+data_loc_3 <- "data/expt_3"
+mod_loc <- "code/mods_for_paper"
+```
+
+
+# Read in data
+
+expt 1
+
+```{r}
+transcript <- read_csv(here(data_loc_1, "transcripts.csv"))
+data <- read_csv(here(data_loc_1, "clean_data.csv"))
+link <- read_csv(here(data_loc_1, "link_transcripts.csv"))
+
+
+data <- data |>
+  rename(trial = trialNum) |>
+  inner_join(link |> filter(is.na(exclude)))
+
+transcript <- transcript |>
+  inner_join(link |> filter(is.na(exclude))) |>
+  filter(!is.na(description))
+
+words <- transcript |>
+  mutate(words = description |> str_count("\\S+")) |>
+  filter(role == "S") |>
+  group_by(gameId, game, trial) |>
+  summarize(words = sum(words))
+
+all_words <- transcript |> 
+  filter(on_topic=="Y") |> 
+  mutate(words = text |> str_count("\\S+")) |>
+  group_by(gameId, game, trial) |>
+  summarize(all_words = sum(words))
+
+all_data_1 <- data |>
+  left_join(words) |>
+  left_join(all_words) |> 
+  filter(!is.na(words)) |>
+  mutate(type = case_when(
+    trial < 2 ~ "practice",
+    trial < 6 ~ "block 1",
+    trial < 10 ~ "block 2",
+    trial < 14 ~ "block 3",
+  )) |>
+  filter(!is.na(response)) |>
+  mutate(correct = as.numeric(correct)) |>
+  mutate(expt = "1")
+```
+
+expt 2
+
+```{r}
+transcript <- read_csv(here(data_loc_2, "transcripts.csv"))
+data <- read_csv(here(data_loc_2, "clean_data.csv"))
+link <- read_csv(here(data_loc_2, "link_transcripts.csv"))
+
+exclude_echo <- transcript |>
+  filter(!is.na(echo)) |>
+  select(game, gameId, trial)
+
+data <- data |>
+  rename(trial = trialNum) |>
+  inner_join(link |> filter(is.na(exclude))) |>
+  anti_join(exclude_echo)
+
+transcript <- transcript |>
+  inner_join(link |> filter(is.na(exclude))) |>
+  anti_join(exclude_echo) |>
+  filter(!is.na(description))
+
+words <- transcript |>
+  mutate(words = description |> str_count("\\S+")) |>
+  filter(role == "S") |>
+  group_by(gameId, game, trial) |>
+  summarize(words = sum(words))
+
+
+all_words <- transcript |> 
+  filter(on_topic=="Y") |> 
+  mutate(words = text |> str_count("\\S+")) |>
+  group_by(gameId, game, trial) |>
+  summarize(all_words = sum(words))
+
+all_data_2 <- data |>
+  left_join(words) |>
+  left_join(all_words) |> 
+  filter(!is.na(words)) |>
+  mutate(type = case_when(
+    trial < 4 ~ "practice",
+    trial < 8 ~ "block 1",
+    trial < 12 ~ "block 2",
+    trial < 16 ~ "block 3",
+    trial < 20 ~ "block 4"
+  )) |>
+  filter(!is.na(response)) |>
+  mutate(correct = as.numeric(correct)) |>
+  mutate(expt = "2")
+```
+
+expt 3
+
+```{r}
+transcript <- read_csv(here(data_loc_3, "transcripts.csv"))
+data <- read_csv(here(data_loc_3, "clean_data.csv"))
+link <- read_tsv(here(data_loc_3, "link_transcripts.csv")) |> select(gameId, game, exclude, exclusion_reason)
+
+exclude_echo <- transcript |>
+  filter(!is.na(echo)) |>
+  select(game, gameId, trial)
+
+data <- data |>
+  rename(trial = trialNum) |>
+  inner_join(link |> filter(is.na(exclude))) |>
+  anti_join(exclude_echo)
+
+transcript <- transcript |>
+  inner_join(link |> filter(is.na(exclude))) |>
+  anti_join(exclude_echo) |>
+  filter(!is.na(description))
+
+words <- transcript |>
+  mutate(words = description |> str_count("\\S+")) |>
+  filter(role == "S") |>
+  group_by(gameId, game, trial) |>
+  summarize(words = sum(words))
+
+
+all_words <- transcript |> 
+  filter(on_topic=="Y") |> 
+  mutate(words = text |> str_count("\\S+")) |>
+  group_by(gameId, game, trial) |>
+  summarize(all_words = sum(words))
+
+all_data_3 <- data |>
+  left_join(words) |>
+  left_join(all_words) |> 
+  filter(!is.na(words)) |>
+  mutate(type = case_when(
+    trial < 4 ~ "practice",
+    trial < 8 ~ "block 1",
+    trial < 12 ~ "block 2",
+    trial < 16 ~ "block 3",
+    trial < 20 ~ "block 4"
+  )) |>
+  filter(!is.na(response)) |>
+  mutate(correct = as.numeric(correct)) |>
+  mutate(expt = "3")
+```
+
+```{r}
+demogs <- read_csv(here(data_loc_1, "clean_demog.csv")) |>
+  bind_rows(read_csv(here(data_loc_2, "clean_demog.csv"))) |>
+  bind_rows(read_csv(here(data_loc_3, "clean_demog.csv"))) |>
+  mutate(expt = as.character(expt))
+```
+
+```{r}
+joint <- all_data_1 |>
+  bind_rows(all_data_2) |>
+  bind_rows(all_data_3)
+
+speaker_demogs <- demogs |> select(speaker = id, expt, game, speaker_gender = gender, speaker_age = age_month)
+
+listener_demogs <- demogs |> select(listener = id, expt, game, listener_gender = gender, listener_age = age_month)
+
+
+joint_demog <- joint |>
+  left_join(speaker_demogs) |>
+  left_join(listener_demogs) |>
+  mutate(trial = case_when(
+    expt=="1"~ trial-2,
+    T ~ trial-4,
+  ),     time.sec=time/1000
+) |> filter(type!="practice") |> select(-time) |> 
+  write_csv(here("data/processed_for_paper/joint_with_demog.csv"))
+```
+
+```{r}
+sims_1 <- read_rds(here(data_loc_1, "similarities.rds")) |>
+  as_tibble() |> 
+  inner_join(all_data_1 |> select(game1 = gameId, trial1 = trial, target1 = target, speaker1 = speaker)) |>
+  inner_join(all_data_1 |> select(game2 = gameId, trial2 = trial, target2 = target, speaker2 = speaker)) |> 
+  filter(target1 == target2) |> 
+  mutate(block1 = (trial1-2) %/% 4, block2 = (trial2-2) %/% 4) |>
+  mutate(
+    same_speaker = (speaker1 == speaker2) |> as.numeric(),
+    same_game = (game1 == game2) |> as.numeric(),
+    later = ifelse(block1 > block2, block1, block2),
+    earlier = ifelse(block1 > block2, block2, block1)
+  ) |>
+  mutate(target = target1) |>
+  mutate(expt = "1")
+
+sims_2 <- read_rds(here(data_loc_2, "similarities.rds")) |>
+  as_tibble() |>
+  inner_join(all_data_2 |> select(game1 = gameId, trial1 = trial, target1 = target, speaker1 = speaker)) |>
+  inner_join(all_data_2 |> select(game2 = gameId, trial2 = trial, target2 = target, speaker2 = speaker)) |>
+  filter(target1 == target2) |>
+  mutate(block1 = (trial1-4) %/% 4, block2 = (trial2-4) %/% 4) |>
+  mutate(
+    same_speaker = (speaker1 == speaker2) |> as.numeric(),
+    same_game = (game1 == game2) |> as.numeric(),
+    later = ifelse(block1 > block2, block1, block2),
+    earlier = ifelse(block1 > block2, block2, block1)
+  ) |>
+  mutate(target = target1) |>
+  mutate(expt = "2")
+
+sims_3 <- read_rds(here(data_loc_3, "similarities.rds")) |>
+  as_tibble() |>
+  inner_join(all_data_3 |> select(game1 = gameId, trial1 = trial, target1 = target, speaker1 = speaker)) |>
+  inner_join(all_data_3 |> select(game2 = gameId, trial2 = trial, target2 = target, speaker2 = speaker)) |>
+  filter(target1 == target2) |>
+  mutate(block1 = (trial1-4) %/% 4, block2 = (trial2-4) %/% 4) |>
+  mutate(
+    same_speaker = (speaker1 == speaker2) |> as.numeric(),
+    same_game = (game1 == game2) |> as.numeric(),
+    later = ifelse(block1 > block2, block1, block2),
+    earlier = ifelse(block1 > block2, block2, block1)
+  ) |>
+  mutate(target = target1) |>
+  mutate(expt = "3")
+
+sims <- sims_1 |>
+  bind_rows(sims_2) |>
+  bind_rows(sims_3) |>
+  select(-target1, -target2) |> 
+  write_csv(here("data/processed_for_paper/sims.csv"))
+```
+
+# QC
+
+TODO TURN INTO ASSERTIONS
+```{r, eval=F}
+joint_demog |>
+  select(speaker, game, expt) |>
+  distinct() |>
+  group_by(game, expt) |>
+  tally() |>
+  filter(n != 2)
+
+joint_demog |>
+  select(listener, game, expt) |>
+  distinct() |>
+  group_by(game, expt) |>
+  tally() |>
+  filter(n != 2)
+
+
+joint_demog |>
+  select(speaker, game, expt, trial) |>
+  distinct() |>
+  group_by(game, expt, trial) |>
+  tally() |>
+  filter(n != 1)
+
+joint_demog |>
+  select(listener, game, expt, trial) |>
+  distinct() |>
+  group_by(game, expt, trial) |>
+  tally() |>
+  filter(n != 1)
+# targetNum
+# repNum
+```
+
+
+```{r, eval=F}
+transcript_1 <- read_csv(here(data_loc_1, "transcripts.csv")) |>
+  left_join(read_csv(here(data_loc_1, "link_transcripts.csv"))) |>
+  mutate(expt = "1")
+
+transcript_2 <- read_csv(here(data_loc_2, "transcripts.csv")) |>
+  left_join(read_csv(here(data_loc_2, "link_transcripts.csv"))) |>
+  mutate(expt = "2")
+
+transcript_3 <- read_csv(here(data_loc_3, "transcripts.csv")) |>
+  left_join(read_tsv(here(data_loc_3, "link_transcripts.csv"))) |>
+  mutate(expt = "3")
+
+transcripts <- transcript_1 |>
+  bind_rows(transcript_2) |>
+  bind_rows(transcript_3) 
+
+# confirm that all S and L tags go with kids
+
+transcripts |>
+  filter(role %in% c("S", "L")) |>
+  filter(!str_detect(speaker, "id")) |>
+  select(expt, game, speaker, role, text)
+
+transcripts |>
+  select(trial, expt) |>
+  distinct() # should be 0-19 (0-13 for expt 1) + NAs
+
+transcripts |>
+  filter(!is.na(trial)) |>
+ filter(str_detect(speaker, "id")) |>
+  filter(is.na(role)) |>
+  select(expt, game, trial, text) |> View() # to check on later!!!
+
+transcripts |> filter(!is.na(trial)) |> 
+    filter(!is.na(role)) |>
+  select(game, expt, trial, speaker, role) |> 
+  distinct()|>group_by(game, expt, trial, speaker) |> tally() |> filter(n!=1)
+
+transcripts |> filter(!is.na(trial)) |> 
+    filter(!is.na(role)) |>
+  select(game, expt, trial, speaker, role) |> 
+  distinct()|>group_by(game, expt, trial, role) |> tally() |> filter(n!=1)
+
+transcripts |>
+  filter(!is.na(trial)) |>
+  filter(!is.na(role)) |>
+  select(game, expt, trial, speaker_transcript = speaker, role, text) |>
+  filter(role == "S") |>
+  full_join(joint_demog) |>
+  filter(speaker != speaker_transcript) |>
+  select(expt, game, trial, text, speaker_transcript, speaker, listener)
+```
+
+# Graphs
+## Accuracy
+```{r, fig.width=5, fig.height=5}
+time_palette <- c("practice" = "grey", "block 1" = "#E41A1C", "block 2" = "#377EB8", "block 3" = "#4DAF4A", "block 4" = "purple") # TODO FIX
+
+joint_demog |>
+  ggplot(aes(x = trial + 1, y = correct)) +
+  stat_summary(aes(color = type), fun.data = "mean_cl_boot", geom = "point", size = 2) +
+  stat_summary(fun.data = "mean_cl_boot", geom = "linerange", color = "black") +
+  scale_color_manual(values = time_palette) +
+  # geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  geom_smooth(data = joint_demog |> filter(type != "practice"), method = "lm", color = "black") +
+  # geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("\nTrial") +
+  ylab("Percent accuracy\n") +
+  scale_x_continuous(breaks = seq(1, 20, 1)) +
+  scale_y_continuous(breaks = seq(0, 1, .1)) +
+  geom_hline(yintercept = .5) +
+  facet_grid(expt ~ .) +
+  theme(
+    axis.title = element_text(size = 14, face = "bold"),
+    axis.text = element_text(size = 9, color = "black"),
+    legend.position = "none"
+  )
+```
+
+```{r}
+joint_demog |>
+  filter(type != "practice") |>
+  ggplot(aes(x = type, y = as.numeric(correct), color = target)) +
+  theme_bw() +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  scale_y_continuous(breaks = seq(0, 1, .1), limits = c(0, 1), expand = c(0, 0)) +
+  geom_hline(yintercept = .5) +
+  labs(x = "", y = "Fraction correct") +
+  theme(legend.position = "bottom")
+```
+
+## Speed
+
+```{r}
+time_palette <- c("practice" = "darkgrey", "block 1" = "#E41A1C", "block 2" = "#377EB8", "block 3" = "#4DAF4A", "block 4" = "purple") # TODO FIX
+
+ggplot(joint_demog, aes(x = trial + 1, y = time.sec, color = type)) +
+  geom_jitter(alpha = .5, color = "grey") +
+  stat_summary(fun.data = "mean_cl_boot") +
+  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
+  scale_color_manual(values = time_palette) +
+  theme_classic() +
+  geom_smooth(data = joint_demog |> filter(type != "practice"), method = "lm", color = "black") +
+  xlab("Trial") +
+  ylab("Time (seconds)") +
+  facet_grid(expt ~ .) +
+  theme(legend.position = "none")
+```
+
+## Reduction
+
+```{r}
+time_palette <- c("practice" = "darkgrey", "block 1" = "#E41A1C", "block 2" = "#377EB8", "block 3" = "#4DAF4A", "block 4" = "purple") # TODO FIX
+
+
+ggplot(joint_demog, aes(x = trial + 1, y = words, color = type)) +
+  geom_jitter(alpha = .5, color = "grey") +
+  stat_summary(fun.data = "mean_cl_boot") +
+  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
+  scale_color_manual(values = time_palette) +
+  theme_classic() +
+  geom_smooth(data = joint_demog |> filter(type != "practice"), method = "lm", color = "black") +
+  xlab("Trial") +
+  ylab("Words") +
+  facet_grid(expt ~ .) +
+  theme(legend.position = "none")
+```
+
+```{r}
+time_palette <- c("practice" = "darkgrey", "block 1" = "#E41A1C", "block 2" = "#377EB8", "block 3" = "#4DAF4A", "block 4" = "purple") # TODO FIX
+
+
+ggplot(joint_demog, aes(x = trial + 1, y = all_words, color = type)) +
+  geom_jitter(alpha = .5, color = "grey") +
+  stat_summary(fun.data = "mean_cl_boot") +
+  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
+  scale_color_manual(values = time_palette) +
+  theme_classic() +
+  geom_smooth(data = joint_demog |> filter(type != "practice"), method = "lm", color = "black") +
+  xlab("Trial") +
+  ylab("Words") +
+  facet_grid(expt ~ .) +
+  theme(legend.position = "none")
+```
+
+# Models
+## Accuracy
+```{r}
+acc_priors <- c(
+  set_prior("normal(0,1)", class = "b"),
+  set_prior("normal(0,1)", class = "sd"),
+  set_prior("lkj(1)", class = "cor")
+)
+
+
+
+acc_mod_1 <- brm(correct ~ trial + (trial | game) + (1 | target),
+                 family = bernoulli(link = "logit"),
+                 data = joint_demog |> filter(expt=="1"),
+                 file = here(mod_loc, "acc_1.rds"),
+                 prior = acc_priors,
+                 control = list(adapt_delta = .95)
+)
+
+
+acc_mod_2 <- brm(correct ~ trial+ (trial| gameId) + (1 | target),
+               family = bernoulli(link = "logit"),
+               data = joint_demog |> filter(expt=="2"),
+               file = here(mod_loc, "acc_2.rds"),
+               prior = acc_priors,
+               control = list(adapt_delta = .95)
+)
+
+
+acc_mod_3 <- brm(correct ~ trial + (trial | gameId) + (1 | target),
+               family = bernoulli(link = "logit"),
+               data = joint_demog |> filter(expt=="3"),
+               file = here(mod_loc, "acc_3.rds"),
+               prior = acc_priors,
+               control = list(adapt_delta = .95)
+)
+
+acc_mod_all <- brm(correct ~ trial + (trial | gameId) + (1 | target) + (1|expt),
+                    family = bernoulli(link = "logit"),
+                    data = joint_demog,
+                    file = here(mod_loc, "acc_meta.rds"),
+                    prior = acc_priors,
+                    control = list(adapt_delta = .95)
+)
+
+```
+
+## Speed
+```{r}
+speed_priors <- c(
+  set_prior("normal(60,100)", class = "Intercept"),
+  set_prior("normal(0,20)", class = "b"),
+  set_prior("normal(0,20)", class = "sd"),
+  set_prior("lkj(1)", class = "cor")
+)
+
+
+
+speed_mod_1 <- brm(time.sec ~ trial + (trial | game) + (1 | target),
+                   data = joint_demog |> filter(expt=="1"),
+                   file = here(mod_loc, "speed_1.rds"),
+                   prior = speed_priors,
+                   control = list(adapt_delta = .95)
+)
+
+speed_mod_2 <- brm(time.sec ~ trial + (trial | gameId) + (1 | target),
+                   data = joint_demog |> filter(expt=="2"),
+                   file = here(mod_loc, "speed_2.rds"),
+                   prior = speed_priors,
+                   control = list(adapt_delta = .95)
+)
+
+speed_mod_3 <- brm(time.sec ~ trial + (trial | gameId) + (1 | target),
+                   data = joint_demog |> filter(expt=="3"),
+                   file = here(mod_loc, "speed_3.rds"),
+                   prior = speed_priors,
+                   control = list(adapt_delta = .95)
+)
+
+
+speed_mod_meta <- brm(time.sec ~ trial + (trial | gameId) + (1 | target) + (1|expt),
+                   data = joint_demog,
+                   file = here(mod_loc, "speed_meta.rds"),
+                   prior = speed_priors,
+                   control = list(adapt_delta = .95)
+)
+```
+
+## Description length
+
+```{r}
+description_priors <- c(
+  set_prior("normal(5,10)", class = "Intercept"),
+  set_prior("normal(0,5)", class = "b"),
+  set_prior("normal(0,5)", class = "sd"),
+  set_prior("lkj(1)", class = "cor")
+)
+
+
+description_mod_1 <- brm(words ~ trial + (trial | game) + (1 | target),
+                         data = joint_demog |> filter(expt=="1"),
+                         file = here(mod_loc, "description_1.rds"),
+                         prior = description_priors,
+                         control = list(adapt_delta = .95)
+)
+
+
+description_mod_2 <- brm(words ~ trial + (trial | gameId) + (1 | target),
+                         data = joint_demog |> filter(expt=="2"),
+                         file = here(mod_loc, "description_2.rds"),
+                         prior = description_priors,
+                         control = list(adapt_delta = .95)
+)
+
+
+description_mod_3 <- brm(words ~ trial + (trial | gameId) + (1 | target),
+                         data = joint_demog |> filter(expt=="3"),
+                         file = here(mod_loc, "description_3.rds"),
+                         prior = description_priors,
+                         control = list(adapt_delta = .95)
+)
+
+
+description_mod_meta <- brm(words ~ trial + (trial | gameId) + (1 | target) + (1|expt),
+                            data = joint_demog,
+                            file = here(mod_loc, "description_meta.rds"),
+                            prior = description_priors,
+                            control = list(adapt_delta = .95)
+)
+```
+
+## Description -- robustness
+we can instead of just the cleaned up description, look at all kids on topic words (including listener ?s, self repeitions, saying I don't know...)
+
+this excludes off topic things (I have a stuffy too / comments about smurfy), stuff about the mechanics of the game (do I press it?), and celebration/non-referential commentary on how the game is going (yay!, I'm winning. that was wrong)
+
+TODO 
+```{r}
+description_priors <- c(
+  set_prior("normal(5,10)", class = "Intercept"),
+  set_prior("normal(0,5)", class = "b"),
+  set_prior("normal(0,5)", class = "sd"),
+  set_prior("lkj(1)", class = "cor")
+)
+
+
+all_description_mod_1 <- brm(all_words ~ trial + (trial | game) + (1 | target),
+                         data = joint_demog |> filter(expt=="1"),
+                         file = here(mod_loc, "all_description_1.rds"),
+                         prior = description_priors,
+                         control = list(adapt_delta = .95)
+)
+
+
+all_description_mod_2 <- brm(all_words ~ trial + (trial | gameId) + (1 | target),
+                         data = joint_demog |> filter(expt=="2"),
+                         file = here(mod_loc, "all_description_2.rds"),
+                         prior = description_priors,
+                         control = list(adapt_delta = .95)
+)
+
+
+all_description_mod_3 <- brm(all_words ~ trial + (trial | gameId) + (1 | target),
+                         data = joint_demog |> filter(expt=="3"),
+                         file = here(mod_loc, "all_description_3.rds"),
+                         prior = description_priors,
+                         control = list(adapt_delta = .95)
+)
+
+
+all_description_mod_meta <- brm(all_words ~ trial + (trial | gameId) + (1 | target) + (1|expt),
+                            data = joint_demog,
+                            file = here(mod_loc, "all_description_meta.rds"),
+                            prior = description_priors,
+                            control = list(adapt_delta = .95)
+)
+```
+
+
+# S-BERT graphs
+
+## Sim to self/partner/others
+```{r}
+sims |>
+  mutate(source = case_when(
+    speaker1 == speaker2 ~ "same speaker",
+    game1 == game2 ~ "same game",
+    T ~ "different games"
+  )) |>
+  ggplot(aes(x = source, y = sim, color = target)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  labs(y = "Cosine similarity", x = "Comparing two utterances from ...", color = "target image") +
+  facet_wrap(~expt) +
+  theme(legend.position = "bottom")
+```
+
+## Sim to last round
+
+```{r}
+sims |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == 3) |>
+  mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |>
+  ggplot(aes(as.character(earlier), sim, color = target)) +
+  geom_point(alpha = .1, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  facet_grid(expt ~ same_speaker) +
+  labs(x = "Earlier block to last block", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
+```
+
+## Sim to next round
+
+```{r}
+sims |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == earlier + 1) |>
+  mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |>
+  ggplot(aes(as.character(earlier), sim, color = target)) +
+  geom_point(alpha = .1, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  facet_wrap(~same_speaker) +
+  labs(x = "Earlier block to *next* block", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
+```
+
+## Sim across game
+
+```{r}
+sims |>
+  filter(game1 != game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == earlier) |>
+  ggplot(aes(as.character(earlier), sim, color = target)) +
+  geom_point(alpha = .01, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  labs(x = "Cross game similarity in block ...", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
+```
+
+## similarity and accuracy
+
+```{r}
+sim_acc_to_next <- sims |> 
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  mutate(earlier_trial = ifelse(trial1 > trial2, trial2, trial1)) |>
+  filter(later == earlier + 1) |>
+  mutate(
+    same_speaker = ifelse(speaker1 == speaker2, 1, 0),
+    earlier_block.num = earlier
+  ) |> 
+  select(earlier_trial, target, game1, earlier, later, sim, earlier_block.num, same_speaker, expt) |> left_join(joint_demog |> select(target, earlier_trial=trial, game1=gameId, correct, expt)) |> filter(!is.na(correct))
+
+sim_acc_to_next |> ggplot(aes(as.character(earlier), sim, color = as.character(correct))) +
+  geom_point(alpha = .1, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  labs(x = "Earlier block to *next* block", y = "cosine similarity") +
+  theme(legend.position = "bottom")+facet_wrap(~expt)
+```
+
+# S-BERT models
+
+# across-between 
+```{r}
+conv_priors <- c(
+  set_prior("normal(.5,.2)", class = "Intercept"),
+  set_prior("normal(0,.1)", class = "b"),
+  set_prior("normal(0,.05)", class = "sd")
+)
+
+sim_across_between_data <- sims |>
+  mutate(same_game = case_when(
+    game1 == game2 ~ 1,
+    T ~ 0
+  )) |>
+  mutate(same_speaker = ifelse(speaker1 == speaker2, 1, 0))
+
+
+sim_across_between_mod_1 <- brm(sim ~ same_game + same_speaker + (1 | target),
+                                data = sim_across_between_data |> filter(expt=="1"),
+                                file = here(mod_loc, "sim_across_between_1.rds"),
+                                prior = conv_priors,
+                                control = list(adapt_delta = .95)
+)
+
+sim_across_between_mod_2 <- brm(sim ~ same_game + same_speaker + (1 | target),
+                                data = sim_across_between_data |> filter(expt=="2"),
+                                file = here(mod_loc, "sim_across_between_2.rds"),
+                                prior = conv_priors,
+                                control = list(adapt_delta = .95)
+)
+
+sim_across_between_mod_3 <- brm(sim ~ same_game + same_speaker + (1 | target),
+                                data = sim_across_between_data |> filter(expt=="3"),
+                                file = here(mod_loc, "sim_across_between_3.rds"),
+                                prior = conv_priors,
+                                control = list(adapt_delta = .95)
+)
+
+sim_across_between_mod_meta <- brm(sim ~ same_game + same_speaker + (1 | target) + (1|expt),
+                                   data = sim_across_between_data,
+                                   file = here(mod_loc, "sim_across_between_meta.rds"),
+                                   prior = conv_priors,
+                                   control = list(adapt_delta = .95)
+)
+```
+
+## to last
+
+```{r}
+sim_to_last_data <- sims |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == 3) |>
+  mutate(
+    same_speaker = ifelse(speaker1 == speaker2, 1, 0),
+  )
+
+sim_to_last_mod_2 <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target),
+                         data = sim_to_last_data |> filter(expt=="2"),
+                         file = here(mod_loc, "sim_to_last_2.rds"),
+                         prior = conv_priors,
+                         control = list(adapt_delta = .95)
+)
+sim_to_last_mod_3 <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target),
+                         data = sim_to_last_data |> filter(expt=="3"),
+                         file = here(mod_loc, "sim_to_last_3.rds"),
+                         prior = conv_priors,
+                         control = list(adapt_delta = .95)
+)
+
+sim_to_last_mod_meta <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target)+ (1|expt),
+                         data = sim_to_last_data,
+                         file = here(mod_loc, "sim_to_last_meta.rds"),
+                         prior = conv_priors,
+                         control = list(adapt_delta = .95)
+)
+```
+
+## to next
+
+```{r}
+sim_to_next_data <- sims |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == earlier + 1) |>
+  mutate(
+    same_speaker = ifelse(speaker1 == speaker2, 1, 0),
+  )
+
+sim_to_next_mod_2 <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target),
+                         data = sim_to_next_data |> filter(expt=="2"),
+                         file = here(mod_loc, "sim_to_next_2.rds"),
+                         prior = conv_priors,
+                         control = list(adapt_delta = .95)
+)
+
+sim_to_next_mod_3 <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target),
+                         data = sim_to_next_data |> filter(expt=="3"),
+                         file = here(mod_loc, "sim_to_next_3.rds"),
+                         prior = conv_priors,
+                         control = list(adapt_delta = .95)
+)
+
+sim_to_next_mod_meta <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target)+ (1|expt),
+                         data = sim_to_next_data,
+                         file = here(mod_loc, "sim_to_next_meta.rds"),
+                         prior = conv_priors,
+                         control = list(adapt_delta = .95)
+)
+```
+
+## cross game
+
+```{r}
+sim_across_data <- sims |>
+  filter(game1 != game2) |>
+  filter(block1 == block2)
+
+sim_across_mod_2 <- brm(sim ~ block1 + (1 | target),
+                        data = sim_across_data |> filter(expt=="2"),
+                        file = here(mod_loc, "sim_across_2.rds"),
+                        prior = conv_priors,
+                        control = list(adapt_delta = .95)
+)
+
+sim_across_mod_3 <- brm(sim ~ block1 + (1 | target),
+                        data = sim_across_data |> filter(expt=="3"),
+                        file = here(mod_loc, "sim_across_3.rds"),
+                        prior = conv_priors,
+                        control = list(adapt_delta = .95)
+)
+
+
+
+sim_across_mod_meta <- brm(sim ~ block1 + (1 | target)+ (1|expt),
+                        data = sim_across_data,
+                        file = here(mod_loc, "sim_across_meta.rds"),
+                        prior = conv_priors,
+                        control = list(adapt_delta = .95)
+)
+
+
+
+```
+
+## similarity & accuracy 
+
+may need to double check this one!
+```{r}
+
+sim_acc_to_next <- sims |> 
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  mutate(earlier_trial = ifelse(trial1 > trial2, trial2, trial1)) |>
+  filter(later == earlier + 1) |>
+  mutate(
+    same_speaker = ifelse(speaker1 == speaker2, 1, 0)
+  ) |> 
+  select(target, game1, earlier, later, sim, same_speaker, expt) |> 
+left_join(joint_demog |> select(target, earlier=repNum, game1=gameId, correct, expt ))
+
+conv_priors <- c(
+  set_prior("normal(.5,.2)", class = "Intercept"),
+  set_prior("normal(0,.1)", class = "b"),
+  set_prior("normal(0,.05)", class = "sd")
+)
+
+sim_acc_to_next_mod_meta <- brm(sim ~ earlier*correct + same_speaker*correct + (1 | game1) + (1 | target) + (1|expt),
+                                data = sim_acc_to_next,
+                                file = here(mod_loc, "sim_acc_to_next_meta.rds"),
+                                prior = conv_priors,
+                                control = list(adapt_delta = .95)
+)
+
+```
+
+# Demog graphs
+
+## Accuracy
+```{r}
+joint_demog |> ggplot(aes(x = speaker_age, y = correct, color = interaction(speaker_gender))) +
+  geom_smooth(method = "lm")+
+  geom_jitter(data=joint_demog |> group_by(speaker_age, speaker, expt, game, speaker_gender) |> summarize(correct=mean(correct, na.rm=T)))
+
+joint_demog |> ggplot(aes(x = listener_age, y = correct, color = interaction(listener_gender))) +
+  geom_smooth(method = "lm")+
+  geom_jitter(data=joint_demog |> group_by(listener_age, expt, game, listener_gender) |> summarize(correct=mean(correct, na.rm=T)))
+
+joint_demog |>
+  mutate(mean_age = (listener_age + speaker_age) / 2, girlness = (listener_gender == "female") + (speaker_gender == "female")) |>
+  ggplot(aes(x = mean_age, y = correct, color = as.character(girlness))) +
+  labs(x="Mean age of participants", y="Accuracy", color="Number of girls")+
+  geom_jitter(data=joint_demog |>
+  mutate(mean_age = (listener_age + speaker_age) / 2, girlness = (listener_gender == "female") + (speaker_gender == "female")) |> group_by(expt, game, mean_age, girlness) |> summarize(correct=mean(correct, na.rm=T))) +
+  geom_smooth(method = "lm")
+```
+
+
+## words
+
+```{r}
+joint_demog |> ggplot(aes(x = speaker_age, y = words, color = interaction(speaker_gender))) +
+  geom_smooth(method = "lm")+
+  geom_jitter(data=joint_demog |> group_by(speaker_age, speaker, expt, game, speaker_gender) |> summarize(words=mean(words, na.rm=T)))
+
+joint_demog |> ggplot(aes(x = listener_age, y = words, color = interaction(listener_gender))) +
+  geom_smooth(method = "lm")+
+  geom_jitter(data=joint_demog |> group_by(listener_age, expt, game, listener_gender) |> summarize(words=mean(words, na.rm=T)))
+
+joint_demog |>
+  mutate(mean_age = (listener_age + speaker_age) / 2, girlness = (listener_gender == "female") + (speaker_gender == "female")) |>
+  ggplot(aes(x = mean_age, y = words, color = as.character(girlness))) +
+  labs(x="Mean age of participants", y="Accuracy", color="Number of girls")+
+  geom_jitter(data=joint_demog |>
+  mutate(mean_age = (listener_age + speaker_age) / 2, girlness = (listener_gender == "female") + (speaker_gender == "female")) |> group_by(expt, game, mean_age, girlness) |> summarize(words=mean(words, na.rm=T))) +
+  geom_smooth(method = "lm")
+```
+
+
+# Demog models
+## Accuracy 
+
+```{r}
+
+mean_age <- joint_demog |> distinct(expt, speaker, speaker_age) |> summarize(mean_age=mean(speaker_age)) |> pluck(1,1)
+
+centered_demog <- joint_demog |> 
+  mutate(
+    centered_speaker_age = speaker_age - mean_age,
+    centered_listener_age = listener_age - mean_age,
+    speaker_gender_num = ifelse(speaker_gender == "female", .5, -.5),
+    listener_gender_num = ifelse(listener_gender == "female", .5, -.5)
+  ) 
+
+acc_priors <- c(
+  set_prior("normal(0, 1)", class = "b"),
+  set_prior("normal(0, 1)", class = "sd"),
+  set_prior("lkj(1)", class = "cor")
+)
+
+acc_mod_demog <- brm(
+  correct ~ trial +
+    centered_speaker_age + speaker_gender_num +
+    centered_listener_age + listener_gender_num +
+    (trial | game) + (1 | target),
+  family = bernoulli(link = "logit"),
+  data = centered_demog,
+  file = here(mod_loc, "acc_demog.rds"),
+  prior = acc_priors,
+  control = list(adapt_delta = .95)
+)
+
+```
+
+## Description length
+
+```{r}
+red_priors <- c(
+  set_prior("normal(5, 10)", class = "Intercept"),
+  set_prior("normal(0,5)", class = "b"),
+  set_prior("normal(0, 5)", class = "sd"),
+  set_prior("lkj(1)", class = "cor")
+)
+
+red_mod <- brm(
+  words ~ trial*(centered_speaker_age + speaker_gender_num +
+    centered_listener_age + listener_gender_num) +
+    (trial | game) + (1 | target),
+  data = centered_demog,
+  file = here(mod_loc, "description_demog.rds"),
+  prior = red_priors,
+  control = list(adapt_delta = .95)
+)
+
+```
+
+# Save model summaries
+
+```{r}
+library(tidybayes)
+
+save_summary <- function(model) {
+  intervals <- gather_draws(model, `b_.*`, regex = T) %>% mean_qi()
+  
+  stats <- gather_draws(model, `b_.*`, regex = T) %>%
+    mutate(above_0 = ifelse(.value > 0, 1, 0)) %>%
+    group_by(.variable) %>%
+    summarize(pct_above_0 = mean(above_0)) %>%
+    left_join(intervals, by = ".variable") %>%
+    mutate(
+      lower = .lower,
+      upper = .upper,
+      Term = str_sub(.variable, 3, -1),
+      Estimate = .value
+    ) %>%
+    select(Term, Estimate, lower, upper)
+  
+  stats
+}
+
+do_model <- function(path) {
+  model <- read_rds(here(mod_loc, path))
+  save_summary(model) |> write_rds(here(mod_loc, "summary", path))
+  model$formula |> write_rds(here(mod_loc, "formulae", path))
+  print(summary(model))
+}
+
+
+mods <- list.files(path = here(mod_loc), pattern = ".*rds") |> walk(~ do_model(.))
+```
+

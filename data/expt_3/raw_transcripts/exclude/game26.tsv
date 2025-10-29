@@ -63,7 +63,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 292240	299920	Okay. Now, [id172], can you tell [id171] and Smurphy what you see? 	R					
 		I see a kid	id172		S		a kid	
 302640	310880	Which one looks like a kid? 	R			x		
-		This one.	id171					
+		This one.	id171		L			
 		Oh no, it's okay. We can try again. Now, [id172].	R	8				
 311200	324080	Oh, can we wait and see what the teller is going to tell the guesser what to press? 	R	9				
 		Let’s see	R	10				
@@ -77,7 +77,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 		 I saw bunny.	id171		S		bunny	
 		 I'm Lee. 	id172		L			
 		Yes. On your screen, which one looks like a bunny?	R			x		
-360320	363280	Bunny.	id171					
+360320	363280	Bunny.	id171		S			
 		Oh no. 	R	13				
 366400	371200	Let's go with this. And now, [id172], we can pass Smurphy to [id171].	R					
 375520	379600	Are you trying to hide him? And now, can you tell [id171] what we see?	R					

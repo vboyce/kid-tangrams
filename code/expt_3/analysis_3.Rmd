@@ -1,0 +1,396 @@
+---
+title: "Kid tg 2"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F)
+library(tidyverse)
+library(here)
+library(jsonlite)
+library(ggplot2)
+library(brms)
+library(rstan)
+library(rstanarm)
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+theme_set(theme_bw())
+ParseJSONColumn <- function(x) {
+  str_c("[ ", str_c(x, collapse = ",", sep = " "), " ]") %>%
+    fromJSON(flatten = T)
+}
+
+
+data_loc <- "data/expt_3"
+mod_loc <- "code/expt_3/models"
+```
+
+
+# Exclusions
+
+```{r}
+transcript <- read_csv(here(data_loc, "transcripts.csv"))
+data <- read_csv(here(data_loc, "clean_data.csv"))
+link <- read_tsv(here(data_loc, "link_transcripts.csv"))
+
+ exclude_echo <- transcript |>
+   filter(!is.na(echo)) |>
+   select(game, gameId, trial)
+
+data <- read_csv(here(data_loc, "clean_data.csv")) |>
+  rename(trial = trialNum) |>
+  inner_join(link |> filter(is.na(exclude))) |> 
+  anti_join(exclude)
+
+transcript <- transcript |>
+    inner_join(link |> filter(is.na(exclude))) |> 
+  anti_join(exclude) |>
+  filter(!is.na(description))
+
+words <- transcript |> mutate(words=description |> str_count("\\S+")) |>
+  filter(role=="S") |>
+  group_by(gameId, game, trial) |>
+  summarize(words=sum(words))
+
+all_data <- data |>left_join(words) |> 
+  filter(!is.na(words)) |> 
+   mutate(type = case_when(
+    trial < 4 ~ "practice",
+    trial < 8 ~ "block 1",
+    trial < 12 ~ "block 2",
+    trial < 16 ~ "block 3",
+    trial < 20 ~ "block 4"
+  )) |>
+  filter(!is.na(response)) |> 
+  mutate(correct=as.numeric(correct))
+
+all_data |> select(game, speaker) |> distinct()
+
+```
+
+# Accuracy 
+
+```{r}
+
+time_palette <- c("practice" = "grey", "block 1" = "#E41A1C", "block 2" = "#377EB8", "block 3" = "#4DAF4A", "block 4" = "purple") # TODO FIX
+
+all_data |>
+  ggplot(aes(x = trial + 1, y = correct)) +
+  stat_summary(aes(color = type), fun.data = "mean_cl_boot", geom="point", size=2) +
+  stat_summary(fun.data = "mean_cl_boot", geom = "linerange", color = "black") +
+  scale_color_manual(values = time_palette) +
+  # geom_bar(position = position_dodge(.9), color = "black", fill = "#19ADDE", width = .7) +
+  geom_smooth(data = all_data |> filter(trial > 3), method = "lm", color = "black") +
+  # geom_text(aes(label = percent), hjust = 1.6, color = "white", size = 3) +
+  theme_classic() +
+  xlab("\nTrial") +
+  ylab("Percent accuracy\n") +
+  scale_x_continuous(breaks = seq(1, 20, 1)) +
+  scale_y_continuous(breaks = seq(0, 1, .1), expand = c(0, 0)) +
+  geom_hline(yintercept = .5) +
+  theme(
+    aspect.ratio = 4 / 5,
+    axis.title = element_text(size = 14, face = "bold"),
+    axis.text = element_text(size = 9, color = "black"),
+    legend.position = "none"
+  )
+```
+```{r}
+all_data |> filter(type!="practice") |> ggplot(aes(x=reorder(gameId, as.numeric(correct)), y=as.numeric(correct)))+stat_summary(fun.data="mean_cl_boot")+theme(axis.text.x=element_blank())
+```
+
+```{r}
+all_data |>
+  filter(type != "practice") |>
+  ggplot(aes(x = type, y = as.numeric(correct), color = target)) +
+  theme_bw() +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  scale_y_continuous(breaks = seq(0, 1, .1), limits = c(0, 1), expand = c(0, 0)) +
+  geom_hline(yintercept = .5) +
+  labs(x = "", y = "Fraction correct") +
+  theme(legend.position = "bottom")
+```
+
+# Description length
+
+```{r}
+time_palette <- c("practice" = "darkgrey", "block 1" = "#E41A1C", "block 2" = "#377EB8", "block 3" = "#4DAF4A", "block 4" = "purple") # TODO FIX
+
+
+ggplot(all_data, aes(x = trial + 1, y = words, color = type)) +
+  geom_jitter(alpha = .5, color = "grey") +
+  stat_summary(fun.data = "mean_cl_boot") +
+  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
+  scale_color_manual(values = time_palette) +
+  theme_classic() +
+  geom_smooth(data = all_data|> filter(trial > 3), method = "lm", color = "black") +
+  xlab("Trial") +
+  ylab("Words") +
+  theme(legend.position = "none")
+```
+
+# Speed 
+
+```{r}
+
+
+time_palette <- c("practice" = "darkgrey", "block 1" = "#E41A1C", "block 2" = "#377EB8", "block 3" = "#4DAF4A", "block 4" = "purple") # TODO FIX
+
+ggplot(all_data, aes(x = trial + 1, y = time / 1000, color = type)) +
+  geom_jitter(alpha = .5, color = "grey") +
+  stat_summary(fun.data = "mean_cl_boot") +
+  scale_x_continuous(breaks = seq(1, 20, 1), expand = c(0, 0)) +
+  scale_color_manual(values = time_palette) +
+  theme_classic() +
+  geom_smooth(data = all_data |> filter(trial > 3), method = "lm", color = "black") +
+  xlab("Trial") +
+  ylab("Time (seconds)") +
+  theme(legend.position = "none")
+```
+
+# Similarities
+
+```{r}
+sims <- read_rds(here(data_loc, "similarities.rds")) |>
+  as_tibble() |>
+  inner_join(data |> select(game1 = gameId, trial1 = trial, target1 = target, speaker1 = speaker)) |>
+  inner_join(data |> select(game2 = gameId, trial2 = trial, target2 = target, speaker2 = speaker)) |>
+  filter(target1 == target2) |>
+  mutate(block1 = trial1 %/% 4, block2 = trial2 %/% 4) |> 
+  mutate(same_speaker=(speaker1==speaker2) |> as.numeric(),
+         same_game=(game1==game2) |> as.numeric(),
+        later = ifelse(block1 > block2, block1, block2), 
+        earlier = ifelse(block1 > block2, block2, block1)) |> mutate(target=target1)
+```
+
+
+```{r}
+sims |>
+  mutate(source = case_when(
+    speaker1 == speaker2 ~ "same speaker",
+    game1 == game2 ~ "same game",
+    T ~ "different games"
+  )) |>
+  ggplot(aes(x = source, y = sim, color = target1)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  labs(y = "Cosine similarity", x = "Comparing two utterances from ...", color = "target image") +
+  theme(legend.position = "bottom")
+```
+
+```{r}
+sims |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == 4) |>
+  mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |>
+  ggplot(aes(as.character(earlier), sim, color = target1)) +
+  geom_point(alpha = .1, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  facet_wrap(~same_speaker) +
+  labs(x = "Earlier block to last block", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
+```
+```{r}
+sims |>
+  filter(game1 == game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == earlier + 1) |>
+  mutate(same_speaker = ifelse(speaker1 == speaker2, "same speaker", "different speaker")) |>
+  ggplot(aes(as.character(earlier), sim, color = target1)) +
+  geom_point(alpha = .1, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  facet_wrap(~same_speaker) +
+  labs(x = "Earlier block to *next* block", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
+```
+```{r}
+sims |>
+  filter(game1 != game2) |>
+  mutate(later = ifelse(block1 > block2, block1, block2), earlier = ifelse(block1 > block2, block2, block1)) |>
+  filter(later == earlier) |>
+  ggplot(aes(as.character(earlier), sim, color = target1)) +
+  geom_point(alpha = .01, position = position_dodge(width = .2)) +
+  stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
+  labs(x = "Cross game similarity in block ...", y = "cosine similarity", color = "target") +
+  theme(legend.position = "bottom")
+```
+
+# Run Analyses
+
+
+
+
+```{r}
+
+acc_priors <- c(
+  set_prior("normal(0, 1)", class = "b"),
+  set_prior("normal(0, 1)", class = "sd"),
+  set_prior("lkj(1)", class = "cor")
+)
+
+acc_mod <- brm(correct ~ trial + (trial | gameId) + (1 | target),
+  family = bernoulli(link = "logit"),
+  data = all_data |> filter(!is.na(repNum)),
+  file = here(mod_loc, "acc"),
+  prior = acc_priors,
+  control = list(adapt_delta = .95)
+)
+```
+
+
+```{r}
+
+red_priors <- c(
+  set_prior("normal(5, 10)", class = "Intercept"),
+  set_prior("normal(0,5)", class="b"),
+  set_prior("normal(0, 5)", class = "sd"),
+  set_prior("lkj(1)", class = "cor")
+)
+
+red_mod <- brm(words ~ trial + (trial | gameId) + (1 | target),
+  data = all_data |> filter(!is.na(repNum)),
+  file = here(mod_loc, "red"),
+  prior = red_priors,
+  control = list(adapt_delta = .95)
+)
+```
+
+
+
+```{r}
+
+speed_priors <- c(
+  set_prior("normal(60, 100)", class = "Intercept"),
+  set_prior("normal(0,20)", class="b"),
+  set_prior("normal(0,20)", class = "sd"),
+  set_prior("lkj(1)", class = "cor")
+)
+
+speed_mod <- brm(time_seconds ~ trial + (trial | gameId) + (1 | target),
+  data = all_data |> filter(!is.na(repNum)) |> mutate(time_seconds=time/1000),
+  file = here(mod_loc, "speed"),
+  prior = speed_priors,
+  control = list(adapt_delta = .95)
+)
+```
+
+```{r}
+sim_priors <- c(
+  set_prior("normal(.5, .2)", class = "Intercept"),
+  set_prior("normal(0,.1)", class="b"),
+  set_prior("normal(0,.05)", class = "sd"))
+
+sim_no_time <- brm(sim ~ same_game + same_speaker + (1|target),
+                   data=sims ,
+                   file = here(mod_loc, "sim_no_time"),
+  prior = sim_priors,
+  control = list(adapt_delta = .95))
+```
+
+```{r}
+
+sim_to_last <- brm(sim ~ earlier+same_speaker+(1|game)+(1|target),
+                   data=sims |> filter(later==4) |> filter(game1==game2) |> mutate(game=game1),
+                   file = here(mod_loc, "sim_to_last"),
+  prior = sim_priors,
+  control = list(adapt_delta = .95))
+
+sim_to_next <- brm(sim ~ earlier+same_speaker+(1|game)+(1|target),
+                   data=sims |> filter(later==earlier+1) |> filter(game1==game2) |> mutate(game=game1),
+                   file = here(mod_loc, "sim_to_next"),
+  prior = sim_priors,
+  control = list(adapt_delta = .95))
+
+sim_across <- brm(sim ~ block+(1|target),
+                   data=sims |> filter(later==earlier) |> filter(game1!=game2) |> mutate(block=earlier),
+                   file = here(mod_loc, "sim_across"),
+  prior = sim_priors,
+  control = list(adapt_delta = .95))
+```
+
+
+
+
+
+# Analysis results
+
+[x] Logistic model of accuracy: correct ~ trialNum + (trialNum|game) + (1|target) (prior normal(0,1) for beta and sd, lkj(1) for correlation)
+
+```{r}
+
+summary(acc_mod)
+
+```
+
+no effect of trial on accuracy; accuracy generally high
+
+[x] Linear model of description length: words ~ trialNum + (trialNum|game) + (1|target) (prior intercept of normal(5,10), beta and sd priors of normal(0,5), and correlation of lkj(1))
+
+
+```{r}
+
+summary(red_mod)
+
+```
+
+no effect of trial on length; generally pretty short throughout
+
+[x] Speed: time_seconds ~ trialNum + (trialNum|game) + (1|target) (prior intercept of normal(60,100), beta and sd priors of (0,20) and correlation of lkj(1))
+
+```{r}
+
+summary(speed_mod)
+
+```
+
+kids get faster over time (by about .7 seconds a pop)
+
+We will interpret the fixed effect of trial number as being about changes in referring over time. 
+
+## Sbert models
+For utterance similarities, we will embed the describer’s descriptions using S-BERT and use cosine similarity as a proxy for utterance similarity. 
+
+We are unsure whether 4 blocks will be sufficient to see potential change over time, so we will 
+
+[x]* compare similarities of utterances between different games v within one game v within one speaker: sim ~ same_game + same_speaker + (1|target) 
+
+```{r}
+summary(sim_no_time)
+```
+
+utterances from within the same game are more similar (.34 across games v .59 within), smaller effect of same speaker(+.08, so .67)
+
+[x]* compare similarities of utterances to the last utterance within a game: sim_to_last ~ earlier_block + same_speaker + (1|game) + (1|target)
+
+```{r}
+summary(sim_to_last)
+```
+
+utterances do get (slightly) more similar to last utterance over time, with a probable bump if same speaker 
+
+[x]* compare similarities of utterances to the next utterance: sim_to_next ~ earlier_block + same_speaker + (1|game) + (1|target)
+
+```{r}
+summary(sim_to_next)
+```
+
+utterances are again more similar from same speaker, but similarity to next is not clearly increasing over time
+
+[x]* compare the similarity level of descriptions from the same block in different games: sim ~ block + (1|target)
+
+```{r}
+summary(sim_across)
+```
+
+distance of descriptions across games is stable (not seeing divergence) 
+
+Priors for the above similarity models: normal(.5,.2) for intercept, normal(0,.1) for
+beta, and normal(0,.05) for sd.
+
+We will also qualitatively explore children’s turn-taking structure and how they understand each other. 
+
+TODO: the qualitative thing

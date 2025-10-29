@@ -7,6 +7,7 @@ trial,gameId,words,target,distractor
 2,D5CPASpy5Aj3aZNtS,a person in the mountains,swim,jump
 2,SowubDEr7fQNBP6te,magnet,hold,swim
 2,X3KGngsmofwhPuzW2,a birdie that’s flying,swim,jump
+2,XWpuLuSnNumcHxf7w,S,swim,jump
 2,Yrc2wiX7ZxZFS2wX6,human,hold,swim
 2,bcszyeDMyWZqFeMBh,a person,hold,walk
 2,euCvEekqCAQC9sfav,feet that are up and a bite like this and a head,jump,walk
@@ -206,7 +207,7 @@ trial,gameId,words,target,distractor
 12,bcszyeDMyWZqFeMBh,a walking person,walk,jump
 12,euCvEekqCAQC9sfav,"a triangle leg, a rectangle, and a diamond body and a square head",walk,jump
 12,gF7PeenLLsSHsF4CG,a boat,swim,jump
-12,hueqkSoqSjYjcD9En,two feets of a guy with one square tummy and one triangle tummy and one square,swim,jump
+12,hueqkSoqSjYjcD9En,two feet of a guy with one square tummy and one triangle tummy and one square,swim,jump
 12,kduAREQdY39j2SgoC,a server,hold,jump
 12,qL2AxZnRykJWLDA7H,a person,walk,hold
 12,xCqhPo6f65u6PJhy3,somebody jumping,jump,swim

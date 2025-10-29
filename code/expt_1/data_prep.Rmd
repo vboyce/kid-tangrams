@@ -81,17 +81,17 @@ wrangle_transcript <- function(game_num) {
   else{
     if(file.exists(here("data/expt_1/raw_transcripts/exclude", str_c(game_num, ".csv")))){
         #file = read_csv(here("data/expt_1/raw_transcripts/exclude", str_c(game_num, ".csv")))
-         file=tibble(start=NA, end=NA, text=NA, speaker=NA, trial=NA, role=NA, echo=NA, description=NA)
+         file=tibble(start=NA, end=NA, text=NA, speaker=NA, trial=NA, role=NA, echo=NA, description=NA, on_topic=NA)
     }
     else{
-      file=tibble(start=NA, end=NA, text=NA, speaker=NA, trial=NA, role=NA, echo=NA, description=NA)
+      file=tibble(start=NA, end=NA, text=NA, speaker=NA, trial=NA, role=NA, echo=NA, description=NA, on_topic=NA)
     }
   }
   file|>
-    select(start, end, text, speaker, trial, role, echo, description) |>
+    select(start, end, text, speaker, trial, role, echo, description,on_topic) |>
     fill(trial) |> 
     mutate(start = start / 1000, end = end / 1000) |>
-   nest(data = c(start, end, text, speaker, trial, role, echo, description))
+   nest(data = c(start, end, text, speaker, trial, role, echo, description, on_topic))
 
 }
 

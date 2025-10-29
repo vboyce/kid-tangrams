@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	1840	we played the game later.	R					
 1840	4200	Okay, and now it started.	R					
 4200	5500	Alrighty.	R					
@@ -85,16 +85,16 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 218080	220280	Could you tell [id192] what you see right there?	R					
 221840	226840	Where, here, there, here, here, now.	id191		S			
 228480	230240	Like what do you see right there?	R					
-		banana	id191		S		banana	
+		banana	id191		S		banana	Y
 231080	236080	Okay, so that [id192], perfect, and now we're gonna switch.	R	2				
 237360	240200	So now [id192], you're gonna tell [id191]	R					
 240200	242080	what you see inside the black box,	R					
 242080	243080	and you're gonna guess.	R					
 243080	245000	So wait until you hear what [id192] says.	R					
-		the dog	id192		S		a dog	
+		the dog	id192		S		a dog	Y
 247400	250120	Okay, so now, when you have a guess,	R					
 250120	253080	then you can click which one you think it is.	R					
-		a bird	id191		L		a bird	
+		a bird	id191		L		a bird	Y
 253080	255640	Oh, no, okay, so in this game,	R	3				
 255640	258840	we're gonna listen to what the teller is telling,	R					
 258840	262440	and then you guess based on what they tell you, okay?	R					
@@ -104,13 +104,13 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 267160	270840	So, [id191], could you tell [id192] what you see inside the box?	R					
 270840	272440	What do you see in the box?	R					
 273520	275680	Yeah, well, what do you see in the box right now?	id191		S			
-275680	280680	A star, a star	id191		S		a star	
+275680	280680	A star, a star	id191		S		a star	Y
 283560	285880	Nice, okay, you're doing great.	R	4				
 285880	287680	Okay, so now you're gonna be the guesser,	R					
 287680	289480	and you're gonna be the teller.	R					
 289480	291920	So, [id192], could you tell [id191]	R					
 291920	294000	which one you see inside the black box?	R					
-294000	298840	It's a upside down boat, yeah.	id192		S		an upside down boat	
+294000	298840	It's a upside down boat, yeah.	id192		S		an upside down boat	Y
 298840	301160	Okay, so now, [id191], when you have a guess,	R					
 301160	303400	do you wanna click the button you think it is?	R					
 303400	304240	Yeah.	R					
@@ -137,21 +137,21 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 353360	356560	No, like, what do you see right there?	R					
 356560	361560	No, no, like, can you tell [id192] what is in there?	R					
 364400	366000	What's in the black box?	R					
-366320	367160	On the shape.	id191		S			
+366320	367160	On the shape.	id191		S			Y
 368720	369560	Yeah.	R					
-371040	372600	I guess not.	id191		S			
-373640	378560	Not this, not two bars,	id191		S		not two bars	
-378560	383560	then me and Thomas Percy to not to go in the road,	id191		S		then me and Thomas Percy to not to go in the road,	
-385480	390480	then Percy, Thomas will go in the track.	id191		S		then Percy, Thomas will go in the track.	
+371040	372600	I guess not.	id191		S			Y
+373640	378560	Not this, not two bars,	id191		S		not two bars	Y
+378560	383560	then me and Thomas Percy to not to go in the road,	id191		S		then me and Thomas Percy to not to go in the road,	Y
+385480	390480	then Percy, Thomas will go in the track.	id191		S		then Percy, Thomas will go in the track.	Y
 393360	395840	Nice, okay, and now we're gonna switch back.	R	6				
 396120	398280	So, now you're gonna be the guesser,	R					
 398280	399880	here you go, and you're gonna be the teller.	R					
-399880	401360	So, can you tell Tejas what you see	R					
+399880	401360	So, can you tell [id191] what you see	R					
 401360	402520	inside the black box?	R					
-403720	406360	What this one looks like?	id192		S			
+403720	406360	What this one looks like?	id192		S			Y
 406360	407880	Yeah, so could you use your words	R					
-407880	409160	to try to tell Tejas it's perfect?	R					
-409160	410000	Like tracks	id192		S		tracks	
+407880	409160	to try to tell [id191] it's perfect?	R					
+409160	410000	Like tracks	id192		S		tracks	Y
 410000	413000	Oh, oh, so make sure we're waiting until we hear	R	7				
 413000	414440	what [id192] has to say, okay,	R					
 414440	416240	whenever he's the teller, right?	R					
@@ -160,41 +160,41 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 418520	420000	and you're gonna be the guesser,	R					
 420000	421760	and you're gonna be the teller.	R					
 421760	424520	So, now can you tell [id192] what you see inside, there?	R					
-427000	431520	Okay, where can it be?	id191		S			
-431520	435240	This mark is for large to you.	id191		S		this mark is for large to you	
+427000	431520	Okay, where can it be?	id191		S			Y
+431520	435240	This mark is for large to you.	id191		S		this mark is for large to you	Y
 440480	442440	Oh, that's okay though,	R	8				
 442440	444440	we'll have more chances to help Murphy,	R					
 444440	446680	and now you get Murphy, and you're the guesser,	R					
 446680	448760	and you're the teller, and so now make sure you wait	R					
 448760	450240	until you hear what [id192] has to say	R					
 450240	451640	before you top an answer, okay?	R					
-451640	453880	It's like a sausage.	id192		S		a sausage	
-453880	455360	Yeah.	id191		L			
-455360	459120	Okay, so Tejas, when you have a guess,	R					
+451640	453880	It's like a sausage.	id192		S		a sausage	Y
+453880	455360	Yeah.	id191		L			Y
+455360	459120	Okay, so [id191], when you have a guess,	R					
 459120	460960	you wanna click the screen.	R					
 460960	461800	No.	id191		L			
-464280	468800	It is large enough to help,	id191		L		It is large enough to help,	x
-468800	473280	and yes, to walk, and yes, to slay.	id191		L		and yes, to walk, and yes, to slay.	x
+464280	468800	It is large enough to help,	id191		L		It is large enough to help,	Y
+468800	473280	and yes, to walk, and yes, to slay.	id191		L		and yes, to walk, and yes, to slay.	Y
 473280	475120	Well, let's listen to this.	R					
-475120	478720	it’s like this	id192		S			
+475120	478720	it’s like this	id192		S			Y
 478720	481000	Oh, let's use our words to try to say	R					
 481000	482320	instead of using our hands.	R					
-483280	488280	It's like, so, so, so, and it has a,	id192		S		so so so and it has a	
-491760	496360	it has a, yeah, it has a diamond	id192		S		diamond	
-496360	500520	on the very, very beginning, yeah.	id192		S		on the very very beginning	
-500520	502880	Okay, so Tejas, when you have your guess,	R					
+483280	488280	It's like, so, so, so, and it has a,	id192		S		so so so and it has a	Y
+491760	496360	it has a, yeah, it has a diamond	id192		S		diamond	Y
+496360	500520	on the very, very beginning, yeah.	id192		S		on the very very beginning	Y
+500520	502880	Okay, so [id191], when you have your guess,	R					
 502880	505040	do you wanna top the screen?	R					
-505040	506480	This one.	id191		L			
+505040	506480	This one.	id191		L			Y
 506480	507880	So right now you're guessing,	R					
 507880	508720	so since you're guessing,	R					
 508720	510400	then you're just gonna top the screen, okay?	R					
-510400	515400	This one, or will it lead to large to you?	id191		L			
-518640	520480	Well, Tejas, right now you're guessing,	R					
+510400	515400	This one, or will it lead to large to you?	id191		L			Y
+518640	520480	Well, [id191], right now you're guessing,	R					
 520480	522680	so you're just listening to what [id192] says,	R					
 522680	524560	and then you're gonna click the screen, okay?	R					
 524560	525520	So could you click the screen?	R					
 525520	527720	And which one do you think it is?	R					
-527720	529560	A tray.	id191		L			
+527720	529560	A tray.	id191		L			Y
 529560	531400	No, you're gonna click the screen, so touch it.	R					
 531400	534280	Touch which one do you think it is, on here.	R					
 534280	535120	On your screen.	R					
@@ -206,34 +206,34 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 549840	551720	and you're gonna be the teller.	R					
 551720	552680	Yeah.	id191		S			
 552680	553520	Yeah.	R					
-558240	561000	So Tejas, could you say what you see inside the black box?	R					
+558240	561000	So [id191], could you say what you see inside the black box?	R					
 561000	562240	Yeah.	id191		S			
 562240	563080	Yeah.	id191		S			
-564080	565400	Like this?	id191		S			
+564080	565400	Like this?	id191		S			Y
 565400	566240	Mm-hmm.	R					
-570800	572560	Where?	id191		S			
+570800	572560	Where?	id191		S			Y
 572560	575000	Right there, so what do you see inside the black box,	R					
 575000	577240	and could you tell [id192] what you see?	R					
 577240	578200	Yeah.	id191		S			
 578200	579040	Okay.	R					
-580840	585840	This part does not help to help,	id191		S		This part does not help to help,	
-585880	589600	and not this you,	id191		S		and not this you,	
-589600	594600	it does not help the Thomas in large inner track.	id191		S		it does not help the Thomas in large inner track.	
+580840	585840	This part does not help to help,	id191		S		This part does not help to help,	Y
+585880	589600	and not this you,	id191		S		and not this you,	Y
+589600	594600	it does not help the Thomas in large inner track.	id191		S		it does not help the Thomas in large inner track.	Y
 598960	600200	Oh.	R	10				
 600200	602160	Okay, well it was the other one, but that's okay.	R					
 602160	603320	We'll have more chances.	R					
 603320	604720	So now you're gonna be the guesser,	R					
 604720	606040	and you're gonna be the teller.	R					
-606040	608360	So [id192], could you help Tejas and say	R					
+606040	608360	So [id192], could you help [id191] and say	R					
 608360	609880	what you see inside the box?	R					
-609880	611840	It was the same thing.	id192		S			
+609880	611840	It was the same thing.	id192		S			Y
 611840	614680	Yeah, so can you try to use your words	R					
-614680	616520	to tell Tejas what it is?	R					
+614680	616520	to tell [id191] what it is?	R					
 616520	617360	To help them guess.	R					
-617360	619280	So it's like a sausage.	id192		S		a sausage	
-620360	621280	Yeah.	id191		L			
+617360	619280	So it's like a sausage.	id192		S		a sausage	Y
+620360	621280	Yeah.	id191		L			Y
 621280	622120	Okay.	R					
-623720	624840	So Tejas, when you have an answer,	R					
+623720	624840	So [id191], when you have an answer,	R					
 624840	626120	do you wanna click the screen?	R					
 626120	626960	Yeah.	id191		L			
 627960	628800	It is?	id191		L			
@@ -243,20 +243,20 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 636640	639040	Perfect, okay, now we're gonna switch back.	R	11				
 639040	640800	And now you get to be the guesser,	R					
 640800	642880	and you get to be the teller.	R					
-642880	646320	This, the large, and large,	id191		S		the large	
-646320	647160	and the,	id191		S			
-650840	652600	this, you,	id191		S		this you	
-652600	655360	to the, it's like a part,	id191		S			
-655360	656880	this, your,	id191		S			
-656880	658520	and the large, and huge.	id191		S		and the large and huge	
+642880	646320	This, the large, and large,	id191		S		the large	Y
+646320	647160	and the,	id191		S			Y
+650840	652600	this, you,	id191		S		this you	Y
+652600	655360	to the, it's like a part,	id191		S			Y
+655360	656880	this, your,	id191		S			Y
+656880	658520	and the large, and huge.	id191		S		and the large and huge	Y
 663600	664680	Okay, here's the other one,	R	12				
 664680	666200	but we'll have another chance.	R					
 666200	667600	So now you're gonna be the guesser,	R					
 667600	669400	and you're gonna be the teller.	R					
-669400	671400	So it's like a shoe.	id192		S		a shoe	
-672400	675760	So it's like a triangle shoe	id192		S		a triangle shoe	
-675760	680760	that has a ribbon on the very, very top.	id192		S		that has a ribbon on the very very top	
-682640	683480	Yeah.	id191		L			
+669400	671400	So it's like a shoe.	id192		S		a shoe	Y
+672400	675760	So it's like a triangle shoe	id192		S		a triangle shoe	Y
+675760	680760	that has a ribbon on the very, very top.	id192		S		that has a ribbon on the very very top	Y
+682640	683480	Yeah.	id191		L			Y
 683480	685440	Okay, so then when you think you know the answer,	R					
 685440	686280	can you click it?	R					
 688280	690640	Oh, okay, it was the other one, but that's okay.	R	13				
@@ -264,34 +264,34 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 691680	693040	So now we're gonna switch back,	R					
 693040	694040	and you're gonna be the teller,	R					
 694040	695480	and you get to be the guesser.	R					
-696760	699400	So Tejas, could you tell everyone what you see?	R					
-700400	704400	This you, is the part in your iPad	id191		S			
-706760	710520	to, to, to, to part.	id191		S			
-710520	715520	And this part, the rainbow is very pretty.	id191		S		this part the rainbow is very pretty	
+696760	699400	So [id191], could you tell everyone what you see?	R					
+700400	704400	This you, is the part in your iPad	id191		S			Y
+706760	710520	to, to, to, to part.	id191		S			Y
+710520	715520	And this part, the rainbow is very pretty.	id191		S		this part the rainbow is very pretty	Y
 717360	718200	Okay.	R					
 718720	720240	There we go.	R	14				
 720240	722400	Nice.	R					
 722400	724120	Okay, now we're gonna switch back.	R					
 724120	726560	And now your turn to be the guesser,	R					
 726560	728400	and you're turn to be the teller.	R					
-728400	738400	So, it's like, triangle just has a rebound on the very, very, very, very top.	id192		S		 triangle just has a rebound on the very, very, very, very top.	
-739400	744400	Okay. So, Tejas, when you have a guess, do you want to click the screen?	R					
-744400	745400	Yeah. Okay.	id191		L			
-745400	746400	This. This?	id191		L			
+728400	738400	So, it's like, triangle just has a rebound on the very, very, very, very top.	id192		S		 triangle just has a rebound on the very, very, very, very top.	Y
+739400	744400	Okay. So, [id191], when you have a guess, do you want to click the screen?	R					
+744400	745400	Yeah. Okay.	id191		L			Y
+745400	746400	This. This?	id191		L			Y
 746400	748400	Yeah. Whichever one you think it is.	R					
 750400	751400	Oh, no!	id191		L			
 751400	753400	It's okay. We'll have more chances to help Smurphy.	R	15				
 753400	755400	Okay. And now we're going to switch back.	R					
 755400	757400	And you're going to be the teller now. And you're going to be the guesser.	R					
-757400	764400	This large, there Thomas like to crash in the water.	id191		S		This large, there Thomas like to crash in the water.	
-764400	770400	And this is where the person goes to help Thomas.	id191		S		And this is where the person goes to help Thomas.	
-770400	775400	And then the robot's large and huge.	id191		S		And then the robot's large and huge.	
+757400	764400	This large, there Thomas like to crash in the water.	id191		S		This large, there Thomas like to crash in the water.	Y
+764400	770400	And this is where the person goes to help Thomas.	id191		S		And this is where the person goes to help Thomas.	Y
+770400	775400	And then the robot's large and huge.	id191		S		And then the robot's large and huge.	Y
 778400	779400	Okay.	R					
 781400	782400	Oh, okay.	R	16				
 782400	783400	Oh.	R					
 783400	784400	A lot more more chances.	R					
 784400	787400	So, now you're going to be the guesser and you're going to be the teller.	R					
-787400	798400	So, it's like a giraffe has button on the giraffe's back.	id192		S		it’s like a giraffe has button on the giraffe’s back	
+787400	798400	So, it's like a giraffe has button on the giraffe's back.	id192		S		it’s like a giraffe has button on the giraffe’s back	Y
 801400	803400	Whichever one you think it is.	R					
 803400	806400	You just want to have a guess and you can click.	R					
 806400	807400	Yay!	R	17				
@@ -300,12 +300,12 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 810400	813400	And you're going to be the teller now. And you're going to be the guesser.	R					
 813400	814400	You're doing great.	R					
 814400	815400	So, do you want to...	R					
-815400	823400	This huge tool is larger than 45 to the muscles and a larger mic.	id191		S		This huge tool is larger than 45 to the muscles and a larger mic.	
+815400	823400	This huge tool is larger than 45 to the muscles and a larger mic.	id191		S		This huge tool is larger than 45 to the muscles and a larger mic.	Y
 827400	828400	Yay!	R	18				
 828400	829400	Okay.	R					
 829400	832400	Now you're going to be the guesser and you're going to be the teller.	R					
-832400	846400	So, it's like in triangle shoes but the very, very bottom is cut.	id192		S		in triangle shoes but the very very bottom is cut	
-846400	854400	So, but the very, very top has a rebound on the top.	id192		S		but the very very top has a rebound on the top	
+832400	846400	So, it's like in triangle shoes but the very, very bottom is cut.	id192		S		in triangle shoes but the very very bottom is cut	Y
+846400	854400	So, but the very, very top has a rebound on the top.	id192		S		but the very very top has a rebound on the top	Y
 854400	855400	Okay.	R					
 855400	856400	Okay.	R					
 856400	859400	Whichever one you think it is.	R					
@@ -315,17 +315,17 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 862400	863400	Now we're going to switch back.	R					
 863400	865400	And you're going to be the teller.	R					
 865400	867400	You're going to be the guesser.	R					
-867400	869400	This one you...	id191		S		you	
-869400	871400	This one you...	id191		S			
-871400	873400	This one...	id191		S			
-873400	877400	This is you the part and huge like a Thomas.	id191		S		the part and huge like a Thomas	
+867400	869400	This one you...	id191		S		you	Y
+869400	871400	This one you...	id191		S			Y
+871400	873400	This one...	id191		S			Y
+873400	877400	This is you the part and huge like a Thomas.	id191		S		the part and huge like a Thomas	Y
 880400	881400	Nice.	R	20				
 881400	882400	Okay.	R					
 882400	883400	Now we're going to switch back.	R					
 883400	884400	You're going to be the guesser.	R					
 884400	886400	And you're going to be the teller.	R					
-886400	899400	So, it's like a baby giraffe  has a diamond at the very, very top.	id192		S		a baby giraffe has a diamond at the very very top	
-905400	906400	So there?	id191		L			
+886400	899400	So, it's like a baby giraffe  has a diamond at the very, very top.	id192		S		a baby giraffe has a diamond at the very very top	Y
+905400	906400	So there?	id191		L			Y
 908400	911400	Just when you're ready, you can click on which one you think it is.	R					
 911400	913400	Oh, that's okay.	R					
 913400	918400	And that's the end of the game.	R					

@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	2000	How we played the game.	R					
 2000	4000	Um, very cool.	R					
 4000	6000	Have you guys played the iPad before?	R					
@@ -69,7 +69,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 142000	143000	So you get Smurfy.	R					
 143000	146000	There you go.	R					
 146000	149000	So [id208], could you tell [id207] what you see inside the black box?	R					
-149000	150000	an apple	id208		S		an apple	
+149000	150000	an apple	id208		S		an apple	Y
 150000	151000	Okay.	R					
 151000	155000	And then [id207], when you have a guess, then just click the screen.	R					
 155000	157000	Which one do you think it is?	R					
@@ -80,7 +80,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 163000	164000	to be the guesser.	R					
 164000	165000	Okay.	R					
 165000	171000	So [id207], could you tell [id208] what you see inside the box?	R					
-171000	172000	A dog.	id207		S		a dog	
+171000	172000	A dog.	id207		S		a dog	Y
 172000	173000	Perfect.	R					
 173000	174000	Just like that.	R					
 174000	179000	And then, so when you have a guess, then you can just tap the screen.	R					
@@ -89,10 +89,10 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 183000	184000	Perfect.	R					
 184000	185000	Now we're going to switch back.	R	3				
 185000	189000	And so now you're going to be the guesser and you're going to be the teller.	R					
-189000	194000	I don't know what this is though.	id208		S			
+189000	194000	I don't know what this is though.	id208		S			Y
 194000	195000	That's okay.	R					
 195000	199000	Can you describe it to [id207]?	R					
-199000	203000	It's like a circle with pointy things on it.	id208		S		a circle with pointy things on it	
+199000	203000	It's like a circle with pointy things on it.	id208		S		a circle with pointy things on it	Y
 203000	207000	Yeah, it was perfect.	R					
 207000	208000	And, oh, okay.	R	4				
 208000	210000	It was the other one, but that's okay.	R					
@@ -100,18 +100,18 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 212000	213000	All right.	R					
 213000	214000	And now we're going to switch back.	R					
 214000	224000	And now you're going to be the guesser and you're going to be the teller.	R					
-		An x	id207		S		an x	
+		An x	id207		S		an x	Y
 		An x	R			x		
 224000	225000	Nice.	R					
 225000	226000	Okay.	R	5				
 226000	227000	Now we're going to switch back.	R					
 227000	228000	And you're going to be the guesser.	R					
 228000	229000	You're going to be the teller.	R					
-229000	230000	I don't know what this is.	id208		S			
+229000	230000	I don't know what this is.	id208		S			Y
 230000	231000	That's okay.	R					
 231000	232000	Just give it your best shot.	R					
-232000	240000	It's like a triangle with another triangle attached with a square, a triangle, and a	id208		S		a triangle with another triangle attached with a square, a triangle, and 	
-240000	241000	triangle.	id208				a triangle	
+232000	240000	It's like a triangle with another triangle attached with a square, a triangle, and a	id208		S		a triangle with another triangle attached with a square, a triangle, and 	Y
+240000	241000	triangle.	id208		S		a triangle	Y
 241000	242000	Okay.	R					
 242000	243000	Nice.	R	6				
 243000	244000	Just like that.	R					
@@ -119,28 +119,28 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 245000	246000	Now we're going to switch back.	R					
 246000	248000	And now you're going to be the teller.	R					
 248000	250000	You're going to be the guesser.	R					
-251000	254000	I don't know how to describe this.	id207		S			
+251000	254000	I don't know how to describe this.	id207		S			Y
 254000	255000	That's okay.	R					
 255000	257000	Just give it your best shot.	R					
-273000	274000	A square.	id207		S		a square	
-277000	279000	And I don't know what I want.	id207		S			
+273000	274000	A square.	id207		S		a square	Y
+277000	279000	And I don't know what I want.	id207		S			Y
 282000	283000	That's okay.	R					
 283000	285000	[id208], do you want to try asking questions about it?	R					
 285000	286000	About which one?	R					
-286000	293000	Is it like the square one with a triangle part with a diamond on top?	id208		L		the square one with a triangle part with a diamond on top	x
-294000	298000	And then a crawling thing turned in this way?	id208		L		and a crawling thing turned in this way	x
-298000	299000	I don't know.	id207		S			
+286000	293000	Is it like the square one with a triangle part with a diamond on top?	id208		L		the square one with a triangle part with a diamond on top	Y
+294000	298000	And then a crawling thing turned in this way?	id208		L		and a crawling thing turned in this way	Y
+298000	299000	I don't know.	id207		S			Y
 302000	305000	Well, [id208], if you have your best guess, then you just pick the answer that you think it is.	R					
 312000	313000	Nice.	R	7				
 313000	314000	Okay.	R					
 314000	315000	And now we're going to switch back.	R					
 315000	318000	And now you're going to be the guesser and you're going to be the teller.	R					
-319000	321000	I don't know what this is.	id208		S			
+319000	321000	I don't know what this is.	id208		S			Y
 321000	322000	That's okay.	R					
-322000	328000	It's like a L, but it's not an L.	id208		S		like a L, but it’s not an L	
-328000	335000	The L part is bending this way with a triangle and a square.	id208		S		the L part is bending this way with a triangle and a square	
-335000	339000	And then it's holding onto this thing that's sticking up.	id208		S		it’s holding onto this thing that’s sticking up	
-339000	341000	The one thing that's sticking up with a triangle.	id208		S		one thing that’s sticking up with a triangle	
+322000	328000	It's like a L, but it's not an L.	id208		S		like a L, but it’s not an L	Y
+328000	335000	The L part is bending this way with a triangle and a square.	id208		S		the L part is bending this way with a triangle and a square	Y
+335000	339000	And then it's holding onto this thing that's sticking up.	id208		S		it’s holding onto this thing that’s sticking up	Y
+339000	341000	The one thing that's sticking up with a triangle.	id208		S		one thing that’s sticking up with a triangle	Y
 345000	348000	So whenever you have a guess, then you can just click the screen.	R					
 348000	349000	Nice.	R	8				
 349000	350000	Yeah.	R					
@@ -149,97 +149,97 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 352000	353000	And now we're going to switch.	R					
 353000	354000	Now it's your turn to be the teller.	R					
 354000	355000	You're the guesser.	R					
-356000	361000	It's a wish, a square, and I don't know.	id207		S		a wish, a square	
+356000	361000	It's a wish, a square, and I don't know.	id207		S		a wish, a square	Y
 363000	365000	Is there anything else you can say about it?	R					
-365000	366000	It's probably this.	id208		L			x
+365000	366000	It's probably this.	id208		L			Y
 366000	367000	Yes!	R					
 367000	368000	Yeah, that one.	R	9				
 368000	369000	Perfect.	R					
 369000	370000	Okay.	R					
 370000	371000	Now we're going to switch back.	R					
 371000	373000	Now you're the guesser and you're going to be the teller.	R					
-374000	379000	It's the same one we did this time.	id208		S		the same one we did this time	
-379000	387000	It's the triangle and now a triangle attached with a square, a triangle, and a triangle.	id208		S		the triangle and now a triangle attached with a square, a triangle, and a triangle	
+374000	379000	It's the same one we did this time.	id208		S		the same one we did this time	Y
+379000	387000	It's the triangle and now a triangle attached with a square, a triangle, and a triangle.	id208		S		the triangle and now a triangle attached with a square, a triangle, and a triangle	Y
 388000	389000	Okay.	R					
 392000	393000	That's okay.	R	10				
 393000	394000	I have more chances.	R					
 394000	396000	And so now we're going to switch back.	R					
 396000	398000	Now it's your turn to be the teller again.	R					
-398000	401000	It's the same thing as last time.	id207		S		the same thing as last time	
+398000	401000	It's the same thing as last time.	id207		S		the same thing as last time	Y
 401000	402000	Okay.	R					
 404000	407000	Is there anything else you can tell [id208] about it?	R					
 407000	408000	No.	id207		S			
 408000	409000	Okay.	R					
-409000	410000	It's probably this.	id208		L			x
+409000	410000	It's probably this.	id208		L			Y
 410000	411000	Yes!	R					
 412000	413000	Good job.	R	11				
 413000	414000	Now we're going to switch back.	R					
 414000	417000	Now you're going to be the guesser and you're going to be the teller.	R					
-417000	422000	It's like a person with a square on the back.	id208		S		a person with a square on the back	
+417000	422000	It's like a person with a square on the back.	id208		S		a person with a square on the back	Y
 424000	425000	Nice.	R	12				
 425000	426000	Yeah.	R					
 426000	427000	That's great.	R					
 427000	430000	Now you're the guesser and you have the teller.	R					
-433000	435000	It's a square.	id207		S		a square	
-442000	444000	Probably this one.	id208		L			x
+433000	435000	It's a square.	id207		S		a square	Y
+442000	444000	Probably this one.	id208		L			Y
 444000	445000	Good job.	R					
 445000	446000	Okay.	R	13				
 446000	447000	Now we're going to switch back.	R					
 447000	450000	Now you're going to be the guesser and you're going to be the teller.	R					
-450000	454000	It's a person with a square on the back, I think.	id208		S		a person with a square on the back	
-454000	455000	Looks like now.	id208		S			
+450000	454000	It's a person with a square on the back, I think.	id208		S		a person with a square on the back	Y
+454000	455000	Looks like now.	id208		S			Y
 456000	457000	Perfect.	R					
 457000	459000	That was super fast.	R	14				
 459000	462000	And now you're going to be the guesser and you're going to be the teller.	R					
-464000	468000	Oh, that's the same thing as last time.	id207		S		the same thing as last time	
+464000	468000	Oh, that's the same thing as last time.	id207		S		the same thing as last time	Y
 468000	469000	Okay.	R					
 469000	475000	Um, [id208] do you want to ask any questions about it?	R					
 475000	479000	Or, do you have anything else you can say about it for him?	R					
 479000	480000	Okay.	R					
-481000	488000	Is it the one with the triangle and then a triangle connect with a square and the triangle	id208		L		the triangle and then a triangle connected with a square and the triangle	x
-488000	489000	and the triangle?	id208		L			x
-489000	490000	No.	id207		S			x
-490000	491000	That other one.	id207		S		the other one	x
-491000	492000	This?	id208		L			x
+481000	488000	Is it the one with the triangle and then a triangle connect with a square and the triangle	id208		L		the triangle and then a triangle connected with a square and the triangle	Y
+488000	489000	and the triangle?	id208		L			Y
+489000	490000	No.	id207		S			Y
+490000	491000	That other one.	id207		S		the other one	Y
+491000	492000	This?	id208		L			Y
 493000	494000	Yeah.	R					
 494000	495000	That's awesome.	R	15				
 495000	496000	Okay.	R					
 496000	498000	Now you're going to be the guesser and you're going to be the teller.	R					
-498000	506000	Uh, it's the L with the triangle and the triangle and the square.	id208		S		the L with the triangle and the triangle and the square	
+498000	506000	Uh, it's the L with the triangle and the triangle and the square.	id208		S		the L with the triangle and the triangle and the square	Y
 508000	510000	Oh, that's okay.	R	16				
 510000	512000	You're doing great.	R					
 512000	515000	Now we're going to switch back and now you're going to be the guesser and you're going to	R					
 515000	516000	be the teller.	R					
 516000	517000	You got it.	R					
-517000	521000	It's two triangles with a square.	id207		S		two triangles with a square	
+517000	521000	It's two triangles with a square.	id207		S		two triangles with a square	Y
 523000	524000	Nice.	R	17				
 524000	527000	You're the guesser and you're the teller.	R					
-527000	530000	It's the person with the square on the back.	id208		S		the person with the square on the back	
-530000	531000	Please don't.	id208		S			
+527000	530000	It's the person with the square on the back.	id208		S		the person with the square on the back	Y
+530000	531000	Please don't.	id208		S			Y
 531000	533000	We know that one.	R					
 533000	534000	And now we're going to switch.	R	18				
 534000	538000	You're going to be the guesser and you're the teller.	R					
-538000	541000	It's a square.	id207		S		a square	
-541000	543000	What's this?	id207		S			
+538000	541000	It's a square.	id207		S		a square	Y
+541000	543000	What's this?	id207		S			Y
 543000	545000	Oh, well, I can't really help you with it.	R					
 545000	546000	I don't really know what it is either.	R					
 546000	548000	Just gotta give it your best shot.	R					
-548000	550000	Probably this.	id208		L			x
+548000	550000	Probably this.	id208		L			Y
 550000	553000	You can also ask questions about it if you're not sure.	R					
-553000	559000	Uh, is it the one that looks like an L with the triangle and the triangle and the square?	id208		L		an L with the triangle and the triangle and the square	x
-559000	561000	No, the other one.	id207		S		the other one	x
-561000	562000	This?	id208		L			x
-562000	563000	Yeah.	id207		S			x
+553000	559000	Uh, is it the one that looks like an L with the triangle and the triangle and the square?	id208		L		an L with the triangle and the triangle and the square	Y
+559000	561000	No, the other one.	id207		S		the other one	Y
+561000	562000	This?	id208		L			Y
+562000	563000	Yeah.	id207		S			Y
 563000	564000	Nice.	R					
 564000	565000	Okay.	R	19				
 565000	567000	Now you're the guesser and you're the teller.	R					
-567000	574000	It's the L with a square and a triangle and a triangle.	id208		S		the L with a square and a triangle and a triangle	
-574000	577000	I don’t know what it is	id208		S			
+567000	574000	It's the L with a square and a triangle and a triangle.	id208		S		the L with a square and a triangle and a triangle	Y
+574000	577000	I don’t know what it is	id208		S			Y
 577000	579000	Yay.	R	20				
 579000	580000	Awesome.	R					
 580000	582000	Now you're the guesser and you're the teller.	R					
 582000	584000	We're almost there.	R					
-584000	590000	It's a triangle connected to a triangle with a square.	id207		S		a triangle connected to a triangle with a square	
+584000	590000	It's a triangle connected to a triangle with a square.	id207		S		a triangle connected to a triangle with a square	Y
 590000	592000	Boom.	R					
 592000	594000	You're the guesser and you're the teller.	R					
 594000	596000	Oh, that's actually the end of the game.	R					

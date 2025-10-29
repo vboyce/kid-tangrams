@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	6600	I'm just turning the camera on so we can remember how you play the game, okay?	R					
 6600	10200	And then I'll just help. Oh, you got it on your own.	R					
 10200	13920	And let me know if you want to go back to the room at any point, okay?	R					
@@ -35,147 +35,147 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 145000	147240	Alright, which of you sees the black box?	R	1				
 148360	152760	Alright, so you're going to be telling and you're going to be guessing. You can hold Smurphy.	R					
 154360	156360	What do you see [id234]?	R					
-		um, banana	id234		S		banana	
+		um, banana	id234		S		banana	Y
 161640	163760	So click it when you think you know what it is.	R					
 166160	169040	Awesome, and now we're going to pass Smurphy back to [id234].	R	2				
 174720	176720	So, did you hear what he said?	R					
 178000	180000	Do you want to say it again, [id233]?	R					
 181440	183440	What's in the black box this time?	R					
-		bird	id233		S		bird	
+		bird	id233		S		bird	Y
 185600	187600	Do you want to tap what you think it is?	R					
 189520	191520	Try it again.	R					
 192240	194240	Yeah, there you go.	R	3				
 		it’s a funny game	id234		S			
 195120	201380	Now it's a fun game, now it's your turn to tell him, [id234]. What do you see in the black box?	R					
-		a candle	id234		S		a candle	
+		a candle	id234		S		a candle	Y
 209520	214320	Do you want to, do you think you know what it is [id233] or do you want to ask him for more words?	R					
-		I’ll ask him for a few more	id233		L			
-		[incomprehensible]	id234		S			
-225600	227600	What is it?	id233		L			
+		I’ll ask him for a few more	id233		L			Y
+		[incomprehensible]	id234		S			Y
+225600	227600	What is it?	id233		L			Y
 228000	233360	You can help him out by helping to describe it, [id233], if you want. Do you want to ask any questions?	R					
-234560	236560	What is it?	id233		L			
-237520	238800	I don't know.	id234		S			
+234560	236560	What is it?	id233		L			Y
+237520	238800	I don't know.	id234		S			Y
 238800	241920	You don't know? Why don't you just take your best guess, [id233]?	R					
 246000	248000	It's okay if you get it wrong.	R					
 248960	250960	You got it.	R	4				
 251280	254800	All right, now it's your turn to describe, [id233]. What do you see?	R					
-		a king’s hat	id233		S		a king’s hat	
-		a king’s hat	id234		L		a king’s hat	x
+		a king’s hat	id233		S		a king’s hat	Y
+		a king’s hat	id234		L		a king’s hat	Y
 262960	264960	Great job.	R	5				
 		does it do it on mine or his?	id233		L			
 266640	270480	Um, that time he guessed, and now it's your turn to describe [id234].	R					
 272880	274880	Yeah, what do you see in the black box?	R					
-278320	282320	person	id234		S		person	
+278320	282320	person	id234		S		person	Y
 283440	286480	Do you want to ask him questions, [id233], to help figure out which one it is?	R					
-286800	288800	Oh, person.	id233		L			
+286800	288800	Oh, person.	id233		L			Y
 290160	293600	Uh, all right, that's okay. You still have more chances.	R	6				
 295120	297120	What do you see, [id233]?	R					
-301360	303360	Him, See, I don't know what that is.	id233		S			
+301360	303360	Him, See, I don't know what that is.	id233		S			Y
 								
 303360	305360	Let me press it.	id234		L			
 306160	311280	So, when you think you know what it is, you can press it, but you can ask [id233] questions, too, if you're not sure.	R					
-311760	313760	I’m not sure. 	id234		L			
+311760	313760	I’m not sure. 	id234		L			Y
 314080	316080	Do you want to help him out a little more?	R					
-316320	318320	Yeah, I don't know.	id233		S			
-318880	320880	I don't know what this is in the black box.	id233		S			
+316320	318320	Yeah, I don't know.	id233		S			Y
+318880	320880	I don't know what this is in the black box.	id233		S			Y
 321280	326320	Yeah. Is there any way you might be able to help [id234] know what it is?	R					
-327920	329920	Then I feel like that is.	id233		S			
+327920	329920	Then I feel like that is.	id233		S			Y
 330320	332320	With your words?	R					
 332320	334320	Yes.	id233		S			
 335440	337440	Anything it looks like?	R					
-		it looks like a ..	id233		S			
-		a what?	id234		L			
-		it looks like a chair	id233		S		a chair	
-		a chair?	id234		L			
+		it looks like a ..	id233		S			Y
+		a what?	id234		L			Y
+		it looks like a chair	id233		S		a chair	Y
+		a chair?	id234		L			Y
 350000	352000	You can press it if you think you know which one it is.	R					
 354240	356240	Great job.	R	7				
-		it was a chair	id233		L			
-356240	358240	Yeah, it is a chair.	id234		S			
+		it was a chair	id233		L			Y
+356240	358240	Yeah, it is a chair.	id234		S			Y
 358240	360240	Now it's your turn to describe [id234].	R					
-365840	367840	Umm, this one, … A human.	id234		S		a human	
+365840	367840	Umm, this one, … A human.	id234		S		a human	Y
 371600	372400	Awesome.	R	8				
-372400	374400	Yeah, a human.	id234		L			
+372400	374400	Yeah, a human.	id234		L			Y
 374480	376480	Now it's your turn, [id233].	R					
-		a ramp. A ramp. 	id233		S		a ramp	
+		a ramp. A ramp. 	id233		S		a ramp	Y
 387520	389520	Do you want to ask him a question, [id234]?	R					
-390640	393520	What does it look like? I'm going to press this or this.	id234		L			
+390640	393520	What does it look like? I'm going to press this or this.	id234		L			Y
 396320	398320	Do you want to help him out with another description, [id233]?	R					
-399120	401120	I don't know what it is.	id233		S			
+399120	401120	I don't know what it is.	id233		S			Y
 401120	403120	Anything it looks like?	R					
-410000	412000	Paper.	id233		S		paper	
-412000	414000	Paper? Press it.	id234		L			
+410000	412000	Paper.	id233		S		paper	Y
+412000	414000	Paper? Press it.	id234		L			Y
 417120	421280	You can ask him a clarification question if you want, but you could also just guess.	R					
-421280	423280	Um, ramp.	id233		S			
-423280	425280	Ramp?	id234		L			
-425280	427280	Ramp?	id233		S			
+421280	423280	Um, ramp.	id233		S			Y
+423280	425280	Ramp?	id234		L			Y
+425280	427280	Ramp?	id233		S			Y
 427280	429280	Why does it not?	id233		S			
 429280	431280	He has to guess. You could just guess, [id234].	R					
-431280	433280	Um, this one?	id234		L			
+431280	433280	Um, this one?	id234		L			Y
 433280	437280	You could, I can't say it, but you could just think which of every one you think it is.	R					
 437280	439280	Yeah!	id234	9	S			
 439280	441280	What did I think?	id233		L			
 441280	443280	Um, you said what you said.	R					
 443280	445280	Your turn, [id234].	R					
-445280	447280	Um, this one.	id234		S			
-447280	449280	It was a ramp.	id233		L			
-449280	451280	This one.	id234		S			
+445280	447280	Um, this one.	id234		S			Y
+447280	449280	It was a ramp.	id233		L			Y
+449280	451280	This one.	id234		S			Y
 451280	453280	What does it look like?	R					
-453280	455280	It looks like a ramp.	id234		S		a ramp	
+453280	455280	It looks like a ramp.	id234		S		a ramp	Y
 455280	457280	Help describe it to [id233].	R					
 457280	459280	Turn off the iPad. I can't see it.	R					
 461280	463280	I think we're going to keep the volume the same.	R					
 467280	469280	What do you see, [id234]?	R					
-469280	471280	A human.	id234		S		a human	
+469280	471280	A human.	id234		S		a human	Y
 475280	477280	Yeah!	R	10				
 479280	481280	What do you see, [id233], in the black box?	R					
-481280	483280	Ramp.	id233		S		ramp	
+481280	483280	Ramp.	id233		S		ramp	Y
 485280	487280	Did you hear what he said, [id234]?	R					
-487280	489280	Yeah, a lamp.	id234		L		a lamp	x
-489280	491280	Ramp.	id233		S			
-491280	493280	Yeah, I hear it.	id234		L			x
+487280	489280	Yeah, a lamp.	id234		L		a lamp	Y
+489280	491280	Ramp.	id233		S			Y
+491280	493280	Yeah, I hear it.	id234		L			Y
 493280	495280	Do you want to guess?	R					
-495280	497280	Ramp.	id233		S			
+495280	497280	Ramp.	id233		S			Y
 497280	499280	You just guess when you think you know what it is.	R					
 499280	501280	Yeah!	R	11				
 501280	503280	Awesome!	R					
 503280	505280	Oh, you already guessed.	R	12				
 505280	507280	Next time until he gives you a description.	R					
 507280	509280	Um, now it's your turn to describe again, [id233].	R					
-513280	515280	Person.	id233		S		person	
+513280	515280	Person.	id233		S		person	Y
 515280	517280	Did you hear what he said, [id234]?	R					
 517280	519280	Yeah.	id234		L			
 519280	521280	Do you want to guess? There's just a few more.	R					
-523280	525280	Person.	id233		S			
+523280	525280	Person.	id233		S			Y
 525280	527280	Great.	R	13				
-527280	529280	Person?	id233		L			
+527280	529280	Person?	id233		L			Y
 529280	531280	Now it's your turn, [id234]. What do you see?	R					
 537280	539280	You have to describe it to him with your words.	R					
-539280	541280	Uh...	id234		S			
-541280	543280	What?	id234		S			
+539280	541280	Uh...	id234		S			Y
+541280	543280	What?	id234		S			Y
 543280	545280	What do you see in the black box?	R					
-545280	547280	A lamp.	id234		S		a lamp	
+545280	547280	A lamp.	id234		S		a lamp	Y
 547280	549280	I guess [id233] already guessed.	R	14				
 549280	551280	Okay, now what do you see, [id233], in the black box?	R					
-551280	553280	A human.	id233		S		a human	
-553280	555280	A human.	id234		L			
+551280	553280	A human.	id233		S		a human	Y
+553280	555280	A human.	id234		L			Y
 557280	559280	Do you think you know what it is, [id234]?	R					
-559280	561280	Yes, a human.	id234		L			
+559280	561280	Yes, a human.	id234		L			Y
 561280	563280	Awesome!	R	15				
-563280	565280	A human. That was human.	id234		S			
+563280	565280	A human. That was human.	id234		S			Y
 565280	567280	Now it's your turn.	R					
 567280	569280	What do you see in the black box?	R					
-573280	575280	Um...	id234		S			
-575280	577280	A lamp.	id234		S		a lamp	
-577280	579280	A lamp.	id234		S			
+573280	575280	Um...	id234		S			Y
+575280	577280	A lamp.	id234		S		a lamp	Y
+577280	579280	A lamp.	id234		S			Y
 579280	581280	Yay!	R	16				
 581280	583280	Awesome.	R					
-583280	585280	That was a lamp.	id234		L			
+583280	585280	That was a lamp.	id234		L			Y
 585280	587280	Now what do you see, [id233]?	R					
-587280	589280	A human.	id233		S		human	
-589280	591280	A human. Guess.	id234		L			
+587280	589280	A human.	id233		S		human	Y
+589280	591280	A human. Guess.	id234		L			Y
 591280	593280	Guess, [id234]? You want to guess?	R					
-593280	595280	A human.	id234		L			
-595280	597280	A human.	id234		L			
+593280	595280	A human.	id234		L			Y
+595280	597280	A human.	id234		L			Y
 597280	599280	Great.	R	17				
 599280	601280	Oh, shoot.	R					
 601280	603280	Um...	R					

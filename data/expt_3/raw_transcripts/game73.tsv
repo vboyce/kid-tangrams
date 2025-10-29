@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	6000	Alright, and then let me know if you want to go back to the classroom at any point, okay?	R					
 6000	9000	Okay, why is the camera not flashing?	id231					
 9000	12000	It is flashing, it's just flashing in the back.	R					
@@ -47,56 +47,56 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 159000	164000	So you're the teller, and you're going to help Smurphy guess.	R					
 164000	165000	So what do you see?	R					
 165000	169000	Which one is in the black box?	R					
-		banana	id232		S		banana	
+		banana	id232		S		banana	Y
 169000	174000	And then you can press whichever one you think that is.	R					
 174000	177000	Yeah, and now we pass Smurphy.	R					
 177000	179000	And now it's your turn.	R	2				
 179000	180000	What do you see?	R					
-180000	182000	A dog.	id231		S		a dog	
-182000	183000	Me too.	id232		L			
+180000	182000	A dog.	id231		S		a dog	Y
+182000	183000	Me too.	id232		L			Y
 183000	188000	So you can press the one that you think he's describing.	R					
-188000	190000	Dog.	id232		L			
-		Dog.	id231		S			
+188000	190000	Dog.	id232		L			Y
+		Dog.	id231		S			Y
 190000	195000	There you go.	R					
 195000	197000	All right, what do you see?	R	3				
-197000	199000	Sun.	id232		S		sun	
-199000	201000	Sun.	id232		S			
-201000	202000	What?	id231		L			
-202000	203000	Sun.	id232		S			
-203000	204000	Sun?	id231		L			
-204000	206000	Sun in a box.	id232		S			
-206000	212000	Sun in a box.	id232		S			
+197000	199000	Sun.	id232		S		sun	Y
+199000	201000	Sun.	id232		S			Y
+201000	202000	What?	id231		L			Y
+202000	203000	Sun.	id232		S			Y
+203000	204000	Sun?	id231		L			Y
+204000	206000	Sun in a box.	id232		S			Y
+206000	212000	Sun in a box.	id232		S			Y
 212000	215000	Do you want to ask any questions, [id231], or do you think you know which one it is?	R					
-215000	216000	This one.	id231		L			
+215000	216000	This one.	id231		L			Y
 216000	218000	Then you can just press it.	R					
 218000	221000	Awesome.	R	4				
 221000	222000	Now it's your turn, [id231].	R					
 222000	223000	What do you see?	R					
-223000	230000	A square half triangle in a box.	id231		S		a square half triangle 	
+223000	230000	A square half triangle in a box.	id231		S		a square half triangle 	Y
 230000	232000	Which one do you think it is, [id232]?	R					
-232000	234000	Not the...	id231		S			
+232000	234000	Not the...	id231		S			Y
 234000	236000	Oh, you got it.	R					
 236000	239000	Yeah.	R	5				
 239000	242000	All right, what do you see, [id232]?	R					
-242000	245000	Garbage in a box.	id232		S		garbage 	
-245000	247000	Which one is it?	id231		L			
-247000	248000	This one?	id231		L			
-248000	249000	On your left?	id231		L			
+242000	245000	Garbage in a box.	id232		S		garbage 	Y
+245000	247000	Which one is it?	id231		L			Y
+247000	248000	This one?	id231		L			Y
+248000	249000	On your left?	id231		L			Y
 249000	252000	They're going to be on different sides, but you can ask him questions.	R					
-252000	253000	This one?	id231		L			
-253000	258000	This one.	id231		L			
+252000	253000	This one?	id231		L			Y
+253000	258000	This one.	id231		L			Y
 258000	261000	So you have to use your words to describe, but that's okay.	R	6				
 261000	263000	We have more chances.	R					
 263000	264000	Who?	id232		L			
 264000	266000	What do you see, [id231]?	R					
-266000	268000	I saw this side.	id231		S			
+266000	268000	I saw this side.	id231		S			Y
 268000	274000	So it's not going to be on the same side, but what does it look like?	R					
-274000	276000	It looks...	id231		S			
+274000	276000	It looks...	id231		S			Y
 276000	279000	Oh, okay.	R	7				
 279000	282000	What do you see, [id232]?	R					
 282000	285000	What does it look like?	R					
-285000	287000	A bunny?	id232		S		a bunny	
-287000	291000	Yeah.	id232		S			
+285000	287000	A bunny?	id232		S		a bunny	Y
+287000	291000	Yeah.	id232		S			Y
 291000	295000	Yeah, great job.	R	8				
 295000	297000	All right, what do you see, [id231]?	R					
 297000	299000	Is there a yeti on your shirt?	id231		S			
@@ -104,48 +104,48 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 300000	302000	You can wait for him to guess.	R	9				
 302000	304000	What is a yeti?	id232		S			
 304000	305000	What do you now see, [id232]?	R					
-305000	306000	It looks like a big foot.	id231		L			
+305000	306000	It looks like a big foot.	id231		L			Y
 306000	307000	In the box.	R					
 307000	309000	What do you see in the box?	R					
-309000	313000	Yeti.	id232		S		yeti	
-313000	315000	There's no yeti.	id231		L			x
+309000	313000	Yeti.	id232		S		yeti	Y
+313000	315000	There's no yeti.	id231		L			Y
 315000	317000	We can't turn around the picture.	R					
 317000	319000	Do you want to ask any questions, [id231]?	R					
-319000	321000	I want to see it.	id232		S			
+319000	321000	I want to see it.	id232		S			Y
 321000	322000	We can't see it.	R					
 322000	324000	We have to use our words for this game.	R					
-324000	330000	Is it the thing that looks like a banana that's like...	id231		L		a banana	x
+324000	330000	Is it the thing that looks like a banana that's like...	id231		L		a banana	Y
 330000	336000	We can't use our hands, but do you want to describe it using any more words?	R					
 336000	337000	[id232]?	R					
 337000	338000	No.	id232		S			
 338000	339000	No?	R					
-339000	343000	This is the thing that looks like a banana and how...	id231		L			x
+339000	343000	This is the thing that looks like a banana and how...	id231		L			Y
 343000	344000	Look.	id232		S			
-344000	349000	But it's not...	id232		S			
-349000	351000	Which one are you pushing, [id232]?	id231		L			
+344000	349000	But it's not...	id232		S			Y
+349000	351000	Which one are you pushing, [id232]?	id231		L			Y
 351000	356000	You can just take your best guess if you think you know what it is.	R					
 356000	358000	It's okay if you get it wrong.	R					
-358000	360000	I'll push both.	id231		L			
+358000	360000	I'll push both.	id231		L			Y
 360000	365000	You can only push one, but...	R					
-365000	368000	I did it.	id231		L			
+365000	368000	I did it.	id231		L			Y
 368000	369000	All right.	R					
 369000	371000	What do you see, [id231]?	R	10				
 371000	373000	Oh.	R					
 373000	377000	You can wait to guess, so you can have a better chance of getting it right.	R	11				
-377000	381000	It's a...	id231		L			
-381000	386000	This one looks like a bird with a little flag on its back walking.	id231		L		a bird with a little flag on its back walking	x
+377000	381000	It's a...	id231		L			Y
+381000	386000	This one looks like a bird with a little flag on its back walking.	id231		L		a bird with a little flag on its back walking	Y
 386000	389000	Which one is it, [id232]?	R					
 389000	391000	Do you want to use your words to tell?	R					
-391000	393000	This one.	id232		S		this one	
+391000	393000	This one.	id232		S		this one	Y
 393000	397000	You can't look, but what does it look like to you, [id232]?	R					
-397000	398000	This plus one.	id231		L			
+397000	398000	This plus one.	id231		L			Y
 398000	399000	It's...	R					
 399000	404000	[id232], do you want to try and help him figure out which one is inside the black box?	R					
-404000	405000	This one.	id232		S			
+404000	405000	This one.	id232		S			Y
 405000	407000	And what does it look like?	R					
-407000	417000	A flag that has what he said about...	id232		S		a flag that has what he said about	
+407000	417000	A flag that has what he said about...	id232		S		a flag that has what he said about	Y
 417000	420000	Do you want to ask him a question, [id231], about which one it is?	R					
-420000	421000	I don't know.	id231		L			
+420000	421000	I don't know.	id231		L			Y
 421000	422000	You don't know?	R					
 423000	424000	Yeah, okay.	R					
 424000	427000	Why don't we just press one, then, and we can move on?	R					
@@ -159,16 +159,16 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 448000	449000	Okay.	R					
 449000	451000	What do you see, [id232]?	R					
 452000	456000	What does it look like?	R					
-456000	457000	This.	id232		S			
+456000	457000	This.	id232		S			Y
 459000	464000	Like, how might [id231] differentiate it from the other one?	R					
 466000	469000	Do you want to ask him a question about which one it is, [id231]?	R					
-469000	470000	I don't know.	id231		L			
-470000	477000	And the one that looks like a pterodactyl, with a flag on it back again.	id231		L		a pterodactyl with a flag on its back	x
-479000	480000	Press it.	id232		S			x
+469000	470000	I don't know.	id231		L			Y
+470000	477000	And the one that looks like a pterodactyl, with a flag on it back again.	id231		L		a pterodactyl with a flag on its back	Y
+479000	480000	Press it.	id232		S			Y
 480000	482000	You want to help him out, though, [id232]?	R					
 482000	485000	Tell him which one it might be inside the black box.	R					
 487000	489000	What does it look like?	R					
-494000	495000	a pterodactyl with a flag on its back 	id232		S		a pterodactyl with a flag on its back	
+494000	495000	a pterodactyl with a flag on its back 	id232		S		a pterodactyl with a flag on its back	Y
 495000	496000	Why don't you take a guess, [id231]?	R					
 496000	498000	You have to press with your fingers.	R					
 498000	499000	Yeah.	R					
@@ -176,8 +176,8 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 507000	509000	Now it's your turn to describe, [id231].	R					
 511000	514000	Let's try and guess based on what he says, [id232].	R					
 514000	516000	What do you see, [id231]?	R					
-516000	521000	It looks like a pterodactyl with a flag on it back again.	id231		S		a pterodactyl with a flag on its back	
-525000	526000	Is it white?	id232		L			x
+516000	521000	It looks like a pterodactyl with a flag on it back again.	id231		S		a pterodactyl with a flag on its back	Y
+525000	526000	Is it white?	id232		L			Y
 526000	528000	You press it when you think you know what it is.	R					
 528000	529000	Yeah.	R					
 529000	530000	Press it, [id231].	id232		L			
@@ -190,15 +190,15 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 539000	541000	All right.	R					
 541000	543000	Now what does it look like, [id232]?	R					
 546000	549000	Can you use your words to say what it is?	R					
-549000	552000	Does it look like Peter Rabbit?	id231		L		peter rabbit	
-552000	553000	Yeah.	id232		S			x
+549000	552000	Does it look like Peter Rabbit?	id231		L		peter rabbit	Y
+552000	553000	Yeah.	id232		S			Y
 553000	554000	Okay.	R					
-554000	555000	Press it.	id232		S			
+554000	555000	Press it.	id232		S			Y
 556000	557000	Great job.	R					
 558000	561000	What does it look like, [id231]?	R	16				
 561000	563000	And you can wait to press, [id232].	R					
-563000	568000	It looks like a bird walking with a flag on its back.	id231		S		a bird walking with a flag on its back	
-568000	570000	Let's see.	id232		L			
+563000	568000	It looks like a bird walking with a flag on its back.	id231		S		a bird walking with a flag on its back	Y
+568000	570000	Let's see.	id232		L			Y
 570000	571000	Press it.	id232		L			
 571000	574000	Oh, you press it when you think you know what it is, [id232].	R					
 575000	577000	You go like this.	R					
@@ -211,50 +211,50 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 597000	598000	Great job.	R	17				
 599000	600000	All right.	R					
 600000	602000	Now what do you see, [id232]?	R					
-603000	605000	Trash in a box.	id232		S		trash	
-607000	609000	Trash in a box.	id232		S			
-612000	613000	A bird?	id231		L		a bird	
-613000	614000	No.	id232		S			x
-614000	615000	Trash in a box.	id232		S			
-615000	616000	Like a banana?	id231		L		a banana	x
-616000	618000	Yeah, in a box.	id232		S			
-619000	621000	It looks like trash.	id232		S			
+603000	605000	Trash in a box.	id232		S		trash	Y
+607000	609000	Trash in a box.	id232		S			Y
+612000	613000	A bird?	id231		L		a bird	Y
+613000	614000	No.	id232		S			Y
+614000	615000	Trash in a box.	id232		S			Y
+615000	616000	Like a banana?	id231		L		a banana	Y
+616000	618000	Yeah, in a box.	id232		S			Y
+619000	621000	It looks like trash.	id232		S			Y
 625000	626000	That's okay.	R	18				
 626000	628000	Why are there two cameras?	id232		L			
 628000	630000	We're not only using one of the cameras.	R					
 630000	632000	So that one's just, it's just there.	R					
 632000	634000	[id231], what do you see in the box?	R					
-636000	638000	Peter Rabbit.	id231		S		peter rabbit	
-639000	640000	I can't see.	id232		L			
+636000	638000	Peter Rabbit.	id231		S		peter rabbit	Y
+639000	640000	I can't see.	id232		L			Y
 640000	641000	Do you think you know which one it is?	R					
 641000	644000	I can't see anything in the box.	R					
 644000	647000	I know because you're trying to guess which one is in the box.	R					
-649000	651000	I see Peter Rabbit.	id231		S			
+649000	651000	I see Peter Rabbit.	id231		S			Y
 652000	653000	Great job.	R	19				
 654000	656000	All right, let's pass Murphy back.	R					
 657000	659000	And now what do you see in the box?	R					
 663000	665000	Do you want to help him out, [id231]?	R					
 666000	668000	And see, ask him a question.	R					
 671000	673000	What do you see on your screen, [id231]?	R					
-674000	677000	A pterodactyl with a flag or a banana.	id231		L		a pterodactyl with a flag or a banana	x
-677000	678000	I caught it.	id232		S			
-678000	679000	But I'm not off.	id232		S			
+674000	677000	A pterodactyl with a flag or a banana.	id231		L		a pterodactyl with a flag or a banana	Y
+677000	678000	I caught it.	id232		S			Y
+678000	679000	But I'm not off.	id232		S			Y
 679000	682000	And which one is in the black box?	R					
-683000	684000	Press it oak	id232		S			
-685000	686000	Which one?	id231		L			
+683000	684000	Press it [id231]	id232		S			Y
+685000	686000	Which one?	id231		L			Y
 688000	690000	You want to give him a few words to help him out?	R					
-690000	691000	This one.	id232		S			
-691000	693000	I can't, I can't see.	id231		L			
+690000	691000	This one.	id232		S			Y
+691000	693000	I can't, I can't see.	id231		L			Y
 696000	698000	You want to ask him one more question, [id231]?	R					
 698000	699000	And then we can just press it.	R					
-699000	701000	What does it look like?	id231		L			
+699000	701000	What does it look like?	id231		L			Y
 704000	706000	Let's just take our best guess, [id231].	R					
 706000	707000	You can just press one of them.	R					
 707000	708000	It's okay.	R					
 710000	711000	Too close.	id232		S			
 718000	720000	All right, which one is it?	R	20				
-720000	724000	A bird with a flag on its back marching.	id231		S		a bird with a flag on its back marching	
-725000	727000	But what are you trying to guess?	id232					
+720000	724000	A bird with a flag on its back marching.	id231		S		a bird with a flag on its back marching	Y
+725000	727000	But what are you trying to guess?	id232		L			
 728000	730000	You're trying to guess what he just said.	R					
 730000	732000	So do you want to press the one that looks like that?	R					
 733000	734000	You think it's that one?	R					

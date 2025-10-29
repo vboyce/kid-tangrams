@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	2000	Recording!	R					
 2000	3000	I can see you!	id204					
 3000	4000	You can see me!	R					
@@ -90,109 +90,109 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 167000	168000	You have the black box.	R					
 168000	171000	Okay, [id204], you're going to be guessing.	R					
 171000	174000	And, [id203], can you tell [id204] what you see?	R					
-174000	178000	I see a banana inside the box.	id203		S		a banana	
-178000	180000	Now, which one?	id204		L			
+174000	178000	I see a banana inside the box.	id203		S		a banana	Y
+178000	180000	Now, which one?	id204		L			Y
 183000	188000	And now, guess what [id203] told you is inside the box.	R					
 188000	192000	So, can you tap the screen and guess the picture?	R					
 192000	195000	[id203], can you tell [id204] what you see?	R					
-195000	199000	I see a banana in the black box.	id203		S			
-199000	201000	So, I press the banana.	id204		L			
+195000	199000	I see a banana in the black box.	id203		S			Y
+199000	201000	So, I press the banana.	id204		L			Y
 203000	205000	Yay!	R	2				
 205000	207000	And now, we're going to pass Murphy,	R					
 207000	209000	because it's [id203]'s turn to guess.	R					
 209000	211000	Okay.	R					
 212000	214000	Squeeze.	R					
 214000	218000	And [id204], can you tell [id203] what you see inside the black box?	R					
-218000	220000	A dog	id204		S		a dog	
+218000	220000	A dog	id204		S		a dog	Y
 226000	231000	[id203], can you try and guess the picture?	R					
 231000	233000	Uh-huh.	R					
 233000	238000	So, he's going to tap on his screen the picture you tell him.	R					
-238000	242000	Um, I found...	id203		L			
+238000	242000	Um, I found...	id203		L			Y
 243000	246000	[id204], can you say again what you see?	R					
-246000	248000	A dog.	id204		S			
-248000	250000	A dog?	id203		L			
-250000	252000	I don't remember.	id203		L			
+246000	248000	A dog.	id204		S			Y
+248000	250000	A dog?	id203		L			Y
+250000	252000	I don't remember.	id203		L			Y
 252000	256000	Yeah, which one looks like what [id204] just told you?	R					
-256000	258000	A dog.	id203		L		a dog	
+256000	258000	A dog.	id203		L		a dog	Y
 258000	262000	And what picture looks like what [id204] just told you?	R					
-262000	264000	A bird.	id203		L		a bird	
+262000	264000	A bird.	id203		L		a bird	Y
 264000	266000	Can you tap the screen?	R					
-266000	268000	A bird.	id203		L		a bird	
-268000	270000	A bird or a dog?	id203		L		a bird or a dog	
+266000	268000	A bird.	id203		L		a bird	Y
+268000	270000	A bird or a dog?	id203		L		a bird or a dog	Y
 270000	272000	What did [id204] tell you?	R					
-272000	274000	A dog.	id203		L		a dog 	
-280000	282000	A dog.	id203		L		a dog	
+272000	274000	A dog.	id203		L		a dog 	Y
+280000	282000	A dog.	id203		L		a dog	Y
 282000	284000	Yay!	R	3				
 284000	286000	And now, we pass Murphy to [id204],	R					
 286000	288000	and [id204]'s going to be guessing.	R					
 288000	290000	And [id203], you're going to be telling me.	R					
-290000	292000	But what are these?	id204		L			
-292000	294000	I don't know what they are.	id204		L			
+290000	292000	But what are these?	id204		L			Y
+292000	294000	I don't know what they are.	id204		L			Y
 294000	298000	[id203], can you tell [id204] what you see inside the black box?	R					
-298000	302000	A circle with pointy things.	id203		S		a circle with pointy things	
-302000	304000	Oh, I think I get it.	id204		L			
+298000	302000	A circle with pointy things.	id203		S		a circle with pointy things	Y
+302000	304000	Oh, I think I get it.	id204		L			Y
 304000	306000	Yes.	R					
 306000	308000	Yay!	R	4				
 308000	310000	Now, we pass Murphy again,	R					
 310000	314000	and [id204], can you tell [id203] what you see inside the black box?	R					
-314000	320000	Like a triangle and then a square dot.	id204		S		a triangle and then a square dot	
-320000	322000	I see a triangle too in mine.	id203		L			
+314000	320000	Like a triangle and then a square dot.	id204		S		a triangle and then a square dot	Y
+320000	322000	I see a triangle too in mine.	id203		L			Y
 322000	328000	Can you tap the screen when that looks like what [id204] told you?	R					
 328000	330000	Oh, no.	R	5				
 330000	332000	That's okay.	id204		L			
 332000	334000	We can try again.	id204		L			
 334000	336000	Good job, [id204].	R					
 336000	338000	And now, we pass Murphy.	R					
-338000	340000	Oh, this one's going to be hard	id204		L			
+338000	340000	Oh, this one's going to be hard	id204		L			Y
 340000	344000	And [id203], can you tell [id204] what you see inside the black box?	R					
-344000	346000	A shoe.	id203		S		a shoe	
-346000	350000	But what's in the bag?	id204		L			x
-350000	352000	I don't know what these are.	id204		L			x
+344000	346000	A shoe.	id203		S		a shoe	Y
+346000	350000	But what's in the bag?	id204		L			Y
+350000	352000	I don't know what these are.	id204		L			Y
 352000	354000	Do you want to ask [id203] a question?	R					
-354000	356000	[id203], what are these?	id204		L			x
-356000	358000	What? Show me.	id203		S			
+354000	356000	[id203], what are these?	id204		L			Y
+356000	358000	What? Show me.	id203		S			Y
 358000	362000	Friends, so we're going to keep our iPads to ourselves.	R					
 362000	366000	So we're going to look at our own iPads, okay?	R					
 366000	368000	Yes, brother.	id204		L			
 368000	370000	But I can come over on the other side of it.	id203		S			
 370000	372000	No, we're only going to look at our own iPads.	R					
-372000	374000	Yes, but I don't know what these are.	id204		L			x
+372000	374000	Yes, but I don't know what these are.	id204		L			Y
 374000	376000	Yeah, let's see.	R					
 376000	380000	[id203], can you say something else to help [id204]?	R					
 380000	382000	Another hint?	R					
-382000	386000	Maybe press another different button.	id203		S			
+382000	386000	Maybe press another different button.	id203		S			Y
 386000	390000	Or do you want to try your best guess, [id204]?	R					
 390000	396000	Which one looks to what [id203] told you?	R					
 396000	398000	Yay!	R	6				
 398000	400000	Okay, now we pass Murphy again.	R					
 400000	404000	And [id204], it's your turn to tell and [id203], your turn to guess.	R					
-404000	410000	Okay, so like a bottle that has a triangle there and a triangle on top.	id204		S		 a bottle that has a triangle there and a triangle on top.	
+404000	410000	Okay, so like a bottle that has a triangle there and a triangle on top.	id204		S		 a bottle that has a triangle there and a triangle on top.	Y
 410000	412000	I ripped it off.	id203		L			
 412000	414000	Oh, no!	R					
-414000	416000	What?	id203		L			
-416000	424000	A bottle that has a triangle here and a square over there.	id204		S		a bottle that has a triangle here and a square over there	
-424000	426000	Don't tell me.	id203		L			
+414000	416000	What?	id203		L			Y
+416000	424000	A bottle that has a triangle here and a square over there.	id204		S		a bottle that has a triangle here and a square over there	Y
+424000	426000	Don't tell me.	id203		L			Y
 426000	428000	Yay!	R	7				
 430000	436000	Okay, let's pass Murphy and [id203], it's your turn to tell and [id204], your turn to guess.	R					
-436000	446000	I see a shoe in the bottles outside, not in the square box.	id203		S		a shoe, bottle not in the square box	
-446000	454000	Wait, so the bottle was in the shoe or the bottle?	id204		L			x
-454000	458000	The shoe is inside the black box.	id203		S			
-458000	460000	And the bottle was in the...	id203		S			
+436000	446000	I see a shoe in the bottles outside, not in the square box.	id203		S		a shoe, bottle not in the square box	Y
+446000	454000	Wait, so the bottle was in the shoe or the bottle?	id204		L			Y
+454000	458000	The shoe is inside the black box.	id203		S			Y
+458000	460000	And the bottle was in the...	id203		S			Y
 460000	462000	Yay!	R	8				
 462000	464000	Yay!	id204		S			
 464000	466000	Okay.	R					
 466000	468000	Okay, let's pass Murphy.	R					
 468000	472000	And [id204], it's your turn to tell and [id203], your turn to guess.	R					
-472000	476000	Like a fox that has a beautiful	id204		S		a fox that has a beautiful	
+472000	476000	Like a fox that has a beautiful	id204		S		a fox that has a beautiful	Y
 		can you close door?	id203		L			
 476000	478000	Okay, I'll close the door.	R					
-478000	480000	Like a fox that...	id204		S			
-480000	484000	A fox that is like that.	id204		S		a fox that is like that	
+478000	480000	Like a fox that...	id204		S			Y
+480000	484000	A fox that is like that.	id204		S		a fox that is like that	Y
 484000	486000	I'm worried.	id203		L			
-486000	488000	[id203]!	id204		S			
-488000	490000	[id203] and you tell.	id204		S			
-490000	494000	It's a fox that has his foot up in like a triangle.	id204		S		a fox that has his foot up in like a triangle	
-494000	496000	Don't tell me.	id203		L			
+486000	488000	[id203]!	id204		S			Y
+488000	490000	[id203] and you tell.	id204		S			Y
+490000	494000	It's a fox that has his foot up in like a triangle.	id204		S		a fox that has his foot up in like a triangle	Y
+494000	496000	Don't tell me.	id203		L			Y
 496000	498000	Yay!	R	9				
 498000	500000	He got one wrong.	id204		L			
 500000	502000	I didn’t it, but that's okay.	id204		L			
@@ -204,37 +204,37 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 518000	524000	And then, I want to use Murphy to tell.	id204		L			
 524000	526000	Okay.	R					
 526000	528000	And [id203], can you tell [id204] and Murphy what you see?	R					
-528000	536000	I see a black guy with triangles on top of his head.	id203		S		a black guy with triangles on top of his head	
-536000	542000	Is it the bottle or is it the black guy who looks like the fox?	id204		L			x
-542000	546000	The black guy who looks like the fox.	id203		S		the black guy who looks like the fox	
-546000	550000	Okay.	id203		S			
+528000	536000	I see a black guy with triangles on top of his head.	id203		S		a black guy with triangles on top of his head	Y
+536000	542000	Is it the bottle or is it the black guy who looks like the fox?	id204		L			Y
+542000	546000	The black guy who looks like the fox.	id203		S		the black guy who looks like the fox	Y
+546000	550000	Okay.	id203		S			Y
 550000	552000	Yay!	R	10				
 552000	554000	Hooray!	R					
 554000	558000	Okay, let's pass Murphy and [id204], it's your turn to tell and [id203]...	R					
-558000	560000	Okay, so a bottle.	id204		S		a bottle	
-560000	562000	It's a bottle.	id204		S			
+558000	560000	Okay, so a bottle.	id204		S		a bottle	Y
+560000	562000	It's a bottle.	id204		S			Y
 562000	566000	Yay!	R	11				
 566000	568000	So, don't put your finger away.	id203		S			
 568000	570000	I'm going to slip a tail.	id203		S			
 570000	574000	Okay.	R					
 576000	578000	Don't tell me.	id203		S			
 578000	582000	So, [id203], it's your turn to tell and it's [id204]'s turn to guess.	R					
-582000	588000	I see a shoe in the black box.	id203		S		a shoe	
+582000	588000	I see a shoe in the black box.	id203		S		a shoe	Y
 588000	590000	Why did that not work?	id204		L			
 590000	594000	Tap it a little harder.	R					
 594000	596000	Are you able to see me?	id204		L			
 596000	600000	Yay!	R	12				
 600000	604000	Okay, let's pass Murphy and [id204], it's your turn to tell and it's your turn to guess.	R					
-604000	606000	A shoe, A shoe in my box	id204		S		a shoe	
-606000	608000	Or is that a bottle?	id204		S		 a bottle	
-608000	610000	I'm going to tell the face this way and his body is going to be like this.	id203		L			
+604000	606000	A shoe, A shoe in my box	id204		S		a shoe	Y
+606000	608000	Or is that a bottle?	id204		S		 a bottle	Y
+608000	610000	I'm going to tell the face this way and his body is going to be like this.	id203		L			Y
 		[id203] can you try and guess the picture?	R					
 		so he’s going to tap on his screen but you’re going to to tell him	R					
-610000	612000	I think it's a shoe.	id204		S		a shoe	
+610000	612000	I think it's a shoe.	id204		S		a shoe	Y
 								
-612000	614000	No.	id203		L			
+612000	614000	No.	id203		L			Y
 								
-614000	618000	It's a shoe.	id204		S			
+614000	618000	It's a shoe.	id204		S			Y
 618000	620000	Yay!	R	13				
 620000	622000	I'm looking this way.	id203		S			
 622000	624000	Okay, let's pass Murphy.	R					
@@ -253,10 +253,10 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 656000	658000	I...	id203		S			
 658000	660000	Is that more or better?	R					
 660000	662000	It's a little louder?	R					
-662000	664000	It's a shoe.	id203		S		a shoe	
-664000	666000	Like that?	id204		L			
+662000	664000	It's a shoe.	id203		S		a shoe	Y
+664000	666000	Like that?	id204		L			Y
 666000	668000	And can you tell [id204] what you see?	R					
-668000	670000	I see a shoe inside the black box.	id203		S			
+668000	670000	I see a shoe inside the black box.	id203		S			Y
 674000	676000	Yay!	R	14				
 676000	678000	That was really good.	id204		S			
 678000	680000	A couple more matching games.	R					
@@ -268,7 +268,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 690000	692000	She's you, super me.	R					
 692000	694000	Aw, thank you.	R					
 694000	696000	Okay, can you tell [id203] what you see inside the black box?	R					
-696000	698000	A shoe.	id204		S		a shoe	
+696000	698000	A shoe.	id204		S		a shoe	Y
 700000	702000	Yay!	R	15				
 702000	704000	What happens if you get one wrong?	id204		L			
 704000	706000	And it's okay.	R					
@@ -287,15 +287,15 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 730000	732000	Now you press it.	id204		L			
 732000	734000	Get ready, press.	id204		L			
 734000	736000	Okay.	R					
-738000	740000	I see a bottle in the square box.	id203		S		a bottle	
-740000	742000	Okay, let's see.	id204		L			
+738000	740000	I see a bottle in the square box.	id203		S		a bottle	Y
+740000	742000	Okay, let's see.	id204		L			Y
 744000	746000	Yay!	R					
 746000	748000	Yes, Murphy did it.	id204		L			
 748000	750000	Murphy did it.	R					
 750000	752000	I told her.	id204		L			
 752000	754000	She did a really good job.	R	16				
-754000	756000	A fox.	id204		S		a fox	
-756000	758000	A fox.	id204		S			
+754000	756000	A fox.	id204		S		a fox	Y
+756000	758000	A fox.	id204		S			Y
 758000	760000	Yay!	R	17				
 760000	762000	Okay, we have one.	R					
 762000	764000	We have a couple more.	R					
@@ -307,10 +307,10 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 774000	776000	[id203], can you pass Murphy please?	R					
 776000	778000	Thank you.	R					
 778000	780000	And can you tell [id204] what you've seen so far?	R					
-780000	782000	I see.	id203		S			
-782000	784000	What is this?	id203		S			
-784000	786000	A fox.	id203		S		a fox	
-786000	788000	A fox.	id204		L		a fox	x
+780000	782000	I see.	id203		S			Y
+782000	784000	What is this?	id203		S			Y
+784000	786000	A fox.	id203		S		a fox	Y
+786000	788000	A fox.	id204		L		a fox	Y
 790000	792000	This is not working.	id204		L			
 792000	794000	I have it for you.	id203		S			
 794000	796000	Oh, so [id204] is trying to guess.	R					
@@ -326,28 +326,28 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 818000	820000	Aw, thank you.	R					
 820000	822000	Okay, [id204].	R					
 822000	824000	Can you tell [id203] what you've seen?	R					
-824000	826000	A shoe.	id204		S		a shoe	
-826000	828000	That looks like a bow tie.	id204		S		that looks like a bow tie	
-828000	830000	I think.	id204		S			
-830000	832000	Actually, it's not a bow tie.	id204		S		not a bow tie	
-832000	834000	It's a shoe.	id203		L			
+824000	826000	A shoe.	id204		S		a shoe	Y
+826000	828000	That looks like a bow tie.	id204		S		that looks like a bow tie	Y
+828000	830000	I think.	id204		S			Y
+830000	832000	Actually, it's not a bow tie.	id204		S		not a bow tie	Y
+832000	834000	It's a shoe.	id203		L			Y
 834000	836000	It's not working.	id203		L			
-836000	838000	It's like a bow tie.	id204		S		like a bow tie	
+836000	838000	It's like a bow tie.	id204		S		like a bow tie	Y
 838000	840000	Oh, no.	R	19				
 840000	842000	It's okay.	R					
-842000	844000	We said that was a shoe.	id203		S			
-844000	846000	Can I press a shoe?	id203		S			
-846000	848000	Why did you do that?	id203		S			
-848000	850000	There was a shoe.	id204		L			
-850000	852000	Oh, there was two.	id204		L			
+842000	844000	We said that was a shoe.	id203		S			Y
+844000	846000	Can I press a shoe?	id203		S			Y
+846000	848000	Why did you do that?	id203		S			Y
+848000	850000	There was a shoe.	id204		L			Y
+850000	852000	Oh, there was two.	id204		L			Y
 852000	854000	Next time, we can ask her.	R					
 854000	856000	Oh, no.	R					
 856000	858000	We see our own iPads.	R					
 858000	860000	So, [id203], can we pass Murphy?	R					
 860000	862000	And tell [id204] what you've seen?	R					
 862000	864000	Can you?	R					
-864000	866000	I see a bottle.	id203		S		a bottle	
-866000	868000	A bottle.	id203		S			
+864000	866000	I see a bottle.	id203		S		a bottle	Y
+866000	868000	A bottle.	id203		S			Y
 868000	870000	A bottle.	id204		L			
 870000	872000	Yay!	R	20				
 872000	874000	He got two wrong.	id204		S			
@@ -358,30 +358,30 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 884000	886000	Okay.	R					
 886000	888000	Okay, pass Murphy.	R					
 888000	890000	And [id204], can you tell [id203] what you've seen?	R					
-890000	892000	Like a purse.	id204		S		a purse	
-892000	894000	See the bow tie on top.	id204		S		bow tie on top	
-894000	896000	In the bottom.	id204		S		in the bottom	
-898000	900000	But there's no more in mine.	id203		L			
-902000	904000	Like this.	id204		S			
-904000	906000	I want like an edge thing.	id204		S		an edge thing	
+890000	892000	Like a purse.	id204		S		a purse	Y
+892000	894000	See the bow tie on top.	id204		S		bow tie on top	Y
+894000	896000	In the bottom.	id204		S		in the bottom	Y
+898000	900000	But there's no more in mine.	id203		L			Y
+902000	904000	Like this.	id204		S			Y
+904000	906000	I want like an edge thing.	id204		S		an edge thing	Y
 906000	908000	Yeah, [id204], can you tell [id203]?	R					
-908000	912000	Okay, so it's like a flat surface.	id204		S		a flat surface	
-912000	914000	That have like a bow tie on top	id204		S			
-914000	916000	and have like a square there.	id204		S		a square there	
-916000	918000	And this thing or that thing.	id203		L			
+908000	912000	Okay, so it's like a flat surface.	id204		S		a flat surface	Y
+912000	914000	That have like a bow tie on top	id204		S			Y
+914000	916000	and have like a square there.	id204		S		a square there	Y
+916000	918000	And this thing or that thing.	id203		L			Y
 918000	922000	Do you want to ask [id204] with your words?	R					
-922000	926000	Is it the one that has two or three?	id203		L			x
-926000	928000	I want to put this.	id204		S			
-928000	930000	I want to put this.	id204		S			
-930000	932000	Which one?	id203		L			x
-932000	936000	Is it the one that has three or three?	id203		L			x
-936000	940000	So it's the one that has bow tie on top.	id204		S			
-940000	944000	Just maybe you could take a little guess at me.	id204		S			
-944000	946000	Okay, I'm going to try and do both.	id203		L			
-948000	950000	Which one has your ears?	id203		L			
-950000	952000	That's two.	id203		L			
-952000	954000	Just try.	id204		S			
-958000	960000	Just try.	id204		S			
+922000	926000	Is it the one that has two or three?	id203		L			Y
+926000	928000	I want to put this.	id204		S			Y
+928000	930000	I want to put this.	id204		S			Y
+930000	932000	Which one?	id203		L			Y
+932000	936000	Is it the one that has three or three?	id203		L			Y
+936000	940000	So it's the one that has bow tie on top.	id204		S			Y
+940000	944000	Just maybe you could take a little guess at me.	id204		S			Y
+944000	946000	Okay, I'm going to try and do both.	id203		L			Y
+948000	950000	Which one has your ears?	id203		L			Y
+950000	952000	That's two.	id203		L			Y
+952000	954000	Just try.	id204		S			Y
+958000	960000	Just try.	id204		S			Y
 960000	962000	It doesn't work.	id203		L			
 962000	964000	Yay!	R					
 964000	966000	Good job.	R					

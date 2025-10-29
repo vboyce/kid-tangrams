@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	5000	We're going to practice touching our iPads by playing a little game of popping bubbles.	R					
 5000	6000	Okay?	R					
 6000	10720	So can each of you press the blue button on your screen?	R					
@@ -42,16 +42,16 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 148520	149520	Not me.	id229		L			
 149520	156520	Okay. So you're going to tell him what's in the black box and he has to guess.	R					
 156520	158520	What do you see, [id230]?	R					
-158520	160520	a banana	id230		S		a banana	
+158520	160520	a banana	id230		S		a banana	Y
 160520	163520	Do you want to press it when you think you know what it is?	R					
 163520	165520	There you go.	R					
 165520	169520	And now it's your turn to describe, [id229].	R	2				
 169520	171520	What do you see?	R					
-171520	173520	A birdie.	id229		S		a birdie	
+171520	173520	A birdie.	id229		S		a birdie	Y
 173520	175520	Do you think you know which one it is, [id230]?	R					
 175520	176520	Yeah.	id230		L			
 176520	178520	Do you want to touch it?	R					
-178520	180520	Birdie, birdie.	id229		S			
+178520	180520	Birdie, birdie.	id229		S			Y
 180520	182520	Great job.	R	3				
 182520	184520	Now it's [id229]'s turn.	R					
 184520	186520	Sorry, now it's your turn, [id230].	R					
@@ -59,45 +59,45 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 189520	191520	Do you want to try and describe it?	R					
 191520	198520	Use your words to tell [id229], help her now.	R					
 198520	201520	Do you want to ask any questions to her, [id229]?	R					
-201520	202520	Look at mine.	id229		L			
+201520	202520	Look at mine.	id229		L			Y
 202520	205520	Oh, you can't show her, but you want to ask her?	R					
-205520	211520	So mine has a little spike ball.	id229		L		a little spike ball	
-		[nods]	id230		S			
+205520	211520	So mine has a little spike ball.	id229		L		a little spike ball	Y
+		[nods]	id230		S			Y
 211520	213520	Is it that one?	R					
 213520	217520	All right. Why don't you press it if you think that's what it is?	R					
 217520	218520	There you go.	R	4				
 218520	221520	Great job.	R					
 221520	223520	What do you see, [id229]?	R					
-223520	226520	A star.	id229		S		a star	
+223520	226520	A star.	id229		S		a star	Y
 226520	229520	Do you want to use some more words to tell?	R					
 229520	233520	You can't show her, but do you want to use some more words to tell [id230] what you see?	R					
-233520	236520	It's a little fight star.	id229		S		a little fight star	
+233520	236520	It's a little fight star.	id229		S		a little fight star	Y
 236520	240520	Do you want to ask him a question, [id230]?	R					
 240520	245520	Do you want to try and tell her a few more words about what it might look like?	R					
-245520	252520	It will look like in the square of a box.	id229		S			
+245520	252520	It will look like in the square of a box.	id229		S			Y
 252520	255520	You can guess when you think you know what it is.	R					
-255520	258520	It will look like the up star.	id229		S		the up star	
+255520	258520	It will look like the up star.	id229		S		the up star	Y
 258520	262520	It's okay if you get it wrong, [id230].	R					
 262520	266520	Press it.	R					
 266520	267520	That's okay.	R	5				
 267520	272520	Smurphy has a lot more chances to guess.	R					
 272520	275520	What do you see, [id230]?	R					
-275520	278520	A wingman.	id230		S		a wing man	
+275520	278520	A wingman.	id230		S		a wing man	Y
 278520	283520	Do you want to use some more words?	R					
 283520	286520	Do you want to ask her a question, [id229]?	R					
-286520	290520	I only have one of these. I have two of these.	id229		L			
-290520	296520	One that doesn't have a triangle, and the other has a triangle.	id229		L		one that doesn’t have a triangle and the other has a triangle	x
+286520	290520	I only have one of these. I have two of these.	id229		L			Y
+290520	296520	One that doesn't have a triangle, and the other has a triangle.	id229		L		one that doesn’t have a triangle and the other has a triangle	Y
 296520	298520	Do you want to respond to him, [id230]?	R					
 298520	299520	No.	id230		S			
 299520	301520	Why don't you take your...	R					
 301520	304520	You want to repeat your clue that you gave at the beginning?	R					
 304520	308520	Help him out with just a little bit more?	R					
 308520	311520	Why don't you take your best guess, [id229]?	R					
-311520	314520	It is...	id229		L			
+311520	314520	It is...	id229		L			Y
 314520	317520	Just take a guess, yeah, whichever one you think it is.	R					
-317520	319520	Is it this one?	id229		L			
+317520	319520	Is it this one?	id229		L			Y
 319520	322520	You can't show her. Let's use our words.	R					
-322520	325520	Is it this one?	id229		L			
+322520	325520	Is it this one?	id229		L			Y
 325520	327520	You can just guess.	R					
 328520	332520	You can just press it if you think you know what it is.	R					
 332520	333520	Yay!	id229		L			
@@ -105,7 +105,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 335520	337520	All right.	R					
 337520	339520	I have the black box.	id229		S			
 339520	341520	Yeah, it's your turn.	R					
-341520	345520	It’s the stomp hero. Stomp stomp stomp stomp	id229		S		the stomp hero	
+341520	345520	It’s the stomp hero. Stomp stomp stomp stomp	id229		S		the stomp hero	Y
 345520	348520	Do you want to ask him a question, [id230]?	R					
 348520	350520	Or do you think you know which one it is?	R					
 350520	352520	stomp stomp stomp	id229		S			
@@ -118,83 +118,83 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 362520	365520	Great job, [id230].	R					
 365520	368520	All right.	R					
 368520	371520	Now it's your turn, [id230]. What do you see?	R					
-371520	377520	it’s kind of straight thing,	id230		S		straight thing	
-377520	379520	but at the bottom I got a turban	id230		S		at the bottom I got a turban	
-379520	382520	at the top I got a diamond.	id230		S		at the top I got a diamond	
-382520	384520	I think I know what it is	id229		L			x
+371520	377520	it’s kind of straight thing,	id230		S		straight thing	Y
+377520	379520	but at the bottom I got a turban	id230		S		at the bottom I got a turban	Y
+379520	382520	at the top I got a diamond.	id230		S		at the top I got a diamond	Y
+382520	384520	I think I know what it is	id229		L			Y
 384520	388520	Hey, congrats.	R	8				
 388520	391520	And now you can pass Smurfy to [id230].	R					
 391520	394520	What do you see?	R					
-394520	399520	I see something that has one triangle and a square.	id229		S		one triangle and a square	
-399520	403520	A square one.	id229		S		a square one	
+394520	399520	I see something that has one triangle and a square.	id229		S		one triangle and a square	Y
+399520	403520	A square one.	id229		S		a square one	Y
 403520	405520	You can guess when you think you know.	R					
-405520	406520	Square, square.	id229		S			
+405520	406520	Square, square.	id229		S			Y
 406520	410520	Go for it, yeah.	R					
 410520	413520	Press it one more time, yeah.	R					
 413520	417520	Awesome.	R	9				
 417520	421520	Smurfy, Smurfy.	id229		L			
 421520	423520	What do you see, [id230]?	R					
-423520	432520	I see a kind of curve,	id230		S		curve	
-432520	435520	something that's going to triangle at the bottom	id230		S		triangle at the bottom	
-435520	438520	and a triangle at the top and a square at the top.	id230		S		a triangle at the top and a square at the top	
-438520	440520	And this one?	id229		L			x
+423520	432520	I see a kind of curve,	id230		S		curve	Y
+432520	435520	something that's going to triangle at the bottom	id230		S		triangle at the bottom	Y
+435520	438520	and a triangle at the top and a square at the top.	id230		S		a triangle at the top and a square at the top	Y
+438520	440520	And this one?	id229		L			Y
 440520	442520	She can't see it, so you can just guess	R					
 442520	444520	and think or you can ask her a question.	R					
-444520	446520	I have two triangles on this one	id229		L		two triangles on this one	x
-446520	450520	and this one has one triangle and one square.	id229		L		and this one has one triangle and one square	x
+444520	446520	I have two triangles on this one	id229		L		two triangles on this one	Y
+446520	450520	and this one has one triangle and one square.	id229		L		and this one has one triangle and one square	Y
 450520	457520	Do you want to respond to that, [id230]?	R					
-		no	id230		S			
+		no	id230		S			Y
 457520	460520	Oh, that's okay.	R	10				
 460520	463520	Here, let's pass Smurfy.	R					
-463520	467520	Ah, yeah.	id229		S			
-467520	474520	I have something that has a diamond on the top.	id229		S		a diamond on the top	
-474520	475520	I have that.	id229		S			
+463520	467520	Ah, yeah.	id229		S			Y
+467520	474520	I have something that has a diamond on the top.	id229		S		a diamond on the top	Y
+474520	475520	I have that.	id229		S			Y
 475520	476520	Yeah.	R	11				
 476520	478520	Yeah.	R					
 478520	487520	What do you see, [id230]?	R					
-487520	489520	It's so hard to guess.	id229		L			
-489520	499520	I think a lot of no's.	id229		L			
-499520	500520	it’s something, something that looks like a big hill but it only got two	id230		S		a big hill but it only got two	
-500520	502520	Two you mean two triangles?	id229		L		two triangles	x
-502520	504520	Yeah.	id230		S			
+487520	489520	It's so hard to guess.	id229		L			Y
+489520	499520	I think a lot of no's.	id229		L			Y
+499520	500520	it’s something, something that looks like a big hill but it only got two	id230		S		a big hill but it only got two	Y
+500520	502520	Two you mean two triangles?	id229		L		two triangles	Y
+502520	504520	Yeah.	id230		S			Y
 504520	506520	Yeah.	R	12				
 506520	509520	let’s pass smurfy	R					
 509520	511520	What do you see?	R					
-511520	517520	Something that has a stomp	id229		S		has a stomp	
+511520	517520	Something that has a stomp	id229		S		has a stomp	Y
 		stomp stomp stomp stomp stomp	id229		S			
 517520	520520	you think you know	R					
 								
 520520	529520	There you go.	R	13				
-529520	539520	Someone that's dancing.	id230		S		dancing	
+529520	539520	Someone that's dancing.	id230		S		dancing	Y
 539520	542520	Ah, that's okay.	R	14				
 542520	545520	Here, let's pass Smurfy.	R					
-545520	550520	I see something that has two triangles.	id229		S		two triangles	
+545520	550520	I see something that has two triangles.	id229		S		two triangles	Y
 550520	553520	Do you think you know which one it is, [id230]?	R					
 553520	555520	Do you want to describe a little more, [id229]?	R					
-555520	558520	It has two things.	id229		S		two things	
-558520	560520	It has a square.	id229		S		a square one	
-560520	563520	And a mouth, but a square mouth	id229		S		a mouth, but a square mouth	
-563520	567520	And two triangles like his ears.	id229		S		two triangles like his ears	
+555520	558520	It has two things.	id229		S		two things	Y
+558520	560520	It has a square.	id229		S		a square one	Y
+560520	563520	And a mouth, but a square mouth	id229		S		a mouth, but a square mouth	Y
+563520	567520	And two triangles like his ears.	id229		S		two triangles like his ears	Y
 567520	574520	Yeah.	R	15				
-574520	596520	I see something that has a banded legs and diamond on the upper arms. On the bottom, it got an upside down triangle and a square on the top	id230		S		 a banded legs and diamond on the upper arms. On the bottom, it got an upside down triangle and a square on the top	
+574520	596520	I see something that has a banded legs and diamond on the upper arms. On the bottom, it got an upside down triangle and a square on the top	id230		S		 a banded legs and diamond on the upper arms. On the bottom, it got an upside down triangle and a square on the top	Y
 596520	599520	Yeah.	R	16				
 599520	601520	That's Smurfy.	R					
-601520	614520	I see something that has a diamond.	id229		S		a diamond	
+601520	614520	I see something that has a diamond.	id229		S		a diamond	Y
 614520	616520	What do you see, [id230]?	R	17				
-616520	622520	I see something that got diamond.	id230		S		diamond	
+616520	622520	I see something that got diamond.	id230		S		diamond	Y
 622520	627520	Yeah.	R	18				
-627520	630520	I see something big that has a square on top.	id229		S		something big that has a square on top	
-630520	635520	And a triangle down low.	id229		S		a triangle down low	
+627520	630520	I see something big that has a square on top.	id229		S		something big that has a square on top	Y
+630520	635520	And a triangle down low.	id229		S		a triangle down low	Y
 635520	637520	Yeah.	R	19				
 637520	639520	We're gonna love it.	id229		L			
-649520	654520	I see something that has two bottoms and it looks like a windmill.	id230		S		has two bottoms and it looks like a windmill	
-654520	658520	I got only two fins.	id230		S		it got only two fins	
+649520	654520	I see something that has two bottoms and it looks like a windmill.	id230		S		has two bottoms and it looks like a windmill	Y
+654520	658520	I got only two fins.	id230		S		it got only two fins	Y
 658520	662520	If you think you know, just guess, yeah.	R	20				
 662520	664520	Yeah.	R					
 664520	668520	Yeah, there are just a few more.	R					
 668520	670520	What do you see, [id229]?	R					
-670520	673520	Something that's stomping.	id229		S		stomping	
-673520	676520	Something that's stomping.	id229		S			
+670520	673520	Something that's stomping.	id229		S		stomping	Y
+673520	676520	Something that's stomping.	id229		S			Y
 676520	679520	And then we do the bubble line.	id229		S			
 679520	681520	And then we do the bubble line.	id229		S			
 681520	683520	Yeah.	R					

@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	9600	My mom really lets me look at TV, but she only lets me do it if she doesn't see me.	id195					
 9600	11600	Like at school, at game room!	id195					
 11600	13600	True, she has no idea that you're on it.	R					
@@ -75,7 +75,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 150800	151800	So, then, oh.	R					
 151800	152800	So, you just look at your screen now.	R					
 152800	156800	So, um, [id195], could you tell [id196] and Murphy what you see inside the black box?	R					
-		banana	id195		S		banana	
+		banana	id195		S		banana	Y
 159800	160800	Okay.	R					
 160800	162800	And then, you tap which one you think it is.	R					
 162800	163800	Okay.	id196		L			
@@ -89,49 +89,49 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 176800	177800	You guys are doing great.	R					
 178800	179800	Uh.	R					
 179800	182800	So, now, [id196], can you tell [id195] what you see inside the black box?	R					
-182800	183800	I don't know what it is.	id196		S			
+182800	183800	I don't know what it is.	id196		S			Y
 183800	184800	That's okay.	R					
 184800	186800	Um, you just try your best.	R					
 186800	187800	Give me your best shot.	R					
-188800	189800	Golden eagle.	id196		S		golden eagle	
+188800	189800	Golden eagle.	id196		S		golden eagle	Y
 195800	196800	Good.	R	3				
 196800	197800	Okay.	R					
 197800	198800	And now we're gonna swap out.	R					
 198800	199800	That was great.	R					
 199800	200800	And now you're gonna be the teller.	R					
 200800	201800	And you're gonna be the guesser.	R					
-201800	202800	And I don't know what this is.	id195		S			
+201800	202800	And I don't know what this is.	id195		S			Y
 202800	203800	That's okay.	R					
 203800	208800	Uh, just try to, um, help Murphy and [id196] guess what's inside.	R					
-212800	213800	I don't know what it is.	id195		S			
+212800	213800	I don't know what it is.	id195		S			Y
 213800	214800	That's okay.	R					
 214800	221800	You can, um, just use whatever words that you can use to try to, um, describe it.	R					
-224800	225800	Arrow	id195		S		arrow	
+224800	225800	Arrow	id195		S		arrow	Y
 230800	231800	Good job.	R	4				
 231800	232800	Okay.	R					
 232800	233800	Now we're gonna switch back.	R					
 233800	235800	Now, if you're gonna be the guesser and you're gonna be the teller.	R					
-236800	238800	Yeah, I don't even know what any of these are.	id195		L			
-238800	240800	Yeah, I don't even know what this is.	id196		S			
+236800	238800	Yeah, I don't even know what any of these are.	id195		L			Y
+238800	240800	Yeah, I don't even know what this is.	id196		S			Y
 240800	241800	That's okay.	R					
-241800	242800	I mean, both of these are.	id195		L			
+241800	242800	I mean, both of these are.	id195		L			Y
 242800	243800	Just give me your best shot.	R					
-244800	245800	A person's head.	id196		S		a person’s head	
-247800	248800	With ears.	id196		S		with ears	
+244800	245800	A person's head.	id196		S		a person’s head	Y
+247800	248800	With ears.	id196		S		with ears	Y
 254800	255800	Good job.	R	5				
 255800	256800	See, you guys are doing great.	R					
 256800	257800	You don't need to know what's inside.	R					
 257800	260800	And now you're gonna be the guesser and you're gonna be the teller.	R					
-260800	261800	This is tricky	id195		S			
-262800	264800	Yeah, I don't even know what these are.	id196		L			
+260800	261800	This is tricky	id195		S			Y
+262800	264800	Yeah, I don't even know what these are.	id196		L			Y
 264800	265800	That's okay.	R					
-267800	268800	A walrus.	id195		S		a walrus	
+267800	268800	A walrus.	id195		S		a walrus	Y
 274800	275800	Nice.	R	6				
 275800	276800	Wow.	R					
 276800	277800	Okay.	R					
 277800	279800	Now we're gonna swap back and you're gonna be the guesser and you're gonna be the teller.	R					
-279800	280800	Um,	id196		S			
-282800	285800	an owl with a little dot at the top.	id196		S		an owl with a little dot at the top	
+279800	280800	Um,	id196		S			Y
+282800	285800	an owl with a little dot at the top.	id196		S		an owl with a little dot at the top	Y
 288800	290800	Wow, you guys are really good at this game.	R	7				
 290800	291800	Yeah.	id196		L			
 291800	293800	Now it's gonna be your turn to be the guesser and your turn to be the guesser.	R					
@@ -140,58 +140,58 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 297800	299800	It's just one of them has a black box around it.	R					
 299800	300800	So yeah.	R					
 300800	302800	So you guys are describing shapes to each other.	R					
-304800	306800	A person with a bow on their head.	id195		S		a person with a bow on their head	
+304800	306800	A person with a bow on their head.	id195		S		a person with a bow on their head	Y
 310800	312800	Wow, guys, you guys are doing so good.	R	8				
 312800	315800	Now you're gonna be the guesser and you're gonna be the teller.	R					
-315800	317800	It's really tricky.	id195		L			
+315800	317800	It's really tricky.	id195		L			Y
 317800	318800	Yeah.	R					
-318800	320800	A person with a backpack.	id196		S		a person with a backpack	
+318800	320800	A person with a backpack.	id196		S		a person with a backpack	Y
 321800	322800	Wow.	R	9				
 322800	323800	Okay, now we're gonna switch back.	R					
 323800	325800	You're gonna be the guesser, you're gonna be the teller.	R					
-335800	337800	A person sitting in a chair.	id195		S		a person sitting in a chair	
+335800	337800	A person sitting in a chair.	id195		S		a person sitting in a chair	Y
 340800	342800	Nice.	R					
 342800	346800	Okay, now it's gonna be your turn to be the guesser and your gonna be the teller.	R	10				
-353800	355800	A dog with a square.	id196		S		a dog with a square	
+353800	355800	A dog with a square.	id196		S		a dog with a square	Y
 361800	364800	Now you're gonna be the guesser, you're the teller.	R	11				
-369800	371800	A person on a hike.	id195		S		a person on a hike	
+369800	371800	A person on a hike.	id195		S		a person on a hike	Y
 376800	378800	That's okay, but we have a little more chances.	R	12				
 378800	379800	Yeah.	id196		S			
 379800	380800	You guys are doing great otherwise.	R					
 380800	381800	Here you go.	R					
 381800	383800	So now you're gonna be the guesser and you're gonna be the teller.	R					
-385800	387800	A person doing high kick	id196		S		a person doing high kick	
+385800	387800	A person doing high kick	id196		S		a person doing high kick	Y
 392800	393800	Cool.	R					
 393800	395800	Now we're gonna swap back.	R	13				
 396800	397800	Okay.	R					
 398800	400800	So now you're gonna be the teller.	R					
-406800	408800	A woman with a hat.	id195		S		a woman with a hat	
+406800	408800	A woman with a hat.	id195		S		a woman with a hat	Y
 412800	413800	Nice.	R					
 413800	415800	Now we're gonna switch back.	R	14				
 420800	422800	Now it's your turn to be the teller.	R					
-423800	427800	A person walking with backpacks.	id196		S		a person walking with backpacks	
+423800	427800	A person walking with backpacks.	id196		S		a person walking with backpacks	Y
 429800	430800	Nice.	R	15				
 431800	432800	You're gonna take this.	R					
 432800	433800	how do the computers talk?	id196		L			
 433800	434800	your turn to be the guesser.	R					
 435800	437800	I don't really know, it's just computer science.	R					
 440800	442800	And now you're gonna be the teller and you're gonna be the guesser.	R					
-452800	453800	A banana.	id195		S		a banana	
+452800	453800	A banana.	id195		S		a banana	Y
 458800	459800	Cool.	R	16				
 459800	461800	Now we're gonna switch back.	R					
-466800	470800	A person looking backwards with a bow in their hair.	id196		S		a person looking backwards with a bow in their hair	
+466800	470800	A person looking backwards with a bow in their hair.	id196		S		a person looking backwards with a bow in their hair	Y
 472800	473800	Nice.	R	17				
 473800	474800	Alrighty.	R					
 474800	476800	You're the guesser and you're the teller.	R					
-479800	480800	A person walking.	id195		S		a person walking	
+479800	480800	A person walking.	id195		S		a person walking	Y
 483800	484800	Nice.	R	18				
 484800	486800	We're almost there guys, you're doing great.	R					
 486800	488800	Now you're gonna be the guesser and you're gonna be the teller.	R					
-500800	503800	An elephant with a big square ear.	id196		S		an elephant with a big square ear	
+500800	503800	An elephant with a big square ear.	id196		S		an elephant with a big square ear	Y
 506800	507800	Nice.	R	19				
 507800	508800	Now we're gonna switch back.	R					
 508800	510800	You're gonna be the guesser and you're gonna be the teller.	R					
-510800	512800	An elephant's trunk.	id195		S		an elephant’s trunk	
+510800	512800	An elephant's trunk.	id195		S		an elephant’s trunk	Y
 516800	518800	You tap a little harder.	R					
 521800	523800	You need to stay on it for a little bit longer.	R					
 523800	524800	That quick.	R					
@@ -201,7 +201,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 531800	532800	Cool.	R					
 534800	535800	Now we're gonna swap back.	R					
 536800	538800	You're gonna be the guesser and you're gonna be the teller.	R	20				
-540800	544800	A person looking backwards with a dress and a bow.	id196		S		a person looking backwards with a dress and a bow	
+540800	544800	A person looking backwards with a dress and a bow.	id196		S		a person looking backwards with a dress and a bow	Y
 546800	547800	Awesome.	R					
 548800	549800	Now we're gonna go back.	R					
 549800	550800	You're gonna be the teller.	R					
@@ -212,8 +212,8 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 554800	555800	We only got one wrong.	R					
 555800	556800	That was amazing.	R					
 556800	557800	Okay.	R					
-557800	559800	Why does it have sprinkles?	id196					
+557800	559800	Why does it have sprinkles?	id196		S			
 559800	560800	We're done.	R					
 560800	561800	Celebration.	R					
 561800	562800	It's good.	R					
-562800	563800	I'm gonna win this iPad.	id195					
+562800	563800	I'm gonna win this iPad.	id195		L			

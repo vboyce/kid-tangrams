@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	3440	Awesome, you got any scary parts or scary parts?	id160					
 3440	5040	No, no scary parts.	R					
 5040	6640	It is really fun.	R					
@@ -77,100 +77,100 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 178720	180960	Now, Justine's going to tell us what's in the black box.	R					
 181760	183440	In the black box?	R					
 183440	185680	Yeah, what picture is in the black box?	R					
-185680	186640	A banana.	id159		S		a banana	
+185680	186640	A banana.	id159		S		a banana	Y
 186640	188320	Okay, you're going to touch the one that you think it is.	R					
 189120	190240	Yay, good job.	R					
 191680	193280	And now you guys are going to switch.	R	2				
 193280	195200	And now [id160]'s going to tell what's in the black box.	R					
-195920	196400	A bird.	id160		S		a bird	
+195920	196400	A bird.	id160		S		a bird	Y
 199440	200400	Good job.	R					
 200400	202320	Now we're going to keep switching back and forth.	R	3				
 204320	206240	So what do you see in the black box?	R					
-206240	206800	A sun.	id159		S		a sun	
+206240	206800	A sun.	id159		S		a sun	Y
 210400	211360	Great job.	R					
 212560	212880	Okay.	R					
 215600	217120	Now [id160], what do you see in the black box?	R	4				
-		I don’t know what that is.	id160		S			
+		I don’t know what that is.	id160		S			Y
 218080	218720	That's okay.	R					
 218720	219760	Give your best guess.	R					
-221440	222800	Maybe upside down house.	id160		S		maybe upside down house	
-224960	225440	Maybe.	id159		L			x
-226080	226400	Maybe any button. 	id160		S			
-228640	231120	I'm not sure if it looks good.	id159		L			x
+221440	222800	Maybe upside down house.	id160		S		maybe upside down house	Y
+224960	225440	Maybe.	id159		L			Y
+226080	226400	Maybe any button. 	id160		S			Y
+228640	231120	I'm not sure if it looks good.	id159		L			Y
 231120	234640	You're going to just tell [id159] what you see.	R					
-234640	237200	It looks like an upside down crown.	id160		S		an upside down crown	
+234640	237200	It looks like an upside down crown.	id160		S		an upside down crown	Y
 239200	241040	And then you're going to touch the one that you think it is.	R					
 								
 241600	242240	Perfect.	R					
 242240	243040	Good job.	R					
-243040	243600	Yes.	id160					
+243040	243600	Yes.	id160		S			
 245040	245680	Keep going.	R					
 246400	247040	Okay.	R					
 247040	248720	Now [id159], what do you see in your box?	R	5				
-248720	250240	It just looks like a...	id159		S			
-252640	253520	A shoe mate?	id159		S		a shoe mate	
-253520	254640	It looks like a...	id159		S			
-254640	255360	A shoemate.	id159		S			
-255680	256560	A shoemate?	id159		S			
-256560	258000	It just looks like a...	id159		S			
-258000	259120	I don't know what I'm saying.	id159		S			
+248720	250240	It just looks like a...	id159		S			Y
+252640	253520	A shoe mate?	id159		S		a shoe mate	Y
+253520	254640	It looks like a...	id159		S			Y
+254640	255360	A shoemate.	id159		S			Y
+255680	256560	A shoemate?	id159		S			Y
+256560	258000	It just looks like a...	id159		S			Y
+258000	259120	I don't know what I'm saying.	id159		S			Y
 259120	259520	That's okay.	R					
 260160	261040	What do you think it is?	R					
-261760	263040	Is that this one?	id160					
+261760	263040	Is that this one?	id160		L			Y
 264640	265280	Good job.	R	6				
 268480	269040	Okay.	R					
 269040	270080	Now you're going to tell us.	R					
-270080	272160	It looks like a shoe.	id160		S		a shoe	
-274560	275440	This one?	id159		L			x
+270080	272160	It looks like a shoe.	id160		S		a shoe	Y
+274560	275440	This one?	id159		L			Y
 275440	276560	Touch the one that you think it is.	R					
 277200	278880	We're going to use our words remember.	R					
 278880	280560	So tell [id159].	R					
-280560	281680	It looks like a shoe.	id160		S			
+280560	281680	It looks like a shoe.	id160		S			Y
 283280	285200	And then now you can touch the one that you think it is.	R					
 285920	286640	Good job.	R					
 289600	290080	Okay.	R					
 290080	290960	Now [id159]'s turn.	R	7				
 290960	292080	What does that look like?	R					
-292080	293680	It just looks...	id159		S			
-294800	296480	I don't know.	id159		S			
+292080	293680	It just looks...	id159		S			Y
+294800	296480	I don't know.	id159		S			Y
 296480	298000	Make your best guess.	R					
-298880	301200	It just looks like a...	id159		S			
-301200	304400	A hanger for a dad when they go to work.	id160		L		a hanger for a dad when they go to work	x
-307120	310480	What does look like a person walking?	id160		L		a person walking	x
-311680	312160	It's...	id159		S			
-312880	318480	There's a diamond on the top and a shape on the bottom that I don't know.	id159		S		a diamond on the top and a shape on the bottom that I don’t know	
+298880	301200	It just looks like a...	id159		S			Y
+301200	304400	A hanger for a dad when they go to work.	id160		L		a hanger for a dad when they go to work	Y
+307120	310480	What does look like a person walking?	id160		L		a person walking	Y
+311680	312160	It's...	id159		S			Y
+312880	318480	There's a diamond on the top and a shape on the bottom that I don't know.	id159		S		a diamond on the top and a shape on the bottom that I don’t know	Y
 319680	320480	That's okay.	R					
 320480	321600	We're going to keep going.	R	8				
 321600	322080	Good job.	R					
-322960	324480	What's in the box?	id159		L			x
+322960	324480	What's in the box?	id159		L			Y
 324480	324960	Okay.	R					
 324960	326480	Now what do you see in the box?	R					
-326480	328880	It looks like something on the top.	id160		S		something on the top	
-330080	331920	A diamond on the top.	id160		S		a diamond on the top	
-332480	335520	It looks like a person walking with no hands.	id160		S		a person walking with no hands	
+326480	328880	It looks like something on the top.	id160		S		something on the top	Y
+330080	331920	A diamond on the top.	id160		S		a diamond on the top	Y
+332480	335520	It looks like a person walking with no hands.	id160		S		a person walking with no hands	Y
 342160	342960	Good job.	R					
-343760	344720	I win.	id159		L			
+343760	344720	I win.	id159		L			Y
 344720	346000	You guys are doing great.	R	9				
 346000	346400	Okay.	R					
 346400	347840	Now it's your turn, [id159].	R					
-347840	349040	It just looks...	id159		S			
-349040	356160	It tells me there's like a diamond on the top and it looks like a shoe.	id159		S		a diamond on the top and it looks like a shoe	
+347840	349040	It just looks...	id159		S			Y
+349040	356160	It tells me there's like a diamond on the top and it looks like a shoe.	id159		S		a diamond on the top and it looks like a shoe	Y
 357360	357600	Okay.	R					
 357600	358960	Now touch the one that you think it is.	R					
 359760	360400	Awesome.	R					
 362000	363040	We're going to keep going.	R	10				
-363760	365440	It looks like a bow tie.	id160		S		a bow tie	
-366400	371280	I mean, I mean something that dad would wear when they go to work.	id160		S		something that dad would wear when they go to work	
-372880	376480	You mean the diamond on the back right now?	id159		L		the diamond on the back	x
-377600	378560	I don't know.	id160		S			
+363760	365440	It looks like a bow tie.	id160		S		a bow tie	Y
+366400	371280	I mean, I mean something that dad would wear when they go to work.	id160		S		something that dad would wear when they go to work	Y
+372880	376480	You mean the diamond on the back right now?	id159		L		the diamond on the back	Y
+377600	378560	I don't know.	id160		S			Y
 378560	380480	What do you see, [id159]?	R					
-381040	385040	I see there's a diamond on the back of this person with no hands.	id159		L		a diamond on the back of this person with no hands	x
-385040	388960	And this one looks like a diamond on the top.	id159		L		a diamond on the top	x
+381040	385040	I see there's a diamond on the back of this person with no hands.	id159		L		a diamond on the back of this person with no hands	Y
+385040	388960	And this one looks like a diamond on the top.	id159		L		a diamond on the top	Y
 390480	392000	Which one do you see in the black box?	R					
-393920	394800	I don't know.	id160		S			
+393920	394800	I don't know.	id160		S			Y
 394800	395360	That's okay.	R					
 395360	397040	Tell [id159] what you think it looks like.	R	 				
-397040	402000	It looks like something a bow tie that dad would wear when they go to work.	id160		S		a bow tie that dad would wear when they go to work	
+397040	402000	It looks like something a bow tie that dad would wear when they go to work.	id160		S		a bow tie that dad would wear when they go to work	Y
 404160	405360	Touch the one that you think it is.	R					
 406320	407360	You can make your best guess.	R					
 409120	409760	Good job.	R	11				
@@ -178,36 +178,36 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 411520	413440	I just almost kind of fell asleep.	id159		S			
 413440	414560	Oh, okay.	R					
 414560	417760	Well, now you can tell [id160] what you see.	R	 				
-417760	418960	I didn't know what it is.	id160		L			
-419760	425520	So there's a bow tie on the top of a shoe that's...	id159		S		a bow tie on the top of a shoe	
+417760	418960	I didn't know what it is.	id160		L			Y
+419760	425520	So there's a bow tie on the top of a shoe that's...	id159		S		a bow tie on the top of a shoe	Y
 426400	427200	Good job.	R					
 428880	429360	Awesome.	R					
 430160	430960	It's [id160]'s turn.	R	12				
 431600	432720	What's in the black box?	R					
-432720	435200	It's something that has a diamond on the top.	id160		S		something that has a diamond on top	
+432720	435200	It's something that has a diamond on the top.	id160		S		something that has a diamond on top	Y
 440000	440640	That's okay.	R					
 441440	442560	We can have another turn.	R	13				
-443520	451120	So in the box, there's a diamond on here and it's on a shoe.	id159		S		diamond on here and it’s on a shoe	
+443520	451120	So in the box, there's a diamond on here and it's on a shoe.	id159		S		diamond on here and it’s on a shoe	Y
 454880	455600	Perfect.	R	14				
-459600	460480	What's in the bottom?	id159		L			x
-463840	465440	A diamond on the top.	id160		S		a diamond on the top	
-466800	468800	In the middle.	id160		S		in the middle	
-470240	470880	Middle?	id159		L			x
-470880	471360	Yeah.	id160		S			
-472240	473360	I don't know what it is.	id160		S			
-474400	475760	Still have your best guess.	id160		S			
+459600	460480	What's in the bottom?	id159		L			Y
+463840	465440	A diamond on the top.	id160		S		a diamond on the top	Y
+466800	468800	In the middle.	id160		S		in the middle	Y
+470240	470880	Middle?	id159		L			Y
+470880	471360	Yeah.	id160		S			Y
+472240	473360	I don't know what it is.	id160		S			Y
+474400	475760	Still have your best guess.	id160		S			Y
 476640	479440	Can you tell [id159] more about what it looks like?	R					
 479440	480080	What do you see?	R					
-480400	483360	I have two triangles on the top.	id160		S		two triangles on the top	
+480400	483360	I have two triangles on the top.	id160		S		two triangles on the top	Y
 485760	486720	Great job.	R	15				
-486720	489520	I saw something that like fell backwards.	id159		S			
+486720	489520	I saw something that like fell backwards.	id159		S			Y
 489520	489920	What?	R					
 490560	492960	Okay, now it's your turn to tell [id160] what you see.	R					
-492960	498480	There's like a diamond on his back with no hand to his feet and a head looking on the...	id159		S		a diamond on his back with no hand to his feed and a head looking 	
+492960	498480	There's like a diamond on his back with no hand to his feet and a head looking on the...	id159		S		a diamond on his back with no hand to his feed and a head looking 	Y
 499120	499840	Good job.	R					
 499840	500800	That was so quick.	R					
 501680	503600	Okay, now you're going to tell [id159] what you see.	R	16				
-503600	506640	It looks like a bow tie.	id160		S		a bow tie	
+503600	506640	It looks like a bow tie.	id160		S		a bow tie	Y
 512000	512560	That's okay.	R					
 513680	513920	No.	id160		S			
 514880	515920	Okay, now it's your turn.	R	17				
@@ -215,31 +215,31 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 522400	522960	I just said...	id159		S			
 524080	524880	Oh my goodness.	R					
 524880	528000	Okay, well now [id159]'s going to tell so let's turn our list.	R					
-528000	533600	In the box there's a diamond and then there's like a...	id159		S		a diamond 	
-533600	534960	It looks like a jay.	id160				a J	x
+528000	533600	In the box there's a diamond and then there's like a...	id159		S		a diamond 	Y
+533600	534960	It looks like a jay.	id160		L		a J	Y
 534960	536560	Let's use your words.	R					
-536560	538880	Something that looks like a jay.	id160				a J	x
-538880	540400	It just looks like a jay.	id159				a J	x
+536560	538880	Something that looks like a jay.	id160		L		a J	Y
+538880	540400	It just looks like a jay.	id159		S		a J	Y
 543520	544240	Good job.	R					
 547760	549120	Now it's your turn, [id160].	R	18				
-549120	549680	The next one.	id160		S		a diamond on the top	
-551680	553360	A diamond on the top.	id160		S		and a triangle on the bottom	
-555200	557280	And a triangle on the bottom.	id160		S			
+549120	549680	The next one.	id160		S			Y
+551680	553360	A diamond on the top.	id160		S		a diamond on the top	Y
+555200	557280	And a triangle on the bottom.	id160		S		and a triangle on the bottom	Y
 558960	561120	Touch the one that you see.	R					
 561120	561840	Good job.	R	19				
 565760	567120	Now it's [id159]'s turn.	R					
-567120	574800	So in the box there is like two triangles on the top and one's a triangle on the bottom	id159		S		two triangles on the top and one’s a triangle on the bottom	
-574800	575760	that's like this.	id159		S			
+567120	574800	So in the box there is like two triangles on the top and one's a triangle on the bottom	id159		S		two triangles on the top and one’s a triangle on the bottom	Y
+574800	575760	that's like this.	id159		S			Y
 576400	578000	Remember use your words, not your hands.	R					
 580560	581280	Good job.	R	20				
 581280	582560	She's kidding me.	id159		L			
-584000	585040	What's in the box?	id159		L			x
+584000	585040	What's in the box?	id159		L			Y
 585760	587360	Now [id160], what do you see in the box?	R					
-587360	590080	This looks like a man with a triangle on his head.	id160		S		a man with a triangle on his head	
-592560	593120	A man?	id159		L		a man	x
-593840	594080	Yeah.	id160		S			
+587360	590080	This looks like a man with a triangle on his head.	id160		S		a man with a triangle on his head	Y
+592560	593120	A man?	id159		L		a man	Y
+593840	594080	Yeah.	id160		S			Y
 598960	599680	Good job.	R					
 603840	605520	You guys finished my game.	R					
 606240	608080	Thank you so much for playing.	R					
 609680	610560	Did you have fun?	R					
-611600	612080	Yes.	id160					
+611600	612080	Yes.	id160		S			

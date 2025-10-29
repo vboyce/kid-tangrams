@@ -1,24 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
+start	end	text	speaker	trial	role	echo	description	on_topic
 35640	39280	So today, we get to play a fun matching game.	R					
 39280	40880	But before we do that, we're going	R					
 40880	43520	to play a little game of popping bubbles, just	R					
@@ -74,128 +54,128 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 185040	188360	Now, which of you sees the black box?	R	1				
 188360	188720	You.	R					
 188720	192120	So you're going to be telling, and you're going to be guessing.	R					
-192120	196720	It's a banana.	id244		S		banana	
+192120	196720	It's a banana.	id244		S		banana	Y
 196720	201520	And yeah, press it when you think you know which one it is.	R					
 201720	203720	Awesome.	R					
-203720	205200	Great job.	id244					
+203720	205200	Great job.	id244		S			
 205200	208880	Now, [id243], it's your turn to tell.	R	2				
-208880	211600	Why do I have a dog and bird?	id244		L		a dog and a bird	x
-211600	215600	It's a bird.	id243		S		a bird	
+208880	211600	Why do I have a dog and bird?	id244		L		a dog and a bird	Y
+211600	215600	It's a bird.	id243		S		a bird	Y
 215600	220120	So you're going to press it when you think you know which one it is.	R					
 								
 220120	222720	That's easy.	id243		S			
 222720	224880	Do you want to tell her again, [id243]?	R					
-224880	227880	Bird	id243		S			
+224880	227880	Bird	id243		S			Y
 227880	229520	Awesome.	R	3				
 229520	230640	That's great.	R					
 230720	236720	OK, now it's your turn to tell, [id244].	R					
 236720	244720	What do you see in the black box?	R					
 244720	247400	Do you want to use your words to tell, [id243]?	R					
-247400	253400	It's a circle with points on it.	id244		S		a circle with points on it	
-253400	255400	This is?	id243		L			
+247400	253400	It's a circle with points on it.	id244		S		a circle with points on it	Y
+253400	255400	This is?	id243		L			Y
 255400	259400	Awesome.	R	4				
 259400	262400	Now, what's your turn to tell, [id243]?	R					
-262400	265400	I don't know what the name is.	id243		S			
+262400	265400	I don't know what the name is.	id243		S			Y
 265400	266400	That's OK.	R					
 266400	274400	Just try and say what's in the black box.	R					
 274400	278400	Now, it's your turn to tell.	R	5				
 278400	281400	Do you want to say what's in the black box?	R					
 281400	283400	I want to press it.	id244		S			
 283400	288400	Well, it's [id243]'s turn to press, and it's your turn to tell him.	R					
-288400	291400	It's this one.	id244		S			
+288400	291400	It's this one.	id244		S			Y
 291400	293400	We're going to use our words to tell him.	R					
-293400	297400	It's the square with...	id244		S		the square with	
-297400	299400	I don't have a square.	id243		L			x
-299400	301400	I don't have a square.	id243		L			x
+293400	297400	It's the square with...	id244		S		the square with	Y
+297400	299400	I don't have a square.	id243		L			Y
+299400	301400	I don't have a square.	id243		L			Y
 301400	306400	Let's use our words.	R					
 306400	308400	We can't show him.	R					
 308400	310400	I know it's tough.	R					
-310400	316400	It's a feet, a leap, and a square head.	id244		S		a feet, a leap, and a square heard	
+310400	316400	It's a feet, a leap, and a square head.	id244		S		a feet, a leap, and a square heard	Y
 316400	318400	Awesome.	R	6				
 318400	320400	Great job.	R					
 320400	323400	Now, it's your turn to tell her, [id243].	R					
-323400	325400	I don't know what that's called.	id243		S			
+323400	325400	I don't know what that's called.	id243		S			Y
 325400	328400	That's OK.	R					
 328400	335400	Let's just try and use our words to describe it to [id244].	R					
-335400	340400	I don't know what it's called.	id243		S			
+335400	340400	I don't know what it's called.	id243		S			Y
 340400	347400	[id244], do you want to ask him a question to help him describe it to you?	R					
 347400	351400	I think it might be that one.	R					
 351400	355400	Why don't you take your best guess?	R					
 355400	359400	Yes!	R	7				
 359400	364400	OK, now it's your turn to tell.	R					
-364400	369400	It's a mountain with a bone on it.	id244		S		a mountain with a bone on it	
+364400	369400	It's a mountain with a bone on it.	id244		S		a mountain with a bone on it	Y
 369400	373400	Awesome.	R	8				
 373400	376400	Now, it's your turn to tell, [id243].	R					
-376400	379400	I don't know what it's called.	id243		S			
+376400	379400	I don't know what it's called.	id243		S			Y
 379400	381400	Yes!	R	9				
 381400	386400	Oh, my gosh.	id243		L			
 386400	390400	What do you see, [id244]?	R					
-390400	396400	I'm running with...	id244		S		running with	
-		with what?	id243		L			x
-396400	403400	What, a curved rectangle with a point on it?	id244		S		a curved rectangle with a point on it	
+390400	396400	I'm running with...	id244		S		running with	Y
+		with what?	id243		L			Y
+396400	403400	What, a curved rectangle with a point on it?	id244		S		a curved rectangle with a point on it	Y
 403400	405400	Awesome.	R	10				
 405400	407400	Yes!	id244		L			
 407400	410400	[id243], what do you see in the black box?	R					
-410400	419400	I have a bone on the head and a square.	id243		S		a bone on the head and a square	
+410400	419400	I have a bone on the head and a square.	id243		S		a bone on the head and a square	Y
 419400	422400	You could guess if you think you know what it is.	R					
 422400	426400	If you don't, do you want to ask [id243] a question to tell you more?	R					
-426400	429400	I think it was this one.	id244		L			
+426400	429400	I think it was this one.	id244		L			Y
 429400	431400	Then you can guess.	R					
 431400	432400	Yes!	R	11				
 432400	435400	Nice!	R					
 435400	440400	What do you see, [id244]?	R					
-440400	446400	It's a square with a triangle that doesn't look like a triangle.	id244		S		a square with a triangle that doesn’t look like a triangle	
-446400	449400	And another triangle that doesn't look like a triangle.	id244		S		and another triangle that doesn’t look like a triangle	
-449400	453400	And a bended rectangle.	id244		S		and a bended rectangle	
-453400	456400	So, it's a...	id244		S			
+440400	446400	It's a square with a triangle that doesn't look like a triangle.	id244		S		a square with a triangle that doesn’t look like a triangle	Y
+446400	449400	And another triangle that doesn't look like a triangle.	id244		S		and another triangle that doesn’t look like a triangle	Y
+449400	453400	And a bended rectangle.	id244		S		and a bended rectangle	Y
+453400	456400	So, it's a...	id244		S			Y
 456400	457400	Yes!	id244		S			
 457400	462400	Great!	R	12				
-462400	471400	It has a square on the back and feet.	id243		S		a square on the back and feet	
-471400	473400	This one?	id244		L			
+462400	471400	It has a square on the back and feet.	id243		S		a square on the back and feet	Y
+471400	473400	This one?	id244		L			Y
 473400	475400	You can guess if you think you know which one it is.	R					
-475400	476400	I think it might be that one.	id244		L			
+475400	476400	I think it might be that one.	id244		L			Y
 476400	477400	Yes!	id244		L			
 477400	484400	Nice!	R	13				
 484400	486400	What do you see, [id244]?	R					
-486400	490400	The same thing I already saw.	id244		S			
-490400	495400	Maybe I should just press it.	id244		S			
+486400	490400	The same thing I already saw.	id244		S			Y
+490400	495400	Maybe I should just press it.	id244		S			Y
 495400	498400	Do you want to ask her a question, [id243]?	R					
-		Is it	id243		L			
-498400	509400	 It’s um a bended rectangle and a triangle that doesn't look like a triangle?	id244		S		a bended rectangle and a triangle that doesn’t look like a triangle 	
-509400	511400	So, this one.	id243		L			x
-511400	513400	And now a triangle.	id244		S		and now a triangle	
+		Is it	id243		L			Y
+498400	509400	 It’s um a bended rectangle and a triangle that doesn't look like a triangle?	id244		S		a bended rectangle and a triangle that doesn’t look like a triangle 	Y
+509400	511400	So, this one.	id243		L			Y
+511400	513400	And now a triangle.	id244		S		and now a triangle	Y
 513400	516400	You can guess if you think you know which one.	R					
-516400	518400	And a square.	id244		S		and a square	
-518400	520400	Square, yeah.	id243		L			x
+516400	518400	And a square.	id244		S		and a square	Y
+518400	520400	Square, yeah.	id243		L			Y
 520400	521400	Huh?	id243		L			
 521400	522400	Yes!	id244		S			
 522400	523400	Nice!	R	14				
 523400	524400	Yes!	id243		S			
-525400	531400	It has a square on the back.	id243		S		a square on the back	
-531400	533400	Square on the back and feet.	id243		S		and feet	
-538400	540400	I don't know.	id244		L			x
-540400	543400	pointy nose	id243		S		pointy nose	
-543400	546400	pointy nose?	id244		L			x
+525400	531400	It has a square on the back.	id243		S		a square on the back	Y
+531400	533400	Square on the back and feet.	id243		S		and feet	Y
+538400	540400	I don't know.	id244		L			Y
+540400	543400	pointy nose	id243		S		pointy nose	Y
+543400	546400	pointy nose?	id244		L			Y
 546400	551400	Do you think you know which one it is?	R					
 551400	555400	Do you want to ask [id243] a question to tell you more?	R					
-555400	558400	[id243], what is it?	id244		L			
-558400	561400	I don't know the name.	id243		S			
+555400	558400	[id243], what is it?	id244		L			Y
+558400	561400	I don't know the name.	id243		S			Y
 561400	564400	You can just guess if you're not sure.	R					
-564400	567400	I think it might be this one.	id244		L			
+564400	567400	I think it might be this one.	id244		L			Y
 567400	568400	Then guess.	R					
 568400	571400	And press it.	R					
 571400	572400	Ah, that's okay.	R	15				
-572400	573400	It was this one.	id243		L			
+572400	573400	It was this one.	id243		L			Y
 573400	574400	That's okay.	R					
 574400	579400	Here, let's pass Smurphy.	R					
 579400	583400	What do you see, [id244]?	R					
-583400	589400	It's a mountain with a square and a point.	id244		S		a mountain with a square and a point	
-589400	591400	About easy.	id243		L			
+583400	589400	It's a mountain with a square and a point.	id244		S		a mountain with a square and a point	Y
+589400	591400	About easy.	id243		L			Y
 591400	592400	Yes!	id244		S			
 592400	593400	Yes!	id243		L			
 593400	595400	It has a square on it!	id244		S			
 595400	598400	It does.	R	16				
-598400	604400	Uh, it has like a diamond on it.	id243		S		a diamond on it	
+598400	604400	Uh, it has like a diamond on it.	id243		S		a diamond on it	Y
 608400	609400	Nice.	R	17				
 609400	611400	I'll pass it.	id244		S			
 611400	612400	I'll pass it.	R					
@@ -204,24 +184,24 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 616400	619400	Yeah.	R					
 619400	623400	What do you see?	R					
 623400	625400	What do you see in the black box, [id244]?	R					
-625400	630400	It's a square with a pointy triangle.	id244		S		a square with a pointy triangle	
+625400	630400	It's a square with a pointy triangle.	id244		S		a square with a pointy triangle	Y
 630400	631400	Yes!	id243		L			
 631400	633400	Yes!	id244		S			
 633400	636400	Here, take Smurphy.	R	18				
-636400	643400	Oh, it has a diamond on it.	id243		S		a diamond on it	
-643400	645400	It's this one.	id244		L			
+636400	643400	Oh, it has a diamond on it.	id243		S		a diamond on it	Y
+643400	645400	It's this one.	id244		L			Y
 645400	646400	Yes!	id244		L			
 646400	647400	Nice.	R	19				
 647400	652400	Okay, I'll pass it.	id244		S			
 652400	653400	Cool.	R					
 653400	657400	What do you see in the black box, [id244]?	R					
-657400	663400	It's two triangles on top with a square and a mountain.	id244		S		two triangles on top with a square and a mountain	
-663400	664400	And a bow.	id243		L		a bow	x
-664400	671400	And a bow, yes.	id244		S		a bow	
+657400	663400	It's two triangles on top with a square and a mountain.	id244		S		two triangles on top with a square and a mountain	Y
+663400	664400	And a bow.	id243		L		a bow	Y
+664400	671400	And a bow, yes.	id244		S		a bow	Y
 671400	676400	Here, let's pass Smurphy.	R	20				
-676400	680400	Uh, it has a square on top of it.	id243		S		a square on top of it	
-		does it have a bended rectangle?	id244		L		bended rectangle	x
-		yes, a bended rectangle	id243		S		a bended rectangle	
+676400	680400	Uh, it has a square on top of it.	id243		S		a square on top of it	Y
+		does it have a bended rectangle?	id244		L		bended rectangle	Y
+		yes, a bended rectangle	id243		S		a bended rectangle	Y
 688400	689400	Nice.	R					
 689400	691400	You said that's mine.	id243		S			
 691400	693400	Oh, you finished.	R					

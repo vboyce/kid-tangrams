@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	4000	Alrighty, now it's recording.	R					
 4000	12000	Okay, so today we're going to play a fun little matching game, but before we do that we're going to practice using the iPads.	R					
 12000	15000	So if you can click the button on the blue button on your screens.	R					
@@ -40,7 +40,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 146000	148000	You have it?	R					
 148000	150000	Okay, so then you are going to be the guesser first.	R					
 150000	156000	So can you tell [id173] what you see in the black box?	R					
-156000	158000	Banana?	id174		S		banana	
+156000	158000	Banana?	id174		S		banana	Y
 158000	159000	Okay.	R					
 159000	164000	And then [id173], once you have your best guess at which one it is, then you can just click it on the screen.	R					
 165000	166000	Nice.	R					
@@ -49,7 +49,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 168000	170000	And now you have the black box.	R	2				
 170000	172000	And now you're going to be the guesser.	R					
 172000	175000	So can you tell [id174] what you see in the black box?	R					
-175000	177000	Dogs.	id173		S		dogs	
+175000	177000	Dogs.	id173		S		dogs	Y
 178000	179000	And then...	R					
 179000	180000	So now you're guessing.	R					
 180000	183000	So now just tap the iPad, which one do you think it is?	R					
@@ -57,27 +57,27 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 189000	190000	And now we go back.	R					
 190000	192000	And now you're going to be the teller.	R					
 193000	198000	So now [id174], could you tell [id173] what you see in the black box?	R					
-198000	200000	Sun. 	id174		S		sun	
+198000	200000	Sun. 	id174		S		sun	Y
 204000	206000	Okay, now we're going to switch back.	R	4				
 206000	209000	Now you're going to be the guesser, and you're going to be the teller.	R					
-216000	218000	I don't know what same thing is.	id173		S			
+216000	218000	I don't know what same thing is.	id173		S			Y
 218000	225000	Yeah, you can just say anything that it looks like, anything that can help Murphy and [id174] to guess.	R					
-225000	227000	Diamond.	id173		S		diamond	
+225000	227000	Diamond.	id173		S		diamond	Y
 227000	231000	So you're not going to be clicking, but you can explain it to [id174] over here.	R					
-231000	232000	Diamond.	id173		S			
+231000	232000	Diamond.	id173		S			Y
 236000	238000	And [id174], you can ask [id173] any questions that you want.	R					
 238000	240000	And [id173], you can use as many words as you want.	R					
 240000	242000	It doesn't have to just be like one word.	R			x		
 243000	246000	So you can like describe it with like a lot of words.	R					
 249000	257000	So [id173], do you want to say what it looks like for [id174]?	R					
-259000	263000	It has a point on the top and little points on the end.	id173		S		a point on the top and little points on the end	
+259000	263000	It has a point on the top and little points on the end.	id173		S		a point on the top and little points on the end	Y
 265000	267000	Okay, [id174], do you want to take your best guess?	R					
-267000	269000	Point on the top.	id174					
+267000	269000	Point on the top.	id174		L			Y
 289000	292000	[id174], do you want to ask [id173] a question about it?	R					
 292000	295000	Or you can take your best guess on which one it is.	R					
 298000	302000	Okay, so it was the other one, but that's okay, because there's going to be a lot of chances to help Murphy.	R					
 302000	305000	So now we're going to switch, and you're going to be the teller.	R	5				
-309000	311000	Uh.	id174		S			
+309000	311000	Uh.	id174		S			Y
 322000	327000	So [id174], could you tell [id173] what you see in the box box?	R					
 330000	332000	Or what it looks like.	R					
 333000	335000	Okay.	id174		S			
@@ -87,38 +87,38 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 355000	357000	Okay.	id174		S			
 361000	366000	Yeah, so this one has the black box, so could you describe what that is?	R					
 366000	372000	Could you try to explain what it looks like to [id173], so that [id173] can guess?	R					
-375000	380000	It's pointing on the top.	id174		S		pointing on the top	
+375000	380000	It's pointing on the top.	id174		S		pointing on the top	Y
 381000	384000	Is there anything else?	R					
 385000	387000	Nice. Okay, cool.	R	6				
 387000	390000	And now we're going to switch back. That was great. You're doing a good job.	R					
 390000	393000	And now you're going to be the guesser, and you're going to be the teller.	R					
 395000	398000	So [id173], could you describe the shape in the box?	R			x		
-		it has triangles	id173		S		triangles	
-		triangles	id174		L		triangles	x
+		it has triangles	id173		S		triangles	Y
+		triangles	id174		L		triangles	Y
 403000	405000	Nice. Okay.	R	7				
 405000	407000	And now we're going to switch back.	R					
 407000	410000	And now, could you tell [id173] what you see?	R					
-414000	418000	Triangles in the bottom.	id174		S		triangles in the bottom	
+414000	418000	Triangles in the bottom.	id174		S		triangles in the bottom	Y
 423000	424000	Is there anything else?	R					
-424000	427000	There's a swirl on the top.	id174		S		a swirl on the top	
-430000	433000	And that's what it looks like.	id174					
+424000	427000	There's a swirl on the top.	id174		S		a swirl on the top	Y
+430000	433000	And that's what it looks like.	id174		S			Y
 433000	435000	Okay, yeah.	R					
 437000	439000	[id173], do you have any guesses?	R					
 439000	441000	Yes. Okay, cool.	R	8				
 441000	444000	And now you're going to be the guesser, and you're going to be the teller.	R					
-446000	450000	It has a diamond, and a triangle on the top.	id173		S		a diamond, and a triangle on the top	
-454000	457000	Triangle … But this is a swirl on the top.	id174		L			x
-457000	459000	So it might be this one?	id174		L			x
+446000	450000	It has a diamond, and a triangle on the top.	id173		S		a diamond, and a triangle on the top	Y
+454000	457000	Triangle … But this is a swirl on the top.	id174		L			Y
+457000	459000	So it might be this one?	id174		L			Y
 459000	462000	Do you want to ask [id173] more questions about it?	R					
 462000	466000	What's more questions about it?	id174		L			
 466000	468000	Yeah, like, do you want to ask?	R					
-468000	471000	It has one triangle on the bottom.	id173		S		one triangle on the bottom	
-		triangle on the …	id174		L			x
+468000	471000	It has one triangle on the bottom.	id173		S		one triangle on the bottom	Y
+		triangle on the …	id174		L			Y
 474000	475000	Nice. Okay.	R	9				
 475000	477000	And now it's your turn.	R					
-479000	483000	So there's two triangles on the top,	id174		S		two triangles on the top	
-483000	486000	and then the bottom there is...	id174		S		and then the bottom there is	
-489000	491000	kind of a triangle.	id174		S		kind of a triangle	
+479000	483000	So there's two triangles on the top,	id174		S		two triangles on the top	Y
+483000	486000	and then the bottom there is...	id174		S		and then the bottom there is	Y
+489000	491000	kind of a triangle.	id174		S		kind of a triangle	Y
 496000	498000	Oh, okay. There's the other one, but no worries.	R	10				
 498000	499000	There's more chances.	R					
 499000	501000	Now it's your turn to guess.	R					
@@ -126,55 +126,55 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 504000	505000	He fell.	R					
 505000	506000	There you go.	R					
 506000	508000	Do you want to hold him?	R					
-508000	510000	It has triangles	id173		S			
-510000	514000	Triangles and diamonds on the top.	id173		S		triangles and diamonds on the top	
+508000	510000	It has triangles	id173		S			Y
+510000	514000	Triangles and diamonds on the top.	id173		S		triangles and diamonds on the top	Y
 518000	519000	Nice.	R	11				
 519000	520000	Okay.	R					
 520000	522000	Now it's your turn to guess.	R					
 522000	524000	[id173], you can describe it.	R					
-525000	528000	So there's a swirl on the top,	id174		S		a swirl on the top	
-528000	532000	and there's triangles on the bottom.	id174		S		triangles on the bottom	
+525000	528000	So there's a swirl on the top,	id174		S		a swirl on the top	Y
+528000	532000	and there's triangles on the bottom.	id174		S		triangles on the bottom	Y
 536000	537000	Nice.	R	12				
 537000	538000	Okay.	R					
 538000	540000	Now your turn to guess.	R					
-540000	544000	It has a diamond on the top.	id173		S		diamond on the top	
-546000	548000	There's a top, so there's this one.	id174		L			x
+540000	544000	It has a diamond on the top.	id173		S		diamond on the top	Y
+546000	548000	There's a top, so there's this one.	id174		L			Y
 548000	550000	You can ask.	R					
 550000	551000	Nice.	R	13				
 551000	552000	Okay.	R					
 552000	553000	There you go.	R					
-557000	559000	There's a swirl on the top,	id174		S		swirl on the top	
-559000	562000	and there's triangles on the bottom.	id174		S		triangles on the bottom	
+557000	559000	There's a swirl on the top,	id174		S		swirl on the top	Y
+559000	562000	and there's triangles on the bottom.	id174		S		triangles on the bottom	Y
 565000	566000	Yay!	R	14				
 567000	568000	Cool.	R					
 568000	570000	Now it's your turn to guess,	R					
 570000	572000	and your turn to tell.	R					
-573000	576000	It has a diamond and a triangle.	id173		S			
-577000	581000	It has a diamond and a triangle on the top.	id173		S		a diamond and a triangle on the top	
-581000	583000	Diamond and triangle?	id174		L			x
-584000	586000	Is it this one?	id174		L			x
+573000	576000	It has a diamond and a triangle.	id173		S			Y
+577000	581000	It has a diamond and a triangle on the top.	id173		S		a diamond and a triangle on the top	Y
+581000	583000	Diamond and triangle?	id174		L			Y
+584000	586000	Is it this one?	id174		L			Y
 588000	589000	Nice.	R	15				
 589000	590000	You do it great.	R					
 592000	593000	and now	R					
-593000	596000	It has two triangles.	id174		S		two triangles	
+593000	596000	It has two triangles.	id174		S		two triangles	Y
 599000	600000	Yay.	R	16				
 600000	602000	Now it's your turn to guess.	R					
-603000	605000	It has a diamond on the top.	id173		S		A diamond on the top	
+603000	605000	It has a diamond on the top.	id173		S		A diamond on the top	Y
 608000	610000	Wow, you're going fast now.	R	17				
 610000	611000	There you go.	R					
-613000	616000	There's a swirl on the top.	id174		S		a swirl on the top	
+613000	616000	There's a swirl on the top.	id174		S		a swirl on the top	Y
 622000	623000	It's okay.	R	18				
 624000	625000	There you go.	R					
-627000	631000	There's a diamond on the top.	id173		S		a diamond on the top	
+627000	631000	There's a diamond on the top.	id173		S		a diamond on the top	Y
 634000	635000	Okay.	R	19				
 635000	636000	You can look back.	R					
 636000	637000	Now it's your turn to guess,	R					
 637000	639000	and your turn to tell.	R					
-639000	642000	It has a diamond on the top.	id174		S		a diamond on the top	
+639000	642000	It has a diamond on the top.	id174		S		a diamond on the top	Y
 643000	644000	Cool.	R	20				
 644000	645000	Okay.	R					
 645000	647000	Now it's your turn to guess.	R					
-648000	651000	It has two triangles on the top.	id173		S		two triangles on the top	
+648000	651000	It has two triangles on the top.	id173		S		two triangles on the top	Y
 653000	654000	Nice.	R					
 655000	656000	There you go.	R					
 658000	660000	That's the end of the game.	R					

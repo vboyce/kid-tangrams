@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	3000	We can play against each other.	R					
 3000	7000	Uh, no, you're working together, actually. It's a cooperative game.	R					
 7000	9000	Okay, so...	R					
@@ -66,7 +66,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 143000	145000	So, you can take Smurfy.	R					
 146000	147000	There you go.	R					
 148000	152000	So, [id200], could you tell [id199] what you see inside the black box?	R					
-153000	154000	Um, apple.	id200		S		apple	
+153000	154000	Um, apple.	id200		S		apple	Y
 154000	155000	Yeah.	R					
 155000	159000	And then, [id199], when you have a guess, then you can just click the screen of which one you think it is.	R					
 161000	162000	Yeah, just like that.	R	2				
@@ -75,102 +75,102 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 165000	166000	Okay, so now we're gonna switch.	R					
 166000	170000	So, now, you have the black box, so you're gonna be the teller, and you're gonna be the guesser.	R					
 170000	173000	So, [id199], could you tell [id200] what you see inside the black box?	R					
-174000	175000	A dog.	id199		S		a dog	
+174000	175000	A dog.	id199		S		a dog	Y
 177000	178000	Nice.	R	3				
 178000	179000	Wow, we're going so fast, guys.	R					
 179000	180000	Okay, now we're gonna switch.	R					
 180000	182000	You're gonna be the guesser, and you're gonna be the teller.	R					
-185000	187000	I see a spike.	id200		S			
-187000	188000	A spike ball.	id200		S		a spike ball	
+185000	187000	I see a spike.	id200		S			Y
+187000	188000	A spike ball.	id200		S		a spike ball	Y
 191000	192000	Nice.	R	4				
 192000	194000	And now we're gonna switch back.	R					
 194000	196000	Now, you're gonna be the guesser, and you're gonna be the teller.	R					
-197000	199000	Uh, crown.	id199		S		crown	
-200000	202000	Up, upside down crown.	id199		S		Upside-down crown	
+197000	199000	Uh, crown.	id199		S		crown	Y
+200000	202000	Up, upside down crown.	id199		S		Upside-down crown	Y
 204000	205000	Nice.	R	5				
 205000	207000	Okay, now we're gonna keep going.	R					
 207000	208000	You're the guesser, and you're the teller.	R					
-211000	213000	This weird-looking shoe.	id200		S		Weird-looking shoe	
+211000	213000	This weird-looking shoe.	id200		S		Weird-looking shoe	Y
 216000	218000	Okay, here's the other one, but that's okay.	R	6				
 219000	220000	Don't worry about it.	R					
 220000	221000	Now we're gonna switch.	R					
 221000	223000	Now you're gonna be the guesser, and you're gonna be the teller.	R					
-224000	229000	Um, someone walking in clothes, and they don't see the possum.	id199		S		someone walking in clothes and they don’t see the possum	
+224000	229000	Um, someone walking in clothes, and they don't see the possum.	id199		S		someone walking in clothes and they don’t see the possum	Y
 232000	233000	Nice.	R	7				
 233000	234000	And now we're gonna switch.	R					
 234000	235000	You're gonna be the guesser.	R					
-237000	242000	Um, a shoe that has two, um, one spike that's big,	id200		S		a shoe that has one spike that’s big	
-242000	245000	and one other one that's smaller, and that's a square,	id200		S		and one other one that’s smaller and that’s a square	
-245000	252000	and a tip of a shoe that has a little, um,	id200		S		and a top of a shoe that has a little	
-253000	255000	triangle at the bottom.	id200		S		triangle at the bottom	
+237000	242000	Um, a shoe that has two, um, one spike that's big,	id200		S		a shoe that has one spike that’s big	Y
+242000	245000	and one other one that's smaller, and that's a square,	id200		S		and one other one that’s smaller and that’s a square	Y
+245000	252000	and a tip of a shoe that has a little, um,	id200		S		and a top of a shoe that has a little	Y
+253000	255000	triangle at the bottom.	id200		S		triangle at the bottom	Y
 255000	256000	Okay.	R	8				
 258000	259000	Nice.	R					
-259000	260000	There was a hand.	id200		L			
+259000	260000	There was a hand.	id200		L			Y
 260000	262000	Awesome, that was a great description.	R					
 262000	264000	Okay, and now you're going to be the guesser,	R					
 264000	266000	you're going to be the teller.	R					
-266000	274000	I see this bow with a square that's on tipping like this.	id199		S		this bow with a square that’s on tipping like this	
+266000	274000	I see this bow with a square that's on tipping like this.	id199		S		this bow with a square that’s on tipping like this	Y
 277000	279000	Aw, here's the other one,	R	9				
 279000	280000	because don't worry about it.	R					
 280000	281000	Now we're gonna slide,	R					
 281000	283000	and you're gonna be the guesser.	R					
 284000	285000	You're the teller.	R					
-285000	289000	Um, this weird looking picture window.	id200		S		weird looking picture window	
+285000	289000	Um, this weird looking picture window.	id200		S		weird looking picture window	Y
 290000	291000	Oh, why?	R					
 293000	294000	Awesome.	R	10				
-294000	297000	I said a weird looking picture window.	id200		L			
+294000	297000	I said a weird looking picture window.	id200		L			Y
 297000	299000	Oh, that worked.	R					
 299000	301000	Now you're gonna be the teller.	R					
-301000	305000	Um, this weird shoe.	id199		S		this weird shoe	
+301000	305000	Um, this weird shoe.	id199		S		this weird shoe	Y
 309000	310000	Nice.	R	11				
 310000	311000	Now we’ll switch	R					
-314000	317000	Um, a man with a square on his back.	id200		S		a man with a square on his back	
+314000	317000	Um, a man with a square on his back.	id200		S		a man with a square on his back	Y
 320000	321000	Nice.	R					
 322000	324000	We’ll swap	R	12				
-326000	327000	Um.	id200		L			
+326000	327000	Um.	id200		L			Y
 327000	328000	Oh, you're the guesser.	R					
 328000	330000	So, [id199], you're the teller.	R					
-331000	333000	Um, no, that's right.	id199		S			
-333000	338000	Actually, we're looking to with this thing,	id199		S		this thing	
-338000	342000	part of a, doesn't have a square,	id199		S			
-342000	347000	part of a square, and the square tipping over,	id199		S		part of a square and the square tipping over	
-347000	354000	and the part of the square is facing down on the back.	id199		S		and the part of the square is facing down on the back	
+331000	333000	Um, no, that's right.	id199		S			Y
+333000	338000	Actually, we're looking to with this thing,	id199		S		this thing	Y
+338000	342000	part of a, doesn't have a square,	id199		S			Y
+342000	347000	part of a square, and the square tipping over,	id199		S		part of a square and the square tipping over	Y
+347000	354000	and the part of the square is facing down on the back.	id199		S		and the part of the square is facing down on the back	Y
 357000	358000	That's okay.	R	13				
 359000	361000	That's okay, we have more chances.	R					
 361000	362000	There you go.	R					
 362000	364000	Now you're gonna be the teller.	R					
-364000	366000	Oh, weird looking shoe.	id200		S		weird looking shoe	
+364000	366000	Oh, weird looking shoe.	id200		S		weird looking shoe	Y
 370000	371000	Nice.	R	14				
 375000	377000	Okay, now you're gonna be the teller.	R					
-377000	382000	Then this guy walking in here without being seen.	id199		S		this guy walking in here without being seen	
-382000	385000	A square on, does he have a square on his back?	id200		L		a square on his back?	x
-385000	386000	Yes.	id199		S			
+377000	382000	Then this guy walking in here without being seen.	id199		S		this guy walking in here without being seen	Y
+382000	385000	A square on, does he have a square on his back?	id200		L		a square on his back?	Y
+385000	386000	Yes.	id199		S			Y
 387000	388000	Nice.	R					
 389000	390000	Now we're gonna swap back.	R					
 390000	391000	You're the guesser.	R					
 391000	392000	You’re the teller?	R	15				
-393000	396000	Um, a weird looking shoe that has two.	id200		S		a weird looking shoe that has two	
-396000	399000	No, you don't have to say that.	id199		L			x
+393000	396000	Um, a weird looking shoe that has two.	id200		S		a weird looking shoe that has two	Y
+396000	399000	No, you don't have to say that.	id199		L			Y
 400000	401000	You already knew.	R					
 401000	402000	You knew so fast.	R					
 403000	405000	Now you're gonna be the guesser and you're the teller.	R	16				
-406000	408000	This is weird looking banana.	id199		S		a weird looking banana	
+406000	408000	This is weird looking banana.	id199		S		a weird looking banana	Y
 410000	411000	Yay!	R	17				
 412000	414000	Now you're the guesser and you're the teller.	R					
-415000	424000	Um, weird looking shoe banana.	id200		S		weird looking shoe banana	
+415000	424000	Um, weird looking shoe banana.	id200		S		weird looking shoe banana	Y
 425000	426000	Nice.	R	18				
 428000	430000	Now you're the guesser and you're the teller.	R					
-432000	434000	This is weird looking banana.	id199		S		weird looking banana	
+432000	434000	This is weird looking banana.	id199		S		weird looking banana	Y
 435000	436000	Yay!	R					
 436000	437000	Nice.	R	19				
-438000	443000	This shoe is a square that's tippin' off.	id200		S		this shoe is a square that’s square off	
+438000	443000	This shoe is a square that's tippin' off.	id200		S		this shoe is a square that’s square off	Y
 445000	446000	Yay!	R					
 446000	447000	Wow.	R	20				
 448000	449000	You're doing great guys.	R					
 450000	451000	You know you're the teller.	R					
-452000	456000	There's this guy walking in this clothes.	id199		S		this guy walking in this clothes	
-457000	459000	Does he have a square on his back?	id200		L		a square on his back?	x
-459000	460000	Yes.	id199		S			
+452000	456000	There's this guy walking in this clothes.	id199		S		this guy walking in this clothes	Y
+457000	459000	Does he have a square on his back?	id200		L		a square on his back?	Y
+459000	460000	Yes.	id199		S			Y
 461000	462000	Nice.	R					
 462000	463000	It did move.	id200		L			
 465000	468000	Oh, that's the end of the game guys.	R					

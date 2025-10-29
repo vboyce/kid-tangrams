@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 53280	56680	So today, we're gonna play a fun matching game.	R					
 56680	59440	I'm just gonna make sure, all right,	R					
 59440	61440	we're gonna play a fun matching game.	R					
@@ -66,8 +66,8 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 216160	217960	and you're the one guessing.	R					
 217960	221600	So do you wanna describe to [id227] what's in the black box?	R					
 223280	224120	A what?	R					
-		banana	id228		S		banana	
-		banana	id227		L			
+		banana	id228		S		banana	Y
+		banana	id227		L			Y
 226280	228040	Do you think you know which one it is?	R					
 228040	229120	Do you wanna tap it?	R					
 232200	233720	Just tap it, yeah.	R					
@@ -75,157 +75,157 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 236600	238640	And now you're gonna be the guesser	R					
 238640	240640	and you're gonna be the teller, [id227].	R					
 242560	244880	Do you wanna describe what's in the box?	R					
-244880	245720	A dog.	id227		S		a dog	
+244880	245720	A dog.	id227		S		a dog	Y
 249680	250760	Awesome.	R	3				
 250760	252640	And now we'll just pass it back and forth.	R					
 252640	254560	We'll keep switching.	R					
 254560	256760	What do you see in the black box this time?	R					
-257760	258600	A Sun.	id228		S		a sun	
+257760	258600	A Sun.	id228		S		a sun	Y
 259680	261680	Do you think you know which one it is?	R					
-261680	262520	Sun.	id227		L		sun 	x
-264680	266080	A star.	id227		L		a star	x
+261680	262520	Sun.	id227		L		sun 	Y
+264680	266080	A star.	id227		L		a star	Y
 266080	268880	And just tap it if you think you know which one it is.	R					
 271120	272360	Now we'll switch back.	R	4				
-276800	277640	I don't know.	id227		S			
+276800	277640	I don't know.	id227		S			Y
 277640	278480	You don't know?	R					
 278480	280600	Can you try and use words to describe it?	R					
 282920	284480	Oh, wow, you already got it.	R	5				
 285480	288640	You can try and wait for the description, too.	R					
 288640	290360	All right, now it's your turn, [id228].	R					
 290360	291840	What do you see in the box?	R					
-296680	297520	A person.	id228		S		a person	
+296680	297520	A person.	id228		S		a person	Y
 298560	302680	Do you wanna ask any questions to her, [id227], to clarify?	R					
-302680	303800	I don't know.	id227		L			
+302680	303800	I don't know.	id227		L			Y
 303800	305000	You don't know?	R					
 305000	308920	Do you wanna give any more description?	R					
 308920	311120	Do you wanna tell her more about what you see?	R					
-312120	316440	There's a shape that's kind of like a diamond.	id228		S		a shape that’s kind of like a diamond	
-316440	321440	And there's a shape that's this way and like that way.	id228		S		a shape that’s this way and like that way	
-321560	324040	And there's one that's down right there.	id228		S		one that’s down right there	
+312120	316440	There's a shape that's kind of like a diamond.	id228		S		a shape that’s kind of like a diamond	Y
+316440	321440	And there's a shape that's this way and like that way.	id228		S		a shape that’s this way and like that way	Y
+321560	324040	And there's one that's down right there.	id228		S		one that’s down right there	Y
 324040	325720	What is this button for?	id227		L			
 326720	328480	That doesn't do anything.	R					
-328480	331720	What this, and it angles them like the center,	id228		S		it angles them like the center	
-331720	335200	like a shoe, and there's a square on its back.	id228		S		like a shoe, and there’s a square on it’s back	
-335200	338320	There's a shoe and a square on its back.	id227		L			x
+328480	331720	What this, and it angles them like the center,	id228		S		it angles them like the center	Y
+331720	335200	like a shoe, and there's a square on its back.	id228		S		like a shoe, and there’s a square on it’s back	Y
+335200	338320	There's a shoe and a square on its back.	id227		L			Y
 338320	340320	Do you think you know which one it is, [id227]?	R					
 342120	343520	There you go.	R	6				
 344560	347160	All right, now it's your turn to describe, [id227].	R					
 350680	351520	What do you see?	R					
-351520	353480	A diamond and a chair.	id227		S		a diamond and a chair	
+351520	353480	A diamond and a chair.	id227		S		a diamond and a chair	Y
 354800	357000	Do you think you know which one it is, [id228]?	R					
 358400	360000	Do you wanna ask any questions?	R					
 361800	364920	Aw, that's okay, we'll still have a lot more chances.	R	7				
 368640	370840	Now it's your turn, [id228], what do you see?	R					
-372040	377040	Do you see that there's a down face	id228		S		a down face	
-377400	381680	with a neck on the ground and a feet,	id228		S		with a neck on the ground and a feet	
-381680	386160	and one feet is going down one feet up	id228		S		and one feet is going down one feet up	
-386160	387520	and a square on the leg.	id228		S		and a square on the leg	
+372040	377040	Do you see that there's a down face	id228		S		a down face	Y
+377400	381680	with a neck on the ground and a feet,	id228		S		with a neck on the ground and a feet	Y
+381680	386160	and one feet is going down one feet up	id228		S		and one feet is going down one feet up	Y
+386160	387520	and a square on the leg.	id228		S		and a square on the leg	Y
 388520	390720	Do you think you know which one it is, [id227]?	R					
 392360	393960	Wow, nice.	R	8				
 393960	395400	Just pass it back.	R					
 396880	398880	All right, now your turn, [id227].	R					
-398880	403880	A square and a leg and two triangles on the top.	id227		S		a square and a leg and two triangles on the top	
+398880	403880	A square and a leg and two triangles on the top.	id227		S		a square and a leg and two triangles on the top	Y
 405800	408120	Which one do you think it is, [id228]?	R					
-408120	408960	This one.	id228		L			
+408120	408960	This one.	id228		L			Y
 410920	411760	Yeah.	R	9				
 415520	416560	Your turn, [id228].	R					
-417720	419040	That one.	id228		S			
-419040	424040	It has this, it has a piece of shape on it,	id228		S		a piece of shape on it	
-425040	429320	it has a piece of shape on it and it's making	id228		S		it’s making	
-429320	432640	like something sticks and there's a square on it	id228		S		something sticks and there’s a square on it	
-432640	437640	for a face and then there's one that looks like this.	id228		S		for a face and then there’s one that looks like this	
+417720	419040	That one.	id228		S			Y
+419040	424040	It has this, it has a piece of shape on it,	id228		S		a piece of shape on it	Y
+425040	429320	it has a piece of shape on it and it's making	id228		S		it’s making	Y
+429320	432640	like something sticks and there's a square on it	id228		S		something sticks and there’s a square on it	Y
+432640	437640	for a face and then there's one that looks like this.	id228		S		for a face and then there’s one that looks like this	Y
 438880	441480	Let's try and use our words to describe.	R					
 441480	443040	Let's try and use our words only.	R					
-444040	445320	Could you show me it, [id228]?	id227		L			
+444040	445320	Could you show me it, [id228]?	id227		L			Y
 445320	447240	You can't show, you can't show.	R					
 447240	449760	You wanna ask any questions to her though, [id227]?	R					
-449760	452680	I don't know, what does it look like?	id227		L			x
-452680	456960	It has one part there and one part there.	id228		S		one part there and one part there	
-457960	458800	Okay.	id227		L			
+449760	452680	I don't know, what does it look like?	id227		L			Y
+452680	456960	It has one part there and one part there.	id228		S		one part there and one part there	Y
+457960	458800	Okay.	id227		L			Y
 460080	461760	Just take your best guess if you think you know	R					
 461760	463320	which one it is.	R					
-463320	465240	Is this, this one?	id227		L			
+463320	465240	Is this, this one?	id227		L			Y
 465240	466800	I can't say.	R					
 468520	470480	Any other descriptions you wanna add?	R					
-471360	474200	It looks like a bunny, a bunny sitting down.	id228		S		a bunny, a bunny sitting down	
-475760	477480	Is it this one, [id228]?	id227		L			x
+471360	474200	It looks like a bunny, a bunny sitting down.	id228		S		a bunny, a bunny sitting down	Y
+475760	477480	Is it this one, [id228]?	id227		L			Y
 477480	479480	You can't look, but you can just guess.	R					
 479480	482080	If you think it's right, then you can just guess.	R					
 482080	484000	It's okay if you get it wrong, [id227].	R					
 485800	486720	There you go.	R	10				
 487680	488520	All right.	R					
-488520	490120	I thought it was this one.	id227		S			
+488520	490120	I thought it was this one.	id227		S			Y
 491440	492800	Now it's your turn, [id227].	R					
-493920	496160	A square and a like,	id227		S		a square and a	
-500040	504400	this, a triangle, a pizza slice,	id227		S		triangle, a pizza slice	
-504400	508760	and another pizza slice on its bottom.	id227		S		and another pizza slice on its bottom	
+493920	496160	A square and a like,	id227		S		a square and a	Y
+500040	504400	this, a triangle, a pizza slice,	id227		S		triangle, a pizza slice	Y
+504400	508760	and another pizza slice on its bottom.	id227		S		and another pizza slice on its bottom	Y
 513080	515360	And there you go.	R	11				
 519280	520880	What does it look like, [id228]?	R					
-522560	527000	It looks like it heads down and one foot down	id228		S		its heads down and one foot down	
-527000	530400	and one foot up and square on its back.	id228		S		and one foot up and square on its back	
-530400	532640	And a part for it’s body. 	id228		S		and a part for its body	
-533960	535800	It's one like this.	id228		S			
+522560	527000	It looks like it heads down and one foot down	id228		S		its heads down and one foot down	Y
+527000	530400	and one foot up and square on its back.	id228		S		and one foot up and square on its back	Y
+530400	532640	And a part for it’s body. 	id228		S		and a part for its body	Y
+533960	535800	It's one like this.	id228		S			Y
 539320	540160	There you go.	R	12				
-543080	546000	So it has a diamond on its head	id227		S		a diamond on its head	
-546000	547680	and it's like a rocker chair.	id227		S		and it’s like a rocker chair	
+543080	546000	So it has a diamond on its head	id227		S		a diamond on its head	Y
+546000	547680	and it's like a rocker chair.	id227		S		and it’s like a rocker chair	Y
 554040	555000	Nice.	R	13				
 555000	556200	Wanna pass, Murphy?	R					
 561080	563120	What does it look like, [id228]?	R					
-563120	564720	A head down.	id228		S		a head down	
+563120	564720	A head down.	id228		S		a head down	Y
 564720	566040	Let's try and only use our words.	R					
 566040	568480	I know it's hard to stop the gestures, but.	R					
-569160	573240	The triangle is shaped and it has a little pointy part	id228		S		the triangle is shaped and it has a little pointy part	
-573240	578240	on it's nose and it has a square, a long square body.	id228		S		on its nose and it has a square, a long square body	
+569160	573240	The triangle is shaped and it has a little pointy part	id228		S		the triangle is shaped and it has a little pointy part	Y
+573240	578240	on it's nose and it has a square, a long square body.	id228		S		on its nose and it has a square, a long square body	Y
 580160	581360	I know it's hard, yeah.	R					
-582600	583800	Is it this one?	id227		L			
+582600	583800	Is it this one?	id227		L			Y
 583800	586200	Try, yeah, I guess if you think.	R					
 586200	587280	There you go.	R	14				
 587280	588120	You got it.	id228		L			
 588120	589640	Yeah, see, you don't even need the hands.	R					
 589640	591040	You don't have the words.	R					
-591040	594000	Okay, so it has a diamond on it's head	id227		S		a diamond on its head	
-594000	595960	and it's like a rocker chair again.	id227		S		it’s like a rocker chair	
+591040	594000	Okay, so it has a diamond on it's head	id227		S		a diamond on its head	Y
+594000	595960	and it's like a rocker chair again.	id227		S		it’s like a rocker chair	Y
 598640	599720	That was fast.	R	15				
-602000	607000	So it looks like a head down and one foot up	id228		S		a head down and one foot up	
-607160	612160	and one foot down and then a square on its body	id228		S		and one foot down and then a square on its body	
-612760	615640	and then a square on its back.	id228		S		and then a square on its back	
+602000	607000	So it looks like a head down and one foot up	id228		S		a head down and one foot up	Y
+607160	612160	and one foot down and then a square on its body	id228		S		and one foot down and then a square on its body	Y
+612760	615640	and then a square on its back.	id228		S		and then a square on its back	Y
 618520	619360	Awesome.	R	16				
-623120	628280	It has pizza slices on it's head	id227		S		pizza slices on its head	
-628280	633080	and it has a square and it there’s a shoe.	id227		S		a square and there’s a shoe	
-634480	635320	I got it.	id228		L			
+623120	628280	It has pizza slices on it's head	id227		S		pizza slices on its head	Y
+628280	633080	and it has a square and it there’s a shoe.	id227		S		a square and there’s a shoe	Y
+634480	635320	I got it.	id228		L			Y
 637680	638520	Yeah.	R	17				
-641880	646360	And so it has a square face down	id228		S		a square face down	
-646360	650160	and it has a pizza slice on it's foot	id228		S		a pizza slice on its foot	
-650160	655160	and it has a diagonal ish shape and one that's down	id228		S		a diagonalish shape and one that’s down	
-656000	661000	and one that's straight and one that's up again	id228		S		and one that’s straight and one that’s up again	
-661360	666200	and a square and two and one you're down	id228		S		and a square and two and one you’re down	
-666200	667520	and one you're up.	id228		S		and one you’re up	
+641880	646360	And so it has a square face down	id228		S		a square face down	Y
+646360	650160	and it has a pizza slice on it's foot	id228		S		a pizza slice on its foot	Y
+650160	655160	and it has a diagonal ish shape and one that's down	id228		S		a diagonalish shape and one that’s down	Y
+656000	661000	and one that's straight and one that's up again	id228		S		and one that’s straight and one that’s up again	Y
+661360	666200	and a square and two and one you're down	id228		S		and a square and two and one you’re down	Y
+666200	667520	and one you're up.	id228		S		and one you’re up	Y
 669800	672520	Do you think you know which one it is, [id227]?	R					
 672520	674920	Do you want to ask any questions?	R					
-674920	679920	Okay, so [id228], what does it have like inside?	id227		L			x
-680080	680920	Cool.	id228		S			
-683520	688520	So it has a square head, it's on the square head.	id228		S		a square head, on the square head	
-689440	691200	You mean this one?	id227		L			x
-691200	696200	I think 	id228		S			
+674920	679920	Okay, so [id228], what does it have like inside?	id227		L			Y
+680080	680920	Cool.	id228		S			Y
+683520	688520	So it has a square head, it's on the square head.	id228		S		a square head, on the square head	Y
+689440	691200	You mean this one?	id227		L			Y
+691200	696200	I think 	id228		S			Y
 696200	698040	Yeah, great job.	R	18				
-705320	706920	Too loud.	id227					
+705320	706920	Too loud.	id227		S			
 706920	708920	I know it's a little loud, but you got it.	R					
-710920	714600	It has a square on its back, it has two things	id227		S		a square on its back, it has two things	
-		And it’s a human	id227		S		and it’s a human	
+710920	714600	It has a square on its back, it has two things	id227		S		a square on its back, it has two things	Y
+		And it’s a human	id227		S		and it’s a human	Y
 718360	720160	You think you know which one it is, [id228]?	R					
 721520	722360	Awesome.	R	19				
 723320	728320	Why, why both camera, why, why, why?	id227		L			
-729160	733280	It has a diamond head and it's sort of like a marker here	id228		S		a diamond head and it’s sort of like a marker here	
-733280	736240	and it has a diamond body and it looks like	id228		S		and it has a diamond body and it looks like	
-736240	738760	a little house on its body.	id228		S		a little house on its body	
-738760	740720	is it this one?	id227		L			
+729160	733280	It has a diamond head and it's sort of like a marker here	id228		S		a diamond head and it’s sort of like a marker here	Y
+733280	736240	and it has a diamond body and it looks like	id228		S		and it has a diamond body and it looks like	Y
+736240	738760	a little house on its body.	id228		S		a little house on its body	Y
+738760	740720	is it this one?	id227		L			Y
 740720	742000	Take your best guess.	R					
 743720	746720	Oh, that's okay though.	R	20				
 746720	748120	Here, let's pass the Murphy.	R					
-751720	755400	It has, look where my hand is.	id227		S			
-757760	762760	It has a square on its back and pizza slice on its head	id227		S		a square on its back and pizza slice on its head	
-763160	768160	a leg this way and a triangle and a piece of pizza that way.	id227		S		a leg this way and a triangle and a piece of pizza that way	
-769400	770240	Okay.	id228		L			
+751720	755400	It has, look where my hand is.	id227		S			Y
+757760	762760	It has a square on its back and pizza slice on its head	id227		S		a square on its back and pizza slice on its head	Y
+763160	768160	a leg this way and a triangle and a piece of pizza that way.	id227		S		a leg this way and a triangle and a piece of pizza that way	Y
+769400	770240	Okay.	id228		L			Y
 772960	774240	Ah, that's okay.	R					
 776120	777960	Oh, you guys finished.	R					
 777960	781720	All right, well thank you so much for playing my game.	R					

@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	4720	So I remember how you all play the game, and then can I take off your name tags?	R					
 5720	6720	Yeah.	id252					
 		Why? Why do we take them off?	id252					
@@ -43,9 +43,9 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 179180	183900	So touch the blue boxes. Now who has the black box on their screen?	R					
 185020	187980	So you'll be telling and you'll be helping Smurphy guess.	R	1				
 191100	193100	So what do you see, [id252]?	R					
-194940	196940	an	id252		S			
+194940	196940	an	id252		S			Y
 196940	198940	What do you see in the black box?	R					
-198940	200940	Apple.	id252		S		apple	
+198940	200940	Apple.	id252		S		apple	Y
 200940	202940	And do you want to guess now?	R					
 204220	206220	How do you guess?	R					
 207260	209660	By tapping. Do you want to tap which one you think it is?	R					
@@ -53,7 +53,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 216860	218060	Awesome.	R	2				
 218060	221900	Now we'll pass Smurphy and you're going to be the one telling.	R					
 224140	226140	What do you see in the black box?	R					
-		a bird	id251		S		a bird	
+		a bird	id251		S		a bird	Y
 228140	230300	Do you want to guess and tap it?	R					
 236540	238540	Awesome. We'll pass Smurphy again.	R	3				
 		This is fun	id251		L			
@@ -62,108 +62,108 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 251820	253820	You heard something?	id251		L			
 253980	259260	I don't think there's anything else here. I think if it happens again, we'll look at it. Yeah.	R					
 260460	262460	What do you see in the black box, [id252]?	R					
-		arrows pointing these ways and a mountain	id252		S		arrows pointing these ways and a mountain	
-		I see it	id251		L			
+		arrows pointing these ways and a mountain	id252		S		arrows pointing these ways and a mountain	Y
+		I see it	id251		L			Y
 269260	273740	You want to press it? Nice. Let's pass Smurphy.	R					
 277900	279900	What do you see in the black box, [id251]?	R	4				
-280060	282060	I see...	id251		S			
-283500	287020	Maybe like a bowl backwards?	id251		S		a bowl backwards	
-287020	288540	A bold backwards?	id252		L			x
-288540	295340	No. Yeah, wait. I think it's a bowl backwards.	id251		S			
+280060	282060	I see...	id251		S			Y
+283500	287020	Maybe like a bowl backwards?	id251		S		a bowl backwards	Y
+287020	288540	A bold backwards?	id252		L			Y
+288540	295340	No. Yeah, wait. I think it's a bowl backwards.	id251		S			Y
 298380	300540	Do you want to try and guess if you think you know what it is?	R					
 302700	305260	Do you want to ask [id251] a question to tell you more?	R					
-305900	307900	You tell mine.	id252		L			
-308460	314220	What shape it is? Like, is it like the shape like a flower or a star? Is it like a shape?	id252		L		a shape like a flower or a star	x
-314220	318300	 A star,	id251		S		a star	
-		 a star. Something like a star?	id252		L			x
-		yeah	id251		S			
-319340	321340	Okay.	id252		L			
+305900	307900	You tell mine.	id252		L			Y
+308460	314220	What shape it is? Like, is it like the shape like a flower or a star? Is it like a shape?	id252		L		a shape like a flower or a star	Y
+314220	318300	 A star,	id251		S		a star	Y
+		 a star. Something like a star?	id252		L			Y
+		yeah	id251		S			Y
+319340	321340	Okay.	id252		L			Y
 321900	325420	Ah, that's okay. Smurphy has lots more chances.	R	5				
 327500	329500	What do you see, [id252]?	R					
-330540	332540	Something like a bunny.	id252		S		a bunny	
-332860	334860	Is it this one? What?	id251		L			
-335420	343020	Like, is it like having something like an ear like that and the body something like that?	id252		S		an ear like that and the body something like that	
+330540	332540	Something like a bunny.	id252		S		a bunny	Y
+332860	334860	Is it this one? What?	id251		L			Y
+335420	343020	Like, is it like having something like an ear like that and the body something like that?	id252		S		an ear like that and the body something like that	Y
 343020	345020	Nice.	R	6				
 348780	350780	What is it?	id252		L			
 350780	352780	What do you see, [id251], in the black box?	R					
-353500	355980	I see a triangle on top.	id251		S		a triangle on top	
+353500	355980	I see a triangle on top.	id251		S		a triangle on top	Y
 359900	361900	Nice. Want to pass Smurphy?	R	7				
-365820	371820	 I see something like a little pointy head walking like in the front?	id252		S		a little pointy head walking like in the front	
+365820	371820	 I see something like a little pointy head walking like in the front?	id252		S		a little pointy head walking like in the front	Y
 371820	374860	Let's try... let's keep sitting in the seats and try and just use our words.	R	8				
 378860	380860	Do you know?	R					
 380860	382860	Hey, give that to me.	id252		L			
 382860	388860	Oh, wait. Yeah, it looks like [id251] is the one telling. Sorry, [id251], what do you see in the black box?	R					
-388860	394860	I see something like... it has a triangle on top.	id251		S		a triangle on top	
-396860	398860	No, like a square?	id251		S		like a square	
-404860	408860	So it's in your left side.	id251		S			
+388860	394860	I see something like... it has a triangle on top.	id251		S		a triangle on top	Y
+396860	398860	No, like a square?	id251		S		like a square	Y
+404860	408860	So it's in your left side.	id251		S			Y
 408860	414860	They're not going to be on the same side, so you just have to use your words to try and describe the figure.	R					
-414860	416860	Let's...	id251		S			
+414860	416860	Let's...	id251		S			Y
 418860	422860	Ah, that's okay. Here, let's pass Smurphy.	R	9				
 422860	424860	Now, what do you see in the black box?	R					
-424860	434860	There's something like a diamond on top and like two... one of these on top and one of these on the bottom.	id252		S		a diamond on top and like two... one of these on top and one of these on the bottom.	
-434860	438860	And something like laying down like a shape like this.	id252		S		something like laying down like a shape like this	
+424860	434860	There's something like a diamond on top and like two... one of these on top and one of these on the bottom.	id252		S		a diamond on top and like two... one of these on top and one of these on the bottom.	Y
+434860	438860	And something like laying down like a shape like this.	id252		S		something like laying down like a shape like this	Y
 438860	444860	Ah, that's okay.	R	10				
-444860	446860	Round.	id252		L			
-450860	454860	I see like some triangles on top.	id251		S		some triangles on top	
-456860	458860	Like this?	id252		L			x
-458860	460860	Yeah.	id251		S			x
+444860	446860	Round.	id252		L			Y
+450860	454860	I see like some triangles on top.	id251		S		some triangles on top	Y
+456860	458860	Like this?	id252		L			Y
+458860	460860	Yeah.	id251		S			Y
 462860	464860	Nice.	R	11				
-464860	470860	I see something like a square here.	id252		S		something like a square here	
+464860	470860	I see something like a square here.	id252		S		something like a square here	Y
 470860	472860	Let's not use our hands. Let's just use our words.	R					
 472860	476860	Oh, you already guessed. You got it. Perfect.	R	12				
-478860	480860	I see like a triangle.	id251		S		a triangle	
-480860	484860	Like a triangle on the head?	id252		L		a triangle on the head	x
-484860	486860	Yeah, on the head.	id251		S		on the head	
-486860	490860	Then I think it would be...	id252		L			
+478860	480860	I see like a triangle.	id251		S		a triangle	Y
+480860	484860	Like a triangle on the head?	id252		L		a triangle on the head	Y
+484860	486860	Yeah, on the head.	id251		S		on the head	Y
+486860	490860	Then I think it would be...	id252		L			Y
 490860	492860	Nice.	R	13				
-494860	502860	I see like a little diamond thing on the... on top of the head.	id252		S		a little diamond thing on top of the head	
+494860	502860	I see like a little diamond thing on the... on top of the head.	id252		S		a little diamond thing on top of the head	Y
 502860	504860	Wow.	R	14				
 504860	506860	Sweet. Let's pass Smurphy.	R					
-510860	514860	I see like a little square on the top of the head.	id251		S		a little square on the top of the head	
-514860	518860	Like, no, like maybe on the neck?	id251		S		no, maybe on the neck	
-518860	520860	Wait.	id251		S			
-520860	522860	Something here?	id252		L			x
-522860	524860	No.	id251		S			
-524860	526860	Then I don't know where.	id252		L			x
-526860	528860	It's... it's...	id251		S			
-528860	532860	It's something like in the back of the head.	id251		S		in the back of the head	
-532860	536860	In the back of the...	id252		L		in the back of the	x
-536860	544860	It's not... does it have a body like this?	id252		L		a body like this	x
+510860	514860	I see like a little square on the top of the head.	id251		S		a little square on the top of the head	Y
+514860	518860	Like, no, like maybe on the neck?	id251		S		no, maybe on the neck	Y
+518860	520860	Wait.	id251		S			Y
+520860	522860	Something here?	id252		L			Y
+522860	524860	No.	id251		S			Y
+524860	526860	Then I don't know where.	id252		L			Y
+526860	528860	It's... it's...	id251		S			Y
+528860	532860	It's something like in the back of the head.	id251		S		in the back of the head	Y
+532860	536860	In the back of the...	id252		L		in the back of the	Y
+536860	544860	It's not... does it have a body like this?	id252		L		a body like this	Y
 544860	548860	You could just guess if you think you know what it is.	R					
 548860	552860	Just take your best guess. It's okay.	R					
 552860	554860	Nice.	R	15				
-558860	564860	It's something... this is something that has a diamond on the back.	id252		S		a diamond on the back	
-564860	566860	And this leg is all like this.	id252		S		this leg is all like this	
-566860	568860	And one is on the floor.	id252		S		one is one the floor	
-568860	570860	And one is like up on the air.	id252		S		one is like up on the air	
-570860	572860	And this has a view.	id252		S		this has a view	
+558860	564860	It's something... this is something that has a diamond on the back.	id252		S		a diamond on the back	Y
+564860	566860	And this leg is all like this.	id252		S		this leg is all like this	Y
+566860	568860	And one is on the floor.	id252		S		one is one the floor	Y
+568860	570860	And one is like up on the air.	id252		S		one is like up on the air	Y
+570860	572860	And this has a view.	id252		S		this has a view	Y
 572860	574860	Nice.	R	16				
-578860	580860	What is it?	id252		L			x
-580860	584860	So there's two diamonds on the top.	id251		S		two diamonds on the top	
-584860	588860	Okay, two diamonds on the top.	id252		L		two diamonds on the top	x
+578860	580860	What is it?	id252		L			Y
+580860	584860	So there's two diamonds on the top.	id251		S		two diamonds on the top	Y
+584860	588860	Okay, two diamonds on the top.	id252		L		two diamonds on the top	Y
 588860	590860	Nice.	R	17				
 590860	592860	We're good at this.	id252		S			
 592860	594860	Thanks.	R					
-594860	598860	It's something like a diamond on the back.	id252		S		a diamond on the back	
-598860	600860	And this leg is one leg on the ground.	id252		S		this leg is one leg on the ground	
-600860	602860	And one leg up in the air.	id252		S		one leg up in the air	
+594860	598860	It's something like a diamond on the back.	id252		S		a diamond on the back	Y
+598860	600860	And this leg is one leg on the ground.	id252		S		this leg is one leg on the ground	Y
+600860	602860	And one leg up in the air.	id252		S		one leg up in the air	Y
 602860	604860	Nice.	R	18				
-604860	608860	What is it?	id252		L			x
-608860	610860	It's a diamond on his head.	id251		S		a diamond on his head	
-610860	614860	It's a diamond on his head.	id252		L		a diamond on his head	x
-614860	616860	Okay, I'm guessing.	id252		L			
-616860	618860	Diamond.	id252		L			
-618860	620860	Diamond.	id252		L			
+604860	608860	What is it?	id252		L			Y
+608860	610860	It's a diamond on his head.	id251		S		a diamond on his head	Y
+610860	614860	It's a diamond on his head.	id252		L		a diamond on his head	Y
+614860	616860	Okay, I'm guessing.	id252		L			Y
+616860	618860	Diamond.	id252		L			Y
+618860	620860	Diamond.	id252		L			Y
 620860	622860	Thanks.	id252	19	S			
-624860	626860	This is kind of a hard one.	id252		S		a hard one	
-626860	630860	Well, it has like this shape in the back.	id252		S		this shape in the back	
-630860	634860	I'm trying like this shape.	id252		S		this shape	
-634860	638860	Like that triangle shape is on.	id252		S		that triangle shape is on	
-638860	642860	And there's a diamond here.	id252		S		a diamond here	
-642860	646860	And there's a body like this.	id252		S		a body like this	
-646860	648860	And this.	id252		S		and this	
-648860	650860	And this.	id252		S		and this 	
-650860	652860	And this.	id252		S		and this	
+624860	626860	This is kind of a hard one.	id252		S		a hard one	Y
+626860	630860	Well, it has like this shape in the back.	id252		S		this shape in the back	Y
+630860	634860	I'm trying like this shape.	id252		S		this shape	Y
+634860	638860	Like that triangle shape is on.	id252		S		that triangle shape is on	Y
+638860	642860	And there's a diamond here.	id252		S		a diamond here	Y
+642860	646860	And there's a body like this.	id252		S		a body like this	Y
+646860	648860	And this.	id252		S		and this	Y
+648860	650860	And this.	id252		S		and this 	Y
+650860	652860	And this.	id252		S		and this	Y
 652860	654860	Nice.	R	20				
 654860	656860	Thank you.	id251		S			
 656860	658860	I like it.	id252		L			
@@ -171,17 +171,17 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 660860	662860	I'm glad you like it.	id252		L			
 662860	664860	So they have...	id251		S			
 664860	666860	Let's finish this game first.	R					
-666860	672860	So it has a triangle on the head.	id251		S		a triangle on the head	
-672860	674860	Two triangles?	id252		L		two triangles	x
-674860	676860	Yeah, two triangles.	id251		S		two triangles	
-676860	678860	What is the head shape?	id252		L			x
-678860	680860	It's a square.	id251		S		a square	
-680860	682860	Okay.	id252		L			
-682860	684860	Square.	id251		S			
-684860	686860	The body.	id252		L			x
-		it’s straight	id251		S		it’s straight	
-686860	688860	Okay.	id252		L			
-688860	690860	I'm guessing.	id252		L			
+666860	672860	So it has a triangle on the head.	id251		S		a triangle on the head	Y
+672860	674860	Two triangles?	id252		L		two triangles	Y
+674860	676860	Yeah, two triangles.	id251		S		two triangles	Y
+676860	678860	What is the head shape?	id252		L			Y
+678860	680860	It's a square.	id251		S		a square	Y
+680860	682860	Okay.	id252		L			Y
+682860	684860	Square.	id251		S			Y
+684860	686860	The body.	id252		L			Y
+		it’s straight	id251		S		it’s straight	Y
+686860	688860	Okay.	id252		L			Y
+688860	690860	I'm guessing.	id252		L			Y
 690860	692860	Nice.	R					
 692860	694860	Thank you.	id251		S			
 694860	696860	Awesome. So you finished the game.	R					
