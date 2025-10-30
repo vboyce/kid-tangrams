@@ -157,7 +157,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 620860	622860	Thanks.	id252	19	S			
 624860	626860	This is kind of a hard one.	id252		S		a hard one	Y
 626860	630860	Well, it has like this shape in the back.	id252		S		this shape in the back	Y
-630860	634860	I'm trying like this shape.	id252		S		this shape	Y
+630860	634860	I'm trying like this shape.	id252		S			Y
 634860	638860	Like that triangle shape is on.	id252		S		that triangle shape is on	Y
 638860	642860	And there's a diamond here.	id252		S		a diamond here	Y
 642860	646860	And there's a body like this.	id252		S		a body like this	Y

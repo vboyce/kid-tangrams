@@ -1,0 +1,188 @@
+start	end	text	speaker	trial	role	echo	description	on_topic
+0	2000	All right, I'm now recording guys	R					
+5520	11480	All right, so today we're gonna play a very fun matching game and it's gonna be played on these iPads	R					
+11960	16160	So first before I explain the game, I'm gonna have you pop some bubbles	R					
+16680	20800	So go ahead and touch the touch the blue button to get started and	R					
+21640	25100	Then pop the bubbles with your fingers until there's no more bubbles	R					
+		Pop. Pop. 	id258					
+		I popped all of them. 	id257					
+30640	32640	You popped all of them	R					
+		I popped all of them. 	id258					
+32920	36800	Are you sure are there's still more bubbles? I see some more bubbles on your screen	R					
+		Pop?	id258					
+		Yep, keep popping.	R					
+38640	41600	Yeah, it looks like [id257]’s done. 	R					
+		Can I pop it?	id258					
+		Yes, you can	R					
+49120	55220	All right, nice job popping the bubbles guys I'm gonna take this back and now I'm gonna explain the matching game	R					
+55860	61140	All right, so in this game, we're gonna help our friend Smurfy. This is Smurfy. Do you guys want to say hi to him?	R					
+62340	63860	Hi	id258					
+		Hi	id257					
+		Hi	R					
+63860	70260	All right, so Smurfy needs your help so on your screens. You guys are going to see two pictures like this	R					
+71100	74740	But one of you guys is going to see one of the pictures in a black box	R					
+75060	77500	So see how this picture is inside of a black box	R					
+78300	83460	So your your job is to help Smurfy guess which picture is inside the black box	R					
+84100	90740	So if you see a black box on your screen, that means you're the teller and you're gonna help tell Smurfy	R					
+90740	92820	What's in the black box?	R					
+92820	96820	Now if you're holding Smurfy and you don't see a black box like this	R					
+96820	99860	You're gonna be the guesser and your job is to help guess	R					
+101060	103060	What what pictures in the black box?	R					
+		I saw the banana.	id257					
+104260	106820	Yeah, you saw that there was a banana in the black box	R					
+106820	113220	Yeah, so the teller would tell Smurfy and the guesser that they see a banana in the black box	R					
+113860	115860	and then when the	R					
+116660	121540	When the guesser thinks they know what's in the black box, they'll press it like this on the iPad	R					
+122900	127220	Now if you guess the correct picture, you're gonna see a smiley face up here on the screen	R					
+127700	132180	But if you don't see it, um, if you don't guess the right picture, you're gonna see a frowny face	R					
+133620	135060	Okay	R					
+135060	137460	You need to you need to do like this	id258					
+137940	140660	You don't need to put your whole finger on the tablets	id258					
+141140	145780	Yes, you're going to just like how you pop the bubbles. You're gonna press your finger on the tablets	R					
+146980	149700	And if you don't get it, right, you're gonna see a frowny face	R					
+149860	153620	But that's okay because we're gonna have lots of different times to help Smurfy out	R					
+154100	160420	We're also gonna take turns, um guessing and telling. So if you see the black box, what are you gonna do?	R					
+		poke	id257					
+163860	166820	No, if you see the black box, you're gonna help tell Smurfy	R					
+		oh	id258					
+167380	170180	You're gonna say you're gonna tell him what's inside the black box	R					
+170660	173940	But if you see no black box, what are you gonna do?	R					
+		tap	id257					
+175460	178260	Yeah, then you're yeah, then you're gonna tap and	R					
+179220	183940	Tap and guess which which pictures in the black box. Does that make sense?	R					
+		yes, 	id258					
+184500	191220	So if you see the black box, you're gonna tell Smurfy and our other friend what you see inside of it	R					
+191780	193380	Does that make sense?	R					
+193380	195380	All right. Are you guys ready to play?	R					
+196340	200580	So what do you do? 	id258					
+		All right, go ahead and press the blue button to start	R					
+202340	204340	Now which one of you sees the black box?	R	1				
+		Me	id257		S			
+205380	209860	You okay, 	R					
+		I don’t see the black box	id258		L			
+		You don't see the black box. So you're gonna guess	R					
+212420	214420	It's hard to not see 	id258		L			
+214740	220820	It is hard to not see you. So [id257], can you tell [id258] what's what you see inside the black box?	R					
+221140	222420	Banana	id257		S		Banana	
+222420	228900	All right. Yeah, and then you can tap tap the block or tap the picture that you think is inside the black box	R					
+230500	232500	Yay, nice job	R	2				
+232580	237060	All right. Now does [id258] have the black box?	R					
+		 Yeah. 	id258		S			
+		All right. So now you get to hold Smurfy	R					
+239780	243460	Um the bird,  the eagle is in the black box	id258		S		the bird, the eagle	
+250740	254660	Nice job. All right. Now you're gonna hand over Smurfy to [id257]	R	3				
+265380	267700	Can you tell [id258] what you see inside the black box?	R					
+267700	269700	Uh, I don’t know, a lemon	id257		S			
+273060	275560	You could use any words you want to describe what you see	R					
+		I don’t know	id257		S			
+		is it this one? Is it a lemon that’s in the line	id258		L		a lemon that’s in the line	
+		is it? I don’t know	id257		S			
+286340	292740	Just try try your best. Oh, let's let's sit back down. Okay. We want to use our words to tell Smurfy	R					
+292900	297220	What's inside the black box? 	R					
+		a shape a shape	id257		S			
+		a shape?	R			x		
+298900	300900	So what is in the black box?	id257		S			
+		help me?	id258		L			
+308900	314100	Why don't you use your words to tell [id258] and [id258] you can use your best guess to try to guess	R					
+314660	316980	Oh, also, I think Smurfy should be on [id258]'s side	R					
+317620	320900	Since she's helping Smurfy guess what's in the black box	R					
+323300	325300	Smurfy	id258		L			
+326900	329220	So what [id257]? 	id258		L			
+		I don’t know	id257		S			
+330820	333380	You don't know what is … in the sun?	id258		L			
+334740	336740	No	id257		S			
+		No?	id258		L			
+337140	339140	I think it's not	id257		S		has a lemon shape and it has a line	
+339620	343780	Because it has a lemon shape and it has a line	id257		S			
+344340	346340	Yeah	id258	4				
+351780	357380	Nice job. All right. Now you can give Smurfy back to [id257] because you have the black box now, right?	R					
+358260	360260	So Smurfy's gonna help guess	R					
+		A eagle	id258		S		a eagle	
+367860	369140	Oh	id258	5	L			
+369140	373780	It's okay. Now it's now it's [id258]'s turn to be the guesser. So we're gonna hand it over to	R					
+377860	380500	So do you have the black box [id257]? 	R					
+		Yeah	id257		S			
+381220	384660	All right, and you could use your words to tell [id258] and Smurfy what you see	R					
+ 		A mountain?	id257		S		a mountain	
+390420	392420	A mountain with like	id258		L			
+393540	395540	With like it's like	id258		L			
+396260	398260	a tree	id257		S		a tree	
+		is it this one or this one?	id258		L			
+		the one which in the black box	id257		S			
+		is it the right way or the left way?	id258		L			
+399860	401860	Oh	R					
+412100	415620	Let's not turn our iPads because we want to use our words to tell our friends	R					
+416740	421700	Just take your best guess [id258] and you could ask questions like you have been to [id257]	R					
+422980	426180	Is it the one that looks like a dog walking?	id258		L			
+430020	432020	Yeah, I just, I don't know	id257		S			
+433700	436340	It's okay. We have more turns to try to help Smurfy	R	6				
+437300	439300	Okay	id258		S			
+439300	445380	All right, let's hand Smurfy over to [id257]. All right. So now it's your turn to to tell	R					
+		So, [id257]	id258		S			
+452500	454500	All right now let's hand Smurfy back over to [id258]	R	7				
+454500	459300	But before before we tap or before we try to guess the the picture in the black box	R					
+459780	462180	Let's have our friend try to try to tell	R					
+		is it a dog?	id258		L			
+465780	467780	Uh, yeah	id257		S			
+468100	470260	The dog lie just like this?	id258		L			
+		Uh no	id257		S			
+473780	475780	This one	id258		L			
+475940	477940	Tap it, if it’s didn’t know.	id257		S			
+		[id257], I don’t understand your furry face 	id258		L			
+		If you don’t just try	id257		S			
+491140	493140	Yes, just take your best guess [id258]	R					
+493140	497140	Yeah, we'll have a lot of find out about this one and then the wrong	id258		L			
+498740	502820	Then it's okay. We'll have a lot of more tries to help you. 	R					
+		Can you tell me?	id258		L			
+503860	506420	No, we have to have [id257] tell you	R					
+507380	509380	So [id257], what is it?	id258		L			
+		Uh	id257		S			
+512900	516900	Can you use your words to describe what you see?	R					
+517700	519700	It’s like a dog walking	id257		S		a dog walking	
+520580	522580	One foot is in front	id257		S		one foot is in front	
+		Okay, this one	id258		L			
+526020	532900	Nice job. See you guys used your words. All right, and now I think [id257]'s guessing and helping smurfy 	R	8				
+538740	540740	Press another button	R	9				
+541380	548980	Okay, so is the person walking or the dog walking 	id258		L			
+		the person walking, I think	id257		S		the person walking	
+550180	551780	Is it this one?	id258		L			
+551780	553780	Yeah, I think it is	id257		S			
+555300	557300	Nice job	R	10				
+558260	560760	All right now, I think it's [id257]'s turn to hold Smurfy	R					
+564340	566340	Is it	id258		S			
+570740	572740	Um	R	11				
+572740	574740	Which one is it?	id258		L			
+577860	583860	I think this one	id257		S		this one	
+		 is the dog walking?	id258		L			
+		Yeah	id257		S			
+		like this?	id258		L			
+		I think it is, I think it’s not but it is	id257		S			
+590660	592740	All right, now I think it's [id257]'s turn to hold Smurfy	R	12				
+594020	600420	So it’s the mountain with the diamond on top. That's like this. It's like a banana with the diamond on it	id258		S		the mountain with the diamond on top, that’s like this. A banana with the diamond on it	
+603620	607220	And now so dog walking the then	id257	13	S		dog walking	
+611540	613540	Nice job guys	R	14				
+624980	626980	Oh	id257	15	S			
+		Smurfy	id258		L			
+		Hello	id258		L			
+628660	630660	Which one is it	id258		L			
+631220	636740	A banana with the diamond on it or the dog walking	id258		L			
+		the banana with the diamond on it	id257		S		the banana with the diamond on it	
+636740	638740	Oh	R	16				
+649460	651940	It's the it's the dog walking	id257	17	S		the dog walking	
+656420	658900	not the banana having the 	id257		S		not the banana	
+		it’s not the banana having the diamond on	id258		L			
+		yeah, it’s not	id257		S			
+667060	669060	Yay	R	18				
+672420	675620	It's the dog walking. 	id258		S		the dog walking	
+		Yay	R	19				
+		it’s the dog	id257		S		the dog	
+677300	679220	It's the star	id257		S		the star	
+679220	683060	[id257] 	id258		L			
+		it's the one that's walking and doing the arm on the back	id257		S		the one that’s walking and doing the arm on the back	
+684580	693380	Um, so is the human walking or the banana on the diamond on it	id258		L			
+		human, human 	id257		S		human	
+		human walking that has dog ears?	id258		L			
+		yeah	id257		S			
+		so it’s the banana with the diamond on it	id258	20	S	note this is said after other child is pressing 		
+697140	699140	Oh	R					
+708660	712100	I think you guys finished our game. Thank you so much for playing	R					
