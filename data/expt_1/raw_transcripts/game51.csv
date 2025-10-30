@@ -145,7 +145,7 @@ start,end,text,speaker,trial,role,echo,description,on_topic
 258000,260000,A rope.,id33,,L,,,Y
 260000,261000,This again.,id34,,S,,,Y
 261000,263000,What does it look like?,I,,,,,
-263000,266000,It's on the floor and it has a triangle.,id34,,S,,on the floor and it has a triangle,Y
+263000,266000,It's on the floor and it has a triangle.,id34,,S,,It’s on the floor and it has a triangle,Y
 266000,268000,On the floor and it has a triangle.,I,,,Y,,
 268000,270000,Do you see that?,I,,,,,
 270000,274000,Let's press it.,I,,,,,

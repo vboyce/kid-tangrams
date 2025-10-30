@@ -68,7 +68,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 217520	218520	There you go.	R	4				
 218520	221520	Great job.	R					
 221520	223520	What do you see, [id229]?	R					
-223520	226520	A star.	id229		S		a star	Y
+223520	226520	A star.	id229		S			Y
 226520	229520	Do you want to use some more words to tell?	R					
 229520	233520	You can't show her, but do you want to use some more words to tell [id230] what you see?	R					
 233520	236520	It's a little fight star.	id229		S		a little fight star	Y
@@ -119,14 +119,14 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 365520	368520	All right.	R					
 368520	371520	Now it's your turn, [id230]. What do you see?	R					
 371520	377520	it’s kind of straight thing,	id230		S		straight thing	Y
-377520	379520	but at the bottom I got a turban	id230		S		at the bottom I got a turban	Y
-379520	382520	at the top I got a diamond.	id230		S		at the top I got a diamond	Y
+377520	379520	but at the bottom I got a turban	id230		S		at the bottom,  a turban	Y
+379520	382520	at the top I got a diamond.	id230		S		at the top,  a diamond	Y
 382520	384520	I think I know what it is	id229		L			Y
 384520	388520	Hey, congrats.	R	8				
 388520	391520	And now you can pass Smurfy to [id230].	R					
 391520	394520	What do you see?	R					
-394520	399520	I see something that has one triangle and a square.	id229		S		one triangle and a square	Y
-399520	403520	A square one.	id229		S		a square one	Y
+394520	399520	I see something that has one triangle and a square.	id229		S		one triangle and a square one	Y
+399520	403520	A square one.	id229		S			Y
 403520	405520	You can guess when you think you know.	R					
 405520	406520	Square, square.	id229		S			Y
 406520	410520	Go for it, yeah.	R					
@@ -136,7 +136,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 421520	423520	What do you see, [id230]?	R					
 423520	432520	I see a kind of curve,	id230		S		curve	Y
 432520	435520	something that's going to triangle at the bottom	id230		S		triangle at the bottom	Y
-435520	438520	and a triangle at the top and a square at the top.	id230		S		a triangle at the top and a square at the top	Y
+435520	438520	and a triangle at the top and a square at the top.	id230		S		And a triangle at the top and a square at the top	Y
 438520	440520	And this one?	id229		L			Y
 440520	442520	She can't see it, so you can just guess	R					
 442520	444520	and think or you can ask her a question.	R					
@@ -160,21 +160,21 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 504520	506520	Yeah.	R	12				
 506520	509520	let’s pass smurfy	R					
 509520	511520	What do you see?	R					
-511520	517520	Something that has a stomp	id229		S		has a stomp	Y
+511520	517520	Something that has a stomp	id229		S		Something that has a stomp	Y
 		stomp stomp stomp stomp stomp	id229		S			
 517520	520520	you think you know	R					
 								
 520520	529520	There you go.	R	13				
-529520	539520	Someone that's dancing.	id230		S		dancing	Y
+529520	539520	Someone that's dancing.	id230		S		Someone that’s dancing	Y
 539520	542520	Ah, that's okay.	R	14				
 542520	545520	Here, let's pass Smurfy.	R					
 545520	550520	I see something that has two triangles.	id229		S		two triangles	Y
 550520	553520	Do you think you know which one it is, [id230]?	R					
 553520	555520	Do you want to describe a little more, [id229]?	R					
-555520	558520	It has two things.	id229		S		two things	Y
-558520	560520	It has a square.	id229		S		a square one	Y
-560520	563520	And a mouth, but a square mouth	id229		S		a mouth, but a square mouth	Y
-563520	567520	And two triangles like his ears.	id229		S		two triangles like his ears	Y
+555520	558520	It has two things.	id229		S		 two things	Y
+558520	560520	It has a square.	id229		S		a square	Y
+560520	563520	And a mouth, but a square mouth	id229		S		And a mouth, but a square mouth	Y
+563520	567520	And two triangles like his ears.	id229		S		And two triangles like his ears	Y
 567520	574520	Yeah.	R	15				
 574520	596520	I see something that has a banded legs and diamond on the upper arms. On the bottom, it got an upside down triangle and a square on the top	id230		S		 a banded legs and diamond on the upper arms. On the bottom, it got an upside down triangle and a square on the top	Y
 596520	599520	Yeah.	R	16				
@@ -184,7 +184,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 616520	622520	I see something that got diamond.	id230		S		diamond	Y
 622520	627520	Yeah.	R	18				
 627520	630520	I see something big that has a square on top.	id229		S		something big that has a square on top	Y
-630520	635520	And a triangle down low.	id229		S		a triangle down low	Y
+630520	635520	And a triangle down low.	id229		S		And a triangle down low	Y
 635520	637520	Yeah.	R	19				
 637520	639520	We're gonna love it.	id229		L			
 649520	654520	I see something that has two bottoms and it looks like a windmill.	id230		S		has two bottoms and it looks like a windmill	Y
@@ -193,7 +193,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 662520	664520	Yeah.	R					
 664520	668520	Yeah, there are just a few more.	R					
 668520	670520	What do you see, [id229]?	R					
-670520	673520	Something that's stomping.	id229		S		stomping	Y
+670520	673520	Something that's stomping.	id229		S		something that’s stomping	Y
 673520	676520	Something that's stomping.	id229		S			Y
 676520	679520	And then we do the bubble line.	id229		S			
 679520	681520	And then we do the bubble line.	id229		S			

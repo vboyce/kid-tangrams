@@ -92,7 +92,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 333000	336000	Sweet.	R	14				
 353000	355000	The one walking	id248		S		the one walking	Y
 355000	360000	The one with the, not the one that's walking, the other one.	id247	15	S		not the one that’s walking, the other one	Y
-368000	371000	The one that has like a ramp.	id248	16	S		that one that has like a ramp	Y
+368000	371000	The one that has like a ramp.	id248	16	S		the one that has like a ramp	Y
 379000	383000	The one that's sitting, not the one with the ramp.	id247	17	S		the one that’s sitting, not the one with the ramp	Y
 386000	389000	Sweet.	R					
 393000	395000	Okay, the one with the diamond on top.	id248	18	S		the one with the diamond on top	Y

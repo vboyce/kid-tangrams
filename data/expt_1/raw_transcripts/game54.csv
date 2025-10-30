@@ -142,7 +142,7 @@ start,end,text,speaker,trial,role,echo,description,on_topic
 355640,356640,It looks like this.,I,,,,,
 356640,359640,"Oh, we're looking at the one inside of the box.",I,,,,,
 359640,361640,What does that one look like?,I,,,,,
-361640,362640,A square.,id39,,S,,square,Y
+361640,362640,A square.,id39,,S,,,Y
 362640,363640,A square.,I,,,,,
 363640,364640,I press it.,id39,,S,,,
 364640,365640,You don't press it.,I,,,,,

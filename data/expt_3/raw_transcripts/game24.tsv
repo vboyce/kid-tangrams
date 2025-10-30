@@ -114,19 +114,19 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 273920	275920	So now you're going to be the guesser and you're going to be the teller.	R					
 275920	276920	So.	R					
 276920	279920	Try to explain what's in the black box.	R					
-279920	280920	So.	id168		S		so	Y
+279920	280920	So.	id168		S			Y
 280920	281920	So.	id168		S			Y
 281920	282920	So.	id168		S			Y
-282920	283920	What's that?	id168		S		what’s that	Y
-283920	284920	so, what’s that sort of soft circle that you throw at people?	id168		S		sort of soft circle that you throw at people. 	Y
+282920	283920	What's that?	id168		S			Y
+283920	284920	so, what’s that sort of soft circle that you throw at people?	id168		S		soft circle that you throw at people. 	Y
 		what do you guess?	id167		L			Y
 302920	303920	are there any other ways to explain it?	R					
 303920	304920	It's a poop so.	id168		S		a poop	Y
 305920	306920	It's a big square.	id168		S		a big square	Y
 306920	307920	Listen to that. Be sure you’re listening to [id168]. 	R					
 312920	313920	It's a big.	id168		S		a big	Y
-317920	318920	It's a soft thing.	id168		S		a soft thing	Y
-319920	320920	That you throw at people.	id168		S		that you throw at people	Y
+317920	318920	It's a soft thing.	id168		S			Y
+319920	320920	That you throw at people.	id168		S			Y
 320920	321920	Okay,	id167		L			Y
 321920	322920	Oh yeah,	R					
 322920	324920	you have your best guess.	R					
@@ -172,7 +172,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 421360	425840	and some triangles on top.	id168		S		and some triangles on top	Y
 427120	431960	They're on top of each other	id168		S		they’re on top of each other	Y
 		and?	id167		L			Y
-		and that’s all	id168		S		and that’s all	Y
+		and that’s all	id168		S			Y
 433200	434600	They're just in the box.	id168		S			Y
 436160	437920	You can just do like a quick tap.	R					
 441640	443680	Oh, that's okay.	R					
@@ -186,7 +186,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 469800	471000	and your turn to tell.	R					
 476440	477760	So [id168], do you wanna help out [id167]	R					
 477760	480920	and tell her what you see in the box?	R					
-480920	483160	I see the same thing.	id168		S		the same thing	Y
+480920	483160	I see the same thing.	id168		S			Y
 483160	485440	A steep hill, one,	id168		S		a steep hill	Y
 487760	488600	one,	id168		S			Y
 490760	494760	it's a person with two triangles on his head?	id168		S		a person with two triangles on his head	Y
@@ -227,7 +227,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 610640	611680	Nice.	R	16				
 611680	613520	All righty, here you go [id167].	R					
 613520	616560	You're the guesser and teller, you're the teller.	R					
-616560	617720	Same thing.	id168		S		same thing	Y
+616560	617720	Same thing.	id168		S			Y
 618720	621720	So we've got a creature like this,	id168		S		a creature like this	Y
 621720	624720	like this, trying to go on the back.	id168		S		trying to go on the back	Y
 624720	625560	Okay.	id167		L			Y

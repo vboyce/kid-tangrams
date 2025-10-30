@@ -85,7 +85,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 191000	192000	Nice.	R	4				
 192000	194000	And now we're gonna switch back.	R					
 194000	196000	Now, you're gonna be the guesser, and you're gonna be the teller.	R					
-197000	199000	Uh, crown.	id199		S		crown	Y
+197000	199000	Uh, crown.	id199		S			Y
 200000	202000	Up, upside down crown.	id199		S		Upside-down crown	Y
 204000	205000	Nice.	R	5				
 205000	207000	Okay, now we're gonna keep going.	R					
@@ -101,7 +101,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 234000	235000	You're gonna be the guesser.	R					
 237000	242000	Um, a shoe that has two, um, one spike that's big,	id200		S		a shoe that has one spike that’s big	Y
 242000	245000	and one other one that's smaller, and that's a square,	id200		S		and one other one that’s smaller and that’s a square	Y
-245000	252000	and a tip of a shoe that has a little, um,	id200		S		and a top of a shoe that has a little	Y
+245000	252000	and a tip of a shoe that has a little, um,	id200		S		and a tip of a shoe that has a little	Y
 253000	255000	triangle at the bottom.	id200		S		triangle at the bottom	Y
 255000	256000	Okay.	R	8				
 258000	259000	Nice.	R					
@@ -163,7 +163,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 432000	434000	This is weird looking banana.	id199		S		weird looking banana	Y
 435000	436000	Yay!	R					
 436000	437000	Nice.	R	19				
-438000	443000	This shoe is a square that's tippin' off.	id200		S		this shoe is a square that’s square off	Y
+438000	443000	This shoe is a square that's tippin' off.	id200		S		this shoe is a square that’s tippin off	Y
 445000	446000	Yay!	R					
 446000	447000	Wow.	R	20				
 448000	449000	You're doing great guys.	R					

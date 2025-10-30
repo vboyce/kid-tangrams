@@ -90,7 +90,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 301400	306400	Let's use our words.	R					
 306400	308400	We can't show him.	R					
 308400	310400	I know it's tough.	R					
-310400	316400	It's a feet, a leap, and a square head.	id244		S		a feet, a leap, and a square heard	Y
+310400	316400	It's a feet, a leap, and a square head.	id244		S		a feet, a leap, and a square head	Y
 316400	318400	Awesome.	R	6				
 318400	320400	Great job.	R					
 320400	323400	Now, it's your turn to tell her, [id243].	R					

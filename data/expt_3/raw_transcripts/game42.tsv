@@ -179,8 +179,8 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 475120	478720	it’s like this	id192		S			Y
 478720	481000	Oh, let's use our words to try to say	R					
 481000	482320	instead of using our hands.	R					
-483280	488280	It's like, so, so, so, and it has a,	id192		S		so so so and it has a	Y
-491760	496360	it has a, yeah, it has a diamond	id192		S		diamond	Y
+483280	488280	It's like, so, so, so, and it has a,	id192		S			Y
+491760	496360	it has a, yeah, it has a diamond	id192		S		Has a diamond	Y
 496360	500520	on the very, very beginning, yeah.	id192		S		on the very very beginning	Y
 500520	502880	Okay, so [id191], when you have your guess,	R					
 502880	505040	do you wanna top the screen?	R					
@@ -245,7 +245,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 640800	642880	and you get to be the teller.	R					
 642880	646320	This, the large, and large,	id191		S		the large	Y
 646320	647160	and the,	id191		S			Y
-650840	652600	this, you,	id191		S		this you	Y
+650840	652600	this, you,	id191		S			Y
 652600	655360	to the, it's like a part,	id191		S			Y
 655360	656880	this, your,	id191		S			Y
 656880	658520	and the large, and huge.	id191		S		and the large and huge	Y
@@ -253,7 +253,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 664680	666200	but we'll have another chance.	R					
 666200	667600	So now you're gonna be the guesser,	R					
 667600	669400	and you're gonna be the teller.	R					
-669400	671400	So it's like a shoe.	id192		S		a shoe	Y
+669400	671400	So it's like a shoe.	id192		S			Y
 672400	675760	So it's like a triangle shoe	id192		S		a triangle shoe	Y
 675760	680760	that has a ribbon on the very, very top.	id192		S		that has a ribbon on the very very top	Y
 682640	683480	Yeah.	id191		L			Y
@@ -300,7 +300,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 810400	813400	And you're going to be the teller now. And you're going to be the guesser.	R					
 813400	814400	You're doing great.	R					
 814400	815400	So, do you want to...	R					
-815400	823400	This huge tool is larger than 45 to the muscles and a larger mic.	id191		S		This huge tool is larger than 45 to the muscles and a larger mic.	Y
+815400	823400	This huge tool is larger than 45 to the muscles and a larger mic.	id191		S		This huge tool is larger than forty five to the muscles and a larger mic.	Y
 827400	828400	Yay!	R	18				
 828400	829400	Okay.	R					
 829400	832400	Now you're going to be the guesser and you're going to be the teller.	R					

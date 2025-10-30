@@ -174,7 +174,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 424000	426000	Don't tell me.	id203		L			Y
 426000	428000	Yay!	R	7				
 430000	436000	Okay, let's pass Murphy and [id203], it's your turn to tell and [id204], your turn to guess.	R					
-436000	446000	I see a shoe in the bottles outside, not in the square box.	id203		S		a shoe, bottle not in the square box	Y
+436000	446000	I see a shoe in the bottles outside, not in the square box.	id203		S		a shoe, not the bottle	Y
 446000	454000	Wait, so the bottle was in the shoe or the bottle?	id204		L			Y
 454000	458000	The shoe is inside the black box.	id203		S			Y
 458000	460000	And the bottle was in the...	id203		S			Y
@@ -187,7 +187,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 		can you close door?	id203		L			
 476000	478000	Okay, I'll close the door.	R					
 478000	480000	Like a fox that...	id204		S			Y
-480000	484000	A fox that is like that.	id204		S		a fox that is like that	Y
+480000	484000	A fox that is like that.	id204		S			Y
 484000	486000	I'm worried.	id203		L			
 486000	488000	[id203]!	id204		S			Y
 488000	490000	[id203] and you tell.	id204		S			Y
@@ -329,10 +329,10 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 824000	826000	A shoe.	id204		S		a shoe	Y
 826000	828000	That looks like a bow tie.	id204		S		that looks like a bow tie	Y
 828000	830000	I think.	id204		S			Y
-830000	832000	Actually, it's not a bow tie.	id204		S		not a bow tie	Y
+830000	832000	Actually, it's not a bow tie.	id204		S		It’s not a bow tie	Y
 832000	834000	It's a shoe.	id203		L			Y
 834000	836000	It's not working.	id203		L			
-836000	838000	It's like a bow tie.	id204		S		like a bow tie	Y
+836000	838000	It's like a bow tie.	id204		S			Y
 838000	840000	Oh, no.	R	19				
 840000	842000	It's okay.	R					
 842000	844000	We said that was a shoe.	id203		S			Y

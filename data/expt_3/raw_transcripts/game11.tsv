@@ -93,7 +93,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 		I don’t know what that is.	id160		S			Y
 218080	218720	That's okay.	R					
 218720	219760	Give your best guess.	R					
-221440	222800	Maybe upside down house.	id160		S		maybe upside down house	Y
+221440	222800	Maybe upside down house.	id160		S		 upside down house	Y
 224960	225440	Maybe.	id159		L			Y
 226080	226400	Maybe any button. 	id160		S			Y
 228640	231120	I'm not sure if it looks good.	id159		L			Y
@@ -138,7 +138,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 301200	304400	A hanger for a dad when they go to work.	id160		L		a hanger for a dad when they go to work	Y
 307120	310480	What does look like a person walking?	id160		L		a person walking	Y
 311680	312160	It's...	id159		S			Y
-312880	318480	There's a diamond on the top and a shape on the bottom that I don't know.	id159		S		a diamond on the top and a shape on the bottom that I don’t know	Y
+312880	318480	There's a diamond on the top and a shape on the bottom that I don't know.	id159		S		a diamond on the top and a shape on the bottom	Y
 319680	320480	That's okay.	R					
 320480	321600	We're going to keep going.	R	8				
 321600	322080	Good job.	R					
@@ -159,8 +159,8 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 357600	358960	Now touch the one that you think it is.	R					
 359760	360400	Awesome.	R					
 362000	363040	We're going to keep going.	R	10				
-363760	365440	It looks like a bow tie.	id160		S		a bow tie	Y
-366400	371280	I mean, I mean something that dad would wear when they go to work.	id160		S		something that dad would wear when they go to work	Y
+363760	365440	It looks like a bow tie.	id160		S			Y
+366400	371280	I mean, I mean something that dad would wear when they go to work.	id160		S			Y
 372880	376480	You mean the diamond on the back right now?	id159		L		the diamond on the back	Y
 377600	378560	I don't know.	id160		S			Y
 378560	380480	What do you see, [id159]?	R					
@@ -170,7 +170,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 393920	394800	I don't know.	id160		S			Y
 394800	395360	That's okay.	R					
 395360	397040	Tell [id159] what you think it looks like.	R	 				
-397040	402000	It looks like something a bow tie that dad would wear when they go to work.	id160		S		a bow tie that dad would wear when they go to work	Y
+397040	402000	It looks like something a bow tie that dad would wear when they go to work.	id160		S		Something a bow tie that dad would wear when they go to work	Y
 404160	405360	Touch the one that you think it is.	R					
 406320	407360	You can make your best guess.	R					
 409120	409760	Good job.	R	11				
@@ -203,7 +203,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 486720	489520	I saw something that like fell backwards.	id159		S			Y
 489520	489920	What?	R					
 490560	492960	Okay, now it's your turn to tell [id160] what you see.	R					
-492960	498480	There's like a diamond on his back with no hand to his feet and a head looking on the...	id159		S		a diamond on his back with no hand to his feed and a head looking 	Y
+492960	498480	There's like a diamond on his back with no hand to his feet and a head looking on the...	id159		S		a diamond on his back with no hand to his feet and a head looking 	Y
 499120	499840	Good job.	R					
 499840	500800	That was so quick.	R					
 501680	503600	Okay, now you're going to tell [id159] what you see.	R	16				

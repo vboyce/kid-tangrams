@@ -137,7 +137,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 250200	251040	With your finger.	R					
 251040	253440	Arrows, I think I see arrows.	id161		S		arrows	Y
 254680	257000	What does an arrow look like?	id162		L			Y
-257000	258720	It points towards the red,	id161		S		it points towards 	Y
+257000	258720	It points towards the red,	id161		S		it points towards the red	Y
 258720	260560	what arrow is right here.	id161		S			Y
 260560	261400	Good job!	R					
 261440	263240	You're gonna touch the one that you think it is.	R					
@@ -256,7 +256,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 511400	512640	What does it look like though?	R					
 512640	514640	It looks like a, it looks like a person.	id161		L		a person	Y
 514640	517800	Wait, [id162]'s telling you what she sees in the box.	R					
-517800	522040	It's so, it looks like it, stay still people,	id162		S		a stay still people	Y
+517800	522040	It's so, it looks like it, stay still people,	id162		S		stay still people	Y
 522040	527040	it stays to, this guy is so small and it, it stays still.	id162		S		this guy is so small and it stays still	Y
 528480	530760	Which one do you think that is?	R					
 530760	532520	Touch the one that you think it is.	R					
@@ -366,7 +366,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 768480	770440	Okay, which one is in the black box?	R					
 772200	773720	Which one do you think is in the black box?	R					
 773720	775200	[id162], can you say what you think?	R					
-775200	780200	I found a people that stays still and then it's funny.	id162		S		a people that stays still and then it’s funny	Y
+775200	780200	I found a people that stays still and then it's funny.	id162		S			Y
 780640	782480	Okay, which one do you think that is?	R					
 785960	786800	That's okay.	R	 				
 786800	788200	That one’s a shoe	id162		S			Y

@@ -55,7 +55,7 @@ start,end,text,speaker,trial,role,echo,description,on_topic
 145000,146000,Great.,I,1,,,,
 146000,150000,And now we will move on and [id26] will be guessing.,I,,,,,
 150000,152000,"So [id25], what do we see in the black box?",I,,,,,
-152000,154000,It's apple.,id25,,S,,an apple,Y
+152000,154000,It's apple.,id25,,S,,apple,Y
 154000,155000,Do you see an apple?,I,,,Y,,
 155000,157000,Let's press it.,I,,,,,
 157000,158000,Great job.,I,,,,,

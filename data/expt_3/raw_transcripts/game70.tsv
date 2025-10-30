@@ -147,7 +147,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 463320	465240	Is this, this one?	id227		L			Y
 465240	466800	I can't say.	R					
 468520	470480	Any other descriptions you wanna add?	R					
-471360	474200	It looks like a bunny, a bunny sitting down.	id228		S		a bunny, a bunny sitting down	Y
+471360	474200	It looks like a bunny, a bunny sitting down.	id228		S		a bunny sitting down	Y
 475760	477480	Is it this one, [id228]?	id227		L			Y
 477480	479480	You can't look, but you can just guess.	R					
 479480	482080	If you think it's right, then you can just guess.	R					
@@ -175,7 +175,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 564720	566040	Let's try and only use our words.	R					
 566040	568480	I know it's hard to stop the gestures, but.	R					
 569160	573240	The triangle is shaped and it has a little pointy part	id228		S		the triangle is shaped and it has a little pointy part	Y
-573240	578240	on it's nose and it has a square, a long square body.	id228		S		on its nose and it has a square, a long square body	Y
+573240	578240	on it's nose and it has a square, a long square body.	id228		S		on its nose and it has a long square body	Y
 580160	581360	I know it's hard, yeah.	R					
 582600	583800	Is it this one?	id227		L			Y
 583800	586200	Try, yeah, I guess if you think.	R					
@@ -204,7 +204,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 672520	674920	Do you want to ask any questions?	R					
 674920	679920	Okay, so [id228], what does it have like inside?	id227		L			Y
 680080	680920	Cool.	id228		S			Y
-683520	688520	So it has a square head, it's on the square head.	id228		S		a square head, on the square head	Y
+683520	688520	So it has a square head, it's on the square head.	id228		S		on the square head	Y
 689440	691200	You mean this one?	id227		L			Y
 691200	696200	I think 	id228		S			Y
 696200	698040	Yeah, great job.	R	18				
@@ -216,7 +216,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 721520	722360	Awesome.	R	19				
 723320	728320	Why, why both camera, why, why, why?	id227		L			
 729160	733280	It has a diamond head and it's sort of like a marker here	id228		S		a diamond head and it’s sort of like a marker here	Y
-733280	736240	and it has a diamond body and it looks like	id228		S		and it has a diamond body and it looks like	Y
+733280	736240	and it has a diamond body and it looks like	id228		S		and it has a diamond body and	Y
 736240	738760	a little house on its body.	id228		S		a little house on its body	Y
 738760	740720	is it this one?	id227		L			Y
 740720	742000	Take your best guess.	R					

@@ -44,7 +44,7 @@ start,end,text,speaker,trial,role,echo,description,on_topic
 206250,211560,She can't find that. Can we tell [id29] a little bit more about what we see in the black box?,I,,,,,
 211560,213000,I don't know what that is. ,id30 ,,S,,,Y
 213500,219050,"You don't know what that is? That is kind of tough, huh? What does it kind of look like to you?",I,,,,,
-220200,222750,A seesaw. ,id30,,S,,seesaw,Y
+220200,222750,A seesaw. ,id30,,S,,A seesaw,Y
 223000,227880,A seesaw. Just a tap it,I,,,Y,,
 227880,236760,"Great. Thank you. Okay,  [id30], here you go. [id29], what does this look like in the black box?",I,3,,,,
 238840,239850,A flying people.,id29,,S,,a flying people,Y

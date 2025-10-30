@@ -102,12 +102,12 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 178460	180820	Oh, I have the dog with the box.	id170		S		the dog	Y
 180820	181100	Yeah.	R					
 181100	183060	So what do you see inside the box?	R					
-183060	186180	A dog.	id170		S		a dog	Y
+183060	186180	A dog.	id170		S			Y
 186180	189860	So now you're going to click your screen based on what	R					
 189860	190700	[id170] just said.	R					
 190700	192780	This one?	R					
 192780	195340	Just take your best guess based on what she just said.	R					
-195340	196820	The dog.	id169		L		the dog	Y
+195340	196820	The dog.	id169		L			Y
 196820	198860	Do you want to ask her?	R					
 198860	199780	Ask [id170].	R					
 199780	202740	Do you want to ask [id170] a question about what you see?	R					
@@ -269,9 +269,9 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 592940	593940	And now it's your turn to be the teller.	R					
 593940	594940	You guys got it.	R					
 594940	595940	You guys are figuring it out.	R					
-595940	599940	Mine has a tail and a man who has a shoe on his back.	id170		S		a tail	Y
+595940	599940	Mine has a tail and a man who has a shoe on his back.	id170		S			Y
 599940	602940	So remember, you're only explaining the one that has the box around it.	R					
-618940	620940	The one that has the tail.	id170		S		has a tail	Y
+618940	620940	The one that has the tail.	id170		S		has the tail	Y
 621940	623940	Mind is in the mean.	id169		L			Y
 623940	625940	Oh, so only the teller is going to explain.	R					
 625940	627940	So which one do you think?	R					
@@ -467,7 +467,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1146940	1148940	OK, now do you want to be the teller?	R					
 1148940	1152940	OK, the one with the box.	id169		S			
 1152940	1154940	Tell [id170].	R					
-1154940	1160940	It looks like a door, a square, and one like this, again.	id169		S		a door, a square, and one like this again	Y
+1154940	1160940	It looks like a door, a square, and one like this, again.	id169		S		a door, a square, and one like this	Y
 1160940	1162940	Can you use your words to explain what that is?	R					
 1162940	1164940	It looks like this.	id169		S			Y
 1164940	1165940	It's like this.	id169		S			Y

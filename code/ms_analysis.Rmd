@@ -346,6 +346,8 @@ transcripts |>
   full_join(joint_demog) |>
   filter(speaker != speaker_transcript) |>
   select(expt, game, trial, text, speaker_transcript, speaker, listener)
+
+transcripts  |> filter(on_topic=="Y") |> filter(role=="S")|> select(expt, game, trial, text, description) |> View()
 ```
 
 # Graphs

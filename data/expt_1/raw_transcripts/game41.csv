@@ -150,7 +150,7 @@ start,end,text,speaker,trial,role,echo,description,on_topic
 430000,432000,He's making so many guesses.,M,,,,,
 432000,434000,We're going to help him make another one.,M,,,,,
 434000,438000,We're going to listen to our friend while she sees it in the box.,M,,,,,
-438000,440000,I see a person walking.,id14,,S,,a person walking,Y
+438000,440000,I see a person walking.,id14,,S,,,Y
 440000,444000,The person's head is square.,id14,,S,,the person’s head is square,Y
 440000,444000,I see a person walking,id13,,L,,,Y
 444000,451000,You're going to push it.,M,,,,,

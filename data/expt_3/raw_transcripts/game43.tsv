@@ -85,7 +85,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 359040	362200	Okay, now we're gonna switch back now you're gonna be the guessing	R	8				
 		it’s like a bunny kind of shape, like a triangle on top	id193		S		a bunny kind of shape, like a triangle on top	Y
 372560	383040	All right, now you're gonna be the guessing you're gonna be the teller	R	9				
-388400	392440	Oh, I see a shape that has a triangle on the side	id194		S		a triangle on the side	Y
+388400	392440	Oh, I see a shape that has a triangle on the side	id194		S		A shape that has a triangle on the side	Y
 		anything else?	R					
 		and the other	id194		S			Y
 		is it kind of on the top?	id193		L			Y
@@ -97,7 +97,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 428640	430640	The one that looks like a mountain	id193		S		a mountain	Y
 432560	434560	Oh	R	11				
 438560	443920	That's okay, we'll have more chances and now you're gonna be the guesser and you're gonna be the teller	R					
-445280	448720	I should shape that has a triangle on the front	id194		S		a triange on the front	Y
+445280	448720	I should shape that has a triangle on the front	id194		S		Shape that has a triangle on the front	Y
 449600	451600	And on the back top I	id194		S		on the back top	Y
 452560	454560	I see a diamond	id194		S		a diamond	Y
 455280	457280	or square	id194		S		or square	Y
@@ -117,14 +117,14 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 518400	520400	There's the other one that's okay	R					
 520400	524320	You’ll have more chances and now you're gonna be the guesser and you're gonna be the teller	R					
 525200	528720	I see one that has a square on the top	id194		S		a square on the top	Y
-530960	537520	I mean a diamond and it has triangles on the bottom	id194		S		a diamond and triangles on the bottom	Y
+530960	537520	I mean a diamond and it has triangles on the bottom	id194		S		a diamond and it has triangles on the bottom	Y
 543200	549520	That's okay, and now oh keep it facing you keep it facing you and now you're gonna be the teller you're gonna be the guesser	R	16				
 551600	553600	It's the one that	id193		S			Y
 556240	558560	Has the square on the top	id193		S		the square on the top	Y
 568320	570320	Just go like tap	R					
 571840	573840	Okay, we're gonna switch back	R	17				
 574480	576480	Now you're gonna be the guesser and you're gonna be the teller	R					
-578480	585040	I see one that has a square on the side on one side and the triangle on the right	id194		S		a square on the side and the triangle on the right	Y
+578480	585040	I see one that has a square on the side on one side and the triangle on the right	id194		S		a square on one side and the triangle on the right	Y
 586960	588960	Triangle on the	id194		S			Y
 589600	592000	Okay, that's okay. Now we're gonna switch back	R	18				
 592960	596400	Now you're gonna be the teller and you're gonna be the guesser. 	R					

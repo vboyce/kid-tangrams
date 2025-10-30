@@ -100,8 +100,8 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 414860	416860	Let's...	id251		S			Y
 418860	422860	Ah, that's okay. Here, let's pass Smurphy.	R	9				
 422860	424860	Now, what do you see in the black box?	R					
-424860	434860	There's something like a diamond on top and like two... one of these on top and one of these on the bottom.	id252		S		a diamond on top and like two... one of these on top and one of these on the bottom.	Y
-434860	438860	And something like laying down like a shape like this.	id252		S		something like laying down like a shape like this	Y
+424860	434860	There's something like a diamond on top and like two... one of these on top and one of these on the bottom.	id252		S		a diamond on top and one of these on top and one of these on the bottom.	Y
+434860	438860	And something like laying down like a shape like this.	id252		S		 laying down like a shape like this	Y
 438860	444860	Ah, that's okay.	R	10				
 444860	446860	Round.	id252		L			Y
 450860	454860	I see like some triangles on top.	id251		S		some triangles on top	Y
@@ -134,7 +134,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 552860	554860	Nice.	R	15				
 558860	564860	It's something... this is something that has a diamond on the back.	id252		S		a diamond on the back	Y
 564860	566860	And this leg is all like this.	id252		S		this leg is all like this	Y
-566860	568860	And one is on the floor.	id252		S		one is one the floor	Y
+566860	568860	And one is on the floor.	id252		S		one is on the floor	Y
 568860	570860	And one is like up on the air.	id252		S		one is like up on the air	Y
 570860	572860	And this has a view.	id252		S		this has a view	Y
 572860	574860	Nice.	R	16				

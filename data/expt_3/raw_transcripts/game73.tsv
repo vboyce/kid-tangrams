@@ -136,7 +136,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 381000	386000	This one looks like a bird with a little flag on its back walking.	id231		L		a bird with a little flag on its back walking	Y
 386000	389000	Which one is it, [id232]?	R					
 389000	391000	Do you want to use your words to tell?	R					
-391000	393000	This one.	id232		S		this one	Y
+391000	393000	This one.	id232		S			Y
 393000	397000	You can't look, but what does it look like to you, [id232]?	R					
 397000	398000	This plus one.	id231		L			Y
 398000	399000	It's...	R					
@@ -163,7 +163,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 459000	464000	Like, how might [id231] differentiate it from the other one?	R					
 466000	469000	Do you want to ask him a question about which one it is, [id231]?	R					
 469000	470000	I don't know.	id231		L			Y
-470000	477000	And the one that looks like a pterodactyl, with a flag on it back again.	id231		L		a pterodactyl with a flag on its back	Y
+470000	477000	And the one that looks like a pterodactyl, with a flag on it back again.	id231		L		a pterodactyl with a flag on it back	Y
 479000	480000	Press it.	id232		S			Y
 480000	482000	You want to help him out, though, [id232]?	R					
 482000	485000	Tell him which one it might be inside the black box.	R					

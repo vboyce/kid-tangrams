@@ -143,7 +143,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 431000	433000	Oh no! It's okay.	R	11				
 433000	436000	And now we pass Murphy to [id188].	R					
 436000	439000	And [id187], can you tell [id188] what you see inside the black box?	R					
-439000	441000	This.	id187		S		this	Y
+439000	441000	This.	id187		S			Y
 441000	443000	What does it look like?	R					
 449000	452000	Like a Hollywood.	id187		S		a hollywood	Y
 452000	455000	Like a Hollywood.	id188		L			Y
@@ -159,8 +159,8 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 480000	482000	Yay!	R	13				
 482000	485000	And now [id188].	R					
 485000	490000	[id187], can you explain and describe your picture to [id188]?	R					
-490000	492000	Yeah. This.	id187		S		this	Y
-492000	495000	Look like that this.	id187		S		this	Y
+490000	492000	Yeah. This.	id187		S			Y
+492000	495000	Look like that this.	id187		S			Y
 495000	497000	What does it look like?	R					
 497000	499000	Guys.	id187		S		guys	Y
 499000	501000	Guys.	id187		S			Y
@@ -200,7 +200,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 607000	609000	We can always try again.	R					
 609000	611000	And so [id187].	R					
 611000	614000	Can you explain what the picture looks like?	R					
-614000	616000	Look like this.	id187		S		this	Y
+614000	616000	Look like this.	id187		S			Y
 616000	619000	[id188], do you want to ask a question?	R					
 620000	622000	What shape does it look like?	id188		L			Y
 622000	625000	So how many shapes do they all have?	id188		L			Y

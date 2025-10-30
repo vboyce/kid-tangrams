@@ -126,7 +126,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 396000	400000	Yeah, it's that.	id240		L			
 400000	406000	What do you see, [id239]?	R					
 406000	411000	What does it look like?	R					
-411000	418000	looking down, something looking down.	id239		S		looking down, something looking down	Y
+411000	418000	looking down, something looking down.	id239		S		something looking down	Y
 418000	425000	Awesome.	R	10				
 425000	426000	What does it look like?	R					
 426000	428000	Oh, yeah.	R	11				
@@ -150,7 +150,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 488000	490000	What does it look like, [id239]?	R					
 490000	498000	Candy.	id239		S		candy	Y
 498000	505000	What does it look like, [id240]?	R	16				
-505000	513000	Sculpture.	id240		S		sculpture	Y
+505000	513000	Sculpture.	id240		S			Y
 513000	515000	Sculpture, a down sculpture	id240		S		a down sculpture	Y
 515000	520000	Awesome.	R	17				
 520000	529000	What does it look like, [id239]?	R					

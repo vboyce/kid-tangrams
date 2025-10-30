@@ -140,7 +140,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 322000	328000	It's like a L, but it's not an L.	id208		S		like a L, but it’s not an L	Y
 328000	335000	The L part is bending this way with a triangle and a square.	id208		S		the L part is bending this way with a triangle and a square	Y
 335000	339000	And then it's holding onto this thing that's sticking up.	id208		S		it’s holding onto this thing that’s sticking up	Y
-339000	341000	The one thing that's sticking up with a triangle.	id208		S		one thing that’s sticking up with a triangle	Y
+339000	341000	The one thing that's sticking up with a triangle.	id208		S		The one thing that’s sticking up with a triangle	Y
 345000	348000	So whenever you have a guess, then you can just click the screen.	R					
 348000	349000	Nice.	R	8				
 349000	350000	Yeah.	R					
@@ -158,7 +158,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 369000	370000	Okay.	R					
 370000	371000	Now we're going to switch back.	R					
 371000	373000	Now you're the guesser and you're going to be the teller.	R					
-374000	379000	It's the same one we did this time.	id208		S		the same one we did this time	Y
+374000	379000	It's the same one we did this time.	id208		S			Y
 379000	387000	It's the triangle and now a triangle attached with a square, a triangle, and a triangle.	id208		S		the triangle and now a triangle attached with a square, a triangle, and a triangle	Y
 388000	389000	Okay.	R					
 392000	393000	That's okay.	R	10				
@@ -199,7 +199,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 481000	488000	Is it the one with the triangle and then a triangle connect with a square and the triangle	id208		L		the triangle and then a triangle connected with a square and the triangle	Y
 488000	489000	and the triangle?	id208		L			Y
 489000	490000	No.	id207		S			Y
-490000	491000	That other one.	id207		S		the other one	Y
+490000	491000	That other one.	id207		S		that other one	Y
 491000	492000	This?	id208		L			Y
 493000	494000	Yeah.	R					
 494000	495000	That's awesome.	R	15				
