@@ -442,6 +442,28 @@ ggplot(joint_demog, aes(x = trial + 1, y = all_words, color = type)) +
   facet_grid(expt ~ .) +
   theme(legend.position = "none")
 ```
+# Successful descriptions
+
+```{r}
+transcript_1 <- read_csv(here(data_loc_1, "transcripts.csv")) |>
+  left_join(read_csv(here(data_loc_1, "link_transcripts.csv"))) |>
+  mutate(expt = "1") |> mutate(trial=trial-2)
+
+transcript_2 <- read_csv(here(data_loc_2, "transcripts.csv")) |>
+  left_join(read_csv(here(data_loc_2, "link_transcripts.csv"))) |>
+  mutate(expt = "2") |> mutate(trial=trial-4)
+
+transcript_3 <- read_csv(here(data_loc_3, "transcripts.csv")) |>
+  left_join(read_tsv(here(data_loc_3, "link_transcripts.csv"))) |>
+  mutate(expt = "3") |> mutate(trial=trial-4)
+
+transcripts <- transcript_1 |>
+  bind_rows(transcript_2) |>
+  bind_rows(transcript_3) |> filter(role=="S") |> filter(!is.na(description)) |> 
+  group_by(trial, speaker, expt, game) |> summarize(description=str_c(description, sep=", ", collapse=", "))
+
+joint_demog |> filter(correct==1) |> left_join(transcripts) |> select(target, expt, game, speaker, trial, description) |> View()
+```
 
 # Models
 ## Accuracy
