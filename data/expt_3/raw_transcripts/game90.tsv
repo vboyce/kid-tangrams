@@ -113,44 +113,44 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 		Swishy smurfy	id261		L			
 429140	432100	All right, [id262] can you describe what's inside the box	R					
 432300	434300	a dog, a dog	id262		S		a dog	
-		Aww	id261	10	S			
+		Aww	id261	11	S			
 		not again	id262		L			
 		move it	id261		S			
 442660	445060	What is it 	id262		L			
 		a people	id261		S		a people	
 		people	id262		L			
-		uh, oh, press it	id261	11	L			
+		uh, oh, press it	id261	12	L			
 457940	462820	All right, [id262] you turn to describe what you see in the box	R					
 		I see a dog, hopping. A dog. 	id262		S		a dog hopping	
-		What do you see to me?	id262	12	L			
+		What do you see to me?	id262	13	L			
 		A people.	id261		S		a people	
-488940	493420	not again	id261	13	L			
+488940	493420	not again	id261	14	L			
 		I see a shape	id262		S		a shape	
 		Oh, let’s pass smurfy to [id261].	R					
 500660	506940	Don't work.	id261		L			
 		 Oh just try to press one at a time the one that you think that is inside 	R					
-		What did you see?	id262	14	L			
+		What did you see?	id262	15	L			
 		People.	id261		S		people	
-509820	511820	Yay!	id262	15	S			
+509820	511820	Yay!	id262	16	S			
 518860	523260	All right now, what do you see [id262]?	R					
 		a dog	id262		S		a dog	
-528740	530740	Yay!	R	16				
+528740	530740	Yay!	R	17				
 		What do you see?	id262		L			
 		This.	id261		S			
 		What?	id262		L			
 536180	538180	Can you use words to describe it?	R					
 538180	540180	I see a kangaroo	id261		S		a kangaroo	
 		kangaroo	id262		L			
-545700	549980	Nice job guys. All right, I think it's [id261]'s turn. Oh, you're gonna pass it	R	17				
+545700	549980	Nice job guys. All right, I think it's [id261]'s turn. Oh, you're gonna pass it	R	18				
 		I’m gonna pass it, swing it.	id262		S			
 		Hi, I see you.	id262		S			
 		Hi, I see you.	id261		L			
 555980	559460	All right friends, let's focus on the game	R					
 		Okay.	id262		S			
 568180	570180	I see I see I see a dog.	id262		S		a dog	
-		I see a people	id261	18	S		a people	
+		I see a people	id261	19	S		a people	
 		People	id262		L			
-		So many “oohs”	id261	19	L			
+		So many “oohs”	id261	20	L			
 		there was a woo	id262		S			
 		yeah, it’s a wooh	R					
 		it is a woo, look	id262		S	turned ipad all the way around		

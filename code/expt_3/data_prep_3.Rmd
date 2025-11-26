@@ -98,11 +98,12 @@ less_raw_data <- raw_data %>%
 wrangle_transcript <- function(game_num) {
   if(file.exists(here("data/expt_3/raw_transcripts", str_c(game_num, ".tsv")))){
   file = read_tsv(here("data/expt_3/raw_transcripts", str_c(game_num, ".tsv")))
+  message(game_num)
   }
   else{
     if(file.exists(here("data/expt_3/raw_transcripts/exclude", str_c(game_num, ".tsv")))){
-        #file = read_tsv(here("data/expt_3/raw_transcripts/exclude", str_c(game_num, ".tsv")))
-        file=tibble(start=NA, end=NA, text=NA, speaker=NA, trial=NA, role=NA, echo=NA,description=NA, on_topic=NA)
+      message(game_num)
+        file = read_tsv(here("data/expt_3/raw_transcripts/exclude", str_c(game_num, ".tsv")))
     }
     else{
       file=tibble(start=NA, end=NA, text=NA, speaker=NA, trial=NA, role=NA, echo=NA,description=NA, on_topic=NA)

@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	11040	Okay, so welcome friends to my game! Oh yes! Welcome friends to my game. Before we	R					
 11040	16160	start, do you guys want to pop some bubbles? 	R					
 		Yes!	id172					
@@ -39,62 +39,62 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 		Me.	id172		S			
 170480	177120	Good job, [id172]. So now, [id171], you will have Smurphy and [id172], can you tell Smurphy and	R					
 177120	185360	[id171] what you see?	R					
-		I see a banana. 	id172		S		a banana	
+		I see a banana. 	id172		S		a banana	Y
 		[id171], can you tap the one that looks like a banana?	R			x		
 187520	195680	Yay! And if it's a match, we will see a smiley face. If it's not a match, we'll see it. 	R	2				
-		I got a bird.	id171		S		a bird	
+		I got a bird.	id171		S		a bird	Y
 195680	206880	you saw a bird?	R			x		
 								
 		Yay! Okay, now [id172], you will tell [id171] and Smurphy what you see. 	R	3				
 		I see.	id172		S			
 214320	221840	[id172], can you repeat what you see?	R					
-		 I see a... I see a...	id172		S			
-221840	226480	A windmill.	id172		S		a windmill	
+		 I see a... I see a...	id172		S			Y
+221840	226480	A windmill.	id172		S		a windmill	Y
 		 [id171], can you tap the one that looks like a windmill?	R			x		
-227520	237200	Where’s the windmill? This?	id171		L			
+227520	237200	Where’s the windmill? This?	id171		L			Y
 		 If that's your best guess. Yay! Yay! Now, [id172], it's your turn to guess.	R	4				
 241760	244320	[id171], can you tell [id172] and Smurphy what you see?	R					
-244720	260800	I saw looks like flower.	id171		S		flower	
+244720	260800	I saw looks like flower.	id171		S		flower	Y
 								
 		Yay! Now, we pass Smurphy to [id171]. [id172], can you tell [id171] what you see?	R	5				
-260800	266880	I see. A foot. A foot.	id172		S		a foot	
+260800	266880	I see. A foot. A foot.	id172		S		a foot	Y
 267120	277440	Yay! Yay! Now, we pass Smurphy to [id172]. [id171], can you tell [id172] what you see?	R	6				
 281040	291600	Yay! Yay! So, can we wait and see what [id171] has to say to tell you and Smurphy what to guess before we tap the screen?	R	7				
 292240	299920	Okay. Now, [id172], can you tell [id171] and Smurphy what you see? 	R					
-		I see a kid	id172		S		a kid	
+		I see a kid	id172		S		a kid	Y
 302640	310880	Which one looks like a kid? 	R			x		
-		This one.	id171		L			
+		This one.	id171		L			Y
 		Oh no, it's okay. We can try again. Now, [id172].	R	8				
 311200	324080	Oh, can we wait and see what the teller is going to tell the guesser what to press? 	R	9				
 		Let’s see	R	10				
 325920	332080	Okay. [id172], now you are the teller and you're going to tell [id171] what you see. And [id171],	R	11				
 332080	337440	you're the guesser and you're going to tap the screen. [id172], can you tell [id171] what you see?	R					
-338000	347680	I see a kitty. 	id172		S		a kitty	
-		Look, it's a little baby. 	id172		S		a little baby	
+338000	347680	I see a kitty. 	id172		S		a kitty	Y
+		Look, it's a little baby. 	id172		S		a little baby	Y
 		Yay! Now, [id171], you're the teller and [id172],	R	12				
 347680	360080	you're the guesser.	R					
 		 Can we wait and see?	R					
-		 I saw bunny.	id171		S		bunny	
+		 I saw bunny.	id171		S		bunny	Y
 		 I'm Lee. 	id172		L			
 		Yes. On your screen, which one looks like a bunny?	R			x		
-360320	363280	Bunny.	id171		S			
+360320	363280	Bunny.	id171		S			Y
 		Oh no. 	R	13				
 366400	371200	Let's go with this. And now, [id172], we can pass Smurphy to [id171].	R					
 375520	379600	Are you trying to hide him? And now, can you tell [id171] what we see?	R					
-381520	385200	I see a foot.	id172		S		a foot	
-390880	392720	I forgot it.	id172		S			
+381520	385200	I see a foot.	id172		S		a foot	Y
+390880	392720	I forgot it.	id172		S			Y
 395760	405200	Oh no. Oh no. It's okay. We can try again. Now, [id171], can you tell [id172] what you see?	R	14				
 406160	411680	Wow, you did it. But [id172], let's wait and see and what [id171] tells you so you can guess.	R	15				
 412960	417680	Now, [id172], you're the teller. So, can you tell [id171] and Smurphy what you see?	R					
-418240	429120	I see nothing. 	id172		S		nothing	
+418240	429120	I see nothing. 	id172		S		nothing	Y
 		You see nothing? 	R			x		
 		Yeah.	id172		S			
 		 [id171], [id172], what do you see inside the black box?	R					
-431840	444000	Nothing. 	id172		S			
+431840	444000	Nothing. 	id172		S			Y
 		Nothing? 	R					
-		See more. 	id172		S		see more	
+		See more. 	id172		S		see more	Y
 		A sea?	R					
-		Yeah, a little, a little, all. 	id172		S		a little	
+		Yeah, a little, a little, all. 	id172		S		a little	Y
 		Oh no, it's okay.	R	16				
 444160	451680	Okay. Now, [id172], you're the guesser. 	R	17				
 		Yeah. Oh, yay. But [id172], let's wait and see what [id171] says	R					
@@ -102,13 +102,13 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 		Yeah. 	id172		S			
 		Okay. So, now you are the teller	R					
 459840	471360	and [id171] is the guesser. 	R					
-		Look.	id172		S			
+		Look.	id172		S			Y
 		Hey. Can you tell [id171] what you see? 	R					
-		And Rosie. I see Rosie.	id172		S		rosie	
-471680	480400	And Rosie. 	id172		S			
+		And Rosie. I see Rosie.	id172		S		rosie	Y
+471680	480400	And Rosie. 	id172		S			Y
 		Yes, but can you, can you tell [id171] what you see? 	R					
 		I see. And you're in the black box?	R					
-481520	491040	Nothing. 	id172		S		nothing	
+481520	491040	Nothing. 	id172		S		nothing	Y
 		You see nothing? 	R			x		
 		Are there, is there anything you can say? 	R					
 		Let's go back to class.	id172		S			

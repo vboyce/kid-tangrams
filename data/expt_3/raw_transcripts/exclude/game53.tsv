@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	8160	for later. Okay. Alright, so today we're gonna be playing a fun little matching game, but	R					
 8160	12200	before we do that we're gonna practice using the iPads. So if you want then you can press	R					
 12200	17360	the blue button to get started. And then now you just gotta tap all the blue buttons to	R					
@@ -36,99 +36,99 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 163520	170520	All right, so which one of you has the black box? Okay, so that means you're gonna be the teller,	R	1				
 170520	175480	and you're gonna be the guesser. So [id210], do you want to tell [id209] what you see inside the black	R					
 175480	182680	box? 	R					
-		The banana. 	id210		S		the banana	
+		The banana. 	id210		S		the banana	Y
 		All right, and then to [id209], when you have a guess, then you can click the	R					
 182680	185520	screen of the one you think it is, because you're the guesser, since you're holding Murphy.	R					
 186520	193520	Perfect. Just like that. And now we're gonna switch over. And now you're turned to be the teller,	R	2				
 193520	198520	and you're turned to be the guesser. So [id209].	R					
-198520	213520	Um, um, uh, the eagle? 	id209		S		the eagle	
+198520	213520	Um, um, uh, the eagle? 	id209		S		the eagle	Y
 		Okay. Nice. Just like that. Now we're gonna switch back. Now you're gonna be the	R	3				
 213520	226520	guesser, and you're gonna be the teller. 	R					
-		Um, uh, that has a corner. 	id210		S		has a corner	
+		Um, uh, that has a corner. 	id210		S		has a corner	Y
 		Yeah. Wait, you guys are so good at this.	R	4				
 226520	232520	Oh, yeah. Can I take Murphy? All right. And now you're turned to be the guesser,	R					
 232520	237520	and you're turned to be the teller. 	R					
-		Um, the one with the pointy. 	id209		S		the one with the pointy	
+		Um, the one with the pointy. 	id209		S		the one with the pointy	Y
 244520	250520	Nice. Okay. Now we're gonna switch back. Now you're gonna be the guesser, and you're gonna be the teller.	R	5				
-250520	264520	Uh, it looks like a sausage. That has a strawberry top.	id210		S		a sausage that has a strawberry top	
+250520	264520	Uh, it looks like a sausage. That has a strawberry top.	id210		S		a sausage that has a strawberry top	Y
 266520	272520	Yeah. That was great. Now we're gonna switch back, and now you're gonna be the guesser, and you're gonna be the teller.	R	6				
-273520	285520	Um, uh, instead of, and then it's on the side of the, of the one you just told me.	id209		S		on the side of the one you just told me	
+273520	285520	Um, uh, instead of, and then it's on the side of the, of the one you just told me.	id209		S		on the side of the one you just told me	Y
 289520	293520	Aw, okay. It was other one. But that's okay. We'll have a lot more chances to help Murphy.	R	7				
 293520	296520	Now you're turned to be the guesser, and you're turned to be the teller.	R					
 304520	308520	So [id210], could you tell [id209] what you see inside the black box?	R					
 308520	313520	It's okay. Just give me a best shot of what you see inside the box right here.	R					
 313520	320520	It's okay if you don't know. Just try to, try to help [id209] and Murphy to help them guess.	R					
-		I don’t know whats in the black box.	id210		S			
+		I don’t know whats in the black box.	id210		S			Y
 333520	339520	It's okay. You're doing really good before. Um, so could you just tell them what you see inside the box? What it looks like?	R					
-		I don’t know…	id210		S			
+		I don’t know…	id210		S			Y
 345520	347520	It's okay. Just give me a best shot.	R					
 349520	353520	Or [id209], do you want to ask questions about which one it is?	R					
 356520	358520	Do you want to ask [id210] about which one it is?	R					
-358520	360520	Which one is it?	id209		L			
+358520	360520	Which one is it?	id209		L			Y
 364520	370520	Oh, so we gotta, we gotta keep it facing ourselves. Just you for now.	R					
 375520	379520	Is there anything you can do to help [id209] guess?	R					
 379520	380520	Yes.	id209		L			
 380520	383520	Yeah. So then what do you, what do you think it is, [id210]?	R					
-383520	390520	It looks like a koala walking that has a back pack.	id210		S		a koala walking that has a backpack	
+383520	390520	It looks like a koala walking that has a back pack.	id210		S		a koala walking that has a backpack	Y
 390520	395520	Okay. Yeah, that was perfect. Good job.	R	8				
 395520	397520	Okay, and now we're going to say it's [id209].	R					
 397520	401520	And you're going to be the guesser. And now [id209], you can be the teller.	R					
-401520	407520	Um, the one that looks like a bunny.	id209		S		a bunny	
-409520	410520	This one.	id209		S			
+401520	407520	Um, the one that looks like a bunny.	id209		S		a bunny	Y
+409520	410520	This one.	id209		S			Y
 410520	413520	Yeah, that was great. And now we're going to switch.	R					
 413520	416520	You're going to be the teller. You're going to be the guesser.	R	9				
 416520	417520	Okay.	id209		L			
-420520	421520	I don't know.	id210		S			
+420520	421520	I don't know.	id210		S			Y
 421520	425520	That's okay. That's okay. What does it look like?	R					
 427520	429520	If you look at it, what does it look like?	R					
-429520	432520	Maybe a shoe.	id210		S		a shoe	
+429520	432520	Maybe a shoe.	id210		S		a shoe	Y
 433520	434520	Okay.	R					
 436520	439520	Yeah, just like that. You're doing really good, [id210].	R	10				
 439520	441520	You too, [id209]. That was a great guess.	R					
 441520	444520	Now you're going to be the guesser and you're going to be the teller.	R					
-444520	449520	Um, the one that's walking with a backpack.	id209		S		walking with a backpack	
+444520	449520	Um, the one that's walking with a backpack.	id209		S		walking with a backpack	Y
 457520	461520	Awesome. Okay. Now we're going to switch.	R	11				
 461520	463520	You're going to be the guesser. You're going to be the teller.	R					
 463520	465520	Oh, wait. Yes.	R					
 465520	467520	You're going to be the teller.	R					
-467520	474520	Um, it looks like a sausage that has a leaf.	id210		S		a sausage that has a leaf	
+467520	474520	Um, it looks like a sausage that has a leaf.	id210		S		a sausage that has a leaf	Y
 477520	479520	Yay!	R					
 479520	482520	Okay. And I'll take it back and you get the guesser again.	R	12				
 482520	483520	You're the teller.	R					
-483520	486520	Um, the one that looks like a bunny.	id209		S		a bunny	
+483520	486520	Um, the one that looks like a bunny.	id209		S		a bunny	Y
 491520	492520	Yay!	R					
 492520	494520	We're almost there, guys. You're doing really good.	R					
 494520	497520	You're going to be the guesser and you're going to be the teller.	R	13				
-497520	502520	It looks like the one that looks like a bunny.	id210		S		a bunny	
+497520	502520	It looks like the one that looks like a bunny.	id210		S		a bunny	Y
 504520	506520	Whoo!	R	14				
 506520	510520	Okay. Now you're going to be the guesser. You're going to be the teller.	R					
-510520	516520	The one with the man walking and he has a backpack.	id209		S		the man walking and he has a backpack	
+510520	516520	The one with the man walking and he has a backpack.	id209		S		the man walking and he has a backpack	Y
 520520	522520	Aw, there's the other one, but that's okay.	R	15				
 522520	525520	Now we're going to switch back and you're going to be the guesser.	R					
 525520	527520	You're going to be the teller.	R					
-527520	532520	Uh, the sausage have a leaf.	id210		S		the sausage have a leaf	
+527520	532520	Uh, the sausage have a leaf.	id210		S		the sausage have a leaf	Y
 534520	537520	Wow! Good job, guys.	R	16				
 537520	541520	Yeah. Now you're going to be the guesser and you're going to be the teller.	R					
-541520	545520	Um, the one that looks like a shoe.	id209		S		a shoe	
+541520	545520	Um, the one that looks like a shoe.	id209		S		a shoe	Y
 548520	550520	Yay!	R	17				
 550520	553520	Awesome. Now you're going to be the guesser and you're going to be the teller.	R					
 553520	555520	You're doing so good.	R					
-555520	559520	The sausage that has a leaf and they're very tall.	id210		S		the sausage that has a leaf and they’re very tall	
+555520	559520	The sausage that has a leaf and they're very tall.	id210		S		the sausage that has a leaf and they’re very tall	Y
 559520	561520	Okay.	R	18				
 562520	564520	Okay. Now we're going to swap.	R					
 564520	567520	You're going to be the guesser and you're going to be the teller.	R					
-567520	573520	Um, the one with the backpack walking.	id209		S		with the backpack walking	
+567520	573520	Um, the one with the backpack walking.	id209		S		with the backpack walking	Y
 576520	578520	Did you hear that [id210]?	R					
 579520	581520	Do you want to say that again? [id209]?	R					
-581520	588520	Um, the one with the person walking and having a backpack on its back.	id209		S		the person walking and having a backpack on its back	
+581520	588520	Um, the one with the person walking and having a backpack on its back.	id209		S		the person walking and having a backpack on its back	Y
 589520	591520	Yay!	R	19				
 591520	593520	Awesome. Okay. Now we're going to switch.	R					
 593520	595520	You're going to be the guesser. You're going to be the teller.	R					
-595520	600520	The one that looks like a shoe.	id210		S		a shoe	
+595520	600520	The one that looks like a shoe.	id210		S		a shoe	Y
 603520	605520	Woohoo!	R					
 605520	608520	Okay. Just a couple more.	R	20				
 608520	611520	Now you're going to be the guesser and you're going to be the teller.	R					
-611520	617520	Um, the one that looks like a bunny.	id209		S		a bunny	
+611520	617520	Um, the one that looks like a bunny.	id209		S		a bunny	Y
 622520	625520	Aw, it was the other one but that's okay.	R					
 625520	628520	Oh! That's the end of the game.	R					
 628520	630520	Wow! Thank you guys so much for playing.	R					

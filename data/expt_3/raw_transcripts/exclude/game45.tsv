@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 25000	27000	Okay, so today we're going to play a fun matching game.	R					
 27000	29000	But before we do that,	R					
 29000	31000	we're going to learn how to use the iPads,	R					
@@ -123,15 +123,15 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 247000	248000	So now, [id197],	R					
 248000	250000	could you tell [id198]	R					
 250000	252000	what you see inside the black box?	R					
-		I see an apple.	id197		S		an apple	
+		I see an apple.	id197		S		an apple	Y
 254000	255000	Okay, and then [id198],	R					
 255000	256000	when you have a guess,	R					
 256000	258000	do you want to click the answer on the screen?	R					
 264000	265000	Just click the answer on the screen	R					
 265000	267000	and show everyone what you think it is.	R					
-267000	268000	Which one is it?	id198		L			
+267000	268000	Which one is it?	id198		L			Y
 269000	270000	[id197]?	R					
-		an apple.	id197		S			
+		an apple.	id197		S			Y
 271000	272000	Okay.	R					
 273000	274000	So it was the other one,	R	2				
 274000	275000	but that's okay,	R					
@@ -141,7 +141,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 278000	280000	and you're going to be the teller.	R					
 280000	281000	So [id198], could you tell [id197]	R					
 281000	283000	what you see inside the black box?	R					
-283000	284000	A bird.	id198		S		a bird	
+283000	284000	A bird.	id198		S		a bird	Y
 286000	287000	Nice.	R	3				
 287000	288000	Okay.	R					
 288000	289000	Now we're going to switch back	R					
@@ -151,25 +151,25 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 303000	305000	So [id197], right now you're the teller.	R					
 305000	307000	So could you tell [id198] and Smurfy	R					
 307000	309000	what you see inside the black box?	R					
-336000	338000	I don't know what it is.	id197		S			
+336000	338000	I don't know what it is.	id197		S			Y
 338000	340000	That's okay if you don't know what it is.	R					
 340000	342000	Just, is there anything you could say	R					
 342000	343000	or any words you could use	R					
 343000	345000	to try to help [id198] guess	R					
 345000	346000	which one it is?	R					
-348000	349000	This one.	id198		L			
+348000	349000	This one.	id198		L			Y
 349000	351000	Well, we got to wait for [id197]	R					
 351000	352000	to tell you what it is.	R					
 352000	354000	If you want, you can ask [id197] questions	R					
 354000	357000	about what is inside the black box.	R					
-357000	359000	Wait, is inside the box?	id198		L			
-363000	366000	I don’t know	id197		S			
+357000	359000	Wait, is inside the box?	id198		L			Y
+363000	366000	I don’t know	id197		S			Y
 366000	368000	Just give it your  best shot.	R					
 369000	371000	just like say whatever	R					
 371000	373000	whatever words you think it is.	R					
 383000	385000	See it right there inside the box.	R					
 385000	387000	What do you, what do you see?	R					
-388000	390000	Something.	id197		S			
+388000	390000	Something.	id197		S			Y
 390000	391000	Yeah.	R					
 393000	395000	So is there anything else you can say about it?	R					
 401000	404000	[id198] only can say	id197		S			
@@ -194,8 +194,8 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 452000	454000	and you're going to be the teller.	R					
 454000	456000	So [id198], could you tell [id197]	R					
 456000	458000	what you see inside the box?	R					
-458000	459000	A swirly.	id198		S		a swirly	
-460000	461000	A flower.	id198		S		a flower	
+458000	459000	A swirly.	id198		S		a swirly	Y
+460000	461000	A flower.	id198		S		a flower	Y
 461000	462000	Okay.	R					
 462000	463000	now [id197]	R					
 463000	465000	Do you want to take a guess?	R					
@@ -204,7 +204,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 474000	475000	then you just click the screen	R					
 475000	476000	which one you think it is.	R					
 476000	477000	Just a tap.	R					
-478000	479000	A flower?	id197		L		a flower	x
+478000	479000	A flower?	id197		L		a flower	Y
 479000	480000	Yeah.	R					
 480000	481000	Tap a little harder.	R					
 481000	482000	Try it again.	R					
@@ -225,7 +225,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 511000	512000	Uh...	id197		S			
 524000	525000	Uh...	id197		S			
 525000	526000	You got it.	R					
-530000	531000	I see you.	id198		L			
+530000	531000	I see you.	id198		L			Y
 531000	532000	Shh.	R					
 532000	533000	Now listen to what [id197] has to say about	R					
 533000	534000	what's inside the box.	R					
@@ -234,7 +234,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 545000	547000	and [id198] out by saying what you see	R					
 547000	549000	inside the box?	R					
 550000	551000	Uh...	id197		S			
-551000	554000	I think it's just one of these.	id198		L			
+551000	554000	I think it's just one of these.	id198		L			Y
 554000	555000	Yeah.	R					
 555000	556000	Well, it's going to be one of them.	R					
 556000	557000	But we need [id197] to tell us	R					
@@ -242,7 +242,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 559000	561000	to help [id198] guess.	R					
 561000	562000	Because [id198] doesn't know	R					
 562000	563000	which one it is right now.	R					
-563000	567000	Well, I still don't know.	id197		S			
+563000	567000	Well, I still don't know.	id197		S			Y
 567000	568000	It's okay if you don't know	R					
 568000	569000	what it is.	R					
 569000	570000	You can just use your words	R					
@@ -255,10 +255,10 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 604000	606000	So, like, you see it right there.	R					
 606000	608000	So...	R					
 608000	610000	Do you have anything you can say about it?	R					
-619000	620000	I don’t know	id197		S			
+619000	620000	I don’t know	id197		S			Y
 620000	621000	[id198], do you want to take your best guess	R					
 621000	623000	of which one you think it is?	R					
-624000	625000	It's this one.	id198		L			
+624000	625000	It's this one.	id198		L			Y
 625000	626000	Okay.	R					
 628000	629000	That's cool.	R					
 629000	630000	That was that one.	R	6				
@@ -268,14 +268,14 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 633000	634000	and you're going to be the teller.	R					
 634000	635000	So [id198], could you tell [id197]	R					
 635000	637000	what you see inside the black box?	R					
-637000	638000	This.	id198		S			
+637000	638000	This.	id198		S			Y
 638000	639000	Yeah.	R					
 639000	640000	But could you try to describe it?	R					
 640000	641000	Or, like, what it...	R					
 641000	642000	um...	R					
 642000	643000	what it is?	R					
-643000	644000	A sculpture?	id198		S		a sculpture	
-645000	646000	A sculpture?	id198		S			
+643000	644000	A sculpture?	id198		S		a sculpture	Y
+645000	646000	A sculpture?	id198		S			Y
 647000	648000	Okay.	R					
 648000	650000	[id197], does that help you?	R					
 654000	655000	Nice.	R	7				
@@ -287,19 +287,19 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 660000	661000	and you're going to be the guesser.	R					
 662000	663000	So now [id197], could you tell [id198]	R					
 663000	665000	what you see inside the black box?	R					
-		it’s this one	id197		S			
+		it’s this one	id197		S			Y
 669000	670000	Yeah.	R					
 670000	671000	But [id198] can't see your screen.	R					
 671000	673000	So could you use your words	R					
 673000	674000	to try to describe it?	R					
-677000	679000	I know all your words.	id198		L			
+677000	679000	I know all your words.	id198		L			Y
 679000	680000	Yeah.	R					
 680000	681000	That's awesome.	R					
 682000	683000	But let's listen to [id197] right now.	R					
 683000	684000	It's [id197]'s the teller.	R					
 688000	689000	So [id197], could you tell [id198]	R					
 689000	691000	what you see inside the black box?	R					
-		I see this	id197		S			
+		I see this	id197		S			Y
 695000	696000	Well, but he can't see	R					
 696000	697000	what's on your screen.	R					
 697000	698000	So could you use your words	R					
@@ -310,22 +310,22 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 713000	714000	To try to	R					
 715000	716000	tell the difference	R					
 716000	717000	between the two pictures?	R					
-718000	720000	I think it's this one.	id198		L			
+718000	720000	I think it's this one.	id198		L			Y
 720000	721000	Well, do you want to try	R					
 721000	722000	asking [id197] some questions	R					
 722000	724000	about it before you guess?	R					
-725000	726000	Sure.	id198		L			
-727000	728000	[id197], what do you see?	id198		L			
-731000	732000	I	id197		S			
-734000	735000	see	id197		S			
-747000	748000	I	id197		S			
-752000	753000	still	id197		S			
-753000	754000	don't	id197		S			
-755000	756000	know.	id197		S			
-756000	758000	I can't say anything about it.	id197		S			
+725000	726000	Sure.	id198		L			Y
+727000	728000	[id197], what do you see?	id198		L			Y
+731000	732000	I	id197		S			Y
+734000	735000	see	id197		S			Y
+747000	748000	I	id197		S			Y
+752000	753000	still	id197		S			Y
+753000	754000	don't	id197		S			Y
+755000	756000	know.	id197		S			Y
+756000	758000	I can't say anything about it.	id197		S			Y
 759000	760000	Yeah.	R					
 760000	761000	Anything you want.	R					
-761000	762000	Anything about it.	id198		L			
+761000	762000	Anything about it.	id198		L			Y
 763000	764000	Yeah, anything about it.	R					
 766000	767000	Just to try to help Smurfy.	R					
 		[incomprehensible]	id197		S			
@@ -343,32 +343,32 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 796000	797000	and now you're going to be	R					
 797000	798000	the teller.	R					
 798000	799000	You're going to be the guesser.	R					
-799000	800000	I see a scorcher.	id198		S		a scorcher	
+799000	800000	I see a scorcher.	id198		S		a scorcher	Y
 802000	804000	Can you say it louder?	R					
-805000	806000	I see a scorcher.	id198		S			
+805000	806000	I see a scorcher.	id198		S			Y
 813000	814000	Anyway, and you can ask	R					
 814000	815000	[id198] questions about it too.	R					
 816000	817000	More information.	R					
 833000	834000	And me.	id197		L			
-837000	838000	It is the bigger one.	id198		S		the bigger one	
-839000	840000	The one that's pointy on the bottom. 	id198		S		pointy on the bottom	
-844000	845000	And the top and the other top. 	id198		S		and the top and the other top	
-849000	850000	And there's a square	id198		S		a square	
-851000	852000	and there's a triangle here	id198		S		a triangle here	
-853000	854000	and another triangle.	id198		S		and another triangle	
-854000	855000	This one?	id197		L			
+837000	838000	It is the bigger one.	id198		S		the bigger one	Y
+839000	840000	The one that's pointy on the bottom. 	id198		S		pointy on the bottom	Y
+844000	845000	And the top and the other top. 	id198		S		and the top and the other top	Y
+849000	850000	And there's a square	id198		S		a square	Y
+851000	852000	and there's a triangle here	id198		S		a triangle here	Y
+853000	854000	and another triangle.	id198		S		and another triangle	Y
+854000	855000	This one?	id197		L			Y
 858000	859000	Yeah, once you have a guess	R					
 859000	860000	then you can just click.	R					
 862000	863000	Okay.	R					
 865000	866000	[id198] just told you  a lot about it.	R					
-		I know, I know about a bunny. 	id197		L			
+		I know, I know about a bunny. 	id197		L			Y
 874000	875000	Well, right now you're the guesser.	R					
 875000	877000	So did you hear what [id198] said about it?	R					
-877000	878000	The shape?	id197		L			
+877000	878000	The shape?	id197		L			Y
 878000	879000	Yeah.	R					
 879000	880000	Okay, so if you look at the screen	R					
 880000	881000	then which one do you think it is?	R					
-882000	883000	This one.	id197		L			
+882000	883000	This one.	id197		L			Y
 883000	884000	Okay, so then tap the answer	R					
 884000	885000	you think it is.	R					
 889000	890000	Okay, it was the other one.	R	9				
@@ -380,14 +380,14 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 898000	899000	to try to guess which one it is?	R					
 900000	901000	Because you're the teller.	R					
 901000	903000	So what do you see inside the black box?	R					
-905000	909000	It looks like a bunny.	id197		S		a bunny	
+905000	909000	It looks like a bunny.	id197		S		a bunny	Y
 910000	911000	Okay.	R					
 915000	916000	So [id198], when you have a guess	R					
 916000	918000	you can tap the answer you think it is.	R					
-919000	921000	I think it's this one.	id198		L			
+919000	921000	I think it's this one.	id198		L			Y
 922000	923000	Okay.	R					
 923000	924000	Did you hear what [id197] said?	R					
-926000	927000	It looks like a bunny.	id197		S			
+926000	927000	It looks like a bunny.	id197		S			Y
 927000	928000	Yeah.	R					
 928000	930000	Okay, so do you want to try tapping?	R					
 932000	933000	Awesome.	R	10				
@@ -397,32 +397,32 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 936000	937000	Okay, now we're going to switch back.	R					
 937000	938000	Now you're going to be the guesser again.	R					
 938000	939000	And you're going to be the teller again.	R					
-939000	941000	I see a square on the top	id198		S		a square on top	
-941000	943000	and a triangle on the top	id198		S		and a triangle on the top	
-943000	946000	and a triangle on the top.	id198		S		and a triangle on the top	
-946000	947000	And then there's a triangle on the body	id198		S		a triangle on the body	
-947000	950000	and then there's a triangle on the back.	id198		S		a triangle on the back	
+939000	941000	I see a square on the top	id198		S		a square on top	Y
+941000	943000	and a triangle on the top	id198		S		and a triangle on the top	Y
+943000	946000	and a triangle on the top.	id198		S		and a triangle on the top	Y
+946000	947000	And then there's a triangle on the body	id198		S		a triangle on the body	Y
+947000	950000	and then there's a triangle on the back.	id198		S		a triangle on the back	Y
 950000	951000	Okay.	R					
 955000	956000	So [id197], did that help you?	R					
 960000	961000	There, [id197].	R					
 961000	963000	Let's just hold, let's just hold	R					
 963000	964000	Smurfy	R					
 964000	968000	and then focus on the screen.	R					
-		squirrel? 	id197		L			
+		squirrel? 	id197		L			Y
 971000	973000	Well, I don't think [id198] said that.	R					
 974000	975000	So listen to what [id198] is saying	R					
 975000	976000	and then use that to try to guess	R					
 976000	978000	which one it is, okay?	R					
 978000	980000	So [id198], could you say it again?	R					
-980000	982000	I see a square on the top	id198		S			
-982000	984000	and a triangle on the top	id198		S			
-984000	986000	and another triangle on the back	id198		S			
-986000	988000	and another triangle on the neck part	id198		S		another triangle on the neck part	
-988000	992000	and another triangle on the body part.	id198		S			
+980000	982000	I see a square on the top	id198		S			Y
+982000	984000	and a triangle on the top	id198		S			Y
+984000	986000	and another triangle on the back	id198		S			Y
+986000	988000	and another triangle on the neck part	id198		S		another triangle on the neck part	Y
+988000	992000	and another triangle on the body part.	id198		S			Y
 992000	993000	Okay.	R					
-997000	1001000	I don't know which shape	id197		L			x
-1001000	1004000	a triangle is.	id197		L			x
-1005000	1007000	It's in the black box.	id198		S			
+997000	1001000	I don't know which shape	id197		L			Y
+1001000	1004000	a triangle is.	id197		L			Y
+1005000	1007000	It's in the black box.	id198		S			Y
 1009000	1011000	Well, just take your best guess, [id197],	R					
 1011000	1013000	and it's okay.	R					
 1013000	1014000	It's okay if it's wrong	R					
@@ -457,7 +457,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 1066000	1068000	Which ever one do you think?	R					
 1076000	1077000	And just like all the other times,	R					
 1077000	1079000	just tap the screen, okay?	R					
-1081000	1083000	People.	id197		L			
+1081000	1083000	People.	id197		L			Y
 1083000	1085000	Well, right now you're the guesser,	R					
 1085000	1086000	so you just have to tap the screen	R					
 1086000	1088000	once you heard what [id198] said.	R					
@@ -466,10 +466,10 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 1095000	1097000	instead of the case, okay?	R					
 1099000	1101000	And if you don't know which one it is	R					
 1101000	1103000	and you could ask [id198] some questions about it.	R					
-		I don’t know which it is	id197		L			
+		I don’t know which it is	id197		L			Y
 1107000	1108000	So [id198], is there anything else	R					
 1108000	1110000	you can say about it to help [id197] guess?	R					
-1110000	1112000	I only see this.	id198		S			
+1110000	1112000	I only see this.	id198		S			Y
 1112000	1114000	So let's keep it facing you.	R					
 1116000	1117000	Oh, okay.	R					
 1118000	1119000	So we ran out of time,	R					
@@ -478,26 +478,26 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 1121000	1123000	and you're going to be the guesser.	R	 				
 1123000	1125000	So [id197], could you help [id198] to guess	R					
 1125000	1127000	what's inside the black box?	R					
-1131000	1133000	Um, tree er?	id197		S		tree er	
+1131000	1133000	Um, tree er?	id197		S		tree er	Y
 1137000	1138000	Okay.	R					
 1139000	1141000	So [id198], did that help you to know	R					
 1141000	1142000	which one it is?	R					
-1144000	1145000	This one.	id198		L			
+1144000	1145000	This one.	id198		L			Y
 1145000	1146000	Okay, so when you have a guesser,	R					
 1146000	1147000	just touch the screen.	R	12				
 1147000	1148000	Okay, so it's the other one,	R					
 1148000	1149000	but that's okay.	R					
 1149000	1150000	We're going to switch back.	R					
 1152000	1154000	Now you're going to be the guesser.	R					
-1154000	1158000	I see a person holding something.	id198		S		a person holding something	
+1154000	1158000	I see a person holding something.	id198		S		a person holding something	Y
 1158000	1160000	Okay, did you hear it?	R					
 1161000	1163000	Okay, so when you have an answer,	R					
 1163000	1165000	then just click the screen.	R					
 1165000	1166000	Okay.	R					
-1170000	1174000	A person holding...	id197		L		a person holding	x
-1177000	1179000	a bag of something.	id197		L		a bag of something	x
-1181000	1183000	A bag of something.	id198		S		a bag of something	
-1183000	1186000	A person holding a bag of something.	id198		S			
+1170000	1174000	A person holding...	id197		L		a person holding	Y
+1177000	1179000	a bag of something.	id197		L		a bag of something	Y
+1181000	1183000	A bag of something.	id198		S		a bag of something	Y
+1183000	1186000	A person holding a bag of something.	id198		S			Y
 1188000	1191000	So then just tap the screen when you have an answer.	R					
 1196000	1198000	Keep your head on the side of the screen	R					
 1198000	1200000	because you can't see each other's icons.	R					
@@ -518,9 +518,9 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 1236000	1238000	Did you hear what [id198] said about the pictures?	R					
 1239000	1241000	Okay, so [id198], could you say it again?	R					
 1241000	1244000	What it looks like inside the black box?	R					
-1244000	1248000	It looks like a bunch of this on the face	id198		S		a bunch of this on the face	
-1248000	1250000	and the square	id198		S		and a the square	
-1250000	1253000	and the same shape as the...	id198		S		the same shape as	
+1244000	1248000	It looks like a bunch of this on the face	id198		S		a bunch of this on the face	Y
+1248000	1250000	and the square	id198		S		and a the square	Y
+1250000	1253000	and the same shape as the...	id198		S		the same shape as	Y
 1254000	1255000	Okay.	R					
 1255000	1257000	And so [id197], do you want to tap the screen	R					
 1257000	1259000	and take your best guess?	R					

@@ -136,7 +136,7 @@ start,end,text,speaker,trial,role,echo,description,on_topic
 406000,408000,Do you think it's...what do we have?,I,,,,,
 408000,410000,Do you think it's this one or this one?,M,,,,,
 410000,415000,"That one that's kind of flat, or do you think this one that's kind of like jumpy?",I,,,Y,,
-415000,418000,The jumpy one.,id6,,,,the jumpy one,Y
+415000,418000,The jumpy one.,id6,,S,,the jumpy one,Y
 418000,420000,It's a jumpy one?,I,,,,,
 420000,422000,"Yeah, it's a jumpy one.",I,,,,,
 422000,424000,Let me try.,I,,,,,

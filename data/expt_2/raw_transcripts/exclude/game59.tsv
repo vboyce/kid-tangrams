@@ -3,12 +3,12 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 710880	713760	We're kind of gonna have to start over a little bit.	R					
 713760	715680	So you're gonna see the easy ones again first,	R					
 717520	719040	but then we'll pick up where we left off.	R					
-719040	721120	Okay, so press the blue button again.	R	1				
+719040	721120	Okay, so press the blue button again.	R	0				
 723920	724960	Oh, you have black box.	R					
 727040	728640	Tell her,  what do you see?	R					
 729600	731440	A banana.	id106		S		a banana	Y
 736480	736880	Awesome.	R					
-736880	737920	Oh, I forgot to turn the blue.	R	2				
+736880	737920	Oh, I forgot to turn the blue.	R	1				
 741520	743040	What do you see in the black box, [id107]?	R					
 744560	745920	An eagle.	id107		S		an eagle	Y
 745920	746480	See an eagle?	R			Y		
@@ -28,13 +28,13 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 792640	793280	This one.	id106		L			Y
 793920	794640	Try pressing it.	R					
 796480	796960	Good job.	R					
-797760	799440	Let's give [id107], Murphy.	R	3				
+797760	799440	Let's give [id107], Murphy.	R	2				
 799440	800480	It said yes.	id106		S			
 802320	803360	All right, what do you see in the box?	R					
 806720	807520	You're the teller now.	R					
 807520	809040	You got to tell [id107] what you see in the box.	R					
 809920	815840	I see a house in the box.	id106		S		a house	Y
-818080	818800	Awesome job.	R	4				
+818080	818800	Awesome job.	R	3				
 822640	823680	Which one is it?	id106		L			Y
 825200	826400	I'll try to see one of them.	id107		S			Y
 829440	830320	A duck girl.	id107		S		a duck girl	Y
@@ -42,7 +42,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 		Duck.	id107		S			Y
 835760	837440	Oh, this is the duck.	id106		L			Y
 839200	840000	Try pressing it.	R					
-849520	850560	Which one is it?	id106	5	S			Y
+849520	850560	Which one is it?	id106	4	S			Y
 851200	852640	Well, you have the black box now.	R					
 852640	853920	So you got to tell [id107] what you see.	R					
 854960	862560	I see some waves in the black box in the body.	id106		S		some waves in the body	Y
@@ -53,7 +53,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 879920	880720	Try your best.	R					
 882800	884800	I think it's a body.	id106		S			Y
 887600	888720	Which one do you think it may be?	R					
-894080	894560	That's okay.	R	6				
+894080	894560	That's okay.	R	5				
 894560	895600	We can try again next time.	R					
 899920	900800	What do you see, [id107]?	R					
 902000	903040	I think it's a thing.	id107		S		a thing	Y
@@ -61,7 +61,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 906880	915200	What if a person with a triangle head and a body and two feets?	id107		S		a person with a triangle head and a body and two feets	Y
 918880	922080	I'm going to see if I have a sad face or a happy face.	id107		S			
 923840	926080	Why don't you try pressing which one you think it is?	R					
-926080	930640	That's okay.	R	7				
+926080	930640	That's okay.	R	6				
 930640	931280	We'll try again.	R					
 940560	941840	It's your turn to be the teller.	R					
 946000	949760	I can see a train in the box.	id106		S		a train	Y
@@ -69,7 +69,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 953680	954800	Maybe I'll fix it later.	R					
 956080	957200	Maybe the other one.	id107		L			
 957200	959280	But for now, press the one that you think it might be.	R					
-966080	966480	That's okay.	R	8				
+966080	966480	That's okay.	R	7				
 970160	970880	What is it?	id106		L			Y
 977280	983760	A rectangle head, a body, arms, and feet.	id107		S		a rectangle head, a body, arms, and feet	Y
 984720	985760	That's how it is.	id107		S			Y
@@ -93,13 +93,13 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1052880	1053840	Take your best guess.	R					
 1054960	1057120	I don't know which one it is.	id106		L			Y
 1057120	1058320	Well, I need you to press one.	R					
-1059280	1063280	Good job.	R	9				
+1059280	1063280	Good job.	R	8				
 1066400	1074320	I think it was the, it was, yes, I pressed the one.	id106		S			
 1074960	1076000	Yeah, you've got it right.	R					
 1076000	1077840	What do you see in the black box now?	R					
 1078800	1079840	A train.	id106		S		a train	Y
 1081360	1082880	It's a train.	id106		S			Y
-1082880	1083680	Good job.	R	10				
+1082880	1083680	Good job.	R	9				
 1088320	1089680	It's the same one again.	id107		S			Y
 1090560	1091600	Try to explain it again.	R					
 1092640	1099120	A triangle head, a body, legs, and feet.	id107		S		a triangle head, a body, legs, and feet	Y
@@ -110,7 +110,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1123840	1126080	That's why you cannot see them.	id106		L			Y
 1127200	1127600	Maybe.	R					
 1128720	1130320	Why don't you press it and see if you got it right?	R					
-1133440	1134080	Oh, that's okay.	R	11				
+1133440	1134080	Oh, that's okay.	R	10				
 1136960	1138720	Oh, I can, oh.	id106		S			
 1139120	1140400	What is this?	id106		S			Y
 1140400	1142000	I don't know what this is.	id106		S			Y
@@ -124,10 +124,10 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1156720	1159600	Or he can say different stuff.	id107		L			Y
 1162640	1164400	Try to tell [id107] what you see in the black box.	R					
 1165200	1172960	Some two legs and a rectangle head and a tummy.	id106		S		some two legs and a rectangle head and a tummy	Y
-1178880	1179360	That's okay.	R	12				
+1178880	1179360	That's okay.	R	11				
 1181120	1182640	Oh, this is how.	id106		L			
 1187680	1189120	Don't press anything yet until [id107].	R					
-1189760	1190960	Oh, all right.	R	13				
+1189760	1190960	Oh, all right.	R	12				
 1190960	1193920	We got to wait for [id107] to tell you what she sees, okay?	R					
 1195040	1197120	Now let's give stuff to Smurphy to [id107].	R					
 1198320	1206880	Oh, someone removed the train from the box.	id106		S			Y
@@ -142,7 +142,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1225200	1225680	I'll try that.	R					
 1226560	1230800	Why don't you try to guess what [id106] told you was in the black box?	R					
 1232160	1238800	There was two legs and a tummy in the rectangle head.	id106		S		two legs and a tummy in the rectangle head	Y
-1241760	1242320	Yay.	R	14				
+1241760	1242320	Yay.	R	13				
 1242320	1242800	Good job.	R					
 1246000	1248160	Oh, this one is hard.	id107		S			Y
 1248880	1261360	I'm going to add a rectangle head, a body, a body, a hand, and feet, and legs.	id107		S		rectangle head, a body, a hand, and feet, and legs.	Y
@@ -150,11 +150,11 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1264240	1268400	Why is it, this one is hard.	id106		L			Y
 1268400	1269440	Just take your best guess.	R					
 1270720	1272400	Tap what's on you think it is.	id107		S			Y
-1273600	1274080	Good job.	R	15				
+1273600	1274080	Good job.	R	14				
 1274080	1280640	Um, I put this one in the, oh, this one's not hard.	id106		S			Y
 1283920	1285680	Tell me what you see in the black box.	R					
 1286480	1298640	Um, um, um, well a sad person and no arms and two legs and a body and no arms and a square head.	id106		S		a sad person and no arms and two legs and a body and a square head.	Y
-1302160	1302640	Good job.	R	16				
+1302160	1302640	Good job.	R	15				
 1304800	1307680	Oh, this one's hard.	id107		S			Y
 1308720	1315280	It's, the person's, it's a bird and, and 	id107		S		the person, it’s a bird	Y
 1315840	1317440	No no no This is a train.	id106		L			Y
@@ -163,15 +163,15 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1324800	1327440	And it goes really fast.	id106		L			Y
 1327440	1332640	And look, this is the coupling at the bottom and this is the coupling at the back.	id106		L			Y
 1332640	1335200	If that's the one you think it is, try to tap it.	R					
-1338880	1341680	Try to tap the one that you think it is, not the one you think it isn’t.	R	17				
+1338880	1341680	Try to tap the one that you think it is, not the one you think it isn’t.	R	16				
 1346320	1348480	Your turn to explain what you think is in the black box.	R					
 1349120	1360400	Um, there was, um, one leg, um, and, and one foot, um, and then, and then a rectangle.	id106		S		one leg and one foot and then a rectangle	Y
 1361360	1377760	Um, uh, hand and the, and in the rectangle, in the triangle hand, um, and, uh, in the, in the rectangle arm, in the rectangle feet and then he’s holding a rectangle magnet tile	id106		S		 hand  and in the rectangle, in the triangle hand, n the rectangle arm, in the rectangle feet and then he’s holding a rectangle magnet tile	Y
 1387200	1390880	It's in the black.	id106		S			Y
-1390880	1392880	Good job.	R	18				
+1390880	1392880	Good job.	R	17				
 1395360	1397360	This one's tricky.	id107		S			Y
 1400080	1405760	It has a rectangle head to a rectangle arm.	id107		S		a rectangle head to a rectangle arm	Y
-1405760	1409200	Oh, all right, plus this one and then it says yay.	id106	19	S			
+1405760	1409200	Oh, all right, plus this one and then it says yay.	id106	18	S			
 1410480	1412560	But he, he tapped it.	id107		L			
 1412560	1415840	He tapped it when, when I was not finished talking.	id107		L			
 1415840	1417920	Yeah, maybe let's wait for [id107] to finish talking.	R					
@@ -180,7 +180,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1422240	1434800	Um, I can see, uh, I can see some two legs and then the person walking and then the, and then no arms and a body.	id106		S		some two legs and then the person walking and then no arms and a body.	Y
 1435600	1443760	Um, and a tummy and a square face and then he sits his face down	id106		S		and a tummy and a square face and then he sits his face down	Y
 1444400	1446400	because he is sad.	id106		S		because he is sad	Y
-1450080	1452080	Now I'll have to grill him again.	id107	20	S			
+1450080	1452080	Now I'll have to grill him again.	id107	19	S			
 1458560	1460560	It's like you got it right though, right?	R					
 1460880	1462880	What has done?	R					
 1464880	1466880	Hmm, I'm not sure what it's doing though.	R					

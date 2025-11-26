@@ -66,16 +66,16 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 		Not me.	id259		L			
 207000	209000	You, so you're going to help tell Smurphy.	R					
 209000	214000	And so you're going to hold Smurphy and you're going to help him guess.	R					
-215000	216000	Apple.	id260		S		Apple	
-218000	219000	Apple.	id259		L			
+215000	216000	Apple.	id260		S		Apple	Y
+218000	219000	Apple.	id259		L			Y
 220000	222000	Oh, let's use our words.	R					
 222000	223000	So let's sit back down.	R					
-223000	224000	Apple.	id259		L			
-		Apple.	id260		S			
+223000	224000	Apple.	id259		L			Y
+		Apple.	id260		S			Y
 226000	227000	All right.	R					
 229000	230000	Do you have it?	id260		S			
 230000	233000	Oh, let's sit back down in our seats, [id260].	R					
-233000	236000	Oh, sad face.	id259	2				
+233000	236000	Oh, sad face.	id259	2	S			
 236000	238000	Oh, it's okay.	R					
 238000	240000	[id260], let's sit back down in our seats.	R					
 240000	241000	sad face? Yes, sad face.	id260		L			
@@ -92,32 +92,31 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 259000	260000	It's [id260].	R					
 260000	264000	So, [id260], why don't you tell [id259] and Smurphy what's in the black box?	R					
 264000	265000	What do you see?	R					
-265000	266000	Star.	Me.					
-266000	267000	Star.	id260		S		Star	
-267000	268000	Star.	id259		L			
+266000	267000	Star.	id260		S		Star	Y
+267000	268000	Star.	id259		L			Y
 270000	273000	Oh, let's not look at the iPads, [id259].	R					
 273000	276000	Let's just use our words to guess.	R					
-276000	277000	Star.	id260		S			
+276000	277000	Star.	id260		S			Y
 279000	280000	Yay.	R	4				
 280000	281000	Happy face.	id260		L			
 281000	282000	Happy face.	R					
 282000	284000	Now [id260]'s going to guess.	R					
 284000	285000	All right.	R					
 285000	288000	So can you use your words to tell [id260] what you see in the black box?	R					
-288000	289000	Oh, but I don’t know what that is.	id259		S			
+288000	289000	Oh, but I don’t know what that is.	id259		S			Y
 291000	296000	You could just, any words, you could just tell them what shape you see, what you kind of see.	R			x		
-296000	299000	I see a point. A point.	id259		S		a point	
+296000	299000	I see a point. A point.	id259		S		a point	Y
 301000	302000	All right.	R					
 302000	307000	Now, [id260], now you can guess, take your best guess of which picture is in the box.	R					
 307000	308000	I don't have a box.	id260		L			
-308000	316000	Did you know I can see a big, big, so I saw, so I saw white lines.	id259		S			
+308000	316000	Did you know I can see a big, big, so I saw, so I saw white lines.	id259		S			Y
 		Look at.	id260		L			
 316000	317000	I don't have a box.	id260		L			
 317000	318000	And you don't have a box.	R					
 318000	320000	Our friend, [id259] has a box.	R					
 320000	321000	And he's trying to tell you what.	R					
-321000	322000	It's so big.	id259		S			
-322000	323000	It's so big.	id259		S			
+321000	322000	It's so big.	id259		S			Y
+322000	323000	It's so big.	id259		S			Y
 323000	325000	I am pressing on it.	id259		S			
 326000	328000	And make sure to stay in your seats, guys.	R					
 328000	330000	Just make your best guess.	R					
@@ -127,24 +126,24 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 340000	341000	Sad face.	R					
 341000	343000	But we have more turns to help Murphy.	R					
 343000	345000	So now, [id260].	R					
-345000	346000	Diamond.	id260		S		diamond	
+345000	346000	Diamond.	id260		S		diamond	Y
 346000	348000	There's a diamond.	R			x		
 348000	349000	All right.	R	6				
 349000	352000	Now it's [id260]'s turn to guess.	R					
 352000	353000	All right.	R					
 353000	354000	Can you?	R					
-		Diamond.	id260		L			
+		Diamond.	id260		L			Y
 354000	358000	[id259], can you tell [id260] what you see in the box?	R					
 358000	359000	All right.	R	7				
 359000	360000	That's okay.	R					
 360000	361000	All right.	R					
 361000	365000	Now, [id260], before you guys tap anything.	R					
-365000	366000	Diamond.	id260		S		diamond	
+365000	366000	Diamond.	id260		S		diamond	Y
 366000	367000	All right.	R	8				
 367000	370000	What about, let's not tap anything yet, okay?	R					
 370000	374000	So you're going to be the guesser, right, [id260]?	R					
 374000	380000	[id259], can you help tell [id260] what you see inside the box?	R					
-		I just, I don’t know what it is.	id259		S			
+		I just, I don’t know what it is.	id259		S			Y
 380000	384000	You could just use any words that you want.	R					
 384000	386000	I'm tapping on there.	id259		S			
 386000	388000	But you don't have to tap on it.	R					
@@ -159,9 +158,9 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 409000	410000	it’s kind of like minecraft	id260		L			
 410000	411000	Yeah.	R					
 411000	415000	Can you, can you describe what you see in the box, [id259]?	R					
-415000	417000	A person.	id259		S		a person	
+415000	417000	A person.	id259		S		a person	Y
 417000	422000	A person?	R			x		
-		A person?	id260		L			
+		A person?	id260		L			Y
 424000	425000	Yay!	id260	11	S			
 425000	426000	Yay!	R					
 426000	428000	Nice job.	R					
@@ -176,10 +175,10 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 462000	466000	until, until [id260] tells us what he sees inside the box.	R					
 466000	467000	Is that okay?	R					
 467000	468000	All right.	R					
-468000	469000	A person.	id260		S	a person		
+468000	469000	A person.	id260		S	a person		Y
 469000	470000	So, yeah.	id259		L			
 475000	476000	All right, [id259].	R					
-476000	478000	A person.	id260		S			
+476000	478000	A person.	id260		S			Y
 480000	482000	Aw, it's okay.	R	16				
 482000	484000	Now, [id259], can you describe what you see inside the box?	R					
 484000	486000	We're gonna win.	id260		L			
@@ -194,14 +193,14 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 503000	504000	All right, friends.	R					
 504000	507000	Can we describe what we see inside the box?	R					
 507000	508000	What picture?	R					
-508000	510000	A person.	id260		S	a person		
+508000	510000	A person.	id260		S	a person		Y
 513000	514000	Oh, let's not drag.	R					
 514000	516000	Let's just tap the, the iPad.	R					
 518000	520000	Nice job, guys.	R	18				
 521000	525000	Now, what do you see in the box, [id259]?	R					
-		Umm, triangle. Dey got dey got	id259		S	triangle		
+		Umm, triangle. Dey got dey got	id259		S	triangle		Y
 535000	538000	All right, now make your best guess, [id260].	R					
-		umm triangle.	id260		L			
+		umm triangle.	id260		L			Y
 543000	548000	If you think you know, if you think you know what picture it is,	R					
 548000	550000	then you could go ahead and tap it.	R					
 553000	555000	All right, friends, let's focus on the game.	R					
@@ -215,17 +214,17 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 583000	588000	Oh, you need to, you need to tell [id260] what you see in the box,	R					
 588000	590000	and then [id260] will guess and helps you.	R					
 590000	592000	Oh, let's not do that.	R					
-		it starts with a skring	id259		S			
+		it starts with a skring	id259		S			Y
 600000	603000	All right, so now it's [id259]'s turn to guess.	R	19				
 603000	605000	Can you describe what you see?	R					
-		Uh, trident.	id260		S	trident		
+		Uh, trident.	id260		S	trident		Y
 608000	610000	This is my ipad	id259		L			
 614000	616000	Keep it down, please.	R					
 622000	624000	Nice job.	R	20				
 		I’m getting more points.	id260		L			
 626000	631000	All right, now [id259], you have to describe what you see to [id260] inside the box.	R					
-		Person?	id260		L			
-		it starts with a plame a me	id259		S			
+		Person?	id260		L			Y
+		it starts with a plame a me	id259		S			Y
 		I can see you	id259		S			
 638000	641000	All right, let's sit back in our chairs, friends.	R					
 641000	647000	Let's sit back in our chairs, and let's keep the iPads back up.	R					

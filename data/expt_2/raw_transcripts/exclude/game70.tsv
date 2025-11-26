@@ -61,29 +61,29 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 		this is confusing.	id127					
 176000	181000	And then, it's okay, we're going to learn as we go.	R					
 181000	185000	And now, you can press the blue button on your screen to start.	R					
-185000	187000	Alright, now who has the black box?	R	1				
+185000	187000	Alright, now who has the black box?	R	0				
 187000	192000	Or, you can press two.	R					
 192000	193000	Who?	id128		L			
 193000	197000	Alright, so you have the black box, you're the teller, and you're the guesser.	R					
 197000	200000	So [id127], do you want to tell [id128] what you see inside the black box?	R					
 200000	203000	A banana.	id127		S		a banana	Y
 203000	206000	Oh, you can type with your finger [id128].	R					
-206000	208000	Great job, that means you guessed it correctly.	R	2				
+206000	208000	Great job, that means you guessed it correctly.	R	1				
 208000	212000	And now we're going to trade, so now you tell [id127] what you see in the black box, [id128].	R					
 212000	214000	Dog.	id128		S		dog	Y
 214000	218000	So now you want to tap that to help Smurphy guess.	R					
-218000	220000	Great job.	R	3				
+218000	220000	Great job.	R	2				
 220000	223000	Won again. 	id128		L			
 223000	226000	Now who wants to tell [id128] what you see in the black box?	R					
 226000	229000	A boat with two flags.	id127		S		a boat with two flags	Y
 229000	234000	And a boat with two flags.	id128		L			Y
 234000	238000	And a boat with two flags.	id127		S			Y
-238000	242000	Great job.	R	4				
+238000	242000	Great job.	R	3				
 242000	249000	Now, I need to tell you, there's a tree.	id128		S		a tree	Y
 250000	253000	Do you want to tap that, [id127]?	R					
 253000	255000	Tap that so you know it.	id128		S			
 255000	257000	That's okay, don't, you don't have to guess.	R					
-257000	259000	Good job, good job, you did it correctly.	R	5				
+257000	259000	Good job, good job, you did it correctly.	R	4				
 259000	261000	Now you have to tell me.	id128		L			Y
 261000	263000	Exactly.	R					
 263000	267000	I see, I don't know what is that.	id127		S			Y
@@ -97,7 +97,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 290000	292000	Person	id127		S			Y
 292000	294000	Whats a person	id128		L			Y
 294000	296000	Just press your best guess, [id128].	R					
-298000	301000	Great job, you guessed it correctly.	R	6				
+298000	301000	Great job, you guessed it correctly.	R	5				
 301000	303000	Person	id128		S			
 304000	306000	Wait, what's the answer again?	id128		S			
 306000	311000	Oh, you just want to say what you think it is, so just try your best to describe it in the black box to [id127].	R					
@@ -117,7 +117,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 357000	361000	No, no, no.	id128		S			
 361000	363000	Wait, what?	id128		S			
 363000	365000	Shape	id128		S			Y
-373000	378000	Aw, okay, so that was incorrect, but it's okay, we can keep on trying and helps [id127].	R	7				
+373000	378000	Aw, okay, so that was incorrect, but it's okay, we can keep on trying and helps [id127].	R	6				
 378000	380000	So now we trade.	R					
 382000	383000	Okay.	R					
 383000	386000	Alright, do you want to say what you think of the black box, [id127]?	R					
@@ -144,7 +144,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 443000	446000	No, a poison.	id128		L			Y
 		No, a person.	id127		S			Y
 446000	449000	Oh, that's okay.	R					
-449000	453000	All right, now we can pass it, and now you're going to tell [id127] what you see.	R	8				
+449000	453000	All right, now we can pass it, and now you're going to tell [id127] what you see.	R	7				
 453000	458000	I see...	id128		S			Y
 458000	463000	A people walking.	id128		S		a person walking	Y
 463000	465000	Press it	id128		S			Y

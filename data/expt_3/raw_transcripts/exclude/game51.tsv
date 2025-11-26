@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	3780	okay and then whatever you guys want then just let me know we can go back to	R					
 3780	8600	my classroom okay okay so today we're gonna play a fun little matching game	R					
 8600	13480	on the iPads I'll explain these guys later don't look at them yet but yeah so we're gonna play a little matching game	R					
@@ -41,19 +41,19 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 153560	156440	you're gonna be the teller and you're gonna be the guesser so you're gonna be	R					
 156440	161400	the guesser first okay so [id206] could you tell her really what you see inside	R					
 161400	162400	the black box?	R					
-162400	163400	banana	id206		S		banana	
+162400	163400	banana	id206		S		banana	Y
 163400	164400	okay	R					
-164400	165400	banana	id205		L			x
+164400	165400	banana	id205		L			Y
 165400	170920	okay yep just like that that's great yay and now we're gonna switch and so now	R	2				
 170920	175480	it's your turn to be the teller and your turn to be the guesser so [id205] could you	R					
 175480	176480	tell me	R					
-176480	177480	dog	id205		S		dog	
+176480	177480	dog	id205		S		dog	Y
 177480	178480	yep	R					
-178480	179480	dog	id205		S			
+178480	179480	dog	id205		S			Y
 179480	184040	nice and then we're gonna switch back now you're gonna be the guesser again and you're	R	3				
 184040	185040	gonna be the teller	R					
-185040	188040	uh a pointy thing	id206		S		a pointy thing	
-188040	191040	hey which one is pointy?	id205		L			x
+185040	188040	uh a pointy thing	id206		S		a pointy thing	Y
+188040	191040	hey which one is pointy?	id205		L			Y
 191040	194040	that's the end of the box	id206		S			
 194040	197040	I don't see anything in the box	id205		L			
 197040	200840	oh yeah so [id205] doesn't have a box on her screen so you have to describe what	R					
@@ -65,31 +65,31 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 211800	212800	what you see inside the box	R					
 212800	213800	wait what is it?	id206		S			
 213800	219120	it's okay if you don't know what it is just try to just try to describe it	R					
-219120	228040	it doesn't have does it have three spikes or more than three	id205		L			x
-		Uh three spikes	id206		S		three spikes	
-229040	230040	well	id205		L			
+219120	228040	it doesn't have does it have three spikes or more than three	id205		L			Y
+		Uh three spikes	id206		S		three spikes	Y
+229040	230040	well	id205		L			Y
 230040	235040	oh wait let's not turn our screen let’s keep it facing you	R					
-235040	238040	can you tell me because I don't know what this is	id205		L			x
-238040	239040	wait	id206		S			
-239040	241040	I don't know what it is	id206		S			
+235040	238040	can you tell me because I don't know what this is	id205		L			Y
+238040	239040	wait	id206		S			Y
+239040	241040	I don't know what it is	id206		S			Y
 241040	243040	that's okay just give it your best shot	R					
-243040	253040	well which one what word does it have like is it a ball shape or is it not a ball shape	id205		L			x
-253040	258040	is it a ball and it has spikes or is it not a ball and it doesn't have spikes	id205		L			x
-258040	260040	it's a ball and has spikes on it	id206		S		a ball and has spikes on it	
-260040	263040	a ball and it has spikes on it	id205		L			x
+243040	253040	well which one what word does it have like is it a ball shape or is it not a ball shape	id205		L			Y
+253040	258040	is it a ball and it has spikes or is it not a ball and it doesn't have spikes	id205		L			Y
+258040	260040	it's a ball and has spikes on it	id206		S		a ball and has spikes on it	Y
+260040	263040	a ball and it has spikes on it	id205		L			Y
 263040	265040	that's what she said I think	R					
 265040	266040	is it	id205		L			
 266040	271040	so well whenever you have a guess then you can just click the answer that you think it is	R					
 271040	272040	perfect	R	4				
 272040	274040	that’s how you play	R					
 274040	278040	okay yep so now you're gonna be the teller and you're gonna be the guesser	R					
-278040	282040	it's something that's pointy downwards	id205		S		something that’s pointy downwards	
+278040	282040	it's something that's pointy downwards	id205		S		something that’s pointy downwards	Y
 286040	289040	okay it is the other one but that's okay there's gonna be a lot more chances	R	5				
 289040	292040	so now we're gonna switch and you're gonna be the guesser	R					
 292040	294040	and now you're gonna be the teller	R					
-294040	295040	which one is it	id205		L			x
-295040	297040	it has a diamond	id206		S		a diamond	
-298040	300040	does it have a diamond on the top	id205		L		a diamond on top	x
+294040	295040	which one is it	id205		L			Y
+295040	297040	it has a diamond	id206		S		a diamond	Y
+298040	300040	does it have a diamond on the top	id205		L		a diamond on top	Y
 300040	301040	yeah	id206		S			
 303040	304040	nice	R	6				
 304040	306040	I can win it I can win it	id205		S			
@@ -97,23 +97,23 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 308040	310040	I know but I have more	id205		S			
 310040	313040	what okay well now it's your turn to be the teller	R					
 313040	315040	your turn to be the guesser	R					
-315040	320040	it has a square and a pointy thing on the other side	id205		S		a square and a pointy thing on the other side	
+315040	320040	it has a square and a pointy thing on the other side	id205		S		a square and a pointy thing on the other side	Y
 322040	324040	that's okay	R	7				
 324040	326040	well more chances now we're gonna switch back	R					
 326040	328040	and now it's your turn to be the teller	R					
-328040	329040	which one is it	id205		L			x
-329040	331040	it has a square on the back	id206		S		a square on the back	
-331040	332040	what	id205		L			
-333040	335040	does it have a pointy snout	id205		L			x
-335040	337040	and a bit sticking	id205		L			x
-337040	339040	a pointy bit sticking up	id205		L		a pointy bit sticking up	x
+328040	329040	which one is it	id205		L			Y
+329040	331040	it has a square on the back	id206		S		a square on the back	Y
+331040	332040	what	id205		L			Y
+333040	335040	does it have a pointy snout	id205		L			Y
+335040	337040	and a bit sticking	id205		L			Y
+337040	339040	a pointy bit sticking up	id205		L		a pointy bit sticking up	Y
 339040	340040	yeah	id206		S			
 342040	343040	nice	R	8				
 343040	344040	cool	R					
 344040	347040	now you're gonna be the guesser and you're gonna be the teller	R					
-348040	351040	it has two pointy things sticking up	id205		S		two pointy things sticking up	
-352040	354040	two pointies	id205		S			
-354040	355040	two pointies	id205		S			
+348040	351040	it has two pointy things sticking up	id205		S		two pointy things sticking up	Y
+352040	354040	two pointies	id205		S			Y
+354040	355040	two pointies	id205		S			Y
 355040	356040	nice	R	9				
 357040	359040	now switching back	R					
 359040	362040	can I go back to playing that thing	id205		L			

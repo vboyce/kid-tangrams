@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	840	Hi.	R					
 840	4120	Hi, okay, now we're on camera.	R					
 4120	6880	Thank you both for playing my game,	R					
@@ -98,7 +98,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 206240	208000	and you're gonna be the guesser, [id157].	R					
 208000	210560	So, [id158], tell [id157] and Smurphy	R					
 210560	212880	which picture has the black box.	R					
-212880	213720	The apple.	id158		S		the apple	
+212880	213720	The apple.	id158		S		the apple	Y
 214840	218680	Okay, and now you and Smurphy are gonna guess which one,	R					
 218680	220640	based on what she told you.	R					
 220640	222640	So you're gonna touch it on your screen.	R					
@@ -114,8 +114,8 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 247200	248520	and you're the teller, [id157].	R					
 248520	250960	So, you're gonna tell [id158] and Smurphy	R					
 250960	253160	which picture has the black box around it.	R					
-257040	258040	The eagle.	id157		S		the eagle	
-260520	262400	Doesn't that look like an eagle?	id157		S			
+257040	258040	The eagle.	id157		S		the eagle	Y
+260520	262400	Doesn't that look like an eagle?	id157		S			Y
 262400	265240	So, up to you, whatever you think it looks like.	R					
 265240	266800	And now, [id158] and Smurphy,	R					
 266800	269080	you guys are gonna press which one you think	R					
@@ -130,45 +130,45 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 285000	286200	and you're the teller, [id158].	R					
 286200	288480	So, you're gonna tell [id157] and Smurphy	R					
 288480	289840	which picture has the black box.	R					
-289840	290840	What is this?	id158		S			
+289840	290840	What is this?	id158		S			Y
 291840	293720	What does that look like to you?	R					
-293720	294560	A sign.	id158		S		a sign	
-298880	302880	the sign has a black box along with it?	id158		S			
+293720	294560	A sign.	id158		S		a sign	Y
+298880	302880	the sign has a black box along with it?	id158		S			Y
 306720	307720	Good job!	R					
 307720	309560	You guys are doing so good.	R	4				
 309560	312120	Okay, now, you're the guesser, [id158], with Smurphy	R					
 312120	313560	and you're the teller, [id157].	R					
 313560	315200	So, you're gonna tell [id158] and Smurphy	R					
 315200	317280	which picture has the black box.	R					
-319200	320200	That.	id157		S			
+319200	320200	That.	id157		S			Y
 320200	321040	What's inside?	R					
-322440	323840	I don't know.	id157		S			
+322440	323840	I don't know.	id157		S			Y
 323840	325280	What does it look like to you?	R					
-329960	331120	An airplane	id157		S		an airplane	
+329960	331120	An airplane	id157		S		an airplane	Y
 333240	334120	You're gonna guess.	R					
 334120	334960	Now, you're gonna touch.	R					
-334960	337160	I actually didn’t hear, [id157].	id158		L			
+334960	337160	I actually didn’t hear, [id157].	id158		L			Y
 337160	338920	Oh, can you say it again, [id157]?	R					
 341760	343880	What did you say was in the box?	R					
 343880	345640	I don't remember.	id157		S			
 345640	346480	Let's look at it again.	R					
 346480	348400	What does that look like to you?	R					
-349400	350400	An airplane.	id157		S			
+349400	350400	An airplane.	id157		S			Y
 351400	352960	Did you hear her?	R					
 352960	354200	Can you say it louder?	R					
-354200	355480	A airplane	id157		S			
-356840	359200	I don’t have an airplane on here	id158		L			x
+354200	355480	A airplane	id157		S			Y
+356840	359200	I don’t have an airplane on here	id158		L			Y
 359200	361040	What most looks like?	R					
 362920	364040	Good job!	R					
 364040	365160	Nice job, girls.	R	5				
 365160	368760	Okay, now, you're gonna be the guesser, [id157]	R					
 368760	370240	and you're gonna be the teller, [id158].	R					
 370240	373040	So, tell them which one has the black box.	R					
-373040	376640	I actually don't know what it looks like to me.	id158		S			
+373040	376640	I actually don't know what it looks like to me.	id158		S			Y
 376640	378160	What does that look like to you?	R					
-378160	379560	A volcano.	id158		S		a volcano	
+378160	379560	A volcano.	id158		S		a volcano	Y
 379560	380400	Ooh.	R					
-382160	385640	[id157] with a volcano has a box around it.	id158		S			
+382160	385640	[id157] with a volcano has a box around it.	id158		S			Y
 388080	388920	Yeah!	R					
 388920	390160	Good job!	R					
 390160	391160	Good job!	R	6				
@@ -176,21 +176,21 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 392960	395080	So, you have Smurfy and you're the teller, [id157].	R					
 395080	396920	So, you're gonna tell [id158] and Smurfy	R					
 396920	399160	which picture has the black box around it.	R					
-403280	404120	There's a giant.	id157		S		a giant	
+403280	404120	There's a giant.	id157		S		a giant	Y
 404120	406760	Which one has the black box?	R					
-406760	407800	That.	id157		S			
+406760	407800	That.	id157		S			Y
 407800	408800	What's inside that?	R					
-410760	411800	I don't know.	id157		S			
+410760	411800	I don't know.	id157		S			Y
 413480	415280	What does that look like to you?	R					
-418520	420440	I don't know what it looks like.	id157		S			
-422040	423120	Can I see it?	id158		L			
+418520	420440	I don't know what it looks like.	id157		S			Y
+422040	423120	Can I see it?	id158		L			Y
 423120	424080	You can't.	R					
 425720	426680	Maybe you could guess.	R					
 426680	428520	What do you think it looks like?	R					
 428520	430520	Or could you describe it in any way?	R					
-432200	433480	A lot of fall.	id157		S		a lot of fall	
+432200	433480	A lot of fall.	id157		S		a lot of fall	Y
 436520	437360	Okay.	R					
-438800	440040	Maybe a hole?	id157		S		maybe a hole	
+438800	440040	Maybe a hole?	id157		S		maybe a hole	Y
 441960	442960	Oh, that's okay.	R					
 442960	443800	That was a hard one.	R					
 443800	445440	We'll keep trying, okay?	R	7				
@@ -198,8 +198,8 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 448080	449360	And you're gonna be the teller, [id158].	R					
 449360	451200	So, tell [id157] and Smurfy	R					
 451200	453160	which picture has the black box.	R					
-457160	459200	It kind of looks like a shoe.	id158		S		a shoe	
-463840	467200	The shoe has a black box around it	id158		S			
+457160	459200	It kind of looks like a shoe.	id158		S		a shoe	Y
+463840	467200	The shoe has a black box around it	id158		S			Y
 467800	468640	Okay.	R					
 477240	478360	Oh, that's okay.	R	8				
 478360	479200	That's all right.	R					
@@ -211,7 +211,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 486760	488520	which picture has the black box?	R					
 492520	493360	Okay.	id158		L			
 493360	494840	I'm gonna tell [id158] again.	R					
-496200	497040	The shoe.	id157		S		the shoe	
+496200	497040	The shoe.	id157		S		the shoe	Y
 498800	500400	Oh.	R					
 500400	501760	Oh, that's okay.	R	9				
 501760	503440	Here, you can give me Smurfy now.	R					
@@ -223,15 +223,15 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 511080	512920	So, you're gonna tell Smurfy and [id157]	R					
 512920	514920	which picture has the black box.	R					
 514920	515760	[id157].	id158		S			
-516920	520200	Like, the shoe has the picture.	id158		S		the shoe	
-522240	523360	The black box around it.	id158		S			
-523360	526120	And I know it kind of looks	id158		S			
-526760	528200	this way or this way.	id158		S		this way or this way	
+516920	520200	Like, the shoe has the picture.	id158		S		the shoe	Y
+522240	523360	The black box around it.	id158		S			Y
+523360	526120	And I know it kind of looks	id158		S			Y
+526760	528200	this way or this way.	id158		S		this way or this way	Y
 528200	529200	Oh, no, she can't tell you.	R					
 529200	530040	She can't tell you.	R					
 530040	530880	Not this way or this way.	R					
 530880	533280	Just tell her what's inside the black box.	R					
-533280	536880	It looks like a shoe, but it's actually high heels.	id158		S		looks like a shoe, but it’s actually high heels	
+533280	536880	It looks like a shoe, but it's actually high heels.	id158		S		looks like a shoe, but it’s actually high heels	Y
 543440	544280	That's all right.	R					
 544280	545120	That's all right.	R	10				
 545120	545960	We're gonna keep trying.	R					
@@ -239,7 +239,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 549440	550680	and [id157], you're the teller.	R					
 550680	552160	So, you're gonna tell [id158] and Smurfy	R					
 552160	554080	what you see in that black box.	R					
-554920	556160	It's a high heel.	id157		S		a high heel	
+554920	556160	It's a high heel.	id157		S		a high heel	Y
 557960	558800	Okay.	R					
 563960	565800	Oh, that's okay.	R	11				
 565800	566640	Yay.	id158		S			
@@ -247,7 +247,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 567480	569640	Now, you're the guesser, [id157]	R					
 569640	570960	and you're the teller, [id158].	R					
 570960	574960	So, tell [id157] and Smurfy which one has the black box.	R					
-577960	578800	The slipper.	id158		S		the slipper	
+577960	578800	The slipper.	id158		S		the slipper	Y
 579800	581240	And can I tell you something?	id158		S			
 581240	584800	Can I tell you something my grandma got me new slippers from?	id158		S			
 584800	585640	From...	id158		S			
@@ -271,53 +271,53 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 628480	630280	Okay, so do you want to tell [id157] again	R					
 630280	631480	what you see in the black box?	R					
 631480	632320	Oh, can I take off?	R					
-632320	633560	A slipper.	id158		S			
+632320	633560	A slipper.	id158		S			Y
 633560	635480	Okay, did you hear her what she said?	R					
 637240	638400	Oh, here we go.	R					
 639440	640280	Okay.	R					
 642440	645440	All right, did you hear [id158]?	R					
 645440	646280	No	id157		L			
 646280	647120	Okay, one more time, sorry.	R					
-647120	647960	A slipper.	id158		S			
+647120	647960	A slipper.	id158		S			Y
 649880	651200	Okay, that's okay.	R					
 651200	652760	So you and Smurfy are going to guess.	R					
 652760	654520	Which one has the black box?	R					
-661560	662880	That one.	id157		L			
+661560	662880	That one.	id157		L			Y
 662880	664640	Press it, or touch it.	R					
 665640	666480	Oh!	R	12				
 666520	668680	That's all right, that's okay.	R					
 668680	671360	All right, so now you're the guesser, [id158],	R					
 671360	672400	and you're the teller, [id157].	R					
 672400	675920	So tell a shell what you see in your black box.	R					
-675920	676920	I see a bear.	id157		S		a bear	
+675920	676920	I see a bear.	id157		S		a bear	Y
 680600	681440	Yay!	R	13				
 682440	685440	Good job, you guys are doing so good.	R					
 685440	688120	Okay, now you're the guesser, [id157], with Smurfy,	R					
 688120	689440	and [id158], you're the teller.	R					
 689440	691880	So tell [id157] what you see in your black box.	R					
-700560	701400	A shoe.	id158		S		a shoe	
-707640	709640	Isn't that a short shoe?	id157		L			x
+700560	701400	A shoe.	id158		S		a shoe	Y
+707640	709640	Isn't that a short shoe?	id157		L			Y
 711280	712960	Ask her.	R					
-712960	715160	Isn't that a short shoe?	id157		L			
-715160	716840	It's a big shoe.	id158		S		a big shoe	
+712960	715160	Isn't that a short shoe?	id157		L			Y
+715160	716840	It's a big shoe.	id158		S		a big shoe	Y
 719200	720040	Yay!	R					
 720040	722360	Yay, good job.	R	14				
 722360	725440	Okay, now you're the guesser, [id158],	R					
 725440	728360	and you're the teller, [id157].	R					
 728360	731840	So tell [id158] and Smurfy what you see in your black box.	R					
 731840	732680	What do you see?	R					
-744080	745080	It's a long shoe.	id157		S		a long shoe	
+744080	745080	It's a long shoe.	id157		S		a long shoe	Y
 753360	757600	That's okay, you can pass Smurfy over.	R	15				
 757600	759080	You're the guesser now, [id157],	R					
 759080	760320	and you're the teller, [id158].	R					
 760320	763800	So tell [id157] and Smurfy what you see in your black box.	R					
-766640	767480	A bear.	id158		S		a bear	
+766640	767480	A bear.	id158		S		a bear	Y
 773760	776160	Now you guess what she said.	R					
 776160	777000	Did you hear her?	R					
 779880	780720	No.	id157		L			
 780720	781760	Can you tell her again what you see?	R					
-781760	782600	A bear.	id158		S			
-783880	784880	A bear, okay.	id157		L			
+781760	782600	A bear.	id158		S			Y
+783880	784880	A bear, okay.	id157		L			Y
 788000	788840	Yay!	R					
 788840	791120	Yay, good job.	R					
 791120	794200	Okay, now you're the guesser, [id158],	R	16				
@@ -325,16 +325,16 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 796160	798640	So tell [id158] what you see in your black box.	R					
 802440	803840	What do you see in there?	R					
 812760	814760	What does it look like to you?	R					
-823840	824680	A heel.	id157		S		a heel	
+823840	824680	A heel.	id157		S		a heel	Y
 832560	833880	Yay, good job.	R					
 833880	835960	You guys are doing such a good job.	R	17				
 835960	838920	Okay, now you're the guesser, [id157],	R					
 838920	840240	and you're the teller, [id158].	R					
 840280	842440	Okay, so tell [id157] and Smurfy	R					
 842440	843880	what you see in your box.	R					
-847000	852000	It's kind of still a little bit low, but not that low.	id158		S		kind of still a little bit low, but not that low	
+847000	852000	It's kind of still a little bit low, but not that low.	id158		S		kind of still a little bit low, but not that low	Y
 852200	854880	Okay, [id157], now you're gonna guess.	R					
-862680	864160	I think it's that one.	id157		L			x
+862680	864160	I think it's that one.	id157		L			Y
 864160	865240	Okay, press it.	R					
 866560	867920	Good job!	R					
 867920	868760	Okay.	R	18				
@@ -343,18 +343,18 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 873920	876960	So tell [id158] and Smurfy what you see in your black box.	R					
 879760	880960	What do you see in there?	R					
 885600	886800	What does it look like?	R					
-886800	891800	It looks like, it looks like a shoe.	id157		S		a shoe	
+886800	891800	It looks like, it looks like a shoe.	id157		S		a shoe	Y
 904680	906320	Okay.	R					
-906320	908120	What type of shoe?	id158		L			x
-911640	914440	It's like a tennis shoe.	id157		S		a tennis shoe	
+906320	908120	What type of shoe?	id158		L			Y
+911640	914440	It's like a tennis shoe.	id157		S		a tennis shoe	Y
 917800	920400	Okay, press it, touch it with your finger.	R					
 922600	923880	Oh, that's okay.	R	19				
 925120	926320	Okay, here you go.	R					
 926320	927680	You're the guesser, now [id157],	R					
 927680	928920	and you're the teller, [id158].	R					
 928920	931640	So tell [id157] and Smurfy what you see in your box.	R					
-933320	934160	A high heel	id158		S		a high heel	
-943440	944600	I think that one.	id157		L			x
+933320	934160	A high heel	id158		S		a high heel	Y
+943440	944600	I think that one.	id157		L			Y
 944600	945440	Okay.	R					
 947800	950640	That's okay, we'll keep trying.	R	20				
 950640	952960	Okay, now you're the guesser, [id158],	R					
@@ -362,10 +362,10 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 954840	957400	So tell [id158] of Smurfy what you see in your box.	R					
 964960	966160	What do you see in there?	R					
 972560	974120	What's inside of there?	R					
-974120	975320	I don't know.	id157		S			
+974120	975320	I don't know.	id157		S			Y
 975320	976720	What does it look like?	R					
 976800	977640	What do you see?	R					
-		It looks like a tower.	id157		S		a tower	
+		It looks like a tower.	id157		S		a tower	Y
 981800	982640	Okay.	R					
 989880	990960	Touch it again.	R					
 992240	994440	Yay, good job.	R					

@@ -75,7 +75,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 381660	382660	Okay you'll get a blue button soon.	R					
 384660	387660	She's just waiting. She's just waiting for you to press your blue button.	R					
 388660	389660	No.	id66					
-390660	395660	There you go. Okay so keep your iPads facing you. Who has a black box?	R	1				
+390660	395660	There you go. Okay so keep your iPads facing you. Who has a black box?	R	0				
 396660	398660	I have a black box with an apple.	id67		S		an apple	Y
 399660	402660	Okay so then, [id66] you're gonna hold Smurphy.	R					
 403660	404660	Why?	id66		L			
@@ -84,7 +84,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 412660	416660	Okay and then Smurphy and [id66] are gonna tap the picture that they think it is.	R					
 416660	421660	So what do you think is in [id67]'s black box?	R					
 422660	423660	Okay tap it.	R					
-424660	428660	There you go and now you're gonna switch.	R	2				
+424660	428660	There you go and now you're gonna switch.	R	1				
 		I guessed it	id66		S			
 430660	432660	So that means let's keep our iPads facing you.	R					
 433660	434660	I don't have a black box.	id67		L			
@@ -92,11 +92,11 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 438660	447660	Go ahead. You can tell [id67] and Smurphy what you see in your black box.	R					
 448660	449660	The bird.	id66		S		the bird	Y
 450660	453660	Okay so tap what you think it is.	R					
-454660	455660	Awesome.	R	3				
+454660	455660	Awesome.	R	2				
 456660	458660	Okay now you guys are gonna switch. You're gonna switch every round okay.	R					
 459660	462660	So now you have the black box [id67] and you're gonna tell.	R					
 463660	464660	I have a boat.	id67		S		a boat	Y
-464660	468660	Good job.	R	4				
+464660	468660	Good job.	R	3				
 469660	470660	He did it so easy.	id66		S			
 473660	474660	What's that?	id66		S			Y
 475660	476660	You have to tell.	R					
@@ -116,7 +116,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 506660	510660	So then if you think you know what the picture is tap on it okay.	R					
 511660	512660	I see it right here.	id67		L			Y
 513660	514660	Then tap on it.	R					
-515660	516660	There you go.	R	5				
+515660	516660	There you go.	R	4				
 517660	518660	Okay now switch.	R					
 519660	522660	Why I keep having a smiling face?	id67		S			
 523660	525660	Because that means you got it right.	R					
@@ -135,7 +135,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 557660	561660	So does it have a triangle?	id66		L			Y
 565660	566660	Yes it has a triangle.	id67		S		has a triangle	Y
 567660	568660	Okay.	R					
-570660	571660	That's okay.	R	6				
+570660	571660	That's okay.	R	5				
 572660	573660	We'll keep guessing.	R					
 574660	577660	Okay now it is [id67]'s turn to help Smurphy guess.	R					
 578660	580660	So you're going to tell what you see [id66].	R					
@@ -146,13 +146,13 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 603660	605660	Whichever one you think [id66] is describing.	R					
 606660	608660	I only have a triangle and a flap.	id67		L			Y
 609660	611660	Okay so if you think that's the one then tap it.	R					
-612660	614660	Good job.	R	7				
+612660	614660	Good job.	R	6				
 615660	616660	Okay now it's your turn to tell.	R					
 618660	620660	I have a triangle too.	id67		S		a triangle	Y
 621660	622660	I have a triangle.	id67		S			Y
 623660	625660	Don't tell me. Tell [id66] and Smurphy.	R					
 625660	627660	I have a triangle.	id67		S			Y
-631660	632660	Good job.	R	8				
+631660	632660	Good job.	R	7				
 633660	635660	Okay now we're going to keep going.	R					
 636660	638660	So now [id66] is going to tell what's in the box.	R					
 639660	646660	It has two triangles.	id66		S		two triangles	Y
@@ -161,14 +161,14 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 655660	657660	Yeah so [id66] is describing one.	R					
 658660	661660	And the one that you think she's describing is the one that you're going to tap on your iPad.	R					
 662660	663660	Okay.	R					
-664660	665660	That's okay.	R	9				
+664660	665660	That's okay.	R	8				
 666660	667660	Good try.	R					
 668660	669660	We're going to keep going.	R					
 		What is the sad face mean?	id67		S			
 673660	676660	That means that you didn't get it right but you can try again.	R					
 677660	679660	But now it's your turn to be the teller.	R					
 680660	681660	I have two triangles.	id67		S		two triangles	Y
-686660	687660	That's okay.	R	10				
+686660	687660	That's okay.	R	9				
 688660	689660	We'll keep going.	R					
 691660	692660	I'm going to try again.	R					
 693660	694660	So now you're the teller [id66].	R					
@@ -180,47 +180,47 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 715660	716660	Use your words.	R					
 717660	718660	I have points on mine.	id67		L			Y
 720660	723660	If you think you know which one [id66] is talking about then you can tap on it.	R					
-725660	726660	Yay!	R	11				
+725660	726660	Yay!	R	10				
 727660	728660	Good job.	R					
 729660	730660	Okay now it's your turn to be the teller.	R					
 731660	733660	So tell what you see in the black box.	R					
 735660	739660	I see a square.	id67		S		a square	Y
 743660	744660	Good job.	R					
-745660	746660	Okay.	R	12				
+745660	746660	Okay.	R	11				
 748660	750660	Now [id67] gets to guess and [id66] you get to tell.	R					
 751660	755660	Mine has two triangles.	id66		S		two triangles	Y
 757660	759660	One of mine has two triangles.	id67		L			Y
 761660	762660	So tap the one you think it is.	R					
-766660	767660	That's okay.	R	13				
+766660	767660	That's okay.	R	12				
 768660	769660	We can try again after.	R					
 770660	771660	Whoa.	R					
 772660	773660	I said wow.	id67		S			
 774660	775660	Now it's your turn to be the teller.	R					
 776660	778660	I see a diamond in mine.	id67		S		a diamond	Y
-781660	782660	Good job.	R	14				
+781660	782660	Good job.	R	13				
 783660	784660	You guys are doing great.	R					
 786660	787660	Mine has a square.	id66		S		a square	Y
 789660	790660	Mine has one square too.	id67		L			Y
 794660	795660	Awesome.	R					
-796660	797660	So now you're going to be the teller.	R	15				
+796660	797660	So now you're going to be the teller.	R	14				
 799660	800660	Keep going.	R					
 800660	801660	Mine has a square.	id67		S		a square	Y
-802660	803660	Now [id66]'s the teller.	R	16				
+802660	803660	Now [id66]'s the teller.	R	15				
 804660	805660	Upside down triangle.	id66		S		upside down triangle	Y
 807660	808660	I'm upside down triangle.	id67		L			Y
 809660	810660	Yay!	R					
-811660	812660	Good job.	R	17				
+811660	812660	Good job.	R	16				
 813660	814660	You guys are helping Smurphy get all the good answers.	R					
 815660	816660	Okay so now you're going to be the teller [id67].	R					
 817660	818660	I see a diamond in mine.	id67		S		a diamond	Y
-819660	820660	Good job.	R	18				
+819660	820660	Good job.	R	17				
 828660	829660	Easy peasy.	id66		S			
 831660	832660	Okay now [id66]'s the teller.	R					
 833660	834660	Mine has a diamond.	id66		S		a diamond	Y
-839660	840660	And now [id66]'s going to be the guesser	R	19				
+839660	840660	And now [id66]'s going to be the guesser	R	18				
 841660	842660	with Smurphy.	R					
 844660	845660	Square.	id67		S		square	Y
-847660	848660	Yay!	R	20				
+847660	848660	Yay!	R	19				
 851660	852660	This is super easy.	id66		S			
 853660	854660	Keep going.	R					
 855660	856660	It’s another square.	id66		S		square	Y

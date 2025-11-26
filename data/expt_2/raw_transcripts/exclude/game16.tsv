@@ -71,7 +71,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 152640	155240	And if we're holding Smurfy, what are we gonna do?	R					
 157120	159720	We're gonna guess which one has the black box around it,	R					
 159720	160560	okay?	R					
-160560	165040	So you guys both press start, we see who has the black box.	R	1				
+160560	165040	So you guys both press start, we see who has the black box.	R	0				
 165040	169200	I don't see any stars	id60		L			
 		same button here.	id59		S			
 169200	172480	So [id59] is going to be the teller.	R					
@@ -89,7 +89,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 		What’s that?	id59		S			
 197000	201320	If you guys get it right, you're gonna see a smiley face,	R					
 201320	203280	and if you get it wrong, you'll see a frowny face,	R					
-203280	204120	but that's okay.	R	2				
+203280	204120	but that's okay.	R	1				
 204120	205600	I'm the teller.	id60		S			
 205640	206960	You're the teller, okay.	R					
 206960	209520	So [id60], you're the teller right now, so [id59],	R					
@@ -100,12 +100,12 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 217120	217960	I.	id59		L			
 219440	220280	Press it again.	R					
 221760	222600	Good job!	R					
-223840	225120	Now we're gonna switch.	R	3				
+223840	225120	Now we're gonna switch.	R	2				
 225120	228080	So [id60], you're the teller now,	R					
 228080	229600	and [id59], you're the guesser.	R					
 231040	233640	[id59], you're the guesser, and [id60],	R					
 233840	235600	you're the guesser, okay.	R					
-235600	236560	You're the teller.	id60		S			Y
+235600	236560	You're the teller.	id60		L			Y
 236560	238360	You're the teller, okay.	R					
 238360	239800	Can you tell him what you see?	R					
 242320	243560	I press the red box.	id59		S			
@@ -116,14 +116,14 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 254160	259160	Oh, which black, dark shape has the black box around it?	id60		L			Y
 263480	264320	The house.	id59		S		the house	Y
 266960	267800	Oh!	R					
-267800	268960	Good job!	R	4				
+267800	268960	Good job!	R	3				
 268960	271480	Okay, I'm gonna take Smurfy from you now.	R					
 271480	274120	Okay, so now [id60], you're gonna be the teller,	R					
 		Which one do I press?	id59		L			Y
 274120	275480	and you're gonna be the guesser, [id59],	R					
 275480	276320	because you're holding Smurfy.	R					
 276320	277160	It's the tree.	id60		S		the tree	Y
-279160	280000	Good job!	R	5				
+279160	280000	Good job!	R	4				
 283520	285000	All right, [id60], now you're the guesser,	R					
 		The box?	id59		S			Y
 285000	287080	and you're the teller, [id59].	R					
@@ -135,27 +135,27 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 298880	299720	Okay.	R					
 301720	302560	Yay!	R					
 302560	303880	Good job!	R					
-303880	304880	Good job.	R	6				
+303880	304880	Good job.	R	5				
 304880	305720	You both guessed right.	R					
 305720	309400	Okay, so now [id60]'s gonna be the teller,	R					
 309400	311120	and [id59]'s gonna be the guesser.	R					
 311120	315560	It's the person bending down, holding a triangle	id60		S		the person bending down, holding a triangle that points down	Y
 315560	318220	that points down, okay?	id60		S			Y
 319720	321200	Oh!	R					
-321200	322040	Oh, that's okay.	R	7				
+321200	322040	Oh, that's okay.	R	6				
 322040	323800	It’s not that.	id60		L			
 323800	325560	That's okay, we can try again.	R					
 325560	326400	This one.	id60		L			
 328680	330560	Here, we can keep trying though.	R					
 330560	332560	Don’t punch the iPad, okay?	R					
 332560	335280	Okay, so now [id60], you're gonna be the guesser.	R					
-335280	338000	Here, don't guess until he tells you, okay?	R	8				
+335280	338000	Here, don't guess until he tells you, okay?	R	7				
 338840	340960	Okay, so now, you're gonna be the guesser.	R					
 340960	342800	What do I press?	id59		L			Y
 342800	344960	Tell him, tell him which one to press.	R					
 344960	346800	Okay, you can hold Smurfy.	R					
 346800	351800	The one that's not the rocks, no rocks, other.	id60		S		not the rocks, no rocks, other	Y
-354640	355920	Good job!	R	9				
+354640	355920	Good job!	R	8				
 355920	358760	Okay, now you're going to be the guesser, [id60].	R					
 358760	359600	What?	id60		L			
 		The square?	id59		S			
@@ -163,19 +163,19 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 360840	362600	Explain to him what's in the square.	R					
 362600	364080	Um, rocks.	id59		S		rocks	Y
 365000	366000	Yay!	R					
-366000	367840	Good job!	R	10				
+366000	367840	Good job!	R	9				
 367840	370760	Okay, now you're gonna be the teller, [id60].	R					
 370760	371800	The one that's bending down.	id59		L			Y
 371800	373400	He's gonna tell you what to pick now.	R					
 373400	377000	The one that's the person.	id60		S		the person	Y
-379200	380160	Good job!	R	11				
+379200	380160	Good job!	R	10				
 380160	381480	You guys are doing so great.	R					
 381480	384360	Okay, now you're going to be the guesser	R					
 384360	386320	and you'll be the teller.	R					
 386320	387760	Explain to him what's in there.	R					
 387760	392440	Um, there is a person holding a triangle.	id59		S		a person holding a triangle	Y
 392440	393280	Yay!	R					
-393280	394360	Yay!	R	12				
+393280	394360	Yay!	R	11				
 394360	395920	Okay, here, can you Smurfy?	R					
 395920	397680	Okay, now you're going to be the teller	R					
 397680	399320	and you're gonna be the guesser, [id59].	R					
@@ -183,7 +183,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 406040	410240	with these parts points out.	id60		S			Y
 410240	411080	Okay.	id59		L			Y
 412480	413560	Oh, that's okay.	R					
-413560	415200	We can get it next time.	R	13				
+413560	415200	We can get it next time.	R	12				
 415200	417000	Okay, so you're going to be the teller now, [id59].	R					
 417000	417840	This one!	id59		S			
 417840	419920	Don't throw the iPad, remember?	R					
@@ -196,38 +196,38 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 434520	438000	Um, the one that's the other one pointing out.	id59		S		the other one pointing out	Y
 446640	447640	Here, press this soft.	R					
 449640	450880	Good job!	R					
-450880	453640	Okay, now you're going to be the teller.	R	14				
+450880	453640	Okay, now you're going to be the teller.	R	13				
 453640	454920	You'll be the guesser.	R					
 454920	456680	The rocks.	id60		S		the rocks	Y
 460040	460960	Click it softly.	R					
 462520	463840	Good job!	R					
-463840	466720	Okay, now you're the guesser, [id60].	R	15				
+463840	466720	Okay, now you're the guesser, [id60].	R	14				
 466720	468160	You're the teller, [id59].	R					
 470640	472320	Tell him which one is in the box.	R					
 472320	477320	Um, the one that's the person has little shoulders	id59		S		the person has little shoulders and a square head	Y
 478240	479920	and a square head.	id59		S			Y
-481440	483000	Good job!	R	16				
+481440	483000	Good job!	R	15				
 483000	484640	You guys are doing so good.	R					
 485520	487720	So now, you're going to be the guesser, [id59],	R					
 487720	489000	and you're the teller, [id60].	R					
 489000	492120	The person holding the triangle.	id60		S		the person holding the triangle	Y
 493000	494560	Good job!	R					
-494560	497000	Okay, now you're the guesser, [id60],	R	17				
+494560	497000	Okay, now you're the guesser, [id60],	R	16				
 497000	498840	and you're the teller, [id59].	R					
 498840	501200	The one with the triangle.	id59		S		the one with the triangle	Y
 502760	504560	Good job!	R					
-504560	507880	Okay, now you're the guesser, [id59],	R	18				
+504560	507880	Okay, now you're the guesser, [id59],	R	17				
 507880	508880	and you're the teller.	R					
 508880	509720	Rocks, it’s the rocks.	id60		S		rocks	Y
 513000	513840	Good job!	R					
 514840	515680	Good job!	R					
-517240	518720	Okay, [id60], you're the guesser,	R	19				
+517240	518720	Okay, [id60], you're the guesser,	R	18				
 518720	520160	and [id59], you're the teller.	R					
 520160	522000	On the one that's in the square.	id59		S			
 523280	524800	Explain what's in the square.	R					
 524800	528880	On the one with no hands, only feet,	id59		S		the one with no hands, only feet on the square head	Y
 528880	530320	on the square head.	id59		S			Y
-533800	535280	Okay, take Smurfy	R	20				
+533800	535280	Okay, take Smurfy	R	19				
 535280	536120	You're the guesser, [id59].	R					
 536120	538680	I want to pop bubbles again.	id59		L			
 538680	539520	We'll get to that.	R					

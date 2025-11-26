@@ -1,8 +1,1286 @@
 gameId,game,start,end,text,speaker,trial,role,echo,description,on_topic
-yNxLuQYs99rgcor8k,game16,NA,NA,NA,NA,NA,NA,NA,NA,NA
-mA6x3S2KxjWJRLBhv,game17,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2SbQiwYJb6yCs65kq,game18,NA,NA,NA,NA,NA,NA,NA,NA,NA
-MNMWiBjzQi8sZSRsW,game20,NA,NA,NA,NA,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,0,1.72,"Okay, record recording now.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,1.72,4.08,"Okay, just wait for one second, okay?",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,4.08,7.44,"So today, we're gonna play a really, really fun",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,7.44,9.4,"matching game, okay?",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,9.4,11.36,"But before we do that,",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,11.36,14.16,"we're gonna practice popping bubbles on your screens, okay?",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,14.16,16.16,"So I see that you already pressed the blue button,",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,16.16,17.52,so let's see if you pressed your button.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,17.52,18.36,Good job.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,18.36,21.2,"Okay, so can you press the buttons to see if they pop?",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,21.2,22.04,Good job.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,23.6,24.44,Huh?,id59,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,24.44,26.92,"Keep pressing, good job, keep pressing.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,26.92,27.76,Nice.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,30.04,30.88,Huh?,id59,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,30.88,33.36,"Oh, good job, [id60], you finished it.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,33.36,34.2,I can't pop!,id59,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,34.2,36.6,"Come on, oh, keep popping.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,36.6,37.92,Nice.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,37.92,40.08,"Here, you get to take that finger off, good job.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,40.08,41.84,Keep popping up.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,41.84,44.36,What's going on?,id59,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,44.36,45.72,There you go.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,45.72,47.4,What's going on?,id59,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,47.4,49.44,"You're gonna just wait one second, [id60].",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,50.72,52.04,Huh?,id59,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,52.04,53.88,What's going on with mine?,id59,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,53.88,56.88,"Keep popping here, just sit down and keep popping up.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,56.88,58.96,"Okay, there you go, good job.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,58.96,60.92,Now you have just a couple more to pop.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,60.92,62.8,"You're gonna wait one second, [id60].",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,62.8,64.04,"Good job, don't press that button yet,",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,64.04,65.2,"but just wait, good job.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,67.36,68.2,Press it.,id60,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,68.2,71.36,"You're pressed really soft, like, there you go.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,71.36,73.08,I already pressed it.,id60,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,73.08,74.52,"Good job, [id60].",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,75.64,76.6,Did really well.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,78.44,79.28,Ah!,id59,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,79.28,81,Good job!,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,81,84.04,"Okay, great job popping the bubbles, both of you.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,84.04,88.08,"Okay, now I'm going to explain our matching game.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,88.12,91.12,"In the matching game, we're gonna help our friend.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,91.12,92.44,His name is Smurfy.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,92.44,93.88,Do you want to say hi to Smurfy?,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,NA,NA,Hi [id59],R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,93.88,94.72,Hi Smurfy,id59,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,94.72,96.04,"Hi, [id60]!",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,97.72,99.24,"All right, this is Smurfy.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,99.24,100.08,Okay.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,100.08,101.8,He doesn't like it.,id59,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,101.8,106.8,"So on your screens, soon you guys are gonna see two pictures.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,106.88,109.96,One of the pictures is gonna have a black box around it,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,109.96,111.22,for one of you.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,111.22,114.12,"If you have the black box, that means you're going to help",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,114.12,117.76,Smurfy guess which picture has the black box around it.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,117.76,120.6,"If you have the black box, you are the teller,",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,120.6,123.16,and you're going to tell Smurfy what you see.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,123.16,125.32,"Oh, don't start yet, okay?",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,125.32,127.16,"So you see the black box, we will get to that.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,127.16,129.16,"And if you're holding Smurfy,",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,129.16,130.72,then you're gonna be the guesser.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,130.72,133.36,"So you're gonna help Smurfy guess which box,",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,133.36,136.24,"which picture has the black box around it, okay?",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,136.24,137.92,"So let's review, because we're gonna keep switching",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,137.92,140.84,back and forth who's the teller and who's the guesser.,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,140.84,144.24,"So if you see a black box, yeah, we'll get to that.",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,144.24,146.64,"If you see the black box, what are you gonna do?",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,148.24,152.64,"We're gonna, we're gonna tell Smurfy what we see, right?",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,152.64,155.24,"And if we're holding Smurfy, what are we gonna do?",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,157.12,159.72,"We're gonna guess which one has the black box around it,",R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,159.72,160.56,okay?,R,NA,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,160.56,165.04,"So you guys both press start, we see who has the black box.",R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,165.04,169.2,I don't see any stars,id60,0,L,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,NA,NA,same button here.,id59,0,S,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,169.2,172.48,So [id59] is going to be the teller.,R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,172.48,174.4,"So you're gonna help Smurfy what you see,",R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,174.4,175.88,"and [id60], that means you're the guesser,",R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,175.88,178.8,"so you're gonna hold Smurfy, okay?",R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,178.8,179.64,"All right, [id59].",R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,179.64,183.4,"So tell, here you're gonna hold Smurfy, you'll help Smurfy.",R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,183.4,187.16,"[id59], do you wanna explain to [id60] what you see?",R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,187.16,189.44,Which one has the black box?,R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,189.44,191.88,I see the apple.,id59,0,S,NA,the apple,Y
+yNxLuQYs99rgcor8k,game16,191.88,192.72,"The apple, okay.",R,0,NA,Y,NA,NA
+yNxLuQYs99rgcor8k,game16,192.72,193.56,"I would, yay!",R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,195.76,197,"Okay, nice.",R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,NA,NA,What’s that?,id59,0,S,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,197,201.32,"If you guys get it right, you're gonna see a smiley face,",R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,201.32,203.28,"and if you get it wrong, you'll see a frowny face,",R,0,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,203.28,204.12,but that's okay.,R,1,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,204.12,205.6,I'm the teller.,id60,1,S,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,205.64,206.96,"You're the teller, okay.",R,1,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,206.96,209.52,"So [id60], you're the teller right now, so [id59],",R,1,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,209.52,212.16,"you are the guesser, so you're gonna have Smurfy.",R,1,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,212.16,214,It's the dog.,id60,1,S,NA,the dog,Y
+yNxLuQYs99rgcor8k,game16,214,215.16,Which one has the dog?,R,1,NA,Y,NA,NA
+yNxLuQYs99rgcor8k,game16,216.28,217.12,Do you see the dog?,R,1,NA,Y,NA,NA
+yNxLuQYs99rgcor8k,game16,217.12,217.96,I.,id59,1,L,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,219.44,220.28,Press it again.,R,1,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,221.76,222.6,Good job!,R,1,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,223.84,225.12,Now we're gonna switch.,R,2,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,225.12,228.08,"So [id60], you're the teller now,",R,2,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,228.08,229.6,"and [id59], you're the guesser.",R,2,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,231.04,233.64,"[id59], you're the guesser, and [id60],",R,2,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,233.84,235.6,"you're the guesser, okay.",R,2,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,235.6,236.56,You're the teller.,id60,2,L,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,236.56,238.36,"You're the teller, okay.",R,2,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,238.36,239.8,Can you tell him what you see?,R,2,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,242.32,243.56,I press the red box.,id59,2,S,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,243.56,246.88,"He's gonna press, so you tell him what you see.",R,2,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,246.88,249.28,I'm seeing a house and a boat.,id59,2,S,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,249.28,252.44,"No, that's not what you're gonna see.",id60,2,L,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,252.44,254.16,You're supposed to do this.,id60,2,L,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,254.16,259.16,"Oh, which black, dark shape has the black box around it?",id60,2,L,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,263.48,264.32,The house.,id59,2,S,NA,the house,Y
+yNxLuQYs99rgcor8k,game16,266.96,267.8,Oh!,R,2,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,267.8,268.96,Good job!,R,3,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,268.96,271.48,"Okay, I'm gonna take Smurfy from you now.",R,3,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,271.48,274.12,"Okay, so now [id60], you're gonna be the teller,",R,3,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,NA,NA,Which one do I press?,id59,3,L,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,274.12,275.48,"and you're gonna be the guesser, [id59],",R,3,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,275.48,276.32,because you're holding Smurfy.,R,3,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,276.32,277.16,It's the tree.,id60,3,S,NA,the tree,Y
+yNxLuQYs99rgcor8k,game16,279.16,280,Good job!,R,4,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,283.52,285,"All right, [id60], now you're the guesser,",R,4,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,NA,NA,The box?,id59,4,S,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,285,287.08,"and you're the teller, [id59].",R,4,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,287.08,288.72,"Yeah, the box.",id60,4,L,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,288.72,291.16,You're gonna tell [id60].,R,4,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,291.16,293.72,I see the box around you.,id59,4,S,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,293.72,295.08,What's in the box?,R,4,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,296.44,297.28,Rocks.,id59,4,S,NA,rocks,Y
+yNxLuQYs99rgcor8k,game16,298.88,299.72,Okay.,R,4,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,301.72,302.56,Yay!,R,4,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,302.56,303.88,Good job!,R,4,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,303.88,304.88,Good job.,R,5,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,304.88,305.72,You both guessed right.,R,5,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,305.72,309.4,"Okay, so now [id60]'s gonna be the teller,",R,5,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,309.4,311.12,and [id59]'s gonna be the guesser.,R,5,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,311.12,315.56,"It's the person bending down, holding a triangle",id60,5,S,NA,"the person bending down, holding a triangle that points down",Y
+yNxLuQYs99rgcor8k,game16,315.56,318.22,"that points down, okay?",id60,5,S,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,319.72,321.2,Oh!,R,5,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,321.2,322.04,"Oh, that's okay.",R,6,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,322.04,323.8,It’s not that.,id60,6,L,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,323.8,325.56,"That's okay, we can try again.",R,6,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,325.56,326.4,This one.,id60,6,L,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,328.68,330.56,"Here, we can keep trying though.",R,6,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,330.56,332.56,"Don’t punch the iPad, okay?",R,6,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,332.56,335.28,"Okay, so now [id60], you're gonna be the guesser.",R,6,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,335.28,338,"Here, don't guess until he tells you, okay?",R,7,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,338.84,340.96,"Okay, so now, you're gonna be the guesser.",R,7,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,340.96,342.8,What do I press?,id59,7,L,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,342.8,344.96,"Tell him, tell him which one to press.",R,7,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,344.96,346.8,"Okay, you can hold Smurfy.",R,7,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,346.8,351.8,"The one that's not the rocks, no rocks, other.",id60,7,S,NA,"not the rocks, no rocks, other",Y
+yNxLuQYs99rgcor8k,game16,354.64,355.92,Good job!,R,8,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,355.92,358.76,"Okay, now you're going to be the guesser, [id60].",R,8,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,358.76,359.6,What?,id60,8,L,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,NA,NA,The square?,id59,8,S,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,359.6,360.84,"And you're the teller, [id59].",R,8,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,360.84,362.6,Explain to him what's in the square.,R,8,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,362.6,364.08,"Um, rocks.",id59,8,S,NA,rocks,Y
+yNxLuQYs99rgcor8k,game16,365,366,Yay!,R,8,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,366,367.84,Good job!,R,9,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,367.84,370.76,"Okay, now you're gonna be the teller, [id60].",R,9,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,370.76,371.8,The one that's bending down.,id59,9,L,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,371.8,373.4,He's gonna tell you what to pick now.,R,9,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,373.4,377,The one that's the person.,id60,9,S,NA,the person,Y
+yNxLuQYs99rgcor8k,game16,379.2,380.16,Good job!,R,10,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,380.16,381.48,You guys are doing so great.,R,10,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,381.48,384.36,"Okay, now you're going to be the guesser",R,10,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,384.36,386.32,and you'll be the teller.,R,10,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,386.32,387.76,Explain to him what's in there.,R,10,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,387.76,392.44,"Um, there is a person holding a triangle.",id59,10,S,NA,a person holding a triangle,Y
+yNxLuQYs99rgcor8k,game16,392.44,393.28,Yay!,R,10,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,393.28,394.36,Yay!,R,11,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,394.36,395.92,"Okay, here, can you Smurfy?",R,11,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,395.92,397.68,"Okay, now you're going to be the teller",R,11,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,397.68,399.32,"and you're gonna be the guesser, [id59].",R,11,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,399.32,404.32,It's the one that's the person leaning down a little bit,id60,11,S,NA,the person leaning down a little bit with these parts points out,Y
+yNxLuQYs99rgcor8k,game16,406.04,410.24,with these parts points out.,id60,11,S,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,410.24,411.08,Okay.,id59,11,L,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,412.48,413.56,"Oh, that's okay.",R,11,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,413.56,415.2,We can get it next time.,R,12,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,415.2,417,"Okay, so you're going to be the teller now, [id59].",R,12,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,417,417.84,This one!,id59,12,S,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,417.84,419.92,"Don't throw the iPad, remember?",R,12,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,419.92,420.76,"Here, it's okay.",R,12,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,420.76,425,The one that's the person or the,id59,12,S,NA,the person,Y
+yNxLuQYs99rgcor8k,game16,NA,NA,"Here, guess guess",R,12,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,425,427,You're going to be the guesser with Smurfy.,R,12,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,428,430.4,"Okay, tell him which one is in the box.",R,12,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,432,434.52,Tell him which one is in the box.,id60,12,L,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,434.52,438,"Um, the one that's the other one pointing out.",id59,12,S,NA,the other one pointing out,Y
+yNxLuQYs99rgcor8k,game16,446.64,447.64,"Here, press this soft.",R,12,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,449.64,450.88,Good job!,R,12,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,450.88,453.64,"Okay, now you're going to be the teller.",R,13,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,453.64,454.92,You'll be the guesser.,R,13,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,454.92,456.68,The rocks.,id60,13,S,NA,the rocks,Y
+yNxLuQYs99rgcor8k,game16,460.04,460.96,Click it softly.,R,13,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,462.52,463.84,Good job!,R,13,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,463.84,466.72,"Okay, now you're the guesser, [id60].",R,14,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,466.72,468.16,"You're the teller, [id59].",R,14,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,470.64,472.32,Tell him which one is in the box.,R,14,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,472.32,477.32,"Um, the one that's the person has little shoulders",id59,14,S,NA,the person has little shoulders and a square head,Y
+yNxLuQYs99rgcor8k,game16,478.24,479.92,and a square head.,id59,14,S,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,481.44,483,Good job!,R,15,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,483,484.64,You guys are doing so good.,R,15,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,485.52,487.72,"So now, you're going to be the guesser, [id59],",R,15,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,487.72,489,"and you're the teller, [id60].",R,15,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,489,492.12,The person holding the triangle.,id60,15,S,NA,the person holding the triangle,Y
+yNxLuQYs99rgcor8k,game16,493,494.56,Good job!,R,15,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,494.56,497,"Okay, now you're the guesser, [id60],",R,16,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,497,498.84,"and you're the teller, [id59].",R,16,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,498.84,501.2,The one with the triangle.,id59,16,S,NA,the one with the triangle,Y
+yNxLuQYs99rgcor8k,game16,502.76,504.56,Good job!,R,16,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,504.56,507.88,"Okay, now you're the guesser, [id59],",R,17,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,507.88,508.88,and you're the teller.,R,17,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,508.88,509.72,"Rocks, it’s the rocks.",id60,17,S,NA,rocks,Y
+yNxLuQYs99rgcor8k,game16,513,513.84,Good job!,R,17,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,514.84,515.68,Good job!,R,17,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,517.24,518.72,"Okay, [id60], you're the guesser,",R,18,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,518.72,520.16,"and [id59], you're the teller.",R,18,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,520.16,522,On the one that's in the square.,id59,18,S,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,523.28,524.8,Explain what's in the square.,R,18,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,524.8,528.88,"On the one with no hands, only feet,",id59,18,S,NA,"the one with no hands, only feet on the square head",Y
+yNxLuQYs99rgcor8k,game16,528.88,530.32,on the square head.,id59,18,S,NA,NA,Y
+yNxLuQYs99rgcor8k,game16,533.8,535.28,"Okay, take Smurfy",R,19,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,535.28,536.12,"You're the guesser, [id59].",R,19,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,536.12,538.68,I want to pop bubbles again.,id59,19,L,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,538.68,539.52,We'll get to that.,R,19,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,539.52,540.8,"So you're the guesser, [id59],",R,19,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,540.8,542.08,"and you're the teller, [id60].",R,19,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,542.08,544.64,Pointy shoulders.,id60,19,S,NA,pointy shoulders,Y
+yNxLuQYs99rgcor8k,game16,546.68,547.52,Click it's soft.,R,19,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,548.96,549.8,Okay.,R,19,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,551.36,552.2,One more time.,R,19,NA,NA,NA,NA
+yNxLuQYs99rgcor8k,game16,553.6,555.24,Yay!,R,19,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,0,3,"Okay, now you're recording.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,3,7,"Okay, thank you guys so much for playing my game.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,7,10,Our game is going to be a really fun matching game.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,10,11,"Hey, this is your dog.",id61,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,11,13,"It is. I'm going to talk about him, okay?",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,13,17,"But first, we're going to play a really fun bubble game.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,17,21,"In this game, you're going to practice tapping on your iPads",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,21,23,"by pressing all of the bubbles, okay?",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,23,27,"So you can start by pressing this blue button right here on your screen, okay?",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,NA,NA,this one?,id62,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,27,32,But why? We're not going to miss the bubbles that we want every bubble.,id61,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,32,34,"You see? You'll see your bubbles. See, look, press.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,34,36,"If you press it, you'll see your bubbles.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,36,38,There's the bubbles. You can pop them.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,38,41,Keep popping them.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,43,45,Good job. Oh my goodness.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,45,47,Keep popping.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,49,51,Good job.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,51,53,Yay! Good job.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,53,55,I win. I get the bubbles.,id61,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,55,57,Good job. You'll see. Good job.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,57,59,Thank you so much for popping your bubbles.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,59,61,You're doing such a good job.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,62,64,I get the bubbles.,id61,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,64,65,Good job.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,65,67,People win the bubbles.,id61,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,67,71,"Good job. Okay, so now I'm going to explain our matching game.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,71,73,That's the next game that we're going to play.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,73,77,"In the matching game, we're going to help our friend, Smurphy.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,77,79,Do you guys want to say hi to Smurphy?,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,79,80,"Hi, Smurphy.",id62,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,80,82,"Hello, [id62]. Hi, [id61].",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,82,83,"Hello, Smurphy.",id61,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,83,88,"Okay, in your game, both of you are going to see two pictures on your screen.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,88,89,Okay?,id61,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,89,93,But one of you is going to have a black box around one of your pictures.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,93,96,Smurphy is going to try and guess.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,96,98,"Yeah, you'll see it in a second. I'll tell you.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,98,103,But Smurphy is going to try and guess which picture has the black box around it.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,103,104,Okay?,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,104,107,"So one of you, you're going to both see two pictures on your screen,",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,107,109,but one of you is going to have a black box.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,109,112,"If you have the black box, then you are the teller.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,112,117,And the teller is going to tell Smurphy which picture has the black box in it.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,117,120,"If you're holding Smurphy, you're going to be the guesser.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,120,124,And you're going to help Smurphy guess which picture has the black box around it.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,124,128,"Once you think you know which picture has the black box around it,",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,128,130,you're going to guess and click it for Smurphy.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,130,133,"If you get it right, you're going to see a Smily face.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,133,135,"If you get it wrong, you'll see a Frowny face.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,135,139,"But that's okay, because we'll have lots of chances to help Smurphy get the right answer.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,139,140,Okay?,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,140,141,So let's review.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,141,142,Okay.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,142,147,"If you have a black box around your picture, what are you going to do?",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,147,152,"You're going to tell Smurphy which one has the black box, right?",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,152,158,"And if you're holding Smurphy, you're going to guess which picture has the black box.",R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,158,159,Okay?,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,159,160,Okay.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,160,161,You guys can start.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,161,162,We're ready to play.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,162,163,You're going to press this blue button.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,163,164,Okay?,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,164,165,Blue.,id62,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,165,166,This one.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,166,167,Yeah.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,167,168,Right here.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,168,169,Who's that?,id61,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,170,171,Okay.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,171,172,We're going to start.,R,NA,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,172,176,So which one of you guys has a black box on your screen?,R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,176,177,"That's you, [id61].",R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,177,178,Okay.,R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,178,179,So you're going to be the teller.,R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,179,183,"And now you, [id62], you're going to be holding Smurphy and you're the guesser.",R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,183,184,Okay.,R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,184,185,So you're going to help Smurphy guess.,R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,185,192,"So [id61], tell [id62] what picture, describe the picture that has the black box around",R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,192,193,it.,R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,193,194,Tell her.,R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,194,195,Yeah.,R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,195,196,Tell her what.,R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,196,197,It's a banana.,id61,0,S,NA,a banana,Y
+mA6x3S2KxjWJRLBhv,game17,197,198,Which one is the banana?,R,0,NA,Y,NA,NA
+mA6x3S2KxjWJRLBhv,game17,201,202,Click on it.,R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,205,206,Yay!,R,0,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,206,207,You guys got it right.,R,1,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,207,208,Okay.,R,1,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,208,209,"We're going to do it again now, but switching.",R,1,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,209,214,"So now [id62] is going to be the teller and you're going to be the guesser, [id61].",R,1,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,214,215,What?,id62,1,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,215,216,Okay.,R,1,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,216,219,So can we tell [id61] which one has the black box?,R,1,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,222,224,Can you tell [id61] what's in the black box?,R,1,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,224,225,Dog,id62,1,S,NA,dog,Y
+mA6x3S2KxjWJRLBhv,game17,229,230,Yay!,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,230,231,Good job.,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,231,232,Okay.,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,232,234,"Now you're going to be the guesser, [id61].",R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,234,236,[id62] and you're going to be the teller.,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,238,239,Okay.,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,239,242,So you tell her which one has the black box.,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,242,243,Yeah.,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,243,244,Tell her.,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,244,245,Tell her.,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,245,246,It's a house.,id61,2,S,NA,a house,Y
+mA6x3S2KxjWJRLBhv,game17,247,249,Which one is the house?,R,2,NA,Y,NA,NA
+mA6x3S2KxjWJRLBhv,game17,251,252,Yeah.,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,252,255,You can help Smurphy guess.,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,255,256,Yay!,R,2,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,256,257,Yay!,R,3,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,257,258,Good job.,R,3,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,258,259,Okay.,R,3,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,259,267,"Now, [id61]'s going to be the guesser, and you're going to be the teller, [id62].",R,3,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,267,268,"okay, doggy.",id61,3,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,268,272,So tell [id61] which one has the black box.,R,3,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,272,274,The christmas tree.,id62,3,S,NA,the christmas tree,Y
+mA6x3S2KxjWJRLBhv,game17,274,276,"Oh, did you hear what she said?",R,3,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,276,279,Just tell her again.,R,3,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,279,281,The tree.,id62,3,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,281,284,Click again.,R,3,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,284,287,"Smurfy, you want to do it?",id61,3,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,287,289,"Yeah, help Smurfy do it.",R,3,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,289,292,"Oh, you might need a human finger to press it.",R,3,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,292,293,Yay!,R,3,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,293,295,"Good job, Smurfy.",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,295,296,"Good job, [id61].",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,296,298,"Okay, so now [id62]'s the guesser.",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,298,302,"And [id61], you're going to tell [id62] which picture has the black box.",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,NA,NA,Smurfy’s soft.,id61,4,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,302,304,Smurfy's very soft.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,304,307,"You know, Smurfy is a stuffy.",id61,4,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,307,309,She is soft.,id61,4,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,309,311,She is very soft.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,311,316,"Okay, so you're going to tell Smurfy and [id62] which picture has the black box on your screen.",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,316,322,I'm tween at the butterfly hand.,id61,4,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,322,325,"Oh, tell [id62] what's in that box.",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,325,326,What?,id61,4,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,326,328,What's in that box?,id61,4,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,328,329,Tell her.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,329,333,Tell her what's inside.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,333,335,What did you see in this picture?,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,335,337,It's a man.,id61,4,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,337,340,"Okay, it's a man.",R,4,NA,Y,NA,NA
+mA6x3S2KxjWJRLBhv,game17,340,342,Can you explain more?,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,342,346,It's a man.,id62,4,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,346,348,You're going to have to guess.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,348,350,Guess which one you think.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,350,351,It's a man.,id62,4,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,351,356,"Pick, we'll see.",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,356,360,"You can guess, it's okay.",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,360,363,You can just pick one.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,363,368,Can you tell [id62] anything more about your picture?,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,368,373,It's a man.,id61,4,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,NA,NA,is this the man?,id62,4,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,373,378,Can you tell her anything else about the picture?,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,378,383,"You can't see hers, but you can tell her like more details.",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,383,386,More details.,id61,4,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,386,392,Just pick the one that you think is right.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,392,394,"Don't get it wrong, okay?",id61,4,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,394,400,"It’s okay, if she gets it wrong, we have so many tries.",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,400,402,"You press this, please.",id61,4,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,402,406,Can you press this?,id61,4,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,NA,NA,This?,id62,4,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,406,409,The one on the right.,id62,4,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,409,411,"You guys won't know, it's a guessing game.",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,411,412,So you just guess.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,412,413,"No, it's not in the right.",id61,4,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,413,415,It's in the left.,id61,4,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,415,417,It's switched for you guys.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,417,419,So you won't know who has what picture.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,419,423,You have to guess based off what she describes to you.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,423,427,Can you tell her again one more time what you see in your picture?,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,427,429,It's a man.,id61,4,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,429,431,Who's doing Diwali?,id61,4,S,NA,a man who’s doing Diwali,Y
+mA6x3S2KxjWJRLBhv,game17,431,433,Who's doing Diwali?,R,4,NA,Y,NA,NA
+mA6x3S2KxjWJRLBhv,game17,433,438,"Okay, so which one?",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,438,441,Pick it.,R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,441,444,This one.,id61,4,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,444,447,"You can just pick one, go ahead and pick one.",R,4,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,447,451,You have to say this like me.,id61,4,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,452,454,"Yay, you got it right, good job.",R,5,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,454,457,"Okay, so now you're going to be the teller",R,5,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,457,459,and [id61]'s going to be the guesser.,R,5,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,459,461,"Okay, so tell her which one.",R,5,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,461,464,Describe the one in the black box.,R,5,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,464,467,It's a man walking.,id62,5,S,NA,a man walking,Y
+mA6x3S2KxjWJRLBhv,game17,467,469,A man walking.,id62,5,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,469,473,"Okay, [id61].",R,5,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,473,476,"Yay, you guys are doing so good.",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,476,481,"Okay, now you're going to guess and you're going to tell [id61].",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,481,484,"Look, it has the same one though.",id62,6,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,484,487,"Yeah, you're going to keep seeing those.",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,487,490,So explain to her what's inside the box.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,490,497,It's a man who's doing like this funny joke.,id61,6,S,NA,a man who’s doing like this funny joke,Y
+mA6x3S2KxjWJRLBhv,game17,497,500,Which one do you think that is?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,500,503,Did you hear what she said?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,503,505,This one.,id62,6,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,505,508,"Guess, which one do you think?",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,508,512,Can you describe more what's in the box?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,512,516,It's a man who is having some foot.,id61,6,S,NA,a man who is having some foot,Y
+mA6x3S2KxjWJRLBhv,game17,519,521,What did you say?,id62,6,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,521,523,"[id61], what did you say?",id62,6,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,523,525,"Tell her again, [id61].",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,525,527,A little louder.,id62,6,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,527,529,"[id61], tell her what you think.",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,529,534,And a man who is doing this funny joke.,id61,6,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,534,535,Good job.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,535,538,"Okay, so which one do we think that is?",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,538,541,"You got it, you got it.",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,541,545,Pick here.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,545,550,We have both the same of this tablet.,id61,6,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,550,552,Yeah.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,552,554,Pick which one you think is right.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,554,555,Can you tell her more?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,555,556,Because she needs some help.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,556,562,Do you want to tell her more about the picture that has the box around it?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,562,563,"Yeah, tell her more.",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,563,565,Tell her more about what's in there.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,565,570,It's a man.,id61,6,S,NA,a man,Y
+mA6x3S2KxjWJRLBhv,game17,570,572,Is it this one?,id62,6,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,572,573,This one.,id61,6,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,573,574,Just guess.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,574,575,It's fine.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,575,577,It's in the right square box.,id61,6,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,577,578,Who is this one?,id61,6,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,578,581,And you press it.,id61,6,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,NA,NA,Can you watch do this?,id61,6,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,581,586,Can you guess which one she said?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,586,588,"Based off what she told you, you can't look at what she's doing.",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,588,590,But you can tell her more.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,590,593,Try to tell her more about what's in the box.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,593,595,What's in the box?,id61,6,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,595,597,What's in the box?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,597,599,It's a man.,id61,6,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,599,601,And?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,601,605,Who is having these?,id61,6,S,NA,who is having these,Y
+mA6x3S2KxjWJRLBhv,game17,605,606,Just pick one.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,606,608,Which one do you think is correct?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,608,610,You don't know?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,610,611,We could just help.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,611,615,What do you think Smurfy would pick?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,615,616,Good job.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,616,617,"Yeah, pick that one.",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,617,618,Pick that one.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,618,621,I think I want to do bubbles.,id61,6,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,621,624,"Yeah, we can get to bubbles once we finish.",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,624,626,Pick one.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,626,628,Pick one.,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,628,630,You don't know?,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,630,634,"Okay, we can just try one.",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,634,635,Yay!,R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,635,637,"That was the one we were going to pick, right?",R,6,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,637,638,"Here, okay.",R,7,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,638,639,You want to take Smurfy?,R,7,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,639,641,"Okay, now you're going to tell.",R,7,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,641,643,You're going to tell and you're going to guess.,R,7,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,643,645,"Okay, tell her what's in the black box.",R,7,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,645,650,There's a person in a boat.,id62,7,S,NA,a person in the boat,Y
+mA6x3S2KxjWJRLBhv,game17,650,658,"Okay, you're going to help Smurfy guess which one.",R,7,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,658,659,Yay!,R,7,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,659,660,Yay!,R,8,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,660,661,Good job.,R,8,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,661,663,"Okay, now you're going to guess.",R,8,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,663,666,"[id62], [id61], you're going to tell.",R,8,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,666,669,Tell her what you see in your black box.,R,8,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,669,674,It's a man who is walking.,id61,8,S,NA,a man who is walking,Y
+mA6x3S2KxjWJRLBhv,game17,674,675,Yay!,R,8,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,675,676,Yay!,R,8,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,676,681,"Okay, now you're going to guess and you're going to tell.",R,9,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,681,686,It is a man who's swimming.,id62,9,S,NA,a man who’s swimming,Y
+mA6x3S2KxjWJRLBhv,game17,686,687,Hey?,id61,9,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,687,690,"No, this is one.",id61,9,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,691,696,Help Smurfy pick.,R,9,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,696,700,Can you tell her more about your person in the box?,R,9,NA,Y,NA,NA
+mA6x3S2KxjWJRLBhv,game17,700,702,"Smurfy, you're on the front.",id61,9,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,702,707,It’s swimming and it has a diamond hat.,id62,9,S,NA,and it has a diamond hat,Y
+mA6x3S2KxjWJRLBhv,game17,707,712,"Okay, can you help Smurfy pick?",R,9,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,712,713,This one.,id61,9,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,713,718,She’s a stuffy she wants to pick one.,id61,9,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,718,719,Help her pick one.,R,9,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,719,721,Then press it.,id62,9,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,721,723,"Yeah, press which one do you think?",R,9,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,723,726,"Smurfy, you want to try?",id61,9,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,726,727,Mm-hmm.,R,9,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,727,731,"Okay, now you have to use your human finger to press.",R,9,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,731,732,Yay!,R,9,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,732,733,Good job.,R,10,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,733,737,"Okay, now you're going to guess, [id62], and you're going to tell.",R,10,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,737,738,[id61]?,R,10,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,738,740,This one.,id61,10,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,740,743,"Yeah, tell her what's in the box.",R,10,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,743,747,It's a man who's doing for the diwali again.,id61,10,S,NA,a man who’s doing for the Diwali,Y
+mA6x3S2KxjWJRLBhv,game17,747,748,"Oh, okay, yeah.",R,10,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,748,749,Walking.,id62,10,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,749,750,What did you say?,id62,10,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,750,751,Say it again.,R,10,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,751,756,It’s a doing at the diwali.,id61,10,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,756,757,Yay!,R,10,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,757,758,Good job.,R,11,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,758,759,"Okay, can you take Smurfy?",R,11,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,759,764,"Okay, now you're going to guess, [id61], and you're going to tell, [id62].",R,11,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,764,768,It's a a this who's in the boat again.,id62,11,S,NA,a this who’s in the boat,Y
+mA6x3S2KxjWJRLBhv,game17,768,769,Okay.,R,11,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,769,771,Can you help Smurfy pick?,R,11,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,771,772,Yay!,R,11,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,772,773,Yay!,R,11,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,773,774,Good job.,R,12,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,774,775,"Now you're going to guess, [id62].",R,12,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,775,778,"You're going to tell, [id61].",R,12,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,778,780,It's a fun game.,id62,12,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,780,781,"It is fun, right?",R,12,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,781,784,"Okay, now you're going to tell her what you see in the box.",R,12,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,784,791,It's who's a man who's jumping around.,id61,12,S,NA,a man who’s jumping around,Y
+mA6x3S2KxjWJRLBhv,game17,791,792,"Oh, that's okay.",R,12,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,792,793,That's okay.,R,12,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,793,794,We'll try again.,R,12,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,794,795,I'm going to try again.,id62,12,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,795,796,"Yeah, we'll try again.",R,12,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,796,800,"Okay, so [id61]'s going to guess, and you're going to tell [id61] what you see in the box.",R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,800,805,"[id62], just get the wrong person who's doing that.",id61,13,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,805,806,It's okay.,R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,806,807,We'll try again.,R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,807,809,So you tell [id61] what's inside the box.,R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,809,816,"I get so much again, again the person in the boat.",id62,13,S,NA,the person in the boat,Y
+mA6x3S2KxjWJRLBhv,game17,816,819,"Okay, help Smurfy pick.",R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,819,820,Did you hear what she said?,R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,820,821,It's that one.,id62,13,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,821,823,"Oh, you can't tell her which one.",R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,823,824,Just tell her.,R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,824,825,On this side.,id62,13,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,825,826,Just describe.,R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,826,828,You can only describe what you see.,R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,828,829,On this side.,id62,13,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,829,830,Okay.,R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,830,832,On the left one?,id61,13,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,832,834,"Yeah, just pick the one that you think.",R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,834,835,Good job.,R,13,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,835,837,"Okay, now you're going to guess.",R,14,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,837,838,[id62].,R,14,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,838,843,You're going to tell [id61].,R,14,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,843,847,"Okay, tell her what you see in the black box.",R,14,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,847,849,"Yeah, tell her.",R,14,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,849,854,It's a man who is doing diwali again.,id61,14,S,NA,a man who is doing Diwali,Y
+mA6x3S2KxjWJRLBhv,game17,854,856,This one … What did you say?,id62,14,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,856,860,It's a man who is doing diwali.,id61,14,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,860,861,Yay!,R,14,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,861,862,Yay!,R,15,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,862,863,"Okay, take Smurfy.",R,15,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,863,867,"Okay, now you're going to guess, and you're going to tell.",R,15,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,867,869,It's a man who's walking.,id62,15,S,NA,a man who’s walking,Y
+mA6x3S2KxjWJRLBhv,game17,869,871,This one.,id61,15,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,871,873,Let's see.,R,15,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,873,874,Press it.,R,15,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,874,875,Yay!,R,15,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,875,876,Yay!,R,16,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,876,880,"Okay, now you're going to guess, and you're going to tell [id61].",R,16,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,880,883,One who is dancing mainly.,id61,16,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,883,887,"Oh, tell [id62] what's inside this box.",R,16,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,887,889,It's a boat.,id61,16,S,NA,a boat,Y
+mA6x3S2KxjWJRLBhv,game17,889,890,Yay!,R,16,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,890,891,Yay!,R,17,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,891,893,"Okay, let me see Smurfy.",R,17,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,893,894,"Okay, now you're going to guess.",R,17,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,894,896,"[id61], you're going to tell [id62].",R,17,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,896,901,It's a person walking on the sidewalk.,id62,17,S,NA,a person walking on the sidewalk,Y
+mA6x3S2KxjWJRLBhv,game17,901,903,I'm going to do this.,id61,17,L,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,903,905,Good job!,R,17,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,905,908,"Okay, now you're going to guess, and you're going to tell.",R,18,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,908,911,"[id61], which one is in the black box?",R,18,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,911,915,You know Smurfy is having a smiley face?,id61,18,S,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,915,917,"He's so smiley, I know.",R,18,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,917,918,Okay.,R,18,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,918,923,It's a man who's jumping again.,id61,18,S,NA,a man who’s jumping,Y
+mA6x3S2KxjWJRLBhv,game17,924,926,Good job!,R,19,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,926,928,"Okay, this one.",R,19,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,928,930,"Okay, now you're going to guess.",R,19,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,930,931,"Oh no, it’s a bug.",id61,19,L,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,931,933,"Oh, I'll take it.",R,19,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,933,934,I'll take it.,R,19,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,934,935,I got it.,R,19,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,935,936,"Okay, you guys can keep playing.",R,19,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,936,939,It's a man who's bending and holding a triangle.,id62,19,S,NA,a man who’s bending and holding a triangle,Y
+mA6x3S2KxjWJRLBhv,game17,940,943,"Here, you're going to guess which one is the man holding.",R,19,NA,Y,NA,NA
+mA6x3S2KxjWJRLBhv,game17,943,946,I can't tell you.,R,19,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,946,948,You have to pick.,id62,19,S,NA,NA,Y
+mA6x3S2KxjWJRLBhv,game17,948,950,You have to pick for Smurfy.,R,19,NA,NA,NA,NA
+mA6x3S2KxjWJRLBhv,game17,950,951,Yay!,R,19,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,5.5,7.18,"We are gonna play a fun matching game,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,7.18,8.34,"but before we do that,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,8.34,11.14,"we're gonna practice tapping on the screens, okay?",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,11.14,14.02,"So, we're gonna play a fun bubble game,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,14.02,15.9,and you guys can tap on the blue button,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,15.9,17.1,on your screen to start.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,20.66,21.86,Awesome.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,21.86,22.94,Perfect.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,22.94,25.1,And now you can pop all the bubbles.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,25.1,26.66,I popped the bubbles.,id64,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,26.66,27.5,Yay!,id64,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,28.5,29.5,Awesome.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,29.5,30.5,Keep going.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,34.5,36.5,"Good job, [id64].",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,37.5,39.5,"Keep going, [id63].",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,39.5,40.5,I can't.,id64,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,40.5,41.5,"That's okay, [id64].",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,41.5,43.5,"We're gonna wait for [id63] to finish, okay?",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,43.5,45.5,Then it's my turn.,id64,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,45.5,46.5,Yeah.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,51.5,53.5,"Good job, [id63].",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,53.5,54.5,Almost there.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,58.5,59.5,Awesome.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,59.5,60.5,Okay.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,60.5,64.5,"So, today I'm gonna explain my matching game.",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,64.5,66.5,"We are going to play a game,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,66.5,68.5,"and this is my friend, Smurphy.",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,68.5,69.5,You wanna say hi?,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,69.5,70.5,"Hi, Smurphy.",id64,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,70.5,71.5,"Hi, [id64].",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,71.5,72.5,"Hi, Smurphy.",id63,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,72.5,74.5,"Hi, [id63].",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,74.5,77.5,"So, today your job is to help Smurphy",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,77.5,79.5,"in this matching game, okay?",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,79.5,82.5,"So, on your screen, you're gonna see two pictures.",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,82.5,86.5,"One picture is gonna have a black box around it,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,86.5,88.5,and one of you guys will have that black box.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,88.5,90.5,"If you have the black box,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,90.5,93.5,you're going to tell Smurphy what you see in the box.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,93.5,95.5,"If you don't have the black box,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,95.5,97.5,"you're gonna be holding Smurphy,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,97.5,100.5,"and your job is to guess what is in the black box,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,100.5,102.5,"and you're gonna help Smurphy guess, okay?",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,103.5,104.5,Okay.,id64,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,104.5,105.5,"Okay, wait.",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,105.5,106.5,Don't get started yet.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,106.5,107.5,"So, we're gonna recap.",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,107.5,109.5,"If you have a black box, what do you do?",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,112.5,113.5,You tell.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,113.5,114.5,"So, if you have a black box,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,114.5,117.5,"you're gonna tell Smurphy what's in the black box,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,117.5,118.5,what you see.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,118.5,120.5,"And then if you are holding Smurphy,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,120.5,121.5,what are you gonna do?,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,121.5,122.5,Guess.,id64,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,122.5,123.5,You're gonna guess.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,123.5,124.5,Good job.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,124.5,125.5,Are you guys ready to get started?,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,125.5,126.5,Okay.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,126.5,127.5,We're gonna switch back and forth.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,127.5,130.5,"So, you're gonna take turns telling and guessing.",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,130.5,131.5,That's okay.,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,131.5,133.5,"Let's just wait for one second, okay?",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,135.5,137.5,"We're gonna take turns telling and guessing,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,137.5,140.5,"and then after that, if you get it right,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,140.5,141.5,"you're gonna see a smiley face,",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,141.5,143.5,"and if you don't, you're gonna see a frowny face.",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,143.5,145.5,But that's okay because we're gonna have many opportunities,R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,145.5,148.5,"to help Smurphy get the right answer, okay?",R,NA,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,148.5,150.5,"Okay, go ahead and press the blue button.",R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,153.5,154.5,Awesome.,R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,154.5,155.5,"Okay, who has a black box?",R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,155.5,156.5,Me.,id64,0,S,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,156.5,157.5,"Okay, so what are you gonna do?",R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,157.5,158.5,I see.,id64,0,S,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,158.5,159.5,You're gonna...,R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,159.5,160.5,I see.,R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,160.5,161.5,Wait.,R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,161.5,162.5,"Oh, you're gonna tell.",R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,162.5,163.5,"[id63], you have Smurphy.",R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,163.5,164.5,You can hold Smurphy.,R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,164.5,166.5,And then you're gonna guess.,R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,166.5,169.5,"So, [id64], have a seat for me, please.",R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,169.5,170.5,Awesome.,R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,170.5,171.5,I see a blue.,id64,0,S,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,171.5,172.5,"Okay, you see a...",R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,172.5,173.5,Go ahead.,R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,173.5,175.5,Tell [id63] what you see.,R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,175.5,177.5,I see a banana.,id64,0,S,NA,a banana,Y
+2SbQiwYJb6yCs65kq,game18,177.5,178.5,"So, [id63], you're gonna tap the one,",R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,178.5,180.5,the picture that you think it is.,R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,181.5,182.5,Yay!,R,0,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,182.5,183.5,Awesome!,R,1,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,183.5,185.5,"Okay, now you guys are gonna switch.",R,1,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,185.5,186.5,"And [id63], you're gonna tell [id64]",R,1,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,186.5,188.5,what you see in the black box.,R,1,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,194.5,197.5,You can tell [id64] what you see in the black box.,R,1,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,197.5,199.5,I see a dog.,id63,1,S,NA,a dog,Y
+2SbQiwYJb6yCs65kq,game18,202.5,203.5,That's okay.,R,2,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,203.5,206.5,We're gonna switch.,R,2,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,206.5,209.5,Now it's [id64]'s turn to tell.,R,2,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,209.5,212.5,I see a house.,id64,2,S,NA,a house,Y
+2SbQiwYJb6yCs65kq,game18,212.5,213.5,Yay!,R,3,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,213.5,214.5,Okay.,R,3,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,214.5,218.5,"[id63], now it's your turn to tell.",R,3,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,223.5,225.5,"[id63], tell [id64] what you see in the black box.",R,3,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,225.5,227.5,I see a tree.,id63,3,S,NA,a tree,Y
+2SbQiwYJb6yCs65kq,game18,227.5,229.5,Do I press the tree?,id64,3,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,229.5,231.5,You're gonna press what you think [id63],R,3,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,231.5,233.5,sees in the black box.,R,3,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,NA,NA,Is it this one or this one?,id64,3,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,237.5,238.5,"Keep going, [id63].",R,3,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,238.5,240.5,What do you see in the black box?,R,4,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,240.5,243.5,"Wait for [id63] to tell you, okay?",R,4,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,243.5,244.5,That's okay.,R,4,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,244.5,245.5,We're gonna switch now.,R,4,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,245.5,247.5,"So, now you're gonna tell [id63]",R,4,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,247.5,249.5,what you see in the black box.,R,4,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,249.5,254.5,I think I see a jumping person.,id64,4,S,NA,a jumping person,Y
+2SbQiwYJb6yCs65kq,game18,257.5,258.5,That's okay.,R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,258.5,262.5,"Okay, now it's [id64]'s turn to guess.",R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,262.5,264.5,"So, [id63], you're gonna tell [id64]",R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,264.5,265.5,what you see in the black box.,R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,265.5,272.5,I see a people holding a hat.,id63,5,S,NA,a person holding a hat,Y
+2SbQiwYJb6yCs65kq,game18,274.5,275.5,This one?,id64,5,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,275.5,276.5,Guess.,R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,278.5,280.5,Just try your best guess.,R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,280.5,283.5,Whatever you think [id63] sees.,R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,283.5,285.5,"If you want [id63] to describe more,",R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,285.5,286.5,you can ask her.,R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,286.5,287.5,Should we ask her?,R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,288.5,290.5,"[id63], can you describe a little bit more",R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,290.5,292.5,what you see in the black box?,R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,292.5,296.5,"Okay, the black box has a people inside,",id63,5,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,296.5,303.5,but it also has a hat holding it in the hand.,id63,5,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,303.5,305.5,This is this one?,id64,5,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,305.5,307.5,Make your best guess.,R,5,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,317.5,318.5,That's okay.,R,6,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,318.5,319.5,We'll keep trying.,R,6,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,319.5,320.5,Good job.,R,6,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,320.5,322.5,"Okay, now it's your turn to tell [id63].",R,6,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,322.5,326.5,"I see somebody walking, walking, walking",id64,6,S,NA,somebody walking,Y
+2SbQiwYJb6yCs65kq,game18,326.5,331.5,"with a square head,",id64,6,S,NA,with a square head,Y
+2SbQiwYJb6yCs65kq,game18,331.5,333.5,"with a square head,",id64,6,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,333.5,336.5,"not the diamond one,",id64,6,S,NA,not the diamond one,Y
+2SbQiwYJb6yCs65kq,game18,336.5,344.5,and he has the giant top,id64,6,S,NA,and he has the giant top,Y
+2SbQiwYJb6yCs65kq,game18,344.5,347.5,and the rectangle legs,id64,6,S,NA,and the rectangle legs,Y
+2SbQiwYJb6yCs65kq,game18,347.5,349.5,and the triangle shoes.,id64,6,S,NA,and the triangle shoes,Y
+2SbQiwYJb6yCs65kq,game18,349.5,351.5,"Okay, [id63], make your best guess.",R,6,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,351.5,352.5,Yay!,R,7,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,352.5,354.5,Good job.,R,7,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,354.5,355.5,Awesome.,R,7,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,355.5,358.5,Now it's [id63]'s turn to tell you what she sees.,R,7,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,358.5,365.5,"I see kind of like a car,",id63,7,S,NA,Kind of like a car,Y
+2SbQiwYJb6yCs65kq,game18,365.5,369.5,but it's actually like a boat.,id63,7,S,NA,but it’s actually like a boat,Y
+2SbQiwYJb6yCs65kq,game18,374.5,377.5,"Which one do you think [id63] is describing, [id64]?",R,7,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,377.5,378.5,Tap on it.,R,7,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,380.5,382.5,"[id63], can you say that again?",R,7,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,382.5,386.5,I think a car kind of...,id63,7,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,386.5,387.5,Which one?,id64,7,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,387.5,389.5,Which head does it have?,id64,7,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,389.5,391.5,The square one or the diamond one?,id64,7,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,391.5,393.5,The diamond one.,id63,7,S,NA,the diamond one,Y
+2SbQiwYJb6yCs65kq,game18,393.5,394.5,This one?,id64,7,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,394.5,395.5,Yeah.,id63,7,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,398.5,399.5,That's okay.,R,7,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,399.5,401.5,We're going to keep trying.,R,8,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,401.5,402.5,Good job.,R,8,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,402.5,405.5,"Okay, now [id64], it's your turn to tell what's in the black box.",R,8,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,405.5,410.5,It's the one that's holding a hat,id64,8,S,NA,the one that’s holding a hat,Y
+2SbQiwYJb6yCs65kq,game18,410.5,413.5,and it has a,id64,8,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,413.5,416.5,and an earring.,id64,8,S,NA,it has an earing,Y
+2SbQiwYJb6yCs65kq,game18,416.5,423.5,It's the one that's holding a triangle.,id64,8,S,NA,the one that’s holding a triangle,Y
+2SbQiwYJb6yCs65kq,game18,423.5,425.5,Awesome.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,425.5,427.5,Good job.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,427.5,429.5,"Okay, now it's [id63]'s turn.",R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,429.5,431.5,I see a square head.,id63,9,S,NA,a square head,Y
+2SbQiwYJb6yCs65kq,game18,431.5,432.5,That's okay.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,432.5,433.5,Keep trying.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,433.5,436.5,"I see a square head,",id63,9,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,436.5,440.5,"a rectangle with a rectangle,",id63,9,S,NA,a rectangle with a rectangle,Y
+2SbQiwYJb6yCs65kq,game18,440.5,444.5,"a head, a head, a head,",id63,9,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,444.5,447.5,"and a triangle,",id63,9,S,NA,and a triangle,Y
+2SbQiwYJb6yCs65kq,game18,447.5,449.5,"and a one,",id63,9,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,449.5,451.5,"and a,",id63,9,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,451.5,452.5,and a diamond left and the feet are triangles,id63,9,S,NA,and a diamond left and the feet are triangles,Y
+2SbQiwYJb6yCs65kq,game18,460.5,465.5,Do you see the both feet,id64,9,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,465.5,468.5,or just one of the feet?,id64,9,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,468.5,471.5,Just the both feets.,id63,9,S,NA,the both feets,Y
+2SbQiwYJb6yCs65kq,game18,471.5,472.5,Okay.,id64,9,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,472.5,474.5,Is it this one or this one?,id64,9,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,474.5,478.5,Is it on this side or this side?,id64,9,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,NA,NA,This side.,id63,9,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,478.5,480.5,You're going to guess,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,480.5,481.5,"based on what she says,",R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,481.5,483.5,"not based on what side, okay?",R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,483.5,484.5,"So [id63],",R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,484.5,485.5,repeat what you said,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,485.5,487.5,about what the picture looks like.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,487.5,489.5,"[id64], pay attention to what [id63] is saying.",R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,489.5,493.5,"The head is a square,",id63,9,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,493.5,497.5,"and the body is a rectangle,",id63,9,S,NA,the body is a rectangle,Y
+2SbQiwYJb6yCs65kq,game18,497.5,505.5,"and one red is triangle,",id63,9,S,NA,one red is triangle,Y
+2SbQiwYJb6yCs65kq,game18,505.5,509.5,"and the other one is rectangle,",id63,9,S,NA,the other one is rectangle,Y
+2SbQiwYJb6yCs65kq,game18,509.5,518.5,and the feet are triangles.,id63,9,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,518.5,519.5,"Okay, [id64].",R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,519.5,521.5,You have to make your best guess.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,521.5,527.5,Whichever one you think that [id63] is describing.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,527.5,528.5,"Okay, tap on that one",R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,528.5,532.5,if that's the one you think it is.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,532.5,533.5,I don't know.,id64,9,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,533.5,534.5,That's okay.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,534.5,535.5,Just make your best guess.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,535.5,536.5,We'll have many opportunities,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,536.5,539.5,"to help Smurphy, okay?",R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,539.5,544.5,I'm having a hard time thinking.,id64,9,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,544.5,546.5,That's okay.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,546.5,547.5,Let's just tap on.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,547.5,549.5,"Tap on the one that you think it is,",R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,549.5,550.5,"and then we'll switch,",R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,550.5,552.5,and maybe you can help Smurphy,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,552.5,558.5,by telling him a good answer.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,558.5,560.5,Let's just make our best guess.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,560.5,570.5,Just tap on one of them.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,570.5,573.5,"That's okay, [id64].",R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,573.5,575.5,I'm having a very hard time.,id64,9,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,575.5,576.5,That's okay.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,576.5,587.5,Let's just pick on one.,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,587.5,588.5,Good job!,R,9,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,588.5,589.5,You did it!,R,10,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,589.5,591.5,"Okay, now it's your turn to tell [id63]",R,10,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,591.5,595.5,what's in the box now.,R,10,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,595.5,602.5,"Okay, it's with a diamond head,",id64,10,S,NA,with a diamond head,Y
+2SbQiwYJb6yCs65kq,game18,602.5,610.5,"and kind of looking like a heart body,",id64,10,S,NA,a heart body,Y
+2SbQiwYJb6yCs65kq,game18,610.5,622.5,and it also has jumping.,id64,10,S,NA,it also has jumping,Y
+2SbQiwYJb6yCs65kq,game18,622.5,624.5,"Okay, [id63], make your best guess.",R,10,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,624.5,626.5,Good job!,R,11,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,626.5,629.5,"Okay, now it's your turn to guess, [id64].",R,11,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,630.5,635.5,Is it the lying down one or the walking one?,id64,11,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,635.5,638.5,Let's have [id63] tell us what she sees.,R,11,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,638.5,655.5,"I see a square head and triangle neck,",id63,11,S,NA,a square head and triangle neck,Y
+2SbQiwYJb6yCs65kq,game18,655.5,661.5,"and the hand is rectangle,",id63,11,S,NA,and the hand is rectangle,Y
+2SbQiwYJb6yCs65kq,game18,661.5,664.5,"and the shoes are,",id64,11,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,664.5,669.5,"and once she was actually kind of like,",id64,11,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,669.5,672.5,not attached.,id64,11,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,672.5,681.5,"Okay, if you know which one it is, tap on it.",R,11,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,681.5,683.5,Good job!,R,12,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,683.5,684.5,"Yay, I did it!",id64,12,S,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,684.5,685.5,"Awesome, [id64].",R,12,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,685.5,687.5,"Okay, now you're going to help Smurfy and [id63]",R,12,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,687.5,690.5,guess which one is in your box.,R,12,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,690.5,692.5,So tell them what you see in your box.,R,12,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,692.5,697.5,"It's the one with the square head,",id64,12,S,NA,the one with the square head,Y
+2SbQiwYJb6yCs65kq,game18,697.5,702.5,"and it's no, and it's unjumping,",id64,12,S,NA,And it’s un-jumping,Y
+2SbQiwYJb6yCs65kq,game18,702.5,705.5,"and it's unjumping,",id64,12,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,705.5,711.5,"and it has the triangle shoes,",id64,12,S,NA,And it has the triangle shoes,Y
+2SbQiwYJb6yCs65kq,game18,711.5,721.5,and it has the unkind of heart shape.,id64,12,S,NA,and it has the un-kind of heart shape,Y
+2SbQiwYJb6yCs65kq,game18,721.5,726.5,"Unkind of, and it's short,",id64,12,S,NA,and it’s short,Y
+2SbQiwYJb6yCs65kq,game18,726.5,728.5,"and it's hot,",id64,12,S,NA,and it’s hot,Y
+2SbQiwYJb6yCs65kq,game18,728.5,729.5,and it's short.,id64,12,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,729.5,731.5,It's not kind of like a heart.,id64,12,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,731.5,734.5,"Okay, [id63], make your best guess.",R,12,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,734.5,736.5,Which one do you think it is?,R,12,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,736.5,738.5,That's okay.,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,738.5,740.5,We'll get another turn right now.,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,740.5,743.5,Okay.,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,743.5,749.5,"I see a square head,",id63,13,S,NA,a square head,Y
+2SbQiwYJb6yCs65kq,game18,749.5,755.5,"and the neck is triangle,",id63,13,S,NA,and the neck is triangle,Y
+2SbQiwYJb6yCs65kq,game18,755.5,766.5,"and the mouth is rectangle,",id63,13,S,NA,and the mouth is rectangle,Y
+2SbQiwYJb6yCs65kq,game18,766.5,783.5,"and the tail is triangle,",id63,13,S,NA,and the tail is triangle,Y
+2SbQiwYJb6yCs65kq,game18,783.5,790.5,and there's a feet not connected.,id63,13,S,NA,and there’s a feet not connected,Y
+2SbQiwYJb6yCs65kq,game18,790.5,792.5,"So one feet is going up,",id63,13,S,NA,so one feet is going up,Y
+2SbQiwYJb6yCs65kq,game18,792.5,795.5,and one feet is lying down.,id63,13,S,NA,and one feet is lying down,Y
+2SbQiwYJb6yCs65kq,game18,795.5,797.5,I think it's this one.,id64,13,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,797.5,800.5,"Oh, it's mystery.",id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,800.5,802.5,"Oh, I think it's loading.",R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,802.5,805.5,Let's give it five seconds.,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,805.5,809.5,I need five seconds to answer me.,id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,809.5,813.5,I need five seconds.,id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,813.5,820.5,I need five seconds.,id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,820.5,827.5,Does your screen still say that?,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,827.5,829.5,Now tell.,id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,829.5,830.5,Awesome.,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,830.5,831.5,Now it's your turn to tell [id63].,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,831.5,838.5,It's working now.,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,838.5,840.5,Tell [id64]h what you see in the black box.,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,840.5,841.5,Now.,id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,841.5,843.5,I'm not doing it.,id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,843.5,844.5,Now.,id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,844.5,845.5,Now.,id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,845.5,846.5,Now he's doing it.,id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,846.5,849.5,"Yeah, now it's Murphy's turn to guess.",R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,849.5,852.5,But [id63] has to tell you what she sees in the black box.,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,852.5,853.5,"No, it's Murphy.",id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,853.5,855.5,"So it's Murphy, okay.",R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,855.5,859.5,"I see a square head,",id63,13,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,859.5,864.5,"and a triangle neck,",id63,13,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,864.5,867.5,"and a rectangle,",id63,13,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,867.5,869.5,"and a pan,",id63,13,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,869.5,872.5,and kind of like...,id63,13,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,872.5,877.5,"Okay, now I'm not doing it, Smurfy is now.",id64,13,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,877.5,881.5,"Well, you have to help Murphy,",R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,881.5,883.5,because Murphy can't tap the iPad.,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,883.5,886.5,So you have to help Murphy tap which one you think it is.,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,886.5,888.5,"Go ahead and tap it, [id64]h.",R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,888.5,892.5,"Okay, I'm going to...",id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,892.5,894.5,"Okay, Murphy's doing it.",id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,894.5,896.5,I'm not doing it.,id64,13,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,896.5,900.5,I think it's this one.,id64,13,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,900.5,901.5,Yay!,R,13,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,901.5,902.5,Good job.,R,14,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,902.5,904.5,He did the right one.,id64,14,S,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,904.5,906.5,Murphy did the right one.,R,14,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,906.5,908.5,"Okay, now it's your turn to tell [id63].",R,14,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,908.5,910.5,I'm...,id64,14,S,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,911.5,912.5,"Let's use our words, okay,",R,14,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,912.5,914.5,instead of our hands.,R,14,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,914.5,917.5,"The shirt looks like,",id64,14,S,NA,the shirt looks like,Y
+2SbQiwYJb6yCs65kq,game18,917.5,922.5,kind of looks like a heart again.,id64,14,S,NA,a heart,Y
+2SbQiwYJb6yCs65kq,game18,922.5,924.5,Go ahead and pick it up.,R,14,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,924.5,927.5,And it has a diamond head.,id64,14,S,NA,it has a diamond head,Y
+2SbQiwYJb6yCs65kq,game18,927.5,930.5,"Oh, this time it's going to get a little tricky.",id64,14,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,930.5,933.5,"Okay, and it has a diamond head,",id64,14,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,933.5,936.5,and it's jumping.,id64,14,S,NA,and it’s jumping,Y
+2SbQiwYJb6yCs65kq,game18,936.5,938.5,Yay!,R,15,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,938.5,940.5,"Good job, [id63].",R,15,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,940.5,942.5,Now Murphy's going to do it again.,id64,15,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,942.5,944.5,"Okay, now Murphy's going to guess again,",R,15,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,944.5,945.5,and [id63]'s going to tell Murphy,R,15,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,945.5,948.5,what is in the black box.,R,15,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,948.5,955.5,It has a...,id63,15,S,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,955.5,957.5,I'm getting better.,id64,15,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,957.5,959.5,Yeah.,R,15,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,959.5,963.5,"Earlier I always had no watch,",id64,15,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,963.5,968.5,but then now I'm getting better.,id64,15,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,968.5,969.5,Yeah.,R,15,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,969.5,972.5,"Okay, listen to what [id63] sees.",R,15,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,972.5,980.5,"I see the pad is like a square,",id63,15,S,NA,the pad is like a square,Y
+2SbQiwYJb6yCs65kq,game18,980.5,986.5,but it is just the pointy side,id63,15,S,NA,but it is just the pointy side,Y
+2SbQiwYJb6yCs65kq,game18,986.5,988.5,"and connected to the neck,",id63,15,S,NA,and connected to the neck,Y
+2SbQiwYJb6yCs65kq,game18,988.5,994.5,"and the hand is kind of like straight,",id63,15,S,NA,and the hand is kind of like straight,Y
+2SbQiwYJb6yCs65kq,game18,994.5,996.5,and the...,id63,15,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,996.5,998.5,Now it's Murphy's feeling.,id64,15,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,998.5,999.5,Okay.,R,15,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,999.5,1002.5,"And then she is holding the hand,",id63,15,S,NA,she is holding the hand,Y
+2SbQiwYJb6yCs65kq,game18,1002.5,1012.5,and the body is kind of going a little bit like...,id63,15,S,NA,and the body is going,Y
+2SbQiwYJb6yCs65kq,game18,1012.5,1014.5,I think.,id64,15,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1014.5,1024.5,And the feet is made is like triangle,id63,15,S,NA,and the feet is triangle,Y
+2SbQiwYJb6yCs65kq,game18,1026.5,1035.5,"Okay, Murphy's turn to guess which one is in the black box.",R,15,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1035.5,1036.5,That's okay.,id64,16,S,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1036.5,1039.5,"That's okay, because we'll get another turn after that.",R,16,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1039.5,1041.5,But now you're going to help Murphy,R,16,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1041.5,1043.5,by telling Murphy what you see.,R,16,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1043.5,1046.5,I see the one.,id64,16,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1046.5,1051.5,"It's actually a square shaped head,",id64,16,S,NA,a square shaped head,Y
+2SbQiwYJb6yCs65kq,game18,1051.5,1054.5,and it's kind of...,id64,16,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1054.5,1058.5,"It's on that side, and...",id64,16,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1058.5,1061.5,And it has...,id64,16,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1061.5,1064.5,And it's feet.,id64,16,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1064.5,1067.5,"You can see both of the feet,",id64,16,S,NA,you can see both of the feet,Y
+2SbQiwYJb6yCs65kq,game18,1067.5,1070.5,and you could...,id64,16,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1070.5,1076.5,And...,id64,16,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1076.5,1084.5,And it has the giant tail.,id64,16,S,NA,and it has the giant tail,Y
+2SbQiwYJb6yCs65kq,game18,1084.5,1087.5,Now it's Murphy's turn to guess.,id64,16,S,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1087.5,1090.5,Tap one more time.,R,16,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1090.5,1092.5,One more time.,R,16,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1092.5,1093.5,There you go.,R,17,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1093.5,1094.5,Yep.,R,17,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1094.5,1096.5,"Yay, I'm getting better at this.",id64,17,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1096.5,1097.5,You are.,R,17,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1097.5,1099.5,"Okay, now Murphy's turn to guess.",R,17,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1099.5,1101.5,"You are, [id63].",R,17,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1101.5,1105.5,"Okay, now tell Murphy what you see inside the box.",R,17,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1105.5,1106.5,Okay.,R,17,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1106.5,1107.5,I see.,id63,17,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1107.5,1109.5,Now Murphy's doing it.,id64,17,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1109.5,1111.5,"Okay, but Murphy has to pay attention, okay?",R,17,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1111.5,1117.5,"I see a square,",id63,17,S,NA,a square,Y
+2SbQiwYJb6yCs65kq,game18,1117.5,1119.5,"but the head,",id63,17,S,NA,but the head,Y
+2SbQiwYJb6yCs65kq,game18,1119.5,1123.5,"but the pointy side is kind of to the neck,",id63,17,S,NA,but the pointy side is kind of to the neck,Y
+2SbQiwYJb6yCs65kq,game18,1123.5,1128.5,"so it kind of likes a heart shape,",id63,17,S,NA,a heart shape,Y
+2SbQiwYJb6yCs65kq,game18,1128.5,1136.5,and the legs are like triangles.,id63,17,S,NA,and the legs are like triangles,Y
+2SbQiwYJb6yCs65kq,game18,1136.5,1137.5,Good job.,R,17,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1137.5,1139.5,"Okay, Murphy's turn to guess.",R,17,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1139.5,1141.5,I think it's this one.,id64,17,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1141.5,1143.5,"No, I think it's this one.",id64,17,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1143.5,1145.5,"Okay, now tap the one you think it is.",R,17,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1149.5,1151.5,Yay!,R,18,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1151.5,1153.5,Good job.,R,18,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1153.5,1157.5,"Okay, now you can help Murphy by telling, [id64],",R,18,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1157.5,1159.5,and [id63]'s going to guess.,R,18,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1159.5,1164.5,"It's holding a triangle, kind of.",id64,18,S,NA,holding a triangle,Y
+2SbQiwYJb6yCs65kq,game18,1164.5,1168.5,It's a triangle that's upside down.,id64,18,S,NA,a triangle that’s upside down,Y
+2SbQiwYJb6yCs65kq,game18,1168.5,1170.5,"Keep using your words, okay, [id64]?",R,18,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1170.5,1175.5,It's holding a triangle like this.,id64,18,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1175.5,1176.5,Keep using your words.,R,18,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1176.5,1178.5,That's a clue.,id64,18,S,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1178.5,1180.5,"Okay, [id63], guess which one you want to guess.",R,18,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1180.5,1186.5,And it's actually the diamond head.,id64,18,S,NA,the diamond head,Y
+2SbQiwYJb6yCs65kq,game18,1186.5,1188.5,Tap on it.,R,18,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1188.5,1190.5,One more time.,R,18,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1190.5,1193.5,One more time.,R,18,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1193.5,1195.5,"Tap right here, that's the one you think.",R,18,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1195.5,1197.5,Yay!,R,19,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1197.5,1199.5,[id63] did it.,id64,19,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1199.5,1200.5,Okay.,R,19,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1200.5,1201.5,Good job.,id64,19,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1201.5,1202.5,Now you're going to guess again.,R,19,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1202.5,1204.5,Now Murphy's going to do it again.,id64,19,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1204.5,1206.5,"Yeah, Murphy's going to do it.",R,19,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1206.5,1211.5,But Murphy has to listen because [id63]'s going to tell what is in the box.,R,19,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1211.5,1215.5,"I see a square box and a triangle,",id63,19,S,NA,a square box and a triangle,Y
+2SbQiwYJb6yCs65kq,game18,1215.5,1220.5,"and a rectangle here,",id63,19,S,NA,and a rectangle here,Y
+2SbQiwYJb6yCs65kq,game18,1220.5,1225.5,and a triangle here.,id63,19,S,NA,and a triangle here,Y
+2SbQiwYJb6yCs65kq,game18,1235.5,1240.5,"With feet and the other one is upside down,",id63,19,S,NA,with feet and the other one is upside down,Y
+2SbQiwYJb6yCs65kq,game18,1240.5,1243.5,and it's laying down.,id63,19,S,NA,and it’s laying down,Y
+2SbQiwYJb6yCs65kq,game18,1243.5,1246.5,I think it's this one.,id64,19,L,NA,NA,Y
+2SbQiwYJb6yCs65kq,game18,1246.5,1248.5,Yay!,R,19,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1248.5,1252.5,"Okay, it was that one.",id64,19,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1252.5,1255.5,"Okay, thank you so much friends for playing with my games.",R,19,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1255.5,1256.5,I got the sprinkles.,id64,19,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1256.5,1259.5,You guys did so good.,R,19,NA,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1259.5,1261.5,Did you get the sprinkles?,id64,19,L,NA,NA,NA
+2SbQiwYJb6yCs65kq,game18,1261.5,1265.5,"Yeah, we both got sprinkles.",id64,19,L,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,0,5.82,Okay there you go. So now we're recording. Thank you so much for coming to the,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,5.82,11.82,"game room with me to play my matching game. In this game, we're gonna help my friend",R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Our name tag?,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Yeah I took them off.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Put them back.,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,"I’ll put them back after the game, okay?",R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Why?,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,23.18,27.82,Because this game we're gonna we're gonna play without the name tags. But first before we play,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,27.82,32.38,the game we're gonna practice tapping on our iPads. So we're gonna play a bubble,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,32.38,39.3,popping game okay? So you can press the blue button on your iPads. There you go,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,39.3,42.94,and you should see some bubbles pop up on your screen and you just tap on them,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,42.94,63.78,very gently to pop them.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,I did one.,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Oh let me see it. Make sure this works.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,"I found, I did mine.",id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Good job.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,I found one match of them. One match. I did three already.,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,64.74,75.78,Okay keep going. I think this iPad. Keep going [id67].,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,77.78,85.66,I did them all.,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Good job. Keep going. Now you have smiley face bubbles. It's just gonna take a few seconds to load okay?,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,85.74,114.66,What can I do? While it loads.,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,We will just wait. How about?,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,What is this picture mean?,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,What does what picture mean?  Oh this is Smurfy. So that means you're ready to play but we have to wait because [id66]'s iPad is not loading.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Why?,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Okay let's take a seat now [id66]. I feel your iPad will load soon.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Why is that? Why is the dog on there?,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,114.66,135.66,So this is Smurphy. Do you want to say hi to Smurphy?,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Can I touch Smurphy?,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Yes of course you can touch.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Can I touch Smurphy?,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Yes.,NA,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Hi Smurfy. Hi Smurfy.,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,136.66,157.66,Let me make sure.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Let's see if these pictures look the same. Do these look the same? Huh? Do these pictures look the same?,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Why do I have a blue button now?,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,158.66,168.66,Well you're gonna wait because we have to play the game but I need to make sure that [id66]'s iPad is working. Okay [id66] can we take a seat for me please? Thank you.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,169.66,181.66,Why do I have to make sure [id66]'s iPad works?,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Just to make sure that it works. Okay so have you guys ever been in the game room before?,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,No.,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Yes.,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,I have not.,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,181.66,197.66,You have? Okay. Okay. [id66] can we take a seat please? So in this game we're gonna stay seated and you're gonna use your words. Okay. And if I can get your iPad to work. [id66].,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,198.66,214.66,There you go. Okay. So now you can play the bubble popping game. Make sure we stay in our seats okay? Exactly. Yeah so you're gonna tap them to pop them. There you go.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,214.66,237.66,Awesome. Keep going. Smiley face bubbles.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,I already had my smiley.,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Yeah you did. You finished so fast.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,This is easy.,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,It is easy huh? Okay perfect. So now you see a picture of Smurphy right? So we're ready to play the game but let me explain to you how we're gonna play the game.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,237.66,255.66,So mine is a really fun matching game and you're gonna see on your screens two pictures. One of you guys will have a picture with a black box and Smurphy's job is to guess what picture is in the black box. If you have the black box you're gonna be the teller.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,255.66,282.66,But how do we know what's inside the box?,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,I'll show you. You'll see.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,What's happened?,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,No that's okay. You can just leave it like that. So let me explain. So there's gonna be a black box and there's gonna be a picture inside the black box. If you have the black box you're gonna be the teller and you're gonna tell Smurphy what you see. If you don't have the black box then you're gonna be holding Smurphy and you're gonna help Smurphy guess what's in the black box. Okay.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,283.66,293.66,You guys are gonna take turns telling and guessing and if you get it right you'll see a smiley face and if you don't you'll see a frowny face but that's okay because you're gonna have a lot of chances to help Smurphy win. Okay.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,294.66,303.66,So let's recap.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,But how do we know what's inside?,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,You'll see a picture and then you're gonna describe it. So if you have a black box then you're gonna tell.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,What does that mean?,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,303.66,313.66,It means you're gonna tell Smurphy and [id67] what you see in the black box. You'll see. Ready? We can try it but let's recap. So if you see a black box what are you gonna do?,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,314.66,331.66,Or if I see a black box.,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Then you're gonna tell.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Do I press the blue?,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Okay. Give me one second. So if you see a black box you're gonna tell. You're gonna use your words and you're gonna tell. If you don't see a black box and you're holding Smurphy.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,333.66,343.66,Then give me one second. It's just connecting to the wifi. Okay let’s stay seated okay. It's working now.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,344.66,351.66,Okay [id67] can you take a seat for me please? That just means we're ready to play.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,What does that mean?,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,That just means we’re ready to play.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,352.66,361.66,Oh let's pop the bubble super quick. Okay now we're ready to play. So here's Smurphy and you guys remember.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,361.66,368.66,Okay if you see the black box you tell. If you're holding Smurphy then you're gonna help him guess and we're using only our words okay.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,369.66,373.66,But then Smurphy will know if we tell.,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,374.66,378.66,Yeah you're supposed to help Smurphy because Smurphy has to guess. So let's press the blue button and get started.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,379.66,380.66,I'll press the blue button.,id67,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,381.66,382.66,Okay you'll get a blue button soon.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,384.66,387.66,She's just waiting. She's just waiting for you to press your blue button.,R,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,388.66,389.66,No.,id66,NA,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,390.66,395.66,There you go. Okay so keep your iPads facing you. Who has a black box?,R,0,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,396.66,398.66,I have a black box with an apple.,id67,0,S,NA,an apple,Y
+MNMWiBjzQi8sZSRsW,game20,399.66,402.66,"Okay so then, [id66] you're gonna hold Smurphy.",R,0,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,403.66,404.66,Why?,id66,0,L,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,405.66,409.66,And [id67] you're gonna tell Smurphy and [id66] what you see in the black box. What's in the black box?,R,0,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,410.66,411.66,Apple.,id67,0,S,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,412.66,416.66,Okay and then Smurphy and [id66] are gonna tap the picture that they think it is.,R,0,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,416.66,421.66,So what do you think is in [id67]'s black box?,R,0,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,422.66,423.66,Okay tap it.,R,0,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,424.66,428.66,There you go and now you're gonna switch.,R,1,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,I guessed it,id66,1,S,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,430.66,432.66,So that means let's keep our iPads facing you.,R,1,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,433.66,434.66,I don't have a black box.,id67,1,L,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,435.66,438.66,Yeah so that means [id66]'s gonna tell you what she sees in her black box and you're gonna guess.,R,1,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,438.66,447.66,Go ahead. You can tell [id67] and Smurphy what you see in your black box.,R,1,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,448.66,449.66,The bird.,id66,1,S,NA,the bird,Y
+MNMWiBjzQi8sZSRsW,game20,450.66,453.66,Okay so tap what you think it is.,R,1,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,454.66,455.66,Awesome.,R,2,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,456.66,458.66,Okay now you guys are gonna switch. You're gonna switch every round okay.,R,2,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,459.66,462.66,So now you have the black box [id67] and you're gonna tell.,R,2,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,463.66,464.66,I have a boat.,id67,2,S,NA,a boat,Y
+MNMWiBjzQi8sZSRsW,game20,464.66,468.66,Good job.,R,3,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,469.66,470.66,He did it so easy.,id66,3,S,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,473.66,474.66,What's that?,id66,3,S,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,475.66,476.66,You have to tell.,R,3,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,477.66,478.66,I don't know what it is.,id66,3,S,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,479.66,481.66,That's okay. Just describe what you see.,R,3,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,482.66,483.66,What describe mean?,id66,3,S,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,484.66,488.66,I mean just tell [id67] and Smurphy what you see in the black box. What you think it is.,R,3,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,489.66,490.66,swan,id66,3,S,NA,Swan,Y
+MNMWiBjzQi8sZSRsW,game20,491.66,492.66,Say it again.,R,3,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,492.66,493.66,Swan.,id66,3,S,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,494.66,495.66,Say it to [id67].,R,3,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,496.66,497.66,Swan,id66,3,S,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,NA,NA,What is swan?,id67,3,L,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,498.66,499.66,Make your best guess.,R,3,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,500.66,503.66,Just use your words to describe what you see in the black box.,R,3,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,504.66,505.66,Swan,id66,3,S,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,506.66,510.66,So then if you think you know what the picture is tap on it okay.,R,3,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,511.66,512.66,I see it right here.,id67,3,L,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,513.66,514.66,Then tap on it.,R,3,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,515.66,516.66,There you go.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,517.66,518.66,Okay now switch.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,519.66,522.66,Why I keep having a smiling face?,id67,4,S,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,523.66,525.66,Because that means you got it right.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,526.66,527.66,But now it's your turn to be the teller.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,528.66,531.66,I don't know what this is though.,id67,4,S,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,532.66,534.66,That's okay. Just use your words.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,536.66,539.66,Yeah Smurphy has a little bit of a rip.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,540.66,542.66,But let's just focus on this game okay.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,Can I see the rip?,id67,4,S,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,543.66,545.66,But that's okay. He'll be fixed up soon.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,546.66,547.66,But let's focus on the game okay.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,What is this thing?,id67,4,S,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,548.66,550.66,You have to describe to.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,551.66,552.66,But both of them have diamonds.,id66,4,L,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,552.66,553.66,What you see.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,557.66,561.66,So does it have a triangle?,id66,4,L,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,565.66,566.66,Yes it has a triangle.,id67,4,S,NA,has a triangle,Y
+MNMWiBjzQi8sZSRsW,game20,567.66,568.66,Okay.,R,4,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,570.66,571.66,That's okay.,R,5,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,572.66,573.66,We'll keep guessing.,R,5,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,574.66,577.66,Okay now it is [id67]'s turn to help Smurphy guess.,R,5,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,578.66,580.66,So you're going to tell what you see [id66].,R,5,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,581.66,584.66,It has a triangle.,id66,5,S,NA,has a triangle,Y
+MNMWiBjzQi8sZSRsW,game20,589.66,592.66,Maybe you can help [id67] guess and tell her a little bit more.,R,5,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,593.66,598.66,And it's going to black.,id66,5,S,NA,it’s going to black,Y
+MNMWiBjzQi8sZSRsW,game20,599.66,602.66,Whatever one you think it is.,R,5,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,603.66,605.66,Whichever one you think [id66] is describing.,R,5,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,606.66,608.66,I only have a triangle and a flap.,id67,5,L,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,609.66,611.66,Okay so if you think that's the one then tap it.,R,5,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,612.66,614.66,Good job.,R,6,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,615.66,616.66,Okay now it's your turn to tell.,R,6,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,618.66,620.66,I have a triangle too.,id67,6,S,NA,a triangle,Y
+MNMWiBjzQi8sZSRsW,game20,621.66,622.66,I have a triangle.,id67,6,S,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,623.66,625.66,Don't tell me. Tell [id66] and Smurphy.,R,6,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,625.66,627.66,I have a triangle.,id67,6,S,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,631.66,632.66,Good job.,R,7,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,633.66,635.66,Okay now we're going to keep going.,R,7,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,636.66,638.66,So now [id66] is going to tell what's in the box.,R,7,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,639.66,646.66,It has two triangles.,id66,7,S,NA,two triangles,Y
+MNMWiBjzQi8sZSRsW,game20,651.66,652.66,Make your best guess.,R,7,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,653.66,654.66,Mine is two triangles too.,id67,7,L,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,655.66,657.66,Yeah so [id66] is describing one.,R,7,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,658.66,661.66,And the one that you think she's describing is the one that you're going to tap on your iPad.,R,7,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,662.66,663.66,Okay.,R,7,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,664.66,665.66,That's okay.,R,8,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,666.66,667.66,Good try.,R,8,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,668.66,669.66,We're going to keep going.,R,8,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,NA,NA,What is the sad face mean?,id67,8,S,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,673.66,676.66,That means that you didn't get it right but you can try again.,R,8,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,677.66,679.66,But now it's your turn to be the teller.,R,8,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,680.66,681.66,I have two triangles.,id67,8,S,NA,two triangles,Y
+MNMWiBjzQi8sZSRsW,game20,686.66,687.66,That's okay.,R,9,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,688.66,689.66,We'll keep going.,R,9,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,691.66,692.66,I'm going to try again.,R,9,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,693.66,694.66,So now you're the teller [id66].,R,9,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,703.66,705.66,Why do we have to play the matching game?,id67,9,L,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,706.66,707.66,Why is it a matching game?,id67,9,L,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,708.66,709.66,Because Smurphy likes playing matching games.,R,9,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,710.66,712.66,It has little coins going like this way.,id66,9,S,NA,little coins going like this way,Y
+MNMWiBjzQi8sZSRsW,game20,712.66,714.66,Okay let's use our words okay.,R,9,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,715.66,716.66,Use your words.,R,9,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,717.66,718.66,I have points on mine.,id67,9,L,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,720.66,723.66,If you think you know which one [id66] is talking about then you can tap on it.,R,9,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,725.66,726.66,Yay!,R,10,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,727.66,728.66,Good job.,R,10,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,729.66,730.66,Okay now it's your turn to be the teller.,R,10,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,731.66,733.66,So tell what you see in the black box.,R,10,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,735.66,739.66,I see a square.,id67,10,S,NA,a square,Y
+MNMWiBjzQi8sZSRsW,game20,743.66,744.66,Good job.,R,10,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,745.66,746.66,Okay.,R,11,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,748.66,750.66,Now [id67] gets to guess and [id66] you get to tell.,R,11,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,751.66,755.66,Mine has two triangles.,id66,11,S,NA,two triangles,Y
+MNMWiBjzQi8sZSRsW,game20,757.66,759.66,One of mine has two triangles.,id67,11,L,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,761.66,762.66,So tap the one you think it is.,R,11,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,766.66,767.66,That's okay.,R,12,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,768.66,769.66,We can try again after.,R,12,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,770.66,771.66,Whoa.,R,12,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,772.66,773.66,I said wow.,id67,12,S,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,774.66,775.66,Now it's your turn to be the teller.,R,12,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,776.66,778.66,I see a diamond in mine.,id67,12,S,NA,a diamond,Y
+MNMWiBjzQi8sZSRsW,game20,781.66,782.66,Good job.,R,13,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,783.66,784.66,You guys are doing great.,R,13,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,786.66,787.66,Mine has a square.,id66,13,S,NA,a square,Y
+MNMWiBjzQi8sZSRsW,game20,789.66,790.66,Mine has one square too.,id67,13,L,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,794.66,795.66,Awesome.,R,13,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,796.66,797.66,So now you're going to be the teller.,R,14,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,799.66,800.66,Keep going.,R,14,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,800.66,801.66,Mine has a square.,id67,14,S,NA,a square,Y
+MNMWiBjzQi8sZSRsW,game20,802.66,803.66,Now [id66]'s the teller.,R,15,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,804.66,805.66,Upside down triangle.,id66,15,S,NA,upside down triangle,Y
+MNMWiBjzQi8sZSRsW,game20,807.66,808.66,I'm upside down triangle.,id67,15,L,NA,NA,Y
+MNMWiBjzQi8sZSRsW,game20,809.66,810.66,Yay!,R,15,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,811.66,812.66,Good job.,R,16,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,813.66,814.66,You guys are helping Smurphy get all the good answers.,R,16,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,815.66,816.66,Okay so now you're going to be the teller [id67].,R,16,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,817.66,818.66,I see a diamond in mine.,id67,16,S,NA,a diamond,Y
+MNMWiBjzQi8sZSRsW,game20,819.66,820.66,Good job.,R,17,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,828.66,829.66,Easy peasy.,id66,17,S,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,831.66,832.66,Okay now [id66]'s the teller.,R,17,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,833.66,834.66,Mine has a diamond.,id66,17,S,NA,a diamond,Y
+MNMWiBjzQi8sZSRsW,game20,839.66,840.66,And now [id66]'s going to be the guesser,R,18,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,841.66,842.66,with Smurphy.,R,18,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,844.66,845.66,Square.,id67,18,S,NA,square,Y
+MNMWiBjzQi8sZSRsW,game20,847.66,848.66,Yay!,R,19,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,851.66,852.66,This is super easy.,id66,19,S,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,853.66,854.66,Keep going.,R,19,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,855.66,856.66,It’s another square.,id66,19,S,NA,square,Y
+MNMWiBjzQi8sZSRsW,game20,865.66,866.66,That's okay.,R,19,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,867.66,868.66,We'll try again.,R,19,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,869.66,870.66,Oh that means the game is over.,R,19,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,871.66,872.66,You guys did that so fast.,R,19,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,873.66,874.66,Smurphy says thank you so much,R,19,NA,NA,NA,NA
+MNMWiBjzQi8sZSRsW,game20,875.66,876.66,for coming to play in our game room.,R,19,NA,NA,NA,NA
 TDdHXhZK29W9z7d8H,game24,0,1.6,"Okay, now you're on camera.",R,NA,NA,NA,NA,NA
 TDdHXhZK29W9z7d8H,game24,2.5,4.14,"So, we're going to play a fun matching game.",R,NA,NA,NA,NA,NA
 TDdHXhZK29W9z7d8H,game24,4.76,8,"But to start, we're going to practice touching the bubbles on the iPad, okay?",R,NA,NA,NA,NA,NA
@@ -238,7 +1516,7 @@ R83tnLDcgGTD3F4SR,game25,142.16,150.44,"Okay, it's okay, we can switch, so now [
 R83tnLDcgGTD3F4SR,game25,150.6,158.38,"You have to guess, but [id72] is going to tell us what's in the black box, and [id73] you have to guess what's in the black box, okay?",R,1,NA,NA,NA,NA
 R83tnLDcgGTD3F4SR,game25,158.38,160.62,A dog?,id72,1,S,NA,a dog,Y
 R83tnLDcgGTD3F4SR,game25,160.62,163.98,So touch the one that you think [id72]'s describing.,R,1,NA,NA,NA,NA
-R83tnLDcgGTD3F4SR,game25,169.02,170.22,It's a dog.,id72,1,S,NA,a dog,Y
+R83tnLDcgGTD3F4SR,game25,169.02,170.22,It's a dog.,id72,1,S,NA,NA,Y
 R83tnLDcgGTD3F4SR,game25,170.86,171.98,"That's okay, we'll keep going.",R,1,NA,NA,NA,NA
 R83tnLDcgGTD3F4SR,game25,172.62,173.66,How does he know?,id73,1,L,NA,NA,NA
 R83tnLDcgGTD3F4SR,game25,174.62,177.42,So tell [id72] what you see in the black box.,R,2,NA,NA,NA,NA
@@ -293,7 +1571,7 @@ R83tnLDcgGTD3F4SR,game25,288.26,292.26,A people carrying a box of dirt.,id73,8,S
 R83tnLDcgGTD3F4SR,game25,292.26,294.26,Good job.,R,8,NA,NA,NA,NA
 R83tnLDcgGTD3F4SR,game25,294.26,299.26,His boat.,id72,9,S,NA,his boat,Y
 R83tnLDcgGTD3F4SR,game25,299.26,301.26,Now you tell us what's in the black box.,R,9,NA,NA,NA,NA
-R83tnLDcgGTD3F4SR,game25,301.26,302.26,Boat.,id72,9,S,NA,boat,Y
+R83tnLDcgGTD3F4SR,game25,301.26,302.26,Boat.,id72,9,S,NA,NA,Y
 R83tnLDcgGTD3F4SR,game25,302.26,304.26,Awesome!,R,9,NA,NA,NA,NA
 R83tnLDcgGTD3F4SR,game25,304.26,307.26,Keep going.,R,10,NA,NA,NA,NA
 R83tnLDcgGTD3F4SR,game25,307.26,308.26,Person.,id73,10,S,NA,person,Y
@@ -387,9 +1665,9 @@ KPBNaTzQ8rxDECjgD,game28,132.52,138.16,Can you guess which one?,R,0,NA,NA,NA,NA
 KPBNaTzQ8rxDECjgD,game28,138.16,139.16,Red.,id74,0,L,NA,NA,NA
 KPBNaTzQ8rxDECjgD,game28,139.16,140.88,"Oh, you're going to guess which picture it is.",R,0,NA,NA,NA,NA
 KPBNaTzQ8rxDECjgD,game28,140.88,143.6,"He just, what did you say it was?",R,0,NA,NA,NA,NA
-KPBNaTzQ8rxDECjgD,game28,143.94,144.24,Apple.,id75,0,S,NA,apple,Y
+KPBNaTzQ8rxDECjgD,game28,143.94,144.24,Apple.,id75,0,S,NA,NA,Y
 KPBNaTzQ8rxDECjgD,game28,144.62,145.98,"Okay, which one is that?",R,0,NA,NA,NA,NA
-KPBNaTzQ8rxDECjgD,game28,145.98,146.82,Apple.,id74,0,L,NA,apple,Y
+KPBNaTzQ8rxDECjgD,game28,145.98,146.82,Apple.,id74,0,L,NA,NA,Y
 KPBNaTzQ8rxDECjgD,game28,146.82,148.86,Pick it.,R,0,NA,NA,NA,NA
 KPBNaTzQ8rxDECjgD,game28,149.86,150.54,Touch it.,R,0,NA,NA,NA,NA
 KPBNaTzQ8rxDECjgD,game28,151.44,152.64,"Yay, good job.",R,0,NA,NA,NA,NA
@@ -419,7 +1697,7 @@ KPBNaTzQ8rxDECjgD,game28,207.84,212.84,"Okay, now you're the guesser, [id74], an
 KPBNaTzQ8rxDECjgD,game28,212.84,214.84,The person.,id75,4,S,NA,the person,Y
 KPBNaTzQ8rxDECjgD,game28,214.84,219.84,Which one is that?,id74,4,L,NA,NA,Y
 KPBNaTzQ8rxDECjgD,game28,219.84,221.84,What did you say that?,R,4,NA,NA,NA,NA
-KPBNaTzQ8rxDECjgD,game28,221.84,222.84,The person.,id75,4,S,NA,the person,Y
+KPBNaTzQ8rxDECjgD,game28,221.84,222.84,The person.,id75,4,S,NA,NA,Y
 KPBNaTzQ8rxDECjgD,game28,222.84,226.84,But I just need to someone to tell me what's that.,id74,4,L,NA,NA,Y
 KPBNaTzQ8rxDECjgD,game28,226.84,228.84,What does the other thing look like?,R,4,NA,NA,NA,NA
 KPBNaTzQ8rxDECjgD,game28,228.84,231.84,I don't know.,id75,4,S,NA,NA,Y
@@ -518,7 +1796,7 @@ KPBNaTzQ8rxDECjgD,game28,472,473,The person.,R,14,NA,Y,NA,NA
 KPBNaTzQ8rxDECjgD,game28,473,481,"Oh, that's okay. We can try again.",R,14,NA,NA,NA,NA
 KPBNaTzQ8rxDECjgD,game28,481,486,Okay. Now you're going to be the guesser and you're the teller. So which one has the box around?,R,15,NA,NA,NA,NA
 KPBNaTzQ8rxDECjgD,game28,486,487,The person.,id74,15,S,NA,the person,Y
-KPBNaTzQ8rxDECjgD,game28,487,492,The person.,id74,15,S,NA,the person,Y
+KPBNaTzQ8rxDECjgD,game28,487,492,The person.,id74,15,S,NA,NA,Y
 KPBNaTzQ8rxDECjgD,game28,492,496,"Oh, that's okay. Okay.",R,15,NA,NA,NA,NA
 KPBNaTzQ8rxDECjgD,game28,496,498,We both got 'aww'.,id74,15,S,NA,NA,NA
 KPBNaTzQ8rxDECjgD,game28,498,501,That's okay. You're the guesser now and you're the teller.,R,15,NA,NA,NA,NA
@@ -611,7 +1889,7 @@ n2qx434RYW8fxnEbP,game30,186.38,190.48,"Okay, so can you tell Smurphy and [id77]
 n2qx434RYW8fxnEbP,game30,190.48,192.48,"The- the apple's, the- the apple's, the- the box.",id76,0,S,NA,the apple,Y
 n2qx434RYW8fxnEbP,game30,192.48,196.8,So you're going to help Smurphy guess which picture has the box.,R,0,NA,NA,NA,NA
 n2qx434RYW8fxnEbP,game30,196.8,199.2,And can you tell her which one has the box?,R,0,NA,NA,NA,NA
-n2qx434RYW8fxnEbP,game30,199.2,201.44,The apple has the box.,id76,0,S,NA,the apple,Y
+n2qx434RYW8fxnEbP,game30,199.2,201.44,The apple has the box.,id76,0,S,NA,NA,Y
 n2qx434RYW8fxnEbP,game30,201.44,203.2,Can you touch which one has the box?,R,0,NA,NA,NA,NA
 n2qx434RYW8fxnEbP,game30,205.04,205.44,Yay!,T,0,NA,NA,NA,NA
 n2qx434RYW8fxnEbP,game30,205.44,206.4,Good job!,R,0,NA,NA,NA,NA
@@ -732,7 +2010,7 @@ n2qx434RYW8fxnEbP,game30,584.2,585.2,Yay!,T,17,NA,NA,NA,NA
 n2qx434RYW8fxnEbP,game30,585.2,590.4,"Yay! Good job! Okay, now you're the guesser and you're the teller.",R,17,NA,NA,NA,NA
 n2qx434RYW8fxnEbP,game30,592.48,594.64,The ship is having the box.,id76,18,S,NA,the ship,Y
 n2qx434RYW8fxnEbP,game30,595.84,601.36,"Woo! Good job! Okay, now you're the guesser, [id76], and you're the teller, [id77].",R,18,NA,NA,NA,NA
-n2qx434RYW8fxnEbP,game30,601.84,604.72,Um the one that's jumping and has the square.,id77,19,S,NA,the one that’s jumping and has the square,Y
+n2qx434RYW8fxnEbP,game30,601.84,604.72,Um the one that's jumping and has the square.,id77,19,S,NA,the one that’s jumping,Y
 n2qx434RYW8fxnEbP,game30,608.88,613.04,"Yay! Okay, now you're the guesser.",R,19,NA,NA,NA,NA
 n2qx434RYW8fxnEbP,game30,613.04,622.88,"Oh my goodness, good job. Give me high fives. You guys finished. Yay! Okay, I'm going to turn off the camera really quick. Thank you guys so much. That was so good.",R,19,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,0,6,"Okay, now you guys are on camera and we're going to play a fun matching game to help my friend Smurphy.",R,NA,NA,NA,NA,NA
@@ -786,7 +2064,7 @@ XA9YvXhM83Tack4qy,game32,169.46,171.6,Now [id80]'s going to tell us what's in th
 XA9YvXhM83Tack4qy,game32,171.92,172.38,A house.,id80,2,S,NA,a house,Y
 XA9YvXhM83Tack4qy,game32,174.26,178.28,"And then [id81], whatever you think is in the black box, you're going to help Smurphy guess.",R,2,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,179.42,182.02,"[id80], can you say that one more time so [id81] can do that?",R,2,NA,NA,NA,NA
-XA9YvXhM83Tack4qy,game32,179.42,182.02,A house.,id80,2,S,NA,a house,Y
+XA9YvXhM83Tack4qy,game32,179.42,182.02,A house.,id80,2,S,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,183.4,185.54,So touch the one that you think is the right one.,R,2,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,186.84,187.22,Yay!,T,2,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,187.22,187.42,Yay!,R,2,NA,NA,NA,NA
@@ -823,14 +2101,14 @@ XA9YvXhM83Tack4qy,game32,258.02,261.02,Now it's [id81]'s turn.,R,6,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,261.02,262.02,Mm-hmm.,id81,7,S,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,262.02,263.02,A human.,id81,7,S,NA,a human,Y
 XA9YvXhM83Tack4qy,game32,264.02,276.02,Can you tell [id80] a little more about what's in the black box?,R,7,NA,NA,NA,NA
-XA9YvXhM83Tack4qy,game32,276.02,278.02,A human.,id81,7,S,NA,a human,Y
+XA9YvXhM83Tack4qy,game32,276.02,278.02,A human.,id81,7,S,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,278.02,281.02,Make your best guess.,R,7,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,281.02,284.02,What do you think [id81] has in her black box?,R,7,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,287.02,289.02,"[id81], what does it look like?",R,7,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,289.02,294.02,Airplane.,id80,7,L,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,298.02,301.02,"What do you, what does [id81] have in her black box?",R,7,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,301.02,305.02,"Tell [id80], tell [id80] what you see.",R,7,NA,NA,NA,NA
-XA9YvXhM83Tack4qy,game32,301.02,305.02,A human.,id81,7,S,NA,a human,Y
+XA9YvXhM83Tack4qy,game32,301.02,305.02,A human.,id81,7,S,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,305.02,309.02,"Hey [id80], make your best guess.",R,7,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,309.02,310.02,A human.,id80,7,L,NA,a human,Y
 XA9YvXhM83Tack4qy,game32,310.02,313.02,"If you think it's human, then tap it.",R,7,NA,Y,NA,NA
@@ -875,10 +2153,10 @@ XA9YvXhM83Tack4qy,game32,409.62,413.62,"Oh, and I'm a old man.",id80,14,S,NA,a o
 XA9YvXhM83Tack4qy,game32,413.62,414.62,Listen to [id80].,R,14,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,414.62,418.62,[id80]'s tell you what she sees in a black box.,R,14,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,418.62,419.62,"Tell us, [id80].",R,14,NA,NA,NA,NA
-XA9YvXhM83Tack4qy,game32,418.62,419.62,Old man.,id80,14,S,NA,old man,Y
+XA9YvXhM83Tack4qy,game32,418.62,419.62,Old man.,id80,14,S,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,419.62,421.62,"Did you hear that, [id81]?",R,14,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,421.62,424.62,"[id80], can you say it one more time?",R,14,NA,NA,NA,NA
-XA9YvXhM83Tack4qy,game32,424.62,425.62,A old man.,id80,14,S,NA,a old man,Y
+XA9YvXhM83Tack4qy,game32,424.62,425.62,A old man.,id80,14,S,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,425.62,428.62,"Okay, now you're going to have to guess.",R,14,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,428.62,429.62,Yay!,T,14,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,429.62,431.62,Good job!,R,14,NA,NA,NA,NA
@@ -890,16 +2168,16 @@ XA9YvXhM83Tack4qy,game32,439.62,441.62,[id80]'s gonna help Smurfigas and [id81]'
 XA9YvXhM83Tack4qy,game32,441.62,443.62,Go ahead [id81].,R,15,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,443.62,445.62,"Uh, uh, a human.",id81,15,S,NA,a human,Y
 XA9YvXhM83Tack4qy,game32,445.62,448.62,"Tell [id80], don't tell me.",R,15,NA,NA,NA,NA
-XA9YvXhM83Tack4qy,game32,448.62,450.62,A human.,id81,15,S,NA,a human,Y
+XA9YvXhM83Tack4qy,game32,448.62,450.62,A human.,id81,15,S,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,450.62,452.62,"Let's not play with that, okay?",R,15,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,452.62,455.62,Let's tell [id80] what you see.,R,15,NA,NA,NA,NA
-XA9YvXhM83Tack4qy,game32,455.62,456.62,A human.,id81,15,S,NA,a human,Y
+XA9YvXhM83Tack4qy,game32,455.62,456.62,A human.,id81,15,S,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,456.62,460.62,Guess what you think [id81] has in her black box?,R,15,NA,NA,NA,NA
-XA9YvXhM83Tack4qy,game32,460.62,461.62,A human.,id80,15,L,NA,a human,Y
+XA9YvXhM83Tack4qy,game32,460.62,461.62,A human.,id80,15,L,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,461.62,464.62,Touch on the one that you think it is.,R,15,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,464.62,468.62,That's okay.,R,15,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,468.62,473.62,Let's keep using our words.,R,15,NA,NA,NA,NA
-XA9YvXhM83Tack4qy,game32,468.62,473.62,A human.,id81,15,S,NA,a human,Y
+XA9YvXhM83Tack4qy,game32,468.62,473.62,A human.,id81,15,S,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,473.62,478.62,"[id80], tell us what you have in your black box.",R,16,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,473.62,478.62,Umm... airplane,id80,16,S,NA,airplane,Y
 XA9YvXhM83Tack4qy,game32,478.62,483.62,"[id81], guess what [id80] has in her black box?",R,16,NA,NA,NA,NA
@@ -914,12 +2192,12 @@ XA9YvXhM83Tack4qy,game32,504.62,509.62,A man.,id81,18,L,NA,a man,Y
 XA9YvXhM83Tack4qy,game32,509.62,512.62,"[id80] has a black box, so [id80]'s telling you what she sees.",R,18,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,512.62,513.62,And now you're going to touch the one that you think she has.,R,18,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,514.86,517.3,So tell us what's in your black box.,R,18,NA,NA,NA,NA
-XA9YvXhM83Tack4qy,game32,517.3,518.3,A human.,id80,18,S,NA,a human,Y
+XA9YvXhM83Tack4qy,game32,517.3,518.3,A human.,id80,18,S,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,518.3,522.5,Good job.,R,18,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,525.46,528.06,"Okay, now [id81], tell us what's in your black box.",R,18,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,528.06,530.06,A human.,id81,19,S,NA,a human,Y
 XA9YvXhM83Tack4qy,game32,530.06,532.56,What's in your black box?,R,19,NA,NA,NA,NA
-XA9YvXhM83Tack4qy,game32,530.06,532.56,A human.,id81,19,S,NA,a human,Y
+XA9YvXhM83Tack4qy,game32,530.06,532.56,A human.,id81,19,S,NA,NA,Y
 XA9YvXhM83Tack4qy,game32,532.56,536.92,"Okay, [id80] now helps Murphy and touch it.",R,19,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,536.92,538.38,"With your hand, touch it with your hand",R,19,NA,NA,NA,NA
 XA9YvXhM83Tack4qy,game32,538.38,540.22,and helps Murphy guess.,R,19,NA,NA,NA,NA
@@ -1086,7 +2364,7 @@ uidAFavaAGAqJ8HYY,game34,391.62,392.84,I said a goose.,id85,3,S,NA,NA,Y
 uidAFavaAGAqJ8HYY,game34,392.96,393.24,Yeah.,R,3,NA,NA,NA,NA
 uidAFavaAGAqJ8HYY,game34,395.1,396.18,What is this called?,id84,4,S,NA,NA,Y
 uidAFavaAGAqJ8HYY,game34,397.16,398.66,Tell us what you think it is.,R,4,NA,NA,NA,NA
-uidAFavaAGAqJ8HYY,game34,399.46,400.1,A person.,id84,4,S,NA,a person,Y
+uidAFavaAGAqJ8HYY,game34,399.46,400.1,A person.,id84,4,S,NA,NA,Y
 uidAFavaAGAqJ8HYY,game34,405.42,406.98,Can you tell us a little bit more?,R,4,NA,NA,NA,NA
 uidAFavaAGAqJ8HYY,game34,407.84,409.2,A person holding.,id84,4,S,NA,a person holding a flute,Y
 uidAFavaAGAqJ8HYY,game34,409.2,411.2,Holding a flute.,id84,4,S,NA,NA,Y
@@ -1133,7 +2411,7 @@ uidAFavaAGAqJ8HYY,game34,529.18,531.18,Now [id85]'s turn to tell us...,R,12,NA,N
 uidAFavaAGAqJ8HYY,game34,531.18,532.18,Somebody falling.,id85,13,S,NA,somebody falling,Y
 uidAFavaAGAqJ8HYY,game34,532.18,534.18,Walking?,id84,13,L,NA,NA,Y
 uidAFavaAGAqJ8HYY,game34,534.18,537.18,"Can you say that again, [id85]?",R,13,NA,NA,NA,NA
-uidAFavaAGAqJ8HYY,game34,537.18,539.18,Somebody falling.,id85,13,S,NA,somebody falling,Y
+uidAFavaAGAqJ8HYY,game34,537.18,539.18,Somebody falling.,id85,13,S,NA,NA,Y
 uidAFavaAGAqJ8HYY,game34,539.18,540.18,This guy.,id84,13,L,NA,NA,NA
 uidAFavaAGAqJ8HYY,game34,540.18,543.18,Try to touch it with your finger.,R,13,NA,NA,NA,NA
 uidAFavaAGAqJ8HYY,game34,543.18,544.18,Here you go.,R,13,NA,NA,NA,NA
@@ -1155,7 +2433,7 @@ uidAFavaAGAqJ8HYY,game34,577.18,579.18,"Okay, keep switching.",R,15,NA,NA,NA,NA
 uidAFavaAGAqJ8HYY,game34,579.18,582.18,I see a person flying.,id84,16,S,NA,a person flying,Y
 uidAFavaAGAqJ8HYY,game34,582.18,587.68,Touch the one you think it is.,R,16,NA,NA,NA,NA
 uidAFavaAGAqJ8HYY,game34,587.68,590.18,"[id84], can you say what you see again?",R,16,NA,NA,NA,NA
-uidAFavaAGAqJ8HYY,game34,590.18,592.18,A person flying.,id84,16,S,NA,a person flying,Y
+uidAFavaAGAqJ8HYY,game34,590.18,592.18,A person flying.,id84,16,S,NA,NA,Y
 uidAFavaAGAqJ8HYY,game34,592.18,594.18,Yay!,T,16,NA,NA,NA,NA
 uidAFavaAGAqJ8HYY,game34,594.18,596.18,Good job!,R,16,NA,NA,NA,NA
 uidAFavaAGAqJ8HYY,game34,596.18,600.18,"Okay, now [id84]'s gonna guess and [id85]'s gonna tell.",R,16,NA,NA,NA,NA
@@ -1320,7 +2598,7 @@ XHYAxKnSNRMEbigrq,game38,280.46,283.46,Jumping.,id91,8,S,NA,jumping,Y
 XHYAxKnSNRMEbigrq,game38,280.46,283.46,Jumping?,id90,8,L,NA,NA,Y
 XHYAxKnSNRMEbigrq,game38,283.46,290.96,yay good job okay this is easy good job you're gonna be the guesser [id91] and you're the,R,8,NA,NA,NA,NA
 XHYAxKnSNRMEbigrq,game38,290.96,291.96,"teller, [id90].",R,8,NA,NA,NA,NA
-XHYAxKnSNRMEbigrq,game38,291.96,292.96,Human.,id90,9,S,NA,human,Y
+XHYAxKnSNRMEbigrq,game38,291.96,292.96,Human.,id90,9,S,NA,NA,Y
 XHYAxKnSNRMEbigrq,game38,292.96,293.96,Standing human.,id90,9,S,NA,standing human,Y
 XHYAxKnSNRMEbigrq,game38,293.96,294.96,Yay!,T,9,NA,NA,NA,NA
 XHYAxKnSNRMEbigrq,game38,294.96,295.96,Yay!,R,9,NA,NA,NA,NA
@@ -1656,7 +2934,7 @@ Qx7HLhhMwYRCosRyX,game42,257.46,264.78,now you're gonna switch now you're gonna 
 Qx7HLhhMwYRCosRyX,game42,257.46,264.78,umm a duck,id86,3,S,NA,a duck,Y
 Qx7HLhhMwYRCosRyX,game42,264.78,269.32,oh listen to what [id86] is saying I can don't touch don't don't,R,3,NA,NA,NA,NA
 Qx7HLhhMwYRCosRyX,game42,269.32,270.66,tap until you listen first.,R,3,NA,NA,NA,NA
-Qx7HLhhMwYRCosRyX,game42,271.16,272.8,duck,id86,3,S,NA,duck,Y
+Qx7HLhhMwYRCosRyX,game42,271.16,272.8,duck,id86,3,S,NA,NA,Y
 Qx7HLhhMwYRCosRyX,game42,271.16,272.8,Do you hear him?,R,3,NA,NA,NA,NA
 Qx7HLhhMwYRCosRyX,game42,273.64,275.16,"Okay, tap what you think it is.",R,3,NA,NA,NA,NA
 Qx7HLhhMwYRCosRyX,game42,278.52,280.4,"Just tap, like that.",R,3,NA,NA,NA,NA
@@ -1707,10 +2985,10 @@ Qx7HLhhMwYRCosRyX,game42,369.08,370.28,A snow skater!,id87,6,S,NA,NA,Y
 Qx7HLhhMwYRCosRyX,game42,371.48,372.68,There you go!,R,6,NA,NA,NA,NA
 Qx7HLhhMwYRCosRyX,game42,373,374.16,"Okay, now you're going to switch.",R,6,NA,NA,NA,NA
 Qx7HLhhMwYRCosRyX,game42,374.56,378.44,"Now [id87]'s going to hold Smurphy and Guess, and [id86], you're going to tell us what's in the black box.",R,6,NA,NA,NA,NA
-Qx7HLhhMwYRCosRyX,game42,378.44,380.16,I got to a diamond.,id86,7,S,NA,a diamond,Y
+Qx7HLhhMwYRCosRyX,game42,378.44,380.16,I got to a diamond.,id86,7,S,NA,NA,Y
 Qx7HLhhMwYRCosRyX,game42,381.08,383.4,A human carrying a diamond.,id86,7,S,NA,a human carrying a diamond,Y
 Qx7HLhhMwYRCosRyX,game42,383.4,384.4,Ooh.,R,7,NA,NA,NA,NA
-Qx7HLhhMwYRCosRyX,game42,384.4,386.4,A human,id87,7,L,NA,a human,Y
+Qx7HLhhMwYRCosRyX,game42,384.4,386.4,A human,id87,7,L,NA,NA,Y
 Qx7HLhhMwYRCosRyX,game42,386.4,389.4,"No, this will be the body.",id87,7,L,NA,NA,Y
 Qx7HLhhMwYRCosRyX,game42,389.4,394.4,"Well, you're, [id86] is telling you what he sees in the black box and you're going to guess which one you think it is.",R,7,NA,NA,NA,NA
 Qx7HLhhMwYRCosRyX,game42,394.4,395.4,This one.,id87,7,L,NA,NA,Y
@@ -1953,7 +3231,7 @@ EaHFpvRKrAeZqnBz6,game43,354.4,358.8,"Okay. What does it look like, [id88]?",R,5
 EaHFpvRKrAeZqnBz6,game43,358.8,362.88,This.,id88,5,S,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,358.8,362.88,What does it look like? Does it look like something?,R,5,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,362.88,365.04,Yeah. Tell us what it looks like.,R,5,NA,NA,NA,NA
-EaHFpvRKrAeZqnBz6,game43,365.04,372.04,"Look like something, a lock, and then a triangle and then a square, and then...",id88,5,S,NA,"something, a lock, and then a triangle and then a square",Y
+EaHFpvRKrAeZqnBz6,game43,365.04,372.04,"Look like something, a lock, and then a triangle and then a square, and then...",id88,5,S,NA,"something, a lock,",Y
 EaHFpvRKrAeZqnBz6,game43,372.04,373.04,Okay.,R,5,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,373.04,375.04,"[id89], make your best guess.",R,5,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,375.04,377.04,Which one do you think it is?,R,5,NA,NA,NA,NA
@@ -1965,7 +3243,7 @@ EaHFpvRKrAeZqnBz6,game43,384.04,387.04,We're going to go to the next round.,R,5,
 EaHFpvRKrAeZqnBz6,game43,387.04,390.04,"Okay, now [id89], tell us what you think that is.",R,5,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,390.04,392.04,Is...,id89,6,S,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,392.04,396.04,Is hoppy?,id89,6,S,NA,hoppy,Y
-EaHFpvRKrAeZqnBz6,game43,396.04,399.04,It's jump?,id89,6,S,NA,jump,Y
+EaHFpvRKrAeZqnBz6,game43,396.04,399.04,It's jump?,id89,6,S,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,399.04,403.04,"Oh, tell us what you see in the black box?",R,6,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,403.04,406.04,Someone is jumping or walking.,id88,6,L,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,406.04,411.04,"Say that again, [id88].",R,6,NA,NA,NA,NA
@@ -1995,7 +3273,7 @@ EaHFpvRKrAeZqnBz6,game43,464.04,466.04,Jumping or,id88,8,L,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,466.04,468.04,What's how?,id88,8,L,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,468.04,471.04,"Which one is it, [id89]?",R,8,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,471.04,474.04,Tell us what's in the black box.,R,8,NA,NA,NA,NA
-EaHFpvRKrAeZqnBz6,game43,474.04,476.04,Hoppy.,id89,8,S,NA,hoppy,Y
+EaHFpvRKrAeZqnBz6,game43,474.04,476.04,Hoppy.,id89,8,S,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,476.04,477.04,Okay.,R,8,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,477.04,479.04,What's hobby?,id88,8,L,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,479.04,480.04,Jump.,id89,8,S,NA,jump,Y
@@ -2044,12 +3322,12 @@ EaHFpvRKrAeZqnBz6,game43,588.8,590.8,Hopping.,id89,12,S,NA,hopping,Y
 EaHFpvRKrAeZqnBz6,game43,590.8,595.8,Hopping or...,id88,12,L,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,595.8,597.8,What side is this one?,id88,12,L,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,597.8,600.8,"[id89], tell him what's in the black box?",R,12,NA,NA,NA,NA
-EaHFpvRKrAeZqnBz6,game43,600.8,602.8,Hopping.,id89,12,S,NA,hopping,Y
+EaHFpvRKrAeZqnBz6,game43,600.8,602.8,Hopping.,id89,12,S,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,602.8,604.8,Hopping?,id88,12,L,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,604.8,606.8,Hopping or...,id88,12,L,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,606.8,608.8,Hopping or haloping?,id88,12,L,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,608.8,610.8,Hopping or halloping?,id88,12,L,NA,NA,Y
-EaHFpvRKrAeZqnBz6,game43,610.8,611.8,Hopping.,id89,12,S,NA,hopping,Y
+EaHFpvRKrAeZqnBz6,game43,610.8,611.8,Hopping.,id89,12,S,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,611.8,614.8,"[id88], can you tell [id89] what you see?",R,12,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,614.8,615.8,Oh!,R,12,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,615.8,617.8,Good job!,R,12,NA,NA,NA,NA
@@ -2085,7 +3363,7 @@ EaHFpvRKrAeZqnBz6,game43,696.8,698.8,"Uh, walking.",id89,16,S,NA,walking,Y
 EaHFpvRKrAeZqnBz6,game43,698.8,700.8,This one?,id88,16,L,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,700.8,703.8,Good job!,R,16,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,703.8,706.8,You're almost there.,R,16,NA,NA,NA,NA
-EaHFpvRKrAeZqnBz6,game43,706.8,710.8,It's the one that is showing his hands.,id88,17,S,NA,the one that is showing his hands,Y
+EaHFpvRKrAeZqnBz6,game43,706.8,710.8,It's the one that is showing his hands.,id88,17,S,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,710.8,711.8,"[id89], did you hear [id88]?",R,17,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,713.8,715.8,"Uh, Hindi.",id89,17,L,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,715.8,717.8,"Say it again, [id88].",R,17,NA,NA,NA,NA
@@ -2094,7 +3372,7 @@ EaHFpvRKrAeZqnBz6,game43,720.8,721.8,Okay.,id89,17,L,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,721.8,724.8,Can I touch it.,id89,17,L,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,724.8,726.8,Touch the one that you think it is.,R,17,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,726.8,729.8,"[id88], say what you, say what you said again?",R,17,NA,NA,NA,NA
-EaHFpvRKrAeZqnBz6,game43,729.8,732.8,It's someone that is showing his hands.,id88,17,S,NA,someone that is showing his hands,Y
+EaHFpvRKrAeZqnBz6,game43,729.8,732.8,It's someone that is showing his hands.,id88,17,S,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,732.8,734.8,Okay.,R,17,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,734.8,736.8,Touch the one that you think it is.,R,17,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,736.8,738.8,There you go.,R,17,NA,NA,NA,NA
@@ -2116,11 +3394,11 @@ EaHFpvRKrAeZqnBz6,game43,767.8,769.8,"Good job, [id89].",R,18,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,769.8,770.3,Okay.,R,18,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,770.3,771.18,We're almost there.,R,18,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,771.7,773.48,"Now, [id88], tell us what's in the black box.",R,18,NA,NA,NA,NA
-EaHFpvRKrAeZqnBz6,game43,774.26,778.34,"It's a rectangle and then a triangle, and then a square",id88,19,S,NA,"a rectangle and then a triangle, and then a square and then the rectangle then a triangle and then, and then a triangle",Y
-EaHFpvRKrAeZqnBz6,game43,778.82,780.82,and then the rectangle.,id88,19,S,NA,NA,Y
+EaHFpvRKrAeZqnBz6,game43,774.26,778.34,"It's a rectangle and then a triangle, and then a square",id88,19,S,NA,"a rectangle and then a triangle, and then a square",Y
+EaHFpvRKrAeZqnBz6,game43,778.82,780.82,and then the rectangle.,id88,19,S,NA,and then the rectangle,Y
 EaHFpvRKrAeZqnBz6,game43,781.64,781.7,And then...and then,id88,19,S,NA,NA,Y
 EaHFpvRKrAeZqnBz6,game43,781.7,784.88,Tell us Murphy which one you think it is.,R,19,NA,NA,NA,NA
-EaHFpvRKrAeZqnBz6,game43,785.52,788.56,"Then a triangle and then, and then a triangle.",id88,19,S,NA,NA,Y
+EaHFpvRKrAeZqnBz6,game43,785.52,788.56,"Then a triangle and then, and then a triangle.",id88,19,S,NA,and then a triangle and then a triangle,Y
 EaHFpvRKrAeZqnBz6,game43,788.84,789.06,Okay.,R,19,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,789.14,790.08,"You're the guesser, [id89].",R,19,NA,NA,NA,NA
 EaHFpvRKrAeZqnBz6,game43,790.46,792.22,So you're going to touch the one that you think it is.,R,19,NA,NA,NA,NA
@@ -2250,7 +3528,7 @@ pxT5YubmAaAEgd9T9,game44,347.64,348.64,I'm winning!,R,5,NA,NA,NA,NA
 pxT5YubmAaAEgd9T9,game44,348.64,351.64,"You're gonna be the guesser, [id94]t, and you're the teller, [id95].",R,5,NA,NA,NA,NA
 pxT5YubmAaAEgd9T9,game44,351.64,353.64,So tell her what you see in the box.,R,5,NA,NA,NA,NA
 pxT5YubmAaAEgd9T9,game44,353.64,356.64,Looks like people or something?,id95,6,S,NA,NA,Y
-pxT5YubmAaAEgd9T9,game44,358.64,360.64,It looks like a people or something.,id95,6,S,NA,a people or something,Y
+pxT5YubmAaAEgd9T9,game44,358.64,360.64,It looks like a people or something.,id95,6,S,NA,NA,Y
 pxT5YubmAaAEgd9T9,game44,360.64,362.64,What does it look like?,id94,6,L,NA,NA,Y
 pxT5YubmAaAEgd9T9,game44,362.64,364.64,I won't tell you.,id95,6,S,NA,NA,Y
 pxT5YubmAaAEgd9T9,game44,364.64,365.64,Just describe it.,R,6,NA,NA,NA,NA
@@ -2320,7 +3598,7 @@ pxT5YubmAaAEgd9T9,game44,546.5,550.5,It's something that kind of looks like it's
 pxT5YubmAaAEgd9T9,game44,550.5,552.5,Are you coming every day?,id95,13,L,NA,NA,NA
 pxT5YubmAaAEgd9T9,game44,552.5,553.5,Every Friday.,R,13,NA,NA,NA,NA
 pxT5YubmAaAEgd9T9,game44,553.5,555.5,It's something it's like flying.,id94,13,S,NA,NA,Y
-pxT5YubmAaAEgd9T9,game44,555.5,558.5,flying and it's jumping.,id94,13,S,NA,flying and it's jumping,Y
+pxT5YubmAaAEgd9T9,game44,555.5,558.5,flying and it's jumping.,id94,13,S,NA,and it's jumping,Y
 pxT5YubmAaAEgd9T9,game44,558.5,562.5,"Woo, good job!",R,13,NA,NA,NA,NA
 pxT5YubmAaAEgd9T9,game44,562.5,563.5,Good job!,R,13,NA,NA,NA,NA
 pxT5YubmAaAEgd9T9,game44,563.5,566.5,"Okay, now you're the guesser [id94] and you're the teller.",R,13,NA,NA,NA,NA
@@ -2584,7 +3862,7 @@ iRoAhttnXMgZ4Fw3x,game49,194.86,197.86,Okay touch the one that you think it is.,
 iRoAhttnXMgZ4Fw3x,game49,197.86,200.86,Good job!,R,3,NA,NA,NA,NA
 iRoAhttnXMgZ4Fw3x,game49,200.86,202.86,And now you're going to switch.,R,3,NA,NA,NA,NA
 iRoAhttnXMgZ4Fw3x,game49,202.86,206.86,"And now [id98], what's in your black box? What does it look like?",R,3,NA,NA,NA,NA
-iRoAhttnXMgZ4Fw3x,game49,206.86,208.86,A person.,id98,4,S,NA,a person,Y
+iRoAhttnXMgZ4Fw3x,game49,206.86,208.86,A person.,id98,4,S,NA,NA,Y
 iRoAhttnXMgZ4Fw3x,game49,208.86,216.86,The walking person or the standing person that's holding something?,id99,4,L,NA,NA,Y
 iRoAhttnXMgZ4Fw3x,game49,216.86,219.86,The walking person.,id98,4,S,NA,the walking person,Y
 iRoAhttnXMgZ4Fw3x,game49,219.86,222.86,There you go.,R,4,NA,NA,NA,NA
@@ -2759,7 +4037,204 @@ iRoAhttnXMgZ4Fw3x,game49,622.96,626.96,You guys finished the game!,R,19,NA,NA,NA
 iRoAhttnXMgZ4Fw3x,game49,626.96,629.96,Thank you so much for playing with me!,R,19,NA,NA,NA,NA
 iRoAhttnXMgZ4Fw3x,game49,629.96,632.96,Is it out of the battery?,id98,19,L,NA,NA,NA
 iRoAhttnXMgZ4Fw3x,game49,632.96,634.96,"No, you finish the game!",R,19,NA,NA,NA,NA
-Wm4AvWkcFEBQdeXkF,game59,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,NA,NA,"[note: there was a technical issue, so this pair started playing the game and then had to start over a few pairs in – this is post starting over]",R,NA,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,710.88,713.76,We're kind of gonna have to start over a little bit.,R,NA,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,713.76,715.68,"So you're gonna see the easy ones again first,",R,NA,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,717.52,719.04,but then we'll pick up where we left off.,R,NA,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,719.04,721.12,"Okay, so press the blue button again.",R,0,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,723.92,724.96,"Oh, you have black box.",R,0,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,727.04,728.64,"Tell her,  what do you see?",R,0,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,729.6,731.44,A banana.,id106,0,S,NA,a banana,Y
+Wm4AvWkcFEBQdeXkF,game59,736.48,736.88,Awesome.,R,0,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,736.88,737.92,"Oh, I forgot to turn the blue.",R,1,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,741.52,743.04,"What do you see in the black box, [id107]?",R,1,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,744.56,745.92,An eagle.,id107,1,S,NA,an eagle,Y
+Wm4AvWkcFEBQdeXkF,game59,745.92,746.48,See an eagle?,R,1,NA,Y,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,752.08,754.96,Why don't you help Murphy press which one you think it is?,R,1,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,756.8,760,"Oh, you're a dog.",id106,1,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,760,762.48,I have to press the dog.,id106,1,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,764,765.12,Do you think you should press the dog?,R,1,NA,Y,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,767.44,768.32,What do you think you should press?,R,1,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,770.72,771.6,The eagle.,id107,1,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,773.36,774.24,I don't see it.,id106,1,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,776.08,777.04,Which one do you think it is?,R,1,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,779.04,781.44,I don't know which one it is now.,id106,1,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,781.44,784.24,"Oh, he doesn't know that I have to show him that.",id107,1,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,784.24,786.08,You can't show him you have to tell him with your words.,R,1,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,789.6,790.64,[id107] said it was an eagle.,R,1,NA,Y,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,790.64,792.08,Which one do you think is the eagle?,R,1,NA,Y,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,792.64,793.28,This one.,id106,1,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,793.92,794.64,Try pressing it.,R,1,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,796.48,796.96,Good job.,R,1,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,797.76,799.44,"Let's give [id107], Murphy.",R,2,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,799.44,800.48,It said yes.,id106,2,S,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,802.32,803.36,"All right, what do you see in the box?",R,2,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,806.72,807.52,You're the teller now.,R,2,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,807.52,809.04,You got to tell [id107] what you see in the box.,R,2,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,809.92,815.84,I see a house in the box.,id106,2,S,NA,a house,Y
+Wm4AvWkcFEBQdeXkF,game59,818.08,818.8,Awesome job.,R,3,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,822.64,823.68,Which one is it?,id106,3,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,825.2,826.4,I'll try to see one of them.,id107,3,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,829.44,830.32,A duck girl.,id107,3,S,NA,a duck girl,Y
+Wm4AvWkcFEBQdeXkF,game59,832.56,833.28,What is it?,id106,3,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,NA,NA,Duck.,id107,3,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,835.76,837.44,"Oh, this is the duck.",id106,3,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,839.2,840,Try pressing it.,R,3,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,849.52,850.56,Which one is it?,id106,4,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,851.2,852.64,"Well, you have the black box now.",R,4,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,852.64,853.92,So you got to tell [id107] what you see.,R,4,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,854.96,862.56,I see some waves in the black box in the body.,id106,4,S,NA,some waves in the body,Y
+Wm4AvWkcFEBQdeXkF,game59,863.6,865.04,"Oh, what is this?",id106,4,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,866.16,866.56,I don't know.,R,4,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,866.56,868,You got to tell [id107] what you think it is.,R,4,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,869.04,879.92,"I think it's, I think it's, I think it's, I don't know what it is.",id106,4,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,879.92,880.72,Try your best.,R,4,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,882.8,884.8,I think it's a body.,id106,4,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,887.6,888.72,Which one do you think it may be?,R,4,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,894.08,894.56,That's okay.,R,5,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,894.56,895.6,We can try again next time.,R,5,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,899.92,900.8,"What do you see, [id107]?",R,5,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,902,903.04,I think it's a thing.,id107,5,S,NA,a thing,Y
+Wm4AvWkcFEBQdeXkF,game59,905.2,906,What is it?,id106,5,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,906.88,915.2,What if a person with a triangle head and a body and two feets?,id107,5,S,NA,a person with a triangle head and a body and two feets,Y
+Wm4AvWkcFEBQdeXkF,game59,918.88,922.08,I'm going to see if I have a sad face or a happy face.,id107,5,S,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,923.84,926.08,Why don't you try pressing which one you think it is?,R,5,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,926.08,930.64,That's okay.,R,6,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,930.64,931.28,We'll try again.,R,6,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,940.56,941.84,It's your turn to be the teller.,R,6,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,946,949.76,I can see a train in the box.,id106,6,S,NA,a train,Y
+Wm4AvWkcFEBQdeXkF,game59,951.76,952.56,Oh no,R,6,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,953.68,954.8,Maybe I'll fix it later.,R,6,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,956.08,957.2,Maybe the other one.,id107,6,L,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,957.2,959.28,"But for now, press the one that you think it might be.",R,6,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,966.08,966.48,That's okay.,R,7,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,970.16,970.88,What is it?,id106,7,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,977.28,983.76,"A rectangle head, a body, arms, and feet.",id107,7,S,NA,"a rectangle head, a body, arms, and feet",Y
+Wm4AvWkcFEBQdeXkF,game59,984.72,985.76,That's how it is.,id107,7,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,987.76,988.48,What is it?,id106,7,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,990.56,992.08,You got to listen to what [id107] is telling you.,R,7,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,996.08,996.96,What is this?,id106,7,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,997.68,999.28,Do you want to ask [id107] a question maybe?,R,7,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1001.6,1005.84,What is this on the right?,id106,7,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1005.84,1009.04,What is this one with arms?,id106,7,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1010.8,1011.84,I don't know.,id107,7,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1012.8,1014.64,I don't see it with the black box.,id107,7,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1018.16,1019.6,Why don't you take your best guess?,R,7,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1023.84,1024.64,I don't know.,id106,7,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1025.92,1028.48,You didn't have to tap one of them.,id107,7,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1030.48,1031.92,Two of them?,id106,7,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1031.92,1033.92,"[id107], why don't you tell them what you think you see again?",R,7,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1034.8,1043.68,"A rectangle head, two arms, a tummy, and feet.",id107,7,S,NA,"two arms, a tummy",Y
+Wm4AvWkcFEBQdeXkF,game59,1046.88,1048.08,Press which one do you think it is?,R,7,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1050.88,1052.16,I don't know which one.,id106,7,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1052.16,1052.88,Just guess.,R,7,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1052.88,1053.84,Take your best guess.,R,7,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1054.96,1057.12,I don't know which one it is.,id106,7,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1057.12,1058.32,"Well, I need you to press one.",R,7,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1059.28,1063.28,Good job.,R,8,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1066.4,1074.32,"I think it was the, it was, yes, I pressed the one.",id106,8,S,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1074.96,1076,"Yeah, you've got it right.",R,8,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1076,1077.84,What do you see in the black box now?,R,8,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1078.8,1079.84,A train.,id106,8,S,NA,a train,Y
+Wm4AvWkcFEBQdeXkF,game59,1081.36,1082.88,It's a train.,id106,8,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1082.88,1083.68,Good job.,R,9,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1088.32,1089.68,It's the same one again.,id107,9,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1090.56,1091.6,Try to explain it again.,R,9,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1092.64,1099.12,"A triangle head, a body, legs, and feet.",id107,9,S,NA,"a triangle head, a body, legs, and feet",Y
+Wm4AvWkcFEBQdeXkF,game59,1102.64,1103.76,It doesn't have hands.,id107,9,S,NA,it doesn’t have hands,Y
+Wm4AvWkcFEBQdeXkF,game59,1103.76,1105.12,It does not have hands.,id107,9,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1107.28,1108.88,"One is, no.",id106,9,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1109.84,1123.84,"His hands are on the side of, is on the other, so his hands are on the other side of the body.",id106,9,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1123.84,1126.08,That's why you cannot see them.,id106,9,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1127.2,1127.6,Maybe.,R,9,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1128.72,1130.32,Why don't you press it and see if you got it right?,R,9,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1133.44,1134.08,"Oh, that's okay.",R,10,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1136.96,1138.72,"Oh, I can, oh.",id106,10,S,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1139.12,1140.4,What is this?,id106,10,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1140.4,1142,I don't know what this is.,id106,10,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1142,1143.6,It was the same one on mine.,id107,10,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1144.16,1146.24,Why don't you try to tell [id107] what you see?,R,10,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1148,1150,I don't know what this is.,id106,10,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1150,1150.8,That's okay.,R,10,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1150.8,1151.6,Try to explain it.,R,10,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1152.48,1154.24,He has to say what I said.,id107,10,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1155.44,1155.92,Maybe.,R,10,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1156.72,1159.6,Or he can say different stuff.,id107,10,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1162.64,1164.4,Try to tell [id107] what you see in the black box.,R,10,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1165.2,1172.96,Some two legs and a rectangle head and a tummy.,id106,10,S,NA,some two legs and a rectangle head and a tummy,Y
+Wm4AvWkcFEBQdeXkF,game59,1178.88,1179.36,That's okay.,R,11,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1181.12,1182.64,"Oh, this is how.",id106,11,L,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1187.68,1189.12,Don't press anything yet until [id107].,R,11,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1189.76,1190.96,"Oh, all right.",R,12,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1190.96,1193.92,"We got to wait for [id107] to tell you what she sees, okay?",R,12,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1195.04,1197.12,Now let's give stuff to Smurphy to [id107].,R,12,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1198.32,1206.88,"Oh, someone removed the train from the box.",id106,12,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1207.6,1209.12,"Yeah, so what's in the box this time?",R,12,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1213.92,1216.4,"This one has a hole in the other one, does not.",id107,12,L,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1216.4,1220.08,"Yeah, I'm going to take Smurphy back to the lab and sew him up.",R,12,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1220.72,1221.68,I'll give him some stitches.,R,12,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1221.68,1222.48,Don't worry.,R,12,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1222.48,1222.88,Why?,R,12,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1222.88,1224.72,"Oh, you can put tape on him.",id107,12,L,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1224.72,1225.2,"Yeah, maybe.",R,12,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1225.2,1225.68,I'll try that.,R,12,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1226.56,1230.8,Why don't you try to guess what [id106] told you was in the black box?,R,12,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1232.16,1238.8,There was two legs and a tummy in the rectangle head.,id106,12,S,NA,two legs and a tummy in the rectangle head,Y
+Wm4AvWkcFEBQdeXkF,game59,1241.76,1242.32,Yay.,R,13,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1242.32,1242.8,Good job.,R,13,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1246,1248.16,"Oh, this one is hard.",id107,13,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1248.88,1261.36,"I'm going to add a rectangle head, a body, a body, a hand, and feet, and legs.",id107,13,S,NA,"rectangle head, a body, a hand, and feet, and legs.",Y
+Wm4AvWkcFEBQdeXkF,game59,1262.4,1262.88,Yes.,id106,13,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1264.24,1268.4,"Why is it, this one is hard.",id106,13,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1268.4,1269.44,Just take your best guess.,R,13,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1270.72,1272.4,Tap what's on you think it is.,id107,13,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1273.6,1274.08,Good job.,R,14,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1274.08,1280.64,"Um, I put this one in the, oh, this one's not hard.",id106,14,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1283.92,1285.68,Tell me what you see in the black box.,R,14,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1286.48,1298.64,"Um, um, um, well a sad person and no arms and two legs and a body and no arms and a square head.",id106,14,S,NA,a sad person and no arms and two legs and a body and a square head.,Y
+Wm4AvWkcFEBQdeXkF,game59,1302.16,1302.64,Good job.,R,15,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1304.8,1307.68,"Oh, this one's hard.",id107,15,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1308.72,1315.28,"It's, the person's, it's a bird and, and",id107,15,S,NA,"the person, it’s a bird",Y
+Wm4AvWkcFEBQdeXkF,game59,1315.84,1317.44,No no no This is a train.,id106,15,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1318.96,1321.44,It is a really fast train.,id106,15,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1322.08,1324.8,It's a train and it's super fast.,id107,15,S,NA,it’s a train and it’s super fast,Y
+Wm4AvWkcFEBQdeXkF,game59,1324.8,1327.44,And it goes really fast.,id106,15,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1327.44,1332.64,"And look, this is the coupling at the bottom and this is the coupling at the back.",id106,15,L,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1332.64,1335.2,"If that's the one you think it is, try to tap it.",R,15,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1338.88,1341.68,"Try to tap the one that you think it is, not the one you think it isn’t.",R,16,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1346.32,1348.48,Your turn to explain what you think is in the black box.,R,16,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1349.12,1360.4,"Um, there was, um, one leg, um, and, and one foot, um, and then, and then a rectangle.",id106,16,S,NA,one leg and one foot and then a rectangle,Y
+Wm4AvWkcFEBQdeXkF,game59,1361.36,1377.76,"Um, uh, hand and the, and in the rectangle, in the triangle hand, um, and, uh, in the, in the rectangle arm, in the rectangle feet and then he’s holding a rectangle magnet tile",id106,16,S,NA,"hand  and in the rectangle, in the triangle hand, n the rectangle arm, in the rectangle feet and then he’s holding a rectangle magnet tile",Y
+Wm4AvWkcFEBQdeXkF,game59,1387.2,1390.88,It's in the black.,id106,16,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1390.88,1392.88,Good job.,R,17,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1395.36,1397.36,This one's tricky.,id107,17,S,NA,NA,Y
+Wm4AvWkcFEBQdeXkF,game59,1400.08,1405.76,It has a rectangle head to a rectangle arm.,id107,17,S,NA,a rectangle head to a rectangle arm,Y
+Wm4AvWkcFEBQdeXkF,game59,1405.76,1409.2,"Oh, all right, plus this one and then it says yay.",id106,18,S,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1410.48,1412.56,"But he, he tapped it.",id107,18,L,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1412.56,1415.84,"He tapped it when, when I was not finished talking.",id107,18,L,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1415.84,1417.92,"Yeah, maybe let's wait for [id107] to finish talking.",R,18,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1417.92,1418.96,Okay.,R,18,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1418.96,1420.96,"No, he has to do it.",id107,18,L,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1422.24,1434.8,"Um, I can see, uh, I can see some two legs and then the person walking and then the, and then no arms and a body.",id106,18,S,NA,some two legs and then the person walking and then no arms and a body.,Y
+Wm4AvWkcFEBQdeXkF,game59,1435.6,1443.76,"Um, and a tummy and a square face and then he sits his face down",id106,18,S,NA,and a tummy and a square face and then he sits his face down,Y
+Wm4AvWkcFEBQdeXkF,game59,1444.4,1446.4,because he is sad.,id106,18,S,NA,because he is sad,Y
+Wm4AvWkcFEBQdeXkF,game59,1450.08,1452.08,Now I'll have to grill him again.,id107,19,S,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1458.56,1460.56,"It's like you got it right though, right?",R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1460.88,1462.88,What has done?,R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1464.88,1466.88,"Hmm, I'm not sure what it's doing though.",R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1467.44,1470.88,I'll have to ask teacher Bobby later.,R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1471.84,1473.84,Who's teacher Bobby?,id107,19,S,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1473.84,1475.84,He's my boss.,R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1479.84,1481.84,I don't know if you guys know.,R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1483.84,1486.88,"Oh, it's my turn to be the towel.",id106,19,L,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1486.88,1488.88,I want to see.,id107,19,S,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1488.88,1490.88,We'll try not to see.,R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1490.88,1494.88,"But that's okay because that was our last round anyway, which means that we're done.",R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1496,1498,So you guys did a good job.,R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1498,1500,Thank you for playing my game with me.,R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1500.16,1504.16,I know it got stuck again.,R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1504.16,1506.16,I'm not sure why it's doing that.,R,19,NA,NA,NA,NA
+Wm4AvWkcFEBQdeXkF,game59,1510.16,1514.16,"Anyway, thanks for playing with me.",R,19,NA,NA,NA,NA
 6NZ8uhHHsyQ9m8jRC,game60,0,1,The blue thing.,id109,NA,NA,NA,NA,NA
 6NZ8uhHHsyQ9m8jRC,game60,1,3,I'm going to explain.,R,NA,NA,NA,NA,NA
 6NZ8uhHHsyQ9m8jRC,game60,3,4,We're getting to it.,R,NA,NA,NA,NA,NA
@@ -2916,7 +4391,7 @@ Wm4AvWkcFEBQdeXkF,game59,NA,NA,NA,NA,NA,NA,NA,NA,NA
 6NZ8uhHHsyQ9m8jRC,game60,400.42,403.42,Oh no.,R,3,NA,NA,NA,NA
 6NZ8uhHHsyQ9m8jRC,game60,403.42,406.42,"So [id108] has the black box, so [id108] is the teller,",R,3,NA,NA,NA,NA
 6NZ8uhHHsyQ9m8jRC,game60,406.42,410.42,so she's going to help you guess which picture to choose.,R,3,NA,NA,NA,NA
-6NZ8uhHHsyQ9m8jRC,game60,410.42,414.42,I'm wondering. Maybe goose?,id108,3,S,NA,Maybe goose,Y
+6NZ8uhHHsyQ9m8jRC,game60,410.42,414.42,I'm wondering. Maybe goose?,id108,3,S,NA,goose,Y
 6NZ8uhHHsyQ9m8jRC,game60,414.42,416.42,This?,id109,3,L,NA,NA,Y
 6NZ8uhHHsyQ9m8jRC,game60,416.42,420.42,Awww,T,3,NA,NA,NA,NA
 6NZ8uhHHsyQ9m8jRC,game60,416.42,420.42,"Oh, that's okay.",R,3,NA,NA,NA,NA
@@ -3568,8 +5043,8 @@ WcEaqZRmgk5YCnxPZ,game64,497.34,499.34,"Do do, do, do.",id117,6,L,NA,NA,NA
 WcEaqZRmgk5YCnxPZ,game64,499.34,502.34,Here's one.,id117,6,L,NA,NA,NA
 WcEaqZRmgk5YCnxPZ,game64,502.34,503.34,Yes.,R,6,NA,NA,NA,NA
 WcEaqZRmgk5YCnxPZ,game64,504.34,507.34,Good job.,R,6,NA,NA,NA,NA
-WcEaqZRmgk5YCnxPZ,game64,507.34,508.34,Smurphy.,id117,6,S,NA,NA,NA
-WcEaqZRmgk5YCnxPZ,game64,508.34,509.34,[laughs],id117,6,S,NA,NA,NA
+WcEaqZRmgk5YCnxPZ,game64,507.34,508.34,Smurphy.,id117,6,L,NA,NA,NA
+WcEaqZRmgk5YCnxPZ,game64,508.34,509.34,[laughs],id117,6,L,NA,NA,NA
 WcEaqZRmgk5YCnxPZ,game64,509.34,510.34,What this?,id117,7,S,NA,NA,Y
 WcEaqZRmgk5YCnxPZ,game64,510.34,514.34,And this is walking feet.,id117,7,S,NA,walking feet,Y
 WcEaqZRmgk5YCnxPZ,game64,520.34,522.34,This is feet.,id117,7,S,NA,NA,Y
@@ -3578,7 +5053,7 @@ WcEaqZRmgk5YCnxPZ,game64,524.34,525.34,What?,id116,7,L,NA,NA,Y
 WcEaqZRmgk5YCnxPZ,game64,525.34,526.34,[laughs].,id117,7,S,NA,NA,NA
 WcEaqZRmgk5YCnxPZ,game64,526.34,530.34,Explain the photo that is in the black box.,R,7,NA,NA,NA,NA
 WcEaqZRmgk5YCnxPZ,game64,530.34,531.34,Okay.,R,7,NA,NA,NA,NA
-WcEaqZRmgk5YCnxPZ,game64,531.34,535.34,And then for the angel back box.,id117,7,L,NA,NA,Y
+WcEaqZRmgk5YCnxPZ,game64,531.34,535.34,And then for the angel back box.,id117,7,S,NA,NA,Y
 WcEaqZRmgk5YCnxPZ,game64,535.34,538.34,it's the it's the airplane.,id116,8,S,NA,the airplane,Y
 WcEaqZRmgk5YCnxPZ,game64,538.34,540.34,Let me check.,id117,8,L,NA,NA,Y
 WcEaqZRmgk5YCnxPZ,game64,540.34,543.34,This.,id117,8,L,NA,NA,Y
@@ -3621,11 +5096,11 @@ WcEaqZRmgk5YCnxPZ,game64,636.34,637.34,Yay!,T,11,NA,NA,NA,NA
 WcEaqZRmgk5YCnxPZ,game64,637.34,638.34,Good job.,R,11,NA,NA,NA,NA
 WcEaqZRmgk5YCnxPZ,game64,638.34,640.34,It's the person!,id116,12,S,NA,the person,Y
 WcEaqZRmgk5YCnxPZ,game64,640.34,643.34,"He, I did that.",id117,12,L,NA,NA,Y
-WcEaqZRmgk5YCnxPZ,game64,643.34,647.34,It's a person.,id116,12,S,NA,a person,Y
+WcEaqZRmgk5YCnxPZ,game64,643.34,647.34,It's a person.,id116,12,S,NA,NA,Y
 WcEaqZRmgk5YCnxPZ,game64,643.34,647.34,"no, you did it!",id117,12,L,NA,NA,Y
-WcEaqZRmgk5YCnxPZ,game64,647.34,650.34,It's a person in the box.,id116,12,S,NA,a person,Y
+WcEaqZRmgk5YCnxPZ,game64,647.34,650.34,It's a person in the box.,id116,12,S,NA,NA,Y
 WcEaqZRmgk5YCnxPZ,game64,650.34,652.34,Okay.,id117,12,L,NA,NA,Y
-WcEaqZRmgk5YCnxPZ,game64,652.34,655.34,The person.,id116,12,S,NA,the person,Y
+WcEaqZRmgk5YCnxPZ,game64,652.34,655.34,The person.,id116,12,S,NA,NA,Y
 WcEaqZRmgk5YCnxPZ,game64,655.34,657.34,Okay.,id117,12,L,NA,NA,NA
 WcEaqZRmgk5YCnxPZ,game64,657.34,659.34,So press the photo.,R,12,NA,NA,NA,NA
 WcEaqZRmgk5YCnxPZ,game64,659.34,660.34,This?,id117,12,L,NA,NA,NA
@@ -4160,9 +5635,9 @@ F35AwXNeMjhzbWkKq,game68,373.84,381.84,I see someone jumping in my box.,id124,10
 F35AwXNeMjhzbWkKq,game68,381.84,385.84,"Oh, I see that on mine",id123,10,L,NA,NA,Y
 F35AwXNeMjhzbWkKq,game68,385.84,387.84,Yay.,T,10,NA,NA,NA,NA
 F35AwXNeMjhzbWkKq,game68,387.84,388.84,Yay.,R,11,NA,NA,NA,NA
-F35AwXNeMjhzbWkKq,game68,389.84,399.84,"In my box, I see somebody with a square head on like a diamond thing, triangle thing.",id123,11,S,NA,Somebody with a square head on like a diamond or triangle thing,Y
+F35AwXNeMjhzbWkKq,game68,389.84,399.84,"In my box, I see somebody with a square head on like a diamond thing, triangle thing.",id123,11,S,NA,"Somebody with a square head on like a diamond thing, triangle thing",Y
 F35AwXNeMjhzbWkKq,game68,399.84,401.84,Yay,T,12,NA,NA,NA,NA
-F35AwXNeMjhzbWkKq,game68,402.84,420.84,I see someone holding a triangle that has a wick... a head,id124,12,S,NA,Someone holding a triangle thing that has a head,Y
+F35AwXNeMjhzbWkKq,game68,402.84,420.84,I see someone holding a triangle that has a wick... a head,id124,12,S,NA,"Someone holding a triangle that has a wick, a head",Y
 F35AwXNeMjhzbWkKq,game68,420.84,427.84,I see... like triangles with a square on top that looks like a boat.,id123,13,S,NA,Triangles with a square on top that looks like a boat,Y
 F35AwXNeMjhzbWkKq,game68,427.84,432.84,Nice! Great job.,R,14,NA,NA,NA,NA
 F35AwXNeMjhzbWkKq,game68,432.84,443.84,I see someone jumping in my box.,id124,14,S,NA,Someone jumping,Y
@@ -4391,7 +5866,166 @@ xwPovSuJgpqMFZruP,game69,597.06,599.06,"Yeah, that was it. Thank you so much for
 xwPovSuJgpqMFZruP,game69,599.06,601.06,So Smurphy's so happy. You helped him guess.,R,19,NA,NA,NA,NA
 xwPovSuJgpqMFZruP,game69,601.06,603.06,I'm giving smurphy a hug.,id125,19,S,NA,NA,NA
 xwPovSuJgpqMFZruP,game69,603.06,605.38,A little picture.,id126,19,L,NA,NA,NA
-xCb7R5sWCQw6TeLGA,game70,NA,NA,NA,NA,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,0,7,"Alright, now I'm on camera and if you ever want to leave the game room, just let me know, okay?",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,7,10,We only know now.,id128,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,10,15,"Alright, now today we're going to be playing a matching game.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,15,20,"But before that, we're going to practice touching our iPod to ping a game with popping bubbles.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,20,25,So you're going to tap the blue button on your screen and press all the bubbles.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,26,30,"No, the item that you popped is you want to pop all the bubbles.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,35,36,I win.,id128,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,36,37,Does it tap?,id128,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,37,39,You want to tap all those levels again too.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,42,43,That one's not that.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,49,50,You see this?,id128,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,50,51,Nice.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,51,53,"Okay, now you can tap those bubbles too [id127].",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,53,57,"Alright, now I'm just going to hold this until we get to the next part.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,58,61,"Oh wait, no, let's stay in our chair, [id128].",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,61,63,"Hey, I win you.",id127,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,63,64,"Okay, great.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,64,65,Great job popping the levels.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,65,66,I have the won.,id128,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,66,67,Okay.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,67,68,I win also.,id127,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,68,71,"Now, okay, now I'm going to explain the matching game.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,71,75,"So in this game, you're going to be helping Smurphy.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,75,76,This is Smurphy.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,76,77,"Do you want to say hi, Smurphy?",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,77,78,the ipad.,id128,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,78,80,"Oh, I'm going to flip back when it's time.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,81,82,Yeah.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,82,84,"So in the game, we're going to be helping Smurphy.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,84,85,This is Smurphy.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,85,86,Do you want to say hi?,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,86,87,Hi.,id128,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,87,88,Do you want to say hi to Smurphy?,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,88,89,"Hi, Smurphy.",id127,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,89,90,Great.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,90,95,"Now, on your screens, you're each going to see two pictures.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,95,98,"And for one of you, the picture will be inside of a black box.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,98,104,"It is Smurphy's job to guess which picture is inside of the black box, and he needs your help.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,104,108,"Now, if you have a picture inside of a black box, that means you're the teller.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,108,113,And it's your job to tell Smurphy what you see inside of the black box.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,113,116,It’s so dark.,id128,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,116,118,"Yeah, it's a matching game.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,118,121,"Now, if you don't have the black box, that means you're the guesser.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,121,125,"So you're holding Smurphy, and it's your job to help Smurphy guess.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,125,132,"When you think you know what the teller is telling you, you're going to tap what you guess it is on your screen.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,132,137,"Now, if you tap correctly and guess correctly, you'll get a smiley face.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,137,140,"But if you guess incorrectly, you'll get a sad face.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,140,144,"But that's okay, because you have many times to help Smurphy.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,144,150,"Now, again, if you get a black box, what role are you?",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,150,151,Teller.,id128,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,151,153,"Exactly, you're the teller.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,153,157,"And if you don't have a black box and you're holding Smurphy, what role are you?",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,NA,NA,this game is confusing,id127,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,157,160,"It's okay, we'll learn as we go.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,160,164,Then what are you if you don't have the black box?,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,164,166,I'm...,id128,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,166,170,"If you don't have the black box, then you're the guesser, and you're helping Smurphy guess.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,170,173,"Alright, now we're ready to play.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,173,176,So I'm going to take these.,R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,NA,NA,this is confusing.,id127,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,176,181,"And then, it's okay, we're going to learn as we go.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,181,185,"And now, you can press the blue button on your screen to start.",R,NA,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,185,187,"Alright, now who has the black box?",R,0,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,187,192,"Or, you can press two.",R,0,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,192,193,Who?,id128,0,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,193,197,"Alright, so you have the black box, you're the teller, and you're the guesser.",R,0,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,197,200,"So [id127], do you want to tell [id128] what you see inside the black box?",R,0,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,200,203,A banana.,id127,0,S,NA,a banana,Y
+xCb7R5sWCQw6TeLGA,game70,203,206,"Oh, you can type with your finger [id128].",R,0,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,206,208,"Great job, that means you guessed it correctly.",R,1,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,208,212,"And now we're going to trade, so now you tell [id127] what you see in the black box, [id128].",R,1,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,212,214,Dog.,id128,1,S,NA,dog,Y
+xCb7R5sWCQw6TeLGA,game70,214,218,So now you want to tap that to help Smurphy guess.,R,1,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,218,220,Great job.,R,2,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,220,223,Won again.,id128,2,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,223,226,Now who wants to tell [id128] what you see in the black box?,R,2,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,226,229,A boat with two flags.,id127,2,S,NA,a boat with two flags,Y
+xCb7R5sWCQw6TeLGA,game70,229,234,And a boat with two flags.,id128,2,L,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,234,238,And a boat with two flags.,id127,2,S,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,238,242,Great job.,R,3,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,242,249,"Now, I need to tell you, there's a tree.",id128,3,S,NA,a tree,Y
+xCb7R5sWCQw6TeLGA,game70,250,253,"Do you want to tap that, [id127]?",R,3,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,253,255,Tap that so you know it.,id128,3,S,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,255,257,"That's okay, don't, you don't have to guess.",R,3,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,257,259,"Good job, good job, you did it correctly.",R,4,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,259,261,Now you have to tell me.,id128,4,L,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,261,263,Exactly.,R,4,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,263,267,"I see, I don't know what is that.",id127,4,S,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,267,271,"It's okay, [id127], just try your best.",R,4,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,271,274,A person,id127,4,S,NA,a person,Y
+xCb7R5sWCQw6TeLGA,game70,274,277,"There's a poison, there's a poison.",id128,4,L,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,277,280,No I said person.,id127,4,S,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,280,283,"It's okay, just tap the one you think you guessed it is, [id128].",R,4,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,283,286,"There's a poison, there's a tree.",id128,4,L,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,286,290,"I can't help you explaining, but [id127], do you want to say it again and [id128] just...",R,4,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,290,292,Person,id127,4,S,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,292,294,Whats a person,id128,4,L,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,294,296,"Just press your best guess, [id128].",R,4,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,298,301,"Great job, you guessed it correctly.",R,5,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,301,303,Person,id128,5,S,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,304,306,"Wait, what's the answer again?",id128,5,S,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,306,311,"Oh, you just want to say what you think it is, so just try your best to describe it in the black box to [id127].",R,5,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,311,313,I don't know.,id128,5,S,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,313,315,Just try your best.,R,5,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,315,320,"Just try your best, you can say anything, what about shape or what it looks like.",R,5,NA,Y,NA,NA
+xCb7R5sWCQw6TeLGA,game70,320,322,Shape.,id128,5,S,NA,shape,Y
+xCb7R5sWCQw6TeLGA,game70,322,324,shape tap it shape,id128,5,S,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,324,329,"No, you want to say, you want to describe it in the black box, like what do you see in it?",R,5,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,329,332,Does it look like anything to you?,R,5,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,332,334,shape,id128,5,S,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,337,341,Do you want to give anything more to [id127] to help you guess?,R,5,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,343,345,I’m going to close this door a little more.,R,5,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,345,346,Why?,id127,5,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,346,348,It's a little loud.,R,5,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,353,357,"Okay, [id128], do you want to try anything more to [id127]?",R,5,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,357,361,"No, no, no.",id128,5,S,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,361,363,"Wait, what?",id128,5,S,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,363,365,Shape,id128,5,S,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,373,378,"Aw, okay, so that was incorrect, but it's okay, we can keep on trying and helps [id127].",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,378,380,So now we trade.,R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,382,383,Okay.,R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,383,386,"Alright, do you want to say what you think of the black box, [id127]?",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,386,388,We lost again.,id128,6,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,389,391,You lost one time.,id127,6,S,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,391,397,"It's okay, we're going to keep on trying until we can, yeah.",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,397,398,So do you see the black box?,R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,398,402,"Okay, you can tell me what, then I don't know what's in the black box.",id128,6,L,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,402,404,"It's okay, you can just try your best, [id127].",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,404,408,"It's not going to be immediately obvious, but just try your best to see what you see.",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,408,410,"Oh, don't tap it until...",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,410,412,I tap it?,id128,6,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,412,414,That mosquito.,id128,6,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,415,419,"Does it look like anything, or does anything stand out to you, [id127]?",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,419,421,"No, I don't.",id127,6,S,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,421,424,"Well, just try your best to help [id128] guess.",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,424,428,There are some mosquitoes in this one.,id128,6,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,428,430,"Oh, it's okay.",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,430,432,Can they fly again?,id128,6,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,432,435,"Nothing's going to happen if you tap it, but you're trying to tell...",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,435,437,Who doesn't have that one?,id128,6,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,437,441,"You're trying to tell [id128] what you see in this black box, so...",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,441,443,A person,id127,6,S,NA,a person,Y
+xCb7R5sWCQw6TeLGA,game70,443,446,"No, a poison.",id128,6,L,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,NA,NA,"No, a person.",id127,6,S,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,446,449,"Oh, that's okay.",R,6,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,449,453,"All right, now we can pass it, and now you're going to tell [id127] what you see.",R,7,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,453,458,I see...,id128,7,S,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,458,463,A people walking.,id128,7,S,NA,a person walking,Y
+xCb7R5sWCQw6TeLGA,game70,463,465,Press it,id128,7,S,NA,NA,Y
+xCb7R5sWCQw6TeLGA,game70,465,466,"Okay, now do you want to...",R,7,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,466,468,"Oh, no, you can't look at his screen.",R,7,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,468,471,"What do you want to guess, because [id128] told you, [id127]?",R,7,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,471,472,A person.,id127,7,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,472,479,"Oh, no, he already told you what he saw, so now you're going to tap your best guess, based on what he told you.",R,7,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,479,482,"Do you want to repeat it, [id128]?",R,7,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,482,484,This game is too confusing.,id127,7,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,484,486,"It's okay, [id127], you can just try your best.",R,7,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,NA,NA,I want to go back.,id127,7,L,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,486,487,You want to go back?,R,7,NA,NA,NA,NA
+xCb7R5sWCQw6TeLGA,game70,487,488,Yeah.,id127,7,L,NA,NA,NA
 5LuHx6piA3FAjEEvF,game71,0,2,"Alright, now you're on camera.",R,NA,NA,NA,NA,NA
 5LuHx6piA3FAjEEvF,game71,2,6,"Alright, and if you ever want to leave the game, just let me know, okay?",R,NA,NA,NA,NA,NA
 5LuHx6piA3FAjEEvF,game71,6,9,"Alright, in this game...",R,NA,NA,NA,NA,NA
@@ -4814,7 +6448,7 @@ yubEzRSKnPkFZDJWS,game72,477.5,480.18,"Okay. Do you want to tap that, [id132]?",
 yubEzRSKnPkFZDJWS,game72,480.18,482.94,Nice job.,R,10,NA,NA,NA,NA
 yubEzRSKnPkFZDJWS,game72,482.94,483.94,Mm-hmm.,id132,10,S,NA,NA,NA
 yubEzRSKnPkFZDJWS,game72,483.94,488.94,"All right, do you want to say what you see in the black box?",R,10,NA,NA,NA,NA
-yubEzRSKnPkFZDJWS,game72,488.94,489.94,Dit. dit. a boat!,id132,10,S,NA,A boat,Y
+yubEzRSKnPkFZDJWS,game72,488.94,489.94,Dit. dit. a boat!,id132,10,S,NA,NA,Y
 yubEzRSKnPkFZDJWS,game72,489.94,490.94,A boat,id132,10,S,NA,NA,Y
 yubEzRSKnPkFZDJWS,game72,489.94,490.94,"Did you hear that, [id131]? Aw smurphy is happy",R,10,NA,NA,NA,NA
 yubEzRSKnPkFZDJWS,game72,490.94,491.94,A boat. a big big boat,id132,10,S,NA,a big boat,Y
@@ -4869,7 +6503,7 @@ yubEzRSKnPkFZDJWS,game72,585.18,587.18,"Um, a person.",id131,13,S,NA,A person,Y
 yubEzRSKnPkFZDJWS,game72,587.18,589.18,Nice.,R,14,NA,NA,NA,NA
 yubEzRSKnPkFZDJWS,game72,590.18,597.18,I see... poonkin nimbat,id132,14,S,NA,NA,Y
 yubEzRSKnPkFZDJWS,game72,597.18,598.18,"Um, away.",id131,14,L,NA,NA,Y
-yubEzRSKnPkFZDJWS,game72,598.18,600.18,Away. Away. Away.,id132,14,S,NA,NA,Y
+yubEzRSKnPkFZDJWS,game72,598.18,600.18,Away. Away. Away.,id132,14,S,NA,away,Y
 yubEzRSKnPkFZDJWS,game72,600.18,604.18,"Is that what, is that what you black box, [id132]?",R,14,NA,NA,NA,NA
 yubEzRSKnPkFZDJWS,game72,604.18,606.18,"Yeah, yeah.",id132,14,S,NA,NA,NA
 yubEzRSKnPkFZDJWS,game72,606.18,608.18,Do you want to repeat it for [id131]?,R,14,NA,NA,NA,NA
@@ -4896,7 +6530,7 @@ yubEzRSKnPkFZDJWS,game72,644.18,645.18,Okay.,R,15,NA,NA,NA,NA
 yubEzRSKnPkFZDJWS,game72,645.18,646.18,"Just let me know. If you want to leave, then that's okay.",R,15,NA,NA,NA,NA
 yubEzRSKnPkFZDJWS,game72,646.18,650.34,and that's okay but you want to finish the game and that's also okay,R,15,NA,NA,NA,NA
 yubEzRSKnPkFZDJWS,game72,650.34,660.34,what do you see inside the black box,R,15,NA,NA,NA,NA
-yubEzRSKnPkFZDJWS,game72,650.34,660.34,um a airplane,id131,15,S,NA,An airplane,Y
+yubEzRSKnPkFZDJWS,game72,650.34,660.34,um a airplane,id131,15,S,NA,A airplane,Y
 yubEzRSKnPkFZDJWS,game72,650.34,660.34,okay do you want tap that?,R,15,NA,NA,NA,NA
 yubEzRSKnPkFZDJWS,game72,650.34,660.34,oh that's okay,R,16,NA,NA,NA,NA
 yubEzRSKnPkFZDJWS,game72,660.34,670.34,Now my turn! a person a person pop pop pop a person!,id132,16,S,NA,NA,Y
@@ -5023,8 +6657,8 @@ GdxgdDaNrmnpHhnSc,game73,167,174,Do you want to say what you see in the black bo
 GdxgdDaNrmnpHhnSc,game73,174,177,A house.,id134,2,S,NA,A house,Y
 GdxgdDaNrmnpHhnSc,game73,177,178,Nice job.,R,3,NA,NA,NA,NA
 GdxgdDaNrmnpHhnSc,game73,178,180,You're guessing for Smurphy!,R,3,NA,NA,NA,NA
-GdxgdDaNrmnpHhnSc,game73,180,186,"Uh, I see a duck in the black box.",id133,3,S,NA,NA,Y
-GdxgdDaNrmnpHhnSc,game73,186,188,Mm duck?,id134,3,L,NA,Duck,Y
+GdxgdDaNrmnpHhnSc,game73,180,186,"Uh, I see a duck in the black box.",id133,3,S,NA,Duck,Y
+GdxgdDaNrmnpHhnSc,game73,186,188,Mm duck?,id134,3,L,NA,NA,Y
 GdxgdDaNrmnpHhnSc,game73,189,193.24,I can't help you but if that's what you think it is then you can tap it. nice job,R,3,NA,NA,NA,NA
 GdxgdDaNrmnpHhnSc,game73,193.24,201,see you got it. that was the duck,id133,4,L,NA,NA,Y
 GdxgdDaNrmnpHhnSc,game73,193.24,201,I see a person,id134,4,S,NA,A person,Y
@@ -5376,7 +7010,7 @@ eqxTepQjfWyhW5s7a,game76,396.32,400.32,Which one do you think it is?,R,8,NA,NA,N
 eqxTepQjfWyhW5s7a,game76,400.32,401.32,Yay!,T,8,NA,NA,NA,NA
 eqxTepQjfWyhW5s7a,game76,401.32,402.32,Good job.,R,8,NA,NA,NA,NA
 eqxTepQjfWyhW5s7a,game76,402.32,407.32,Which one is in there?,id139,9,L,NA,NA,Y
-eqxTepQjfWyhW5s7a,game76,407.32,411.32,A diamond.,id140,9,S,NA,a diamond,Y
+eqxTepQjfWyhW5s7a,game76,407.32,411.32,A diamond.,id140,9,S,NA,NA,Y
 eqxTepQjfWyhW5s7a,game76,411.32,414.32,This one?,id139,9,L,NA,NA,Y
 eqxTepQjfWyhW5s7a,game76,414.32,417.32,Which one is it?,id139,9,L,NA,NA,Y
 eqxTepQjfWyhW5s7a,game76,417.32,418.32,I don't know.,R,9,NA,NA,NA,NA
@@ -5387,7 +7021,7 @@ eqxTepQjfWyhW5s7a,game76,424.32,427.32,She can't see which one you're pointing t
 eqxTepQjfWyhW5s7a,game76,427.32,429.32,"Nope, you can't show her.",R,9,NA,NA,NA,NA
 eqxTepQjfWyhW5s7a,game76,429.32,430.32,"[id140], why don't you?",R,9,NA,NA,NA,NA
 eqxTepQjfWyhW5s7a,game76,430.32,432.32,Tell a little bit more about it.,R,9,NA,NA,NA,NA
-eqxTepQjfWyhW5s7a,game76,432.32,436.32,It's a diamond.,id140,9,S,NA,a diamond,Y
+eqxTepQjfWyhW5s7a,game76,432.32,436.32,It's a diamond.,id140,9,S,NA,NA,Y
 eqxTepQjfWyhW5s7a,game76,436.32,440.32,A person is holding a diamond.,id140,9,S,NA,a person is holding a diamond,Y
 eqxTepQjfWyhW5s7a,game76,440.32,442.32,Okay.,id139,9,L,NA,NA,NA
 eqxTepQjfWyhW5s7a,game76,442.32,443.32,Yay!,T,9,NA,NA,NA,NA
@@ -5411,7 +7045,7 @@ eqxTepQjfWyhW5s7a,game76,493.32,500.32,Whi- whi- which person is it this one?,id
 eqxTepQjfWyhW5s7a,game76,500.32,503.32,Oh!,R,13,NA,NA,NA,NA
 eqxTepQjfWyhW5s7a,game76,503.32,508.32,"Try not to press it until [id140] tells you what it is, okay?",R,13,NA,NA,NA,NA
 eqxTepQjfWyhW5s7a,game76,508.32,511.32,And then tell [id140] what you see.,R,13,NA,NA,NA,NA
-eqxTepQjfWyhW5s7a,game76,511.32,519.32,I see the... the person tha- that has that looks like it's doing a little silly...,id139,14,S,NA,the person,Y
+eqxTepQjfWyhW5s7a,game76,511.32,519.32,I see the... the person tha- that has that looks like it's doing a little silly...,id139,14,S,NA,NA,Y
 eqxTepQjfWyhW5s7a,game76,519.32,522.32,Try not to use your body to show her.,R,14,NA,NA,NA,NA
 eqxTepQjfWyhW5s7a,game76,522.32,523.32,You can't show her.,R,14,NA,NA,NA,NA
 eqxTepQjfWyhW5s7a,game76,523.32,525.32,Use your words to describe it.,R,14,NA,NA,NA,NA
@@ -5818,7 +7452,7 @@ GCpwyMdn9qNTNhyqf,game78,401.12,405.12,"Nice job, guys. Smurphy's so happy.",R,1
 GCpwyMdn9qNTNhyqf,game78,405.12,407.12,Okay.,R,15,NA,NA,NA,NA
 GCpwyMdn9qNTNhyqf,game78,407.12,409.12,Person.,id143,15,S,NA,Person,Y
 GCpwyMdn9qNTNhyqf,game78,409.12,413.12,Nice job.,R,16,NA,NA,NA,NA
-GCpwyMdn9qNTNhyqf,game78,413.12,420.12,I see a airplane.,id144,16,S,NA,An airplane,Y
+GCpwyMdn9qNTNhyqf,game78,413.12,420.12,I see a airplane.,id144,16,S,NA,A airplane,Y
 GCpwyMdn9qNTNhyqf,game78,420.12,423.12,Nice job.,R,17,NA,NA,NA,NA
 GCpwyMdn9qNTNhyqf,game78,423.12,424.12,Person.,id143,17,S,NA,Person,Y
 GCpwyMdn9qNTNhyqf,game78,424.12,438.12,"Oh, it's okay, it's okay. You can try again.",R,18,NA,NA,NA,NA
@@ -5973,7 +7607,7 @@ S9c9v6fAqdxuedydx,game79,357.02,360.02,Now you tell [id146] what you see the bla
 S9c9v6fAqdxuedydx,game79,360.02,364.02,A person laying down.,id145,11,S,NA,A person laying down,Y
 S9c9v6fAqdxuedydx,game79,364.02,366.02,Great job.,R,12,NA,NA,NA,NA
 S9c9v6fAqdxuedydx,game79,366.02,370.02,"Alright, now you say what you see the black box, [id146]?",R,12,NA,NA,NA,NA
-S9c9v6fAqdxuedydx,game79,370.02,374.02,A person lying down.,id146,12,S,NA,A person laying down,Y
+S9c9v6fAqdxuedydx,game79,370.02,374.02,A person lying down.,id146,12,S,NA,A person lying down,Y
 S9c9v6fAqdxuedydx,game79,374.02,377.02,Great job Smurphy's so happy.,R,13,NA,NA,NA,NA
 S9c9v6fAqdxuedydx,game79,377.02,380.02,"All right, your turn to say the black box",R,13,NA,NA,NA,NA
 S9c9v6fAqdxuedydx,game79,380.02,382.02,"Um, person",id145,13,S,NA,person,Y

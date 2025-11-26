@@ -123,7 +123,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 556600	561600	No, make it face to me.	id270		S			
 561600	567600	So, it has two feet and one square on the back.	id270		S		it has two feet and one square on the back	Y
 567600	572600	Like this, like this, and this.	id270		S			Y
-573600	576600	Pass smurfy	id270	16				
+573600	576600	Pass smurfy	id270	16	L			
 576600	590600	Now it has a triangle and another triangle and a square, and it has a big triangle with a bump on it.	id269		S		it has a triangle and another triangle and a square and it has a big triangle with a bump on it	Y
 590600	601600	Like, like, like, like, like, like this, like, like a triangle.	id269		S		like a triangle	Y
 602600	604600	And a bump.	id269		S			Y

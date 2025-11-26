@@ -68,7 +68,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 141500	143500	and if you don't, you're gonna see a frowny face.	R					
 143500	145500	But that's okay because we're gonna have many opportunities	R					
 145500	148500	to help Smurphy get the right answer, okay?	R					
-148500	150500	Okay, go ahead and press the blue button.	R	1				
+148500	150500	Okay, go ahead and press the blue button.	R	0				
 153500	154500	Awesome.	R					
 154500	155500	Okay, who has a black box?	R					
 155500	156500	Me.	id64		S			
@@ -91,17 +91,17 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 177500	178500	So, [id63], you're gonna tap the one,	R					
 178500	180500	the picture that you think it is.	R					
 181500	182500	Yay!	R					
-182500	183500	Awesome!	R	2				
+182500	183500	Awesome!	R	1				
 183500	185500	Okay, now you guys are gonna switch.	R					
 185500	186500	And [id63], you're gonna tell [id64]	R					
 186500	188500	what you see in the black box.	R					
 194500	197500	You can tell [id64] what you see in the black box.	R					
 197500	199500	I see a dog.	id63		S		a dog	Y
-202500	203500	That's okay.	R	3				
+202500	203500	That's okay.	R	2				
 203500	206500	We're gonna switch.	R					
 206500	209500	Now it's [id64]'s turn to tell.	R					
 209500	212500	I see a house.	id64		S		a house	Y
-212500	213500	Yay!	R	4				
+212500	213500	Yay!	R	3				
 213500	214500	Okay.	R					
 214500	218500	[id63], now it's your turn to tell.	R					
 223500	225500	[id63], tell [id64] what you see in the black box.	R					
@@ -111,14 +111,14 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 231500	233500	sees in the black box.	R					
 		Is it this one or this one?	id64		L			Y
 237500	238500	Keep going, [id63].	R					
-238500	240500	What do you see in the black box?	R	5				
+238500	240500	What do you see in the black box?	R	4				
 240500	243500	Wait for [id63] to tell you, okay?	R					
 243500	244500	That's okay.	R					
 244500	245500	We're gonna switch now.	R					
 245500	247500	So, now you're gonna tell [id63]	R					
 247500	249500	what you see in the black box.	R					
 249500	254500	I think I see a jumping person.	id64		S		a jumping person	Y
-257500	258500	That's okay.	R	6				
+257500	258500	That's okay.	R	5				
 258500	262500	Okay, now it's [id64]'s turn to guess.	R					
 262500	264500	So, [id63], you're gonna tell [id64]	R					
 264500	265500	what you see in the black box.	R					
@@ -136,7 +136,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 296500	303500	but it also has a hat holding it in the hand.	id63		S			Y
 303500	305500	This is this one?	id64		L			Y
 305500	307500	Make your best guess.	R					
-317500	318500	That's okay.	R	7				
+317500	318500	That's okay.	R	6				
 318500	319500	We'll keep trying.	R					
 319500	320500	Good job.	R					
 320500	322500	Okay, now it's your turn to tell [id63].	R					
@@ -148,7 +148,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 344500	347500	and the rectangle legs	id64		S		and the rectangle legs	Y
 347500	349500	and the triangle shoes.	id64		S		and the triangle shoes	Y
 349500	351500	Okay, [id63], make your best guess.	R					
-351500	352500	Yay!	R	8				
+351500	352500	Yay!	R	7				
 352500	354500	Good job.	R					
 354500	355500	Awesome.	R					
 355500	358500	Now it's [id63]'s turn to tell you what she sees.	R					
@@ -165,14 +165,14 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 393500	394500	This one?	id64		L			Y
 394500	395500	Yeah.	id63		S			Y
 398500	399500	That's okay.	R					
-399500	401500	We're going to keep trying.	R	9				
+399500	401500	We're going to keep trying.	R	8				
 401500	402500	Good job.	R					
 402500	405500	Okay, now [id64], it's your turn to tell what's in the black box.	R					
 405500	410500	It's the one that's holding a hat	id64		S		the one that’s holding a hat	Y
 410500	413500	and it has a	id64		S			Y
 413500	416500	and an earring.	id64		S		it has an earing	Y
 416500	423500	It's the one that's holding a triangle.	id64		S		the one that’s holding a triangle	Y
-423500	425500	Awesome.	R	10				
+423500	425500	Awesome.	R	9				
 425500	427500	Good job.	R					
 427500	429500	Okay, now it's [id63]'s turn.	R					
 429500	431500	I see a square head.	id63		S		a square head	Y
@@ -228,14 +228,14 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 575500	576500	That's okay.	R					
 576500	587500	Let's just pick on one.	R					
 587500	588500	Good job!	R					
-588500	589500	You did it!	R	11				
+588500	589500	You did it!	R	10				
 589500	591500	Okay, now it's your turn to tell [id63]	R					
 591500	595500	what's in the box now.	R					
 595500	602500	Okay, it's with a diamond head,	id64		S		with a diamond head	Y
 602500	610500	and kind of looking like a heart body,	id64		S		a heart body	Y
 610500	622500	and it also has jumping.	id64		S		it also has jumping	Y
 622500	624500	Okay, [id63], make your best guess.	R					
-624500	626500	Good job!	R	12				
+624500	626500	Good job!	R	11				
 626500	629500	Okay, now it's your turn to guess, [id64].	R					
 630500	635500	Is it the lying down one or the walking one?	id64		L			Y
 635500	638500	Let's have [id63] tell us what she sees.	R					
@@ -245,7 +245,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 664500	669500	and once she was actually kind of like,	id64		L			Y
 669500	672500	not attached.	id64		L			Y
 672500	681500	Okay, if you know which one it is, tap on it.	R					
-681500	683500	Good job!	R	13				
+681500	683500	Good job!	R	12				
 683500	684500	Yay, I did it!	id64		S			
 684500	685500	Awesome, [id64].	R					
 685500	687500	Okay, now you're going to help Smurfy and [id63]	R					
@@ -262,7 +262,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 729500	731500	It's not kind of like a heart.	id64		S			Y
 731500	734500	Okay, [id63], make your best guess.	R					
 734500	736500	Which one do you think it is?	R					
-736500	738500	That's okay.	R	14				
+736500	738500	That's okay.	R	13				
 738500	740500	We'll get another turn right now.	R					
 740500	743500	Okay.	R					
 743500	749500	I see a square head,	id63		S		a square head	Y
@@ -309,7 +309,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 894500	896500	I'm not doing it.	id64		L			
 896500	900500	I think it's this one.	id64		L			Y
 900500	901500	Yay!	R					
-901500	902500	Good job.	R	15				
+901500	902500	Good job.	R	14				
 902500	904500	He did the right one.	id64		S			
 904500	906500	Murphy did the right one.	R					
 906500	908500	Okay, now it's your turn to tell [id63].	R					
@@ -323,7 +323,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 927500	930500	Oh, this time it's going to get a little tricky.	id64		S			Y
 930500	933500	Okay, and it has a diamond head,	id64		S			Y
 933500	936500	and it's jumping.	id64		S		and it’s jumping	Y
-936500	938500	Yay!	R	16				
+936500	938500	Yay!	R	15				
 938500	940500	Good job, [id63].	R					
 940500	942500	Now Murphy's going to do it again.	id64		L			
 942500	944500	Okay, now Murphy's going to guess again,	R					
@@ -348,7 +348,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1012500	1014500	I think.	id64		L			Y
 1014500	1024500	And the feet is made is like triangle	id63		S		and the feet is triangle	Y
 1026500	1035500	Okay, Murphy's turn to guess which one is in the black box.	R					
-1035500	1036500	That's okay.	id64	17	S			
+1035500	1036500	That's okay.	id64	16	S			
 1036500	1039500	That's okay, because we'll get another turn after that.	R					
 1039500	1041500	But now you're going to help Murphy	R					
 1041500	1043500	by telling Murphy what you see.	R					
@@ -365,7 +365,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1084500	1087500	Now it's Murphy's turn to guess.	id64		S			
 1087500	1090500	Tap one more time.	R					
 1090500	1092500	One more time.	R					
-1092500	1093500	There you go.	R	18				
+1092500	1093500	There you go.	R	17				
 1093500	1094500	Yep.	R					
 1094500	1096500	Yay, I'm getting better at this.	id64		L			
 1096500	1097500	You are.	R					
@@ -386,7 +386,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1139500	1141500	I think it's this one.	id64		L			
 1141500	1143500	No, I think it's this one.	id64		L			
 1143500	1145500	Okay, now tap the one you think it is.	R					
-1149500	1151500	Yay!	R	19				
+1149500	1151500	Yay!	R	18				
 1151500	1153500	Good job.	R					
 1153500	1157500	Okay, now you can help Murphy by telling, [id64],	R					
 1157500	1159500	and [id63]'s going to guess.	R					
@@ -402,7 +402,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 1188500	1190500	One more time.	R					
 1190500	1193500	One more time.	R					
 1193500	1195500	Tap right here, that's the one you think.	R					
-1195500	1197500	Yay!	R	20				
+1195500	1197500	Yay!	R	19				
 1197500	1199500	[id63] did it.	id64		L			
 1199500	1200500	Okay.	R					
 1200500	1201500	Good job.	id64		L			

@@ -1,4 +1,4 @@
-start	end	text	speaker	trial	role	echo	description	backchannel
+start	end	text	speaker	trial	role	echo	description	on_topic
 0	9600	Hi! Okay, you guys are now on camera. Thank you so much, [id163], and [id164] for playing my game.	R					
 9600	11600	Yeah, and I was not working around.	id164					
 11600	18600	Yeah, the iPads weren't working, but now they're working. So, today we're going to play a really fun matching game. Are you guys ready?	R					
@@ -58,22 +58,22 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 205600	207600	So you're the teller, [id164].	R					
 207600	209600	And you're the guesser, [id163].	R					
 209600	214600	So [id164], tell Smurphy and [id163] which picture has the black box.	R					
-214600	216600	The apple.	id164		S		the apple	
+214600	216600	The apple.	id164		S		the apple	Y
 216600	219600	Okay, and now you're going to pick which one.	R					
 219600	220600	Yay!	R					
 220600	221600	Yay!	R					
 221600	223600	Good job, you guys got the first one right.	R	2				
 223600	225600	Oh, okay, so now...	R					
-225600	227600	Now I had a dog and a...	id163		S			
+225600	227600	Now I had a dog and a...	id163		S			Y
 227600	229600	So yeah, now you have the black box.	R					
 229600	230600	So you're the teller.	R					
 230600	232600	And [id164], you're the guesser with Smurphy.	R					
 232600	234600	So which one has the black box?	R					
-234600	235600	Eagle.	id163		S		eagle	
+234600	235600	Eagle.	id163		S		eagle	Y
 235600	238600	And now you're going to pick.	R					
 238600	240600	What she said?	R					
 240600	241600	Eagle.	id163		S		eagle	
-241600	242600	Eagle.	id164		L			x
+241600	242600	Eagle.	id164		L			Y
 242600	244600	Here's the...	R					
 244600	246600	Which one do you think?	R					
 246600	247600	Yay!	R					
@@ -85,13 +85,13 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 254600	258600	So now you're the guesser with Smurphy and you're the teller, [id164].	R					
 258600	263600	So you have to tell [id163] which one of your pictures has the black box around it.	R					
 263600	264600	Tell her.	R					
-264600	265600	What is this one?	id163		L			
-265600	266600	I want this one.	id164		S			
+264600	265600	What is this one?	id163		L			Y
+265600	266600	I want this one.	id164		S			Y
 266600	268600	You have to describe it to her.	R					
 268600	270600	What does that look like to you?	R					
-270600	271600	A rocking chair	id164		S		a rocking chair	
+270600	271600	A rocking chair	id164		S		a rocking chair	Y
 271600	272600	Tell her.	R					
-272600	273600	A rocking chair	id164		S			
+272600	273600	A rocking chair	id164		S			Y
 273600	274600	Yay!	R					
 274600	275600	Yay!	R	4				
 275600	277600	Good job, you guys are doing so good.	R					
@@ -100,10 +100,10 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 282600	284600	Why is there a square?	id163		S			
 284600	288600	Yeah, so you're going to explain to [id164] what's inside that square.	R					
 288600	291600	You're the teller now.	R					
-291600	292600	A boat.	id163		S		a boat	
+291600	292600	A boat.	id163		S		a boat	Y
 292600	294600	Okay, now you're going to guess with Smurphy.	R					
 294600	296600	Help Smurphy guess.	R					
-296600	299600	I see a pin.	id164		L			x
+296600	299600	I see a pin.	id164		L			Y
 299600	301600	So follow what she tells you though.	R					
 301600	302600	That's okay.	R	5				
 302600	303600	No.	id164		S			
@@ -112,27 +112,27 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 308600	310600	So now you're the teller, [id164].	R					
 310600	312600	And you're the guesser, [id163].	R					
 312600	315600	So tell [id163] and Smurphy what you see in the box.	R					
-315600	316600	I see that.	id164		S			
+315600	316600	I see that.	id164		S			Y
 316600	318600	What do you see?	R					
-318600	320600	It's a spray.	id164		S		a spray	
+318600	320600	It's a spray.	id164		S		a spray	Y
 320600	321600	Tell [id163].	R					
 321600	322600	What do you see?	R					
-322600	325600	I see spray.	id164		S			
+322600	325600	I see spray.	id164		S			Y
 325600	326600	Yay!	R					
 326600	327600	Yay!	R					
 327600	328600	Good job.	R					
 328600	330600	Okay, now you're the guesser, [id164].	R	6				
 330600	332600	And you're the teller, [id163].	R					
 332600	335600	So tell Smurphy and [id164] what you see in the black box.	R					
-335600	337600	I see a dog.	id163		S		a dog	
+335600	337600	I see a dog.	id163		S		a dog	Y
 337600	339600	Okay, now you and Smurphy guess.	R					
-339600	340600	I see another sprayer. 	id164		L			x
+339600	340600	I see another sprayer. 	id164		L			Y
 342600	345600	So you have to guess which one based on what she said.	R					
 345600	347600	So can you tell them again?	R					
-347600	348600	I see a dog.	id163		S			
+347600	348600	I see a dog.	id163		S			Y
 348600	349600	Okay.	R					
 349600	350600	I guess.	R					
-350600	352600	I see a sprayer.	id164		L			
+350600	352600	I see a sprayer.	id164		L			Y
 352600	354600	You're the guesser though this time.	R					
 354600	360600	So you have to follow what [id163]'s directions are and pick a box based on that.	R					
 360600	361600	Where's the box?	id164		L			
@@ -143,7 +143,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 368600	370600	Can you tell them one more time?	R					
 370600	371600	Listen to [id163].	R					
 371600	372600	She's going to tell you.	R					
-372600	373600	A dog.	id163		S			
+372600	373600	A dog.	id163		S			Y
 373600	375600	Okay, now you pick that box.	R					
 375600	378600	Or that picture.	R					
 378600	381600	Go ahead.	R					
@@ -153,24 +153,24 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 384600	385600	Yeah, you guys did a good job.	R					
 385600	387600	Okay, now you're the guesser, [id163].	R					
 387600	389600	And you're the teller, [id164].	R					
-389600	392600	It's the person.	id164		S		the person	
-392600	393600	A person.	id164		S			
-393600	394600	A person.	id164		S			
-394600	395600	A person.	id164		S			
+389600	392600	It's the person.	id164		S		the person	Y
+392600	393600	A person.	id164		S			Y
+393600	394600	A person.	id164		S			Y
+394600	395600	A person.	id164		S			Y
 395600	396600	Yay!	R					
 396600	397600	Good job.	R					
 397600	399600	Okay, now you're the guesser, [id164].	R	8				
 399600	402600	And you're the teller, [id163].	R					
-402600	405600	It's the tag.	id163		S		the tag	
+402600	405600	It's the tag.	id163		S		the tag	Y
 405600	408600	Do you want to tell you again?	R					
-408600	412600	It's the tag.	id163		S			
+408600	412600	It's the tag.	id163		S			Y
 412600	415600	You want to explain more, maybe?	R					
-415600	416600	This.	id163		S			
+415600	416600	This.	id163		S			Y
 416600	417600	No, you can't tell.	R					
 417600	418600	You can't show them.	R					
 418600	419600	Just tell them.	R					
 419600	420600	Try to explain more.	R					
-420600	424600	It has a diamond at the top and it has a flick at the bottom.	id163		S		a diamond at the top and it has a flick at the bottom	
+420600	424600	It has a diamond at the top and it has a flick at the bottom.	id163		S		a diamond at the top and it has a flick at the bottom	Y
 424600	431600	Can you see what she described?	R					
 431600	433600	Go ahead and pick.	R					
 433600	435600	Just touch it.	R					
@@ -183,10 +183,10 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 445600	446600	Now you're going to guess, [id163].	R					
 446600	448600	And you're the teller, [id164].	R					
 448600	451600	So tell [id163] and Smurfie what you see in your box.	R					
-451600	454600	a sprayer!	id164		S		a sprayer	
-454600	457600	I'll just pick one.	id163		L			
+451600	454600	a sprayer!	id164		S		a sprayer	Y
+454600	457600	I'll just pick one.	id163		L			Y
 457600	459600	Oh, pick the one that he tells you, okay?	R					
-459600	461600	I don't even know which one it is.	id163		L			
+459600	461600	I don't even know which one it is.	id163		L			Y
 461600	462600	Oh, that's okay.	R	10				
 462600	463600	We'll try again.	R					
 463600	465600	So now you're the teller and [id164]'s the guesser.	R					
@@ -197,24 +197,24 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 472600	474600	Because [id164] picked one already, so we skipped around.	R					
 474600	475600	But we're going to keep going.	R					
 475600	479600	So, [id164], tell [id163] what you see in your box.	R					
-479600	481600	I see a sprayer.	id164		S		a sprayer	
-481600	483600	A sprayer.	id164		S			
+479600	481600	I see a sprayer.	id164		S		a sprayer	Y
+481600	483600	A sprayer.	id164		S			Y
 483600	485600	Good job.	R	12				
 485600	487600	Okay, now you're the teller, [id163].	R					
 487600	490600	So tell [id164] and Smurfie what you see in your box.	R					
-490600	492600	I see a tag.	id163		S		a tag	
-492600	494600	A tag?	id164		L			x
+490600	492600	I see a tag.	id163		S		a tag	Y
+492600	494600	A tag?	id164		L			Y
 494600	496600	Do you want her to tell you more about it?	R					
 496600	497600	Can you tell them more?	R					
-497600	500600	I have a diamond at the top and a flick at the bottom.	id163		S		a diamond at the top and a flick at the bottom	
-500600	502600	What is a flick?	id164		L			x
-502600	505600	Something that, like, goes up a little.	id163		S		something that goes up a little	
-505600	506600	That's a flick.	id163		S			x
+497600	500600	I have a diamond at the top and a flick at the bottom.	id163		S		a diamond at the top and a flick at the bottom	Y
+500600	502600	What is a flick?	id164		L			Y
+502600	505600	Something that, like, goes up a little.	id163		S		something that goes up a little	Y
+505600	506600	That's a flick.	id163		S			Y
 506600	509600	Can you see that in any of the pictures?	R					
 509600	511600	Pick the one you think.	R					
-511600	512600	Pick.	id163		S			
-512600	513600	Pick.	id163		S			
-513600	514600	Just pick one.	id163		S			
+511600	512600	Pick.	id163		S			Y
+512600	513600	Pick.	id163		S			Y
+513600	514600	Just pick one.	id163		S			Y
 514600	516600	Use your finger.	R					
 516600	518600	Oh, that's okay.	R					
 518600	519600	We'll try again, okay?	R					
@@ -222,31 +222,31 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 521600	523600	and you're the teller, [id164].	R					
 523600	527600	So tell [id163] and Smurfie what you see in your black box.	R					
 527600	529600	What do you see in there?	R					
-529600	532600	It’s a sprayer	id164		S		a sprayer	
-532600	534600	I don't know what that is.	id163		L			x
+529600	532600	It’s a sprayer	id164		S		a sprayer	Y
+532600	534600	I don't know what that is.	id163		L			Y
 534600	535600	Can you explain more?	R					
 535600	537600	Can you use more words to explain what that is?	R					
-537600	542600	That's a sprayer for this one.	id164		S			
-542600	545600	I don't know what that is.	id163		L			
+537600	542600	That's a sprayer for this one.	id164		S			Y
+542600	545600	I don't know what that is.	id163		L			Y
 545600	547600	Can you say more about what that looks like?	R					
 547600	551600	What does that look like?	R					
 551600	552600	Can you say it?	R					
 552600	555600	What does that picture look like to you?	R					
-555600	558600	I'm going to say more.	id164		S			
+555600	558600	I'm going to say more.	id164		S			Y
 558600	560600	I think Smurfie's gonna hit it now.	id163		L			
 560600	561600	Oh, no!	R					
 561600	563600	You gotta wait for him to tell you, okay?	R					
 563600	566600	Can you use more words to describe that picture?	R					
-566600	567600	Yeah.	id164		S			
-567600	569600	Okay, I understand.	id163		L			
+566600	567600	Yeah.	id164		S			Y
+567600	569600	Okay, I understand.	id163		L			Y
 569600	571600	Okay, okay, pick.	R					
 571600	573600	Good job!	R	14				
 573600	576600	Okay, now you're the guesser, [id164],	R					
 576600	577600	and you're the teller, [id163].	R					
-577600	581600	A tag.	id163		S		a tag	
+577600	581600	A tag.	id163		S		a tag	Y
 581600	582600	Maybe explain more?	R					
-582600	584600	There's a diamond at the top,	id163		S		a diamond at the top	
-584600	588600	and there's a flick at the bottom.	id163		S		a flick at the bottom	
+582600	584600	There's a diamond at the top,	id163		S		a diamond at the top	Y
+584600	588600	and there's a flick at the bottom.	id163		S		a flick at the bottom	Y
 588600	592600	Which one looks like that to you?	R					
 592600	595600	Yeah, pick it with your finger,	R					
 595600	597600	because Smurfie's finger won't work,	R					
@@ -259,7 +259,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 607600	609600	So tell [id163] and Smurfie what you see	R					
 609600	611600	in your black box.	R					
 611600	613600	What's inside there?	R					
-613600	616600	A person.	id164		S		a person	
+613600	616600	A person.	id164		S		a person	Y
 616600	617600	Yay!	R	16				
 617600	619600	You guys are doing so good!	R					
 619600	620600	Good job!	R					
@@ -271,25 +271,25 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 632600	634600	and you're the teller now, [id163].	R					
 634600	636600	So you're going to tell [id164] and Smurfie	R					
 636600	637600	what you see in your black box.	R					
-637600	640600	Okay, I see a person.	id163		S		a person	
+637600	640600	Okay, I see a person.	id163		S		a person	Y
 640600	641600	Did you hear that?	R					
 641600	642600	Yeah.	id164		L			
 642600	643600	Okay, now guess with your finger.	R					
-643600	648600	I see a sausage.	id164		L			x
+643600	648600	I see a sausage.	id164		L			Y
 648600	650600	That's okay, just make sure you're listening to what [id163]'s	R	17				
 650600	651600	telling you, okay?	R					
 651600	654600	All right, now you're the guesser, [id163].	R					
-654600	656600	I see a person now.	id164		S		a person	
+654600	656600	I see a person now.	id164		S		a person	Y
 656600	658600	Is that what you see in your black box?	R					
 658600	659600	Tell [id163].	R					
-659600	661600	I see a person.	id164		S			
-661600	663600	I don't know which one it is.	id163		L			x
-663600	664600	There's two persons.	id163		L			x
+659600	661600	I see a person.	id164		S			Y
+661600	663600	I don't know which one it is.	id163		L			Y
+663600	664600	There's two persons.	id163		L			Y
 664600	667600	Okay, so maybe can you tell her more about it?	R					
-667600	668600	It's a person.	id164		S			
-668600	672600	Is it standing or standing?	id163		L			x
+667600	668600	It's a person.	id164		S			Y
+668600	672600	Is it standing or standing?	id163		L			Y
 672600	673600	That's a good question.	R					
-673600	679600	I see a person and they’re wearing a back. 	id164		S		they’re wearing a back	
+673600	679600	I see a person and they’re wearing a back. 	id164		S		they’re wearing a back	Y
 679600	680600	Oh, that's okay.	R					
 680600	681600	We'll keep trying.	R	18				
 681600	682600	You guys are doing a really good job.	R					
@@ -297,7 +297,7 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 683600	684600	Yeah, you didn't.	R					
 684600	686600	Now you're the guesser, [id164],	R					
 686600	687600	and you're the teller, [id163].	R					
-687600	689600	A person.	id163		S		a person	
+687600	689600	A person.	id163		S		a person	Y
 689600	694600	Okay, you see It?.	R					
 694600	696600	Oh, that's okay.	R	19				
 696600	697600	We'll keep going.	R					
@@ -306,25 +306,25 @@ start	end	text	speaker	trial	role	echo	description	backchannel
 700600	701600	and you're the teller, [id164].	R					
 701600	703600	Okay, so [id163] and Smurphy,	R					
 703600	704600	what you see in your black box?	R					
-704600	708600	I see a sprayer.	id164		S		a sprayer	
-708600	712600	It's a triangle on top and a triangle on that way	id164		S		a triangle on top and a triangle on that way	
-712600	715600	and then a flake on the bottom	id164		S		a flake on the bottom	
-715600	716600	and then a square.	id164		S		a square	
+704600	708600	I see a sprayer.	id164		S		a sprayer	Y
+708600	712600	It's a triangle on top and a triangle on that way	id164		S		a triangle on top and a triangle on that way	Y
+712600	715600	and then a flake on the bottom	id164		S		a flake on the bottom	Y
+715600	716600	and then a square.	id164		S		a square	Y
 716600	718600	Can you pick it with your finger	R					
 718600	720600	Yay!	R	20				
 720600	721600	Good job, you guys.	R					
 721600	724600	Okay, now you're the guesser, [id164],	R					
 724600	725600	and you're the teller, [id163].	R					
-725600	727600	A tag.	id163		S		a tag	
-727600	728600	A tag?	id164		L			
-728600	729600	A tag?	id164		L			
-729600	730600	Yes.	id163		S			
+725600	727600	A tag.	id163		S		a tag	Y
+727600	728600	A tag?	id164		L			Y
+728600	729600	A tag?	id164		L			Y
+729600	730600	Yes.	id163		S			Y
 730600	735600	Pick which one you think.	R					
 735600	737600	Try again, maybe?	R					
 737600	738600	Press...touch harder?	R					
 738600	740600	With your finger, with your finger.	R					
 740600	741600	I'm trying again.	id164		L			
-741600	742600	That's the left box.	id163		S			
+741600	742600	That's the left box.	id163		S			Y
 742600	744600	Oh, no, you can't tell him which box it is.	R					
 744600	746600	You have to just explain, okay?	R					
 746600	747600	And then he guesses.	R					

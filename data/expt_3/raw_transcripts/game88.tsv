@@ -94,7 +94,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 		No?	id258		L			
 337140	339140	I think it's not	id257		S		has a lemon shape and it has a line	
 339620	343780	Because it has a lemon shape and it has a line	id257		S			
-344340	346340	Yeah	id258	4				
+344340	346340	Yeah	id258	4	S			
 351780	357380	Nice job. All right. Now you can give Smurfy back to [id257] because you have the black box now, right?	R					
 358260	360260	So Smurfy's gonna help guess	R					
 		A eagle	id258		S		a eagle	

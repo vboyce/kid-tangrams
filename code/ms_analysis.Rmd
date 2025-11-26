@@ -326,7 +326,7 @@ transcripts |>
   filter(!is.na(trial)) |>
  filter(str_detect(speaker, "id")) |>
   filter(is.na(role)) |>
-  select(expt, game, trial, text) |> View() # to check on later!!!
+  select(expt, game, trial, text) # to check on later!!!
 
 transcripts |> filter(!is.na(trial)) |> 
     filter(!is.na(role)) |>

@@ -5,15 +5,22 @@ trial,gameId,words,target,distractor
 2,9uKTejKqe3TNXkfAW,a person,walk,hold
 2,Ce897yATiBxGr92Xo,a person,walk,hold
 2,D5CPASpy5Aj3aZNtS,a person in the mountains,swim,jump
+2,J5o4w9N9MYsAkebwF,"a boat, this is the part that you stand on, a triangle boat here and a square and a triangle that’s on the boat and a little triangle piece coming out",swim,jump
 2,SowubDEr7fQNBP6te,magnet,hold,swim
 2,X3KGngsmofwhPuzW2,a birdie that’s flying,swim,jump
 2,XWpuLuSnNumcHxf7w,S,swim,jump
 2,Yrc2wiX7ZxZFS2wX6,human,hold,swim
+2,agWGBnw35ByLviSnF,a shape,hold,swim
 2,bcszyeDMyWZqFeMBh,a person,hold,walk
+2,e6T8wCGggaf2sCrp9,a man walking,walk,swim
 2,euCvEekqCAQC9sfav,feet that are up and a bite like this and a head,jump,walk
+2,frdh7smGPLbRZRBpK,"a person, holding something",hold,walk
+2,gpcp9tLA4Gep4QYpt,a horse,hold,walk
 2,hueqkSoqSjYjcD9En,"a square, with one feet",hold,swim
-2,kduAREQdY39j2SgoC,"stickles, seesaw",swim,jump
+2,kduAREQdY39j2SgoC,"stickles, A seesaw",swim,jump
 2,qL2AxZnRykJWLDA7H,a whale,swim,jump
+2,vvixEFckM7QPWS4im,a shark,swim,hold
+2,wSXZRwkNxz7fDGeyd,"a superhero with ears, coming out of its legs with a diamond crown",jump,walk
 2,xCqhPo6f65u6PJhy3,a person,hold,swim
 2,ymmWkP9LexXqZPujp,"a plane, a boat, that has a turbo engine on the back",swim,hold
 3,5T8wESy34MKBRkBJr,a boat,jump,swim
@@ -22,16 +29,21 @@ trial,gameId,words,target,distractor
 3,A7RxNsfTJqTwfBejN,a person holding a plate,hold,walk
 3,Ce897yATiBxGr92Xo,a girl,hold,walk
 3,D5CPASpy5Aj3aZNtS,a person,hold,walk
+3,J5o4w9N9MYsAkebwF,a boat,jump,swim
 3,SowubDEr7fQNBP6te,"a block, it has a triangle, it’s on the ground",swim,hold
 3,X3KGngsmofwhPuzW2,"a person that’s walking, an angel",jump,walk
 3,XWpuLuSnNumcHxf7w,triangle,jump,swim
 3,Yrc2wiX7ZxZFS2wX6,a person,walk,hold
-3,baPLK5TnMYMSDvksA,"a block, the squares, square",jump,walk
+3,agWGBnw35ByLviSnF,a person,walk,swim
+3,baPLK5TnMYMSDvksA,"a block, the squares",jump,walk
 3,bcszyeDMyWZqFeMBh,a person,walk,hold
 3,euCvEekqCAQC9sfav,a car,swim,walk
+3,frdh7smGPLbRZRBpK,"a person swimming, one of his foot is up",swim,jump
 3,gF7PeenLLsSHsF4CG,a boat,swim,walk
+3,gpcp9tLA4Gep4QYpt,a bend people,jump,swim
 3,kduAREQdY39j2SgoC,a flying people,jump,walk
 3,qL2AxZnRykJWLDA7H,"a person, a person",hold,swim
+3,wSXZRwkNxz7fDGeyd,a boat with a square on top,swim,hold
 3,xCqhPo6f65u6PJhy3,"a bird, a guard jumping in the air",jump,walk
 3,ymmWkP9LexXqZPujp,a person,hold,jump
 4,5T8wESy34MKBRkBJr,feet,hold,jump
@@ -41,17 +53,24 @@ trial,gameId,words,target,distractor
 4,A7RxNsfTJqTwfBejN,a kind of person,walk,swim
 4,Ce897yATiBxGr92Xo,someone jumping,jump,swim
 4,D5CPASpy5Aj3aZNtS,a person walking,walk,hold
+4,J5o4w9N9MYsAkebwF,"a rocket ship, it has feet and it’s walking, it has a square on it’s head",walk,jump
 4,SowubDEr7fQNBP6te,"bird, a person flying",jump,hold
 4,X3KGngsmofwhPuzW2,"a person, looks like a person but it’s not",walk,hold
 4,XWpuLuSnNumcHxf7w,a person,hold,walk
 4,Yrc2wiX7ZxZFS2wX6,a flying human,jump,hold
+4,agWGBnw35ByLviSnF,laying down on the ground,swim,walk
 4,baPLK5TnMYMSDvksA,a man,hold,jump
 4,bcszyeDMyWZqFeMBh,a flying person,jump,walk
+4,e6T8wCGggaf2sCrp9,"stones rolling on the ground, the jumpy one",swim,jump
 4,euCvEekqCAQC9sfav,someone that’s holding a backwards triangle cup,hold,jump
+4,frdh7smGPLbRZRBpK,a person that’s walking away,walk,swim
 4,gF7PeenLLsSHsF4CG,a person,walk,swim
+4,gpcp9tLA4Gep4QYpt,a head,walk,hold
 4,hueqkSoqSjYjcD9En,a guy,walk,hold
 4,kduAREQdY39j2SgoC,a kid,walk,jump
 4,qL2AxZnRykJWLDA7H,a person,jump,hold
+4,vvixEFckM7QPWS4im,"a person, a triangle, it’s sitting down, and it has like a triangle face like this",jump,swim
+4,wSXZRwkNxz7fDGeyd,"a cooker with a diamond, holding a bowl of food, like a coffee filter, with a diamond shaped head",hold,walk
 4,xCqhPo6f65u6PJhy3,a person walking,walk,jump
 4,ymmWkP9LexXqZPujp,a bird that has feet,jump,swim
 5,5T8wESy34MKBRkBJr,a person walking,walk,hold
@@ -59,8 +78,9 @@ trial,gameId,words,target,distractor
 5,8PWtSpgpocS3Jvzph,a sloth,swim,walk
 5,9uKTejKqe3TNXkfAW,a bird,jump,hold
 5,A7RxNsfTJqTwfBejN,a crocodile tasting an animal in the water,swim,walk
-5,Ce897yATiBxGr92Xo,"airplane, a guy driving a jet plane, an airplane",swim,walk
+5,Ce897yATiBxGr92Xo,"airplane, a guy driving a jet plane",swim,walk
 5,D5CPASpy5Aj3aZNtS,"a person, this way",jump,hold
+5,J5o4w9N9MYsAkebwF,he’s holding a square looking up,hold,walk
 5,SowubDEr7fQNBP6te,a person sad walking,walk,jump
 5,X3KGngsmofwhPuzW2,a water fountain,hold,jump
 5,XWpuLuSnNumcHxf7w,a person,walk,swim
@@ -68,10 +88,14 @@ trial,gameId,words,target,distractor
 5,baPLK5TnMYMSDvksA,a man,walk,swim
 5,bcszyeDMyWZqFeMBh,a laying person,swim,jump
 5,euCvEekqCAQC9sfav,a human,walk,swim
+5,frdh7smGPLbRZRBpK,a person that’s jumping and that’s turning,jump,hold
 5,gF7PeenLLsSHsF4CG,a superhero,jump,walk
+5,gpcp9tLA4Gep4QYpt,a people swimming,swim,jump
 5,hueqkSoqSjYjcD9En,two wings with a square in the back with two feet,jump,walk
 5,kduAREQdY39j2SgoC,a server,hold,walk
 5,qL2AxZnRykJWLDA7H,a sad face,walk,hold
+5,vvixEFckM7QPWS4im,walking,walk,swim
+5,wSXZRwkNxz7fDGeyd,"a diamond with a a diamond head with two feet, and two arms",walk,jump
 5,xCqhPo6f65u6PJhy3,a person lying on the ground,swim,jump
 5,ymmWkP9LexXqZPujp,a person,walk,jump
 6,5T8wESy34MKBRkBJr,stairs,jump,hold
@@ -81,16 +105,21 @@ trial,gameId,words,target,distractor
 6,A7RxNsfTJqTwfBejN,a guy,hold,jump
 6,Ce897yATiBxGr92Xo,a girl,hold,jump
 6,D5CPASpy5Aj3aZNtS,a person dancing,jump,walk
+6,J5o4w9N9MYsAkebwF,a monster eating a square,jump,hold
 6,SowubDEr7fQNBP6te,a flying person,jump,walk
 6,X3KGngsmofwhPuzW2,"a lego, not a person without any arms",walk,hold
 6,XWpuLuSnNumcHxf7w,a person,walk,swim
 6,Yrc2wiX7ZxZFS2wX6,a human,walk,swim
 6,baPLK5TnMYMSDvksA,another man,walk,hold
 6,bcszyeDMyWZqFeMBh,a walking person,walk,jump
+6,e6T8wCGggaf2sCrp9,"a person jumping, the are running at the same time",jump,swim
 6,euCvEekqCAQC9sfav,A diamond head and a backwards triangle butt and triangle feet and a backwards triangle head,jump,hold
+6,frdh7smGPLbRZRBpK,"a person that’s kicking, one foot up, that’s turning",swim,hold
 6,gF7PeenLLsSHsF4CG,a boat,swim,hold
 6,hueqkSoqSjYjcD9En,a guy with a triangle and with two feet and with a square,jump,walk
 6,qL2AxZnRykJWLDA7H,a sad face,walk,hold
+6,vvixEFckM7QPWS4im,it’s walking,walk,swim
+6,wSXZRwkNxz7fDGeyd,"a superhero with legs but with a head, coming out of his legs and a diamond crown, two legs, there’s legs there and then there’s the arms, coming in the middle and then the diamond shaped head, on the top",jump,swim
 6,xCqhPo6f65u6PJhy3,a person,hold,jump
 6,ymmWkP9LexXqZPujp,a person,walk,swim
 7,5T8wESy34MKBRkBJr,a guy with a paper thing,hold,jump
@@ -100,17 +129,20 @@ trial,gameId,words,target,distractor
 7,A7RxNsfTJqTwfBejN,a person walking,walk,jump
 7,Ce897yATiBxGr92Xo,a jumping man,jump,swim
 7,D5CPASpy5Aj3aZNtS,a car,swim,hold
-7,SowubDEr7fQNBP6te,on the floor and it has a triangle,swim,hold
+7,SowubDEr7fQNBP6te,It’s on the floor and it has a triangle,swim,hold
 7,X3KGngsmofwhPuzW2,an angel,jump,walk
 7,XWpuLuSnNumcHxf7w,a cowboy,jump,hold
 7,Yrc2wiX7ZxZFS2wX6,a boat,swim,hold
 7,baPLK5TnMYMSDvksA,"a square that’s on the mouth, a man, falling",swim,hold
 7,bcszyeDMyWZqFeMBh,a person with this cube,hold,walk
 7,euCvEekqCAQC9sfav,a car,swim,hold
+7,frdh7smGPLbRZRBpK,a person walking,walk,hold
 7,gF7PeenLLsSHsF4CG,a superhero,jump,walk
 7,hueqkSoqSjYjcD9En,a man with one foot and a line and a square and a triangle.,hold,jump
 7,kduAREQdY39j2SgoC,a diver,swim,hold
 7,qL2AxZnRykJWLDA7H,a silly person,hold,walk
+7,vvixEFckM7QPWS4im,sit down,jump,hold
+7,wSXZRwkNxz7fDGeyd,a person,walk,jump
 7,xCqhPo6f65u6PJhy3,a guy jumping in the air,jump,hold
 7,ymmWkP9LexXqZPujp,a dog,swim,jump
 8,5T8wESy34MKBRkBJr,a box with a boat,swim,jump
@@ -126,14 +158,18 @@ trial,gameId,words,target,distractor
 8,Yrc2wiX7ZxZFS2wX6,a boat,jump,swim
 8,baPLK5TnMYMSDvksA,an airplane,jump,swim
 8,bcszyeDMyWZqFeMBh,a lying person,swim,jump
+8,e6T8wCGggaf2sCrp9,someone walking,walk,jump
 8,euCvEekqCAQC9sfav,"a head down square, a triangle feet and one rectangle and one triangle and then a square head.",walk,hold
+8,frdh7smGPLbRZRBpK,a person jumping,jump,hold
 8,gF7PeenLLsSHsF4CG,a person,walk,hold
 8,hueqkSoqSjYjcD9En,a boat,swim,walk
 8,kduAREQdY39j2SgoC,a kid,walk,jump
 8,qL2AxZnRykJWLDA7H,a person,jump,hold
+8,vvixEFckM7QPWS4im,a shark,swim,jump
+8,wSXZRwkNxz7fDGeyd,"a boat with a tank, with the two triangles, in the back with the square in the front",swim,hold
 8,ymmWkP9LexXqZPujp,"a person that can fly, a bird that has feet",jump,hold
 9,5T8wESy34MKBRkBJr,a person looking down,walk,hold
-9,5WPekHjNG898YuMXe,"A person walking, a person walking, the person’s head is square",walk,jump
+9,5WPekHjNG898YuMXe,"A person walking, the person’s head is square",walk,jump
 9,8PWtSpgpocS3Jvzph,someone’s holding a plate,hold,jump
 9,9uKTejKqe3TNXkfAW,people walking,walk,jump
 9,A7RxNsfTJqTwfBejN,a person jumping from a pole all the way down to the ground,jump,walk
@@ -146,10 +182,12 @@ trial,gameId,words,target,distractor
 9,baPLK5TnMYMSDvksA,"a man falling, a man holding something, the man is holding food",hold,swim
 9,bcszyeDMyWZqFeMBh,a flying person,jump,hold
 9,euCvEekqCAQC9sfav,somebody holding a triangle,hold,jump
+9,frdh7smGPLbRZRBpK,a person holding a upside down triangle,hold,walk
 9,gF7PeenLLsSHsF4CG,a person doing something,hold,jump
 9,hueqkSoqSjYjcD9En,"a guy with two foot and a line and one square, a man with two foot and a tummy shaped as a diamond and a square head",walk,hold
 9,kduAREQdY39j2SgoC,a flying person,jump,swim
 9,qL2AxZnRykJWLDA7H,"a plane, a whale",swim,hold
+9,wSXZRwkNxz7fDGeyd,"a person with one leg and a triangle, holding a triangle with a diamond on the head",hold,walk
 9,xCqhPo6f65u6PJhy3,a person walking,walk,swim
 9,ymmWkP9LexXqZPujp,"a person that has something in front to eat, in a bowl",hold,jump
 10,5T8wESy34MKBRkBJr,a walk,walk,jump
@@ -165,11 +203,15 @@ trial,gameId,words,target,distractor
 10,Yrc2wiX7ZxZFS2wX6,a human,walk,swim
 10,baPLK5TnMYMSDvksA,another man,hold,swim
 10,bcszyeDMyWZqFeMBh,a person standing up with a cube,hold,swim
+10,e6T8wCGggaf2sCrp9,someone lying,swim,hold
 10,euCvEekqCAQC9sfav,a race car,swim,walk
+10,frdh7smGPLbRZRBpK,a person jumping and turning,jump,hold
 10,gF7PeenLLsSHsF4CG,a person doing something,walk,jump
 10,hueqkSoqSjYjcD9En,one guy with one foot and a triangle and a square,hold,walk
 10,kduAREQdY39j2SgoC,"a kid, a big kid",walk,jump
 10,qL2AxZnRykJWLDA7H,a person,hold,jump
+10,vvixEFckM7QPWS4im,sitting down,jump,hold
+10,wSXZRwkNxz7fDGeyd,legs with the arms in the middle of the diamond’s head,jump,hold
 10,xCqhPo6f65u6PJhy3,a person lying on the ground,swim,jump
 10,ymmWkP9LexXqZPujp,a person that has something to eat in his hands,hold,swim
 11,5T8wESy34MKBRkBJr,a boat,swim,jump
@@ -186,10 +228,13 @@ trial,gameId,words,target,distractor
 11,baPLK5TnMYMSDvksA,a man falling down,swim,walk
 11,bcszyeDMyWZqFeMBh,a laying person,swim,walk
 11,euCvEekqCAQC9sfav,a human that’s dancing,jump,walk
+11,frdh7smGPLbRZRBpK,a person walking,walk,hold
 11,gF7PeenLLsSHsF4CG,a superhero,jump,hold
 11,hueqkSoqSjYjcD9En,a man with two foot and a diamond shaped tummy and a square head.,walk,swim
 11,kduAREQdY39j2SgoC,a flying person,jump,walk
 11,qL2AxZnRykJWLDA7H,a whale,swim,jump
+11,vvixEFckM7QPWS4im,walking,walk,swim
+11,wSXZRwkNxz7fDGeyd,a person in half two ways with a square crown,walk,jump
 11,xCqhPo6f65u6PJhy3,a person holding a tray,hold,walk
 11,ymmWkP9LexXqZPujp,a dead dog,swim,walk
 12,5T8wESy34MKBRkBJr,"a dog, a camera",hold,swim
@@ -206,10 +251,13 @@ trial,gameId,words,target,distractor
 12,baPLK5TnMYMSDvksA,a man,walk,swim
 12,bcszyeDMyWZqFeMBh,a walking person,walk,jump
 12,euCvEekqCAQC9sfav,"a triangle leg, a rectangle, and a diamond body and a square head",walk,jump
+12,frdh7smGPLbRZRBpK,a person holding a upside down triangle,hold,swim
 12,gF7PeenLLsSHsF4CG,a boat,swim,jump
 12,hueqkSoqSjYjcD9En,two feet of a guy with one square tummy and one triangle tummy and one square,swim,jump
 12,kduAREQdY39j2SgoC,a server,hold,jump
 12,qL2AxZnRykJWLDA7H,a person,walk,hold
+12,vvixEFckM7QPWS4im,"somebody is doing like this, Jesus",hold,walk
+12,wSXZRwkNxz7fDGeyd,"a cooker with one leg, that has a diamond shape head with a bowl of food",hold,jump
 12,xCqhPo6f65u6PJhy3,somebody jumping,jump,swim
 12,ymmWkP9LexXqZPujp,a flying person that has a jetpack,jump,swim
 13,5T8wESy34MKBRkBJr,a person jumping,jump,walk
@@ -226,8 +274,11 @@ trial,gameId,words,target,distractor
 13,baPLK5TnMYMSDvksA,a man,jump,swim
 13,bcszyeDMyWZqFeMBh,a flying person,jump,walk
 13,euCvEekqCAQC9sfav,someone holding a triangle in a cup,hold,jump
+13,frdh7smGPLbRZRBpK,a person swimming,swim,hold
 13,gF7PeenLLsSHsF4CG,a person doing something,hold,walk
 13,hueqkSoqSjYjcD9En,a man with two feet and two triangle wings and one square in the back shaped like a jet,jump,walk
 13,kduAREQdY39j2SgoC,a diver,swim,walk
+13,vvixEFckM7QPWS4im,bald,swim,jump
+13,wSXZRwkNxz7fDGeyd,"a boat with a triangle tail, and a little square on top of his head",swim,jump
 13,xCqhPo6f65u6PJhy3,a person walking,walk,hold
 13,ymmWkP9LexXqZPujp,"a person, looking down and walking",walk,swim

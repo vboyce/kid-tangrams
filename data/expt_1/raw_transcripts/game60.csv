@@ -163,7 +163,7 @@ start,end,text,speaker,trial,role,echo,description,on_topic
 342000,343000,I'm trying to.,id52,,L,,,
 343000,344000,"Oh, let's try again.",I,,,,,
 344000,345000,Great!,I,10,,,,
-345000,347000,I did it.,id51,,S,,,
+345000,347000,I did it.,id51,,L,,,
 347000,349000,Let's pass Smurfy on.,I,,,,,
 349000,351000,Thank you very much.,I,,,,,
 351000,354000,It changes to the same one.,id52,,S,,,Y
