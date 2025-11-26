@@ -1,0 +1,199 @@
+start	end	text	speaker	trial	role	echo	description	on_topic
+		[note: there was a technical issue, so this pair started playing the game and then had to start over a few pairs in – this is post starting over]	R					
+710880	713760	We're kind of gonna have to start over a little bit.	R					
+713760	715680	So you're gonna see the easy ones again first,	R					
+717520	719040	but then we'll pick up where we left off.	R					
+719040	721120	Okay, so press the blue button again.	R	1				
+723920	724960	Oh, you have black box.	R					
+727040	728640	Tell her,  what do you see?	R					
+729600	731440	A banana.	id106		S		a banana	Y
+736480	736880	Awesome.	R					
+736880	737920	Oh, I forgot to turn the blue.	R	2				
+741520	743040	What do you see in the black box, [id107]?	R					
+744560	745920	An eagle.	id107		S		an eagle	Y
+745920	746480	See an eagle?	R			Y		
+752080	754960	Why don't you help Murphy press which one you think it is?	R					
+756800	760000	Oh, you're a dog.	id106		L			Y
+760000	762480	I have to press the dog.	id106		L			Y
+764000	765120	Do you think you should press the dog?	R			Y		
+767440	768320	What do you think you should press?	R					
+770720	771600	The eagle.	id107		S			Y
+773360	774240	I don't see it.	id106		L			Y
+776080	777040	Which one do you think it is?	R					
+779040	781440	I don't know which one it is now.	id106		L			Y
+781440	784240	Oh, he doesn't know that I have to show him that.	id107		S			Y
+784240	786080	You can't show him you have to tell him with your words.	R					
+789600	790640	[id107] said it was an eagle.	R			Y		
+790640	792080	Which one do you think is the eagle?	R			Y		
+792640	793280	This one.	id106		L			Y
+793920	794640	Try pressing it.	R					
+796480	796960	Good job.	R					
+797760	799440	Let's give [id107], Murphy.	R	3				
+799440	800480	It said yes.	id106		S			
+802320	803360	All right, what do you see in the box?	R					
+806720	807520	You're the teller now.	R					
+807520	809040	You got to tell [id107] what you see in the box.	R					
+809920	815840	I see a house in the box.	id106		S		a house	Y
+818080	818800	Awesome job.	R	4				
+822640	823680	Which one is it?	id106		L			Y
+825200	826400	I'll try to see one of them.	id107		S			Y
+829440	830320	A duck girl.	id107		S		a duck girl	Y
+832560	833280	What is it?	id106		L			Y
+		Duck.	id107		S			Y
+835760	837440	Oh, this is the duck.	id106		L			Y
+839200	840000	Try pressing it.	R					
+849520	850560	Which one is it?	id106	5	S			Y
+851200	852640	Well, you have the black box now.	R					
+852640	853920	So you got to tell [id107] what you see.	R					
+854960	862560	I see some waves in the black box in the body.	id106		S		some waves in the body	Y
+863600	865040	Oh, what is this?	id106		S			Y
+866160	866560	I don't know.	R					
+866560	868000	You got to tell [id107] what you think it is.	R					
+869040	879920	I think it's, I think it's, I think it's, I don't know what it is.	id106		S			Y
+879920	880720	Try your best.	R					
+882800	884800	I think it's a body.	id106		S			Y
+887600	888720	Which one do you think it may be?	R					
+894080	894560	That's okay.	R	6				
+894560	895600	We can try again next time.	R					
+899920	900800	What do you see, [id107]?	R					
+902000	903040	I think it's a thing.	id107		S		a thing	Y
+905200	906000	What is it?	id106		L			Y
+906880	915200	What if a person with a triangle head and a body and two feets?	id107		S		a person with a triangle head and a body and two feets	Y
+918880	922080	I'm going to see if I have a sad face or a happy face.	id107		S			
+923840	926080	Why don't you try pressing which one you think it is?	R					
+926080	930640	That's okay.	R	7				
+930640	931280	We'll try again.	R					
+940560	941840	It's your turn to be the teller.	R					
+946000	949760	I can see a train in the box.	id106		S		a train	Y
+951760	952560	Oh no	R					
+953680	954800	Maybe I'll fix it later.	R					
+956080	957200	Maybe the other one.	id107		L			
+957200	959280	But for now, press the one that you think it might be.	R					
+966080	966480	That's okay.	R	8				
+970160	970880	What is it?	id106		L			Y
+977280	983760	A rectangle head, a body, arms, and feet.	id107		S		a rectangle head, a body, arms, and feet	Y
+984720	985760	That's how it is.	id107		S			Y
+987760	988480	What is it?	id106		L			Y
+990560	992080	You got to listen to what [id107] is telling you.	R					
+996080	996960	What is this?	id106		L			Y
+997680	999280	Do you want to ask [id107] a question maybe?	R					
+1001600	1005840	What is this on the right?	id106		L			Y
+1005840	1009040	What is this one with arms?	id106		L			Y
+1010800	1011840	I don't know.	id107		S			Y
+1012800	1014640	I don't see it with the black box.	id107		S			Y
+1018160	1019600	Why don't you take your best guess?	R					
+1023840	1024640	I don't know.	id106		L			Y
+1025920	1028480	You didn't have to tap one of them.	id107		S			Y
+1030480	1031920	Two of them?	id106		L			Y
+1031920	1033920	[id107], why don't you tell them what you think you see again?	R					
+1034800	1043680	A rectangle head, two arms, a tummy, and feet.	id107		S		two arms, a tummy	Y
+1046880	1048080	Press which one do you think it is?	R					
+1050880	1052160	I don't know which one.	id106		L			Y
+1052160	1052880	Just guess.	R					
+1052880	1053840	Take your best guess.	R					
+1054960	1057120	I don't know which one it is.	id106		L			Y
+1057120	1058320	Well, I need you to press one.	R					
+1059280	1063280	Good job.	R	9				
+1066400	1074320	I think it was the, it was, yes, I pressed the one.	id106		S			
+1074960	1076000	Yeah, you've got it right.	R					
+1076000	1077840	What do you see in the black box now?	R					
+1078800	1079840	A train.	id106		S		a train	Y
+1081360	1082880	It's a train.	id106		S			Y
+1082880	1083680	Good job.	R	10				
+1088320	1089680	It's the same one again.	id107		S			Y
+1090560	1091600	Try to explain it again.	R					
+1092640	1099120	A triangle head, a body, legs, and feet.	id107		S		a triangle head, a body, legs, and feet	Y
+1102640	1103760	It doesn't have hands.	id107		S		it doesn’t have hands	Y
+1103760	1105120	It does not have hands.	id107		S			Y
+1107280	1108880	One is, no.	id106		L			Y
+1109840	1123840	His hands are on the side of, is on the other, so his hands are on the other side of the body.	id106		L			Y
+1123840	1126080	That's why you cannot see them.	id106		L			Y
+1127200	1127600	Maybe.	R					
+1128720	1130320	Why don't you press it and see if you got it right?	R					
+1133440	1134080	Oh, that's okay.	R	11				
+1136960	1138720	Oh, I can, oh.	id106		S			
+1139120	1140400	What is this?	id106		S			Y
+1140400	1142000	I don't know what this is.	id106		S			Y
+1142000	1143600	It was the same one on mine.	id107		L			Y
+1144160	1146240	Why don't you try to tell [id107] what you see?	R					
+1148000	1150000	I don't know what this is.	id106		S			Y
+1150000	1150800	That's okay.	R					
+1150800	1151600	Try to explain it.	R					
+1152480	1154240	He has to say what I said.	id107		L			Y
+1155440	1155920	Maybe.	R					
+1156720	1159600	Or he can say different stuff.	id107		L			Y
+1162640	1164400	Try to tell [id107] what you see in the black box.	R					
+1165200	1172960	Some two legs and a rectangle head and a tummy.	id106		S		some two legs and a rectangle head and a tummy	Y
+1178880	1179360	That's okay.	R	12				
+1181120	1182640	Oh, this is how.	id106		L			
+1187680	1189120	Don't press anything yet until [id107].	R					
+1189760	1190960	Oh, all right.	R	13				
+1190960	1193920	We got to wait for [id107] to tell you what she sees, okay?	R					
+1195040	1197120	Now let's give stuff to Smurphy to [id107].	R					
+1198320	1206880	Oh, someone removed the train from the box.	id106		S			Y
+1207600	1209120	Yeah, so what's in the box this time?	R					
+1213920	1216400	This one has a hole in the other one, does not.	id107		L			
+1216400	1220080	Yeah, I'm going to take Smurphy back to the lab and sew him up.	R					
+1220720	1221680	I'll give him some stitches.	R					
+1221680	1222480	Don't worry.	R					
+1222480	1222880	Why?	R					
+1222880	1224720	Oh, you can put tape on him.	id107		L			
+1224720	1225200	Yeah, maybe.	R					
+1225200	1225680	I'll try that.	R					
+1226560	1230800	Why don't you try to guess what [id106] told you was in the black box?	R					
+1232160	1238800	There was two legs and a tummy in the rectangle head.	id106		S		two legs and a tummy in the rectangle head	Y
+1241760	1242320	Yay.	R	14				
+1242320	1242800	Good job.	R					
+1246000	1248160	Oh, this one is hard.	id107		S			Y
+1248880	1261360	I'm going to add a rectangle head, a body, a body, a hand, and feet, and legs.	id107		S		rectangle head, a body, a hand, and feet, and legs.	Y
+1262400	1262880	Yes.	id106		L			Y
+1264240	1268400	Why is it, this one is hard.	id106		L			Y
+1268400	1269440	Just take your best guess.	R					
+1270720	1272400	Tap what's on you think it is.	id107		S			Y
+1273600	1274080	Good job.	R	15				
+1274080	1280640	Um, I put this one in the, oh, this one's not hard.	id106		S			Y
+1283920	1285680	Tell me what you see in the black box.	R					
+1286480	1298640	Um, um, um, well a sad person and no arms and two legs and a body and no arms and a square head.	id106		S		a sad person and no arms and two legs and a body and a square head.	Y
+1302160	1302640	Good job.	R	16				
+1304800	1307680	Oh, this one's hard.	id107		S			Y
+1308720	1315280	It's, the person's, it's a bird and, and 	id107		S		the person, it’s a bird	Y
+1315840	1317440	No no no This is a train.	id106		L			Y
+1318960	1321440	It is a really fast train.	id106		L			Y
+1322080	1324800	It's a train and it's super fast.	id107		S		it’s a train and it’s super fast	Y
+1324800	1327440	And it goes really fast.	id106		L			Y
+1327440	1332640	And look, this is the coupling at the bottom and this is the coupling at the back.	id106		L			Y
+1332640	1335200	If that's the one you think it is, try to tap it.	R					
+1338880	1341680	Try to tap the one that you think it is, not the one you think it isn’t.	R	17				
+1346320	1348480	Your turn to explain what you think is in the black box.	R					
+1349120	1360400	Um, there was, um, one leg, um, and, and one foot, um, and then, and then a rectangle.	id106		S		one leg and one foot and then a rectangle	Y
+1361360	1377760	Um, uh, hand and the, and in the rectangle, in the triangle hand, um, and, uh, in the, in the rectangle arm, in the rectangle feet and then he’s holding a rectangle magnet tile	id106		S		 hand  and in the rectangle, in the triangle hand, n the rectangle arm, in the rectangle feet and then he’s holding a rectangle magnet tile	Y
+1387200	1390880	It's in the black.	id106		S			Y
+1390880	1392880	Good job.	R	18				
+1395360	1397360	This one's tricky.	id107		S			Y
+1400080	1405760	It has a rectangle head to a rectangle arm.	id107		S		a rectangle head to a rectangle arm	Y
+1405760	1409200	Oh, all right, plus this one and then it says yay.	id106	19	S			
+1410480	1412560	But he, he tapped it.	id107		L			
+1412560	1415840	He tapped it when, when I was not finished talking.	id107		L			
+1415840	1417920	Yeah, maybe let's wait for [id107] to finish talking.	R					
+1417920	1418960	Okay.	R					
+1418960	1420960	No, he has to do it.	id107		L			
+1422240	1434800	Um, I can see, uh, I can see some two legs and then the person walking and then the, and then no arms and a body.	id106		S		some two legs and then the person walking and then no arms and a body.	Y
+1435600	1443760	Um, and a tummy and a square face and then he sits his face down	id106		S		and a tummy and a square face and then he sits his face down	Y
+1444400	1446400	because he is sad.	id106		S		because he is sad	Y
+1450080	1452080	Now I'll have to grill him again.	id107	20	S			
+1458560	1460560	It's like you got it right though, right?	R					
+1460880	1462880	What has done?	R					
+1464880	1466880	Hmm, I'm not sure what it's doing though.	R					
+1467440	1470880	I'll have to ask teacher Bobby later.	R					
+1471840	1473840	Who's teacher Bobby?	id107		S			
+1473840	1475840	He's my boss.	R					
+1479840	1481840	I don't know if you guys know.	R					
+1483840	1486880	Oh, it's my turn to be the towel.	id106		L			
+1486880	1488880	I want to see.	id107		S			
+1488880	1490880	We'll try not to see.	R					
+1490880	1494880	But that's okay because that was our last round anyway, which means that we're done.	R					
+1496000	1498000	So you guys did a good job.	R					
+1498000	1500000	Thank you for playing my game with me.	R					
+1500160	1504160	I know it got stuck again.	R					
+1504160	1506160	I'm not sure why it's doing that.	R					
+1510160	1514160	Anyway, thanks for playing with me.	R					

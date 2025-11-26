@@ -1,0 +1,131 @@
+start	end	text	speaker	trial	role	echo	description	on_topic
+0	9000	Hi! Okay, now we're on camera. Thank you both so much for playing my game [id153] and [id154].	R					
+9000	16000	How are we doing today? Doing good. Thank you. Okay, so today we're going to play a really fun matching game.	R					
+16000	24000	Are you guys ready? Okay, but first we're going to practice touching our iPads by playing a really fun bubble popping game.	R					
+24000	30000	You guys like popping bubbles? Okay, so you're going to just touch all the bubbles on your iPads to make them pop.	R					
+30000	34000	And you're going to start by pressing the blue button in the middle of the screen. You guys ready?	R					
+34000	40000	Okay, you can touch it now. Go ahead, you can touch all the bubbles to make them pop.	R					
+40000	50000	Good job. Good job. Keep doing it. Keep popping them until you're gone.	R					
+50000	60000	Good job, [id153]. Good job, [id154]. Okay, really good job popping the bubbles.	R					
+60000	63000	Now I'm going to explain the matching game. Are you guys ready?	R					
+63000	69000	Okay, so in the game we're going to help our friend Smurfy. Do you guys want to say hi to Smurfy?	R					
+69000	78000	Hi, [id153]. 	R					
+		Hi Smurfy.	id153					
+		Hi, [id154]. Okay, so in the game you both are going to see on your screens pictures.	R					
+78000	83000	And one of you is going to see a black box around one of your pictures.	R					
+83000	91000	If you have the black box around one of your pictures, that means we need to tell Smurfy which one of the pictures is in the black box.	R					
+91000	96000	Okay, so if you see on your screen a black box around one of your pictures, that means you're the teller.	R					
+96000	104000	And you're going to tell Smurfy what you see. If you're the person who's holding Smurfy, that means you're not going to see any black boxes on your screen.	R					
+104000	111000	And that means that you're the guesser. And so you're going to help Smurfy guess which picture has the black box around it.	R					
+111000	116000	Okay? If you and Smurfy guess the picture right, you're going to see a smiley face.	R					
+116000	125000	If you guys guess the picture wrong, you'll see a frowny face. But that's okay because you'll have lots of chances to help Smurfy guess which picture has the blocks around it.	R					
+125000	133000	Okay? So we're going to take turns guessing and telling. So if you have the black box around your picture, do you remember what we're going to do?	R					
+133000	138000	We're going to tell Smurfy what we see in the box, okay?	R					
+138000	146000	And if you're holding Smurfy, that means you're the guesser. And you're going to guess which picture has the box around it.	R					
+146000	152000	Okay? Are we ready to play? Okay. You can both tap on the blue box to start.	R					
+152000	158000	And we'll see. Oh, it's time to start. Who has the black box around one of their pictures?	R					
+158000	164000	That's you, [id154]. So you're going to be the teller. And then you're going to be the one helping Smurfy.	R	1				
+164000	174000	You're going to be the guesser to guess which picture has the box. Okay, so [id154], you can tell [id153] which picture has the black box around it.	R					
+174000	182000	Can you explain it to him? What do you see in the black box?	R					
+		An apple.	id154		S		an apple	Y
+		Apple.	id153		L			Y
+182000	193000	Can you help Smurfy touch which one? You have to touch it with your finger.	R					
+194000	200000	Oh, that's okay. Just remember, hear what she says about which picture has the black box. But now it's your turn to tell.	R	2				
+200000	207000	Okay? So it's [id153]'s turn to tell which picture has the black box and it's your turn to guess, [id154].	R					
+207000	209000	The apple.	id153		S			
+209000	217000	Tell her which picture has the black box around it. Tell [id154] and Smurfy.	R					
+217000	222000	The dog.	id153		S		the dog	Y
+222000	233000	Yay! Good job! Nice job! Okay, now you're the guesser, [id153], and you're the teller, [id154].	R	3				
+233000	238000	So you're going to tell [id153] which picture has the black box around it. Describe it to him.	R					
+238000	245000	Um, a star. 	id154		S		a star	Y
+245000	250000	Oh, that's okay. We can keep guessing. Okay, so now...	R					
+		Mine was the action	id154		S			
+251000	255000	Oh, it's okay. We'll keep trying to guess the answer, right? Yeah?	R	4				
+255000	259000	So you're going to be the guesser now with Smurfy. You're going to help [id153].	R					
+259000	265000	And you're going to be the teller, [id153]. So you're going to tell Smurfy and [id154] which one of the pictures has the black box.	R					
+265000	269000	The star.	id153		S		the star	Y
+269000	272000	Good job! You guys got it right!	R	5				
+272000	278000	Okay, so now we're going to switch turns. So now you're the guesser, [id153], and you're the teller, [id154].	R					
+278000	282000	So you're going to tell [id153] and Smurfy which picture has the black box.	R					
+282000	286000	Um...	id154		S			
+286000	289000	Yeah, describe it.	R					
+289000	291000	What do you see in that picture?	R					
+291000	297000	Um, a minute box.	id154		S		a minute box	Y
+297000	299000	Oh!	R					
+299000	302000	That's okay. We'll keep describing to each other.	R	6				
+302000	307000	Okay, now you're going to be the guesser, [id154], and you'll be the teller, [id153].	R					
+307000	311000	So you tell [id154] and Smurfy what you see in the black box.	R					
+314000	317000	You have to describe to them. So tell them what you see in there.	R					
+317000	322000	Um, the walking and the elf.	id153		S		the walking and the elf	Y
+		Which one?	id154		L			Y
+325000	327000	Pick which one you think.	R					
+328000	331000	Good job! Great job, [id154].	R	7				
+331000	338000	Okay, so now Smurfy's going to go here, you're the guesser, now [id153], and you're the teller, [id154].	R					
+338000	341000	Um, it's...	id154		S			
+341000	344000	Tell them what you see in the box.	R					
+344000	347000	Um, I don't know.	id154		S			Y
+347000	350000	What do you think it looks like?	R					
+350000	359000	It looks like...it looks like...it looks like a box.	id154		S		a box	Y
+359000	362000	Inside the box, what do you see?	R					
+		Umm, house.	id154		S		house	Y
+367000	369000	Good job! Nice!	R	8				
+369000	370000	I was happy.	id153		S			
+370000	372000	You guys are doing such a good job.	R					
+372000	377000	Okay, so now you're the guesser with Smurfy, and you're the teller, [id153].	R					
+377000	380000	You're going to tell them what you see in the black box.	R					
+380000	382000	You have to tell them what you see in there.	R					
+382000	384000	What does it look like?	R					
+384000	386000	An elf and a rock.	id153		S		an elf and a rock	Y
+390000	391000	Yay!	R					
+391000	392000	Yay! Good job!	R	9				
+392000	397000	Okay, now you're the guesser, [id153], with Smurfy, and you're the teller, [id154].	R					
+397000	400000	So you're going to tell [id153] and Smurfy what you see in your box.	R					
+400000	402000	A person.	id154		S		a person	Y
+404000	407000	Yay! Good job! You guys are doing such a good job.	R	10				
+407000	411000	Okay, now you're the guesser, [id154], with Smurfy, and [id153].	R					
+411000	415000	Now you're going to tell [id154] and Smurfy what you see in your box.	R					
+416000	422000	I see a flag and a machine.	id153		S		a flag and a machine	Y
+425000	427000	Oh, that's okay. We'll try again to get it right.	R	11				
+427000	432000	Okay, so now you're the guesser, [id153], with Smurfy, and [id154], you're the teller.	R					
+432000	435000	So tell them what you see in the box.	R					
+435000	444000	It looks like two things, and then it makes, and then it does that that and this. 	id154		S		two things, and then it makes and then it does that that and this	Y
+448000	451000	Oh, that's okay. That's alright. We'll try again.	R	12				
+451000	453000	Just remember to listen to what she says, alright?	R					
+453000	457000	Okay, now you're going to be the guesser, and you're going to be the teller, [id153].	R					
+457000	460000	So tell [id154] and Smurfy what you see in your box.	R					
+460000	471000	I see a, I see a white L, and a silver here, and an L over here.	id153		S		a white L and a silver here and an L over here	Y
+476000	479000	Oh, that's okay. We'll try again, okay?	R	13				
+479000	483000	Alright, so now you're going to be the guesser, [id153], and you're going to be the teller.	R					
+483000	486000	[id154], so tell [id153] and Smurfy what you see in your box.	R					
+486000	487000	A person.	id154		S		a person	Y
+491000	493000	Yay, good job!	R	14				
+493000	497000	Okay, now you're the guesser, [id154], and you're the teller, [id153].	R					
+497000	499000	So tell them what you see in your box.	R					
+499000	503000	I see a an L right here and a flag  right here.	id153		S		an L right here and a flag right here	Y
+503000	505000	Just in the box, okay?	R					
+505000	507000	So whatever's in the box, you'll explain.	R					
+507000	508000	An L. 	id153		S		an L	Y
+511000	514000	Yay, good job!	R	15				
+514000	519000	Okay, now you're the guesser, [id153], with Smurfy, and you're the teller, [id154].	R					
+		um um um it’s some stuff	id154		S		some stuff	Y
+528000	530000	Did you hear what she said?	R					
+530000	532000	Whoa!	R					
+532000	534000	Yay! Good job!	R	16				
+534000	540000	Okay, now Smurfy. You're going to be with [id154], you're the guesser, and now you're the teller, [id153].	R					
+540000	542000	So tell them what you see just in the black box.	R					
+542000	544000	A flag.	id153		S		a flag	Y
+547000	549000	Yay, good job!	R	17				
+549000	555000	Okay, I'm going to take Smurfi from you. Now you're going to be the guesser, [id153], and you're the teller, [id154].	R					
+555000	561000	um um on the right [incomprehensible] there’s a line [incomprehensible]	id154		S		on the right there’s a line	Y
+564000	565000	Oh!	R					
+565000	567000	Good job! Nice job!	R					
+567000	573000	Okay, now you're the guesser, [id154], and you're the teller, [id153]. So tell them what you see just in the black box.	R	18				
+573000	575000	Um, an L.	id153		S		an L	Y
+579000	586000	Yay! Good job! Okay, now you're going to be the guesser, [id153], and you're the teller, [id154].	R	19				
+586000	589000	um um um there’s something	id154		S		something	Y
+592000	595000	Yay! You guys are doing such a great job.	R	20				
+595000	599000	Okay, now you're the guesser, [id154], and you're the teller, [id153].	R					
+599000	603000	I see a flag on a people and a gap.	id153		S		a flag on a people and a gap	Y
+604000	609000	Oh, that's okay. We'll try again, okay?	R					
+609000	615000	We finished! Good job! Give me high five, both of you. You guys did such a good job!	R					
+615000	619000	Okay, I'm going to turn off the camera really quick, okay? Then we can go back to class.	R					

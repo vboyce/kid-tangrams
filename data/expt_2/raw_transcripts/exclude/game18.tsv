@@ -1,0 +1,425 @@
+start	end	text	speaker	trial	role	echo	description	on_topic
+5500	7180	We are gonna play a fun matching game,	R					
+7180	8340	but before we do that,	R					
+8340	11140	we're gonna practice tapping on the screens, okay?	R					
+11140	14020	So, we're gonna play a fun bubble game,	R					
+14020	15900	and you guys can tap on the blue button	R					
+15900	17100	on your screen to start.	R					
+20660	21860	Awesome.	R					
+21860	22940	Perfect.	R					
+22940	25100	And now you can pop all the bubbles.	R					
+25100	26660	I popped the bubbles.	id64					
+26660	27500	Yay!	id64					
+28500	29500	Awesome.	R					
+29500	30500	Keep going.	R					
+34500	36500	Good job, [id64].	R					
+37500	39500	Keep going, [id63].	R					
+39500	40500	I can't.	id64					
+40500	41500	That's okay, [id64].	R					
+41500	43500	We're gonna wait for [id63] to finish, okay?	R					
+43500	45500	Then it's my turn.	id64					
+45500	46500	Yeah.	R					
+51500	53500	Good job, [id63].	R					
+53500	54500	Almost there.	R					
+58500	59500	Awesome.	R					
+59500	60500	Okay.	R					
+60500	64500	So, today I'm gonna explain my matching game.	R					
+64500	66500	We are going to play a game,	R					
+66500	68500	and this is my friend, Smurphy.	R					
+68500	69500	You wanna say hi?	R					
+69500	70500	Hi, Smurphy.	id64					
+70500	71500	Hi, [id64].	R					
+71500	72500	Hi, Smurphy.	id63					
+72500	74500	Hi, [id63].	R					
+74500	77500	So, today your job is to help Smurphy	R					
+77500	79500	in this matching game, okay?	R					
+79500	82500	So, on your screen, you're gonna see two pictures.	R					
+82500	86500	One picture is gonna have a black box around it,	R					
+86500	88500	and one of you guys will have that black box.	R					
+88500	90500	If you have the black box,	R					
+90500	93500	you're going to tell Smurphy what you see in the box.	R					
+93500	95500	If you don't have the black box,	R					
+95500	97500	you're gonna be holding Smurphy,	R					
+97500	100500	and your job is to guess what is in the black box,	R					
+100500	102500	and you're gonna help Smurphy guess, okay?	R					
+103500	104500	Okay.	id64					
+104500	105500	Okay, wait.	R					
+105500	106500	Don't get started yet.	R					
+106500	107500	So, we're gonna recap.	R					
+107500	109500	If you have a black box, what do you do?	R					
+112500	113500	You tell.	R					
+113500	114500	So, if you have a black box,	R					
+114500	117500	you're gonna tell Smurphy what's in the black box,	R					
+117500	118500	what you see.	R					
+118500	120500	And then if you are holding Smurphy,	R					
+120500	121500	what are you gonna do?	R					
+121500	122500	Guess.	id64					
+122500	123500	You're gonna guess.	R					
+123500	124500	Good job.	R					
+124500	125500	Are you guys ready to get started?	R					
+125500	126500	Okay.	R					
+126500	127500	We're gonna switch back and forth.	R					
+127500	130500	So, you're gonna take turns telling and guessing.	R					
+130500	131500	That's okay.	R					
+131500	133500	Let's just wait for one second, okay?	R					
+135500	137500	We're gonna take turns telling and guessing,	R					
+137500	140500	and then after that, if you get it right,	R					
+140500	141500	you're gonna see a smiley face,	R					
+141500	143500	and if you don't, you're gonna see a frowny face.	R					
+143500	145500	But that's okay because we're gonna have many opportunities	R					
+145500	148500	to help Smurphy get the right answer, okay?	R					
+148500	150500	Okay, go ahead and press the blue button.	R	1				
+153500	154500	Awesome.	R					
+154500	155500	Okay, who has a black box?	R					
+155500	156500	Me.	id64		S			
+156500	157500	Okay, so what are you gonna do?	R					
+157500	158500	I see.	id64		S			
+158500	159500	You're gonna...	R					
+159500	160500	I see.	R					
+160500	161500	Wait.	R					
+161500	162500	Oh, you're gonna tell.	R					
+162500	163500	[id63], you have Smurphy.	R					
+163500	164500	You can hold Smurphy.	R					
+164500	166500	And then you're gonna guess.	R					
+166500	169500	So, [id64], have a seat for me, please.	R					
+169500	170500	Awesome.	R					
+170500	171500	I see a blue.	id64		S			
+171500	172500	Okay, you see a...	R					
+172500	173500	Go ahead.	R					
+173500	175500	Tell [id63] what you see.	R					
+175500	177500	I see a banana.	id64		S		a banana	Y
+177500	178500	So, [id63], you're gonna tap the one,	R					
+178500	180500	the picture that you think it is.	R					
+181500	182500	Yay!	R					
+182500	183500	Awesome!	R	2				
+183500	185500	Okay, now you guys are gonna switch.	R					
+185500	186500	And [id63], you're gonna tell [id64]	R					
+186500	188500	what you see in the black box.	R					
+194500	197500	You can tell [id64] what you see in the black box.	R					
+197500	199500	I see a dog.	id63		S		a dog	Y
+202500	203500	That's okay.	R	3				
+203500	206500	We're gonna switch.	R					
+206500	209500	Now it's [id64]'s turn to tell.	R					
+209500	212500	I see a house.	id64		S		a house	Y
+212500	213500	Yay!	R	4				
+213500	214500	Okay.	R					
+214500	218500	[id63], now it's your turn to tell.	R					
+223500	225500	[id63], tell [id64] what you see in the black box.	R					
+225500	227500	I see a tree.	id63		S		a tree	Y
+227500	229500	Do I press the tree?	id64		L			Y
+229500	231500	You're gonna press what you think [id63]	R					
+231500	233500	sees in the black box.	R					
+		Is it this one or this one?	id64		L			Y
+237500	238500	Keep going, [id63].	R					
+238500	240500	What do you see in the black box?	R	5				
+240500	243500	Wait for [id63] to tell you, okay?	R					
+243500	244500	That's okay.	R					
+244500	245500	We're gonna switch now.	R					
+245500	247500	So, now you're gonna tell [id63]	R					
+247500	249500	what you see in the black box.	R					
+249500	254500	I think I see a jumping person.	id64		S		a jumping person	Y
+257500	258500	That's okay.	R	6				
+258500	262500	Okay, now it's [id64]'s turn to guess.	R					
+262500	264500	So, [id63], you're gonna tell [id64]	R					
+264500	265500	what you see in the black box.	R					
+265500	272500	I see a people holding a hat.	id63		S		a person holding a hat	Y
+274500	275500	This one?	id64		L			Y
+275500	276500	Guess.	R					
+278500	280500	Just try your best guess.	R					
+280500	283500	Whatever you think [id63] sees.	R					
+283500	285500	If you want [id63] to describe more,	R					
+285500	286500	you can ask her.	R					
+286500	287500	Should we ask her?	R					
+288500	290500	[id63], can you describe a little bit more	R					
+290500	292500	what you see in the black box?	R					
+292500	296500	Okay, the black box has a people inside,	id63		S			Y
+296500	303500	but it also has a hat holding it in the hand.	id63		S			Y
+303500	305500	This is this one?	id64		L			Y
+305500	307500	Make your best guess.	R					
+317500	318500	That's okay.	R	7				
+318500	319500	We'll keep trying.	R					
+319500	320500	Good job.	R					
+320500	322500	Okay, now it's your turn to tell [id63].	R					
+322500	326500	I see somebody walking, walking, walking	id64		S		somebody walking	Y
+326500	331500	with a square head,	id64		S		with a square head	Y
+331500	333500	with a square head,	id64		S			Y
+333500	336500	not the diamond one,	id64		S		not the diamond one	Y
+336500	344500	and he has the giant top	id64		S		and he has the giant top	Y
+344500	347500	and the rectangle legs	id64		S		and the rectangle legs	Y
+347500	349500	and the triangle shoes.	id64		S		and the triangle shoes	Y
+349500	351500	Okay, [id63], make your best guess.	R					
+351500	352500	Yay!	R	8				
+352500	354500	Good job.	R					
+354500	355500	Awesome.	R					
+355500	358500	Now it's [id63]'s turn to tell you what she sees.	R					
+358500	365500	I see kind of like a car,	id63		S		Kind of like a car	Y
+365500	369500	but it's actually like a boat.	id63		S		but it’s actually like a boat	Y
+374500	377500	Which one do you think [id63] is describing, [id64]?	R					
+377500	378500	Tap on it.	R					
+380500	382500	[id63], can you say that again?	R					
+382500	386500	I think a car kind of...	id63		S			Y
+386500	387500	Which one?	id64		L			Y
+387500	389500	Which head does it have?	id64		L			Y
+389500	391500	The square one or the diamond one?	id64		L			Y
+391500	393500	The diamond one.	id63		S		the diamond one	Y
+393500	394500	This one?	id64		L			Y
+394500	395500	Yeah.	id63		S			Y
+398500	399500	That's okay.	R					
+399500	401500	We're going to keep trying.	R	9				
+401500	402500	Good job.	R					
+402500	405500	Okay, now [id64], it's your turn to tell what's in the black box.	R					
+405500	410500	It's the one that's holding a hat	id64		S		the one that’s holding a hat	Y
+410500	413500	and it has a	id64		S			Y
+413500	416500	and an earring.	id64		S		it has an earing	Y
+416500	423500	It's the one that's holding a triangle.	id64		S		the one that’s holding a triangle	Y
+423500	425500	Awesome.	R	10				
+425500	427500	Good job.	R					
+427500	429500	Okay, now it's [id63]'s turn.	R					
+429500	431500	I see a square head.	id63		S		a square head	Y
+431500	432500	That's okay.	R					
+432500	433500	Keep trying.	R					
+433500	436500	I see a square head,	id63		S			Y
+436500	440500	a rectangle with a rectangle,	id63		S		a rectangle with a rectangle	Y
+440500	444500	a head, a head, a head,	id63		S			Y
+444500	447500	and a triangle,	id63		S		and a triangle	Y
+447500	449500	and a one,	id63		S			Y
+449500	451500	and a,	id63		S			Y
+451500	452500	and a diamond left and the feet are triangles	id63		S		and a diamond left and the feet are triangles	Y
+460500	465500	Do you see the both feet	id64		L			Y
+465500	468500	or just one of the feet?	id64		L			Y
+468500	471500	Just the both feets.	id63		S		the both feets	Y
+471500	472500	Okay.	id64		L			Y
+472500	474500	Is it this one or this one?	id64		L			Y
+474500	478500	Is it on this side or this side?	id64		L			Y
+		This side.	id63		S			Y
+478500	480500	You're going to guess	R					
+480500	481500	based on what she says,	R					
+481500	483500	not based on what side, okay?	R					
+483500	484500	So [id63],	R					
+484500	485500	repeat what you said	R					
+485500	487500	about what the picture looks like.	R					
+487500	489500	[id64], pay attention to what [id63] is saying.	R					
+489500	493500	The head is a square,	id63		S			Y
+493500	497500	and the body is a rectangle,	id63		S		the body is a rectangle	Y
+497500	505500	and one red is triangle,	id63		S		one red is triangle	Y
+505500	509500	and the other one is rectangle,	id63		S		the other one is rectangle	Y
+509500	518500	and the feet are triangles.	id63		S			Y
+518500	519500	Okay, [id64].	R					
+519500	521500	You have to make your best guess.	R					
+521500	527500	Whichever one you think that [id63] is describing.	R					
+527500	528500	Okay, tap on that one	R					
+528500	532500	if that's the one you think it is.	R					
+532500	533500	I don't know.	id64		L			Y
+533500	534500	That's okay.	R					
+534500	535500	Just make your best guess.	R					
+535500	536500	We'll have many opportunities	R					
+536500	539500	to help Smurphy, okay?	R					
+539500	544500	I'm having a hard time thinking.	id64		L			
+544500	546500	That's okay.	R					
+546500	547500	Let's just tap on.	R					
+547500	549500	Tap on the one that you think it is,	R					
+549500	550500	and then we'll switch,	R					
+550500	552500	and maybe you can help Smurphy	R					
+552500	558500	by telling him a good answer.	R					
+558500	560500	Let's just make our best guess.	R					
+560500	570500	Just tap on one of them.	R					
+570500	573500	That's okay, [id64].	R					
+573500	575500	I'm having a very hard time.	id64		L			
+575500	576500	That's okay.	R					
+576500	587500	Let's just pick on one.	R					
+587500	588500	Good job!	R					
+588500	589500	You did it!	R	11				
+589500	591500	Okay, now it's your turn to tell [id63]	R					
+591500	595500	what's in the box now.	R					
+595500	602500	Okay, it's with a diamond head,	id64		S		with a diamond head	Y
+602500	610500	and kind of looking like a heart body,	id64		S		a heart body	Y
+610500	622500	and it also has jumping.	id64		S		it also has jumping	Y
+622500	624500	Okay, [id63], make your best guess.	R					
+624500	626500	Good job!	R	12				
+626500	629500	Okay, now it's your turn to guess, [id64].	R					
+630500	635500	Is it the lying down one or the walking one?	id64		L			Y
+635500	638500	Let's have [id63] tell us what she sees.	R					
+638500	655500	I see a square head and triangle neck,	id63		S		a square head and triangle neck	Y
+655500	661500	and the hand is rectangle,	id63		S		and the hand is rectangle	Y
+661500	664500	and the shoes are,	id64		L			Y
+664500	669500	and once she was actually kind of like,	id64		L			Y
+669500	672500	not attached.	id64		L			Y
+672500	681500	Okay, if you know which one it is, tap on it.	R					
+681500	683500	Good job!	R	13				
+683500	684500	Yay, I did it!	id64		S			
+684500	685500	Awesome, [id64].	R					
+685500	687500	Okay, now you're going to help Smurfy and [id63]	R					
+687500	690500	guess which one is in your box.	R					
+690500	692500	So tell them what you see in your box.	R					
+692500	697500	It's the one with the square head,	id64		S		the one with the square head	Y
+697500	702500	and it's no, and it's unjumping,	id64		S		And it’s un-jumping	Y
+702500	705500	and it's unjumping,	id64		S			Y
+705500	711500	and it has the triangle shoes,	id64		S		And it has the triangle shoes	Y
+711500	721500	and it has the unkind of heart shape.	id64		S		and it has the un-kind of heart shape	Y
+721500	726500	Unkind of, and it's short,	id64		S		and it’s short	Y
+726500	728500	and it's hot,	id64		S		and it’s hot	Y
+728500	729500	and it's short.	id64		S			Y
+729500	731500	It's not kind of like a heart.	id64		S			Y
+731500	734500	Okay, [id63], make your best guess.	R					
+734500	736500	Which one do you think it is?	R					
+736500	738500	That's okay.	R	14				
+738500	740500	We'll get another turn right now.	R					
+740500	743500	Okay.	R					
+743500	749500	I see a square head,	id63		S		a square head	Y
+749500	755500	and the neck is triangle,	id63		S		and the neck is triangle	Y
+755500	766500	and the mouth is rectangle,	id63		S		and the mouth is rectangle	Y
+766500	783500	and the tail is triangle,	id63		S		and the tail is triangle	Y
+783500	790500	and there's a feet not connected.	id63		S		and there’s a feet not connected	Y
+790500	792500	So one feet is going up,	id63		S		so one feet is going up	Y
+792500	795500	and one feet is lying down.	id63		S		and one feet is lying down	Y
+795500	797500	I think it's this one.	id64		L			Y
+797500	800500	Oh, it's mystery.	id64		L			
+800500	802500	Oh, I think it's loading.	R					
+802500	805500	Let's give it five seconds.	R					
+805500	809500	I need five seconds to answer me.	id64		L			
+809500	813500	I need five seconds.	id64		L			
+813500	820500	I need five seconds.	id64		L			
+820500	827500	Does your screen still say that?	R					
+827500	829500	Now tell.	id64		L			
+829500	830500	Awesome.	R					
+830500	831500	Now it's your turn to tell [id63].	R					
+831500	838500	It's working now.	R					
+838500	840500	Tell [id64]h what you see in the black box.	R					
+840500	841500	Now.	id64		L			
+841500	843500	I'm not doing it.	id64		L			
+843500	844500	Now.	id64		L			
+844500	845500	Now.	id64		L			
+845500	846500	Now he's doing it.	id64		L			
+846500	849500	Yeah, now it's Murphy's turn to guess.	R					
+849500	852500	But [id63] has to tell you what she sees in the black box.	R					
+852500	853500	No, it's Murphy.	id64		L			
+853500	855500	So it's Murphy, okay.	R					
+855500	859500	I see a square head,	id63		S			Y
+859500	864500	and a triangle neck,	id63		S			Y
+864500	867500	and a rectangle,	id63		S			Y
+867500	869500	and a pan,	id63		S			Y
+869500	872500	and kind of like...	id63		S			Y
+872500	877500	Okay, now I'm not doing it, Smurfy is now.	id64		L			Y
+877500	881500	Well, you have to help Murphy,	R					
+881500	883500	because Murphy can't tap the iPad.	R					
+883500	886500	So you have to help Murphy tap which one you think it is.	R					
+886500	888500	Go ahead and tap it, [id64]h.	R					
+888500	892500	Okay, I'm going to...	id64		L			
+892500	894500	Okay, Murphy's doing it.	id64		L			
+894500	896500	I'm not doing it.	id64		L			
+896500	900500	I think it's this one.	id64		L			Y
+900500	901500	Yay!	R					
+901500	902500	Good job.	R	15				
+902500	904500	He did the right one.	id64		S			
+904500	906500	Murphy did the right one.	R					
+906500	908500	Okay, now it's your turn to tell [id63].	R					
+908500	910500	I'm...	id64		S			
+911500	912500	Let's use our words, okay,	R					
+912500	914500	instead of our hands.	R					
+914500	917500	The shirt looks like,	id64		S		the shirt looks like	Y
+917500	922500	kind of looks like a heart again.	id64		S		a heart 	Y
+922500	924500	Go ahead and pick it up.	R					
+924500	927500	And it has a diamond head.	id64		S		it has a diamond head	Y
+927500	930500	Oh, this time it's going to get a little tricky.	id64		S			Y
+930500	933500	Okay, and it has a diamond head,	id64		S			Y
+933500	936500	and it's jumping.	id64		S		and it’s jumping	Y
+936500	938500	Yay!	R	16				
+938500	940500	Good job, [id63].	R					
+940500	942500	Now Murphy's going to do it again.	id64		L			
+942500	944500	Okay, now Murphy's going to guess again,	R					
+944500	945500	and [id63]'s going to tell Murphy	R					
+945500	948500	what is in the black box.	R					
+948500	955500	It has a...	id63		S			
+955500	957500	I'm getting better.	id64		L			
+957500	959500	Yeah.	R					
+959500	963500	Earlier I always had no watch,	id64		L			
+963500	968500	but then now I'm getting better.	id64		L			
+968500	969500	Yeah.	R					
+969500	972500	Okay, listen to what [id63] sees.	R					
+972500	980500	I see the pad is like a square,	id63		S		the pad is like a square	Y
+980500	986500	but it is just the pointy side	id63		S		but it is just the pointy side	Y
+986500	988500	and connected to the neck,	id63		S		and connected to the neck	Y
+988500	994500	and the hand is kind of like straight,	id63		S		and the hand is kind of like straight	Y
+994500	996500	and the...	id63		S			Y
+996500	998500	Now it's Murphy's feeling.	id64		L			
+998500	999500	Okay.	R					
+999500	1002500	And then she is holding the hand,	id63		S		she is holding the hand	Y
+1002500	1012500	and the body is kind of going a little bit like...	id63		S		and the body is going	Y
+1012500	1014500	I think.	id64		L			Y
+1014500	1024500	And the feet is made is like triangle	id63		S		and the feet is triangle	Y
+1026500	1035500	Okay, Murphy's turn to guess which one is in the black box.	R					
+1035500	1036500	That's okay.	id64	17	S			
+1036500	1039500	That's okay, because we'll get another turn after that.	R					
+1039500	1041500	But now you're going to help Murphy	R					
+1041500	1043500	by telling Murphy what you see.	R					
+1043500	1046500	I see the one.	id64		S			Y
+1046500	1051500	It's actually a square shaped head,	id64		S		a square shaped head	Y
+1051500	1054500	and it's kind of...	id64		S			Y
+1054500	1058500	It's on that side, and...	id64		S			Y
+1058500	1061500	And it has...	id64		S			Y
+1061500	1064500	And it's feet.	id64		S			Y
+1064500	1067500	You can see both of the feet,	id64		S		you can see both of the feet	Y
+1067500	1070500	and you could...	id64		S			Y
+1070500	1076500	And...	id64		S			Y
+1076500	1084500	And it has the giant tail.	id64		S		and it has the giant tail	Y
+1084500	1087500	Now it's Murphy's turn to guess.	id64		S			
+1087500	1090500	Tap one more time.	R					
+1090500	1092500	One more time.	R					
+1092500	1093500	There you go.	R	18				
+1093500	1094500	Yep.	R					
+1094500	1096500	Yay, I'm getting better at this.	id64		L			
+1096500	1097500	You are.	R					
+1097500	1099500	Okay, now Murphy's turn to guess.	R					
+1099500	1101500	You are, [id63].	R					
+1101500	1105500	Okay, now tell Murphy what you see inside the box.	R					
+1105500	1106500	Okay.	R					
+1106500	1107500	I see.	id63		S			Y
+1107500	1109500	Now Murphy's doing it.	id64		L			
+1109500	1111500	Okay, but Murphy has to pay attention, okay?	R					
+1111500	1117500	I see a square,	id63		S		a square 	Y
+1117500	1119500	but the head,	id63		S		but the head	Y
+1119500	1123500	but the pointy side is kind of to the neck,	id63		S		but the pointy side is kind of to the neck	Y
+1123500	1128500	so it kind of likes a heart shape,	id63		S		a heart shape	Y
+1128500	1136500	and the legs are like triangles.	id63		S		and the legs are like triangles	Y
+1136500	1137500	Good job.	R					
+1137500	1139500	Okay, Murphy's turn to guess.	R					
+1139500	1141500	I think it's this one.	id64		L			
+1141500	1143500	No, I think it's this one.	id64		L			
+1143500	1145500	Okay, now tap the one you think it is.	R					
+1149500	1151500	Yay!	R	19				
+1151500	1153500	Good job.	R					
+1153500	1157500	Okay, now you can help Murphy by telling, [id64],	R					
+1157500	1159500	and [id63]'s going to guess.	R					
+1159500	1164500	It's holding a triangle, kind of.	id64		S		holding a triangle	Y
+1164500	1168500	It's a triangle that's upside down.	id64		S		a triangle that’s upside down	Y
+1168500	1170500	Keep using your words, okay, [id64]?	R					
+1170500	1175500	It's holding a triangle like this.	id64		S			Y
+1175500	1176500	Keep using your words.	R					
+1176500	1178500	That's a clue.	id64		S			Y
+1178500	1180500	Okay, [id63], guess which one you want to guess.	R					
+1180500	1186500	And it's actually the diamond head.	id64		S		the diamond head	Y
+1186500	1188500	Tap on it.	R					
+1188500	1190500	One more time.	R					
+1190500	1193500	One more time.	R					
+1193500	1195500	Tap right here, that's the one you think.	R					
+1195500	1197500	Yay!	R	20				
+1197500	1199500	[id63] did it.	id64		L			
+1199500	1200500	Okay.	R					
+1200500	1201500	Good job.	id64		L			
+1201500	1202500	Now you're going to guess again.	R					
+1202500	1204500	Now Murphy's going to do it again.	id64		L			
+1204500	1206500	Yeah, Murphy's going to do it.	R					
+1206500	1211500	But Murphy has to listen because [id63]'s going to tell what is in the box.	R					
+1211500	1215500	I see a square box and a triangle,	id63		S		a square box and a triangle	Y
+1215500	1220500	and a rectangle here,	id63		S		and a rectangle here	Y
+1220500	1225500	and a triangle here.	id63		S		and a triangle here	Y
+1235500	1240500	With feet and the other one is upside down,	id63		S		with feet and the other one is upside down	Y
+1240500	1243500	and it's laying down.	id63		S		and it’s laying down	Y
+1243500	1246500	I think it's this one.	id64		L			Y
+1246500	1248500	Yay!	R					
+1248500	1252500	Okay, it was that one.	id64		L			
+1252500	1255500	Okay, thank you so much friends for playing with my games.	R					
+1255500	1256500	I got the sprinkles.	id64		L			
+1256500	1259500	You guys did so good.	R					
+1259500	1261500	Did you get the sprinkles?	id64		L			
+1261500	1265500	Yeah, we both got sprinkles.	id64		L			

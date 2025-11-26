@@ -1,296 +1,292 @@
-start,end,text,,,,speaker
-0,1280,Camera.,,,,M
-1280,2120,Hi.,,,,M
-2120,3440,Great.,,,,M
-3440,4280,All right.,,,,M
-5400,7680,"All right, you're about to finish setting up",,,,M
-7680,8560,and we have good to go.,,,,M
-10840,12040,What do you do with this?,,,,M
-12040,14360,We'll show you in just a minute.,,,,M
-14360,16400,"[id12], were you painting today?",,,,M
-16400,17800,Were you coming with markers?,,,,M
-20560,23040,"All right, so now we can show you.",,,,M
-23040,25880,So today we're gonna play a super duper fun,,,,M
-25880,27280,of a matching game.,,,,M
-27280,28640,"Let us show you how, oops,",,,,M
-28640,29840,is [id11]'s messing up?,,,,M
-29840,30680,"Oh, no.",,,,I
-30680,31960,"Okay, great.",,,,M
-32840,34840,We're gonna play a super duper fun matching game.,,,,M
-34840,36440,Let us show you how it works.,,,,M
-36440,41440,"Now this, my friends, is going to be Smurphy, okay?",,,,I
-41720,44760,And Smurphy is a very mysterious little creature.,,,,I
-44760,47040,What does he look like to you?,,,,I
-47040,47880,Wolf.,,,,id11
-47880,48720,A wolf.,,,,I
-48720,50760,What does he look like to you?,,,,I
-50760,51600,A bear.,,,,id12
-51600,52440,A bear.,,,,I
-52440,53880,"Okay, so now we have Smurphy,",,,,I
-53880,56760,"who's kind of half wolf, half bear.",,,,I
-56760,60160,"And he really, really wants to play this matching game today.",,,,I
-60160,62080,"Okay, will you help him?",,,,I
-62080,63320,"Yeah, okay.",,,,I
-63320,65480,"So, you may ask, right?",,,,I
-65480,67640,How are we going to help Smurphy?,,,,I
-67640,69360,"Now, with this matching game,",,,,I
-69360,74440,"you guys will see two pictures on your screen, okay?",,,,I
-74440,77960,And you will be in charge of helping Smurphy guess,,,,I
-77960,82560,"which picture is in the black box, okay?",,,,I
-82560,84840,"So if you don't have Smurphy,",,,,I
-84840,88960,you will be in charge of telling Smurphy and your friend,,,,I
-88960,91200,what you see in the black box.,,,,I
-91200,93840,"Yeah, if you do have Smurphy though,",,,,I
-93840,96760,"you will help Smurphy guess, okay?",,,,I
-96760,98680,"Okay, I don't really understand.",,,,id11
-98680,99520,We'll show you.,,,,M
-99520,101240,"We'll show you how it works, okay?",,,,M
-101240,103440,"So, what's gonna happen though?",,,,M
-103440,107240,"So, you both are gonna have two pictures on your screen.",,,,M
-107240,109320,One of you at the time is gonna have a black box,,,,M
-109320,110880,around one of those pictures.,,,,M
-110880,114760,"So, if our friend [id12] has the picture with the black box,",,,,M
-114760,115960,you'll have Smurphy.,,,,M
-115960,118640,And [id12] will tell you what's in the black box,,,,M
-118640,120880,so you can help Smurphy guess.,,,,M
-120880,123680,"And we'll show you in just a minute, just double check, okay?",,,,M
-123680,125480,"So, when you're ready to make your guess,",,,,M
-125480,128080,"you're gonna just touch on it on the screen, tap on the screen,",,,,M
-128080,129880,and then you're gonna see a picture.,,,,M
-129880,132240,"If you see the smiley face, it was a match.",,,,M
-132240,134320,"Great job, you helped Smurphy.",,,,M
-134320,137600,"If you see the sad face, that means it wasn't a match.",,,,M
-137600,140320,"But it's okay, you guys can help Smurphy next time.",,,,M
-140320,142240,Do you guys have any questions?,,,,M
-142240,144720,"Well, I don't understand about the matching.",,,,id11
-144720,146480,"Okay, we'll show you with the next one",,,,M
-146480,147320,so that we can make it.,,,,M
-147320,148520,And you can put out any other questions,,,,M
-148520,149920,"afterwards, just let us know, okay?",,,,M
-149920,150760,Yeah.,,,,M
-150760,152080,"Okay, does that sound good, [id12]?",,,,M
-152080,153400,"All right, let's try it out.",,,,M
-153400,155360,Go ahead and touch the blue button.,,,,M
-156440,158040,You wanna touch the blue button?,,,,M
-158040,159080,What?,,,,M
-159080,160120,"Okay, look.",,,,M
-160120,161840,"So, it looks like you.",,,,M
-161840,165680,"So, it looks like you have a picture in a black box, right?",,,,M
-165680,168360,So now [id12] is gonna hold Smurphy.,,,,M
-168360,169480,So now let's see.,,,,M
-169480,171360,What does it look like to you?,,,,M
-171360,172200,Apple.,,,,id11
-172200,175040,"Apple, so now [id12]'s gonna guess.",,,,I
-175040,176840,Which one looks like an apple?,,,,I
-176840,178000,Apple.,,,,id12
-178000,180280,Go ahead and touch which one you think.,,,,M
-180280,181120,What?,,,,id12
-181120,182680,Which one do you think is an apple?,,,,M
-184240,186440,I think it's like a red apple.,,,,id12
-186440,188280,"I don't know, but which one of these two do you think?",,,,M
-188280,190280,Do you think it's this one or this one?,,,,M
-190280,191120,This one.,,,,id12
-191120,191960,"Okay, touch it.",,,,M
-193320,194680,"Great job, that was a match.",,,,M
-194680,195520,Great job.,,,,M
-195520,196360,"This one, please.",,,,M
-196360,199000,"Now, Smurphy's gonna come over here to [id11].",,,,M
-199000,200640,"And now we're going to guess, okay?",,,,M
-200640,201680,"So, [id12].",,,,I
-201680,204400,Tell her what's in the black box.,,,,I
-204400,205400,A banana.,,,,id12
-205400,206240,A banana.,,,,I
-209760,211600,Let's tap again,,,,I
-211600,212440,Great.,,,,I
-212440,213920,Does the matching make sense?,,,,M
-213920,214760,Yeah.,,,,id11
-214760,215600,Great.,,,,I
-215600,216440,Yeah.,,,,M
-216440,217280,Great.,,,,M
-217280,218120,So now we're gonna move Smurphy back.,,,,M
-218120,220320,"Look, it's so hard.",,,,id12
-220320,221160,We know.,,,,M
-221160,222280,"These pictures look kind of silly,",,,,M
-222280,224720,but you're still gonna tell [id12] whatever you see.,,,,M
-224720,225560,Okay?,,,,M
-225560,226400,"Whatever you see, okay?",,,,M
-226400,229080,What it kind of looks like in a black box.,,,,M
-229080,231880,"In a black box, it looks like,",,,,M
-232880,237680,it looks like it's a superhero with ears,,,,id11
-237680,240680,coming out of its legs with a diamond crown.,,,,id11
-240680,241520,Wow.,,,,I
-241520,242360,Whoa.,,,,I
-243240,245600,So it looks like a superhero with legs,,,,I
-245600,247240,coming out of its ears.,,,,I
-247240,248080,No.,,,,I
-248080,250840,Legs coming out of its head with a diamond crown.,,,,id11
-250840,252480,A diamond crown.,,,,I
-252480,254600,So what do you think looks like that to you?,,,,I
-254600,255600,What's this one?,,,,id12
-255600,260600,So she has one of these two pictures in the black box.,,,,M
-260880,263400,And she's just trying to tell you about it.,,,,M
-263400,265880,Do you wanna give her what you think it is one more time?,,,,M
-265880,266720,Okay.,,,,id11
-266720,269040,I think it's a superhero with his legs,,,,id11
-269040,271400,with its head coming out of its legs,,,,id11
-271400,272800,with a diamond crown.,,,,id11
-272800,275760,"Oh, so which one of these two sounds like that to you?",,,,M
-276960,280400,"Mom, let's look at the diamond body with a head.",,,,id12
-280400,282880,"Oh, is that your guess?",,,,M
-282880,285800,"All right, go ahead and touch it.",,,,M
-285800,287040,That's okay.,,,,M
-287040,289280,So that's what happened when it's not a match.,,,,M
-289280,290880,But you can help next time.,,,,M
-290880,291720,That's what she picked.,,,,M
-291720,293440,"All right, so we're gonna go get it.",,,,M
-295320,298680,"All right, now we're gonna tell her what's in this box.",,,,M
-298680,300720,What does it kind of look like to you?,,,,M
-300720,303960,A boat with a square on top,,,,id12
-306480,308480,"Whoa, good job.",,,,M
-308480,310080,I see Luna.,,,,id11
-310080,310920,There you go.,,,,I
-310920,312480,I see.,,,,I
-312480,316160,"Okay, it looks like a cooker with a diamond.",,,,id11
-316160,321160,It looks like a cooker holding a bowl of food.,,,,id11
-322200,323920,That kind of looks like a coffee filter,,,,id11
-323920,325760,with a diamond shaped head.,,,,id11
-325760,327080,Whoa.,,,,I
-327080,328440,So it looks like a cooker,,,,I
-328440,332480,who's holding a bowl of food with a diamond shaped head.,,,,I
-332480,334600,Which one of those two looks like that to you?,,,,I
-334600,339600,And this one has a little diamond on top of his head,,,,id12
-339600,344600,and a bowl of triangles inside and with one way.,,,,id12
-345000,347160,"Oh, so is that when you're guess?",,,,M
-347160,349880,"So we're gonna touch whichever one's our guess, okay?",,,,M
-349880,351040,So you wanna touch it?,,,,M
-351040,351880,Yeah.,,,,M
-354040,354880,Great job.,,,,M
-354880,355720,Good job.,,,,M
-355720,356560,Good job.,,,,M
-356560,357400,Good job.,,,,M
-357400,358240,,,,,
-358240,359080,Okay.,,,,M
-359080,359920,I love it.,,,,M
-359920,361480,What do you see?,,,,M
-361480,366160,I see a diamond with a diamond head with two feet,,,,id12
-366160,367640,and two arms.,,,,id12
-367640,369640,Hmm.,,,,I 
-369640,371120,"Oh, that's okay.",,,,I
-371120,372360,We can try the next side.,,,,I
-373240,375920,"All right, now you're gonna help us with the guess.",,,,I
-375920,380920,I see a superhero with legs but with a head,,,,id11
-382960,385800,coming out of his legs and a diamond crown.,,,,id11
-387160,392160,We see a superhero with legs and a head coming out.,,,,I
-392160,394800,It's coming out of his legs and a diamond crown.,,,,I
-394800,396200,And a diamond crown.,,,,I
-396200,397040,Oops.,,,,I
-397040,398720,Which one looks like that to you?,,,,I
-398720,402720,Is it like a boat with a square with a couple of,,,,id12
-402720,404560,triangles here?,,,,id12
-404560,405800,Oh.,,,,M
-405800,409000,So which one looks like what [id11] said though?,,,,M
-409000,412800,What looks like a superhero with legs and a head?,,,,M
-412800,413640,Two legs.,,,,id11
-413640,416160,Two legs and a diamond crown.,,,,M
-416160,420040,Which one looks like it has two legs and a diamond crown?,,,,I
-420040,422400,"Oh, actually no, it looks different now.",,,,id11
-422400,427400,But I see there's legs there and then there's the arms,,,,id11
-428400,431720,coming in the middle and then the diamond-shaped head,,,,id11
-431720,432560,on the top.,,,,id11
-432560,433400,I see you.,,,,M
-433400,435960,So we have legs and then arms in the middle,,,,M
-435960,437680,and a head on top.,,,,M
-437680,439480,Which one looks like that to you?,,,,M
-439480,440320,I don't know.,,,,M
-440320,441160,,,,,
-441160,442480,Alright touch your guess.,,,,M
-444200,445040,Oh.,,,,M
-445040,446040,That's okay.,,,,M
-447040,448840,"All right, we're gonna pass Marvion.",,,,M
-448840,450760,Choo choo choo choo choo.,,,,M
-450760,452000,Now it will be your turn.,,,,M
-452000,452840,No.,,,,id11
-452840,453840,Hey.,,,,I 
-453840,454840,Hi.,,,,I
-454840,455840,Hi.,,,,I
-455840,457680,He wants to guess.,,,,I
-457680,459000,Are we going to help him guess?,,,,I
-459000,459840,All right.,,,,I
-459840,461480,So what do you see in the black box?,,,,I
-461480,463120,A person.,,,,id12
-463120,464760,A person.,,,,I
-464760,467520,"Oh, that was a good guess.",,,,I
-469520,470360,Thank you for moving.,,,,M
-470360,472240,"Smurfy, how do you see your turn, Smurfy?",,,,M
-472240,473080,What do you see?,,,,I
-473080,473920,Hmm.,,,,I
-473920,476520,I see a boat with a tank.,,,,id11
-476520,479280,I see a boat thing with the two triangles,,,,id11
-479280,482040,in the back with the square in the front.,,,,id11
-482040,484560,So she said a boat with two triangles,,,,M
-484560,486920,and the square in the front and a triangle in the back.,,,,M
-486920,489560,"Oh, we don't want to put Smurfy in our mouth.",,,,M
-489560,491160,We don't want to eat Smurfy.,,,,M
-491160,492600,I bet he doesn't taste very good,,,,M
-492600,493440,,,,,
-493440,495200,So which one looks like a boat to you?,,,,M
-496200,497080,This one.,,,,id12
-497080,498200,Top of your guess.,,,,M
-500200,501640,Great job.,,,,M
-501640,502640,I'm gonna pass him on.,,,,M
-502640,504120,Choo choo choo choo.,,,,M
-504120,505200,Hmm.,,,,M
-505200,507440,What do you see in the black box?,,,,id11
-507440,509480,"So [id12], what do we see in the black box?",,,,M
-510440,515440,"Um, like a person with one leg and a triangle",,,,id12
-516680,521680,on the holding a triangle with a diamond on the head.,,,,id12
-522240,524560,"Oh, great.",,,,M
-524560,527240, ,,,,
-527240,528080,There you go.,,,,I
-528080,529320,"Thank you, Arya.",,,,I
-529320,530880,Now let's describe what we see.,,,,I
-530880,532080,Hmm.,,,,I
-532080,537080,I see legs with the arms in the middle of the diamond's head.,,,,id11
-537440,538960,Oh.,,,,M
-538960,539800,Again.,,,,id11
-539800,540640,Again.,,,,I
-540640,542480,Oh.,,,,I
-542480,544160,We don't want Smurfy in our mouth.,,,,M
-545520,547120,Which one do you think it is?,,,,M
-549920,550920,Tap on your guess.,,,,M
-553160,554000,"Oh, great.",,,,M
-554000,555320,Great.,,,,M
-555320,556880,"Oh, I knew it.",,,,id11
-556880,558160,Here we go.,,,,I
-558160,559200,Now what do we see?,,,,I
-559200,560200,This is three.,,,,I
-560200,563640,And this one.,,,,I
-563640,565640,What does he look like?,,,,I
-565640,569640,A person in half two ways with a square crown.,,,,id12
-571640,573240,Great.,,,,M
-573240,574080,Yes.,,,,I
-574080,576640,You guys are helping Smurfy so well.,,,,I
-577560,579160,"Now what do we see, [id11]?",,,,I
-579160,583720,"Okay, I see a cooker with one leg",,,,id11
-583720,587480,that has a diamond shape head with a bowl of food.,,,,id11
-587480,588720,Oh.,,,,M
-588720,591520,So a cooker with a diamond shape head and a bowl of food.,,,,M
-591520,593440,"Which one looks like back to you, [id12]?",,,,M
-595600,596640,Tap on your guess.,,,,M
-598720,600040,Great.,,,,M
-600040,601960,"Let's see, let's see.",,,,M
-601960,603440,All right.,,,,M
-603440,605000,"[id12], what do you see?",,,,M
-605000,609560,A boat and with a triangle tail,,,,id12
-609560,612880,and a little square on top of his head.,,,,id12
-612880,614200,Oh.,,,,M
-614200,615040,Yay.,,,,M
-615040,615880,There he is.,,,,M
-617640,618480,Oh my gosh.,,,,M
-618480,621440,"Oh, thank you guys for playing our game.",,,,M
-621440,624000,"All right, we're gonna turn off our camera.",,,,M
-624000,625440,Do you guys want to turn off the camera?,,,,M
-625440,626560,This is good thing.,,,,M
-626560,627400,Good thing.,,,,M
-627400,628240,Bye.,,,,M
-628240,651320,"All right, we're gonna turn off the camera.",,,,M
+start,end,text,speaker,trial,role,echo,description,on_topic
+0,1280,Camera.,M,,,,,
+1280,2120,Hi.,M,,,,,
+2120,3440,Great.,M,,,,,
+3440,4280,All right.,M,,,,,
+5400,7680,"All right, you're about to finish setting up",M,,,,,
+7680,8560,and we have good to go.,M,,,,,
+10840,12040,What do you do with this?,M,,,,,
+12040,14360,We'll show you in just a minute.,M,,,,,
+14360,16400,"[id12], were you painting today?",M,,,,,
+16400,17800,Were you coming with markers?,M,,,,,
+20560,23040,"All right, so now we can show you.",M,,,,,
+23040,25880,So today we're gonna play a super duper fun,M,,,,,
+25880,27280,of a matching game.,M,,,,,
+27280,28640,"Let us show you how, oops,",M,,,,,
+28640,29840,is [id11]'s messing up?,M,,,,,
+29840,30680,"Oh, no.",I,,,,,
+30680,31960,"Okay, great.",M,,,,,
+32840,34840,We're gonna play a super duper fun matching game.,M,,,,,
+34840,36440,Let us show you how it works.,M,,,,,
+36440,41440,"Now this, my friends, is going to be Smurphy, okay?",I,,,,,
+41720,44760,And Smurphy is a very mysterious little creature.,I,,,,,
+44760,47040,What does he look like to you?,I,,,,,
+47040,47880,Wolf.,id11,,,,,
+47880,48720,A wolf.,I,,,,,
+48720,50760,What does he look like to you?,I,,,,,
+50760,51600,A bear.,id12,,,,,
+51600,52440,A bear.,I,,,,,
+52440,53880,"Okay, so now we have Smurphy,",I,,,,,
+53880,56760,"who's kind of half wolf, half bear.",I,,,,,
+56760,60160,"And he really, really wants to play this matching game today.",I,,,,,
+60160,62080,"Okay, will you help him?",I,,,,,
+62080,63320,"Yeah, okay.",I,,,,,
+63320,65480,"So, you may ask, right?",I,,,,,
+65480,67640,How are we going to help Smurphy?,I,,,,,
+67640,69360,"Now, with this matching game,",I,,,,,
+69360,74440,"you guys will see two pictures on your screen, okay?",I,,,,,
+74440,77960,And you will be in charge of helping Smurphy guess,I,,,,,
+77960,82560,"which picture is in the black box, okay?",I,,,,,
+82560,84840,"So if you don't have Smurphy,",I,,,,,
+84840,88960,you will be in charge of telling Smurphy and your friend,I,,,,,
+88960,91200,what you see in the black box.,I,,,,,
+91200,93840,"Yeah, if you do have Smurphy though,",I,,,,,
+93840,96760,"you will help Smurphy guess, okay?",I,,,,,
+96760,98680,"Okay, I don't really understand.",id11,,,,,
+98680,99520,We'll show you.,M,,,,,
+99520,101240,"We'll show you how it works, okay?",M,,,,,
+101240,103440,"So, what's gonna happen though?",M,,,,,
+103440,107240,"So, you both are gonna have two pictures on your screen.",M,,,,,
+107240,109320,One of you at the time is gonna have a black box,M,,,,,
+109320,110880,around one of those pictures.,M,,,,,
+110880,114760,"So, if our friend [id12] has the picture with the black box,",M,,,,,
+114760,115960,you'll have Smurphy.,M,,,,,
+115960,118640,And [id12] will tell you what's in the black box,M,,,,,
+118640,120880,so you can help Smurphy guess.,M,,,,,
+120880,123680,"And we'll show you in just a minute, just double check, okay?",M,,,,,
+123680,125480,"So, when you're ready to make your guess,",M,,,,,
+125480,128080,"you're gonna just touch on it on the screen, tap on the screen,",M,,,,,
+128080,129880,and then you're gonna see a picture.,M,,,,,
+129880,132240,"If you see the smiley face, it was a match.",M,,,,,
+132240,134320,"Great job, you helped Smurphy.",M,,,,,
+134320,137600,"If you see the sad face, that means it wasn't a match.",M,,,,,
+137600,140320,"But it's okay, you guys can help Smurphy next time.",M,,,,,
+140320,142240,Do you guys have any questions?,M,,,,,
+142240,144720,"Well, I don't understand about the matching.",id11,,,,,
+144720,146480,"Okay, we'll show you with the next one",M,,,,,
+146480,147320,so that we can make it.,M,,,,,
+147320,148520,And you can put out any other questions,M,,,,,
+148520,149920,"afterwards, just let us know, okay?",M,,,,,
+149920,150760,Yeah.,M,,,,,
+150760,152080,"Okay, does that sound good, [id12]?",M,,,,,
+152080,153400,"All right, let's try it out.",M,,,,,
+153400,155360,Go ahead and touch the blue button.,M,0,,,,
+156440,158040,You wanna touch the blue button?,M,,,,,
+158040,159080,What?,M,,,,,
+159080,160120,"Okay, look.",M,,,,,
+160120,161840,"So, it looks like you.",M,,,,,
+161840,165680,"So, it looks like you have a picture in a black box, right?",M,,,,,
+165680,168360,So now [id12] is gonna hold Smurphy.,M,,,,,
+168360,169480,So now let's see.,M,,,,,
+169480,171360,What does it look like to you?,M,,,,,
+171360,172200,Apple.,id11,,S,,apple,Y
+172200,175040,"Apple, so now [id12]'s gonna guess.",I,,,Y,,
+175040,176840,Which one looks like an apple?,I,,,,,
+176840,178000,Apple.,id12,,L,,,Y
+178000,180280,Go ahead and touch which one you think.,M,,,,,
+180280,181120,What?,id12,,L,,,
+181120,182680,Which one do you think is an apple?,M,,,,,
+184240,186440,I think it's like a red apple.,id12,,L,,,Y
+186440,188280,"I don't know, but which one of these two do you think?",M,,,,,
+188280,190280,Do you think it's this one or this one?,M,,,,,
+190280,191120,This one.,id12,,L,,,Y
+191120,191960,"Okay, touch it.",M,,,,,
+193320,194680,"Great job, that was a match.",M,,,,,
+194680,195520,Great job.,M,1,,,,
+195520,196360,"This one, please.",M,,,,,
+196360,199000,"Now, Smurphy's gonna come over here to [id11].",M,,,,,
+199000,200640,"And now we're going to guess, okay?",M,,,,,
+200640,201680,"So, [id12].",I,,,,,
+201680,204400,Tell her what's in the black box.,I,,,,,
+204400,205400,A banana.,id12,,S,,a banana,Y
+205400,206240,A banana.,I,,,Y,,
+209760,211600,Let's tap again,I,,,,,
+211600,212440,Great.,I,2,,,,
+212440,213920,Does the matching make sense?,M,,,,,
+213920,214760,Yeah.,id11,,S,,,
+214760,215600,Great.,I,,,,,
+215600,216440,Yeah.,M,,,,,
+216440,217280,Great.,M,,,,,
+217280,218120,So now we're gonna move Smurphy back.,M,,,,,
+218120,220320,"Look, it's so hard.",id12,,L,,,
+220320,221160,We know.,M,,,,,
+221160,222280,"These pictures look kind of silly,",M,,,,,
+222280,224720,but you're still gonna tell [id12] whatever you see.,M,,,,,
+224720,225560,Okay?,M,,,,,
+225560,226400,"Whatever you see, okay?",M,,,,,
+226400,229080,What it kind of looks like in a black box.,M,,,,,
+229080,231880,"In a black box, it looks like,",M,,,,,
+232880,237680,it looks like it's a superhero with ears,id11,,S,,a superhero with ears,Y
+237680,240680,coming out of its legs with a diamond crown.,id11,,S,,coming out of its legs with a diamond crown,Y
+240680,241520,Wow.,I,,,,,
+241520,242360,Whoa.,I,,,,,
+243240,245600,So it looks like a superhero with legs,I,,,Y,,
+245600,247240,coming out of its ears.,I,,,Y,,
+247240,248080,No.,I,,,,,
+248080,250840,Legs coming out of its head with a diamond crown.,id11,,S,,,Y
+250840,252480,A diamond crown.,I,,,Y,,
+252480,254600,So what do you think looks like that to you?,I,,,,,
+254600,255600,What's this one?,id12,,L,,,Y
+255600,260600,So she has one of these two pictures in the black box.,M,,,,,
+260880,263400,And she's just trying to tell you about it.,M,,,,,
+263400,265880,Do you wanna give her what you think it is one more time?,M,,,,,
+265880,266720,Okay.,id11,,S,,,Y
+266720,269040,I think it's a superhero with his legs,id11,,S,,,Y
+269040,271400,with its head coming out of its legs,id11,,S,,,Y
+271400,272800,with a diamond crown.,id11,,S,,,Y
+272800,275760,"Oh, so which one of these two sounds like that to you?",M,,,,,
+276960,280400,"Mom, let's look at the diamond body with a head.",id12,,L,,,Y
+280400,282880,"Oh, is that your guess?",M,,,,,
+282880,285800,"All right, go ahead and touch it.",M,,,,,
+285800,287040,That's okay.,M,3,,,,
+287040,289280,So that's what happened when it's not a match.,M,,,,,
+289280,290880,But you can help next time.,M,,,,,
+290880,291720,That's what she picked.,M,,,,,
+291720,293440,"All right, so we're gonna go get it.",M,,,,,
+295320,298680,"All right, now we're gonna tell her what's in this box.",M,,,,,
+298680,300720,What does it kind of look like to you?,M,,,,,
+300720,303960,A boat with a square on top,id12,,S,,a boat with a square on top,Y
+306480,308480,"Whoa, good job.",M,4,,,,
+308480,310080,I see Luna.,id11,,S,,,
+310080,310920,There you go.,I,,,,,
+310920,312480,I see.,I,,,,,
+312480,316160,"Okay, it looks like a cooker with a diamond.",id11,,S,,a cooker with a diamond,Y
+316160,321160,It looks like a cooker holding a bowl of food.,id11,,S,,holding a bowl of food,Y
+322200,323920,That kind of looks like a coffee filter,id11,,S,,like a coffee filter,Y
+323920,325760,with a diamond shaped head.,id11,,S,,with a diamond shaped head,Y
+325760,327080,Whoa.,I,,,,,
+327080,328440,So it looks like a cooker,I,,,,,
+328440,332480,who's holding a bowl of food with a diamond shaped head.,I,,,,,
+332480,334600,Which one of those two looks like that to you?,I,,,,,
+334600,339600,And this one has a little diamond on top of his head,id12,,L,,,Y
+339600,344600,and a bowl of triangles inside and with one way.,id12,,L,,,Y
+345000,347160,"Oh, so is that when you're guess?",M,,,,,
+347160,349880,"So we're gonna touch whichever one's our guess, okay?",M,,,,,
+349880,351040,So you wanna touch it?,M,,,,,
+351040,351880,Yeah.,M,,,,,
+354040,354880,Great job.,M,5,,,,
+358240,359080,Okay.,M,,,,,
+359080,359920,I love it.,M,,,,,
+359920,361480,What do you see?,M,,,,,
+361480,366160,I see a diamond with a diamond head with two feet,id12,,S,,a diamond with a a diamond head with two feet,Y
+366160,367640,and two arms.,id12,,S,,and two arms,Y
+367640,369640,Hmm.,I ,,,,,
+369640,371120,"Oh, that's okay.",I,6,,,,
+371120,372360,We can try the next side.,I,,,,,
+373240,375920,"All right, now you're gonna help us with the guess.",I,,,,,
+375920,380920,I see a superhero with legs but with a head,id11,,S,,a superhero with legs but with a head,Y
+382960,385800,coming out of his legs and a diamond crown.,id11,,S,,coming out of his legs and a diamond crown,Y
+387160,392160,We see a superhero with legs and a head coming out.,I,,,,,
+392160,394800,It's coming out of his legs and a diamond crown.,I,,,,,
+394800,396200,And a diamond crown.,I,,,,,
+396200,397040,Oops.,I,,,,,
+397040,398720,Which one looks like that to you?,I,,,,,
+398720,402720,Is it like a boat with a square with a couple of,id12,,L,,,Y
+402720,404560,triangles here?,id12,,L,,,Y
+404560,405800,Oh.,M,,,,,
+405800,409000,So which one looks like what [id11] said though?,M,,,,,
+409000,412800,What looks like a superhero with legs and a head?,M,,,,,
+412800,413640,Two legs.,id11,,S,,two legs,Y
+413640,416160,Two legs and a diamond crown.,M,,,,,
+416160,420040,Which one looks like it has two legs and a diamond crown?,I,,,,,
+420040,422400,"Oh, actually no, it looks different now.",id11,,S,,,Y
+422400,427400,But I see there's legs there and then there's the arms,id11,,S,,there’s legs there and then there’s the arms,Y
+428400,431720,coming in the middle and then the diamond-shaped head,id11,,S,,coming in the middle and then the diamond shaped head,Y
+431720,432560,on the top.,id11,,S,,on the top,Y
+432560,433400,I see you.,M,,,,,
+433400,435960,So we have legs and then arms in the middle,M,,,Y,,
+435960,437680,and a head on top.,M,,,Y,,
+437680,439480,Which one looks like that to you?,M,,,,,
+439480,440320,I don't know.,M,,,,,
+440320,441160,,,,,,,
+441160,442480,Alright touch your guess.,M,,,,,
+444200,445040,Oh.,M,,,,,
+445040,446040,That's okay.,M,7,,,,
+447040,448840,"All right, we're gonna pass Marvion.",M,,,,,
+448840,450760,Choo choo choo choo choo.,M,,,,,
+450760,452000,Now it will be your turn.,M,,,,,
+452000,452840,No.,id11,,L,,,
+452840,453840,Hey.,I ,,,,,
+453840,454840,Hi.,I,,,,,
+454840,455840,Hi.,I,,,,,
+455840,457680,He wants to guess.,I,,,,,
+457680,459000,Are we going to help him guess?,I,,,,,
+459000,459840,All right.,I,,,,,
+459840,461480,So what do you see in the black box?,I,,,,,
+461480,463120,A person.,id12,,S,,a person ,Y
+463120,464760,A person.,I,,,Y,,
+464760,467520,"Oh, that was a good guess.",I,8,,,,
+469520,470360,Thank you for moving.,M,,,,,
+470360,472240,"Smurfy, how do you see your turn, Smurfy?",M,,,,,
+472240,473080,What do you see?,I,,,,,
+473080,473920,Hmm.,I,,,,,
+473920,476520,I see a boat with a tank.,id11,,S,,a boat with a tank,Y
+476520,479280,I see a boat thing with the two triangles,id11,,S,,with the two triangles,Y
+479280,482040,in the back with the square in the front.,id11,,S,,in the back with the square in the front,Y
+482040,484560,So she said a boat with two triangles,M,,,Y,,
+484560,486920,and the square in the front and a triangle in the back.,M,,,,,
+486920,489560,"Oh, we don't want to put Smurfy in our mouth.",M,,,,,
+489560,491160,We don't want to eat Smurfy.,M,,,,,
+491160,492600,I bet he doesn't taste very good,M,,,,,
+492600,493440,,,,,,,
+493440,495200,So which one looks like a boat to you?,M,,,,,
+496200,497080,This one.,id12,,L,,,Y
+497080,498200,Top of your guess.,M,,,,,
+500200,501640,Great job.,M,9,,,,
+501640,502640,I'm gonna pass him on.,M,,,,,
+502640,504120,Choo choo choo choo.,M,,,,,
+504120,505200,Hmm.,M,,,,,
+505200,507440,What do you see in the black box?,id11,,L,,,Y
+507440,509480,"So [id12], what do we see in the black box?",M,,,,,
+510440,515440,"Um, like a person with one leg and a triangle",id12,,S,,a person with one leg and a triangle,Y
+516680,521680,on the holding a triangle with a diamond on the head.,id12,,S,,holding a triangle with a diamond on the head,Y
+522240,524560,"Oh, great.",M,10,,,,
+524560,527240, ,,,,,,
+527240,528080,There you go.,I,,,,,
+528080,529320,"Thank you, [id11].",I,,,,,
+529320,530880,Now let's describe what we see.,I,,,,,
+530880,532080,Hmm.,I,,,,,
+532080,537080,I see legs with the arms in the middle of the diamond's head.,id11,,S,,legs with the arms in the middle of the diamond’s head,Y
+537440,538960,Oh.,M,,,,,
+538960,539800,Again.,id11,,S,,,
+539800,540640,Again.,I,,,,,
+540640,542480,Oh.,I,,,,,
+542480,544160,We don't want Smurfy in our mouth.,M,,,,,
+545520,547120,Which one do you think it is?,M,,,,,
+549920,550920,Tap on your guess.,M,,,,,
+553160,554000,"Oh, great.",M,11,,,,
+554000,555320,Great.,M,,,,,
+555320,556880,"Oh, I knew it.",id11,,L,,,
+556880,558160,Here we go.,I,,,,,
+558160,559200,Now what do we see?,I,,,,,
+559200,560200,This is three.,I,,,,,
+560200,563640,And this one.,I,,,,,
+563640,565640,What does he look like?,I,,,,,
+565640,569640,A person in half two ways with a square crown.,id12,,S,,a person in half two ways with a square crown,Y
+571640,573240,Great.,M,,,,,
+573240,574080,Yes.,I,12,,,,
+574080,576640,You guys are helping Smurfy so well.,I,,,,,
+577560,579160,"Now what do we see, [id11]?",I,,,,,
+579160,583720,"Okay, I see a cooker with one leg",id11,,S,,a cooker with one leg,Y
+583720,587480,that has a diamond shape head with a bowl of food.,id11,,S,,that has a diamond shape head with a bowl of food,Y
+587480,588720,Oh.,M,,,,,
+588720,591520,So a cooker with a diamond shape head and a bowl of food.,M,,,Y,,
+591520,593440,"Which one looks like back to you, [id12]?",M,,,,,
+595600,596640,Tap on your guess.,M,,,,,
+598720,600040,Great.,M,13,,,,
+600040,601960,"Let's see, let's see.",M,,,,,
+601960,603440,All right.,M,,,,,
+603440,605000,"[id12], what do you see?",M,,,,,
+605000,609560,A boat and with a triangle tail,id12,,S,,a boat with a triangle tail,Y
+609560,612880,and a little square on top of his head.,id12,,S,,and a little square on top of his head,Y
+612880,614200,Oh.,M,,,,,
+614200,615040,Yay.,M,,,,,
+615040,615880,There he is.,M,,,,,
+617640,618480,Oh my gosh.,M,,,,,
+618480,621440,"Oh, thank you guys for playing our game.",M,,,,,
+621440,624000,"All right, we're gonna turn off our camera.",M,,,,,
+624000,625440,Do you guys want to turn off the camera?,M,,,,,
+625440,626560,This is good thing.,M,,,,,
+626560,627400,Good thing.,M,,,,,
+627400,628240,Bye.,M,,,,,
+628240,651320,"All right, we're gonna turn off the camera.",M,,,,,

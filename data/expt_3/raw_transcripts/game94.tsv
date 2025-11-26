@@ -1,0 +1,152 @@
+start	end	text	speaker	trial	role	echo	description	on_topic
+8640	14920	All right, so today we're gonna play a fun matching game, but first 	R					
+		What is that?	id270					
+		I'll tell you in just a second	R					
+15000	17000	But first I'm gonna have you guys	R					
+18000	23120	Practice touching the iPads by popping some bubbles. So go ahead and press the blue button to start	R					
+24560	28160	And then just pop all the bubbles until you don't see anymore	R					
+30120	32120	I popped all the bubbles	id269					
+32480	36980	some keep showing up. Just keep popping them	R					
+39480	46100	All right, awesome. Nice job guys. All right now I'm gonna explain our matching game. 	R					
+		We both win	id270					
+		Yeah, you guys both won	R					
+46880	51200	All right, so now I'm gonna explain the matching game that we're gonna play. So this is Smurphy	R					
+51720	53720	Can you say hi to Smurphy?	R					
+		Hi Smurfy	id269					
+		Hi Smurfy	id270					
+54720	56720	So today we're gonna help Smurphy	R					
+56920	61840	So on your screens, you guys are both gonna see two pictures like this	R					
+62640	66120	Now one of you is gonna see a black box around one of the pictures	R					
+66120	68400	You see how this picture has a black box around it	R					
+		yeah, 	id270					
+68800	74640	So Smurphy's job is to guess which picture is inside the black box and he needs your help	R					
+75040	77800	So if you see the black box around one of the pictures	R					
+77800	82720	You're gonna be the teller and you're gonna help tell Smurphy what picture you see inside the box	R					
+83720	86120	And if you don't see the black box	R					
+86120	90960	You're gonna be holding Smurphy and then you're gonna help guess which pictures inside the box	R					
+91360	95600	Now once you think you have a guess you could tap on the picture and then if you're right	R					
+95600	99200	You'll see a smiley face and if you're wrong you'll see a frowny face	R					
+99360	103600	But that's okay because we're gonna have a lot of different chances to help Smurphy out	R					
+104480	110360	Now we're gonna take turns being the guesser and the teller. So if you see the black box, what are you gonna do?	R					
+		Tap	id270					
+112720	115880	You're not gonna tap. You're gonna tell Smurphy what you see in the box	R					
+		banana	id269					
+117000	120720	Yeah, so if you're the teller you could say Smurphy I see a banana	R					
+123760	126120	Now if you don't see the black box	R					
+126680	128680	then you're gonna tap right and	R					
+129280	135320	Once you have your guess you're gonna tap and guess which one it is. So are you guys ready to play? 	R					
+		yeah, 	id270					
+136200	138200	All right Go ahead and press the blue button to start	R					
+138440	143280	All right, who has the black box 	R	1				
+		Me	id270		S			
+143760	148200	[id270] has a black box. All right, so [id269], you're gonna hold Smurphy and [id270]	R					
+148200	151200	You're gonna tell Smurphy and [id269] what you see in the box	R					
+152440	154440	Banana	id270		S		banana	Y
+154960	158160	And then you're gonna tap and guess which picture [id270]’s talking about	R					
+159600	163120	And we're gonna sit down because we're gonna use our words to tell each other	R					
+		Is it this?	id269		L			Y
+163480	169400	Just make your best guess and just tap whichever picture you think it is	R					
+171120	177120	Nice job, you're right, and now it's [id270]'s turn to guess so you're gonna hand Smurphy over to [id270]	R	2				
+177520	180920	All right, can you hand Smurphy over to [id270] [id269]? Thank you	R					
+180920	183760	And now it's your turn to tell him what's inside the black box	R					
+183760	185760	It's a bird	id269		S		a bird	Y
+		okay	id270		L			Y
+190560	192560	Nice job, and now you're gonna switch again	R	3				
+193600	196320	So could you hand Smurphy over to [id269] this time?	R					
+204920	206920	Point left and right	id270		S		point left and right	Y
+211040	213040	Nice job guys	R	4				
+213840	216000	All right, and then hand Smurphy over to [id270]	R					
+217000	224000	It has, it's a spinning wheel that I have at my house. I have this at my house. 	id269		S		a spinning wheel that I have at my house	Y
+		Uh what do you mean	id270		L			Y
+228000	231800	Let's sit down. We don't want to show each other. Oh, let's not show each other our iPads	R					
+231800	235400	Okay, let's just use words to tell each other, but look you guessed right	R	5				
+236320	238320	All right	R					
+238320	242600	Yeah, and you can ask whoever's guessing can also ask as many questions as they want	R					
+242600	247800	Okay, a jump and spin with a square	id270		S		a jump and a spin with a square	Y
+256000	258160	Nice job. All right, time to switch	R	6				
+260640	267600	It's one with a triangle and another triangle and a square	id269		S		one with a triangle and another triangle and a square	Y
+272600	279600	And it has a big triangle like with a top	id269		S		and it has a big triangle like with a top	Y
+		okay	id270		L			Y
+287600	289600	Nice job	R	7				
+292600	294600	Now, can you tell me?	id269		L			Y
+294600	296600	Okay, it's with	id270		S			Y
+297600	302600	Diamond on top and straight on the bottom	id270		S		diamond on top and straight on the bottom	Y
+302600	305600	No way for crystal on the bottom	id269		L			Y
+305600	308600	And then another triangle	id269		L			Y
+312600	314600	No, first one on the top	id270		S		first one on the top	Y
+316600	319600	And then the same on the top	id270		S		and then the same on the top	Y
+319600	322600	That goes there and a gem	id270		S		that goes there and a gem	Y
+		looks like a gem?	id269		L			Y
+323600	325600	And a pancake this?	id269		L			Y
+328600	331600	No front, no, I guess for you	id270		S			Y
+331600	333600	I do it for you	id270		S			Y
+333600	337600	So, it is	id270		S			Y
+337600	340600	Yeah, I think [id269]'s asking a question	R					
+340600	342600	Oh, nice guess	R	8				
+346600	348600	Now it hand it to me	id270		L			
+349600	356600	No, it has a feet and it has a square	id269		S		it has a feet and it has a square	Y
+356600	365600	And it also has a sharp beak and another feet	id269		S		and it also has a sharp beak and another feet	Y
+365600	367600	And a square	id269		S		and a square	Y
+368600	383600	So, the one that you did is the one that's inside the box	id270	9	S		the one that you did	Y
+383600	387600	The one with two feet and a square on the back	id270		S		the one with two feet and a square on the back	Y
+387600	389600	And a head and a back	id270		S		and a head and a back	Y
+390600	392600	And another feet	id270		S		and another feet	Y
+398600	399600	Nice	R	10				
+399600	401600	Hand it over to me	id270		L			
+402600	413600	Now it has a diamond and it has a square	id269		S		it has a diamond and it has a square	Y
+413600	419600	And it has a triangle and it has a sharp spot	id269		S		and it has a triangle and it has a sharp spot	Y
+419600	423600	And it has a rectangle and it has a triangle	id269		S		and it has a rectangle and it has a triangle	Y
+423600	432600	And it has a sharp part on the right here	id269		S		and it has a sharp part on the right here	Y
+443600	444600	Oh, uh oh	R	11				
+446600	448600	We don't want it to fall off the table	R					
+448600	450600	So, it has two triangles and one square	id270		S		it has two triangles and one square	Y
+450600	470600	There's two triangles and it has a square	id269		L			Y
+		yeah, that one	id270		S			Y
+		this one	id269		L			Y
+		yeah, 	id270		S			Y
+470600	476600	That's okay, we have more tries to get it right.	R	12				
+477600	479600	Hand this.	id270		L			
+479600	492600	Now it has a diamond and it looks like this, and it has this, and it has this, and it has this.	id269		S		it has a diamond and it looks like this and it has this and it has this and it has this	Y
+492600	494600	Without feet.	id270		L			Y
+494600	498600	And this, and this.	id269		S		and this and this	Y
+498600	500600	Now, you press it?	id269		S			Y
+501600	503600	Yay!	R	13				
+506600	508600	Alright, could you hand Smurfy to [id269]?	R					
+508600	516600	So, it has a diamond on the top like this, this, this.	id270		S		it has a diamond on top like this	Y
+516600	519600	And not without feet.	id270		S			Y
+519600	522600	With no feet.	id270		S		with no feet	Y
+522600	524600	Ryan says like, hand smurfy	id270	14	L			
+524600	544600	 Now it has a square and a triangle, and it has a sharp part, and it has a rectangle and another triangle, and it has a sharp part on the bottom.	id269		S		it has a square and a triangle and it has a sharp part and it has a rectangle and another triangle, and it has a sharp part on the bottom	Y
+544600	547600	Yay!	R	15				
+548600	554600	You can make a jump like this.	id270		S			
+554600	556600	You can make a jump.	R					
+556600	561600	No, make it face to me.	id270		S			
+561600	567600	So, it has two feet and one square on the back.	id270		S		it has two feet and one square on the back	Y
+567600	572600	Like this, like this, and this.	id270		S			Y
+573600	576600	Pass smurfy	id270	16				
+576600	590600	Now it has a triangle and another triangle and a square, and it has a big triangle with a bump on it.	id269		S		it has a triangle and another triangle and a square and it has a big triangle with a bump on it	Y
+590600	601600	Like, like, like, like, like, like this, like, like a triangle.	id269		S		like a triangle	Y
+602600	604600	And a bump.	id269		S			Y
+604600	606600	No pitch.	id269		S			
+		Smurfy	id269	17	L			
+609600	624600	 now it has a small triangle and another small triangle, and one square like this, this, this, this, and this.	id270		S		it has a small triangle and another small triangle and one square	Y
+625600	632600	Hey hand smurfy	id270	18	L			
+632600	642600	Now it has a square, a diamond, and it looks like this, and this.	id269		S		it has a square, a diamond and it looks like this	Y
+642600	645600	You don't have to show me, I already know.	id270		L			Y
+645600	648600	Okay.	id269		S			Y
+648600	650600	Hey!	id270		L			
+650600	654600	Press it.	id270		L			
+654600	656600	Pass Smurfy	id270	19	S			
+656600	664600	Now, it does, it has two feet and one square like this, and this, and this, and this.	id270		S		it has two feet and one square like this and this and this and this	Y
+664600	665600	Yay!	R	20				
+665600	667600	You guys are so good.	R					
+667600	671600	But first, you did a sad face.	id270		L			
+671600	674600	You did a first sad face	id270		L			
+674600	675600	That's okay.	R					
+679600	683600	I think it's [id270]'s turn to hold Smithy.	R					
+683600	694600	Now it has a triangle, and it has a triangle, and another triangle, and a square, and a big triangle.	id269		S		it has a triangle and another triangle and a square and a big triangle	Y
+694600	696600	Okay.	id270		L			Y
+698600	701600	Yay!	R					
+702600	707600	I think that means your guys are done with my game.	R					
+707600	709600	Thank you so much for playing.	R					
+709600	711600	Alright, let me turn the recording off.	R					

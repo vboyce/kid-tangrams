@@ -1,0 +1,161 @@
+start	end	text	speaker	trial	role	echo	description	on_topic
+0	7000	Alright, now I'm on camera and if you ever want to leave the game room, just let me know, okay?	R					
+7000	10000	We only know now.	id128					
+10000	15000	Alright, now today we're going to be playing a matching game.	R					
+15000	20000	But before that, we're going to practice touching our iPod to ping a game with popping bubbles.	R					
+20000	25000	So you're going to tap the blue button on your screen and press all the bubbles.	R					
+26000	30000	No, the item that you popped is you want to pop all the bubbles.	R					
+35000	36000	I win.	id128					
+36000	37000	Does it tap?	id128					
+37000	39000	You want to tap all those levels again too.	R					
+42000	43000	That one's not that.	R					
+49000	50000	You see this?	id128					
+50000	51000	Nice.	R					
+51000	53000	Okay, now you can tap those bubbles too [id127].	R					
+53000	57000	Alright, now I'm just going to hold this until we get to the next part.	R					
+58000	61000	Oh wait, no, let's stay in our chair, [id128].	R					
+61000	63000	Hey, I win you.	id127					
+63000	64000	Okay, great.	R					
+64000	65000	Great job popping the levels.	R					
+65000	66000	I have the won.	id128					
+66000	67000	Okay.	R					
+67000	68000	I win also.	id127					
+68000	71000	Now, okay, now I'm going to explain the matching game.	R					
+71000	75000	So in this game, you're going to be helping Smurphy.	R					
+75000	76000	This is Smurphy.	R					
+76000	77000	Do you want to say hi, Smurphy?	R					
+77000	78000	the ipad.	id128					
+78000	80000	Oh, I'm going to flip back when it's time.	R					
+81000	82000	Yeah.	R					
+82000	84000	So in the game, we're going to be helping Smurphy.	R					
+84000	85000	This is Smurphy.	R					
+85000	86000	Do you want to say hi?	R					
+86000	87000	Hi.	id128					
+87000	88000	Do you want to say hi to Smurphy?	R					
+88000	89000	Hi, Smurphy.	id127					
+89000	90000	Great.	R					
+90000	95000	Now, on your screens, you're each going to see two pictures.	R					
+95000	98000	And for one of you, the picture will be inside of a black box.	R					
+98000	104000	It is Smurphy's job to guess which picture is inside of the black box, and he needs your help.	R					
+104000	108000	Now, if you have a picture inside of a black box, that means you're the teller.	R					
+108000	113000	And it's your job to tell Smurphy what you see inside of the black box.	R					
+113000	116000	It’s so dark.	id128					
+116000	118000	Yeah, it's a matching game.	R					
+118000	121000	Now, if you don't have the black box, that means you're the guesser.	R					
+121000	125000	So you're holding Smurphy, and it's your job to help Smurphy guess.	R					
+125000	132000	When you think you know what the teller is telling you, you're going to tap what you guess it is on your screen.	R					
+132000	137000	Now, if you tap correctly and guess correctly, you'll get a smiley face.	R					
+137000	140000	But if you guess incorrectly, you'll get a sad face.	R					
+140000	144000	But that's okay, because you have many times to help Smurphy.	R					
+144000	150000	Now, again, if you get a black box, what role are you?	R					
+150000	151000	Teller.	id128					
+151000	153000	Exactly, you're the teller.	R					
+153000	157000	And if you don't have a black box and you're holding Smurphy, what role are you?	R					
+		this game is confusing	id127					
+157000	160000	It's okay, we'll learn as we go.	R					
+160000	164000	Then what are you if you don't have the black box?	R					
+164000	166000	I'm...	id128					
+166000	170000	If you don't have the black box, then you're the guesser, and you're helping Smurphy guess.	R					
+170000	173000	Alright, now we're ready to play.	R					
+173000	176000	So I'm going to take these.	R					
+		this is confusing.	id127					
+176000	181000	And then, it's okay, we're going to learn as we go.	R					
+181000	185000	And now, you can press the blue button on your screen to start.	R					
+185000	187000	Alright, now who has the black box?	R	1				
+187000	192000	Or, you can press two.	R					
+192000	193000	Who?	id128		L			
+193000	197000	Alright, so you have the black box, you're the teller, and you're the guesser.	R					
+197000	200000	So [id127], do you want to tell [id128] what you see inside the black box?	R					
+200000	203000	A banana.	id127		S		a banana	Y
+203000	206000	Oh, you can type with your finger [id128].	R					
+206000	208000	Great job, that means you guessed it correctly.	R	2				
+208000	212000	And now we're going to trade, so now you tell [id127] what you see in the black box, [id128].	R					
+212000	214000	Dog.	id128		S		dog	Y
+214000	218000	So now you want to tap that to help Smurphy guess.	R					
+218000	220000	Great job.	R	3				
+220000	223000	Won again. 	id128		L			
+223000	226000	Now who wants to tell [id128] what you see in the black box?	R					
+226000	229000	A boat with two flags.	id127		S		a boat with two flags	Y
+229000	234000	And a boat with two flags.	id128		L			Y
+234000	238000	And a boat with two flags.	id127		S			Y
+238000	242000	Great job.	R	4				
+242000	249000	Now, I need to tell you, there's a tree.	id128		S		a tree	Y
+250000	253000	Do you want to tap that, [id127]?	R					
+253000	255000	Tap that so you know it.	id128		S			
+255000	257000	That's okay, don't, you don't have to guess.	R					
+257000	259000	Good job, good job, you did it correctly.	R	5				
+259000	261000	Now you have to tell me.	id128		L			Y
+261000	263000	Exactly.	R					
+263000	267000	I see, I don't know what is that.	id127		S			Y
+267000	271000	It's okay, [id127], just try your best.	R					
+271000	274000	A person	id127		S		a person	Y
+274000	277000	There's a poison, there's a poison.	id128		L			Y
+277000	280000	No I said person.	id127		S			Y
+280000	283000	It's okay, just tap the one you think you guessed it is, [id128].	R					
+283000	286000	There's a poison, there's a tree.	id128		L			Y
+286000	290000	I can't help you explaining, but [id127], do you want to say it again and [id128] just...	R					
+290000	292000	Person	id127		S			Y
+292000	294000	Whats a person	id128		L			Y
+294000	296000	Just press your best guess, [id128].	R					
+298000	301000	Great job, you guessed it correctly.	R	6				
+301000	303000	Person	id128		S			
+304000	306000	Wait, what's the answer again?	id128		S			
+306000	311000	Oh, you just want to say what you think it is, so just try your best to describe it in the black box to [id127].	R					
+311000	313000	I don't know.	id128		S			Y
+313000	315000	Just try your best.	R					
+315000	320000	Just try your best, you can say anything, what about shape or what it looks like.	R			Y		
+320000	322000	Shape.	id128		S		shape	Y
+322000	324000	shape tap it shape	id128		S			Y
+324000	329000	No, you want to say, you want to describe it in the black box, like what do you see in it?	R					
+329000	332000	Does it look like anything to you?	R					
+332000	334000	shape	id128		S			Y
+337000	341000	Do you want to give anything more to [id127] to help you guess?	R					
+343000	345000	I’m going to close this door a little more. 	R					
+345000	346000	Why?	id127		L			
+346000	348000	It's a little loud.	R					
+353000	357000	Okay, [id128], do you want to try anything more to [id127]?	R					
+357000	361000	No, no, no.	id128		S			
+361000	363000	Wait, what?	id128		S			
+363000	365000	Shape	id128		S			Y
+373000	378000	Aw, okay, so that was incorrect, but it's okay, we can keep on trying and helps [id127].	R	7				
+378000	380000	So now we trade.	R					
+382000	383000	Okay.	R					
+383000	386000	Alright, do you want to say what you think of the black box, [id127]?	R					
+386000	388000	We lost again.	id128		L			
+389000	391000	You lost one time.	id127		S			
+391000	397000	It's okay, we're going to keep on trying until we can, yeah.	R					
+397000	398000	So do you see the black box?	R					
+398000	402000	Okay, you can tell me what, then I don't know what's in the black box.	id128		L			Y
+402000	404000	It's okay, you can just try your best, [id127].	R					
+404000	408000	It's not going to be immediately obvious, but just try your best to see what you see.	R					
+408000	410000	Oh, don't tap it until...	R					
+410000	412000	I tap it?	id128		L			
+412000	414000	That mosquito.	id128		L			
+415000	419000	Does it look like anything, or does anything stand out to you, [id127]?	R					
+419000	421000	No, I don't.	id127		S			
+421000	424000	Well, just try your best to help [id128] guess.	R					
+424000	428000	There are some mosquitoes in this one.	id128		L			
+428000	430000	Oh, it's okay.	R					
+430000	432000	Can they fly again?	id128		L			
+432000	435000	Nothing's going to happen if you tap it, but you're trying to tell...	R					
+435000	437000	Who doesn't have that one?	id128		L			
+437000	441000	You're trying to tell [id128] what you see in this black box, so...	R					
+441000	443000	A person	id127		S		a person	Y
+443000	446000	No, a poison.	id128		L			Y
+		No, a person.	id127		S			Y
+446000	449000	Oh, that's okay.	R					
+449000	453000	All right, now we can pass it, and now you're going to tell [id127] what you see.	R	8				
+453000	458000	I see...	id128		S			Y
+458000	463000	A people walking.	id128		S		a person walking	Y
+463000	465000	Press it	id128		S			Y
+465000	466000	Okay, now do you want to...	R					
+466000	468000	Oh, no, you can't look at his screen.	R					
+468000	471000	What do you want to guess, because [id128] told you, [id127]?	R					
+471000	472000	A person.	id127		L			
+472000	479000	Oh, no, he already told you what he saw, so now you're going to tap your best guess, based on what he told you.	R					
+479000	482000	Do you want to repeat it, [id128]?	R					
+482000	484000	This game is too confusing.	id127		L			
+484000	486000	It's okay, [id127], you can just try your best.	R					
+		I want to go back.	id127		L			
+486000	487000	You want to go back?	R					
+487000	488000	Yeah.	id127		L			
