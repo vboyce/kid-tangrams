@@ -2,14 +2,14 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 0	3000	Okay, now you're recording.	R					
 3000	7000	Okay, thank you guys so much for playing my game.	R					
 7000	10000	Our game is going to be a really fun matching game.	R					
-10000	11000	Hey, this is your dog.	id61					
+10000	11000	Hey, this is your dog.	id62					
 11000	13000	It is. I'm going to talk about him, okay?	R					
 13000	17000	But first, we're going to play a really fun bubble game.	R					
 17000	21000	In this game, you're going to practice tapping on your iPads	R					
 21000	23000	by pressing all of the bubbles, okay?	R					
 23000	27000	So you can start by pressing this blue button right here on your screen, okay?	R					
-		this one?	id62					
-27000	32000	But why? We're not going to miss the bubbles that we want every bubble.	id61					
+		this one?	id61					
+27000	32000	But why? We're not going to miss the bubbles that we want every bubble.	id62					
 32000	34000	You see? You'll see your bubbles. See, look, press.	R					
 34000	36000	If you press it, you'll see your bubbles.	R					
 36000	38000	There's the bubbles. You can pop them.	R					
@@ -18,22 +18,22 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 45000	47000	Keep popping.	R					
 49000	51000	Good job.	R					
 51000	53000	Yay! Good job.	R					
-53000	55000	I win. I get the bubbles.	id61					
+53000	55000	I win. I get the bubbles.	id62					
 55000	57000	Good job. You'll see. Good job.	R					
 57000	59000	Thank you so much for popping your bubbles.	R					
 59000	61000	You're doing such a good job.	R					
-62000	64000	I get the bubbles.	id61					
+62000	64000	I get the bubbles.	id62					
 64000	65000	Good job.	R					
-65000	67000	People win the bubbles.	id61					
+65000	67000	People win the bubbles.	id62					
 67000	71000	Good job. Okay, so now I'm going to explain our matching game.	R					
 71000	73000	That's the next game that we're going to play.	R					
 73000	77000	In the matching game, we're going to help our friend, Smurphy.	R					
 77000	79000	Do you guys want to say hi to Smurphy?	R					
-79000	80000	Hi, Smurphy.	id62					
-80000	82000	Hello, [id62]. Hi, [id61].	R					
-82000	83000	Hello, Smurphy.	id61					
+79000	80000	Hi, Smurphy.	id61					
+80000	82000	Hello, [id61]. Hi, [id62].	R					
+82000	83000	Hello, Smurphy.	id62					
 83000	88000	Okay, in your game, both of you are going to see two pictures on your screen.	R					
-88000	89000	Okay?	id61					
+88000	89000	Okay?	id62					
 89000	93000	But one of you is going to have a black box around one of your pictures.	R					
 93000	96000	Smurphy is going to try and guess.	R					
 96000	98000	Yeah, you'll see it in a second. I'll tell you.	R					
@@ -62,49 +62,49 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 161000	162000	We're ready to play.	R					
 162000	163000	You're going to press this blue button.	R					
 163000	164000	Okay?	R					
-164000	165000	Blue.	id62					
+164000	165000	Blue.	id61					
 165000	166000	This one.	R					
 166000	167000	Yeah.	R					
 167000	168000	Right here.	R					
-168000	169000	Who's that?	id61					
+168000	169000	Who's that?	id62					
 170000	171000	Okay.	R					
 171000	172000	We're going to start.	R					
 172000	176000	So which one of you guys has a black box on your screen?	R	0				
-176000	177000	That's you, [id61].	R					
+176000	177000	That's you, [id62].	R					
 177000	178000	Okay.	R					
 178000	179000	So you're going to be the teller.	R					
-179000	183000	And now you, [id62], you're going to be holding Smurphy and you're the guesser.	R					
+179000	183000	And now you, [id61], you're going to be holding Smurphy and you're the guesser.	R					
 183000	184000	Okay.	R					
 184000	185000	So you're going to help Smurphy guess.	R					
-185000	192000	So [id61], tell [id62] what picture, describe the picture that has the black box around	R					
+185000	192000	So [id62], tell [id61] what picture, describe the picture that has the black box around	R					
 192000	193000	it.	R					
 193000	194000	Tell her.	R					
 194000	195000	Yeah.	R					
 195000	196000	Tell her what.	R					
-196000	197000	It's a banana.	id61		S		a banana	Y
+196000	197000	It's a banana.	id62		S		a banana	Y
 197000	198000	Which one is the banana?	R			Y		
 201000	202000	Click on it.	R					
 205000	206000	Yay!	R					
 206000	207000	You guys got it right.	R	1				
 207000	208000	Okay.	R					
 208000	209000	We're going to do it again now, but switching.	R					
-209000	214000	So now [id62] is going to be the teller and you're going to be the guesser, [id61].	R					
-214000	215000	What?	id62		S			
+209000	214000	So now [id61] is going to be the teller and you're going to be the guesser, [id62].	R					
+214000	215000	What?	id61		S			
 215000	216000	Okay.	R					
-216000	219000	So can we tell [id61] which one has the black box?	R					
-222000	224000	Can you tell [id61] what's in the black box?	R					
-224000	225000	Dog	id62		S		dog	Y
+216000	219000	So can we tell [id62] which one has the black box?	R					
+222000	224000	Can you tell [id62] what's in the black box?	R					
+224000	225000	Dog	id61		S		dog	Y
 229000	230000	Yay!	R	2				
 230000	231000	Good job.	R					
 231000	232000	Okay.	R					
-232000	234000	Now you're going to be the guesser, [id61].	R					
-234000	236000	[id62] and you're going to be the teller.	R					
+232000	234000	Now you're going to be the guesser, [id62].	R					
+234000	236000	[id61] and you're going to be the teller.	R					
 238000	239000	Okay.	R					
 239000	242000	So you tell her which one has the black box.	R					
 242000	243000	Yeah.	R					
 243000	244000	Tell her.	R					
 244000	245000	Tell her.	R					
-245000	246000	It's a house.	id61		S		a house	Y
+245000	246000	It's a house.	id62		S		a house	Y
 247000	249000	Which one is the house?	R			Y		
 251000	252000	Yeah.	R					
 252000	255000	You can help Smurphy guess.	R					
@@ -112,105 +112,105 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 256000	257000	Yay!	R	3				
 257000	258000	Good job.	R					
 258000	259000	Okay.	R					
-259000	267000	Now, [id61]'s going to be the guesser, and you're going to be the teller, [id62].	R					
-267000	268000	okay, doggy.	id61		L			
-268000	272000	So tell [id61] which one has the black box.	R					
-272000	274000	The christmas tree.	id62		S		the christmas tree	Y
+259000	267000	Now, [id62]'s going to be the guesser, and you're going to be the teller, [id61].	R					
+267000	268000	okay, doggy.	id62		L			
+268000	272000	So tell [id62] which one has the black box.	R					
+272000	274000	The christmas tree.	id61		S		the christmas tree	Y
 274000	276000	Oh, did you hear what she said?	R					
 276000	279000	Just tell her again.	R					
-279000	281000	The tree.	id62		S			Y
+279000	281000	The tree.	id61		S			Y
 281000	284000	Click again.	R					
-284000	287000	Smurfy, you want to do it?	id61		L			
+284000	287000	Smurfy, you want to do it?	id62		L			
 287000	289000	Yeah, help Smurfy do it.	R					
 289000	292000	Oh, you might need a human finger to press it.	R					
 292000	293000	Yay!	R					
 293000	295000	Good job, Smurfy.	R	4				
-295000	296000	Good job, [id61].	R					
-296000	298000	Okay, so now [id62]'s the guesser.	R					
-298000	302000	And [id61], you're going to tell [id62] which picture has the black box.	R					
-		Smurfy’s soft.	id61		S			
+295000	296000	Good job, [id62].	R					
+296000	298000	Okay, so now [id61]'s the guesser.	R					
+298000	302000	And [id62], you're going to tell [id61] which picture has the black box.	R					
+		Smurfy’s soft.	id62		S			
 302000	304000	Smurfy's very soft.	R					
-304000	307000	You know, Smurfy is a stuffy.	id61		S			
-307000	309000	She is soft.	id61		S			
+304000	307000	You know, Smurfy is a stuffy.	id62		S			
+307000	309000	She is soft.	id62		S			
 309000	311000	She is very soft.	R					
-311000	316000	Okay, so you're going to tell Smurfy and [id62] which picture has the black box on your screen.	R					
-316000	322000	I'm tween at the butterfly hand.	id61		S			
-322000	325000	Oh, tell [id62] what's in that box.	R					
-325000	326000	What?	id61		S			
-326000	328000	What's in that box?	id61		S			
+311000	316000	Okay, so you're going to tell Smurfy and [id61] which picture has the black box on your screen.	R					
+316000	322000	I'm tween at the butterfly hand.	id62		S			
+322000	325000	Oh, tell [id61] what's in that box.	R					
+325000	326000	What?	id62		S			
+326000	328000	What's in that box?	id62		S			
 328000	329000	Tell her.	R					
 329000	333000	Tell her what's inside.	R					
 333000	335000	What did you see in this picture?	R					
-335000	337000	It's a man.	id61		S			Y
+335000	337000	It's a man.	id62		S			Y
 337000	340000	Okay, it's a man.	R			Y		
 340000	342000	Can you explain more?	R					
-342000	346000	It's a man.	id62		L			Y
+342000	346000	It's a man.	id61		L			Y
 346000	348000	You're going to have to guess.	R					
 348000	350000	Guess which one you think.	R					
-350000	351000	It's a man.	id62		L			Y
+350000	351000	It's a man.	id61		L			Y
 351000	356000	Pick, we'll see.	R					
 356000	360000	You can guess, it's okay.	R					
 360000	363000	You can just pick one.	R					
-363000	368000	Can you tell [id62] anything more about your picture?	R					
-368000	373000	It's a man.	id61		S			Y
-		is this the man?	id62		L			Y
+363000	368000	Can you tell [id61] anything more about your picture?	R					
+368000	373000	It's a man.	id62		S			Y
+		is this the man?	id61		L			Y
 373000	378000	Can you tell her anything else about the picture?	R					
 378000	383000	You can't see hers, but you can tell her like more details.	R					
-383000	386000	More details.	id61		S			
+383000	386000	More details.	id62		S			
 386000	392000	Just pick the one that you think is right.	R					
-392000	394000	Don't get it wrong, okay?	id61		S			Y
+392000	394000	Don't get it wrong, okay?	id62		S			Y
 394000	400000	It’s okay, if she gets it wrong, we have so many tries.	R					
-400000	402000	You press this, please.	id61		S			Y
-402000	406000	Can you press this?	id61		S			Y
-		This?	id62		L			Y
-406000	409000	The one on the right.	id62		L			Y
+400000	402000	You press this, please.	id62		S			Y
+402000	406000	Can you press this?	id62		S			Y
+		This?	id61		L			Y
+406000	409000	The one on the right.	id61		L			Y
 409000	411000	You guys won't know, it's a guessing game.	R					
 411000	412000	So you just guess.	R					
-412000	413000	No, it's not in the right.	id61		S			Y
-413000	415000	It's in the left.	id61		S			Y
+412000	413000	No, it's not in the right.	id62		S			Y
+413000	415000	It's in the left.	id62		S			Y
 415000	417000	It's switched for you guys.	R					
 417000	419000	So you won't know who has what picture.	R					
 419000	423000	You have to guess based off what she describes to you.	R					
 423000	427000	Can you tell her again one more time what you see in your picture?	R					
-427000	429000	It's a man.	id61		S			Y
-429000	431000	Who's doing Diwali?	id61		S		a man who’s doing Diwali	Y
+427000	429000	It's a man.	id62		S			Y
+429000	431000	Who's doing Diwali?	id62		S		a man who’s doing Diwali	Y
 431000	433000	Who's doing Diwali?	R			Y		
 433000	438000	Okay, so which one?	R					
 438000	441000	Pick it.	R					
-441000	444000	This one.	id61		S			Y
+441000	444000	This one.	id62		S			Y
 444000	447000	You can just pick one, go ahead and pick one.	R					
-447000	451000	You have to say this like me.	id61		S			
+447000	451000	You have to say this like me.	id62		S			
 452000	454000	Yay, you got it right, good job.	R	5				
 454000	457000	Okay, so now you're going to be the teller	R					
-457000	459000	and [id61]'s going to be the guesser.	R					
+457000	459000	and [id62]'s going to be the guesser.	R					
 459000	461000	Okay, so tell her which one.	R					
 461000	464000	Describe the one in the black box.	R					
-464000	467000	It's a man walking.	id62		S		a man walking	Y
-467000	469000	A man walking.	id62		S			Y
-469000	473000	Okay, [id61].	R					
+464000	467000	It's a man walking.	id61		S		a man walking	Y
+467000	469000	A man walking.	id61		S			Y
+469000	473000	Okay, [id62].	R					
 473000	476000	Yay, you guys are doing so good.	R	6				
-476000	481000	Okay, now you're going to guess and you're going to tell [id61].	R					
-481000	484000	Look, it has the same one though.	id62		L			Y
+476000	481000	Okay, now you're going to guess and you're going to tell [id62].	R					
+481000	484000	Look, it has the same one though.	id61		L			Y
 484000	487000	Yeah, you're going to keep seeing those.	R					
 487000	490000	So explain to her what's inside the box.	R					
-490000	497000	It's a man who's doing like this funny joke.	id61		S		a man who’s doing like this funny joke	Y
+490000	497000	It's a man who's doing like this funny joke.	id62		S		a man who’s doing like this funny joke	Y
 497000	500000	Which one do you think that is?	R					
 500000	503000	Did you hear what she said?	R					
-503000	505000	This one.	id62		L			Y
+503000	505000	This one.	id61		L			Y
 505000	508000	Guess, which one do you think?	R					
 508000	512000	Can you describe more what's in the box?	R					
-512000	516000	It's a man who is having some foot.	id61		S		a man who is having some foot	Y
-519000	521000	What did you say?	id62		L			
-521000	523000	[id61], what did you say?	id62		L			
-523000	525000	Tell her again, [id61].	R					
-525000	527000	A little louder.	id62		L			
-527000	529000	[id61], tell her what you think.	R					
-529000	534000	And a man who is doing this funny joke.	id61		S			Y
+512000	516000	It's a man who is having some foot.	id62		S		a man who is having some foot	Y
+519000	521000	What did you say?	id61		L			
+521000	523000	[id62], what did you say?	id61		L			
+523000	525000	Tell her again, [id62].	R					
+525000	527000	A little louder.	id61		L			
+527000	529000	[id62], tell her what you think.	R					
+529000	534000	And a man who is doing this funny joke.	id62		S			Y
 534000	535000	Good job.	R					
 535000	538000	Okay, so which one do we think that is?	R					
 538000	541000	You got it, you got it.	R					
 541000	545000	Pick here.	R					
-545000	550000	We have both the same of this tablet.	id61		S			
+545000	550000	We have both the same of this tablet.	id62		S			
 550000	552000	Yeah.	R					
 552000	554000	Pick which one you think is right.	R					
 554000	555000	Can you tell her more?	R					
@@ -218,24 +218,24 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 556000	562000	Do you want to tell her more about the picture that has the box around it?	R					
 562000	563000	Yeah, tell her more.	R					
 563000	565000	Tell her more about what's in there.	R					
-565000	570000	It's a man.	id61		S		a man	Y
-570000	572000	Is it this one?	id62		L			Y
-572000	573000	This one.	id61		S			Y
+565000	570000	It's a man.	id62		S		a man	Y
+570000	572000	Is it this one?	id61		L			Y
+572000	573000	This one.	id62		S			Y
 573000	574000	Just guess.	R					
 574000	575000	It's fine.	R					
-575000	577000	It's in the right square box.	id61		S			Y
-577000	578000	Who is this one?	id61		S			Y
-578000	581000	And you press it.	id61		S			Y
-		Can you watch do this?	id61		S			
+575000	577000	It's in the right square box.	id62		S			Y
+577000	578000	Who is this one?	id62		S			Y
+578000	581000	And you press it.	id62		S			Y
+		Can you watch do this?	id62		S			
 581000	586000	Can you guess which one she said?	R					
 586000	588000	Based off what she told you, you can't look at what she's doing.	R					
 588000	590000	But you can tell her more.	R					
 590000	593000	Try to tell her more about what's in the box.	R					
-593000	595000	What's in the box?	id61		S			
+593000	595000	What's in the box?	id62		S			
 595000	597000	What's in the box?	R					
-597000	599000	It's a man.	id61		S			Y
+597000	599000	It's a man.	id62		S			Y
 599000	601000	And?	R					
-601000	605000	Who is having these?	id61		S		who is having these	Y
+601000	605000	Who is having these?	id62		S		who is having these	Y
 605000	606000	Just pick one.	R					
 606000	608000	Which one do you think is correct?	R					
 608000	610000	You don't know?	R					
@@ -244,7 +244,7 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 615000	616000	Good job.	R					
 616000	617000	Yeah, pick that one.	R					
 617000	618000	Pick that one.	R					
-618000	621000	I think I want to do bubbles.	id61		S			
+618000	621000	I think I want to do bubbles.	id62		S			
 621000	624000	Yeah, we can get to bubbles once we finish.	R					
 624000	626000	Pick one.	R					
 626000	628000	Pick one.	R					
@@ -257,133 +257,133 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 639000	641000	Okay, now you're going to tell.	R					
 641000	643000	You're going to tell and you're going to guess.	R					
 643000	645000	Okay, tell her what's in the black box.	R					
-645000	650000	There's a person in a boat.	id62		S		a person in the boat	Y
+645000	650000	There's a person in a boat.	id61		S		a person in the boat	Y
 650000	658000	Okay, you're going to help Smurfy guess which one.	R					
 658000	659000	Yay!	R					
 659000	660000	Yay!	R	8				
 660000	661000	Good job.	R					
 661000	663000	Okay, now you're going to guess.	R					
-663000	666000	[id62], [id61], you're going to tell.	R					
+663000	666000	[id61], [id62], you're going to tell.	R					
 666000	669000	Tell her what you see in your black box.	R					
-669000	674000	It's a man who is walking.	id61		S		a man who is walking	Y
+669000	674000	It's a man who is walking.	id62		S		a man who is walking	Y
 674000	675000	Yay!	R					
 675000	676000	Yay!	R					
 676000	681000	Okay, now you're going to guess and you're going to tell.	R	9				
-681000	686000	It is a man who's swimming.	id62		S		a man who’s swimming	Y
-686000	687000	Hey?	id61		L			Y
-687000	690000	No, this is one.	id61		L			Y
+681000	686000	It is a man who's swimming.	id61		S		a man who’s swimming	Y
+686000	687000	Hey?	id62		L			Y
+687000	690000	No, this is one.	id62		L			Y
 691000	696000	Help Smurfy pick.	R					
 696000	700000	Can you tell her more about your person in the box?	R			Y		
-700000	702000	Smurfy, you're on the front.	id61		L			
-702000	707000	It’s swimming and it has a diamond hat.	id62		S		and it has a diamond hat	Y
+700000	702000	Smurfy, you're on the front.	id62		L			
+702000	707000	It’s swimming and it has a diamond hat.	id61		S		and it has a diamond hat	Y
 707000	712000	Okay, can you help Smurfy pick?	R					
-712000	713000	This one.	id61		L			
-713000	718000	She’s a stuffy she wants to pick one.	id61		L			
+712000	713000	This one.	id62		L			
+713000	718000	She’s a stuffy she wants to pick one.	id62		L			
 718000	719000	Help her pick one.	R					
-719000	721000	Then press it.	id62		S			Y
+719000	721000	Then press it.	id61		S			Y
 721000	723000	Yeah, press which one do you think?	R					
-723000	726000	Smurfy, you want to try?	id61		L			
+723000	726000	Smurfy, you want to try?	id62		L			
 726000	727000	Mm-hmm.	R					
 727000	731000	Okay, now you have to use your human finger to press.	R					
 731000	732000	Yay!	R					
 732000	733000	Good job.	R	10				
-733000	737000	Okay, now you're going to guess, [id62], and you're going to tell.	R					
-737000	738000	[id61]?	R					
-738000	740000	This one.	id61		S			Y
+733000	737000	Okay, now you're going to guess, [id61], and you're going to tell.	R					
+737000	738000	[id62]?	R					
+738000	740000	This one.	id62		S			Y
 740000	743000	Yeah, tell her what's in the box.	R					
-743000	747000	It's a man who's doing for the diwali again.	id61		S		a man who’s doing for the Diwali	Y
+743000	747000	It's a man who's doing for the diwali again.	id62		S		a man who’s doing for the Diwali	Y
 747000	748000	Oh, okay, yeah.	R					
-748000	749000	Walking.	id62		L			Y
-749000	750000	What did you say?	id62		L			Y
+748000	749000	Walking.	id61		L			Y
+749000	750000	What did you say?	id61		L			Y
 750000	751000	Say it again.	R					
-751000	756000	It’s a doing at the diwali.	id61		S			Y
+751000	756000	It’s a doing at the diwali.	id62		S			Y
 756000	757000	Yay!	R					
 757000	758000	Good job.	R	11				
 758000	759000	Okay, can you take Smurfy?	R					
-759000	764000	Okay, now you're going to guess, [id61], and you're going to tell, [id62].	R					
-764000	768000	It's a a this who's in the boat again.	id62		S		a this who’s in the boat	Y
+759000	764000	Okay, now you're going to guess, [id62], and you're going to tell, [id61].	R					
+764000	768000	It's a a this who's in the boat again.	id61		S		a this who’s in the boat	Y
 768000	769000	Okay.	R					
 769000	771000	Can you help Smurfy pick?	R					
 771000	772000	Yay!	R					
 772000	773000	Yay!	R					
 773000	774000	Good job.	R	12				
-774000	775000	Now you're going to guess, [id62].	R					
-775000	778000	You're going to tell, [id61].	R					
-778000	780000	It's a fun game.	id62		L			
+774000	775000	Now you're going to guess, [id61].	R					
+775000	778000	You're going to tell, [id62].	R					
+778000	780000	It's a fun game.	id61		L			
 780000	781000	It is fun, right?	R					
 781000	784000	Okay, now you're going to tell her what you see in the box.	R					
-784000	791000	It's who's a man who's jumping around.	id61		S		a man who’s jumping around	Y
+784000	791000	It's who's a man who's jumping around.	id62		S		a man who’s jumping around	Y
 791000	792000	Oh, that's okay.	R					
 792000	793000	That's okay.	R					
 793000	794000	We'll try again.	R					
-794000	795000	I'm going to try again.	id62		L			
+794000	795000	I'm going to try again.	id61		L			
 795000	796000	Yeah, we'll try again.	R					
-796000	800000	Okay, so [id61]'s going to guess, and you're going to tell [id61] what you see in the box.	R	13				
-800000	805000	[id62], just get the wrong person who's doing that.	id61		L			
+796000	800000	Okay, so [id62]'s going to guess, and you're going to tell [id62] what you see in the box.	R	13				
+800000	805000	[id61], just get the wrong person who's doing that.	id62		L			
 805000	806000	It's okay.	R					
 806000	807000	We'll try again.	R					
-807000	809000	So you tell [id61] what's inside the box.	R					
-809000	816000	I get so much again, again the person in the boat. 	id62		S		the person in the boat	Y
+807000	809000	So you tell [id62] what's inside the box.	R					
+809000	816000	I get so much again, again the person in the boat. 	id61		S		the person in the boat	Y
 816000	819000	Okay, help Smurfy pick.	R					
 819000	820000	Did you hear what she said?	R					
-820000	821000	It's that one.	id62		S			Y
+820000	821000	It's that one.	id61		S			Y
 821000	823000	Oh, you can't tell her which one.	R					
 823000	824000	Just tell her.	R					
-824000	825000	On this side.	id62		S			Y
+824000	825000	On this side.	id61		S			Y
 825000	826000	Just describe.	R					
 826000	828000	You can only describe what you see.	R					
-828000	829000	On this side.	id62		S			Y
+828000	829000	On this side.	id61		S			Y
 829000	830000	Okay.	R					
-830000	832000	On the left one?	id61		L			Y
+830000	832000	On the left one?	id62		L			Y
 832000	834000	Yeah, just pick the one that you think.	R					
 834000	835000	Good job.	R					
 835000	837000	Okay, now you're going to guess.	R	14				
-837000	838000	[id62].	R					
-838000	843000	You're going to tell [id61].	R					
+837000	838000	[id61].	R					
+838000	843000	You're going to tell [id62].	R					
 843000	847000	Okay, tell her what you see in the black box.	R					
 847000	849000	Yeah, tell her.	R					
-849000	854000	It's a man who is doing diwali again.	id61		S		a man who is doing Diwali	Y
-854000	856000	This one … What did you say?	id62		L			Y
-856000	860000	It's a man who is doing diwali. 	id61		S			Y
+849000	854000	It's a man who is doing diwali again.	id62		S		a man who is doing Diwali	Y
+854000	856000	This one … What did you say?	id61		L			Y
+856000	860000	It's a man who is doing diwali. 	id62		S			Y
 860000	861000	Yay!	R					
 861000	862000	Yay!	R	15				
 862000	863000	Okay, take Smurfy.	R					
 863000	867000	Okay, now you're going to guess, and you're going to tell.	R					
-867000	869000	It's a man who's walking.	id62		S		a man who’s walking	Y
-869000	871000	This one.	id61		L			Y
+867000	869000	It's a man who's walking.	id61		S		a man who’s walking	Y
+869000	871000	This one.	id62		L			Y
 871000	873000	Let's see.	R					
 873000	874000	Press it.	R					
 874000	875000	Yay!	R					
 875000	876000	Yay!	R	16				
-876000	880000	Okay, now you're going to guess, and you're going to tell [id61].	R					
-880000	883000	One who is dancing mainly.	id61		S			Y
-883000	887000	Oh, tell [id62] what's inside this box.	R					
-887000	889000	It's a boat.	id61		S		a boat	Y
+876000	880000	Okay, now you're going to guess, and you're going to tell [id62].	R					
+880000	883000	One who is dancing mainly.	id62		S			Y
+883000	887000	Oh, tell [id61] what's inside this box.	R					
+887000	889000	It's a boat.	id62		S		a boat	Y
 889000	890000	Yay!	R					
 890000	891000	Yay!	R	17				
 891000	893000	Okay, let me see Smurfy.	R					
 893000	894000	Okay, now you're going to guess.	R					
-894000	896000	[id61], you're going to tell [id62].	R					
-896000	901000	It's a person walking on the sidewalk.	id62		S		a person walking on the sidewalk	Y
-901000	903000	I'm going to do this.	id61		L			Y
+894000	896000	[id62], you're going to tell [id61].	R					
+896000	901000	It's a person walking on the sidewalk.	id61		S		a person walking on the sidewalk	Y
+901000	903000	I'm going to do this.	id62		L			Y
 903000	905000	Good job!	R					
 905000	908000	Okay, now you're going to guess, and you're going to tell.	R	18				
-908000	911000	[id61], which one is in the black box?	R					
-911000	915000	You know Smurfy is having a smiley face?	id61		S			
+908000	911000	[id62], which one is in the black box?	R					
+911000	915000	You know Smurfy is having a smiley face?	id62		S			
 915000	917000	He's so smiley, I know.	R					
 917000	918000	Okay.	R					
-918000	923000	It's a man who's jumping again.	id61		S		a man who’s jumping	Y
+918000	923000	It's a man who's jumping again.	id62		S		a man who’s jumping	Y
 924000	926000	Good job!	R	19				
 926000	928000	Okay, this one.	R					
 928000	930000	Okay, now you're going to guess.	R					
-930000	931000	Oh no, it’s a bug.	id61		L			
+930000	931000	Oh no, it’s a bug.	id62		L			
 931000	933000	Oh, I'll take it.	R					
 933000	934000	I'll take it.	R					
 934000	935000	I got it.	R					
 935000	936000	Okay, you guys can keep playing.	R					
-936000	939000	It's a man who's bending and holding a triangle.	id62		S		a man who’s bending and holding a triangle	Y
+936000	939000	It's a man who's bending and holding a triangle.	id61		S		a man who’s bending and holding a triangle	Y
 940000	943000	Here, you're going to guess which one is the man holding.	R			Y		
 943000	946000	I can't tell you.	R					
-946000	948000	You have to pick.	id62		S			Y
+946000	948000	You have to pick.	id61		S			Y
 948000	950000	You have to pick for Smurfy.	R					
 950000	951000	Yay!	R					
