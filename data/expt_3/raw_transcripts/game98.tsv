@@ -1,0 +1,196 @@
+start	end	text	speaker	trial	role	echo	description	on_topic
+19000	22000	So today we're going to play a fun matching game,	R					
+22000	24500	but first to practice touching the iPads,	R					
+24500	26000	we're gonna pop some bubbles.	R					
+26000	28500	So go ahead and press the blue button to start.	R					
+31000	35000	All right, and then just keep tapping on the bubbles until there's none left.	R					
+38000	40000	I did all of them.	id278					
+40000	42000	Oh, it looks like there's still some left.	R					
+48000	49000	Good job, friends!	R					
+49000	53000	All right, let me take these back while I explain our game.	R					
+53000	56000	So, who you saw in the picture was Smurphy.	R					
+56000	58000	This is Smurphy, do you want to say hi?	R					
+58000	59000	Hi, Smurphy.	id277					
+59000	60000	Hi, [id277].	R					
+60000	61000	Hi, [id278].	R					
+61000	66000	All right, so today we're gonna help out Smurphy by playing the matching game.	R					
+66000	70000	So on your iPads, you guys are both gonna see two pictures like this.	R					
+70000	74000	Now, one of you is gonna see a black box around one of the pictures.	R					
+74000	77000	You see how this one has a black box around it?	R					
+77000	80000	So if you see this black box, you're gonna be the teller,	R					
+80000	85000	and you're gonna help tell Smurphy and our other friend what we see inside the box.	R					
+85000	87000	So this one, what do we see inside the box?	R					
+87000	88000	Banana!	id277					
+88000	91000	Banana, so you'd say banana.	R					
+91000	93000	Now, oh, that's not touched the iPads just yet.	R					
+93000	98000	Now, if you don't see the black box, you're gonna be holding Smurphy and you're gonna be the guesser.	R					
+98000	101000	So the teller's gonna tell you what they see in the black box,	R					
+101000	106000	and once you think you know, you're gonna tap on the picture that you think is inside the box.	R					
+106000	111000	Now, if you guess incorrectly, you're gonna see a frowny face,	R					
+111000	114000	but if you guess correctly, you're gonna see a smiley face.	R					
+114000	119000	But it's okay if we get it wrong because we're gonna have a lot of different chances to help out Smurphy.	R					
+119000	123000	So we're gonna take turns guessing and telling.	R					
+123000	127000	So if you see the black box, what are you gonna do?	R					
+127000	128000	Tap it.	id278					
+128000	130000	No, we're not gonna tap it.	R					
+130000	133000	We're gonna tell our other friend what we see inside the black box.	R					
+133000	135000	So we'll say banana.	R					
+135000	142000	But if we don't see the black box, then we're gonna tap the picture and guess which one it is.	R					
+142000	143000	All right.	R					
+143000	144000	Now, can you give us the ipads?	id277					
+144000	145000	Yes.	R					
+145000	146000	Are you guys ready to play?	R					
+146000	147000	All right.	R					
+147000	148000	You can type.	R					
+148000	150000	Press the blue button to start.	R					
+151000	152000	All right.	R					
+152000	153000	Who sees the black box?	R	1				
+153000	154000	I do.	id277		S			
+154000	155000	You do?	R					
+155000	156000	I don't.	id278		L			
+156000	158000	That means that [id278] gets to hold Smurphy.	R					
+158000	163000	So, [id277], can you describe what you see inside the black box?	R					
+163000	164000	Apple.	id277		S		apple	Y
+164000	165000	All right.	R					
+165000	167000	And then you get to guess, [id278].	R					
+167000	171000	You get to tap on which picture you think [id277]'s talking about.	R					
+172000	174000	You might have to tap a little harder.	R					
+177000	178000	All right.	R					
+178000	180000	Just maybe tap a little bit harder.	R					
+183000	184000	I can't.	id278		L			
+184000	185000	You can't?	R					
+185000	186000	All right.	R					
+186000	187000	Just try doing it.	R					
+187000	188000	Maybe a little more gently.	R					
+189000	190000	There you go.	R					
+190000	192000	I see both of them.	id277	2	L			
+192000	193000	Oh, it's okay.	R					
+193000	194000	Oh, let's sit down.	R					
+194000	198000	I see something in the box.	id278		S			Y
+198000	199000	I don't see any.	id277		L			Y
+199000	200000	All right.	R					
+200000	202000	So what image do you see in the box, [id278]?	R					
+202000	203000	A dog.	id278		S		a dog	Y
+206000	207000	Good job.	R	3				
+207000	208000	All right.	R					
+208000	210000	Now it's [id278]'s turn to guess again.	R					
+210000	212000	I see one.	id277		S			Y
+212000	214000	What do you see inside the box?	R					
+214000	215000	I don't know.	id277		S			Y
+215000	218000	Oh, let's not show the other friend.	R					
+218000	220000	Let's just use our words to describe.	R					
+220000	221000	Okay?	R	4				
+221000	224000	So from now on, let's not turn the iPads around.	R					
+224000	226000	Let's just use our words to describe.	R					
+226000	228000	I see something inside the box.	id278		S			Y
+228000	230000	What do you see, [id278]?	R					
+230000	232000	Upside down diamond.	id278		S		upside down diamond	Y
+232000	234000	This one.	id277		L			Y
+234000	235000	All right.	R					
+235000	237000	Go ahead and tap it if you think.	R					
+237000	240000	Probably maybe a little bit more gentle.	R					
+242000	243000	There you go.	R	5				
+243000	244000	All right.	R					
+244000	247000	Now it's [id278]'s turn to guess.	R					
+247000	250000	I don't see anything inside.	id278		L			Y
+250000	251000	I do.	id277		S			Y
+251000	252000	All right.	R					
+252000	253000	What do you see?	R					
+253000	255000	A ship, uh I don't know.	id277		S		a ship	Y
+255000	259000	Just use your best words to describe them.	R					
+259000	260000	boot	id277		S		boot	Y
+264000	266000	Stop moving.	id277		S			
+266000	268000	Stop moving.	id277		S			
+268000	273000	[id278], you can ask [id277] any questions about the pictures.	R					
+276000	277000	No.	id277	6	L			
+277000	279000	That's okay.	R					
+279000	281000	I see nothing.	id277		L			Y
+281000	282000	All right.	R					
+282000	284000	That means [id278] has a black box.	R					
+284000	295000	I see a pterodactyl inside the box.	id278		S		a pterodactyl	Y
+295000	296000	What is it?	id277		L			Y
+296000	297000	This one?	id277		L			Y
+301000	302000	That one?	id277		L			Y
+302000	305000	You can ask [id278] questions about which one you think it is.	R					
+305000	308000	Which one is it?	id277		L			Y
+308000	309000	This one.	id278		S			Y
+309000	311000	Can you use your words to describe it?	R					
+311000	313000	Let's not turn our iPads around.	R					
+313000	315000	Let's use our words to describe it.	R					
+315000	316000	This one.	id277		L			Y
+316000	317000	This.	id278		S			Y
+317000	319000	Can you describe what it looks like?	R					
+319000	320000	This.	id277		L			Y
+320000	321000	Yep.	id278		S			Y
+321000	322000	Good job.	R	7				
+322000	325000	Let's use our words first to describe what we see.	R					
+325000	329000	I see a boot.	id277		S		a boot	Y
+329000	331000	It's on that side.	id277		S			Y
+336000	337000	Good job.	R	8				
+337000	338000	Let's pass Murphy to [id277].	R					
+338000	341000	I see a boot.	id278		S		a boot	Y
+350000	352000	Let's pass Murphy to [id278].	R	9				
+352000	354000	I am a little kid.	id277		S			
+354000	356000	I see something.	id277		S			Y
+356000	359000	I see that.	id277		S			Y
+359000	363000	Yeah, that one.	id277		S			Y
+363000	367000	Can you use your words to describe the shapes that you see?	R					
+367000	371000	Um, I see them walking.	id277		S		them walking	Y
+371000	377000	Why is your game room small?	id277		S			
+377000	382000	Some of them are small and some of them are big. That's how it is.	R					
+382000	388000	I see a triangle.	id278	10	S		a triangle	Y
+388000	392000	Where is it? This one?	id277		L			Y
+		 It's on this side.	id278		S			Y
+392000	397000	This one? 	id277		L			Y
+		Press it.	id278		S			
+397000	402000	Oh, it might be on different sides for you guys, so you have to use your words. 	R	11				
+402000	409000	I see one. It is a triangle and it's on that side.	id277		S		a triangle	Y
+409000	411000	This side.	id278		L			Y
+411000	415000	Oh, friends, it might be on different sides for the different iPads.	R					
+415000	421000	So instead of saying which side it's on, you should use your words to say the kinds of shapes you see	R					
+421000	426000	or what you think the picture is.	R					
+426000	432000	So can you use words, [id277], to tell [id278] and Smurfy what you see?	R					
+432000	439000	I see a boot Smurfy and I see a boot [id278].	id277		S		a boot	Y
+439000	442000	Alright, let's pass Smurfy to...	R	12				
+442000	445000	I see nothing.	id277		L			Y
+445000	448000	I see a boot.	id278		S			Y
+448000	452000	I don't know what Smurfy is looking at.	id277		L			
+452000	457000	Alright, can we put Smurfy down while we try to guess? Thank you.	R					
+457000	461000	I see a boot with a triangle on top.	id278		S		a boot with a triangle on top	Y
+461000	464000	This one.	id277		L			Y
+464000	468000	There you go. Alright, now let's pass Smurfy to [id278].	R	13				
+468000	475000	I see a triangle on top.	id277		S		a triangle on top	Y
+475000	479000	That's a triangle.	id277	14	L			
+479000	482000	Alright, let's pass Smurfy to [id278].	R					
+482000	484000	I see nothing.	id277		L			Y
+484000	486000	err to [id277].	R					
+486000	491000	Alright, what do you see in the box, [id278]?	R					
+491000	497000	A walking person with wings.	id278		S		a walking person with wings	Y
+498000	501000	Nice job.	R	15				
+501000	504000	Alright, let's pass Smurfy to [id278].	R					
+504000	511000	I see one with a square on top.	id277		S		one with a square on top	Y
+521000	524000	I see nothing.	id277	16	L			Y
+524000	531000	I see a triangle on top of it and it looks like a thing.	id278		S		a triangle on top of it and it looks like a thing	Y
+531000	533000	Oh, well that's okay.	R	17				
+533000	535000	Alright, let's pass Smurfy to [id278].	R					
+535000	542000	I see a walking person with the wings.	id277		S		a walking person with wings	Y
+542000	545000	Now let's pass Smurfy.	id277	18	L			
+545000	551000	Whoa, I see a boot with a triangle on top.	id278		S		a boot with a triangle on top	Y
+551000	553000	This one.	id277		L			Y
+553000	556000	Just press it.	id278		S			
+556000	558000	Yep.	id278	19	L			
+558000	560000	Alright, now [id278]'s starting to hold it right here.	R					
+560000	569000	I see a square on top.	id277		S		a square on top	Y
+569000	571000	What did you say, [id277]?	id278		L			Y
+571000	575000	A square on top.	id277		S			Y
+575000	577000	Yay!	R					
+577000	579000	Now pass it to me.	id277	20	L			
+580000	586000	I see with a square on top.	id278		S		a square on top	Y
+586000	588000	This one?	id277		L			Y
+588000	590000	Yeah!	id278		S			Y
+590000	592000	Smurfy was a good job.	id277		L			
+592000	594000	Oh, it looks like you guys are done with that game.	R					
+594000	596000	Thank you so much for playing.	R					
+596000	598000	Alright, can I take Smurfy back now?	R					
+598000	600000	Thank you, friend.	R					
+600000	603000	Alright, now we're going to end the video recording.	R					

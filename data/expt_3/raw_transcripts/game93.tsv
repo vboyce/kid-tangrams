@@ -1,0 +1,257 @@
+start	end	text	speaker	trial	role	echo	description	on_topic
+16200	17200	All right, friends.	R					
+17200	18200	Let's start.	R					
+18200	20200	Yes, we have a stuffy outfit.	R					
+20200	21900	Wait, what's his name again?	id267					
+21900	25700	His name is Smurphy, but I'll tell you all about him in just a second.	R					
+25700	29000	So if you remember, we're going to play a matching game, but first we're going to pop	R					
+29200	30200	Bubbles.	R					
+30200	32200	So go ahead and press the blue button to start.	R					
+40700	42700	I pop it on my bubbles.	id268					
+42700	44700	Oh, it looks like there's still some bubbles up.	R					
+44700	46700	Just keep popping them until there's none left.	R					
+49700	51700	Oh, it looks like you're done.	R					
+51700	53700	And [id267]'s almost done too.	R					
+55200	56200	Awesome.	R					
+56200	58200	Oh, Blippi!	id267					
+58900	59900	Smurphy.	R					
+59900	61900	All right, friends.	R					
+61900	65400	Yeah, Blippi is kind of close to his name.	R					
+65400	68900	But yeah, this, I think you already seen him, but his name's Smurphy.	R					
+68900	71400	And today we're going to play a matching game to help Smurphy.	R					
+71400	72400	Does that sound good?	R					
+72400	73400	Yeah.	id268					
+73400	74400	All right.	R					
+74400	77900	So on your screens, you guys are both going to see two pictures like this.	R					
+77900	79900	So two pictures.	R					
+79900	84400	Now one of you is going to see one of the pictures in a black box like this.	R					
+84400	85400	Banana.	id267					
+85400	87400	Yeah, the banana's in the black box.	R					
+87400	92400	So our job is to help Smurphy guess which picture is inside the black box.	R					
+92400	97400	So if you see the black box on your screen, then that means you're the teller.	R					
+97400	100400	And you're going to help tell Smurphy what's inside the black box.	R					
+100400	103400	Now one of you is not going to see the black box.	R					
+103400	105400	And this means you're going to be the guesser.	R					
+105400	109400	And so you're going to be holding Smurphy and you're going to guess what's inside the box.	R					
+109400	112400	I already know what it is.	id267					
+112400	114400	You already know what it is?	R					
+114400	115400	Yeah.	id267					
+115400	116400	A banana.	id268					
+116400	117400	Yes.	R					
+117400	119400	In this case, it's a banana.	R					
+119400	124400	But if you guess wrong, then you're going to see a frowny face.	R					
+124400	126400	But if you guess right, you're going to see a smiley face.	R					
+126400	131400	But it's okay because we're going to take turns and we have lots of chances to help Smurphy out.	R					
+131400	132400	Yes.	R					
+132400	134400	So who is it?	R					
+134400	135400	I don't know.	id268					
+135400	138400	But let's focus on the game.	R					
+138400	141400	But okay, so we're going to take turns helping Smurphy.	R					
+141400	144400	So if you see the black box, what are you going to do?	R					
+144400	145400	Press it.	id267					
+145400	147400	No, you're not going to press it.	R					
+		I don’t know.	id267					
+147400	154400	You're going to help tell Smurphy what you see inside the black box.	R					
+154400	158400	And then if you don't see anything, then 	R					
+		You have to guess.	id267					
+158400	161400	You have to guess and you're going to press it once you think you know.	R					
+161400	162400	Does that make sense?	R					
+162400	163400	All right, friends.	R					
+163400	166400	Go ahead and press the blue button to start.	R					
+169400	171400	I'm not lacking.	id268					
+171400	173400	Oh, there you go.	R					
+173400	175400	Okay, so who has the black box?	R					
+175400	176400	Oh, you have the black box.	R					
+176400	178400	So you're the teller and [id268], you're the guesser.	R					
+178400	180400	So you're going to help Smurphy.	R	1				
+180400	186400	So, [id267], you are going to tell [id268] and Smurphy what you see in the black box.	R					
+186400	187400	Oh.	R					
+187400	191400	It looks like you guessed too early.	R					
+191400	194400	So now it's going to be [id267]'s turn.	R	2				
+194400	196400	So what do you see inside the black box, [id268]?	R					
+196400	198400	A bell.	id268		S		a bell	Y
+199400	203400	Tell [id268] and Smurphy and then they can guess.	R					
+203400	205400	Or tell [id267].	R					
+205400	207400	A bell.	id268		S			Y
+207400	209400	A bell.	id268		S			Y
+209400	211400	Nice job.	R					
+211400	214400	And so now it's [id268]'s turn to hold Smurphy.	R	3				
+214400	216400	Oh.	id267		S			
+218400	220400	All right, [id267], what do you see?	R					
+220400	221400	Oh.	R	4				
+221400	227400	[id268], before we guess and tap, we're going to have our other friend [id267].	R					
+228400	230400	Tell us what's inside the box.	R					
+		Gimme that	id267		L			
+230400	231400	Does that make sense?	R					
+231400	234400	So now it's [id267]'s turn to hold Smurphy.	R					
+		Gimme gimme gimme	id267		L			
+234400	235400	All right.	R					
+235400	237400	So, [id268], what do you see inside the black box?	R					
+237400	239400	A flower.	id268		S		a flower	Y
+239400	240400	A water?	id267		L			Y
+240400	242400	A flower.	id268		S			Y
+242400	244400	A flower.	id268		S			Y
+244400	245400	Nice job.	R	5				
+245400	251400	All right, [id268], before we tap anything, you're going to wait for [id267] to tell you what you see in the black box.	R					
+251400	252400	I see.	id267		S			Y
+252400	254400	I don’t know.	id267		S			Y
+257400	262400	I see.	id267		S			Y
+262400	265400	Just use your, as many words as you want.	R					
+265400	267400	Okay.	id267		S			Y
+267400	279400	A triangle and a square and another triangle.	id267		S		a triangle and a square and another triangle	Y
+279400	280400	No.	id267	6	L			
+280400	281400	You didn't do it.	id267		L			
+281400	283400	We could, we could try again next time.	R					
+283400	286400	All right, now, yeah, now it's your turn to describe.	R					
+		Where’s Smurfy?	id267		L			
+286400	288400	Here he is.	R					
+288400	289400	All right.	R					
+289400	290400	I see, I have a box.	id268		S			Y
+290400	291400	It's a doggy.	id268		S		a doggy	Y
+291400	292400	What?	id267		L			Y
+292400	293400	A doggy.	id268		S			Y
+293400	294400	A doggy.	id267		L			Y
+294400	295400	A doggy.	id268		S			Y
+295400	296400	A doggy?	id267		L			Y
+296400	297400	Yeah.	id268		S			Y
+300400	301400	Nice job.	R	7				
+301400	302400	All right.	R					
+302400	303400	It's not a doggy.	id267		S			
+303400	304400	And now it's...	R					
+304400	305400	There you go.	id267		S			
+305400	306400	Sorry.	id267		S			
+306400	308400	Yes it was.	id268		L			
+308400	310400	Okay.	id267		S			
+310400	319400	I have a long nose, a some feet and a square.	id267		S		a long nose, some feet and a square	Y
+326400	330400	And you can ask as many questions as you want to [id267].	R					
+330400	331400	Yeah.	id268		L			
+331400	334400	[id267]?	id268		L			Y
+		what?	id267		S			Y
+		are you right?	id268		L			Y
+334400	336400	what?	id267		S			Y
+		are you right?	id268		L			Y
+336400	338400	What?	id267		S			Y
+339400	341400	Oh, nice job.	R	8				
+341400	342400	All right.	R					
+342400	345400	Now it's [id267]'s turn to hold Smurphy.	R					
+345400	346400	All right.	R					
+346400	347400	Smurphy.	id267		L			
+347400	351400	What I see about is a banana.	id268		S		a banana	Y
+351400	352400	Banana?	id267		L			Y
+352400	353400	Yeah.	id268		S			Y
+353400	354400	Okay.	id267		L			
+354400	355400	Done it.	id267		L			
+355400	356400	Oh, it's okay.	R	9				
+356400	358400	We have another turn.	R					
+358400	362400	There you go, Smurphy.	id267		S			
+362400	363400	Okay.	id267		S			
+363400	372400	Mine has a square, a triangle, a neck and a triangle and another body.	id267		S		a square, a triangle, a neck and a triangle and another body	Y
+372400	374400	And guess it.	id267		S			
+374400	375400	Press it.	id268		L			
+375400	376400	Press it.	id268		L			
+376400	377400	Press it.	id268		L			
+377400	381400	Oh, you're the guesser, [id268], so you have to guess and press it.	R					
+381400	383400	A doggy?	id268		L			Y
+386400	387400	Okay.	id267		S			
+387400	392400	Just press it, just press either one. 	id267		S			
+392400	395400	Um, I don't know.	id268		L			Y
+395400	397400	No.	id267	10	L			
+397400	398400	It's fine.	id268		S			
+398400	399400	It's okay.	R					
+399400	400400	All right, so.	R					
+400400	401400	Yes.	id267		L			
+401400	402400	Smurphy.	id267		L			
+403400	404400	What is this?	id268		S			
+404400	405400	Smurphy.	id267		L			
+405400	406400	I can't see Smurphy.	id267		L			
+406400	409400	Just use your best guess to describe what you see.	R					
+409400	412400	And you can use as many words as you want.	R					
+412400	413400	Okay.	id267		L			
+413400	414400	I see	id268		S			
+414400	421400	It's kind of, it has a triangle on the top and it kind of looks like a banana with	id268		S		a triangle on the top and it kind of looks like a banana with it as a shape and down on the side	Y
+421400	426400	it as a shape and down on the side.	id268		S		and the side here	Y
+426400	431400	And the side here.	id268		S			Y
+431400	432400	All right.	R	11				
+432400	433400	Now it's [id268]'s turn to guess.	R					
+433400	434400	Smurphy.	id267		S			
+435400	436400	Yeah.	id267		S			
+439400	448400	Okay, It has a long, um, what, that, um, a square and a body and a feet and that's it.	id267		S		a long that, a square and a body and a feet 	Y
+448400	451400	Nice job guys	R	12				
+451400	452400	What's mine?	id268		S			Y
+452400	453400	What's mine is.	id268		S			Y
+453400	454400	Smurphy.	id267		L			
+		it has two ears and it has a face, it’s lying down 	id268		S		two ears and it has a face, it’s lying down	Y
+		And it’s lying down	id268		S			Y
+		and it kinda look like a doggy	id268		S		a doggy	Y
+		A doggy?	id267		L			Y
+		yeah, it kind of look like a doggy though	id268		S			Y
+		okay mine looks like a, a doggy	id267	13	S		a doggy	Y
+		it’s kind of okay, a doggy	id268		L			Y
+		Press it.	id267		S			
+500400	502400	It is a doggy.	id268	14	S			
+502400	504400	There's a...	id268		S			
+504400	506400	Smurphy.	id267		L			
+506400	508400	Mine looks like	id268		S			Y
+508400	510400	Tum-Tina.	id268		S		Tum tina	Y
+510400	512400	It's Tum-Tina on the back of the triangle.	id268		S		on the back of the triangle	Y
+512400	514400	And it has a lot of...	id268		S			Y
+514400	516400	I'm going to hang it upside down.	id267		L			
+516400	518400	And it has three mopping.	id268		S		three mopping	Y
+518400	520400	Wait, what?	id267		L			Y
+520400	522400	It has three mopping like this.	id268		S			Y
+522400	524400	Oh, I know what it is.	id267		L			
+532400	534400	Mine is...	id267	15	S			
+534400	536400	I think	id267		S			
+536400	538400	a square on the	id267		S		a square on the top	Y
+538400	540400	top that's like	id267		S			Y
+540400	542400	and then	id267		S			Y
+542400	544400	something, a body and then	id267		S		a body	Y
+544400	546400	a thing like this	id267		S		a thing like this	Y
+546400	548400	straight down.	id267		S		straight down	Y
+548400	550400	Yay!	id267	16	L			
+552400	554400	Okay.	id268		S			
+554400	556400	Mine looks like	id268		S			Y
+556400	558400	a ladder	id268		S		a ladder	Y
+558400	560400	and two ears	id268		S		and two ears	Y
+560400	562400	a whole triangle face.	id268		S		a whole triangle face	Y
+562400	564400	Wait, yours is like this?	id267		L			Y
+566400	568400	Bunny like these ears	id268		S		bunny like these ears	Y
+568400	570400	in a shape of a triangle.	id268		S		in a shape of a triangle	Y
+570400	572400	And	id268		S			Y
+572400	574400	the face is a shape like the triangle.	id268		S			Y
+574400	576400	Okay, I know what it is.	id267		L			
+578400	580400	Nice job, guys. You're getting so good.	R	17				
+580400	582400	There you go, Smurfy.	id267		S			
+584400	586400	Oh, no, no.	id267		S			
+586400	588400	Mine looks like a doggy.	id267		S		a doggy	Y
+590400	592400	Actually, it doesn't.	id267	18	L			
+592400	594400	You did it wrong.	id267		L			
+594400	596400	Mine kind of	id268		S			Y
+596400	598400	have a triangle face.	id268		S		a triangle face	Y
+598400	600400	A triangle	id268		S			Y
+600400	602400	A triangle	id268		S			Y
+602400	604400	two triangle ears.	id268		S		two triangle ears	Y
+604400	606400	Wait, like this triangle ears?	id267		L			Y
+606400	608400	Yeah, a triangle face.	id268		S			Y
+608400	610400	Okay I know what it is.	id267		L			
+		And  a triangle face. 	id268		S			Y
+610400	612400	Woo!	id267	19	S			
+612400	614400	Here you go Smurfy	id267		S			
+614400	616400	Smurphy	id268		L			
+616400	618400	Mine has like	id267		S			Y
+618400	620400	a square on the top	id267		S		a square on the top	Y
+620400	622400	a straight thing here	id267		S		a straight thing here	Y
+622400	624400	and a straight thing on the bottom.	id267		S		and a straight thing on the bottom	Y
+624400	626400	A banana?	id268		L			Y
+626400	628400	Oh, there.	id268		L			
+628400	630400	Yay!	id267	20	L			
+632400	634400	Where’s Smurfy?	id267		L			
+634400	636400	Here he is.	R					
+636400	638400	Mine kind of	id268		S			Y
+638400	640400	have a triangle thing on the back	id268		S		a triangle thing on the back	Y
+640400	642400	a long nose	id268		S		a long nose	Y
+642400	644400	and a big tummy like this.	id268		S		and a big tummy like this	Y
+644400	646400	Yay!	R					
+646400	648400	I win.	id268		S			
+648400	650400	That means the game's over.	R					
+650400	652400	Thanks for playing, guys.	R					

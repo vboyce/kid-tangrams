@@ -1,0 +1,255 @@
+start	end	text	speaker	trial	role	echo	description	on_topic
+0	2000	So I'm going to start recording.	R					
+2000	3560	All right, we're recording now.	R					
+8560	10680	When can I have this?	id273					
+10680	12600	All right, I'm going to explain the game first,	R					
+12600	15640	and then you guys can play on the iPads.	R					
+15640	17920	So today we're going to play a fun matching game,	R					
+17920	19000	like I told you guys.	R					
+19000	22240	But first, we're going to practice touching the iPads	R					
+22240	23960	by popping some bubbles.	R					
+23960	27480	So go ahead and press the blue button to start.	R					
+27480	29200	And then just keep popping the bubbles	R					
+29200	30800	until you don't see it anymore.	R					
+30800	32440	Hey, X.	id273					
+32440	35440	How do I?	id273					
+35440	36440	Uh-oh.	R					
+36440	36940	Oh.	R					
+36940	39920	Let me see.	R					
+39920	41920	Let me see what's there.	R					
+45920	47080	I'm not popping bubbles.	id273					
+47080	47680	All right.	R					
+47680	48880	I can't pop bubbles.	id273					
+48880	50920	Good job popping the bubbles.	R					
+50920	53520	Oh, you got a dog.	R					
+53520	54720	Hey.	R					
+54720	56960	All right, just keep popping the bubbles.	R					
+56960	58280	I popped all the bubbles.	id273					
+58280	60680	Oh, it looks like there's still some more for you to pop.	R					
+63080	65800	When there's X inside the room.	id273					
+65800	68600	All right, [id274], let's sit down in our chair.	R					
+68600	71800	And let's wait for [id273] to finish.	R					
+74300	75200	All right.	R					
+75200	76080	You got a dog too.	R					
+76080	78320	All right, can we sit back in our chairs?	R					
+78320	79160	Thank you.	R					
+82040	84760	All right, now I'm going to explain the matching game.	R					
+84760	87320	Let's not do pattycake just yet.	R					
+87320	88080	All right.	R					
+88080	90960	pattycake, pattycake	id273					
+90960	93440	All right, friends, let me explain the matching game now.	R					
+93440	95200	So this is the dog you saw.	R					
+95200	96440	This is Smurphy.	R					
+96440	97600	You want to say hi to Smurphy?	R					
+97600	98600	Hi, Smurphy.	id273					
+98600	99440	Hi, [id273].	R					
+99440	100600	Hi, [id274].	R					
+100600	102440	All right, so today in this matching game,	R					
+102440	104680	we're going to help Smurphy.	R					
+104680	106640	So on your screens, you guys are going	R					
+106640	109800	to see two pictures like this.	R					
+109800	112200	One of you is going to see a black box	R					
+112200	113200	around one of the pictures.	R					
+113200	115240	You see the black box?	R					
+115240	119280	So if you see the black box, then you are the teller,	R					
+119280	121520	and you're going to help tell Smurphy what you see	R					
+121520	123320	inside the black box.	R					
+123320	125960	Now, the other friend is going to be holding Smurphy,	R					
+125960	128560	and you won't see a black box.	R					
+128560	133080	So the guesser, if you see this, you're the guesser,	R					
+133080	136480	and you're going to help guess what's inside the black box.	R					
+136480	138960	So when you think you know what's inside the box,	R					
+138960	142680	you're going to tap it like this.	R					
+142680	146760	So if you guess the correct answer of what's in the box,	R					
+146760	148560	all right, let's not touch these friends.	R					
+148560	151680	But if you guess what picture's in the black box,	R					
+151680	153520	you're going to see a smiley face.	R					
+153520	156160	But if you don't, you're going to see a frowny face.	R					
+156160	158640	And that's OK, because we have a lot of different chances	R					
+158640	160200	to help Smurphy out.	R					
+160200	163200	We don't see a frowny face.	id273					
+163200	165520	Why do we see a frowning face?	id273					
+165520	168280	It just tells you that you got the picture wrong,	R					
+168280	169640	or you guessed the picture wrong.	R					
+169640	172080	But it's OK, because we're going to have lots of different	R					
+172120	172920	chances to help Smurphy.	R					
+172920	174600	I hope I win.	id274					
+174600	176440	I hope I win, too.	id273					
+176440	179000	Well, I think you guys will both win.	R					
+179000	182520	But we're going to take turns being the guesser and the teller.	R					
+182520	185720	That's why I always say, [id273], we're both going to win.	id274					
+185720	186560	Yes, you're both going to win.	R					
+186560	189800	So we hold hands, and then we run across holding hands.	id274					
+189800	191880	All right, let's sit down, [id273].	R					
+191880	192920	All right, let's recap.	R					
+192920	195600	So we're going to take turns being the guesser and the teller.	R					
+195600	198480	So if you see the black box, what are you going to do?	R					
+198480	199600	You're going to be the teller.	id273					
+199600	201120	You're going to be the teller, and you're	R					
+201120	203880	going to tell the other friend in Smurphy what's inside the box.	R					
+203880	204720	That's right.	R					
+204720	207880	And if you don't see a black box, you're the guesser.	R					
+207880	210000	And you're going to help Smurphy guess.	R					
+210000	211400	All right, you guys got it?	R					
+211400	212000	Got it.	id273					
+212000	214720	All right, so go ahead and press the blue button to start.	R	1				
+217840	220280	All right, so who sees the black box?	R					
+		Me	id274		S			
+220280	222840	So you're the teller, and you're the guesser.	R					
+222840	224400	You don't see the black box, so you're	R					
+224400	226960	going to hold Smurphy, [id273].	R					
+226960	229600	All right, [id274], so now you can tell [id273] and Smurphy	R					
+229600	231720	what you see inside the black box.	R					
+231720	234040	It's banana.	id274		S		banana	Y
+234040	237240	All right, and then you guess by tapping on the image	R					
+237240	240120	that you think is in the box.	R					
+240120	243640	No, I’m not going to tap the apple.	id274		S			Y
+243640	246280	I'm tapping the banana.	id273		L			Y
+246280	247040	There you go.	R	2				
+247040	247520	Good job.	R					
+247520	248920	I have a smiley face.	id274		L			
+248920	249880	You have a smiley face.	R					
+249880	251880	And now you are up the black box, right, [id273]?	R					
+251880	255360	So [id274]'s going to hold Smurphy.	R					
+255360	259000	And you can tell Smurphy and [id274] what you see in the box.	R					
+260000	262160	I see.	id273		S			
+262160	266320	All right, let's not guess before our friend tells us	R	3				
+266320	267400	what they see.	R					
+267400	268720	All right, so now it's [id274]'s turn	R					
+268720	272040	to tell us what's in the box.	R					
+272040	275640	It's a cross sign.	id274		S		a cross sign	Y
+275640	277720	See, it's cross sign in the box.	id274		S			Y
+280960	282200	Good job.	R	4				
+282200	283920	All right, now pass Smurphy to [id274].	R					
+284760	295160	And I see a pointing triangle pointing down.	id273		S		a pointing triangle pointing down	Y
+295160	298120	I don't see any box.	id274		L			
+298120	299720	Because you're the guesser.	R					
+299720	302360	And [id273]'s trying to tell you what he sees in the box.	R					
+302360	304000	It's like this.	id273		S			Y
+304000	304960	What is that?	id273		S			
+304960	307040	Can you use your words to describe it?	R					
+307040	311880	Oh, it's a triangle with a right notion.	id273		S		a triangle with a right notion	Y
+311880	314480	And a right notion is a kind of shape.	id273		S		and a right notion is a kind of shape	Y
+317840	318840	Point to it.	id273		S			
+322840	324440	[id273].	id274		L			
+324440	327240	You can ask [id273] questions if you're not	R					
+327240	329720	sure which picture it is.	R					
+329720	331160	I don't want to question it.	id274		L			
+331160	332640	Yeah.	id274		L			
+332640	334200	You want to see which picture it is?	id273		S			
+334200	336560	Oh, let's not show our friends which picture it is.	R					
+336560	338880	Let's just use words to describe it.	R					
+338880	341800	And then once you're ready to guess,	R					
+341800	344720	you can tap and guess which one it is.	R					
+344720	345720	No, correct.	id274		L			
+349720	351640	Did you get a frown face?	id273		S			
+351640	353960	No, I didn't.	id274		L			
+353960	357400	Just make your best guess, [id274].	R					
+357400	359760	And so here we have lots of tries to help Smurphy.	R					
+363360	367360	I don't have a sad face.	id274		L			
+367840	370840	Give them here.	id274		L			
+370840	372520	All right, friends, let's pay attention to the game.	R					
+372520	375440	Do you want to describe again what you see in the box, [id273]?	R					
+375440	382240	I see the box, a triangle, and I see a right notion.	id273		S			Y
+382240	384920	What does it look like?	id274		L			Y
+384920	396160	It looks a little bit like a pointing to how I can see it.	id273		S			Y
+396160	400120	Do you just want to make your best guess, [id274]?	R					
+400120	404320	Is it a thing like this?	id274		L			Y
+404320	405760	I think so.	id273		S			Y
+405760	411480	No, it does bend as one with triangles.	id274		L			Y
+411480	417520	It's a one and a half, but it's the top.	id274		L			Y
+417520	419920	Oh, no, it's not a windmill.	id273		S		not a windmill	Y
+419920	423400	It's like a little castle, but it's pointing down.	id273		S		a little castle, but it’s pointing down	Y
+423400	425760	Do you want to come see?	id274		L			
+425800	427640	No, we're just going to use our words.	R					
+427640	429040	So we're going to stay in our chairs.	R					
+429040	434160	It's pointing down and it has a right notion.	id273		S			Y
+434160	441640	We don't have to talk, then we don't have to look at each other.	id274		L			
+441640	448000	[id274], do you want to tap on the picture that you think is inside the box?	R					
+448000	449400	Nice job.	R	5				
+449400	453480	All right, now pass Smurphy onto [id273].	R					
+453480	454200	Thank you.	R					
+454200	457440	I tap the box.	id274		S			
+457440	459480	Can I tap another one?	id274		S			
+459480	461080	Now it's [id273]'s turn to guess.	R					
+461080	464360	So you have to describe what you see in the box to [id273].	R					
+468920	471000	What is it?	id273		L			Y
+471000	472920	That's what I'm waiting for you.	id274		S			
+476240	480600	Let's use our words to describe what's in the box first before we try to guess.	R	6				
+480600	482960	Hey, now I see a statue.	id273		S		a statue	Y
+482960	487800	I didn't pass anything, but [id273] was a sad face.	id274		L			
+487800	492040	Oh, that's because [id273] was guessing and you were supposed to tell him what was in the box.	R					
+492040	496000	But now you don't have the black box, but now you don't have the black box.	R					
+496000	499280	So [id273] is going to tell you what he sees inside.	R					
+499280	508680	I see a statue and I have a diamond on top of it.	id273		S		a diamond on top of it	Y
+508680	509680	Tap it, [id274].	id273		S			
+511680	513680	Nice job, guessing.	R	7				
+513680	518680	All right, now you're going to tell [id274], so you're going to give Smurphy to [id273].	R					
+518680	519680	Yep.	id273		L			
+519680	521680	And then [id273] can guess.	R					
+521680	525680	So can you use your words to describe what you see inside the box?	R					
+525680	527680	It's a bunny rabbit.	id274		S		a bunny rabbit	Y
+531680	533680	Nice job, guys.	R	8				
+533680	536680	Ding, ding, ding, ding, ding, ding, ding.	id273		S			
+537680	538680	He likes to bounce.	id273		S			
+538680	539680	He's bouncing.	id273		S			
+539680	542680	All right, bouncing all the way to [id274].	R					
+542680	546680	All right, [id273], can you describe what you see in the box?	R					
+546680	548680	I see a sad man.	id273		S		a sad man	Y
+550680	552680	What does it look like?	id274		L			Y
+552680	557680	He's looking his head down.	id273		S		he’s looking his head down	Y
+557680	559680	With his flag behind him.	id273		S		with his flag behind him	Y
+559680	560680	Me too.	id274		L			Y
+561680	562680	Press it.	id273		S			
+563680	568680	All right, now it's [id273]'s turn to hold Smurphy.	R	9				
+568680	571680	What do you see on the picture?	id273		L			Y
+571680	573680	It's all stills in the mirror.	id274		S		all stills in the mirror	Y
+573680	576680	It's the mirror's way of looking down at it.	id274		S		the mirror’s way of looking down at it	Y
+581680	585680	All right, now it's [id274]'s turn to hold Smurphy.	R	10				
+585680	588680	I see a bunny.	id273		S		a bunny	Y
+		A bunny, ba bunny. 	id274		L			Y
+589680	592680	I see a bunny.	id273		S			Y
+592680	593680	Tap it.	id273		S			
+598680	600680	What do you see [id274]?	id273	11	L			Y
+600680	602680	It's a bunny rabbit.	id274		S		a bunny rabbit	Y
+608680	611680	All right, now it's [id274]'s turn.	R	12				
+611680	613680	I see a statue.	id273		S		a statue	Y
+615680	616680	Tap it.	id273		S			
+619680	623680	Where's the speaker?	id274	13	S			
+623680	624680	It's coming out of here.	R					
+624680	627680	All right, now it is [id273]'s turn to hold Smurphy and guess.	R					
+627680	631680	So, hey, it's now turning into a box.	id273		L			
+633680	635680	It's because [id274] has the box.	R					
+635680	638680	Can you describe what you see in the box, [id274]?	R					
+638680	639680	It's a dinosaur.	id274		S		a dinosaur	Y
+639680	650800	Alright, now it is [id274]'s turn to hold Murphy.	R	14				
+650800	652520	I see a rabbit.	id273		S		a rabbit	Y
+652520	653520	A rabbit?	id274		L			Y
+653520	654520	Yeah.	id273		S			Y
+654520	655520	What do you see?	id273	15	L			Y
+655520	656520	It's a guy looking down.	id274		S		a guy looking down	Y
+656520	671520	Yes, we're winning, both, we're both winning.	id273	16	S			
+671520	672920	And you're both winning.	R					
+672920	685720	I see a statue.	id273		S		a statue	Y
+		of winning by bling	id274		L			
+685720	692020	I see	id273	17	L			
+		I see a bunny.	id274		S		a bunny	Y
+692020	694800	I see	id273		L			Y
+694800	701120	Come back here you.	id274		S			
+701120	710680	Alright, [id274], can you describe what you see in the box?	R					
+710680	711680	A bunny.	id274		S			Y
+711680	712680	Come back here you.	id274		S			
+712680	713680	Why does she say, come back here, baby?	id273	18	S			
+		It wasn’t hopping on the ipad.	id274		L			
+713680	720680	I see a dinosaur.	id273		S		a dinosaur	Y
+720680	731680	What do you see in the box?	id273	19	L			
+731680	739680	It's a guy looking down and I saw that one.	id274		S		a guy looking down	Y
+739680	742680	Alright, let's give Murphy to [id274].	R	20				
+742680	746680	Oh, let's not throw him though.	R					
+746680	748680	Hey, get back here you.	id273		S			
+748680	750680	Hi, come back here you rabbit.	id274		L			
+750680	751680	What do you see, [id273]?	R					
+751680	753680	I see a statue.	id273		S		a statue	Y
+753680	760680	Oh, it's all back.	id273		S			
+760680	763680	It looks like you guys are finished with my game.	R					
+763680	768680	We won, we won!	id273		S			

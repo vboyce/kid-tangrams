@@ -1,0 +1,132 @@
+start	end	text	speaker	trial	role	echo	description	on_topic
+0	2000	All right, now we're recording.	R					
+5840	10800	All right, so today I'm going to have you guys play a fun matching game,	R					
+10800	15920	but first I'm going to have you guys practice touching these iPads by popping some bubbles.	R					
+15920	17840	So just press the blue button to start.	R					
+21600	24560	Yeah, and then start popping the bubbles with your finger by touching it.	R					
+24880	29680	Okay. All right, you can press the blue button to start [id276].	R					
+30480	34080	Yeah, just keep popping the bubbles until they're all gone.	R					
+35280	40720	Yeah. Oh, it looks like you're good. All right, let's wait for [id276] to finish popping the bubbles too.	R					
+43600	46320	What is?	id275					
+		 I'll explain in a second.	R					
+47200	55760	All right, [id276]'s done too. All right, so today, like I said, we're going to play a matching game.	R					
+55760	59280	Can I say you something? I saw a monster on the iPad.	id276					
+59280	60000	A monster?	R					
+63600	69440	All right, friends, today we're going to help our friend Smurphy. So this is Smurphy. Do you want to say hi?	R					
+69440	71920	Hi, Smurphy.	id275					
+72880	80480	So today, 	R					
+		it's a little same what she's on, Murphy. It's a busy tower and he's safekeeping.	id276					
+85600	89040	He's not a firefighter. He's a policeman. Yes.	id276					
+92160	96080	All right, friends, I'm going to explain the game now. So today we're going to help Smurphy.	R					
+96080	99520	So on your iPads, you guys are going to see two pictures like this.	R					
+100320	103440	Banana and apple.	id275					
+		Yeah, banana and apple.	R					
+		I like it.	id275					
+103440	107600	One of you guys are going to see a black box around one of the pictures. You see how there's a black	R					
+107600	113120	box around this picture? Now, if you see the black box, you're going to be the teller and you're	R					
+113120	118880	going to tell Smurphy and the other friend across the table what picture you see inside the black	R					
+118880	124320	box. 	R					
+		It’s a banana.	id275					
+		Yeah, you'll say it's a banana. Now, if you don't see the black box,	R					
+124320	128800	you're going to be holding Smurphy and you're going to be the guesser. So when the other	R					
+128800	132080	friend tells you what they see in the black box, you're going to guess and then you're going to	R					
+132080	138960	tap the image that you think is inside the black box. Does that make sense? 	R					
+		Yeah. 	id275					
+138960	144880	So you guys are going to take turns being the guesser and the teller. Now, if you guess correctly, you're going	R					
+144880	149600	to see a smiley face, but if you don't, you're going to see a frowny face, but that's okay	R					
+149600	155280	because we're going to have a lot of different chances to help Smurphy out. So if you see the	R					
+155280	164080	black box, what are you going to do?	R					
+		 Tell them it's a banana. 	id276					
+		Yeah, it's a banana. Tell them what	R					
+164080	168960	you see inside of the box, but if you don't see the black box, what are you going to do?	R					
+170640	174240	You're going to guess, right? You're going to tap and guess which one's in the black box.	R					
+175920	180880	All right, so are you guys ready? 	R					
+		Yeah.	id276					
+		 All right, you can press the blue button to start again.	R					
+181600	188960	All right, so which one of you sees the black box? 	R	1				
+		I	id276		S			
+		All right. 	R					
+		You have a black box? All right, so	R					
+189520	193920	[id275], you get to hold Smurphy and then you all tell [id275] and Smurphy what you see in the box.	R					
+196800	202240	I see a banana. 	id276		S		a banana	Y
+		All right, and now it's your turn to guess. So you could tap the picture that you	R					
+202240	207600	think is inside. Maybe tap a little bit harder. Sometimes it takes a little bit to work.	R					
+208560	209040	There you go.	R	2				
+212000	215680	And now you have the black box, so now it's [id276]'s turn to guess.	R					
+		Look what happened.	id276		L			
+217760	219040	All right, so what picture would you see?	R					
+		doggie doggie	id275		S		doggie	Y
+223440	227360	I see the black box. 	id275		S			Y
+		All right, can you say what you see inside?	R					
+		doggie	id275		S			Y
+231120	235760	And now you can tap on the iPad to guess which picture you think it is. [id276].	R					
+		a dog	id276		L			Y
+238240	243840	Yeah. 	id275		S			Y
+		All right, can you tap the picture that you think it is?	R					
+245920	254640	You might have to tap a little bit hard. 	R					
+		Yeah.	id275		S			
+		There you go. All right, now it's your turn	R	3				
+254640	260880	to be the teller. So now Smurphy's going to go to [id275]. So can you describe what you see in the	R					
+260880	272640	black box to Smurphy and [id275]? 	R					
+		I don’t see the box.	id275		L			
+		You don't see the box, that's right. So can you	R					
+272640	278480	describe in words what you see in the box?	R					
+		I see a box.	id276		S			
+		But what’s the picture that you see inside the box?	R					
+278480	289920	It looks like a car. It looks like a car. 	id276		S		a car	Y
+		Can you tell that to [id275] and Smurfy?	R					
+294880	304160	This is actually, it's hard. It's hard to tell what that is. 	id276		S			Y
+		Just use your best description.	R					
+304800	309440	Use any words you want. And [id275], let's not play with Smurphy. Let's just leave him here.	R					
+310560	315360	But you can ask any questions to [id276] that you want about the picture.	R					
+		What the picture is?	id275		L			Y
+		I think it’s a plane.	id276		S		a plane	Y
+328720	332240	And you can keep asking questions or you can just make your best guess	R					
+332240	334240	about what you're going to do.	R					
+		But what does it look like?	id275		L			Y
+		Can you give him some food, he’s hungry.	id276		S			
+356240	361680	Okay, I'll give him some food. But first can you describe what you see in the box again and then	R					
+361760	365760	[id275], can you just make your best guess and then tap which picture you think it is?	R					
+365760	371760	I see a, I see a bird.	id276		S		a bird	
+381920	385360	All right, go ahead and guess which picture it is by tapping on it.	R					
+385440	391200	Like this. Just make your best guess. It's okay if we get it wrong.	R					
+404720	405840	Just make your best guess.	R					
+415760	425520	That's okay. But now it's [id276] and Smurphy's turn to guess. And it's your turn to be the	R	4				
+425520	434320	teller [id275]. 	R					
+		Okay.	id275		S			
+		I see the box.	id275		S			
+		You do?	R					
+		What do you see inside the box?	R					
+		Look what I did.	id276		L			
+435040	439920	All right, let's not play with Smurphy. Let's just leave him here. All right, let's just use our words	R					
+439920	442960	to describe to [id276] and Smurphy what we see.	R					
+		I said I sewered it. I have this and so I have this and a top.	id275		S		I said I sewered it. I have this and so I have this and a top.	Y
+		I see a bird.	id276		L			Y
+		No not a bird.	id275		S		not a bird	Y
+		it’s right here.	id276		L			Y
+		let me see	id275		S			
+460480	464480	Oh, let's sit down. Let's use our words to describe what we see in each other.	R					
+465200	467200	Guess.	id275		S			
+468640	473280	And you can ask questions to [id275] if you're unsure of what picture it is.	R					
+474000	483840	So it's a picture of a bird. 	id276		L			Y
+		It's turned over. 	id276		L			Y
+		The bird is turned over. 	id276		L			Y
+484080	486080	No, not a bird. It's a boat.	id275		S		a boat	Y
+		yes a bird	id276		L			Y
+495200	504400	Yes a boat, Okay, now it's only turned over.	id275		S			Y
+		upside down	id275		S		upside down	Y
+		The bird is only, the boat is only turned. 	id276		L			Y
+504480	506480	Okay, press on it.	id275		S			
+509840	516800	Look, it was the boat. It was the boat.	id275	5	L			
+		 All right. Now it's [id276]'s turn to be the teller.	R					
+516800	526560	So what do you see inside the box?	R					
+		 So I see inside the box is a rabbit.	id276		S			Y
+526560	530560	A rabbit that's small.	id276		S		a rabbit that’s small	Y
+		I don’t see a rabbit. What it look like?	id275		L			Y
+534560	536560	I see a rabbit.	id276		S			Y
+542560	544560	I see a rabbit.	id276		S			Y
+		Guess.	id275		L			
+558560	560560	That's okay.	R	6				
+560560	562560	Okay, [id276]'s turn.	id275		S			
+562560	564560	Yeah, [id276]'s turn to guess.	R					
+570560	572560	I want to stop the game	id276		L			

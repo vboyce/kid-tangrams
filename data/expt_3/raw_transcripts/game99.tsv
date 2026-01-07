@@ -1,0 +1,178 @@
+start	end	text	speaker	trial	role	echo	description	on_topic
+7000	12000	So, today we're going to play a fun matching game.	R					
+12000	16000	But first, I'm going to have you practice touching the iPads by popping some bubbles.	R					
+16000	19000	So, go ahead and press the blue button to start.	R					
+19000	23000	And then just keep tapping on the bubbles until they go away.	R					
+24000	27000	Done.	id279					
+27000	30000	Oh, I think there's some more that might have popped up.	R					
+32000	34000	Oh, [id280] is done.	R					
+34000	36000	All right, let’s wait for [id279] to be done.	R					
+36000	39000	All right, and [id279]'s done. All right.	R					
+43000	46000	All right. So, today, like I said, we're going to play a matching game.	R					
+46000	48000	And in our game, we're going to help our friends, Murphy.	R					
+48000	50000	This is Murphy. You want to say hi?	R					
+50000	52000	Hi. Hi.	id279					
+52000	54000	Hi, [id279].	R					
+54000	57000	All right. So, we're going to help Murphy.	R					
+57000	61000	So, on your iPads, you guys are going to see two pictures like this.	R					
+61000	66000	Now, one of you guys is going to see a black box around one of the pictures.	R					
+66000	68000	You see how there's a black box around this picture?	R					
+68000	70000	And then you press...	id279					
+70000	72000	Something like that. Let me explain.	R					
+72000	75000	So, if you see the black box, you are the teller.	R					
+75000	80000	And you're going to help tell Murphy and the other friend what you see inside the black box.	R					
+80000	82000	So, what would you say if you were the teller?	R					
+82000	84000	Banana.	id279					
+84000	86000	Yeah, you'll say, I see a banana.	R					
+86000	89000	Now, if you don't see the black box, you're going to be holding Murphy.	R					
+89000	92000	And you're going to guess what's inside the black box.	R					
+92000	95000	So, when the teller tells you what's inside the box,	R					
+95000	99000	you're going to press on the picture that you think is inside the box.	R					
+99000	101000	Does that make sense?	R					
+101000	103000	Yeah. 	id280					
+		Okay.	id279					
+103000	106000	All right. So, if you guess correctly, then you're going to see a smiley face.	R					
+106000	109000	But if you guess incorrectly, you're going to see a frowny face.	R					
+109000	113000	But that's okay because we're going to have a lot of different chances to help Murphy.	R					
+113000	115000	Okay.	id279					
+115000	117000	Yeah, exactly.	R					
+117000	119000	Okay.	id280					
+119000	122000	So, we're going to take turns being the guesser and the teller.	R					
+122000	125000	So, if you see the black box, what are you going to do?	R					
+125000	127000	Press that one.	id280					
+127000	133000	Oh, not press it. You're going to tell with words to Murphy and the other friend what you see.	R					
+133000	135000	But if you don't see the black box, then...	R					
+135000	140000	You’re going to say Smurfy like shout	id279					
+140000	143000	You don't have to shout. You could just say his name.	R					
+143000	146000	But does that make sense, guys? Are you ready to play?	R					
+146000	148000	Okay.	R					
+148000	150000	So, press the blue button to start.	R					
+150000	152000	Now, which one of you has the black box?	R	1				
+152000	154000	Banana.	id279		S		banana	Y
+154000	157000	Oh, [id279] has a black box. So, [id280] will hold Murphy.	R					
+157000	159000	All right.	R					
+159000	161000	So, [id279] just said what he sees inside the black box.	R					
+161000	164000	So, [id280], you can press on which picture you think it is.	R					
+164000	170000	Just tap on it a little more gently.	R					
+170000	172000	There you go.	R	2				
+172000	174000	And now, [id280] has a black box.	R					
+174000	179000	So, Murphy's going to go with [id279].	R					
+179000	182000	So, let's just use our words.	R					
+182000	184000	Let's not turn the iPads around.	R					
+184000	186000	Can you just describe what you see inside the box?	R					
+186000	188000	to [id279] and Murphy?	R					
+188000	194000	I see a bird inside the box.	id280		S		a bird	Y
+194000	196000	That's okay.	R	3				
+196000	198000	All right. Now, it's [id280]'s turn.	R					
+198000	200000	What do you see inside the box, [id279]?	R					
+200000	202000	What?	id280		L			
+202000	206000	Like a star, like this. 	id279		S		a star	Y
+206000	209000	Yeah, just use your words.	R					
+209000	212000	Just use your best guess.	R					
+212000	214000	And use your words to communicate with each other.	R					
+214000	217000	You can ask questions to [id279] if you're stuck.	R					
+217000	219000	This one.	id280		L			Y
+219000	221000	This one.	id280		L			Y
+221000	223000	Yay!	R					
+223000	225000	Good job.	R	4				
+225000	227000	Yay!	id279		L			
+227000	231000	All right. Now, you can explain what you see in the black box to [id279] and Murphy.	R					
+231000	233000	I see...	id280		S			Y
+233000	235000	Maybe it's a crown?	id280		S		a crown	Y
+235000	238000	Maybe. Let's keep the iPads turned towards ourselves.	R					
+238000	240000	Okay.	id280		S			
+240000	242000	Uh...	id280		S			
+242000	244000	Uh...	id280		S			
+244000	246000	Yay!	R	5				
+247000	249000	Yay!	id279		S			
+249000	251000	Now, let's pass Murphy to [id280].	R					
+251000	254000	Hey, look at this walking guy.	id279		S		walking guy	Y
+254000	256000	How about this one?	id280		L			
+256000	258000	A person?	id279	6	L			
+258000	260000	Oh, that's okay.	R					
+260000	264000	A person walking with a bag.	id279		L			
+264000	267000	All right. Now, let's try not to guess.	R					
+267000	273000	Friends, let's try not to guess before the person finishes telling us what we see.	R					
+273000	278000	So, [id280], can you explain what you see in the box?	R					
+278000	280000	A person sitting.	id280		S		a person sitting	Y
+280000	282000	See?	id280		S			
+284000	285000	Good job.	R	7				
+285000	287000	All right. Now, let's pass Murphy to [id280].	R					
+287000	289000	Oh, yay!	id280		L			
+292000	295000	Oh, let's not guess before we...	R	8				
+295000	297000	before our friend has a chance to tell.	R					
+297000	299000	A person walking?	id279		L			Y
+299000	301000	No.	id279		L			
+301000	303000	It’s [id280]’s turn to tell. 	R					
+303000	305000	So, what do you see inside the box?	R					
+305000	307000	It's...	id280		S			Y
+307000	309000	a person sitting again.	id280		S		a person sitting again	Y
+311000	313000	Yay!	R	9				
+315000	317000	All right, [id280]. Now, don't guess before...	R					
+317000	321000	just let [id279] tell us what he sees in the box first.	R					
+321000	323000	A person sitting.	id279		S		a person sitting	Y
+327000	329000	All right.	R					
+329000	331000	And now you can guess.	R					
+331000	333000	Yay!	R	10				
+338000	341000	I think it's a person sitting.	id280		S		a person sitting	Y
+347000	349000	And you can ask [id280] questions.	R					
+349000	351000	I guess it's a person sitting.	id280		S			Y
+355000	357000	That's okay.	R	11				
+358000	361000	A person walking with a bag.	id279		S		a person walking with a bag	Y
+363000	365000	Oh, that's okay.	R	12				
+365000	367000	But remember, let's let [id279]...	R					
+367000	369000	let's let [id279] describe what he sees.	R					
+369000	371000	I guess it's a person sitting.	id280		S		a person sitting	Y
+381000	383000	Oh, [id280], remember.	R	13				
+383000	385000	Let's not...	R	14				
+385000	387000	guess before [id279] tries to describe.	R					
+389000	391000	All right, so it's your turn to tell.	R					
+393000	395000	All right, [id280].	R					
+395000	397000	It's your turn to tell [id279] and Smurfy	R					
+397000	399000	what you see inside the box.	R					
+399000	401000	I think it's a person...	id280		S		a person standing	Y
+403000	405000	standing.	id280		S			Y
+407000	409000	It's okay.	R	15				
+409000	411000	All right, now don't guess yet.	R					
+411000	413000	[id280], don't press it.	R					
+413000	417000	A person walking with a bag on his back.	id279		S		a person walking with a bag on his back	Y
+431000	433000	I think it's a person...	id280	16	S		a person sitting	Y
+435000	437000	sitting.	id280		S			Y
+439000	441000	I think it's a person sitting.	id280		S			Y
+441000	443000	I guess	id280		S			Y
+445000	447000	This is good.	id279		L			
+447000	449000	You can use other words to describe	R					
+449000	451000	the person too.	R			x		
+451000	453000	Maybe it's...	id280		S			Y
+453000	455000	a person...	id280		S		a person standing	Y
+459000	461000	Maybe it's a person standing.	id280		S			Y
+467000	469000	Wow.	R	17				
+469000	471000	All right.	R					
+471000	473000	A person...	id279		S		a person 	Y
+473000	475000	[id280], remember, we're not going to guess	R	18				
+475000	477000	before [id279] starts to describe it.	R					
+477000	479000	Okay.	R					
+479000	481000	Now it's your turn to tell him what's in the box.	R					
+481000	483000	It's a person walking.	id280		S		a person walking	Y
+487000	489000	All right, [id280].	R	19				
+489000	491000	Now let's not guess yet, okay?	R					
+491000	493000	A person...	id279		S		a person standing	Y
+495000	497000	standing.	id279		S			Y
+		Let’s see	id280		L			
+497000	499000	Oh, let's sit down.	R					
+499000	501000	We're going to use our words to communicate.	R					
+501000	503000	So you can guess.	R					
+503000	505000	A person...	id279		S			Y
+505000	507000	standing.	id279		S			Y
+507000	509000	All right, and now you can make your best guess, [id280],	R					
+509000	511000	by tapping on which one you think it is.	R					
+515000	517000	Good job.	R	20				
+521000	523000	It's a person sitting...	id280		S		a person sitting with a square head and a toy tail	Y
+525000	527000	with...	id280		S			Y
+527000	529000	a square head...	id280		S			Y
+531000	533000	and...	id280		S			Y
+537000	539000	a toy tail.	id280		S			Y
+541000	543000	Good job.	R					
+545000	547000	It looks like you guys are finished with my game.	R					
+547000	549000	Thank you so much for playing	R					
+549000	551000	and for helping out Murphy.	R					
