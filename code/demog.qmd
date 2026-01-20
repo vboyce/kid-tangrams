@@ -9,6 +9,7 @@ library(here)
 raw_demog <- read_csv(here("demographics.csv"))
 ```
 
+
 ```{r}
 expt_1 <- read_csv(here("data/expt_1/clean_data.csv")) |>
   select(game, speaker, listener) |>

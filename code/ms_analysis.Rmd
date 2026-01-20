@@ -343,11 +343,10 @@ transcripts |>
   filter(!is.na(role)) |>
   select(game, expt, trial, speaker_transcript = speaker, role, text) |>
   filter(role == "S") |>
-  full_join(joint_demog) |>
+  full_join(joint) |>
   filter(speaker != speaker_transcript) |>
-  select(expt, game, trial, text, speaker_transcript, speaker, listener)
+  select(expt, game, trial, text, speaker_transcript, speaker, listener) 
 
-transcripts  |> filter(on_topic=="Y") |> filter(role=="S")|> select(expt, game, trial, text, description) |> View()
 ```
 
 # Graphs
