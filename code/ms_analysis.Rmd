@@ -475,7 +475,7 @@ acc_priors <- c(
 
 
 
-acc_mod_1 <- brm(correct ~ trial + (trial | game) + (1 | target),
+acc_mod_1 <- brm(correct ~ trial + (trial | game) + (trial | target),
                  family = bernoulli(link = "logit"),
                  data = joint_demog |> filter(expt=="1"),
                  file = here(mod_loc, "acc_1.rds"),
@@ -484,7 +484,7 @@ acc_mod_1 <- brm(correct ~ trial + (trial | game) + (1 | target),
 )
 
 
-acc_mod_2 <- brm(correct ~ trial+ (trial| gameId) + (1 | target),
+acc_mod_2 <- brm(correct ~ trial+ (trial| gameId) + (trial | target),
                family = bernoulli(link = "logit"),
                data = joint_demog |> filter(expt=="2"),
                file = here(mod_loc, "acc_2.rds"),
@@ -493,7 +493,7 @@ acc_mod_2 <- brm(correct ~ trial+ (trial| gameId) + (1 | target),
 )
 
 
-acc_mod_3 <- brm(correct ~ trial + (trial | gameId) + (1 | target),
+acc_mod_3 <- brm(correct ~ trial + (trial | gameId) + (trial | target),
                family = bernoulli(link = "logit"),
                data = joint_demog |> filter(expt=="3"),
                file = here(mod_loc, "acc_3.rds"),
@@ -501,7 +501,7 @@ acc_mod_3 <- brm(correct ~ trial + (trial | gameId) + (1 | target),
                control = list(adapt_delta = .95)
 )
 
-acc_mod_all <- brm(correct ~ trial + (trial | gameId) + (1 | target) + (1|expt),
+acc_mod_all <- brm(correct ~ trial + (trial | gameId) + (trial | target) + (trial |expt),
                     family = bernoulli(link = "logit"),
                     data = joint_demog,
                     file = here(mod_loc, "acc_meta.rds"),
@@ -522,21 +522,21 @@ speed_priors <- c(
 
 
 
-speed_mod_1 <- brm(time.sec ~ trial + (trial | game) + (1 | target),
+speed_mod_1 <- brm(time.sec ~ trial + (trial | game) + (trial | target),
                    data = joint_demog |> filter(expt=="1"),
                    file = here(mod_loc, "speed_1.rds"),
                    prior = speed_priors,
                    control = list(adapt_delta = .95)
 )
 
-speed_mod_2 <- brm(time.sec ~ trial + (trial | gameId) + (1 | target),
+speed_mod_2 <- brm(time.sec ~ trial + (trial | gameId) + (trial | target),
                    data = joint_demog |> filter(expt=="2"),
                    file = here(mod_loc, "speed_2.rds"),
                    prior = speed_priors,
                    control = list(adapt_delta = .95)
 )
 
-speed_mod_3 <- brm(time.sec ~ trial + (trial | gameId) + (1 | target),
+speed_mod_3 <- brm(time.sec ~ trial + (trial | gameId) + (trial | target),
                    data = joint_demog |> filter(expt=="3"),
                    file = here(mod_loc, "speed_3.rds"),
                    prior = speed_priors,
@@ -544,7 +544,7 @@ speed_mod_3 <- brm(time.sec ~ trial + (trial | gameId) + (1 | target),
 )
 
 
-speed_mod_meta <- brm(time.sec ~ trial + (trial | gameId) + (1 | target) + (1|expt),
+speed_mod_meta <- brm(time.sec ~ trial + (trial | gameId) + (trial| target) + (trial|expt),
                    data = joint_demog,
                    file = here(mod_loc, "speed_meta.rds"),
                    prior = speed_priors,
@@ -563,7 +563,7 @@ description_priors <- c(
 )
 
 
-description_mod_1 <- brm(words ~ trial + (trial | game) + (1 | target),
+description_mod_1 <- brm(words ~ trial + (trial | game) + (trial | target),
                          data = joint_demog |> filter(expt=="1"),
                          file = here(mod_loc, "description_1.rds"),
                          prior = description_priors,
@@ -571,7 +571,7 @@ description_mod_1 <- brm(words ~ trial + (trial | game) + (1 | target),
 )
 
 
-description_mod_2 <- brm(words ~ trial + (trial | gameId) + (1 | target),
+description_mod_2 <- brm(words ~ trial + (trial | gameId) + (trial | target),
                          data = joint_demog |> filter(expt=="2"),
                          file = here(mod_loc, "description_2.rds"),
                          prior = description_priors,
@@ -579,7 +579,7 @@ description_mod_2 <- brm(words ~ trial + (trial | gameId) + (1 | target),
 )
 
 
-description_mod_3 <- brm(words ~ trial + (trial | gameId) + (1 | target),
+description_mod_3 <- brm(words ~ trial + (trial | gameId) + (trial | target),
                          data = joint_demog |> filter(expt=="3"),
                          file = here(mod_loc, "description_3.rds"),
                          prior = description_priors,
@@ -587,7 +587,7 @@ description_mod_3 <- brm(words ~ trial + (trial | gameId) + (1 | target),
 )
 
 
-description_mod_meta <- brm(words ~ trial + (trial | gameId) + (1 | target) + (1|expt),
+description_mod_meta <- brm(words ~ trial + (trial | gameId) + (trial | target) + (trial|expt),
                             data = joint_demog,
                             file = here(mod_loc, "description_meta.rds"),
                             prior = description_priors,
@@ -610,7 +610,7 @@ description_priors <- c(
 )
 
 
-all_description_mod_1 <- brm(all_words ~ trial + (trial | game) + (1 | target),
+all_description_mod_1 <- brm(all_words ~ trial + (trial | game) + (trial | target),
                          data = joint_demog |> filter(expt=="1"),
                          file = here(mod_loc, "all_description_1.rds"),
                          prior = description_priors,
@@ -618,7 +618,7 @@ all_description_mod_1 <- brm(all_words ~ trial + (trial | game) + (1 | target),
 )
 
 
-all_description_mod_2 <- brm(all_words ~ trial + (trial | gameId) + (1 | target),
+all_description_mod_2 <- brm(all_words ~ trial + (trial | gameId) + (trial | target),
                          data = joint_demog |> filter(expt=="2"),
                          file = here(mod_loc, "all_description_2.rds"),
                          prior = description_priors,
@@ -626,7 +626,7 @@ all_description_mod_2 <- brm(all_words ~ trial + (trial | gameId) + (1 | target)
 )
 
 
-all_description_mod_3 <- brm(all_words ~ trial + (trial | gameId) + (1 | target),
+all_description_mod_3 <- brm(all_words ~ trial + (trial | gameId) + (trial | target),
                          data = joint_demog |> filter(expt=="3"),
                          file = here(mod_loc, "all_description_3.rds"),
                          prior = description_priors,
@@ -634,7 +634,7 @@ all_description_mod_3 <- brm(all_words ~ trial + (trial | gameId) + (1 | target)
 )
 
 
-all_description_mod_meta <- brm(all_words ~ trial + (trial | gameId) + (1 | target) + (1|expt),
+all_description_mod_meta <- brm(all_words ~ trial + (trial | gameId) + (trial | target) + (trial|expt),
                             data = joint_demog,
                             file = here(mod_loc, "all_description_meta.rds"),
                             prior = description_priors,
@@ -745,28 +745,28 @@ sim_across_between_data <- sims |>
   mutate(same_speaker = ifelse(speaker1 == speaker2, 1, 0))
 
 
-sim_across_between_mod_1 <- brm(sim ~ same_game + same_speaker + (1 | target),
+sim_across_between_mod_1 <- brm(sim ~ same_game + same_speaker + (same_game+same_speaker | target),
                                 data = sim_across_between_data |> filter(expt=="1"),
                                 file = here(mod_loc, "sim_across_between_1.rds"),
                                 prior = conv_priors,
                                 control = list(adapt_delta = .95)
 )
 
-sim_across_between_mod_2 <- brm(sim ~ same_game + same_speaker + (1 | target),
+sim_across_between_mod_2 <- brm(sim ~ same_game + same_speaker + (same_game+same_speaker | target),
                                 data = sim_across_between_data |> filter(expt=="2"),
                                 file = here(mod_loc, "sim_across_between_2.rds"),
                                 prior = conv_priors,
                                 control = list(adapt_delta = .95)
 )
 
-sim_across_between_mod_3 <- brm(sim ~ same_game + same_speaker + (1 | target),
+sim_across_between_mod_3 <- brm(sim ~ same_game + same_speaker + (same_game+same_speaker | target),
                                 data = sim_across_between_data |> filter(expt=="3"),
                                 file = here(mod_loc, "sim_across_between_3.rds"),
                                 prior = conv_priors,
                                 control = list(adapt_delta = .95)
 )
 
-sim_across_between_mod_meta <- brm(sim ~ same_game + same_speaker + (1 | target) + (1|expt),
+sim_across_between_mod_meta <- brm(sim ~ same_game + same_speaker + (same_game+same_speaker | target) + (same_game+same_speaker|expt),
                                    data = sim_across_between_data,
                                    file = here(mod_loc, "sim_across_between_meta.rds"),
                                    prior = conv_priors,
@@ -785,20 +785,20 @@ sim_to_last_data <- sims |>
     same_speaker = ifelse(speaker1 == speaker2, 1, 0),
   )
 
-sim_to_last_mod_2 <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target),
+sim_to_last_mod_2 <- brm(sim ~ earlier + same_speaker + (earlier+same_speaker | game1) + (earlier+same_speaker | target),
                          data = sim_to_last_data |> filter(expt=="2"),
                          file = here(mod_loc, "sim_to_last_2.rds"),
                          prior = conv_priors,
                          control = list(adapt_delta = .95)
 )
-sim_to_last_mod_3 <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target),
+sim_to_last_mod_3 <- brm(sim ~ earlier + same_speaker + (earlier+same_speaker| game1) + (earlier+same_speaker | target),
                          data = sim_to_last_data |> filter(expt=="3"),
                          file = here(mod_loc, "sim_to_last_3.rds"),
                          prior = conv_priors,
                          control = list(adapt_delta = .95)
 )
 
-sim_to_last_mod_meta <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target)+ (1|expt),
+sim_to_last_mod_meta <- brm(sim ~ earlier + same_speaker + (earlier+same_speaker | game1) + (earlier+same_speaker | target)+ (earlier+same_speaker|expt),
                          data = sim_to_last_data,
                          file = here(mod_loc, "sim_to_last_meta.rds"),
                          prior = conv_priors,
@@ -817,21 +817,21 @@ sim_to_next_data <- sims |>
     same_speaker = ifelse(speaker1 == speaker2, 1, 0),
   )
 
-sim_to_next_mod_2 <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target),
+sim_to_next_mod_2 <- brm(sim ~ earlier + same_speaker + (earlier+same_speaker| game1) + (earlier+same_speaker | target),
                          data = sim_to_next_data |> filter(expt=="2"),
                          file = here(mod_loc, "sim_to_next_2.rds"),
                          prior = conv_priors,
                          control = list(adapt_delta = .95)
 )
 
-sim_to_next_mod_3 <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target),
+sim_to_next_mod_3 <- brm(sim ~ earlier + same_speaker + (earlier+same_speaker | game1) + (earlier+same_speaker | target),
                          data = sim_to_next_data |> filter(expt=="3"),
                          file = here(mod_loc, "sim_to_next_3.rds"),
                          prior = conv_priors,
                          control = list(adapt_delta = .95)
 )
 
-sim_to_next_mod_meta <- brm(sim ~ earlier + same_speaker + (1 | game1) + (1 | target)+ (1|expt),
+sim_to_next_mod_meta <- brm(sim ~ earlier + same_speaker + (earlier+same_speaker | game1) + (earlier+same_speaker | target)+ (earlier+same_speaker|expt),
                          data = sim_to_next_data,
                          file = here(mod_loc, "sim_to_next_meta.rds"),
                          prior = conv_priors,
@@ -846,14 +846,14 @@ sim_across_data <- sims |>
   filter(game1 != game2) |>
   filter(block1 == block2)
 
-sim_across_mod_2 <- brm(sim ~ block1 + (1 | target),
+sim_across_mod_2 <- brm(sim ~ block1 + (block1 | target),
                         data = sim_across_data |> filter(expt=="2"),
                         file = here(mod_loc, "sim_across_2.rds"),
                         prior = conv_priors,
                         control = list(adapt_delta = .95)
 )
 
-sim_across_mod_3 <- brm(sim ~ block1 + (1 | target),
+sim_across_mod_3 <- brm(sim ~ block1 + (block1 | target),
                         data = sim_across_data |> filter(expt=="3"),
                         file = here(mod_loc, "sim_across_3.rds"),
                         prior = conv_priors,
@@ -862,7 +862,7 @@ sim_across_mod_3 <- brm(sim ~ block1 + (1 | target),
 
 
 
-sim_across_mod_meta <- brm(sim ~ block1 + (1 | target)+ (1|expt),
+sim_across_mod_meta <- brm(sim ~ block1 + (block1 | target)+ (block1|expt),
                         data = sim_across_data,
                         file = here(mod_loc, "sim_across_meta.rds"),
                         prior = conv_priors,
@@ -895,7 +895,7 @@ conv_priors <- c(
   set_prior("normal(0,.05)", class = "sd")
 )
 
-sim_acc_to_next_mod_meta <- brm(sim ~ earlier*correct + same_speaker*correct + (1 | game1) + (1 | target) + (1|expt),
+sim_acc_to_next_mod_meta <- brm(sim ~ earlier*correct + same_speaker*correct + (earlier*correct + same_speaker*correct | game1) + (earlier*correct + same_speaker*correct | target) + (earlier*correct + same_speaker*correct|expt),
                                 data = sim_acc_to_next,
                                 file = here(mod_loc, "sim_acc_to_next_meta.rds"),
                                 prior = conv_priors,
@@ -972,7 +972,7 @@ acc_mod_demog <- brm(
   correct ~ trial +
     centered_speaker_age + speaker_gender_num +
     centered_listener_age + listener_gender_num +
-    (trial | game) + (1 | target),
+    (trial | game) + (trial | target) + (trial|expt),
   family = bernoulli(link = "logit"),
   data = centered_demog,
   file = here(mod_loc, "acc_demog.rds"),
@@ -995,7 +995,7 @@ red_priors <- c(
 red_mod <- brm(
   words ~ trial*(centered_speaker_age + speaker_gender_num +
     centered_listener_age + listener_gender_num) +
-    (trial | game) + (1 | target),
+    (trial | game) + (trial | target)+(trial|expt),
   data = centered_demog,
   file = here(mod_loc, "description_demog.rds"),
   prior = red_priors,
