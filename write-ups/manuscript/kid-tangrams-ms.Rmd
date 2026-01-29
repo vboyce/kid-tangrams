@@ -18,7 +18,7 @@ affiliation:
     institution   : "Stanford University"
 
 authornote: |
-  TODO credit taxonomy, mention prior cogsci, acknowledgements, etc 
+  TODO credit taxonomy, acknowledgements, etc 
 
 abstract: > 
   Learning language requires learning not only the content of language, but also how to use language to communicate. Iterated reference games provide a window into such skills, requiring rich communication as participants converge on mutually understandable names for initially novel referents. Some early experiments are interpreted as evidence that 4-5-year-old children cannot generate the mutually understandable names needed to succeed in an iterated reference game. Here, we revisit young children's referential communicative abilities using a simpler, child-friendly paradigm. Across 82 pairs of children (N=158), we found that 4-5-year-olds could successfully establish reference with each other. Children were 81% accurate, and they often used descriptions similar to their partner's. These findings suggest that children’s capacity to construct effective referring expressions in novel contexts emerges earlier than previously thought, consistent with the view that children show early pragmatic competence in supportive contexts.
@@ -140,9 +140,7 @@ pairs <- joint_data |> distinct(game, expt) |> nrow() #82
 pct <- joint_data |> summarize(m=round(mean(correct)*100)) |> pluck() #81
 ```
 
-# Introduction
-
-Learning a language requires learning not only the content of that language, but also how to use the language to communicate. One case study for language use is referential communication, the ability to describe a target so an interlocutor can pick it out from a set of possibilities. Adults show sensitivity to both the visual context and their audience during referential communication, calibrating the description they provide to their beliefs about the interlocutor's knowledge state TODO CITATIONS FROM THE ADULT WORK. 
+Learning a language requires learning not only the content of that language, but also how to use the language to communicate. One case study for language use is referential communication, the ability to describe a target so an interlocutor can pick it out from a set of possibilities. Adults show sensitivity to both the visual context and their audience during referential communication, calibrating the description they provide to their beliefs about the interlocutor's knowledge state [@brown-schmidt2018; @galati2010; @hawkins2023chai; @yoon2019contextual]. 
 
 Iterated reference games provide an important paradigm for studying referential communication. In these games, one player repeatedly describes a set of abstract shapes to a partner so they can identify the target images [@clark1986; @krauss1964; @hawkins2020dynamics; @boyce2024]. Over repetition, features of the initial descriptions are conventionalized as each pair comes to agree on a shared understanding of how to label each image. Success at this task requires mastery of a number of linguistic and communicative skills, including producing adequate initial descriptions, monitoring for comprehension, asking for clarification, and appropriately using the shared conversation history to inform later referring expressions. 
 Studying how children play iterated reference games can provide insight into the developmental trajectory of the ability to produce referential expressions in order to achieve joint understanding. 
@@ -238,7 +236,7 @@ acc_mod_1 <- read_rds(here(mod_results, "acc_1.rds")) |> mutate(across(c(`Estima
 acc_form <- read_rds(here(mod_form, "acc_1.rds"))
 ```
 
-Our primary question was whether children could accurately communicate the intended target, as prior work is often interpreted as indicating the children at kindergarten age cannot communicate about abstract shapes successfully [@glucksberg1966]. To test for changes in accuracy over time, we fit a Bayesian mixed effects logistic regression predicting accuracy.^[`r acc_form |> form()`] Children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_1,1)`), and their accuracy slightly increased over the game (OR of one trial later: `r stats_text(acc_mod_1, 2)`, Figure \ref{acc}). This level of accuracy is generally in-line with accuracies from 4-year-olds playing with their parents in @leung2024 and indicates that children can understand and succeed at the task. 
+Our primary question was whether children could accurately communicate the intended target, as prior work is often interpreted as indicating the children at kindergarten age cannot communicate about abstract shapes successfully [@glucksberg1966]. To test for changes in accuracy over time, we fit a Bayesian mixed effects logistic regression predicting accuracy.^[`r acc_form |> form()` In this and other models, we deviate from the pre-registration by adding random by-image slopes to better match the experimental design.] Children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_1,1)`) with a possible increase in accuracy over the game (OR of one trial later: `r stats_text(acc_mod_1, 2)`, Figure \ref{acc}). This level of accuracy is generally in-line with accuracies from 4-year-olds playing with their parents in @leung2024 and indicates that children can understand and succeed at the task. 
 
 
 
@@ -248,7 +246,7 @@ speed_mod_1 <- read_rds(here(mod_results, "speed_1.rds"))
 speed_form <- read_rds(here(mod_form, "speed_1.rds"))
 ```
 
-As another measure of children's performance, we looked at how long children spent on each trial. We ran a Bayesian mixed effects linear regression predicting the time to selection in seconds.^[`r speed_form |> form()`] The first critical trial averaged `r stats_text(speed_mod_1, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_1, 2)` seconds / trial). Children were able to achieve the same accuracy in less time, suggesting that they were becoming more efficient at completing the task. 
+As another measure of children's performance, we looked at how long children spent on each trial. We ran a Bayesian mixed effects linear regression predicting the time to selection in seconds.^[`r speed_form |> form()`] The first critical trial averaged `r stats_text(speed_mod_1, 1)` seconds, and children tended to speed up over time, albeit with wide variability (`r stats_text(speed_mod_1, 2)` seconds / trial). Children were able to achieve the same accuracy in less time, suggesting that they were becoming more efficient at completing the task. 
 
 ### Description length
 
@@ -336,7 +334,6 @@ We compared the semantic similarities between descriptions of the same target ba
 In Experiment 1, we adapted the paradigm of @leung2024 for pairs of children, taking an already simple set-up and making it shorter. Our goal was to see if young children were at all able to provide adequate descriptions, so children received a lot of scaffolding around the experimental interaction. In this supportive environment, children provided short descriptions that allowed their partner to select the correct target most of the time. 
 The scaffolding provided by experimenters sometimes included echoing children's descriptions, which could potentially influence children's responses. In Experiment 2, we repeated the same paradigm, with a tighter experimental script and a larger sample size. 
 
-TODO TABLE ADD WHAT ROUNDS (blocks) THEY COME FROM (can look up easily)
 
 ```{=latex}
 
@@ -440,7 +437,7 @@ speed_mod_2 <- read_rds(here(mod_results, "speed_2.rds"))
 ```
 
 In Experiment 2, children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_2,1)`) and relatively stable over time (OR of one trial later: `r stats_text(acc_mod_2, 2)`, Figure \ref{acc}). 
-The first critical trial averaged `r stats_text(speed_mod_2, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_2, 2)` seconds / trial). <!--Children were initially faster in Experiment 2 than Experiment 1, possibly due to the increased number of practice trials and pre-training on how to press the screens. -->Taken together, we find more evidence that children can successfully communicate with each other about these abstract shapes, and do so with increasing efficiency. 
+The first critical trial averaged `r stats_text(speed_mod_2, 1)` seconds, and children's speed increased over repetitions, with wide uncertainty (`r stats_text(speed_mod_2, 2)` seconds / trial). <!--Children were initially faster in Experiment 2 than Experiment 1, possibly due to the increased number of practice trials and pre-training on how to press the screens. -->Taken together, we find more evidence that children can successfully communicate with each other about these abstract shapes, and do so with increasing efficiency. 
 
 ### Description length
 
@@ -478,9 +475,9 @@ sim_to_last_form <- read_rds(here(mod_form, "sim_to_last_2.rds"))
 
 As a coarse measure of partner-sensitivity, we repeated the semantic analysis from Experiment 1. Utterances were more similar if they came from the same partnership (`r sim_across_between_2_results |> stats_text(2,3)`) and were slightly more similar if they came from the same person (`r sim_across_between_2_results |> stats_text(3,3)`). 
 
-As Experiment 2 had 4 blocks, we examined whether descriptions were converging semantically toward the final description. We compared the utterances from the first three blocks to the descriptions in the last block using a Bayesian mixed effects linear regression predicting similarity.^[`r sim_to_last_form |> form()`] Over the first three blocks, descriptions became increasingly similar to the last block description (`r sim_to_last_2_results |> stats_text(2,3)`). Descriptions were marginally more similar if they came from the same child, which is expected as a sign of internal consistency (`r sim_to_last_2_results |> stats_text(3,3)`). Although over time descriptions did get more similar to the last block utterance, the semantic distance between adjacent block utterances was relatively constant (`r sim_to_next_2_results |> stats_text(2,3)`). 
+As Experiment 2 had 4 blocks, we examined whether descriptions were converging semantically toward the final description. We compared the utterances from the first three blocks to the descriptions in the last block using a Bayesian mixed effects linear regression predicting similarity.^[`r sim_to_last_form |> form()`] Over the first three blocks, descriptions became increasingly similar to the last block description (`r sim_to_last_2_results |> stats_text(2,3)`). Descriptions from the same child would be expected to be more similar than descriptions from the partner as a sign of internal consistency; descriptions from the same child were only marginally more similar, with wide uncertainty (`r sim_to_last_2_results |> stats_text(3,3)`). Although over time descriptions did get more similar to the last block utterance, the semantic distance between adjacent block utterances did not clearly increase over repetition (`r sim_to_next_2_results |> stats_text(2,3)`). 
 
-Partnerships often diverged from one another as groups focused on distinct aspects of the image. We tested whether descriptions in different games diverged over time using a Bayesian mixed effects linear regression.^[`r sim_across_form |> form()`] As the games progressed, descriptions to the same target from different games became slightly less similar (`r sim_across_2_results |> stats_text(2,3)`), which indicates that games are converging to different conventions. These patterns of increasing similarity within games and increasing divergence between games qualitatively match the patterns found for adults [@boyce2024]. 
+Partnerships may diverge from one another as groups focus on distinct aspects of the image. We tested whether descriptions in different games diverged over time using a Bayesian mixed effects linear regression.^[`r sim_across_form |> form()`] As the games progressed, descriptions to the same target from different games did not change substantially in similarity (`r sim_across_2_results |> stats_text(2,3)`). 
 
 ```{r sim2, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="100%", fig.width=7, fig.height=3, fig.cap = "Semantic similarity between descriptions from earlier blocks (1-3) and the last block in Experiments 2 and 3.  Heavy dots are means with bootstrapped 95% CIs. \\label{tolast}" }
 joint_similarities |> 
@@ -505,6 +502,9 @@ scale_color_brewer(palette="Dark2") +
 
 ```
 
+## Discussion
+
+In Experiment 2, we repeated the matching game from Experiment 1 with a tighter experimental script, a larger sample size, and more trials per game. We again found that children produced short descriptions that enabled their partners' to identify the target most of the time. Children's descriptions showed semantic convergence toward shared conventions for referring to each target within games. 
 
 # Experiment 3
 
@@ -544,7 +544,7 @@ acc_pct<- joint_data |> group_by(expt) |> summarize(acc=mean(correct, na.rm=T)*1
 speed_mod_3 <- read_rds(here(mod_results, "speed_3.rds"))
 ```
 
-In Experiment 3, children's accuracy was above chance (Odds Ratio: `r stats_text(acc_mod_3,1)`) and increased slightly over time (OR of one trial later: `r stats_text(acc_mod_3, 2)`, Figure \ref{acc}). Children's overall accuracy was lower in Experiment 3 (`r round(acc_pct |> pluck(2,3))`%) than in the prior experiments (`r round(acc_pct |> pluck(2,2))`%), potentially indicating that the stimuli were more difficult. 
+In Experiment 3, children's initial accuracy was slightly above chance, but with wide uncertainty (Odds Ratio: `r stats_text(acc_mod_3,1)`).  Children's accuracy tended to increase slightly over time, again with some uncertainty (OR of one trial later: `r stats_text(acc_mod_3, 2)`, Figure \ref{acc}). Children's overall accuracy was lower in Experiment 3 (`r round(acc_pct |> pluck(2,3))`%) than in the prior experiments (`r round(acc_pct |> pluck(2,2))`%), potentially indicating that the stimuli were more difficult. 
 
 The first critical trial averaged `r stats_text(speed_mod_3, 1)` seconds, and children got faster over time (`r stats_text(speed_mod_3, 2)` seconds / trial). Overall, we find evidence that children's ability to communicate with increasing efficiency generalizes to different abstract images.  
 
@@ -578,13 +578,15 @@ sim_to_last_3_results <- read_rds(here(mod_results, "sim_to_last_3.rds"))
 
 We repeated the semantic analyses from Experiment 2. We again found that utterances were more similar if they came from the same partnership (`r sim_across_between_3_results |> stats_text(2,3)`) and if they came from the same person (`r sim_across_between_3_results |> stats_text(3,3)`). 
 
-Over the first three blocks, descriptions became increasingly similar to the last block description (`r sim_to_last_3_results |> stats_text(2,3)`). Over time, the semantic similarity between adjacent block utterances increased marginally (`r sim_to_next_2_results |> stats_text(2,3)`). 
+Over the first three blocks, descriptions became increasingly similar to the last block description (`r sim_to_last_3_results |> stats_text(2,3)`). Descriptions from the same partner were slighly more similar to each other, with some uncertainty (`r sim_to_last_3_results |> stats_text(3,3)`) Over time, the semantic similarity between adjacent block utterances increased (`r sim_to_next_2_results |> stats_text(2,3)`). 
 
-Unlike in Experiment 2, we did not find that different games became less similar over time, and instead different games became slightly more similar over time (`r sim_across_3_results |> stats_text(2,3)`). While children show some of the same patterns as adults on these stimuli, such as sensitivity to their partners descriptions, and some convergence towards conventions, the group-specificity of descriptions was not robust across experiments with children. 
+Unlike the patterns found with adults, we found that the similarity between utterances in different games was relatively stable over time (`r sim_across_3_results |> stats_text(2,3)`). While children show some of the same patterns as adults on these stimuli, such as sensitivity to their partners descriptions, and some convergence towards conventions, there was not increasing group-specificity of descriptions over time. 
 
-TODO figure out how much to hedge/downplay some of the semantic results in light of inconsistent group-group patterns
+## Discussion
 
-# Exploratory Joint analysis
+In Experiment 3, we tested whether preschool children's ability to coordinate on mutually understandable labels to identify targets in a repeated matching game would generalize to a different, and perhaps harder, set of abstract stimuli. In line with the prior experiments, children used relatively short descriptions, picked the correct targets most of the time, and showed signs of converging with their partner on names for each image. Possibly because the images were more difficult, children used longer descriptions and had lower accuracy than in the first two experiments. 
+
+# Exploratory joint analysis
 
 ## Pooled analysis
 
@@ -606,13 +608,11 @@ sim_to_next_mod_meta <- read_rds(here(mod_results, "sim_to_next_meta.rds"))
 sim_across_mod_meta <- read_rds(here(mod_results, "sim_across_meta.rds"))
 ```
 
-TODO emphasize that this is to maximize power
-TODO should we have random slopes as well as random intercepts? (re-run models and re-propagate?)
-
-As the experiments were all similar to one another, we re-ran models pooling the data across the three experiments, with experiment number as a random effect.
+Because of variability between pairs of children and between different target images, there is variability in our numerical estimates of results across different experiments. 
+In order to maximize power and obtain overall estimates of effects, we re-ran the statistical models, pooling across the experiments. In addition to random slopes and intercepts for each pair and each image, we add random slopes and intercepts by experiment as well.
 
 ### Accuracy and speed 
-Pooling across the three experiments, children's accuracy was above chance (OR: `r stats_text(acc_mod_meta,1)`) and accuracy increased slightly over the course of the game (OR of one trial later: `r stats_text(acc_mod_meta, 2)`). Across all the experiments, children sped up over repetitions (effect of one trial later: `r stats_text(speed_mod_meta, 2)` seconds).
+Pooling across the three experiments, children's accuracy was above chance at the start of the game (OR: `r stats_text(acc_mod_meta,1)`), but it is unclear whether children's accuracy increased over the course of the game (OR of one trial later: `r stats_text(acc_mod_meta, 2)`). Across all the experiments, it is unclear whether children sped up over the course of the game (effect of one trial later: `r stats_text(speed_mod_meta, 2)` seconds).
 
 ### Description length
 Descriptions produced by tellers averaged `r stats_text(description_mod_meta, 1)` words on the first trial, and description length was relatively stable over time (change of `r stats_text(description_mod_meta, 2)` words per trial).
@@ -621,14 +621,14 @@ Descriptions produced by tellers averaged `r stats_text(description_mod_meta, 1)
 ### Convergence
 Utterances were more similar if they came from the same partnership (increase in cosine similarity: `r sim_across_between_mod_meta |> stats_text(2,3)`) and were more similar still if they came from the same person within the partnership (`r sim_across_between_mod_meta |> stats_text(3,3)`).
 
-For the other semantic analyses, we pooled across experiments 2 and 3 which had 4 blocks. In the combined model, we found that the similarity the last block utterance increased across blocks (`r stats_text(sim_to_last_mod_meta, 2,3)`) and was higher when the same child produced both utterances (`r stats_text(sim_to_last_mod_meta, 3,3)`). In a combined model, similarity to the next block utterance also increased across blocks (`r stats_text(sim_to_next_mod_meta, 2,3)`) and was higher when the same child produced both utterances (`r stats_text(sim_to_next_mod_meta, 3,3)`). Across the two experiments, utterances from different pairs to the same stimulus tended to decrease in similarity across blocks (`r stats_text(sim_across_mod_meta, 2,3)`), although this effect was small and inconsistent across the two experiments. 
+For the other semantic analyses, we pooled across experiments 2 and 3 which had 4 blocks. In the combined model, we found that the similarity the last block utterance increased across blocks (`r stats_text(sim_to_last_mod_meta, 2,3)`) and was marginally higher, albeit with some uncertainty, when the same child produced both utterances (`r stats_text(sim_to_last_mod_meta, 3,3)`). In a combined model, similarity to the next block utterance also increased across blocks (`r stats_text(sim_to_next_mod_meta, 2,3)`) and was higher when the same child produced both utterances (`r stats_text(sim_to_next_mod_meta, 3,3)`). Across the two experiments, the similarity of utterances from different pairs to the same stimulus remained fairly stable across blocks (`r stats_text(sim_across_mod_meta, 2,3)`). 
 
-While some of these effects were small and thus not all effects were consistently detected in every experiment, the overall pattern of results is consistent in direction with the patterns of convergence and divergence reported in reference games between adults [@boyce2024]. 
+Different pairs of children used different descriptions for the target images, and within a partnership, children's descriptions show convergence toward a shared concept. However, this convergence was not coupled with increasing dissimilarity to the descriptions of other pairs. The overall pattern of results is a partial match for the patterns reported in reference games between adults [@boyce2024]. 
 
 
 ## Sensitivity to prior result
 
-TODO foreshadow this result, possibly even in intro?
+One aspect of mature cooperative communication is tailoring descriptions to the knowledge state of the interlocuter. If an interlocutor is confused or misunderstands a description, adults try a different description or add more details to help their interlocuter. In iterated reference games, adults shorten descriptions more when the prior description was successful compared to when it was not [@hawkins2020dynamics].
 
 ```{r}
 sim_acc_to_next_mod_meta <- read_rds(here(mod_results, "sim_acc_to_next_meta.rds"))
@@ -674,10 +674,9 @@ We also tested whether children's age or gender affected how many words they pro
 
 ## Qualitative observations
 
-TODO reframe for this position in the MS
-Even within this population, we observed substantial pair to pair differences in what types of descriptions were used, how readily children produced descriptions, and how well children understood and cooperated with the "rules" of the game.
+Pairs of children varied substantially in what types of descriptions were used, how readily they produced descriptions, and how well they understood and cooperated with the "rules" of the game.
 
-Pairs of children varied significantly in how well they could scaffold their own interaction versus needed reminders from experimenters about the structure of the game. In one game, the experimenter provided no input after the practice trials because the children rapidly took turns producing referring expressions and selecting the targets. Their advantage could partially be due to being best friends with each other; all children were paired with another child from the same classroom who they were willing to play with, but friendship levels varied. 
+Some children needed reminders from the experimenter about the structure of the game, while others were able to scaffold their own interaction. In one game, the experimenter provided no input after the practice trials because the children rapidly took turns producing referring expressions and selecting the targets. Their advantage could partially be due to being best friends with each other; all children were paired with another child from the same classroom who they were willing to play with, but friendship levels varied. 
 
 Occasionally, a guesser would provide descriptions of the images ("The walking person or the standing person that's holding something?") so the teller just had to indicate which one rather than self-generate a description. 
 
@@ -687,39 +686,23 @@ Other pairs of children relied on the experimenter to say whose turn it was or p
 
 In instances where children did not communicate successfully, it is difficult to know what the limiting factor was. In general, our qualitative impression was that children were more likely to hit limits related to understanding the game structure (such as when tellers tapped their own iPad), cooperating with the game (such as guessers immediately pressing an option before the teller had a chance to say anything), or thinking the task was about correctly "naming" the shape (saying "I don't know what that's called"), than for children to specifically struggle with how to describe an unknown referent adequately.  However, pairs of children also varied significantly in how sensitive they were to collaborating with their partner and adapting descriptions based on their partners descriptions and their prior success. 
 
-
-
 # General discussion
 
-TODO start with the major question 
-* when does the ability to communicate in a partner- and context-sensitive way arise? There are different components to communication, but ... TODO
+Language is a powerful tool for communication, and adult language uses can communicate with each other in a partner- and context-sensitive way. Learning to deploy language effectively to achieve communicative goals is part of what children learn when they learn a language, but how well can young children use language to communicate with each other about images without canonical names? 
 
-Prominent early studies claimed that young children cannot overcome their ego-centrism to coordinate with each other in reference games [@glucksberg1966]. However, more recent developmental work has found that young children show emerging communicative and pragmatic sensitivity, especially when cognitive demands are low. Recent work has established that children as young as 4 years old are successful at producing and understanding referential expressions to novel shapes when playing reference games with their parents [@leung2024]. Here, we revisited the question of preschoolers' performance in child-child reference games, using a scaffolded paradigm to reduce extraneous task demands. 
+Iterated reference games are a rich tradition for studying the emergence of partner- and context- specific referring expressions in adults. In the current work, we presented children with a scaled down version of an iterated reference game to see how their developing linguistic and pragmatic skills would allow them to communicate and coordinate with each other. 
 
 Across 3 experiments and `r pairs` pairs of 4 and 5-year-old children, we tested how well children could produce referential expressions that allowed their partner to find a matching abstract shape. Children varied substantially in what sorts of descriptions they produced, but overall accuracy was high (`r pct`%), indicating that children were generally able to produce adequate descriptions. While this task was substantially scaled down relative to measures used for adult competence, it does suggest that the relevant communication skills are present at least in rudimentary form by the end of the preschool years. 
 
-TODO REFACTOR INTO 
-PARA 1 -- we don't find shortening, but it may be that they're already short 
+Unlike adults, children did not display a shortening of referential expressions over the course of the game. It is unclear to what extent the uniformly short descriptions we observed are a product of the simplified task or children's behavioral differences from adults. The low number of options and relatively distinct shapes may have obviated the need for long initial descriptions. Indeed, adult controls in @leung2024 used shorter initial descriptions than adults in studies with larger arrays of harder-to-distinguish images [@hawkins2020dynamics; @boyce2024]. However, young children may also struggle to produce longer descriptions, and young children may be more willing to take guesses when adults would seek additional clarification.
 
-PARA 2 -- the semantic signals recapitulate trends found in adults -- children show similarity to within-game / some signs of convention formation / some sensitivity to errors 
-Unlike adults, children did not display a shortening of referential expressions over the course of the game. Still, our findings show that descriptions became increasingly similar to descriptions in the last block and that successful utterances were more similar to future utterances, suggesting that children are adapting their descriptions as the game unfolds.
-
-It is unclear to what extent the uniformly short descriptions we observed are a product of the simplified task or children's behavioral differences from adults. The low number of options and relatively distinct shapes may have obviated the need for long initial descriptions. Indeed, adult controls in @leung2024 used shorter initial descriptions than adults in studies with larger arrays of harder-to-distinguish images [@hawkins2020dynamics; @boyce2024]. However, young children may also struggle to produce longer descriptions, and young children may be more willing to take guesses when adults would seek additional clarification. Especially in light of other work suggesting that conceptual pact formation and reduction in utterance length sometimes decouple in adults [@boyce2024], further empirical work on the factors driving verbosity in reference games is warranted. 
-
-Our study was intended as a proof-of-concept test about whether children at this age could coordinate with each other to refer to novel referents. Still, the generalizability of our results is limited by the target population, the target images, and the task structure. We sampled a convenience population of children at a university nursery school. We used two sets of 4 tangram images, which may be easier to distinguish and have higher codability than other target images used in adult iterated reference games. We specifically targeted children's abilities to construct referring expressions that can be jointly understood, so children were provided scaffolding around taking turns and talking to their partner. 
+Children did show signs of adapting their utterances to their partner and the conversational context. Children's descriptions became increasingly similar to descriptions in the last block and children's successful utterances were more similar to future utterances, suggesting that children adapted their descriptions and coordinated with their partner towards mutually understandable names for each target.
 
 By reducing the task demands and scaffolding children's interaction with each other, we were able to see that many 4-5 year old children in our sample were able to coordinate with each other on informative utterances in a repeated matching game. In a post-hoc analysis, we also observed that within this age range, older children are somewhat more successful than younger children, although there is wide individual variability. We do not claim that this ability emerges at 4 years old, although we suspect that younger children may struggle more with even these reduced task demands, making it difficult to test child-child coordination in young children. 
 
+Our study was intended as a proof-of-concept test about whether children at this age could coordinate with each other to refer to novel referents. Still, the generalizability of our results is limited by the target population, the target images, and the task structure. We sampled a convenience population of children at a university nursery school. We used two sets of 4 tangram images, which may be easier to distinguish and have higher codability than other target images used in adult iterated reference games. We specifically targeted children's abilities to construct referring expressions that can be jointly understood, so children were provided scaffolding around taking turns and talking to their partner. 
+
 In the broader picture of language acquisition, there is debate over the timing of the emergence of communicative and pragmatic abilities relative to the acquisition of grammar and meaning. On one side, children seem to learn literal semantics far before they display an understanding of some pragmatic implicatures [@huang2009; @noveck2001]; on the other, sensitivity to communicative intent is an early emerging skill that develops in parallel with linguistic knowledge and may bootstrap language learning [@bates1974; @bohn2019a; @tomasello2008]. Our current findings are most consistent with a gradual development of children's communicative and linguistic skills, where the skills emerge early and then are refined over time, as children's cognitive capacities increase. At 4-5 years old, children are already able to establish novel referential conventions with one another as part of their broader ability to communicate and coordinate.
-
-
-TODO if not noted elsewhere:
-* note that the slight increase in accuracy is quite different from the towards ceiling effects common in adults
-* interpretation of semantic lack of divergence
-I had a few suggestions for organization of GD and joint analysis, but they should be very easy to implement.[6:02 AM]
-I would cut the framing of the age and gender. Just analyze them and discuss briefly in discussion.
-[6:03 AM]your interpretation is not strong at all I would say, you primarily focus on the most obvious result, which is the high accuracy.
-[6:04 AM]so I wouldn’t worry too much about the interpretive stuff? you have a clause in the abstract about the semantic analyses, which seemed appropriate.
 
 
 <!--# Acknowledgements
