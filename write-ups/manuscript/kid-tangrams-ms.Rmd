@@ -4,7 +4,7 @@ title             : |
 shorttitle: Preschoolers can coordinate
 author: 
   - name          : "Veronica Boyce"
-    affiliation   : "1"
+    affiliation   : "1,2"
     corresponding : yes    # Define only one corresponding author
     email         : "vboyce@stanford.edu"
   - name          : "Robert Z. Sparks"
@@ -16,16 +16,20 @@ author:
 affiliation:
   - id            : "1"
     institution   : "Stanford University"
+  - id            : "1"
+    institution   : "Massachusetts Institute of Technology"
 
 authornote: |
-  TODO credit taxonomy, acknowledgements, etc 
+  Acknowledgements: We would like to express graditude to all the research assistants who made this work possible: Ilaria Chen, Noah Dang, Hana Doueiri, Benji Fernandez, Gabriella Ignacio, Yannick Mofor, Malia J. Perez, Victoria Phan, Rebecca Pizzitola, and Ania Saucedo. This work would not have been possible without the support of Bing Nursery School. We are grateful to members of the Language and Cognition lab for feedback on earlier versions of this work. 
 
-abstract: > 
+  Author contributions: All authors contributed to the conceptualization. VB provided methodology, formal analysis, and writing-original draft. RZS provided supervision and project administration. RZS and MCF provided writing-review & editing. 
+
+abstract: |
   Learning language requires learning not only the content of language, but also how to use language to communicate. Iterated reference games provide a window into such skills, requiring rich communication as participants converge on mutually understandable names for initially novel referents. Some early experiments are interpreted as evidence that 4-5-year-old children cannot generate the mutually understandable names needed to succeed in an iterated reference game. Here, we revisit young children's referential communicative abilities using a simpler, child-friendly paradigm. Across 82 pairs of children (N=158), we found that 4-5-year-olds could successfully establish reference with each other. Children were 81% accurate, and they often used descriptions similar to their partner's. These findings suggest that children’s capacity to construct effective referring expressions in novel contexts emerges earlier than previously thought, consistent with the view that children show early pragmatic competence in supportive contexts.
   
 
 keywords          : development; iterated reference game; pragmatics; preschoolers
-wordcount         : "X"
+wordcount         : "6330"
 
 bibliography      : preschool-tangrams.bib
 
@@ -147,7 +151,8 @@ Studying how children play iterated reference games can provide insight into the
 
 One influential early study suggested that 4-5-year-old preschoolers struggle with child-child referential communication [@glucksberg1966]. In their paradigm, one child was given a set of 6 blocks in a specific order. Their task was to describe the image on each block so their partner could pick out their corresponding block. As children described and selected blocks, they stacked them on pegs. While 4-5-year-old children succeeded on practice trials with familiar shapes and visual access to each other's blocks, children failed on critical trials where the blocks had abstract drawings and there was no visual access. Even after multiple rounds with the same images, children were not able to correctly order the blocks. @glucksberg1966 attributed children's communicative failures to their production of ego-centric descriptions that did not account for the other child's perspective.  
 
-Similar experiments with older children indicated a gradual improvement through adolescence both for initial accuracy and for the increase in accuracy across repetitions. Still, even the 9th grade sample was noticeably worse than the adult college student sample [@glucksberg1967; @krauss1969]. Given that even teenagers had difficulties with the task, the complex stacking paradigm and the large number of potential targets may have posed task demands that prevented accurate measurement of children's abilities. 
+## Re-evaluating children's failures in referential tasks 
+After this initial experiment, similar studies with older children indicated a gradual improvement through adolescence both for initial accuracy and for the increase in accuracy across repetitions. Still, even the 9th grade sample was noticeably worse than the adult college student sample [@glucksberg1967; @krauss1969]. Given that even teenagers had difficulties with the task, the complex stacking paradigm and the large number of potential targets may have posed task demands that prevented accurate measurement of children's abilities. 
 
 ```{r interface, fig.env = "figure", fig.pos = "t!", out.width="\\textwidth", fig.align = "center", set.cap.width=T, num.cols.cap=2, fig.cap = "Experimental setup and procedure. Panel A shows the experimental setup. Panel B shows the procedures for each experiment;  within critical blocks targets were ordered randomly.\\label{game}", cache=FALSE}
 
@@ -158,17 +163,20 @@ knitr::include_graphics("diagram.pdf")
 # https://docs.google.com/drawings/d/1kLfIGdPGeEAQgXG--FE7eyLKzX0DjTZxwfQOIhvW19I/edit?usp=sharing
 ```
 
-More recently, though no evidence has directly contradicted @glucksberg1966, a number of other studies have revealed early emerging skills in the preschool years that support referential communication. Preschool-aged children are faster to select a target when it is referred to in a consistent way [@graham2013; @matthews2010]. When a change in visual context renders previous descriptions overinformative, 6-year-olds (but not 4-year-olds) are more likely to use consistent referential expressions when they keep talking to the same partner, but switch to simpler terms with a new partner [@koymen2014]. These studies suggest that young children are sensitive to the norm of consistent descriptions in cooperative communication. 
+Though no evidence has directly contradicted @glucksberg1966, a number of studies have revealed early emerging skills in the preschool years that support referential communication. Preschool-aged children are faster to select a target when it is referred to in a consistent way [@graham2013; @matthews2010]. When a change in visual context renders previous descriptions overinformative, 6-year-olds (but not 4-year-olds) are more likely to use consistent referential expressions when they keep talking to the same partner, but switch to simpler terms with a new partner [@koymen2014]. These studies suggest that young children are sensitive to the norm of consistent descriptions in cooperative communication. 
 
 Further, preschool-aged children adapt the informativeness of their referential expressions based on the visual content available to their interlocutor [@matthews2006;@nadig2002;@nilsen2009]. By age 5, children integrate information about other's perspectives into their comprehension of utterances [@sanjuan2015]. 4-5 year old children are faster to rule out competitors and select the correct target when they have learned that their partner is not aware of the competitor object. Children's ability to take partner's perspectives and knowledge states into account is evolving over the preschool years, but overall, by late preschool, children can reason about others’ perspectives to communicate more effectively. 
 
-While children are sensitive to others’ perspectives, they still struggle to appropriately tailor the specificity of their utterances to the visual context, often resulting in under-informative utterances [@matthews2012; @leung2024].  When children must describe one of two very similar images, 4 and 5-year-olds sometimes neglect to mention the relevant features, although they do better when playing in an interactive game than when not [@grigoroglou2019]. By 5 years old, children are sensitive to over- and under-informative utterances, asking for clarification on some under-informative utterances and taking longer to make selections on over-informative utterances [@morisseau2013]. 
+
+Still, 4-5-year-old children's referential abilities are far from mature. While children are sensitive to others’ perspectives, they still struggle to appropriately tailor the specificity of their utterances to the visual context, often resulting in under-informative utterances [@matthews2012; @leung2024].  When children must describe one of two very similar images, 4 and 5-year-olds sometimes neglect to mention the relevant features, although they do better when playing in an interactive game than when not [@grigoroglou2019]. By 5 years old, children are sensitive to over- and under-informative utterances, asking for clarification on some under-informative utterances and taking longer to make selections on over-informative utterances [@morisseau2013]. 
 
 A common thread among many developmental studies is that children perform better when the cognitive load of the task is reduced, i.e. when there are fewer possible referents [@abbot-smith2015; @sanjuan2015].  These findings paired with evidence of emerging communicative skills in young children suggest that tailored referential expression production is possible in children, but it is likely to be masked when the task demands are too high. 
 
 Since @glucksberg1966, few studies have revisited the question of whether children can successfully communicate in an iterated reference game. In one study, 8-10-year-olds exhibited adult-like patterns of increasing accuracy, increasing speed, and shorter descriptions across repetitions, but children’s accuracy was still far below adult performance and highly variable between dyads [@branigan2016]. In an iterated reference game where 4- and 6- year-olds communicated to each other via gestures, children were successful at communicating a repertoire of 5 image options with each other [@bohn2019a]. Children's comprehension increased over repetitions, and when children switched roles, they often re-used their partner's gestures. The 6-year-olds showed greater within-dyad similarity in gestures than the 4-year-olds, indicating that children's abilities to form conventional pacts is increasing in this age range. 
 
 Another piece of evidence about children's communicative abilities comes from an iterated reference game where  4-8-year-old children used natural language to communicate with their parents [@leung2024]. In this simple, child-friendly tablet-based task, even 4-year-olds had an initial accuracy above 80% on two-way choice, which rose to above 90% in later repetitions [@leung2024]. Together, the recent work on both iterated and non-iterated reference games with young children provides evidence of young children’s ability to communicate with each other and with adults under the right conditions. The late preschool years are a time of rapid development for children as a number of communicative skills are improving between the ages of 3 and 6 years old. 
+
+## The Current Study 
 
 Given the task demands in @glucksberg1966 and work showing that children can succeed in a less demanding paradigm, here we revisit the question of child-child referential communication. In the present study, we re-examine young children's ability to establish effective referring expressions with each other in an iterated reference game using a simplified tablet-based paradigm. Across three studies including a total of `r pairs` pairs of 4-5-year-old preschool children, we found that preschool-aged children were successful in an iterated reference game, suggesting that children's capacity to construct effective referring expressions in novel contexts emerges earlier than previously claimed.
 
@@ -586,9 +594,11 @@ Unlike the patterns found with adults, we found that the similarity between utte
 
 In Experiment 3, we tested whether preschool children's ability to coordinate on mutually understandable labels to identify targets in a repeated matching game would generalize to a different, and perhaps harder, set of abstract stimuli. In line with the prior experiments, children used relatively short descriptions, picked the correct targets most of the time, and showed signs of converging with their partner on names for each image. Possibly because the images were more difficult, children used longer descriptions and had lower accuracy than in the first two experiments. 
 
-# Exploratory joint analysis
+# Pooled analysis
 
-## Pooled analysis
+We conducted an exploratory analysis over the pooled dataset first in order to understand the consistency of specific results across experiments and secondly to explore potential moderators of children behavior across the larger dataset. 
+
+## Consistency of results
 
 ```{r}
 acc_mod_meta <- read_rds(here(mod_results, "acc_meta.rds")) |> mutate(across(c(`Estimate`, `lower`, `upper`), ~ exp(.)))
@@ -626,7 +636,7 @@ For the other semantic analyses, we pooled across experiments 2 and 3 which had 
 Different pairs of children used different descriptions for the target images, and within a partnership, children's descriptions show convergence toward a shared concept. However, this convergence was not coupled with increasing dissimilarity to the descriptions of other pairs. The overall pattern of results is a partial match for the patterns reported in reference games between adults [@boyce2024]. 
 
 
-## Sensitivity to prior result
+## Sensitivity to prior communicative success
 
 One aspect of mature cooperative communication is tailoring descriptions to the knowledge state of the interlocuter. If an interlocutor is confused or misunderstands a description, adults try a different description or add more details to help their interlocuter. In iterated reference games, adults shorten descriptions more when the prior description was successful compared to when it was not [@hawkins2020dynamics].
 
@@ -642,7 +652,7 @@ If children are sensitive to their partner's perspective, then whether a descrip
 
 We consider the effects of participant age and gender as an exploratory measure. Children were not matched with their partner based on age and gender, so different ages (within the 4-5 year old target age range) sometimes played together, and children sometimes played with same-gender and sometimes with different-gender partners. 
 
-```{r age-acc, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="80%", fig.width=6, fig.height=3, fig.cap = "Accuracy of selections across all experiments, graphed by the mean age of child in that game, and colored by the number of girls in the pair. Each dot is a game, and linear fits are overlayed. \\label{ageacc}" }
+```{r age-acc, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="80%", fig.width=6, fig.height=3, fig.cap = "Accuracy of selections across all experiments, graphed by the mean age of child in that game, and colored by the number of girls in the pair. Each dot is a game, and linear fits are overlayed. \\label{ageacc}", eval=F }
 joint_data |>
   mutate(mean_age = (listener_age + speaker_age) / 2, girlness = (listener_gender == "female") + (speaker_gender == "female")) |>
   ggplot(aes(x = mean_age, y = correct, color = as.character(girlness))) +
@@ -667,7 +677,7 @@ description_demog_form <- read_rds(here(mod_form, "description_demog.rds"))
 ```
 
 ### Accuracy 
-The effects of children's age and gender on their performance are shown in Figure \ref{ageacc}. We ran a mixed effects logistic regression, where we considered possible effects of the age of each child (centered at mean age of all the children who participated) and the gender of each child on the accuracy of their selections^[`r form(acc_demog_form)`]. Accuracy was higher for older children (OR for one month older teller: `r stats_text(acc_demog_meta, 3,2)`, OR for one month older guesser: `r stats_text(acc_demog_meta, 2,2)`). Accuracy was also higher when the guesser was a girl (OR: `r stats_text(acc_demog_meta, 4,2)`), but was not credibly higher when the teller was a girl (OR: `r stats_text(acc_demog_meta, 5,2)`). 
+<!--The effects of children's age and gender on their performance are shown in Figure \ref{ageacc}.--> To test for possible effects of children's age and gender on matcher accuracy, we ran a mixed effects logistic regression, where we considered possible effects of the age of each child (centered at mean age of all the children who participated) and the gender of each child on the accuracy of their selections^[`r form(acc_demog_form)`]. Accuracy was higher for older children (OR for one month older teller: `r stats_text(acc_demog_meta, 3,2)`, OR for one month older guesser: `r stats_text(acc_demog_meta, 2,2)`). Accuracy was also higher when the guesser was a girl (OR: `r stats_text(acc_demog_meta, 4,2)`), but was not credibly higher when the teller was a girl (OR: `r stats_text(acc_demog_meta, 5,2)`). 
 
 ### Description length
 We also tested whether children's age or gender affected how many words they produced in their descriptions. We ran a mixed effects linear regression, where we considered the ages and genders of both children as possible predictors of description length^[`r form(description_demog_form)`]. Older children tended to produce longer descriptions (effect of one month older `r stats_text(description_demog_meta,3,2)`), but there was no effect of age of guesser (`r stats_text(description_demog_meta, 2,2)`). For gender, there was no effect of teller gender on description length (girls produced `r stats_text(description_demog_meta, 5,2)` words compared to boys), but tellers produced longer descriptions for boy guessers (`r stats_text(description_demog_meta, 4,2)`). There were not substantial effects of trial order or interactions between demographics and trial order. 
@@ -688,9 +698,7 @@ In instances where children did not communicate successfully, it is difficult to
 
 # General discussion
 
-Language is a powerful tool for communication, and adult language uses can communicate with each other in a partner- and context-sensitive way. Learning to deploy language effectively to achieve communicative goals is part of what children learn when they learn a language, but how well can young children use language to communicate with each other about images without canonical names? 
-
-Iterated reference games are a rich tradition for studying the emergence of partner- and context- specific referring expressions in adults. In the current work, we presented children with a scaled down version of an iterated reference game to see how their developing linguistic and pragmatic skills would allow them to communicate and coordinate with each other. 
+Language is a powerful tool for communication, and adult language uses can communicate with each other in a partner- and context-sensitive way. Learning to deploy language effectively to achieve communicative goals is part of what children learn when they learn a language, but how well can young children use language to communicate with each other about images without canonical names? Iterated reference games are a rich tradition for studying the emergence of partner- and context- specific referring expressions in adults. In the current work, we presented children with a scaled down version of an iterated reference game to see how their developing linguistic and pragmatic skills would allow them to communicate and coordinate with each other. 
 
 Across 3 experiments and `r pairs` pairs of 4 and 5-year-old children, we tested how well children could produce referential expressions that allowed their partner to find a matching abstract shape. Children varied substantially in what sorts of descriptions they produced, but overall accuracy was high (`r pct`%), indicating that children were generally able to produce adequate descriptions. While this task was substantially scaled down relative to measures used for adult competence, it does suggest that the relevant communication skills are present at least in rudimentary form by the end of the preschool years. 
 
