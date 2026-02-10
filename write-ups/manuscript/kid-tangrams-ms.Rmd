@@ -6,7 +6,7 @@ author:
   - name          : "Veronica Boyce"
     affiliation   : "1,2"
     corresponding : yes    # Define only one corresponding author
-    email         : "vboyce@stanford.edu"
+    email         : "vboyce@mit.edu"
   - name          : "Robert Z. Sparks"
     affiliation   : "1"
   - name          : "Michael C. Frank"
@@ -20,8 +20,6 @@ affiliation:
     institution   : "Massachusetts Institute of Technology"
 
 authornote: |
-  Acknowledgements: We would like to express graditude to all the research assistants who made this work possible: Ilaria Chen, Noah Dang, Hana Doueiri, Benji Fernandez, Gabriella Ignacio, Yannick Mofor, Malia J. Perez, Victoria Phan, Rebecca Pizzitola, and Ania Saucedo. This work would not have been possible without the support of Bing Nursery School. We are grateful to members of the Language and Cognition lab for feedback on earlier versions of this work. 
-
   Author contributions: All authors contributed to the conceptualization. VB provided methodology, formal analysis, and writing-original draft. RZS provided supervision and project administration. RZS and MCF provided writing-review & editing. 
 
 abstract: |
@@ -29,7 +27,6 @@ abstract: |
   
 
 keywords          : development; iterated reference game; pragmatics; preschoolers
-wordcount         : "6330"
 
 bibliography      : preschool-tangrams.bib
 
@@ -154,15 +151,6 @@ One influential early study suggested that 4-5-year-old preschoolers struggle wi
 ## Re-evaluating children's failures in referential tasks 
 After this initial experiment, similar studies with older children indicated a gradual improvement through adolescence both for initial accuracy and for the increase in accuracy across repetitions. Still, even the 9th grade sample was noticeably worse than the adult college student sample [@glucksberg1967; @krauss1969]. Given that even teenagers had difficulties with the task, the complex stacking paradigm and the large number of potential targets may have posed task demands that prevented accurate measurement of children's abilities. 
 
-```{r interface, fig.env = "figure", fig.pos = "t!", out.width="\\textwidth", fig.align = "center", set.cap.width=T, num.cols.cap=2, fig.cap = "Experimental setup and procedure. Panel A shows the experimental setup. Panel B shows the procedures for each experiment;  within critical blocks targets were ordered randomly.\\label{game}", cache=FALSE}
-
-knitr::include_graphics("diagram.pdf")
-
-
-# edit diagram at 
-# https://docs.google.com/drawings/d/1kLfIGdPGeEAQgXG--FE7eyLKzX0DjTZxwfQOIhvW19I/edit?usp=sharing
-```
-
 Though no evidence has directly contradicted @glucksberg1966, a number of studies have revealed early emerging skills in the preschool years that support referential communication. Preschool-aged children are faster to select a target when it is referred to in a consistent way [@graham2013; @matthews2010]. When a change in visual context renders previous descriptions overinformative, 6-year-olds (but not 4-year-olds) are more likely to use consistent referential expressions when they keep talking to the same partner, but switch to simpler terms with a new partner [@koymen2014]. These studies suggest that young children are sensitive to the norm of consistent descriptions in cooperative communication. 
 
 Further, preschool-aged children adapt the informativeness of their referential expressions based on the visual content available to their interlocutor [@matthews2006;@nadig2002;@nilsen2009]. By age 5, children integrate information about other's perspectives into their comprehension of utterances [@sanjuan2015]. 4-5 year old children are faster to rule out competitors and select the correct target when they have learned that their partner is not aware of the competitor object. Children's ability to take partner's perspectives and knowledge states into account is evolving over the preschool years, but overall, by late preschool, children can reason about others’ perspectives to communicate more effectively. 
@@ -179,6 +167,15 @@ Another piece of evidence about children's communicative abilities comes from an
 ## The Current Study 
 
 Given the task demands in @glucksberg1966 and work showing that children can succeed in a less demanding paradigm, here we revisit the question of child-child referential communication. In the present study, we re-examine young children's ability to establish effective referring expressions with each other in an iterated reference game using a simplified tablet-based paradigm. Across three studies including a total of `r pairs` pairs of 4-5-year-old preschool children, we found that preschool-aged children were successful in an iterated reference game, suggesting that children's capacity to construct effective referring expressions in novel contexts emerges earlier than previously claimed.
+
+```{r interface, fig.env = "figure", fig.pos = "t!", out.width="\\textwidth", fig.align = "center", set.cap.width=T, num.cols.cap=2, fig.cap = "Experimental setup and procedure. Panel A shows the experimental setup. Panel B shows the procedures for each experiment;  within critical blocks targets were ordered randomly.\\label{game}", cache=FALSE}
+
+knitr::include_graphics("diagram.pdf")
+
+
+# edit diagram at 
+# https://docs.google.com/drawings/d/1kLfIGdPGeEAQgXG--FE7eyLKzX0DjTZxwfQOIhvW19I/edit?usp=sharing
+```
 
 
 # Experiment 1 
@@ -421,7 +418,7 @@ As Experiment 2 was very similar to Experiment 1, we focus on the differences fr
 The biggest change between the experiments was increasing the number of repetitions of target stimuli from 3 to 4 (from 12 to 16 trials). The greater number of trials in Experiment 2 made it possible to look for changes over time that could be indicative of convergence to shared descriptions within a game and divergence between games. 
 
 ### Participants
-Experiment 2 was run between March and August of 2024, at the same preschool as Experiment 1. We did not intend to resample children who had already participated in experiment 2; however, after the end of data collection, we noticed that 5 children included in experiment 2 had previously been part of experiment 1.^[One experiment 2 game had two children who had been in experiment 1 pilots, two games each had one child previously included in experiment 1, and one game had a child who had started an experiment 1 game that was excluded for too few trials.] 30 pairs of children completed all 16 critical trials, and 1 pair of children completed 10 critical trials. Our target age range was 4 and 5-year-olds, but one older 3-year-old was unintentionally included. Of the 62 children, 30 were girls, and the children had a median age of 4;8, and a range of 3;9-5;9. An additional 6 games were excluded for being pilot runs or not completing enough trials.  
+Experiment 2 was run between March and August of 2024, at the same preschool as Experiment 1. We did not intend to resample children who had already participated in Experiment 1; however, after the end of data collection, we noticed that 5 children included in Experiment 2 had previously been part of Experiment 1.^[One Experiment 2 game had two children who had been in Experiment 1 pilots, two games each had one child previously included in Experiment 1, and one game had a child who had started an Experiment 1 game that was excluded for too few trials.] 30 pairs of children completed all 16 critical trials, and 1 pair of children completed 10 critical trials. Our target age range was 4 and 5-year-olds, but one older 3-year-old was unintentionally included. Of the 62 children, 30 were girls, and the children had a median age of 4;8, and a range of 3;9-5;9. An additional 6 games were excluded for being pilot runs or not completing enough trials.  
 
 ### Materials
 The same 4 critical images were used as in Experiment 1. In response to some children struggling with the abrupt switch from familiar to non-nameable shapes, we introduced more practice trials for Experiment 2. We used a total of 4 practice trials to provide a gradient from familiar shapes to less recognizable, blockier shapes (Figure \ref{game}B). 
@@ -596,7 +593,7 @@ In Experiment 3, we tested whether preschool children's ability to coordinate on
 
 # Pooled analysis
 
-We conducted an exploratory analysis over the pooled dataset first in order to understand the consistency of specific results across experiments and secondly to explore potential moderators of children behavior across the larger dataset. 
+We conducted an exploratory analysis over the pooled dataset first in order to understand the consistency of specific results across experiments and secondly to explore potential moderators of children's behavior across the larger dataset. 
 
 ## Consistency of results
 
@@ -694,7 +691,7 @@ Some children asked clarifying questions of their partner, but knowing how much 
 
 Other pairs of children relied on the experimenter to say whose turn it was or prompt them with options to make a guess or ask questions, and some children struggled to formulate useful questions (asking their partner just "what do you see?"). Even for children who struggled, their behaviors such as gesturing, trying to turn their iPads to show their partner, or asking the researcher for help, are indicative of attempts to solve the communication problem (albeit in ways that did not follow the "rules" of the game). 
 
-In instances where children did not communicate successfully, it is difficult to know what the limiting factor was. In general, our qualitative impression was that children were more likely to hit limits related to understanding the game structure (such as when tellers tapped their own iPad), cooperating with the game (such as guessers immediately pressing an option before the teller had a chance to say anything), or thinking the task was about correctly "naming" the shape (saying "I don't know what that's called"), than for children to specifically struggle with how to describe an unknown referent adequately.  However, pairs of children also varied significantly in how sensitive they were to collaborating with their partner and adapting descriptions based on their partners descriptions and their prior success. 
+In instances where children did not communicate successfully, it is difficult to know what the limiting factor was. In general, our qualitative impression was that children were more likely to hit limits related to understanding the game structure (such as when tellers tapped their own iPad), cooperating with the game (such as guessers immediately pressing an option before the teller had a chance to say anything), or thinking the task was about correctly "naming" the shape (saying "I don't know what that's called"), than for children to specifically struggle with how to describe an unknown referent adequately.  However, pairs of children also varied significantly in how sensitive they were to collaborating with their partner and adapting descriptions based on their partner's descriptions and their prior success. 
 
 # General discussion
 
@@ -713,10 +710,11 @@ Our study was intended as a proof-of-concept test about whether children at this
 In the broader picture of language acquisition, there is debate over the timing of the emergence of communicative and pragmatic abilities relative to the acquisition of grammar and meaning. On one side, children seem to learn literal semantics far before they display an understanding of some pragmatic implicatures [@huang2009; @noveck2001]; on the other, sensitivity to communicative intent is an early emerging skill that develops in parallel with linguistic knowledge and may bootstrap language learning [@bates1974; @bohn2019a; @tomasello2008]. Our current findings are most consistent with a gradual development of children's communicative and linguistic skills, where the skills emerge early and then are refined over time, as children's cognitive capacities increase. At 4-5 years old, children are already able to establish novel referential conventions with one another as part of their broader ability to communicate and coordinate.
 
 
-<!--# Acknowledgements
-
-Place acknowledgments (including funding information) in a section at
-the end of the paper.-->
+# Acknowledgements
+We would like to express graditude to all the research assistants who made this work possible: Ilaria Chen, Noah Dang, Hana Doueiri, Benji Fernandez, Gabriella Ignacio, Yannick Mofor, Malia J. Perez, Victoria Phan, Rebecca Pizzitola, and Ania Saucedo. This work would not have been possible without the support of Bing Nursery School. We are grateful to members of the Language and Cognition lab for feedback on earlier versions of this work. 
+ 
+# Data and Code Availability
+The experimental set-up, analysis code, de-identified transcripts, and performance data for all experiments is available at \url{https://osf.io/7d3ne/files/github}.
 
 \newpage
 
