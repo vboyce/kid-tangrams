@@ -39,7 +39,6 @@ demogs <- raw_demog |>
   ) |>
   select(id=sid, included, date_test, date_birth, hispanic, ethnicity, gender) |> 
   full_join(kids) |>
-  filter(!is.na(included)) |>
   mutate(
     age_days = (date_test - date_birth) |> as.numeric(),
     age_month = floor(age_days / 30.43)

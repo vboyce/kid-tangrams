@@ -1,4 +1,14 @@
 expt,id,game,gender,age_month,ethnicity,hispanic
+1,id3,game32,female,63,mixed,no
+1,id4,game32,female,60,white,no
+1,id5,game33,female,56,asian,no
+1,id6,game33,male,-10748,mixed,no
+1,id7,game34,female,59,asian,no
+1,id8,game34,female,68,black,no
+1,id9,game35,female,57,white,no
+1,id10,game35,female,51,asian,no
+1,id11,game36,female,69,mixed,no
+1,id12,game36,female,56,white,no
 1,id13,game41,female,59,black,no
 1,id14,game41,female,63,white,no
 1,id15,game42,female,51,white,no
@@ -21,6 +31,8 @@ expt,id,game,gender,age_month,ethnicity,hispanic
 1,id34,game51,female,51,asian,no
 1,id35,game52,female,56,asian,no
 1,id36,game52,male,50,mixed,yes
+1,id37,game53,female,49,asian,no
+1,id38,game53,male,54,asian,no
 1,id39,game54,male,53,asian,no
 1,id40,game54,female,59,mixed,no
 1,id41,game55,female,56,black,no
@@ -37,5 +49,7 @@ expt,id,game,gender,age_month,ethnicity,hispanic
 1,id52,game60,male,69,white,no
 1,id53,game61,male,48,asian,no
 1,id54,game61,female,64,asian,no
+1,id55,game62,female,51,white,no
+1,id56,game62,female,50,NaN,NaN
 1,id57,game63,male,48,asian,no
 1,id58,game63,male,67,white,yes
