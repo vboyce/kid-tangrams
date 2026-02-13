@@ -2,7 +2,7 @@ expt,id,game,gender,age_month,ethnicity,hispanic
 1,id3,game32,female,63,mixed,no
 1,id4,game32,female,60,white,no
 1,id5,game33,female,56,asian,no
-1,id6,game33,male,-10748,mixed,no
+1,id6,game33,male,55,mixed,no
 1,id7,game34,female,59,asian,no
 1,id8,game34,female,68,black,no
 1,id9,game35,female,57,white,no
