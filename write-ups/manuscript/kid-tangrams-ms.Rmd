@@ -186,7 +186,7 @@ Our goal for Experiment 1 was to test young children's ability to coordinate to 
 
 ### Participants
 
-4 and 5-year-old children were recruited from a university preschool during the school day. Children played with another child from the same class. Experiment 1 was conducted between June and August 2023. Pairs of children were included in analyses if they completed at least 8 of the 12 critical trials. We had 19 games that completed 12 critical trials, and 1 game that completed 11 critical trials. Of the 40 children, 21 were girls, and the median age was 4;9, with a range of 4;0 to 5;10. An additional 8 games were excluded for being pilot runs or not completing enough trials. 
+4 and 5-year-old children were recruited from a university preschool during the school day. Children played with another child from the same class. Experiment 1 was conducted between June and August 2023. Pairs of children were included in analyses if they completed at least 8 of the 12 critical trials. We had 19 games that completed 12 critical trials, and 1 game that completed 11 critical trials. Of the 40 children, 21 were girls, and the median age was 4;9, with a range of 4;0 to 5;10. An additional 7 games were excluded for being pilot runs or not completing enough trials. 
 
 ### Materials
 For the target stimuli, we used four of the ten tangram images from @leung2024, chosen based on visual dissimilarity (Figure \ref{game}B). We coded the matching game using Empirica [@almaatouq2021], hosted it on a server, and then accessed the game on tablets that were locked in a kiosk mode so children could not navigate away from the game.
