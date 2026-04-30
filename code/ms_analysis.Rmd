@@ -347,7 +347,13 @@ transcripts |>
   filter(speaker != speaker_transcript) |>
   select(expt, game, trial, text, speaker_transcript, speaker, listener) 
 
-transcripts |> filter
+transcripts |>
+  filter(!is.na(trial)) |>
+  filter(!is.na(role)) |>
+  select(game, expt, trial, speaker_transcript = speaker, role, text) |>
+  filter(role == "S") |>
+  full_join(joint) |> filter(correct==1) |> filter(expt==3) |> filter(type!="practice") |>  View()
+  
 ```
 
 # Graphs
@@ -721,11 +727,12 @@ sim_acc_to_next <- sims |>
   ) |> 
   select(earlier_trial, target, game1, earlier, later, sim, earlier_block.num, same_speaker, expt) |> left_join(joint_demog |> select(target, earlier_trial=trial, game1=gameId, correct, expt)) |> filter(!is.na(correct))
 
+
 sim_acc_to_next |> ggplot(aes(as.character(earlier), sim, color = as.character(correct))) +
   geom_point(alpha = .1, position = position_dodge(width = .2)) +
   stat_summary(fun.data = "mean_cl_boot", position = position_dodge(width = .2)) +
   labs(x = "Earlier block to *next* block", y = "cosine similarity") +
-  theme(legend.position = "bottom")+facet_wrap(~expt)
+  theme(legend.position = "bottom")+ggthemes::scale_color_solarized()
 ```
 
 # S-BERT models
