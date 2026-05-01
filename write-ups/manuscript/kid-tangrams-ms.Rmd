@@ -146,27 +146,126 @@ Learning a language requires learning not only the content of that language, but
 Iterated reference games provide an important paradigm for studying referential communication. In these games, one player repeatedly describes a set of abstract shapes to a partner so they can identify the target images [@clark1986; @krauss1964; @hawkins2020dynamics; @boyce2024]. Over repetition, features of the initial descriptions are conventionalized as each pair comes to agree on a shared understanding of how to label each image. Success at this task requires mastery of a number of linguistic and communicative skills, including producing adequate initial descriptions, monitoring for comprehension, asking for clarification, and appropriately using the shared conversation history to inform later referring expressions. 
 Studying how children play iterated reference games can provide insight into the developmental trajectory of the ability to produce referential expressions in order to achieve joint understanding. 
 
-One influential early study suggested that 4-5-year-old preschoolers struggle with child-child referential communication [@glucksberg1966]. In their paradigm, one child was given a set of 6 blocks in a specific order. Their task was to describe the image on each block so their partner could pick out their corresponding block. As children described and selected blocks, they stacked them on pegs. While 4-5-year-old children succeeded on practice trials with familiar shapes and visual access to each other's blocks, children failed on critical trials where the blocks had abstract drawings and there was no visual access. Even after multiple rounds with the same images, children were not able to correctly order the blocks. @glucksberg1966 attributed children's communicative failures to their production of ego-centric descriptions that did not account for the other child's perspective.  
+[TODO outline of rest of introduction ? ]
+One influential early study suggested that 4-5-year-old preschoolers struggle with child-child referential communication [@glucksberg1966]. 
 
-## Re-evaluating children's failures in referential tasks 
-After this initial experiment, similar studies with older children indicated a gradual improvement through adolescence both for initial accuracy and for the increase in accuracy across repetitions. Still, even the 9th grade sample was noticeably worse than the adult college student sample [@glucksberg1967; @krauss1969]. Given that even teenagers had difficulties with the task, the complex stacking paradigm and the large number of potential targets may have posed task demands that prevented accurate measurement of children's abilities. 
+## Glucksberg and Krauss's studies 
 
-Though no evidence has directly contradicted @glucksberg1966, a number of studies have revealed early emerging skills in the preschool years that support referential communication. Preschool-aged children are faster to select a target when it is referred to in a consistent way [@graham2013; @matthews2010]. When a change in visual context renders previous descriptions overinformative, 6-year-olds (but not 4-year-olds) are more likely to use consistent referential expressions when they keep talking to the same partner, but switch to simpler terms with a new partner [@koymen2014]. These studies suggest that young children are sensitive to the norm of consistent descriptions in cooperative communication. 
+Glucksberg and Krauss ran a number of studies using their "Stack the Blocks" paradigm [@glucksberg1966; @glucksberg1967; @krauss1969; @krauss1977a]. We focus on the subset involving two children playing the game with each other, as opposed to adult-child experiments, which they also ran. 
 
-Further, preschool-aged children adapt the informativeness of their referential expressions based on the visual content available to their interlocutor [@matthews2006;@nadig2002;@nilsen2009]. By age 5, children integrate information about other's perspectives into their comprehension of utterances [@sanjuan2015]. 4-5 year old children are faster to rule out competitors and select the correct target when they have learned that their partner is not aware of the competitor object. Children's ability to take partner's perspectives and knowledge states into account is evolving over the preschool years, but overall, by late preschool, children can reason about others’ perspectives to communicate more effectively. 
+In @glucksberg1966, 12 pairs of 4 year old children from a preschool played the block-stacking game. Participants were given 6 blocks which depicted different images.  The speaker received blocks in a pre-set order from the dispenser, and their job was to stack the block on the peg and tell the other child which block to stack so their stacks would match. In the practice phase, children used blocks with animals or colored squares on them; first with visual access to the other child's blocks, and if that was successful, then separated by an opaque barrier. If children correctly stacked the practice blocks two times with the barrier, they moved on to the critical trials (6 pairs of 3 year olds were tested but did not pass the practice trials). Children received feedback in seeing the experimenter compare the two block stacks. 
+
+In follow-up studies, Glucksberg and Krauss recruited children in kindergarten, 1st, 3rd, and 5th grade from an orphanage [@krauss1969]. There were 7 kindergarten pairs and 9 1st grade pairs, and children again received feedback whether or not their block stacks were correct [@krauss1977]. From @glucksberg1967 and @krauss1977, there were also mixed-age pairs with a kindergartner describing to another child (including another kindergartener), and same-age pairs from 3rd, 5th, 7th, and 9th grade with did not receive correctness feedback (10 pairs per grade). 
+
+Even after multiple rounds with the same images, the younger children were not able to correctly order the blocks. @glucksberg1966 attributed children's communicative failures to their production of ego-centric descriptions that did not account for the other child's perspective.  @krauss1969 interprets the pattern of children's low performance as consistent with early "linguistic competence"  followed by much later "communication competence". 
+
+How badly were the children doing? For the preschoolers, they never produced an errorless stack of the 6 blocks, and did not show improvement over repetitions (error rates not reported). For the kindergarteners, they were getting about 2/6 right on average (Figure 3 in @krauss1969; Figure 4 in @glucksberg1967), which is numerically above chance, although without knowing the sample sizes and cross-pair variances, we can't say if it is meaningfully different. They report that adult performance is generally error-free even in the first repetition, but the 9th graders had less than 50% of their initial stacks completely correct, rising to around 80% correct at the end [CITATIONS]. 
+
+These studies are cited uncritically as evidence that young children cannot form referential pacts with each other, but by the experimental practices of modern developmental science, it's not clear that the Glucksberg and Krauss results should be interpreted as a conclusive failure. 
+
+In the past half century, there have been shifts in how to interpret children's unadultlike behavior in experiments. One framework, expressed in CITE Krauss, is a "deficit" framing, where children's performance is directly interpreted in contrast to adults. Another framework looks more at how and when abilities emerge and how they develop and manifest as children mature. Under this second framework, the focus is on when and under what conditions there are signs of underlying competence or knowledge, even if the behaviors are inconsistently expressed. 
+
+As part of this shift, there has been acknowledgement that task demands can task children's generally cognitive resources and thus mask our ability to detect children's early competence. Thus, for instance, in theory of mind, the interpretation of children failing at some theory of mind tasks but succeeding at ones with lower demands on their working memory and executive function, is that there is some early theory of mind ability [ CITE ] . 
+
+Under this framework, there is a question whether the performance of the youngest children is actually a complete failure. Moreover, there are substantial concerns on whether this task (where even 9th graders underperform adults) is a good way of measuring the communicative competence of 5 year olds. The interesting question is no longer are 5 year olds worse at things than adults, but instead trying to understand which underlying abilities are present to what extent at 5 years old. As different areas of developmental science see earlier abilities, but only on easier tasks, it then raises the more general question -- is a failure in performance about a complete lack of underlying competence or is it about the task? 
+
+## Development of referential communication and pragmatics 
+
+Though no evidence has directly contradicted @glucksberg1966, a number of studies have revealed early emerging skills in the preschool years that support referential communication. 
+
+One aspect of referential communication is understanding how the amount of shared knowledge should effect what types of utterances are appropriate. In producing utterances, children show experimental sensitivity to numerous markers of common ground. While their utterance choices are not equivalent to adults, children produce more informative utterances more when more informative utterances are appropriate [@vasil]. As an example, preschool-aged children adapt the informativeness of their referential expressions based on the visual content available to their interlocutor [@matthews2006;@nadig2002;@nilsen2009]. Children also show sensitivity to other's perspectives when they are the comprehender [@sanjuan2015]. 4-5 year old children are faster to rule out competitors and select the correct target when they have learned that their partner is not aware of the competitor object. Children's ability to take partner's perspectives and knowledge states into account is evolving over the preschool years, but overall, by late preschool, children can reason about others’ perspectives to communicate more effectively. 
+
+Preschool-aged children are also sensitive to the norm of using consistent descriptions in cooperative communication, as they  are faster to select a target when it is referred to in a consistent way [@graham2013; @matthews2010].  
+
+Children are also sensitive as comprehenders to ambiguous utterances, although they also have a tendency to satisfice [TODO revisit ackerman et al 1990] from the comprehender side, ackerman et al 1990 shows sensitivity to ambiguity but also a tendency to pick something, and not able to do metalinguistic 
+ By 5 years old, children are sensitive to over- and under-informative utterances, asking for clarification on some under-informative utterances and taking longer to make selections on over-informative utterances [@morisseau2013].
+
+However, 4-5-year-old children's referential abilities are far from mature. In particular, while children are sensitive to others’ perspectives, they still struggle to appropriately tailor the specificity of their utterances to the visual context, often resulting in under-informative utterances [@matthews2012; @leung2024]. In studies where children must pick out one of many referents that vary along combinatorial dimensions (shape, size, color), children often do not mention all the needed dimensions.  When children must describe one of two very similar images, 4 and 5-year-olds sometimes neglect to mention the relevant features, although they do better when playing in an interactive game than when not [@grigoroglou2019]. 
+
+Children are also inconsistent in how they react to feedback after an underspecified utterance. There is some sensitivity to feedback, especially if it is a specific question or being given the wrong object, but overall, children often do not produce adequately specified utterances even in response to feedback [CITES]
+
+responsiveness (or not) to clarification questions 
+** nilsen & mangal 2012
+** bacso & nilsen 2017 
+show some sensitivity to feedback, but also they often don't clarify. 
+may also depend on the exact kind of feedback
+** deutch & pechmann 1982
 
 
-Still, 4-5-year-old children's referential abilities are far from mature. While children are sensitive to others’ perspectives, they still struggle to appropriately tailor the specificity of their utterances to the visual context, often resulting in under-informative utterances [@matthews2012; @leung2024].  When children must describe one of two very similar images, 4 and 5-year-olds sometimes neglect to mention the relevant features, although they do better when playing in an interactive game than when not [@grigoroglou2019]. By 5 years old, children are sensitive to over- and under-informative utterances, asking for clarification on some under-informative utterances and taking longer to make selections on over-informative utterances [@morisseau2013]. 
 
-A common thread among many developmental studies is that children perform better when the cognitive load of the task is reduced, i.e. when there are fewer possible referents [@abbot-smith2015; @sanjuan2015].  These findings paired with evidence of emerging communicative skills in young children suggest that tailored referential expression production is possible in children, but it is likely to be masked when the task demands are too high. 
+
+A common thread among many developmental studies is that children perform better when the cognitive load of the task is reduced, i.e. when there are fewer possible referents [@abbot-smith2015; @sanjuan2015].  These findings paired with evidence of emerging communicative skills in young children suggest that tailored referential expression production is possible in children, but it is likely to be masked when the task demands are too high, such as when the array of options is large. 
+
+
+
+## Iterated reference involving children  
+
+One of the key features of iterated reference games that is not present in other reference games is the initial ambiguity around what to call the target and then the expectation of partner-specific convention formation in how to describe the target in later repetitions. 
 
 Since @glucksberg1966, few studies have revisited the question of whether children can successfully communicate in an iterated reference game. In one study, 8-10-year-olds exhibited adult-like patterns of increasing accuracy, increasing speed, and shorter descriptions across repetitions, but children’s accuracy was still far below adult performance and highly variable between dyads [@branigan2016]. In an iterated reference game where 4- and 6- year-olds communicated to each other via gestures, children were successful at communicating a repertoire of 5 image options with each other [@bohn2019a]. Children's comprehension increased over repetitions, and when children switched roles, they often re-used their partner's gestures. The 6-year-olds showed greater within-dyad similarity in gestures than the 4-year-olds, indicating that children's abilities to form conventional pacts is increasing in this age range. 
 
-Another piece of evidence about children's communicative abilities comes from an iterated reference game where 4-8-year-old children used natural language to communicate with their parents [@leung2024]. In this simple, child-friendly tablet-based task, even 4-year-olds had an initial accuracy above 80% on two-way choice, which rose to above 90% in later repetitions [@leung2024]. Together, the recent work on both iterated and non-iterated reference games with young children provides evidence of young children’s ability to communicate with each other and with adults under the right conditions. Still, the preschool years are a time of rapid development for children as a number of communicative skills are improving between the ages of 3 and 6 years old. 
+Another piece of evidence about children's communicative abilities comes from an iterated reference game where 4-8-year-old children used natural language to communicate with their parents [@leung2024]. In this simple, child-friendly tablet-based task, even 4-year-olds had an initial accuracy above 80% on two-way choice, which rose to above 90% in later repetitions [@leung2024]. @leung2024 interpret their results in contrast with the @glucksberg1966 results as a sign that parental scaffolding is what enables children's successful matching. While parents certainly scaffold their interactions with children, it is not clear whether the children's better performance is due only to the parental communication partners or the reduced task demands. 
+
+
+[awkward here, needs work] 
+
+Together, the recent work on both iterated and non-iterated reference games with young children provides evidence of young children’s ability to communicate with each other and with adults under the right conditions. Still, the preschool years are a time of rapid development for children as a number of communicative skills are improving between the ages of 3 and 6 years old. 
+
+
+## Why does it matter how children do this? Broader questions in language development 
+
+Why does it matter how well children can play iterated reference games, or what communicative tacts they use? Children's early communicative behaviors are relevant to some large discussions in the literature around the role of pragmatics in early language development and the range of situations in which language acquisition is measured. 
+
+TODO could also include egocentrism, as a middle debate topic, but idk what to say about it?
+
+In the broader picture of language acquisition, there is debate over the timing of the emergence of communicative and pragmatic abilities relative to the acquisition of grammar and meaning. On one side, children seem to learn literal semantics far before they display an understanding of some pragmatic implicatures [@huang2009; @noveck2001]; on the other, sensitivity to communicative intent is an early emerging skill that develops in parallel with linguistic knowledge and may bootstrap language learning [@bates1974; @bohn2019a; @tomasello2008]. A review of developmental studies of quantity implicates found that while children do gradually improve in their understand of implicatures across a long age-range, their performance is also task dependent, with meta-linguistic judgements being worse assessments that more active tasks [@porrini2023]. 
+
+
+While much research has historically focused on children's language learning from how their parents talk to and with them, there is increasing acknowledgement that children's language acquisition occurs across a more diverse set of social interactions [@cristia2019;@foushee2024; . 
+
+In observational research, there is movement toward studying children's early language in more naturalistic interactional contexts, spanning the range of interlocuters that children interact with across different cultures [@bergey2025a;@casillas2023;@girouard-hallam2024]. 
+
+One dimension is that children's linguistic environment consists of other children. Cross-culturally, children have rich interactions with other children and create, transmit, and learn from peer cultures [@lew-levy2024]. Preschoolers talk to each other, and so some of children's linguistic environment is other children in their classes [@chaparro-moreno2019; @perry2018]. 
+
+
+While children communicate with other children, there is limited experimental work on young children's communication with each other. In the iterated learning tradition, @kempe2019 includes a task where 6-7 year olds communicated targets to each other by creating signals from buzzer noises, and another task where 4-year olds do a reference game  with targets that have combinatorial properties (color, size, shape). 
+
+In @resches2007, 3.5 to 6 year old children provided directions to each other about the steps needed to find treasure in a room. 
+
+@sanmartin2014
+
+not repeated is referential: “The development of referential communication: Improving message accuracy by coordinating private speech with peer questioning” 
+
+“Young Children Create Partner-Specific Referential Pacts With Peers” 
+
+should you switch labels or not when a prior label has become over-specific due to context -- w/ or w/o partner switch.
+
+some signs of success but not yet adultlike, and with growth across age range?
+
+reasoning: “Reasoning during joint decision-making by preschool peers” 
+
+3 and 5s in pairs; building a zoo -- give warrants more for unconventional choices than choices using common cultural knowledge
+
+on CG, not totally referential: “Preschoolers Use Common Ground in Their Justificatory Reasoning With Peers” 
+
+3 and 5s; giving reasons for decisions when the reasoning depended on knowledge that was learned separately, rather than when it was learned together.
+
+“Preschoolers’ communication during scripted interactions*” 
+
+15 4-5 yo dyads CG in a scripted interaction that one or both knew about?
+
+[already cited stuff]
+
+When a change in visual context renders previous descriptions overinformative, 6-year-olds (but not 4-year-olds) are more likely to use consistent referential expressions when they keep talking to the same partner, but switch to simpler terms with a new partner [@koymen2014].
+
 
 ## The Current Study 
 
-Given the task demands in @glucksberg1966 and work showing that children can succeed in a less demanding paradigm, here we revisit the question of child-child referential communication. In the present study, we re-examine young children's ability to establish effective referring expressions with each other in an iterated reference game using a simplified tablet-based paradigm. Across three studies including a total of `r pairs` pairs of 4-5-year-old preschool children, we found that preschool-aged children were successful in an iterated reference game, suggesting that children's capacity to construct effective referring expressions in novel contexts emerges earlier than previously claimed.
+Given the task demands in @glucksberg1966 and work showing that children can succeed in a less demanding paradigm, here we revisit the question of child-child referential communication. In the present study, we re-examine young children's ability to establish effective referring expressions with each other in an iterated reference game using a simplified tablet-based paradigm. 
+
+In comparison, our current study is of 4 and 5 year old preschoolers, who are most similar in age to the 4 year old preschoolers and kindergarteners in their studies. We have reduced task demands in that children do not need to stack blocks, instead the describer only needs to say what the target is, and the matcher to select it. Children in our study alternated roles, rather than having a fixed role. We had a total pool of only 4 options in each experiment and only 2 options each trial, rather than the 6 images Glucksberg and Krauss used. We used tangram images rather than line drawings. Children got feedback after each selection, rather than after every 6 selections. The overall experiment was much shorter, intended to fit within 15 minutes, rather than the 50 minute-limit they were working with [@krauss1969]. Our sample sizes were much larger (total of 80 pairs of 4-5s across all experiments), versus their 12 preschool pairs and 7 kindergarten pairs. None of our children were institutionalized.
+
+Across three studies including a total of `r pairs` pairs of 4-5-year-old preschool children, we found that preschool-aged children were successful in an iterated reference game, suggesting that children's capacity to construct effective referring expressions in novel contexts emerges earlier than previously claimed.
 
 ```{r interface, fig.env = "figure", fig.pos = "t!", out.width="\\textwidth", fig.align = "center", set.cap.width=T, num.cols.cap=2, fig.cap = "Experimental setup and procedure. Panel A shows the experimental setup. Panel B shows the procedures for each experiment;  within critical blocks targets were ordered randomly.\\label{game}", cache=FALSE}
 
