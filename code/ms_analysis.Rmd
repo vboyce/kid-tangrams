@@ -74,6 +74,12 @@ all_data_1 <- data |>
   filter(!is.na(response)) |>
   mutate(correct = as.numeric(correct)) |>
   mutate(expt = "1")
+
+# 9 trial excluded
+
+#data |> filter(is.na(response))
+
+#data |> left_join(words) |> filter(is.na(words)) |> filter(!is.na(repNum))
 ```
 
 expt 2
@@ -124,6 +130,13 @@ all_data_2 <- data |>
   filter(!is.na(response)) |>
   mutate(correct = as.numeric(correct)) |>
   mutate(expt = "2")
+
+# 15 trials excluded
+
+
+#data |> filter(is.na(response))
+
+#data |> left_join(words) |> filter(is.na(words)) |> filter(!is.na(repNum))
 ```
 
 expt 3
@@ -174,6 +187,14 @@ all_data_3 <- data |>
   filter(!is.na(response)) |>
   mutate(correct = as.numeric(correct)) |>
   mutate(expt = "3")
+
+
+# 30 trials excluded
+
+
+#data |> filter(is.na(response))
+
+#data |> left_join(words) |> filter(is.na(words)) |> filter(!is.na(repNum))
 ```
 
 ```{r}
