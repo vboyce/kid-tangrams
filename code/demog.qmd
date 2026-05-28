@@ -57,7 +57,6 @@ demogs |> filter(expt==2) |> write_csv(here("data/expt_2/clean_demog.csv"))
 
 ```{r}
 
-expt_3_demog <- read_csv(here("expt_3_demog.csv"))
 
 expt_3 <- read_csv(here("data/expt_3/clean_data.csv")) |>
   select(game, speaker, listener) |>

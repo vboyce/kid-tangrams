@@ -204,6 +204,9 @@ demogs <- read_csv(here(data_loc_1, "clean_demog.csv")) |>
   mutate(expt = as.character(expt))
 ```
 
+
+
+
 ```{r}
 joint <- all_data_1 |>
   bind_rows(all_data_2) |>
@@ -223,6 +226,20 @@ joint_demog <- joint |>
   ),     time.sec=time/1000
 ) |> filter(type!="practice") |> select(-time) |> 
   write_csv(here("data/processed_for_paper/joint_with_demog.csv"))
+```
+
+```{r}
+# get racial/ethnic demographics  breakdowns
+demogs <- read_csv(here(data_loc_1, "clean_demog.csv")) |>
+  bind_rows(read_csv(here(data_loc_2, "clean_demog.csv"))) |>
+  bind_rows(read_csv(here(data_loc_3, "clean_demog.csv"))) 
+
+relevant_participants <- read_csv(here("data/processed_for_paper/joint_with_demog.csv")) |> distinct(expt, speaker, game) |> rename(id=speaker) |> left_join(demogs)
+
+relevant_participants |> group_by(expt, gender) |> tally()
+
+foo <- relevant_participants |> group_by(expt, ethnicity, hispanic) |> tally() |> filter(expt==3)
+
 ```
 
 ```{r}
@@ -892,7 +909,7 @@ sim_across_mod_3 <- brm(sim ~ block1 + (block1 | target),
 
 
 sim_across_mod_meta <- brm(sim ~ block1 + (block1 | target)+ (block1|expt),
-                        data = sim_across_data,
+                        data = sim_across_data |> filter(expt=="2"|expt=="3"),
                         file = here(mod_loc, "sim_across_meta.rds"),
                         prior = conv_priors,
                         control = list(adapt_delta = .95)
@@ -1001,7 +1018,7 @@ acc_mod_demog <- brm(
   correct ~ trial +
     centered_speaker_age + speaker_gender_num +
     centered_listener_age + listener_gender_num +
-    (trial | game) + (trial | target) + (trial|expt),
+    (trial | gameId) + (trial | target) + (trial|expt),
   family = bernoulli(link = "logit"),
   data = centered_demog,
   file = here(mod_loc, "acc_demog.rds"),
@@ -1024,7 +1041,7 @@ red_priors <- c(
 red_mod <- brm(
   words ~ trial*(centered_speaker_age + speaker_gender_num +
     centered_listener_age + listener_gender_num) +
-    (trial | game) + (trial | target)+(trial|expt),
+    (trial | gameId) + (trial | target)+(trial|expt),
   data = centered_demog,
   file = here(mod_loc, "description_demog.rds"),
   prior = red_priors,
