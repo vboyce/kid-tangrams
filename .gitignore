@@ -12,3 +12,4 @@ experiments/*/local.json
 code/models/*.rds
 *cache*
 *files*
+code/mods_for_paper/*.rds
