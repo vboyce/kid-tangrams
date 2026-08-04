@@ -46,110 +46,110 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 164660	169620	[id261] has it you don't have it. So you're the guesser and you can hold Smurphy	R					
 		Okay	id262		L			
 170780	178060	 all right [id261]. So now you could describe what you see in the black box to [id262] and Smurphy and then they'll try to guess	R					
-183940	185940	Banana	id261		S		banana	
+183940	185940	Banana	id261		S		banana	Y
 189500	191820	All right, now do you have the black box?	R	2				
 		Okay, we’re going to hand Smurfy to [id261]	R					
 195260	200140	and now [id262] you can describe what you see in the black box	R					
-		I see a dog	id262		S		a dog	
+		I see a dog	id262		S		a dog	Y
 211260	216460	And [id261] you can ask questions to [id262] about what what she sees	R					
-		Do you see a bird?	id261		L			
-		I do	id262		S			
-225260	227260	Okay, What are you gonna do then	id261		L			
-		Press the button and see if you get a good one or a bad one	id262		S			
+		Do you see a bird?	id261		L			Y
+		I do	id262		S			Y
+225260	227260	Okay, What are you gonna do then	id261		L			Y
+		Press the button and see if you get a good one or a bad one	id262		S			Y
 232900	234900	Just make your best guess	R					
 240460	246140	Nice job. 	R					
 		Oh man. 	id262		S			
 		All right now it's it's [id262]’s turn to guess 	R	3				
-248460	250460	I have an arrow	id261		S		an arrow	
+248460	250460	I have an arrow	id261		S		an arrow	Y
 255340	259340	Nice all right, and can you pass Smurphy to [id261] now?	R	4				
-		I have …	id262		S			
+		I have …	id262		S			Y
 270780	273460	Just use your words as best as you can you can describe what you see	R					
-		A paper, I think I have a paper, a paper	id262		S		a paper	
-		I’ll press it, okay?	id261		L			
+		A paper, I think I have a paper, a paper	id262		S		a paper	Y
+		I’ll press it, okay?	id261		L			Y
 		Okay	id262		S			
 284820	286820	Oh	R					
 287140	289140	We could try again	R	5				
 290860	296700	Let's  pass it to [id262]	R					
-		what do you have?	id262		L			
-		a dog	id261		S		a dog	
+		what do you have?	id262		L			Y
+		a dog	id261		S		a dog	Y
 302460	307940	Let's try again, so can we pass Smurphy to to [id261]?	R	6				
 		Smurfy off	id262		S			
 		Smurfy dog	id261		L			
 315340	320780	All right, [id262], so describe what you see in the black box to [id261] and Smurphy	R					
-		I see a people	id262		S		a people	
-		I, oh, press it?	id261		L			
+		I see a people	id262		S		a people	Y
+		I, oh, press it?	id261		L			Y
 329820	332660	Yeah, if you think you know what's inside the box you can press it	R					
 334420	338660	And you could also ask I don't have a box. 	R					
 		I don’t have a box.	id261		L			
 		Oh, you don’t have a box	R					
 338660	343100	But [id262] is gonna try to tell you what's in the box.	R					
 		okay.	id261		L			
-		It’s a dog.	id262		S		a dog	
-344460	346460	Dog	id261		L			
-		Yeah, 	id262		S			
+		It’s a dog.	id262		S		a dog	Y
+344460	346460	Dog	id261		L			Y
+		Yeah, 	id262		S			Y
 346740	348740	Okay	id261		L			
 		Press it?	id261		L			
 349540	356300	Yes, if you want to you can also ask questions to [id262] if you think you you know what pictures inside	R					
 357620	359620	You got it	R	7				
 360180	364380	Now we're gonna pass Smurphy to [id262] again, and now it's [id262]'s turn to guess	R					
-		what is it?	id262		L			
-		um, people	id261		S		people	
+		what is it?	id262		L			Y
+		um, people	id261		S		people	Y
 371500	373500	Nice job	R	8				
 		here you go	id262		S			
 375180	377180	Whoa, smurfy fell	id261		L			
 379300	382900	All right, so now it's [id262]'s turn to describe what's in the box	R					
-386540	388540	It's a sheep	id262		S		a sheep	
+386540	388540	It's a sheep	id262		S		a sheep	Y
 		um, your turn to press it	id261		L			
 391100	394540	 you you have to press	id262		S			
 398300	400300	Oh	R					
 400300	402300	All right now it's	R	9				
 402340	404340	[id262]'s turn to guess	R					
 		what is it?	id262		L			
-		um, a kangaroo	id261		S		a kangaroo	
-		kangaroo	id262		L			
+		um, a kangaroo	id261		S		a kangaroo	Y
+		kangaroo	id262		L			Y
 415540	417540	All right now it's [id261]'s turn to guess	R	10				
 		Smurfy passes	id262		S			
 421140	423620	Let's just pick him up off the floor. Maybe don't slide	R					
 		Swishy smurfy	id261		L			
 429140	432100	All right, [id262] can you describe what's inside the box	R					
-432300	434300	a dog, a dog	id262		S		a dog	
+432300	434300	a dog, a dog	id262		S		a dog	Y
 		Aww	id261	11	S			
 		not again	id262		L			
 		move it	id261		S			
 442660	445060	What is it 	id262		L			
-		a people	id261		S		a people	
-		people	id262		L			
+		a people	id261		S		a people	Y
+		people	id262		L			Y
 		uh, oh, press it	id261	12	L			
 457940	462820	All right, [id262] you turn to describe what you see in the box	R					
-		I see a dog, hopping. A dog. 	id262		S		a dog hopping	
-		What do you see to me?	id262	13	L			
-		A people.	id261		S		a people	
+		I see a dog, hopping. A dog. 	id262		S		a dog hopping	Y
+		What do you see to me?	id262	13	L			Y
+		A people.	id261		S		a people	Y
 488940	493420	not again	id261	14	L			
-		I see a shape	id262		S		a shape	
+		I see a shape	id262		S		a shape	Y
 		Oh, let’s pass smurfy to [id261].	R					
 500660	506940	Don't work.	id261		L			
 		 Oh just try to press one at a time the one that you think that is inside 	R					
-		What did you see?	id262	15	L			
-		People.	id261		S		people	
+		What did you see?	id262	15	L			Y
+		People.	id261		S		people	Y
 509820	511820	Yay!	id262	16	S			
 518860	523260	All right now, what do you see [id262]?	R					
-		a dog	id262		S		a dog	
+		a dog	id262		S		a dog	Y
 528740	530740	Yay!	R	17				
-		What do you see?	id262		L			
-		This.	id261		S			
-		What?	id262		L			
+		What do you see?	id262		L			Y
+		This.	id261		S			Y
+		What?	id262		L			Y
 536180	538180	Can you use words to describe it?	R					
-538180	540180	I see a kangaroo	id261		S		a kangaroo	
-		kangaroo	id262		L			
+538180	540180	I see a kangaroo	id261		S		a kangaroo	Y
+		kangaroo	id262		L			Y
 545700	549980	Nice job guys. All right, I think it's [id261]'s turn. Oh, you're gonna pass it	R	18				
 		I’m gonna pass it, swing it.	id262		S			
 		Hi, I see you.	id262		S			
 		Hi, I see you.	id261		L			
 555980	559460	All right friends, let's focus on the game	R					
 		Okay.	id262		S			
-568180	570180	I see I see I see a dog.	id262		S		a dog	
-		I see a people	id261	19	S		a people	
-		People	id262		L			
+568180	570180	I see I see I see a dog.	id262		S		a dog	Y
+		I see a people	id261	19	S		a people	Y
+		People	id262		L			Y
 		So many “oohs”	id261	20	L			
 		there was a woo	id262		S			
 		yeah, it’s a wooh	R					
@@ -165,5 +165,5 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 		 No, all right, can we keep it on the table?	R					
 		why we can’t take this home?	id262		S			
 615700	619460	And now [id262] can you describe what you see in the black box	R					
-		A people.	id262		S		a people 	
+		A people.	id262		S		a people 	Y
 628980	632980	Oh, it looks like you guys are finished with my game. Thank you so much for playing	R					

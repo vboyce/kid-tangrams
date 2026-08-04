@@ -63,23 +63,23 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 		You don't see the black box. So you're gonna guess	R					
 212420	214420	It's hard to not see 	id258		L			
 214740	220820	It is hard to not see you. So [id257], can you tell [id258] what's what you see inside the black box?	R					
-221140	222420	Banana	id257		S		Banana	
+221140	222420	Banana	id257		S		Banana	Y
 222420	228900	All right. Yeah, and then you can tap tap the block or tap the picture that you think is inside the black box	R					
 230500	232500	Yay, nice job	R	2				
 232580	237060	All right. Now does [id258] have the black box?	R					
 		 Yeah. 	id258		S			
 		All right. So now you get to hold Smurfy	R					
-239780	243460	Um the bird,  the eagle is in the black box	id258		S		the bird, the eagle	
+239780	243460	Um the bird,  the eagle is in the black box	id258		S		the bird, the eagle	Y
 250740	254660	Nice job. All right. Now you're gonna hand over Smurfy to [id257]	R	3				
 265380	267700	Can you tell [id258] what you see inside the black box?	R					
-267700	269700	Uh, I don’t know, a lemon	id257		S			
+267700	269700	Uh, I don’t know, a lemon	id257		S			Y
 273060	275560	You could use any words you want to describe what you see	R					
-		I don’t know	id257		S			
-		is it this one? Is it a lemon that’s in the line	id258		L		a lemon that’s in the line	
-		is it? I don’t know	id257		S			
+		I don’t know	id257		S			Y
+		is it this one? Is it a lemon that’s in the line	id258		L		a lemon that’s in the line	Y
+		is it? I don’t know	id257		S			Y
 286340	292740	Just try try your best. Oh, let's let's sit back down. Okay. We want to use our words to tell Smurfy	R					
 292900	297220	What's inside the black box? 	R					
-		a shape a shape	id257		S			
+		a shape a shape	id257		S			Y
 		a shape?	R			x		
 298900	300900	So what is in the black box?	id257		S			
 		help me?	id258		L			
@@ -92,29 +92,29 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 330820	333380	You don't know what is … in the sun?	id258		L			
 334740	336740	No	id257		S			
 		No?	id258		L			
-337140	339140	I think it's not	id257		S		has a lemon shape and it has a line	
+337140	339140	I think it's not	id257		S		has a lemon shape and it has a line	Y
 339620	343780	Because it has a lemon shape and it has a line	id257		S			
 344340	346340	Yeah	id258	4	S			
 351780	357380	Nice job. All right. Now you can give Smurfy back to [id257] because you have the black box now, right?	R					
 358260	360260	So Smurfy's gonna help guess	R					
-		A eagle	id258		S		a eagle	
+		A eagle	id258		S		a eagle	Y
 367860	369140	Oh	id258	5	L			
 369140	373780	It's okay. Now it's now it's [id258]'s turn to be the guesser. So we're gonna hand it over to	R					
 377860	380500	So do you have the black box [id257]? 	R					
 		Yeah	id257		S			
 381220	384660	All right, and you could use your words to tell [id258] and Smurfy what you see	R					
- 		A mountain?	id257		S		a mountain	
-390420	392420	A mountain with like	id258		L			
-393540	395540	With like it's like	id258		L			
-396260	398260	a tree	id257		S		a tree	
-		is it this one or this one?	id258		L			
-		the one which in the black box	id257		S			
-		is it the right way or the left way?	id258		L			
+ 		A mountain?	id257		S		a mountain	Y
+390420	392420	A mountain with like	id258		L			Y
+393540	395540	With like it's like	id258		L			Y
+396260	398260	a tree	id257		S		a tree	Y
+		is it this one or this one?	id258		L			Y
+		the one which in the black box	id257		S			Y
+		is it the right way or the left way?	id258		L			Y
 399860	401860	Oh	R					
 412100	415620	Let's not turn our iPads because we want to use our words to tell our friends	R					
 416740	421700	Just take your best guess [id258] and you could ask questions like you have been to [id257]	R					
-422980	426180	Is it the one that looks like a dog walking?	id258		L			
-430020	432020	Yeah, I just, I don't know	id257		S			
+422980	426180	Is it the one that looks like a dog walking?	id258		L			Y
+430020	432020	Yeah, I just, I don't know	id257		S			Y
 433700	436340	It's okay. We have more turns to try to help Smurfy	R	6				
 437300	439300	Okay	id258		S			
 439300	445380	All right, let's hand Smurfy over to [id257]. All right. So now it's your turn to to tell	R					
@@ -122,67 +122,67 @@ start	end	text	speaker	trial	role	echo	description	on_topic
 452500	454500	All right now let's hand Smurfy back over to [id258]	R	7				
 454500	459300	But before before we tap or before we try to guess the the picture in the black box	R					
 459780	462180	Let's have our friend try to try to tell	R					
-		is it a dog?	id258		L			
-465780	467780	Uh, yeah	id257		S			
-468100	470260	The dog lie just like this?	id258		L			
-		Uh no	id257		S			
-473780	475780	This one	id258		L			
+		is it a dog?	id258		L			Y
+465780	467780	Uh, yeah	id257		S			Y
+468100	470260	The dog lie just like this?	id258		L			Y
+		Uh no	id257		S			Y
+473780	475780	This one	id258		L			Y
 475940	477940	Tap it, if it’s didn’t know.	id257		S			
-		[id257], I don’t understand your furry face 	id258		L			
+		[id257], I don’t understand your furry face 	id258		L			Y
 		If you don’t just try	id257		S			
 491140	493140	Yes, just take your best guess [id258]	R					
 493140	497140	Yeah, we'll have a lot of find out about this one and then the wrong	id258		L			
 498740	502820	Then it's okay. We'll have a lot of more tries to help you. 	R					
 		Can you tell me?	id258		L			
 503860	506420	No, we have to have [id257] tell you	R					
-507380	509380	So [id257], what is it?	id258		L			
+507380	509380	So [id257], what is it?	id258		L			Y
 		Uh	id257		S			
 512900	516900	Can you use your words to describe what you see?	R					
-517700	519700	It’s like a dog walking	id257		S		a dog walking	
-520580	522580	One foot is in front	id257		S		one foot is in front	
-		Okay, this one	id258		L			
+517700	519700	It’s like a dog walking	id257		S		a dog walking	Y
+520580	522580	One foot is in front	id257		S		one foot is in front	Y
+		Okay, this one	id258		L			Y
 526020	532900	Nice job. See you guys used your words. All right, and now I think [id257]'s guessing and helping smurfy 	R	8				
 538740	540740	Press another button	R	9				
-541380	548980	Okay, so is the person walking or the dog walking 	id258		L			
-		the person walking, I think	id257		S		the person walking	
-550180	551780	Is it this one?	id258		L			
-551780	553780	Yeah, I think it is	id257		S			
+541380	548980	Okay, so is the person walking or the dog walking 	id258		L			Y
+		the person walking, I think	id257		S		the person walking	Y
+550180	551780	Is it this one?	id258		L			Y
+551780	553780	Yeah, I think it is	id257		S			Y
 555300	557300	Nice job	R	10				
 558260	560760	All right now, I think it's [id257]'s turn to hold Smurfy	R					
-564340	566340	Is it	id258		S			
+564340	566340	Is it	id258		S			Y
 570740	572740	Um	R	11				
-572740	574740	Which one is it?	id258		L			
-577860	583860	I think this one	id257		S		this one	
-		 is the dog walking?	id258		L			
-		Yeah	id257		S			
-		like this?	id258		L			
-		I think it is, I think it’s not but it is	id257		S			
+572740	574740	Which one is it?	id258		L			Y
+577860	583860	I think this one	id257		S		this one	Y
+		 is the dog walking?	id258		L			Y
+		Yeah	id257		S			Y
+		like this?	id258		L			Y
+		I think it is, I think it’s not but it is	id257		S			Y
 590660	592740	All right, now I think it's [id257]'s turn to hold Smurfy	R	12				
-594020	600420	So it’s the mountain with the diamond on top. That's like this. It's like a banana with the diamond on it	id258		S		the mountain with the diamond on top, that’s like this. A banana with the diamond on it	
-603620	607220	And now so dog walking the then	id257	13	S		dog walking	
+594020	600420	So it’s the mountain with the diamond on top. That's like this. It's like a banana with the diamond on it	id258		S		the mountain with the diamond on top, that’s like this. A banana with the diamond on it	Y
+603620	607220	And now so dog walking the then	id257	13	S		dog walking	Y
 611540	613540	Nice job guys	R	14				
 624980	626980	Oh	id257	15	S			
 		Smurfy	id258		L			
 		Hello	id258		L			
-628660	630660	Which one is it	id258		L			
-631220	636740	A banana with the diamond on it or the dog walking	id258		L			
-		the banana with the diamond on it	id257		S		the banana with the diamond on it	
+628660	630660	Which one is it	id258		L			Y
+631220	636740	A banana with the diamond on it or the dog walking	id258		L			Y
+		the banana with the diamond on it	id257		S		the banana with the diamond on it	Y
 636740	638740	Oh	R	16				
-649460	651940	It's the it's the dog walking	id257	17	S		the dog walking	
-656420	658900	not the banana having the 	id257		S		not the banana	
-		it’s not the banana having the diamond on	id258		L			
+649460	651940	It's the it's the dog walking	id257	17	S		the dog walking	Y
+656420	658900	not the banana having the 	id257		S		not the banana	Y
+		it’s not the banana having the diamond on	id258		L			Y
 		yeah, it’s not	id257		S			
 667060	669060	Yay	R	18				
-672420	675620	It's the dog walking. 	id258		S		the dog walking	
+672420	675620	It's the dog walking. 	id258		S		the dog walking	Y
 		Yay	R	19				
-		it’s the dog	id257		S		the dog	
-677300	679220	It's the star	id257		S		the star	
+		it’s the dog	id257		S		the dog	Y
+677300	679220	It's the star	id257		S		the star	Y
 679220	683060	[id257] 	id258		L			
-		it's the one that's walking and doing the arm on the back	id257		S		the one that’s walking and doing the arm on the back	
-684580	693380	Um, so is the human walking or the banana on the diamond on it	id258		L			
-		human, human 	id257		S		human	
-		human walking that has dog ears?	id258		L			
-		yeah	id257		S			
-		so it’s the banana with the diamond on it	id258	20	S	note this is said after other child is pressing 		
+		it's the one that's walking and doing the arm on the back	id257		S		the one that’s walking and doing the arm on the back	Y
+684580	693380	Um, so is the human walking or the banana on the diamond on it	id258		L			Y
+		human, human 	id257		S		human	Y
+		human walking that has dog ears?	id258		L			Y
+		yeah	id257		S			Y
+		so it’s the banana with the diamond on it	id258	20	S	note this is said after other child is pressing 		Y
 697140	699140	Oh	R					
 708660	712100	I think you guys finished our game. Thank you so much for playing	R					
