@@ -149,7 +149,10 @@ Learning a language requires learning not only the content of that language, but
 There is debate in the literature about when children use pragmatics in their interpretation and production of language. On one side of the debate, children seem to learn literal semantics far before they display an understanding of some pragmatic implicatures [@huang2009; @noveck2001]. On the other side, sensitivity to communicative intent is an early emerging skill that develops in parallel with linguistic knowledge and may bootstrap language learning [@bates1974; @bohn2019a; @tomasello2008]. 
 
 
-Iterated reference games provide an important paradigm for studying referential communication, and can provide insight into children’s pragmatic abilities in dyadic peer communication. In these games, which have been used extensively with adults, one player repeatedly describes a set of abstract shapes to a partner so they can identify the target images [@clark1986; @krauss1964; @hawkins2020dynamics; @boyce2024]. Over repetition, features of the initial descriptions are conventionalized as each pair comes to agree on a shared understanding of how to label each image. In contrast to this rich paradigm, children's pragmatic and communicative abilities are commonly assessed in non-iterated contexts interacting with adult experimenters. But iterated reference games played between two children can provide a different and richer context to assess multi-turn pragmatic referential abilities and capture a key piece of children’s language environment – interaction with peers.
+Iterated reference games provide an important paradigm for studying referential communication, and can provide insight into children’s pragmatic abilities in dyadic peer communication. In these games, which have been used extensively with adults, one player repeatedly describes a set of abstract shapes to a partner so they can identify the target images [@clark1986; @krauss1964; @hawkins2020dynamics; @boyce2024]. Over repetition, features of the initial descriptions are conventionalized as each pair comes to agree on a shared understanding of how to label each image. 
+Adults tend to have high or increasing accuracy at identifying the target image correctly, coupled with shortened descriptions for the target [@clark1986; @hawkins2020dynamics; @boyce2024; @bangerter2020]. As descriptions get shorter, referring expressions are less likely to use geometric and part-based descriptions and more likely to use holistic and metaphorical labels [@clark1986; @boyce2024]. Perhaps the tightest link to the idea of convention formation are measures in the semantic alignment within pairs, indicating stability, and semantic divergence across pairs, indicating arbitrariness. Semantic distances can be measured by lexical overlap, word-level vector embeddings, or sentence-level vector embeddings [@hawkins2020; @boyce2024;@bangerter2020]. The structure of descriptions also changes, with changing distributions in parts of speech, numbers of hedges, and types of noun phrases used [@bangerter2020; @hawkins2020; @dahan2023]. Additional evidence for the partner-specificity of the conventions comes from studies where a describer talks with multiple matchers in sequence, reverting to longer and more elaborated descriptions with a new matcher [@yoon2018; @hawkins2023; @hawkins2021]. The richness of the iterated reference game paradigm leads different papers to use different measures, and while these same set of results tend to co-occur, it is not known how intrinsically coupled structural, semantic, length-based metrics of convention formation are. 
+
+In contrast to this rich paradigm used for adults, children's pragmatic and communicative abilities are commonly assessed in non-iterated contexts interacting with adult experimenters. But iterated reference games played between two children can provide a different and richer context to assess multi-turn pragmatic referential abilities and capture a key piece of children’s language environment – interaction with peers.
 
 However, one influential early study in the 1960s claimed that 4-5-year-old preschoolers cannot communicate successfully with each other in an iterated reference game paradigm [@glucksberg1966]. This result casts doubt on whether children can succeed in iterated reference games, and about their pragmatic competence more generally. But in the past half century, shifts in the interpretive frameworks and methodological considerations of developmental science have raised questions over whether @glucksberg1966 actually provides compelling negative evidence, given that it is in tension with more recent work on the development of referential abilities, which paint a mixed, but overall more capable picture of preschoolers' referential communication [@bates1974; @bohn2019a; @tomasello2008]. Thus, in the current work we make a direct test of whether young children can establish effective referring expressions with each other. 
 
@@ -174,7 +177,7 @@ In sum, across a variety of different paradigms, from an early age, children sho
 
 Language acquisition has historically focused on how children learn language from direct parental input, but there is increasing acknowledgement that children's language learning occurs across a more diverse set of social interactions, including with other children [@cristia2019;@foushee2024]. In observational research, there is movement toward studying children's early language in more naturalistic interactional contexts, spanning the range of interlocutors that children interact with across different cultures [@bergey2025a;@casillas2023;@girouard-hallam2024]. Cross-culturally, children have rich interactions with other children and create, transmit, and learn from peer cultures [@lew-levy2024]. In contexts where children go to preschool, some of children's linguistic environment is other children in their classes [@chaparro-moreno2019; @perry2018]. 
 
-Children may have different norms for communication than adults, and so whether children's behavior conforms to adult norms may correspond with whether or not it accomplishes a child's communicative goals. It is important to study how children communicate with each other, both via observation and experiment, yet there is limited experimental work on young children's communication with each other. In @koymen2014, 4- and 6-year-old children identified nameable objects with another child [a similar task to @brennan1996]. When the visual context changed so that simpler descriptions would be adequate, 6-year-olds (but not 4-year-olds) were more likely to use consistent referential expressions when they keep talking to the same partner, but switch to simpler terms with a new partner [@koymen2014]. Other experiments with pairs of children also reveal that children's speech acts when coordinating on an activity are sensitive to what they think is common knowledge with their partner or not [@short-meyerson1997; @koymen2016; @koymen2014a]. Other child-child communicative studies have looked at iterated learning [@kempe2019], giving each other directions [@resches2007], and asking each other questions [@sanmartin2014]. 
+Children may have different norms for communication than adults, and so whether children's behavior conforms to adult norms may correspond with whether or not it accomplishes a child's communicative goals. It is important to study how children communicate with each other, both via observation and experiment, yet there is limited experimental work on young children's communication with each other. In @koymen2014, 4- and 6-year-old children identified nameable objects with another child [a similar task to @brennan1996]. When the visual context changed so that simpler descriptions would be adequate, 6-year-olds (but not 4-year-olds) were more likely to use consistent referential expressions when they keep talking to the same partner, but more likely to switch to simpler terms with a new partner [@koymen2014]. Other experiments with pairs of children also reveal that children's speech acts when coordinating on an activity are sensitive to what they think is common knowledge with their partner or not [@short-meyerson1997; @koymen2016; @koymen2014a]. Other child-child communicative studies have looked at iterated learning [@kempe2019], giving each other directions [@resches2007], and asking each other questions [@sanmartin2014]. 
 
 This limited line of research reveals both the availability and sophistication of peer-interactions as a source of early language input and communicative experience. Increased interest in better characterizing the structure of peer-interaction and the role of peer-interaction in language learning warrants further investigation of children's referential abilities in these peer-contexts.
 
@@ -206,6 +209,8 @@ Finally, in a recent study closest to Krauss and Glucksberg, @leung2025 ran an i
 ## Current study 
 
 In our current study, we adapt the paradigm used in @leung2025 to re-examine young children's ability to establish effective referring expressions with each other. Compared to @glucksberg1966, we have reduced task demands in that children do not need to stack blocks, instead the describer only needs to say what the target is, and the matcher to select it. We had a total pool of only 4 options in each experiment and only 2 options each trial, rather than the 6 images @glucksberg1966 used. We also tested many more children: 82 pairs of 4-5 year old children across 3 studies, rather than the 12 4-year-old pairs and 7 kindergarten pairs of Krauss and Glucksberg. 
+
+To measure children's behavior during the task, we use metrics from the adult iterated reference game literature that are used to assess convention formation [@hawkins2020; @boyce2024]. In each study, we examine children's accuracy at the task, to address the question of children's performance. If children's performance in @leung2025 was due primarily to parental scaffolding, we expect children's accuracy to be at chance, if their performance was substantially due to decreased task demands, we expect children to be above chance in these studies as well. We then consider the length of referring expressions children use, as utterance length is a commonly reported measure across iterated reference games. If children behave like adults, their descriptions will decrease in length over repetition. Finally, we measure semantic changes in descriptions within and between pairs using sentence vector embeddings, as in @boyce2024. We believe semantic alignment is the most direct test of the ideas of stability and arbitrariness that define conventions [@hawkins2020]. If children are forming partner-specific conventions like adults do, we expect that semantic similarity will increase within dyads and decrease across dyads.
 
 Across our three studies, including a total of `r pairs` pairs of 4-5-year-old preschool children, we found that preschool-aged children were successful in an iterated reference game, suggesting that children's capacity to construct effective referring expressions in novel contexts emerges earlier than previously claimed.
 
@@ -745,7 +750,7 @@ In instances where children did not communicate successfully, it is difficult to
 
 ## Comparison with other iterated reference game datasets
 
-To situate the behavior findings of the children in context, we visually compare the child-child data from our experiments to the most-similar adult-child and adult-adult datasets, sourced from Refbank [version 12.0; @boyce2026] which provides harmonized data across a number of iterated reference games. Accuracies in reference game paradigms are likely a function of stimulus. To provide the best match, we selected trials and experiments that used exactly the same tangram figures. For the Experiment 1 and 2 stimuli, we have comparisons from @leung2025 on 4-year-old and parent dyads and adult-adult dyads, playing face-to-face on 2-option choices. For the Experiment 3 stimuli, the most similar available paradigms are from @hawkins2021 and @hawkins2023chai which are adult-adult dyads typing descriptions to each other online with time limits, and 4-option choice. 
+To situate the behavior findings of the children in context, we visually compare the child-child data from our experiments to the most-similar adult-child and adult-adult datasets, sourced from Refbank [version 13.4; @boyce2026] which provides harmonized data across a number of iterated reference games. Accuracies in reference game paradigms are likely a function of stimulus. To provide the best match, we selected trials and experiments that used exactly the same tangram figures. For the Experiment 1 and 2 stimuli, we have comparisons from @leung2025 on 4-year-old and parent dyads and adult-adult dyads, playing face-to-face on 2-option choices. For the Experiment 3 stimuli, the most similar available paradigms are from @hawkins2021 and @hawkins2023chai which are adult-adult dyads typing descriptions to each other online with time limits, and 4-option choice. 
 
 The data from 4 metrics available from the Refbank pipeline are shown in Figure \ref{compare}. The child-child data is not an outlier on any of these metrics.  Child dyads are less accurate than adult dyads, but generally similar to the child-adult dyads (Figure \ref{compare}A). Figure \ref{compare}B shows length of referential utterances; note that for cross-dataset comparison, this measure includes all words rather than omitting non-referential words and repetitions. Child-child pairs are in between the adult-adult and child-adult pairs on each repetition on the Experiment 1 and 2 stimuli; children say more in Experiment 3 than adults typed. The adults do shorten their utterances over repetitions, but much less dramatically than with larger option sets. 
 
@@ -756,18 +761,18 @@ Overall, we believe that children show differences of degree compared to adult d
 
 ```{r, cache=T, message=F}
 library(refbankr)
-#using v12.0
 relevant_datasets <- c("boyce2026_preschoolers", "leung2024_scaffolding", "hawkins2023_frompartners", "hawkins2021_respect")
 
-messages <- get_messages(datasets=relevant_datasets, version = "v12.0")
-trials <- get_trials(datasets=relevant_datasets, include_condition_data=T, version="v12.0")
-choices <- get_selections(datasets=relevant_datasets, version="v12.0")
+version_to_use <- "v13.4"
+messages <- get_messages(datasets=relevant_datasets, version = version_to_use)
+trials <- get_trials(datasets=relevant_datasets, include_condition_data=T, version=version_to_use)
+selections <- get_selections(datasets=relevant_datasets, version=version_to_use)
 
-players <- get_players(datasets=relevant_datasets, version="v12.0")
+players <- get_players(datasets=relevant_datasets, version=version_to_use)
 
-images <- get_images(datasets=relevant_datasets, version="v12.0")
+images <- get_images(datasets=relevant_datasets, version=version_to_use)
 
-sbert <- get_cosine_similarities(datasets=relevant_datasets, version="v12.0")
+sbert <- get_cosine_similarities(datasets=relevant_datasets, version=version_to_use)
 ```
 
 ```{r}
@@ -776,9 +781,11 @@ relevant_leung_kids <- players |> filter(dataset_id=="leung2024_scaffolding", ag
 relevant_images <- images |> filter(dataset_id=="boyce2026_preschoolers") |> distinct(image_path) |> inner_join(images) |> select(target=image_id, dataset_id, image_path)
 
 
-relevant_trials <- trials |> 
-  filter(stage_num==1) |> 
-  inner_join(relevant_images) |> rowwise() |> 
+relevant_trials <- trials |>
+  filter(stage_num==1) |>
+  inner_join(relevant_images, by=c("target_image"="target", "dataset_id")) |>
+  rename(target=target_image) |>
+  rowwise() |>
   mutate(population_type=case_when(
     describer %in% relevant_leung_kids$player_id | matchers %in% relevant_leung_kids$player_id ~ "child-adult",
     population == "adult" ~ "adult-adult",
@@ -787,7 +794,7 @@ relevant_trials <- trials |>
   mutate(image_set=case_when(
     str_detect(image_path, "page") ~ "Expt 3 stimuli",
     T ~ "Expt 1 & 2 stimuli"
-  )) |> select(trial_id, dataset_id, population_type, image_set, rep_num, game_id, room_num, image_path, target)
+  )) |> select(trial_id, dataset_id, population_type, image_set, round_num, game_id, room_num, image_path, target)
 
 
 ```
@@ -796,8 +803,8 @@ relevant_trials <- trials |>
 ```{r fig-adult, fig.env="figure", fig.pos = "t", fig.align = "center", out.width="90%", fig.width=8, fig.height=4, fig.cap = "Comparison between this child-child dataset and the most similar other datasets on the same stimuli from Refbank on 4 measures of convention formation. \\label{compare}" }
 theme_options <- theme(legend.position="none", strip.background = element_blank(), title = element_text(size=8))
 
-accuracy <- choices |> inner_join(relevant_trials) |> mutate(correct=ifelse(choice_id==target, 1,0)) |> 
-  ggplot(aes(x=rep_num, y=correct, color=population_type))+geom_jitter(data= \(d) d|> group_by(image_path, population_type, image_set, rep_num) |> summarize(correct=mean(correct)), width=.1, height=0, alpha=.5)+stat_summary(fun.data ="mean_cl_boot")+stat_summary(fun.data="mean_cl_boot", geom="line")+facet_wrap(~image_set)+labs(title="A. selection accuracy", x="Block num", y="Fraction correct")+scale_color_solarized()+coord_cartesian(ylim=c(0,1))
+accuracy <- selections |> inner_join(relevant_trials) |> mutate(correct=ifelse(selected_image==target, 1,0)) |>
+  ggplot(aes(x=round_num, y=correct, color=population_type))+geom_jitter(data= \(d) d|> group_by(image_path, population_type, image_set, round_num) |> summarize(correct=mean(correct)), width=.1, height=0, alpha=.5)+stat_summary(fun.data ="mean_cl_boot")+stat_summary(fun.data="mean_cl_boot", geom="line")+facet_wrap(~image_set)+labs(title="A. selection accuracy", x="Block num", y="Fraction correct")+scale_color_solarized()+coord_cartesian(ylim=c(0,1))
 
 words <- 
 messages |>  
@@ -807,17 +814,17 @@ messages |>
 summarise(words = sum(lengths(str_split(text, " ")), na.rm = TRUE)) |> 
   inner_join(relevant_trials) |> 
   
-  ggplot(aes(x=rep_num, y=words, color=population_type))+geom_jitter(data= \(d) d|> group_by(image_path, population_type, image_set, rep_num) |> summarize(words=mean(words)), width=.1, height=0, alpha=.5)+stat_summary(fun.data="mean_cl_boot")+stat_summary(fun.data="mean_cl_boot", geom="line")+facet_wrap(~image_set)+labs(title="B. utterance length", x="Block num", y="Number of words")+scale_color_solarized()+coord_cartesian(ylim=c(0,18))
+  ggplot(aes(x=round_num, y=words, color=population_type))+geom_jitter(data= \(d) d|> group_by(image_path, population_type, image_set, round_num) |> summarize(words=mean(words)), width=.1, height=0, alpha=.5)+stat_summary(fun.data="mean_cl_boot")+stat_summary(fun.data="mean_cl_boot", geom="line")+facet_wrap(~image_set)+labs(title="B. utterance length", x="Block num", y="Number of words")+scale_color_solarized()+coord_cartesian(ylim=c(0,20))
 
 
 
-to_next <- sbert |> filter(sim_type=="to_next") |> select(game_id, target, dataset_id, rep_num=earlier, sim) |> inner_join(relevant_trials |> select(dataset_id, population_type,image_path, rep_num, image_set, game_id, target) |> distinct()) |> ggplot(aes(x=rep_num, y=sim, color=population_type))+geom_jitter(data= \(d) d|> group_by(image_path, population_type, image_set, rep_num) |> summarize(sim=mean(sim)), width=.1, height=0, alpha=.5)+stat_summary(fun.data="mean_cl_boot")+stat_summary(fun.data="mean_cl_boot", geom="line")+facet_wrap(~image_set)+labs(title="C. within-game semantic similarity", x="Block num", y="Cosine similarity")+scale_color_solarized() +coord_cartesian(ylim=c(0,1))
+to_next <- sbert |> filter(sim_type=="to_next") |> select(game_id, target=target_image, dataset_id, round_num=earlier, sim) |> inner_join(relevant_trials |> select(dataset_id, population_type,image_path, round_num, image_set, game_id, target) |> distinct()) |> ggplot(aes(x=round_num, y=sim, color=population_type))+geom_jitter(data= \(d) d|> group_by(image_path, population_type, image_set, round_num) |> summarize(sim=mean(sim)), width=.1, height=0, alpha=.5)+stat_summary(fun.data="mean_cl_boot")+stat_summary(fun.data="mean_cl_boot", geom="line")+facet_wrap(~image_set)+labs(title="C. within-game semantic similarity", x="Block num", y="Cosine similarity")+scale_color_solarized() +coord_cartesian(ylim=c(0,1))
 
 
-diverge <-  sbert |> filter(sim_type=="diverge") |> select(game_id_1, game_id_2, target, dataset_id, rep_num, sim) |> 
-inner_join(relevant_trials |> mutate(game_id_1=game_id) |> distinct(game_id_1, target, dataset_id, population_type, image_set, image_path, rep_num)) |> 
-  inner_join(relevant_trials |> mutate(game_id_2=game_id) |> distinct(game_id_2, target, dataset_id, population_type, image_set, image_path, rep_num)) |> 
-           ggplot(aes(x=rep_num, y=sim, color=population_type))+geom_jitter(data= \(d) d|> group_by(image_path, population_type, image_set, rep_num) |> summarize(sim=mean(sim)), width=.1, height=0, alpha=.5)+stat_summary(fun.data="mean_cl_boot")+stat_summary(fun.data="mean_cl_boot", geom="line")+facet_wrap(~image_set)+labs(title="D. cross-game semantic similarity", x="Block num", y="Cosine similarity")+scale_color_solarized()+coord_cartesian(ylim=c(0,1))
+diverge <-  sbert |> filter(sim_type=="diverge") |> select(game_id_1, game_id_2, target=target_image, dataset_id, round_num, sim) |>
+inner_join(relevant_trials |> mutate(game_id_1=game_id) |> distinct(game_id_1, target, dataset_id, population_type, image_set, image_path, round_num)) |>
+  inner_join(relevant_trials |> mutate(game_id_2=game_id) |> distinct(game_id_2, target, dataset_id, population_type, image_set, image_path, round_num)) |>
+           ggplot(aes(x=round_num, y=sim, color=population_type))+geom_jitter(data= \(d) d|> group_by(image_path, population_type, image_set, round_num) |> summarize(sim=mean(sim)), width=.1, height=0, alpha=.5)+stat_summary(fun.data="mean_cl_boot")+stat_summary(fun.data="mean_cl_boot", geom="line")+facet_wrap(~image_set)+labs(title="D. cross-game semantic similarity", x="Block num", y="Cosine similarity")+scale_color_solarized()+coord_cartesian(ylim=c(0,1))
 
  g <- ggplotGrob(accuracy + theme(legend.position = "right", legend.title = element_blank()))
   leg <- g$grobs[[which(g$layout$name == "guide-box-right")]]
@@ -846,7 +853,7 @@ Our study was intended as a proof-of-concept test about whether children at this
 The study of children's pragmatic language use can be approached from different points along the spectrum of experimental control to ecological validity. Iterated reference games have been used as a model system in the adult pragmatics literature because they balance the experimental control over the stimuli with the open-endedness of interactive conversation. Controlled experiments on children's referential communication have established some of the factors that children are sensitive to, and observational work has established that children frequently talk with communicative intent. Use of this model system in the current study provides support for this method as a way of measuring real-time, ecologically valid conversational dynamics of children, and offers a framework for measuring factors that children are sensitive to in their communicative interactions. Experiments that elicit task-specific conversation bridge between these levels with controlled tasks that elicit ecologically valid communicative behavior. 
 
 Our findings provide further evidence of children’s early emerging communicative abilities. Earlier work on children’s referential abilities shows preschool-aged children's success in an iterated reference task when task demands are reduced and when children are provided the appropriate scaffolding by their parents [@leung2025]. The current studies provide evidence that children are capable of success in an iterated reference task, even when parental scaffolding is absent and when interacting with interlocutors with comparable communicative abilities to their own.
-Indeed, these studies build on prior work suggesting that peer-peer interaction provides a rich format for communicative interactions [@koymen2014]. Even when interacting with another social partner with immature linguistic and pragmatic competence, children are still able to effectively deploy language and engage in complex communicative interactions in order to converge on mutually understandable descriptions. Given that language input from peers has also been shown to be a predictor for later language outcomes [@perry2018], future research should continue to investigate the structure of peer-interactions and the role of peer input on children’s developing language and communicative abilities. 
+Indeed, these studies build on prior work suggesting that peer-peer interaction provides a rich format for communicative interactions [@koymen2014]. Even when interacting with another social partner with immature linguistic and pragmatic competence, children are still able to effectively deploy language and engage in communicative interactions that result in mutually understandable descriptions. Given that language input from peers has also been shown to be a predictor for later language outcomes [@perry2018], future research should continue to investigate the structure of peer-interactions and the role of peer input on children’s developing language and communicative abilities. 
 
 Success on this task also provides some evidence in favor of a nuanced view in children's early development of pragmatic use in language. The current studies show that children can succeed in an iterated reference task, and that previous failures were likely due to task demands. Still, just as children’s linguistic knowledge is still developing, children’s pragmatic skills at this age are still far from mature [@leung2025; @grigoroglou2019]. While developing linguistic knowledge might bootstrap the continued development of pragmatic competence, developing pragmatic skills might also aid younger children’s early language learning. Further work should aim to better characterize the co-occurring development of these competencies and the role that pragmatic referential communication might play in children’s early word learning.
 
