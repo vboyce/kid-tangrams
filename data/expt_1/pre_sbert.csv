@@ -8,7 +8,6 @@ trial,gameId,words,target,distractor
 2,J5o4w9N9MYsAkebwF,"a boat, this is the part that you stand on, a triangle boat here and a square and a triangle that’s on the boat and a little triangle piece coming out",swim,jump
 2,SowubDEr7fQNBP6te,magnet,hold,swim
 2,X3KGngsmofwhPuzW2,a birdie that’s flying,swim,jump
-2,XWpuLuSnNumcHxf7w,S,swim,jump
 2,Yrc2wiX7ZxZFS2wX6,human,hold,swim
 2,agWGBnw35ByLviSnF,a shape,hold,swim
 2,bcszyeDMyWZqFeMBh,a person,hold,walk
@@ -184,7 +183,7 @@ trial,gameId,words,target,distractor
 9,euCvEekqCAQC9sfav,somebody holding a triangle,hold,jump
 9,frdh7smGPLbRZRBpK,a person holding a upside down triangle,hold,walk
 9,gF7PeenLLsSHsF4CG,a person doing something,hold,jump
-9,hueqkSoqSjYjcD9En,"a guy with two foot and a line and one square, a man with two foot and a tummy shaped as a diamond and a square head",walk,hold
+9,hueqkSoqSjYjcD9En,a man with two foot and a tummy shaped as a diamond and a square head,walk,hold
 9,kduAREQdY39j2SgoC,a flying person,jump,swim
 9,qL2AxZnRykJWLDA7H,"a plane, a whale",swim,hold
 9,wSXZRwkNxz7fDGeyd,"a person with one leg and a triangle, holding a triangle with a diamond on the head",hold,walk

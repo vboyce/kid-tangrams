@@ -20,12 +20,14 @@ affiliation:
     institution   : "Massachusetts Institute of Technology"
 
 authornote: |
+  Corrected Nov 2026 after an AI audit detected several (minor) errors, see next page for details about corrections.
+  
   Author contributions: All authors contributed to the conceptualization. VB provided methodology, formal analysis, and writing-original draft. RZS provided supervision and project administration. RZS and MCF provided writing-review & editing. 
   
   Use of generative AI: Claude code was used for code review and proofreading. All edits to code and text were made by an author. 
 
 abstract: |
-  Learning language requires learning not only the content of language, but also how to use language to communicate. Iterated reference games provide a window into such skills, requiring sustained interactive communication as participants converge on mutually understandable names for initially novel referents. Some early experiments are interpreted as evidence that 4-5-year-old children cannot converge on the mutually understandable names needed to succeed in an iterated reference game. Here, we revisit young children's referential communicative abilities using a simpler, child-friendly version of the iterated reference game paradigm. Across 4 experiments and 82 pairs of children (N=158), we found that 4-5-year-olds could successfully establish reference with each other. Children were 81% accurate, and they often used descriptions similar to their partner's. These findings suggest that children’s capacity to construct effective referring expressions in novel contexts emerges earlier than previously thought, consistent with the view that children show early pragmatic competence in supportive contexts.
+  Learning language requires learning not only the content of language, but also how to use language to communicate. Iterated reference games provide a window into such skills, requiring sustained interactive communication as participants converge on mutually understandable names for initially novel referents. Some early experiments are interpreted as evidence that 4-5-year-old children cannot converge on the mutually understandable names needed to succeed in an iterated reference game. Here, we revisit young children's referential communicative abilities using a simpler, child-friendly version of the iterated reference game paradigm. Across 3 experiments and 82 pairs of children (N=158), we found that 4-5-year-olds could successfully establish reference with each other. Children were 81% accurate, and they often used descriptions similar to their partner's. These findings suggest that children’s capacity to construct effective referring expressions in novel contexts emerges earlier than previously thought, consistent with the view that children show early pragmatic competence in supportive contexts.
   
 
 keywords          : development; iterated reference game; pragmatics; preschoolers
@@ -99,6 +101,7 @@ labels <- tribble(~target, ~img,
 #source(here("code/paper_helper.R"))
 joint_data <- read_csv(here("data/processed_for_paper/joint_with_demog.csv"))
 joint_similarities <-   read_csv(here("data/processed_for_paper/sims.csv"))
+trial_exclusions <- read_csv(here("data/processed_for_paper/trial_exclusions.csv"))
 
 ### functions for printing things nicely!
 stats <- function(model, row, decimal = 2) {
@@ -486,7 +489,7 @@ The same 4 critical images were used as in Experiment 1. In response to some chi
 The procedure was much the same as Experiment 1 (Figure \ref{game}B). We added an initial "bubble popping" exercise to give children practice tapping the tablet appropriately (this was an issue for some children in Experiment 1). The experimental script was fully written out and memorized by experimenters so children all received the same instructions. We wrote up contingency statements that the experimenter could use to prompt children who were not giving descriptions or making selections. Experimenters helped with game mechanics such as whose turn it was to tell and who should press the screen, but avoided contributing or repeating any content about the images or the descriptions. 
 
 ### Data processing
-Data were processed in the same way as Experiment 1. After excluding trials where children did not give a description or where the experimenter echoed a child's description (15 trials), we had `r joint_data |> filter(expt=="2") |> nrow()` trials total. 
+Data were processed in the same way as Experiment 1. After excluding trials where children did not give a description or where the experimenter echoed a child's description (`r trial_exclusions |> filter(expt=="2") |> pull(excluded_trials)` trials), we had `r joint_data |> filter(expt=="2") |> nrow()` trials total. 
 
 ## Results
 ### Accuracy and speed
@@ -592,7 +595,7 @@ A different set of critical images were used (see Figure \ref{game}B). These spe
 The procedure was the same as for Experiment 2. <!--The bubble popping practice was modified so that both rounds of bubbles were colored dots, because children in Experiment 2 sometimes did not identify the smiley faces as more bubbles to pop. -->
 
 ### Data processing
-Data were processed in the same way as Experiment 1. After excluding trials where children did not give a description or where the experimenter echoed a child's description (30 trials), we had `r joint_data |> filter(expt=="3") |> nrow()` trials total. 
+Data were processed in the same way as Experiment 1. After excluding trials where children did not give a description or where the experimenter echoed a child's description (`r trial_exclusions |> filter(expt=="3") |> pull(excluded_trials)` trials), we had `r joint_data |> filter(expt=="3") |> nrow()` trials total. 
 
 ## Results
 ### Accuracy and speed
@@ -642,7 +645,7 @@ sim_to_last_3_results <- read_rds(here(mod_results, "sim_to_last_3.rds"))
 
 We repeated the semantic analyses from Experiment 2. We again found that utterances were more similar if they came from the same partnership (`r sim_across_between_3_results |> stats_text(2,3)`) and if they came from the same person (`r sim_across_between_3_results |> stats_text(3,3)`). 
 
-Over the first three blocks, descriptions became increasingly similar to the last block description (`r sim_to_last_3_results |> stats_text(2,3)`). Descriptions from the same partner were slightly more similar to each other, with some uncertainty (`r sim_to_last_3_results |> stats_text(3,3)`). Over time, the semantic similarity between adjacent block utterances increased (`r sim_to_next_3_results |> stats_text(2,3)`). 
+Over the first three blocks, descriptions became increasingly similar to the last block description (`r sim_to_last_3_results |> stats_text(2,3)`). Descriptions from the same partner were slightly more similar to each other (`r sim_to_last_3_results |> stats_text(3,3)`). Over time, the semantic similarity between adjacent block utterances increased (`r sim_to_next_3_results |> stats_text(2,3)`). 
 
 Unlike the patterns found with adults, we found that the similarity between utterances in different games was relatively stable over time (`r sim_across_3_results |> stats_text(2,3)`). While children show some of the same patterns as adults on these stimuli, such as sensitivity to their partners descriptions, and some convergence towards conventions, there was not increasing group-specificity of descriptions over time. 
 
@@ -736,7 +739,7 @@ description_demog_form <- read_rds(here(mod_form, "description_demog.rds"))
 <!--The effects of children's age and gender on their performance are shown in Figure \ref{ageacc}.--> To test for possible effects of children's age and gender on matcher accuracy, we ran a mixed effects logistic regression, where we considered possible effects of the age of each child (centered at mean age of all the children who participated) and the gender of each child on the accuracy of their selections^[model form: `r form(acc_demog_form)`]. Accuracy was higher for older children (OR for one month older teller: `r stats_text(acc_demog_meta, 3,2)`, OR for one month older guesser: `r stats_text(acc_demog_meta, 2,2)`). Accuracy was also higher when the guesser was a girl (OR: `r stats_text(acc_demog_meta, 4,2)`), but was not credibly higher when the teller was a girl (OR: `r stats_text(acc_demog_meta, 5,2)`). 
 
 ### Description length
-We also tested whether children's age or gender affected how many words they produced in their descriptions. We ran a mixed effects linear regression, where we considered the ages and genders of both children as possible predictors of description length^[model form: `r form(description_demog_form)`]. Older children tended to produce longer descriptions (effect of one month older `r stats_text(description_demog_meta,3,2)`), but there was no effect of age of guesser (`r stats_text(description_demog_meta, 2,2)`). For gender, there was no effect of teller gender on description length (girls produced `r stats_text(description_demog_meta, 5,2)` more words compared to boys), but tellers produced longer descriptions for boy guessers (`r stats_text(description_demog_meta, 4,2)`). There were not substantial effects of trial order or interactions between demographics and trial order. 
+We also tested whether children's age or gender affected how many words they produced in their descriptions. We ran a mixed effects linear regression, where we considered the ages and genders of both children as possible predictors of description length^[model form: `r form(description_demog_form)`]. Older children tended to produce longer descriptions (effect of one month older `r stats_text(description_demog_meta,3,2)`), but older children received marginally shorter descriptions as the guesser (`r stats_text(description_demog_meta, 2,2)`). For gender, there was no effect of teller gender on description length (girls produced `r stats_text(description_demog_meta, 5,2)` more words compared to boys), but tellers produced longer descriptions for girl guessers (`r stats_text(description_demog_meta, 4,2)`). There were not substantial effects of trial order or interactions between demographics and trial order. 
 
 ## Qualitative observations
 
@@ -785,8 +788,12 @@ relevant_leung_kids <- players |> filter(dataset_id=="leung2024_scaffolding", ag
 relevant_images <- images |> filter(dataset_id=="boyce2026_preschoolers") |> distinct(image_path) |> inner_join(images) |> select(target=image_id, dataset_id, image_path)
 
 
+stopifnot(!anyNA(trials$exclude))
+
 relevant_trials <- trials |>
   filter(stage_num==1) |>
+  # apply each source dataset's own exclusions to every series
+  filter(!exclude) |>
   inner_join(relevant_images, by=c("target_image"="target", "dataset_id")) |>
   rename(target=target_image) |>
   rowwise() |>
@@ -822,7 +829,12 @@ summarise(words = sum(lengths(str_split(text, " ")), na.rm = TRUE)) |>
 
 
 
-to_next <- sbert |> filter(sim_type=="to_next") |> select(game_id, target=target_image, dataset_id, round_num=earlier, sim) |> inner_join(relevant_trials |> select(dataset_id, population_type,image_path, round_num, image_set, game_id, target) |> distinct()) |> ggplot(aes(x=round_num, y=sim, color=population_type))+geom_jitter(data= \(d) d|> group_by(image_path, population_type, image_set, round_num) |> summarize(sim=mean(sim)), width=.1, height=0, alpha=.5)+stat_summary(fun.data="mean_cl_boot")+stat_summary(fun.data="mean_cl_boot", geom="line")+facet_wrap(~image_set)+labs(title="C. within-game semantic similarity", x="Block num", y="Cosine similarity")+scale_color_solarized() +coord_cartesian(ylim=c(0.5,.9))+scale_x_continuous(breaks=c(1,2,3), labels=c("1-2", "2-3", "3-4"))
+to_next_trials <- relevant_trials |> select(dataset_id, population_type,image_path, round_num, image_set, game_id, target) |> distinct()
+
+to_next <- sbert |> filter(sim_type=="to_next") |> select(game_id, target=target_image, dataset_id, round_num=earlier, sim) |> inner_join(to_next_trials) |>
+  # the next-block description must also come from a non-excluded trial
+  semi_join(to_next_trials |> mutate(round_num = round_num - 1), by = c("dataset_id", "game_id", "target", "round_num")) |>
+  ggplot(aes(x=round_num, y=sim, color=population_type))+geom_jitter(data= \(d) d|> group_by(image_path, population_type, image_set, round_num) |> summarize(sim=mean(sim)), width=.1, height=0, alpha=.5)+stat_summary(fun.data="mean_cl_boot")+stat_summary(fun.data="mean_cl_boot", geom="line")+facet_wrap(~image_set)+labs(title="C. within-game semantic similarity", x="Block num", y="Cosine similarity")+scale_color_solarized() +coord_cartesian(ylim=c(0.5,.9))+scale_x_continuous(breaks=c(1,2,3), labels=c("1-2", "2-3", "3-4"))
 
 
 diverge <-  sbert |> filter(sim_type=="diverge") |> select(game_id_1, game_id_2, target=target_image, dataset_id, round_num, sim) |>

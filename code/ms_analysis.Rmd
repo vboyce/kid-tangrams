@@ -45,6 +45,8 @@ data <- data |>
   rename(trial = trialNum) |>
   inner_join(link |> filter(is.na(exclude)))
 
+critical_trials_1 <- sum(data$trial >= 2)
+
 transcript <- transcript |>
   inner_join(link |> filter(is.na(exclude))) |>
   filter(!is.na(description))
@@ -75,7 +77,8 @@ all_data_1 <- data |>
   mutate(correct = as.numeric(correct)) |>
   mutate(expt = "1")
 
-# 9 trial excluded
+# critical trials dropped by the exclusions above (printed in the manuscript)
+excluded_trials_1 <- critical_trials_1 - sum(all_data_1$type != "practice")
 
 #data |> filter(is.na(response))
 
@@ -95,7 +98,13 @@ exclude_echo <- transcript |>
 
 data <- data |>
   rename(trial = trialNum) |>
-  inner_join(link |> filter(is.na(exclude))) |>
+  inner_join(link |> filter(is.na(exclude)))
+
+# counted before the echo exclusion, so that the reported number of excluded trials
+# includes echoed trials as well as trials without a teller description
+critical_trials_2 <- sum(data$trial >= 4)
+
+data <- data |>
   anti_join(exclude_echo)
 
 transcript <- transcript |>
@@ -131,7 +140,8 @@ all_data_2 <- data |>
   mutate(correct = as.numeric(correct)) |>
   mutate(expt = "2")
 
-# 15 trials excluded
+# critical trials dropped by the exclusions above (printed in the manuscript)
+excluded_trials_2 <- critical_trials_2 - sum(all_data_2$type != "practice")
 
 
 #data |> filter(is.na(response))
@@ -152,7 +162,13 @@ exclude_echo <- transcript |>
 
 data <- data |>
   rename(trial = trialNum) |>
-  inner_join(link |> filter(is.na(exclude))) |>
+  inner_join(link |> filter(is.na(exclude)))
+
+# counted before the echo exclusion, so that the reported number of excluded trials
+# includes echoed trials as well as trials without a teller description
+critical_trials_3 <- sum(data$trial >= 4)
+
+data <- data |>
   anti_join(exclude_echo)
 
 transcript <- transcript |>
@@ -189,7 +205,8 @@ all_data_3 <- data |>
   mutate(expt = "3")
 
 
-# 30 trials excluded
+# critical trials dropped by the exclusions above (printed in the manuscript)
+excluded_trials_3 <- critical_trials_3 - sum(all_data_3$type != "practice")
 
 
 #data |> filter(is.na(response))
@@ -224,8 +241,14 @@ joint_demog <- joint |>
     expt=="1"~ trial-2,
     T ~ trial-4,
   ),     time.sec=time/1000
-) |> filter(type!="practice") |> select(-time) |> 
+) |> filter(type!="practice") |> select(-time) |>
   write_csv(here("data/processed_for_paper/joint_with_demog.csv"))
+
+tibble(
+  expt = c("1", "2", "3"),
+  excluded_trials = c(excluded_trials_1, excluded_trials_2, excluded_trials_3)
+) |>
+  write_csv(here("data/processed_for_paper/trial_exclusions.csv"))
 ```
 
 ```{r}
@@ -593,7 +616,9 @@ speed_mod_meta <- brm(time.sec ~ trial + (trial | gameId) + (trial| target) + (t
                    data = joint_demog,
                    file = here(mod_loc, "speed_meta.rds"),
                    prior = speed_priors,
-                   control = list(adapt_delta = .95)
+                   # the default settings gave unstable intervals across refits
+                   iter = 4000, seed = 1,
+                   control = list(adapt_delta = .99)
 )
 ```
 
@@ -932,8 +957,18 @@ sim_acc_to_next <- sims |>
   mutate(
     same_speaker = ifelse(speaker1 == speaker2, 1, 0)
   ) |> 
-  select(target, game1, earlier, later, sim, same_speaker, expt) |> 
-left_join(joint_demog |> select(target, earlier=repNum, game1=gameId, correct, expt ))
+  select(target, game1, earlier, later, sim, same_speaker, expt) |>
+left_join(joint_demog |> select(target, earlier=repNum, game1=gameId, correct, expt )) |>
+  # centre the predictors that interact with correct, so that the correct coefficient is
+  # its effect averaged over blocks and teller pairings, not at block 1 with different tellers.
+  # The names are kept so that the summary rows (read by row number in the manuscript) don't move.
+  mutate(
+    earlier = earlier - mean(earlier),
+    same_speaker = same_speaker - mean(same_speaker)
+  )
+
+# every earlier description must have found its trial's accuracy
+stopifnot(!anyNA(sim_acc_to_next$correct))
 
 conv_priors <- c(
   set_prior("normal(.5,.2)", class = "Intercept"),
@@ -1023,7 +1058,9 @@ acc_mod_demog <- brm(
   data = centered_demog,
   file = here(mod_loc, "acc_demog.rds"),
   prior = acc_priors,
-  control = list(adapt_delta = .95)
+  # with gameId grouping, adapt_delta = .95 gave many divergent transitions and R-hat > 1.01
+  iter = 4000, seed = 1,
+  control = list(adapt_delta = .99)
 )
 
 ```
@@ -1045,7 +1082,9 @@ red_mod <- brm(
   data = centered_demog,
   file = here(mod_loc, "description_demog.rds"),
   prior = red_priors,
-  control = list(adapt_delta = .95)
+  # with gameId grouping, adapt_delta = .95 gave divergent transitions
+  iter = 4000, seed = 1,
+  control = list(adapt_delta = .99)
 )
 
 ```

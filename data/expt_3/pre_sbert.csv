@@ -7,7 +7,7 @@ trial,gameId,words,target,distractor
 4,7f52Qvo3WtHSDBBiT,"a banana, it has a diamond on the top",baby,bunny
 4,DL7ddsvxyC39tP4TL,a shoe,bunny,zombie
 4,DRHtzr7ykXWJA4nFR,a foot,bunny,dancer
-4,ExNxH8bdgq2WnajcJ,"a person, the square on the back, shoes, shoes on, a person, pointy on the end and then they go this way, they go this way, they go up, they go way down that way, down, pick up, square and a half and has a square",zombie,bunny
+4,ExNxH8bdgq2WnajcJ,"a person, the square on the back, shoes, shoes on, a person, pointy on the end and then they go this way, they go this way, they go up, they go way down that way, down, pick up",zombie,bunny
 4,FE4m6DqfbQWmwgniQ,a shoe,bunny,dancer
 4,HErfYAkWib7yZteR2,a bunny,bunny,baby
 4,HTwFJLfWj4A8u7QGj,a shoe,dancer,bunny
@@ -19,13 +19,13 @@ trial,gameId,words,target,distractor
 4,TqGHB7sY568HceFuK,"a ship, boot",bunny,baby
 4,XdB6EQahFnDworHaK,"not two bars, then me and Thomas Percy to not to go in the road,, then Percy, Thomas will go in the track.",bunny,dancer
 4,YPrXCErEg4XvgScYn,diamond,baby,bunny
-4,agAoF77MYYBc2KGLh,"a diamond, a diamond on top",baby,bunny
+4,agAoF77MYYBc2KGLh,a diamond,baby,bunny
 4,bQQdJ8kC5uKYc7xbb,pointing on the top,baby,dancer
 4,cpaM8z4mzevNTgp9W,a bunny,bunny,dancer
 4,eYARBXoqF7mdFzui6,person,bunny,zombie
 4,egcWimukrEpCBzMst,Weird-looking shoe,dancer,bunny
 4,fwqatWCkXaJQfvkn2,a diamond,bunny,baby
-4,gZBFkYh7KzvX54oiG,"a wing man, one that doesn’t have a triangle and the other has a triangle",bunny,dancer
+4,gZBFkYh7KzvX54oiG,a wing man,bunny,dancer
 4,gh5m6L567Rj8kDBb7,garbage,dancer,baby
 4,hhgH3qxpXmvGT7bBS,"a bunny, an ear like that and the body something like that",bunny,dancer
 4,hwsb4A7YdQaangawz,a sausage that has a strawberry top,baby,dancer
@@ -37,20 +37,20 @@ trial,gameId,words,target,distractor
 4,qKvDzndtLRHdnA93s,a shoe mate,bunny,baby
 4,s8G2akSrDJYZvy7ZM,a dog,dancer,zombie
 4,siqgDfwwvXutvEif8,"a person, a shape that’s kind of like a diamond, a shape that’s this way and like that way, one that’s down right there, it angles them like the center, like a shoe, and there’s a square on it’s back",zombie,dancer
-4,tMqYmPhQXDtTs3dNd,"little banana walk like a worm, a blaster, a blaster, a snake, a monster, a horse",baby,zombie
+4,tMqYmPhQXDtTs3dNd,"little banana walk like a worm, a blaster, a snake, a monster",baby,zombie
 4,tbN5w7SLiXoM39x2x,a person walking with a flag,baby,zombie
 4,uCwEzJArNkeqC8DPM,a volcano,bunny,zombie
-4,uw4Hv2cS5RgAxMQPS,"a man with some squares, a square in his teeth, the dog, who had the triangle",zombie,dancer
-4,wL7EjQmFuYxmHo6Ws,"a people, a people",zombie,bunny
-4,zSNrxaAjN8X8xcMGQ,"blocks, the shoe and the different shoe, a cruise shoe and a nice shoe",dancer,bunny
+4,uw4Hv2cS5RgAxMQPS,"a man with some squares, a square in his teeth",zombie,dancer
+4,wL7EjQmFuYxmHo6Ws,a people,zombie,bunny
+4,zSNrxaAjN8X8xcMGQ,blocks,dancer,bunny
 5,3WqKuHdhyJi4ojLSn,the walking and the elf,zombie,bunny
 5,3nbqrK7ZNYhtaS5Ko,a diamond,zombie,dancer
 5,5EaTR8ZGFDCyFdwkf,on this side,bunny,zombie
-5,6qtxht66CPuAbKqzz,"a square, the square one with a triangle part with a diamond on top, and a crawling thing turned in this way",baby,zombie
+5,6qtxht66CPuAbKqzz,a square,baby,zombie
 5,6sYhrNGKfSytZ28qg,a rabbit,bunny,dancer
 5,7f52Qvo3WtHSDBBiT,a kangaroo,bunny,zombie
 5,DL7ddsvxyC39tP4TL,a girl’s shoe,dancer,bunny
-5,ExNxH8bdgq2WnajcJ,"a boot, a diamond at the top like a face, a whole body, a little tiny point on the top, has a pointy like over here",baby,dancer
+5,ExNxH8bdgq2WnajcJ,"a diamond at the top like a face, a whole body, a little tiny point on the top, has a pointy like over here",baby,dancer
 5,FE4m6DqfbQWmwgniQ,"a diamond, I don’t know the neck shape, on top of something",baby,bunny
 5,HErfYAkWib7yZteR2,a person,dancer,zombie
 5,HTwFJLfWj4A8u7QGj,"a bottle that has a triangle there and a triangle on top., a bottle that has a triangle here and a square over there",baby,zombie
@@ -59,11 +59,11 @@ trial,gameId,words,target,distractor
 5,PfJAHysR5CHifAPPq,"a statue, a diamond on top of it",baby,dancer
 5,QWTXsaxqxwzdjhn2f,a person sitting,bunny,baby
 5,RoKWAqdNZ9kLZ2EwK,"one with a triangle and another triangle and a square, and it has a big triangle like with a top",bunny,dancer
-5,SMwumSqBHRTBS4fK9,"a kind of shape, a thing like a big rectangle, a kite, a shape with a pointy back and a pointy triangle",dancer,baby
+5,SMwumSqBHRTBS4fK9,"a kind of shape, a kite, a shape with a pointy back and a pointy triangle",dancer,baby
 5,TqGHB7sY568HceFuK,a pterodactyl,zombie,dancer
 5,XdB6EQahFnDworHaK,tracks,zombie,baby
 5,agAoF77MYYBc2KGLh,a square and a pointy thing on the other side,dancer,zombie
-5,bQQdJ8kC5uKYc7xbb,"triangles, triangles",bunny,dancer
+5,bQQdJ8kC5uKYc7xbb,triangles,bunny,dancer
 5,cpaM8z4mzevNTgp9W,candy,baby,zombie
 5,eYARBXoqF7mdFzui6,a chair,baby,bunny
 5,egcWimukrEpCBzMst,someone walking in clothes and they don’t see the possum,zombie,bunny
@@ -78,12 +78,12 @@ trial,gameId,words,target,distractor
 5,qKvDzndtLRHdnA93s,a shoe,dancer,baby
 5,s8G2akSrDJYZvy7ZM,"a people, a dog",bunny,zombie
 5,siqgDfwwvXutvEif8,a diamond and a chair,baby,bunny
-5,tMqYmPhQXDtTs3dNd,"a horse, a man",zombie,baby
+5,tMqYmPhQXDtTs3dNd,a horse,zombie,baby
 5,tbN5w7SLiXoM39x2x,rice,zombie,bunny
 5,uCwEzJArNkeqC8DPM,"a giant, a lot of fall, maybe a hole",zombie,dancer
-5,uw4Hv2cS5RgAxMQPS,"a sun and stairs, a girl that is kneeling down, the girl has the tape, the girl that has the dress",dancer,bunny
+5,uw4Hv2cS5RgAxMQPS,"the girl has the tape, the girl that has the dress",dancer,bunny
 5,wL7EjQmFuYxmHo6Ws,"a house with a diamond, on the top",baby,bunny
-5,zSNrxaAjN8X8xcMGQ,"blocks, a person, stay still people, this guy is so small and it stays still",baby,zombie
+5,zSNrxaAjN8X8xcMGQ,"blocks, stay still people, this guy is so small and it stays still",baby,zombie
 6,3WqKuHdhyJi4ojLSn,"a box, house",dancer,zombie
 6,3nbqrK7ZNYhtaS5Ko,a diamond,baby,bunny
 6,5EaTR8ZGFDCyFdwkf,the big spot and then the little spot on top,baby,dancer
@@ -104,12 +104,12 @@ trial,gameId,words,target,distractor
 6,TqGHB7sY568HceFuK,a boot,dancer,zombie
 6,XdB6EQahFnDworHaK,this mark is for large to you,dancer,bunny
 6,YPrXCErEg4XvgScYn,diamond,dancer,bunny
-6,agAoF77MYYBc2KGLh,"a square on the back, a pointy bit sticking up",zombie,dancer
+6,agAoF77MYYBc2KGLh,a square on the back,zombie,dancer
 6,bQQdJ8kC5uKYc7xbb,"triangles in the bottom, a swirl on the top",zombie,bunny
 6,cpaM8z4mzevNTgp9W,a bunny,dancer,zombie
 6,eYARBXoqF7mdFzui6,a human,zombie,dancer
 6,egcWimukrEpCBzMst,"a shoe that has one spike that’s big, and one other one that’s smaller and that’s a square, and a tip of a shoe that has a little, triangle at the bottom",bunny,dancer
-6,fqzpvRcLPLGuHsYJy,"box, a person in the door",baby,zombie
+6,fqzpvRcLPLGuHsYJy,box,baby,zombie
 6,gZBFkYh7KzvX54oiG,"straight thing, at the bottom,  a turban, at the top,  a diamond",baby,dancer
 6,gh5m6L567Rj8kDBb7,a bunny,bunny,baby
 6,hhgH3qxpXmvGT7bBS,a little pointy head walking like in the front,zombie,dancer
@@ -119,20 +119,20 @@ trial,gameId,words,target,distractor
 6,odohRrMxG3FfX4xMQ,a person sitting down in a chair,baby,zombie
 6,pEEsoPMSiuSnJmZ5H,the person,zombie,baby
 6,pe52k3Jo6b9iiZh7Z,"a dog walking, one foot is in front",dancer,bunny
-6,qKvDzndtLRHdnA93s,"a hanger for a dad when they go to work, a person walking, a diamond on the top and a shape on the bottom",baby,zombie
+6,qKvDzndtLRHdnA93s,a diamond on the top and a shape on the bottom,baby,zombie
 6,s8G2akSrDJYZvy7ZM,people,zombie,bunny
 6,siqgDfwwvXutvEif8,"a down face, with a neck on the ground and a feet, and one feet is going down one feet up, and a square on the leg",dancer,baby
-6,tMqYmPhQXDtTs3dNd,"horse, a snail, a snail, an arrow",dancer,baby
+6,tMqYmPhQXDtTs3dNd,a snail,dancer,baby
 6,uCwEzJArNkeqC8DPM,a shoe,baby,dancer
 6,uw4Hv2cS5RgAxMQPS,"a tower, and stairs",baby,bunny
 6,wL7EjQmFuYxmHo6Ws,a dog,dancer,bunny
-6,zSNrxaAjN8X8xcMGQ,"blocks, a shoe, a stay still person and a shoe, a shoe",bunny,baby
+6,zSNrxaAjN8X8xcMGQ,"blocks, a shoe",bunny,baby
 7,3WqKuHdhyJi4ojLSn,an elf and a rock,bunny,dancer
-7,3nbqrK7ZNYhtaS5Ko,"a diamond, a square",dancer,baby
+7,3nbqrK7ZNYhtaS5Ko,a square,dancer,baby
 7,5EaTR8ZGFDCyFdwkf,the one laying down,zombie,dancer
 7,6qtxht66CPuAbKqzz,"a wish, a square",zombie,dancer
-7,6sYhrNGKfSytZ28qg,"a people, a person",zombie,baby
-7,7f52Qvo3WtHSDBBiT,"a kangaroo that has a diamond on her head, a diamond",dancer,zombie
+7,6sYhrNGKfSytZ28qg,a people,zombie,baby
+7,7f52Qvo3WtHSDBBiT,a kangaroo that has a diamond on her head,dancer,zombie
 7,DL7ddsvxyC39tP4TL,a square thing,baby,zombie
 7,ExNxH8bdgq2WnajcJ,an exercise like this,dancer,zombie
 7,FE4m6DqfbQWmwgniQ,a square,zombie,baby
@@ -145,7 +145,7 @@ trial,gameId,words,target,distractor
 7,RoKWAqdNZ9kLZ2EwK,"it has a feet and it has a square, and it also has a sharp beak and another feet, and a square",zombie,bunny
 7,SMwumSqBHRTBS4fK9,"a bunny kind of shape, like a triangle on top",baby,bunny
 7,TqGHB7sY568HceFuK,a boot,baby,zombie
-7,XdB6EQahFnDworHaK,"a sausage, It is large enough to help,, and yes, to walk, and yes, to slay., Has a diamond, on the very very beginning",baby,bunny
+7,XdB6EQahFnDworHaK,"a sausage, Has a diamond, on the very very beginning",baby,bunny
 7,agAoF77MYYBc2KGLh,two pointy things sticking up,bunny,baby
 7,bQQdJ8kC5uKYc7xbb,"a diamond, and a triangle on the top, one triangle on the bottom",dancer,zombie
 7,cpaM8z4mzevNTgp9W,"a hammer, a head looking down, a sculpture",zombie,dancer
@@ -164,7 +164,7 @@ trial,gameId,words,target,distractor
 7,tMqYmPhQXDtTs3dNd,a slide,bunny,dancer
 7,tbN5w7SLiXoM39x2x,"hand, this block",bunny,dancer
 7,uCwEzJArNkeqC8DPM,the shoe,dancer,zombie
-7,uw4Hv2cS5RgAxMQPS,"has the tail, the tad, two triangle, a triangle, and one triangle, and a big triangle, the person",bunny,zombie
+7,uw4Hv2cS5RgAxMQPS,"has the tail, the tad, two triangle, a triangle, and one triangle, and a big triangle",bunny,zombie
 7,wL7EjQmFuYxmHo6Ws,"a steep hill with a box, and some triangles on top, they’re on top of each other",bunny,baby
 7,zSNrxaAjN8X8xcMGQ,a guy that has a leg,zombie,dancer
 8,3WqKuHdhyJi4ojLSn,a person,zombie,baby
@@ -191,31 +191,31 @@ trial,gameId,words,target,distractor
 8,eYARBXoqF7mdFzui6,"a ramp, a human",baby,dancer
 8,egcWimukrEpCBzMst,weird looking picture window,baby,dancer
 8,fqzpvRcLPLGuHsYJy,guys,dancer,bunny
-8,gZBFkYh7KzvX54oiG,"curve, triangle at the bottom, And a triangle at the top and a square at the top, two triangles on this one, and this one has one triangle and one square",dancer,bunny
-8,gh5m6L567Rj8kDBb7,"yeti, a banana",zombie,baby
+8,gZBFkYh7KzvX54oiG,"curve, triangle at the bottom, And a triangle at the top and a square at the top",dancer,bunny
+8,gh5m6L567Rj8kDBb7,yeti,zombie,baby
 8,hhgH3qxpXmvGT7bBS,"a diamond on top and one of these on top and one of these on the bottom., laying down like a shape like this",dancer,bunny
 8,hwsb4A7YdQaangawz,a shoe,dancer,zombie
 8,hwtLvim5zdhScLEg4,a dinosaur,dancer,zombie
 8,jx9inZA6dE6wnySWv,pokey birthday,bunny,zombie
-8,odohRrMxG3FfX4xMQ,"shoe, necktie, name tag, a shirt",dancer,baby
+8,odohRrMxG3FfX4xMQ,"necktie, a shirt",dancer,baby
 8,pEEsoPMSiuSnJmZ5H,a sprayer,dancer,bunny
 8,pe52k3Jo6b9iiZh7Z,the person walking,zombie,dancer
 8,qKvDzndtLRHdnA93s,a diamond on the top and it looks like a shoe,dancer,zombie
 8,s8G2akSrDJYZvy7ZM,a kangaroo,bunny,baby
 8,siqgDfwwvXutvEif8,"a piece of shape on it, it’s making, something sticks and there’s a square on it, for a face and then there’s one that looks like this, one part there and one part there, a bunny sitting down",bunny,baby
-8,tMqYmPhQXDtTs3dNd,"banana worms, a little worm, a diamond",baby,dancer
+8,tMqYmPhQXDtTs3dNd,banana worms,baby,dancer
 8,tbN5w7SLiXoM39x2x,a flag in the ground,bunny,zombie
 8,uCwEzJArNkeqC8DPM,"the shoe, this way or this way, looks like a shoe, but it’s actually high heels",dancer,baby
 8,uw4Hv2cS5RgAxMQPS,"one shape, a thing, like this, a triangle and a square and a big, connects like a square, maybe a rectangle, I don’t know what shape",bunny,dancer
 8,wL7EjQmFuYxmHo6Ws,a person sitting,baby,dancer
-8,zSNrxaAjN8X8xcMGQ,"a man that has like a tag on his back, a shoe",zombie,bunny
+8,zSNrxaAjN8X8xcMGQ,a man that has like a tag on his back,zombie,bunny
 9,3WqKuHdhyJi4ojLSn,a flag and a machine,bunny,dancer
 9,3nbqrK7ZNYhtaS5Ko,a square,dancer,bunny
 9,5EaTR8ZGFDCyFdwkf,"the one laying down, too big",dancer,baby
 9,6qtxht66CPuAbKqzz,the same thing as last time,baby,bunny
 9,6sYhrNGKfSytZ28qg,another people,zombie,dancer
 9,7f52Qvo3WtHSDBBiT,the same thing,dancer,zombie
-9,ExNxH8bdgq2WnajcJ,"a square on the back, a triangle, square on the back, a little over here",dancer,zombie
+9,ExNxH8bdgq2WnajcJ,"square on the back, a little over here",dancer,zombie
 9,FE4m6DqfbQWmwgniQ,a square,dancer,bunny
 9,HTwFJLfWj4A8u7QGj,a bottle,baby,bunny
 9,M9MY6utuCtjoGaZMP,"a square on top, and a triangle on the top, and a triangle on the top, a triangle on the body, a triangle on the back, another triangle on the neck part",dancer,bunny
@@ -229,7 +229,7 @@ trial,gameId,words,target,distractor
 9,XdB6EQahFnDworHaK,a sausage,baby,bunny
 9,YPrXCErEg4XvgScYn,a person,zombie,baby
 9,bQQdJ8kC5uKYc7xbb,triangles and diamonds on the top,dancer,zombie
-9,eYARBXoqF7mdFzui6,"ramp, a lamp",dancer,bunny
+9,eYARBXoqF7mdFzui6,ramp,dancer,bunny
 9,egcWimukrEpCBzMst,this weird shoe,bunny,zombie
 9,fqzpvRcLPLGuHsYJy,"a dog, a black dog, not the person",zombie,baby
 9,gZBFkYh7KzvX54oiG,a diamond on the top,baby,zombie
@@ -238,7 +238,7 @@ trial,gameId,words,target,distractor
 9,hwtLvim5zdhScLEg4,a dinosaur,zombie,bunny
 9,jx9inZA6dE6wnySWv,pokey sitting down thing,dancer,zombie
 9,odohRrMxG3FfX4xMQ,a shoe and it has a bun but on top,bunny,dancer
-9,qKvDzndtLRHdnA93s,"the diamond on the back, a diamond on the back of this person with no hands, a diamond on the top, Something a bow tie that dad would wear when they go to work",baby,zombie
+9,qKvDzndtLRHdnA93s,Something a bow tie that dad would wear when they go to work,baby,zombie
 9,s8G2akSrDJYZvy7ZM,a dog,baby,dancer
 9,siqgDfwwvXutvEif8,"a square and a, triangle, a pizza slice, and another pizza slice on its bottom",dancer,bunny
 9,tMqYmPhQXDtTs3dNd,a bunny and a slide,bunny,zombie
@@ -248,7 +248,7 @@ trial,gameId,words,target,distractor
 9,wL7EjQmFuYxmHo6Ws,"a steep hill, a person with two triangles on his head",bunny,zombie
 9,zSNrxaAjN8X8xcMGQ,a funny shoe,dancer,baby
 10,3WqKuHdhyJi4ojLSn,"two things, and then it makes and then it does that that and this",dancer,zombie
-10,3nbqrK7ZNYhtaS5Ko,"a diamond, square, a diamond",bunny,baby
+10,3nbqrK7ZNYhtaS5Ko,"a diamond, a diamond",bunny,baby
 10,5EaTR8ZGFDCyFdwkf,the ramp with the thing on top,bunny,baby
 10,6qtxht66CPuAbKqzz,a person with a square on the back,zombie,baby
 10,6sYhrNGKfSytZ28qg,a bunny,bunny,baby
@@ -271,8 +271,8 @@ trial,gameId,words,target,distractor
 10,cpaM8z4mzevNTgp9W,a bunny,bunny,dancer
 10,egcWimukrEpCBzMst,a man with a square on his back,zombie,baby
 10,fqzpvRcLPLGuHsYJy,a hollywood,baby,dancer
-10,gZBFkYh7KzvX54oiG,"a big hill but it only got two, two triangles",bunny,dancer
-10,gh5m6L567Rj8kDBb7,"a bird with a little flag on its back walking, a flag that has what he said about",dancer,zombie
+10,gZBFkYh7KzvX54oiG,a big hill but it only got two,bunny,dancer
+10,gh5m6L567Rj8kDBb7,a flag that has what he said about,dancer,zombie
 10,hhgH3qxpXmvGT7bBS,something like a square here,zombie,bunny
 10,hwsb4A7YdQaangawz,a sausage that has a leaf,baby,dancer
 10,hwtLvim5zdhScLEg4,"a dinosaur, a banana, One, two, three, four, five, six, seven, eight, nine, ten.",bunny,baby
@@ -286,7 +286,7 @@ trial,gameId,words,target,distractor
 10,tMqYmPhQXDtTs3dNd,banana snail,dancer,baby
 10,tbN5w7SLiXoM39x2x,someone walking with his belly on the ground,zombie,bunny
 10,uCwEzJArNkeqC8DPM,the slipper,bunny,baby
-10,uw4Hv2cS5RgAxMQPS,"a door with a square, the guy who put it on his shoe, a square up and a door and a thing that links this",baby,zombie
+10,uw4Hv2cS5RgAxMQPS,"a door with a square, a square up and a door and a thing that links this",baby,zombie
 10,wL7EjQmFuYxmHo6Ws,a dog with a triangle,dancer,baby
 10,zSNrxaAjN8X8xcMGQ,a shoe,bunny,zombie
 11,3WqKuHdhyJi4ojLSn,a white L and a silver here and an L over here,baby,bunny
@@ -298,7 +298,7 @@ trial,gameId,words,target,distractor
 11,DRHtzr7ykXWJA4nFR,bunny,dancer,bunny
 11,FE4m6DqfbQWmwgniQ,a diamond,baby,dancer
 11,HTwFJLfWj4A8u7QGj,"a shoe, a bottle, a shoe",dancer,baby
-11,M9MY6utuCtjoGaZMP,"a person holding something, a person holding, a bag of something, a bag of something, a bunch of this on the face, and a the square, the same shape as",zombie,baby
+11,M9MY6utuCtjoGaZMP,"a person holding something, a bag of something, a bunch of this on the face, and a the square, the same shape as",zombie,baby
 11,MKgFM7dNwHBspHZpW,a person doing high kick,zombie,baby
 11,NFd7tdjLvdX2zjRNZ,a square on the back and feet,zombie,bunny
 11,PfJAHysR5CHifAPPq,a statue,baby,dancer
@@ -312,7 +312,7 @@ trial,gameId,words,target,distractor
 11,eYARBXoqF7mdFzui6,person,zombie,baby
 11,egcWimukrEpCBzMst,"this thing, part of a square and the square tipping over, and the part of the square is facing down on the back",dancer,bunny
 11,gZBFkYh7KzvX54oiG,Something that has a stomp,zombie,bunny
-11,hhgH3qxpXmvGT7bBS,"a triangle, a triangle on the head, on the head",baby,zombie
+11,hhgH3qxpXmvGT7bBS,"a triangle, on the head",baby,zombie
 11,hwsb4A7YdQaangawz,a bunny,bunny,dancer
 11,jx9inZA6dE6wnySWv,a pokey flat thing,baby,zombie
 11,odohRrMxG3FfX4xMQ,a person that has something on the back,zombie,dancer
@@ -321,14 +321,14 @@ trial,gameId,words,target,distractor
 11,qKvDzndtLRHdnA93s,something that has a diamond on top,zombie,baby
 11,s8G2akSrDJYZvy7ZM,a dog hopping,dancer,bunny
 11,siqgDfwwvXutvEif8,"a diamond on its head, and it’s like a rocker chair",baby,bunny
-11,tMqYmPhQXDtTs3dNd,"people watching at work, this one man",zombie,bunny
+11,tMqYmPhQXDtTs3dNd,people watching at work,zombie,bunny
 11,tbN5w7SLiXoM39x2x,a racetrack,dancer,zombie
 11,uCwEzJArNkeqC8DPM,a bear,zombie,dancer
 11,wL7EjQmFuYxmHo6Ws,"some kind of creature, that if this is up, one is down like this, and it’s heading for him down, and they’ll sway on his back",zombie,bunny
 11,zSNrxaAjN8X8xcMGQ,a face to a funny person,baby,zombie
 12,3WqKuHdhyJi4ojLSn,a person,zombie,bunny
 12,3nbqrK7ZNYhtaS5Ko,a square,dancer,baby
-12,5EaTR8ZGFDCyFdwkf,"the one that’s sitting, sitting down",dancer,baby
+12,5EaTR8ZGFDCyFdwkf,the one that’s sitting,dancer,baby
 12,6qtxht66CPuAbKqzz,a person with a square on the back,zombie,bunny
 12,6sYhrNGKfSytZ28qg,a person,zombie,dancer
 12,7f52Qvo3WtHSDBBiT,a square on top of his shoulder,dancer,bunny
@@ -350,7 +350,7 @@ trial,gameId,words,target,distractor
 12,egcWimukrEpCBzMst,weird looking shoe,dancer,baby
 12,fqzpvRcLPLGuHsYJy,guys,dancer,bunny
 12,gZBFkYh7KzvX54oiG,Someone that’s dancing,zombie,bunny
-12,gh5m6L567Rj8kDBb7,"a pterodactyl with a flag on it back, a pterodactyl with a flag on its back",baby,dancer
+12,gh5m6L567Rj8kDBb7,a pterodactyl with a flag on its back,baby,dancer
 12,hhgH3qxpXmvGT7bBS,a little diamond thing on top of the head,baby,bunny
 12,hwsb4A7YdQaangawz,a bunny,bunny,dancer
 12,hwtLvim5zdhScLEg4,the banana,dancer,baby
@@ -361,16 +361,16 @@ trial,gameId,words,target,distractor
 12,qKvDzndtLRHdnA93s,diamond on here and it’s on a shoe,dancer,zombie
 12,s8G2akSrDJYZvy7ZM,a people,dancer,zombie
 12,siqgDfwwvXutvEif8,"a head down, the triangle is shaped and it has a little pointy part, on its nose and it has a long square body",dancer,baby
-12,tMqYmPhQXDtTs3dNd,"a worm, a worm",baby,zombie
+12,tMqYmPhQXDtTs3dNd,a worm,baby,zombie
 12,tbN5w7SLiXoM39x2x,someone walking holding a flag,bunny,baby
 12,uCwEzJArNkeqC8DPM,"a shoe, a big shoe",bunny,dancer
-12,uw4Hv2cS5RgAxMQPS,"a girl that is kneeling down, the other one with a tower",dancer,baby
+12,uw4Hv2cS5RgAxMQPS,a girl that is kneeling down,dancer,baby
 12,wL7EjQmFuYxmHo6Ws,a person with a diamond on the top,baby,zombie
 12,zSNrxaAjN8X8xcMGQ,"a cat’s shoe, another shoe",bunny,baby
 13,3WqKuHdhyJi4ojLSn,"an L right here and a flag right here, an L",bunny,dancer
 13,3nbqrK7ZNYhtaS5Ko,a diamond,baby,zombie
 13,5EaTR8ZGFDCyFdwkf,the one walking,zombie,dancer
-13,6qtxht66CPuAbKqzz,"the same thing as last time, the triangle and then a triangle connected with a square and the triangle, that other one",baby,bunny
+13,6qtxht66CPuAbKqzz,"the same thing as last time, that other one",baby,bunny
 13,6sYhrNGKfSytZ28qg,a boat,baby,bunny
 13,7f52Qvo3WtHSDBBiT,a banana and a diamond top,baby,dancer
 13,DL7ddsvxyC39tP4TL,a woman’s shoe,dancer,bunny
@@ -387,10 +387,10 @@ trial,gameId,words,target,distractor
 13,bQQdJ8kC5uKYc7xbb,a diamond and a triangle on the top,dancer,bunny
 13,cpaM8z4mzevNTgp9W,a head looking down,zombie,dancer
 13,eYARBXoqF7mdFzui6,a human,zombie,baby
-13,egcWimukrEpCBzMst,"this guy walking in here without being seen, a square on his back?",zombie,bunny
+13,egcWimukrEpCBzMst,this guy walking in here without being seen,zombie,bunny
 13,gZBFkYh7KzvX54oiG,"two triangles, two things, a square, And a mouth, but a square mouth, And two triangles like his ears",bunny,dancer
 13,gh5m6L567Rj8kDBb7,a pterodactyl with a flag on its back,dancer,baby
-13,hhgH3qxpXmvGT7bBS,"a little square on the top of the head, no, maybe on the neck, in the back of the head, in the back of the, a body like this",dancer,zombie
+13,hhgH3qxpXmvGT7bBS,"a little square on the top of the head, no, maybe on the neck, in the back of the head",dancer,zombie
 13,hwsb4A7YdQaangawz,the man walking and he has a backpack,zombie,baby
 13,hwtLvim5zdhScLEg4,the banana,baby,zombie
 13,jx9inZA6dE6wnySWv,a ear flakking,bunny,baby
@@ -404,7 +404,7 @@ trial,gameId,words,target,distractor
 13,uCwEzJArNkeqC8DPM,a long shoe,baby,zombie
 13,uw4Hv2cS5RgAxMQPS,a man who taken her pudding on his tooth and a tower,zombie,baby
 13,wL7EjQmFuYxmHo6Ws,"a whale going down, square at the top, and a triangle to hold it up",dancer,zombie
-13,zSNrxaAjN8X8xcMGQ,"a shoe, a stay still funny person",baby,bunny
+13,zSNrxaAjN8X8xcMGQ,a stay still funny person,baby,bunny
 14,3WqKuHdhyJi4ojLSn,some stuff,baby,bunny
 14,3nbqrK7ZNYhtaS5Ko,a square,bunny,baby
 14,5EaTR8ZGFDCyFdwkf,"not the one that’s walking, the other one",baby,zombie
@@ -427,7 +427,6 @@ trial,gameId,words,target,distractor
 14,eYARBXoqF7mdFzui6,a lamp,bunny,dancer
 14,egcWimukrEpCBzMst,a weird looking shoe that has two,bunny,baby
 14,gZBFkYh7KzvX54oiG,"a banded legs and diamond on the upper arms. On the bottom, it got an upside down triangle and a square on the top",dancer,bunny
-14,gh5m6L567Rj8kDBb7,peter rabbit,bunny,baby
 14,hhgH3qxpXmvGT7bBS,"a diamond on the back, this leg is all like this, one is on the floor, one is like up on the air, this has a view",zombie,dancer
 14,hwsb4A7YdQaangawz,the sausage have a leaf,baby,zombie
 14,hwtLvim5zdhScLEg4,the banana,bunny,zombie
@@ -443,7 +442,7 @@ trial,gameId,words,target,distractor
 14,uCwEzJArNkeqC8DPM,a bear,zombie,bunny
 14,uw4Hv2cS5RgAxMQPS,"a door, a square, and one like this, the square on top and the door",baby,zombie
 14,wL7EjQmFuYxmHo6Ws,a mountain with some triangles,bunny,zombie
-14,zSNrxaAjN8X8xcMGQ,"blocks, a shoe and a stay still person, a shoe",dancer,baby
+14,zSNrxaAjN8X8xcMGQ,blocks,dancer,baby
 15,3WqKuHdhyJi4ojLSn,a flag,dancer,zombie
 15,3nbqrK7ZNYhtaS5Ko,"a diamond, not another diamond, a square",zombie,baby
 15,5EaTR8ZGFDCyFdwkf,the one that has like a ramp,bunny,baby
@@ -466,7 +465,7 @@ trial,gameId,words,target,distractor
 15,egcWimukrEpCBzMst,a weird looking banana,baby,bunny
 15,gZBFkYh7KzvX54oiG,a diamond,baby,dancer
 15,gh5m6L567Rj8kDBb7,a bird walking with a flag on its back,zombie,baby
-15,hhgH3qxpXmvGT7bBS,"two diamonds on the top, two diamonds on the top",bunny,zombie
+15,hhgH3qxpXmvGT7bBS,two diamonds on the top,bunny,zombie
 15,hwsb4A7YdQaangawz,a shoe,dancer,bunny
 15,hwtLvim5zdhScLEg4,dinosaur,zombie,baby
 15,jx9inZA6dE6wnySWv,a pokey sitting down thing,dancer,bunny
@@ -488,7 +487,7 @@ trial,gameId,words,target,distractor
 16,DL7ddsvxyC39tP4TL,a person dancing,dancer,zombie
 16,DRHtzr7ykXWJA4nFR,"rosie, nothing",dancer,baby
 16,FE4m6DqfbQWmwgniQ,a square,bunny,zombie
-16,HTwFJLfWj4A8u7QGj,"a fox, a fox",zombie,dancer
+16,HTwFJLfWj4A8u7QGj,a fox,zombie,dancer
 16,MKgFM7dNwHBspHZpW,a person walking,zombie,baby
 16,NFd7tdjLvdX2zjRNZ,a square with a pointy triangle,zombie,baby
 16,PfJAHysR5CHifAPPq,a bunny,bunny,baby
@@ -501,18 +500,18 @@ trial,gameId,words,target,distractor
 16,cpaM8z4mzevNTgp9W,something looking down,zombie,baby
 16,egcWimukrEpCBzMst,weird looking shoe banana,bunny,baby
 16,gZBFkYh7KzvX54oiG,diamond,baby,zombie
-16,gh5m6L567Rj8kDBb7,"trash, a bird, a banana",baby,zombie
+16,gh5m6L567Rj8kDBb7,trash,baby,zombie
 16,hhgH3qxpXmvGT7bBS,"a diamond on the back, this leg is one leg on the ground, one leg up in the air",zombie,dancer
 16,hwsb4A7YdQaangawz,the sausage that has a leaf and they’re very tall,baby,dancer
 16,hwtLvim5zdhScLEg4,dinosaur,bunny,dancer
 16,jx9inZA6dE6wnySWv,a pokey thing,bunny,baby
-16,odohRrMxG3FfX4xMQ,"a person sitting down on a, floor, a shoe, it looks like a shoe, two feet, the person got no feet",bunny,dancer
+16,odohRrMxG3FfX4xMQ,"a person sitting down on a, floor, the person got no feet",bunny,dancer
 16,pEEsoPMSiuSnJmZ5H,"a person, they’re wearing a back",zombie,dancer
 16,pe52k3Jo6b9iiZh7Z,"the dog walking, not the banana",bunny,baby
-16,qKvDzndtLRHdnA93s,"a diamond, a J, a J, a J",baby,dancer
+16,qKvDzndtLRHdnA93s,"a diamond, a J",baby,dancer
 16,s8G2akSrDJYZvy7ZM,a kangaroo,baby,bunny
 16,siqgDfwwvXutvEif8,"a square face down, a pizza slice on its foot, a diagonalish shape and one that’s down, and one that’s straight and one that’s up again, and a square and two and one you’re down, and one you’re up, on the square head",bunny,baby
-16,tMqYmPhQXDtTs3dNd,"a horse, a chew, a worm, a worm",baby,zombie
+16,tMqYmPhQXDtTs3dNd,a worm,baby,zombie
 16,uCwEzJArNkeqC8DPM,"kind of still a little bit low, but not that low",bunny,baby
 16,uw4Hv2cS5RgAxMQPS,stairs,bunny,dancer
 16,wL7EjQmFuYxmHo6Ws,a mountain with some triangles,bunny,dancer
@@ -520,8 +519,8 @@ trial,gameId,words,target,distractor
 17,3WqKuHdhyJi4ojLSn,an L,bunny,zombie
 17,3nbqrK7ZNYhtaS5Ko,a square,dancer,baby
 17,5EaTR8ZGFDCyFdwkf,the one with the diamond on top,baby,zombie
-17,6qtxht66CPuAbKqzz,"a square, an L with the triangle and the triangle and the square, the other one",baby,dancer
-17,6sYhrNGKfSytZ28qg,"a bunny, a boat",baby,bunny
+17,6qtxht66CPuAbKqzz,"a square, the other one",baby,dancer
+17,6sYhrNGKfSytZ28qg,a boat,baby,bunny
 17,7f52Qvo3WtHSDBBiT,a walking person,zombie,dancer
 17,DL7ddsvxyC39tP4TL,"not a person dancing, a person walking with no arms",zombie,baby
 17,FE4m6DqfbQWmwgniQ,a square,dancer,bunny
@@ -540,7 +539,7 @@ trial,gameId,words,target,distractor
 17,fqzpvRcLPLGuHsYJy,a two horned dog,bunny,dancer
 17,gZBFkYh7KzvX54oiG,"something big that has a square on top, And a triangle down low",dancer,baby
 17,gh5m6L567Rj8kDBb7,peter rabbit,bunny,baby
-17,hhgH3qxpXmvGT7bBS,"a diamond on his head, a diamond on his head",baby,bunny
+17,hhgH3qxpXmvGT7bBS,a diamond on his head,baby,bunny
 17,hwsb4A7YdQaangawz,"with the backpack walking, the person walking and having a backpack on its back",zombie,bunny
 17,hwtLvim5zdhScLEg4,banana,baby,bunny
 17,jx9inZA6dE6wnySWv,a pokey flats thing on its back,baby,bunny
@@ -565,7 +564,7 @@ trial,gameId,words,target,distractor
 18,FE4m6DqfbQWmwgniQ,"a diamond, this way",zombie,bunny
 18,HTwFJLfWj4A8u7QGj,a bottle,baby,dancer
 18,MKgFM7dNwHBspHZpW,an elephant’s trunk,baby,zombie
-18,NFd7tdjLvdX2zjRNZ,"two triangles on top with a square and a mountain, a bow, a bow",bunny,zombie
+18,NFd7tdjLvdX2zjRNZ,"two triangles on top with a square and a mountain, a bow",bunny,zombie
 18,PfJAHysR5CHifAPPq,a guy looking down,zombie,bunny
 18,QWTXsaxqxwzdjhn2f,a person standing,baby,dancer
 18,RoKWAqdNZ9kLZ2EwK,it has two feet and one square like this and this and this and this,zombie,baby
@@ -577,7 +576,6 @@ trial,gameId,words,target,distractor
 18,egcWimukrEpCBzMst,this shoe is a square that’s tippin off,dancer,bunny
 18,fqzpvRcLPLGuHsYJy,something,baby,bunny
 18,gZBFkYh7KzvX54oiG,"has two bottoms and it looks like a windmill, it got only two fins",bunny,zombie
-18,gh5m6L567Rj8kDBb7,a pterodactyl with a flag or a banana,dancer,baby
 18,hhgH3qxpXmvGT7bBS,"a hard one, this shape in the back, that triangle shape is on, a diamond here, a body like this, and this, and this, and this",dancer,zombie
 18,hwsb4A7YdQaangawz,a shoe,dancer,bunny
 18,hwtLvim5zdhScLEg4,"big, big dinosaur",dancer,bunny
@@ -603,7 +601,7 @@ trial,gameId,words,target,distractor
 19,FE4m6DqfbQWmwgniQ,a diamond,baby,dancer
 19,HTwFJLfWj4A8u7QGj,"a purse, bow tie on top, in the bottom, an edge thing, a flat surface, a square there",bunny,dancer
 19,MKgFM7dNwHBspHZpW,a person looking backwards with a dress and a bow,bunny,zombie
-19,NFd7tdjLvdX2zjRNZ,"a square on top of it, bended rectangle, a bended rectangle",dancer,baby
+19,NFd7tdjLvdX2zjRNZ,"a square on top of it, a bended rectangle",dancer,baby
 19,PfJAHysR5CHifAPPq,a statue,baby,bunny
 19,QWTXsaxqxwzdjhn2f,a person sitting with a square head and a toy tail,bunny,baby
 19,RoKWAqdNZ9kLZ2EwK,it has a triangle and another triangle and a square and a big triangle,bunny,baby
@@ -612,20 +610,20 @@ trial,gameId,words,target,distractor
 19,XdB6EQahFnDworHaK,a baby giraffe has a diamond at the very very top,zombie,baby
 19,bQQdJ8kC5uKYc7xbb,two triangles on the top,bunny,dancer
 19,cpaM8z4mzevNTgp9W,something looking down,bunny,baby
-19,egcWimukrEpCBzMst,"this guy walking in this clothes, a square on his back?",zombie,bunny
+19,egcWimukrEpCBzMst,this guy walking in this clothes,zombie,bunny
 19,gZBFkYh7KzvX54oiG,something that’s stomping,zombie,dancer
 19,gh5m6L567Rj8kDBb7,a bird with a flag on its back marching,zombie,dancer
-19,hhgH3qxpXmvGT7bBS,"a triangle on the head, two triangles, two triangles, a square, it’s straight",bunny,dancer
+19,hhgH3qxpXmvGT7bBS,"a triangle on the head, two triangles, a square, it’s straight",bunny,dancer
 19,hwsb4A7YdQaangawz,a bunny,bunny,dancer
 19,hwtLvim5zdhScLEg4,dog big big dinosaur,zombie,dancer
 19,jx9inZA6dE6wnySWv,a pokey working flat thing,zombie,baby
 19,odohRrMxG3FfX4xMQ,a shoe with no bows,dancer,bunny
 19,pEEsoPMSiuSnJmZ5H,a tag,baby,bunny
-19,qKvDzndtLRHdnA93s,"a man with a triangle on his head, a man",zombie,dancer
+19,qKvDzndtLRHdnA93s,a man with a triangle on his head,zombie,dancer
 19,s8G2akSrDJYZvy7ZM,a people,dancer,zombie
 19,siqgDfwwvXutvEif8,"a square on its back and pizza slice on its head, a leg this way and a triangle and a piece of pizza that way",dancer,zombie
 19,tMqYmPhQXDtTs3dNd,a people with learning kung fu,dancer,baby
 19,uCwEzJArNkeqC8DPM,a tower,zombie,bunny
 19,uw4Hv2cS5RgAxMQPS,a dad who’s taking off his shoe,zombie,baby
 19,wL7EjQmFuYxmHo6Ws,"creature like this, down, and a diamond on the back",zombie,dancer
-19,zSNrxaAjN8X8xcMGQ,"a shoe, a blocks",dancer,baby
+19,zSNrxaAjN8X8xcMGQ,a shoe,dancer,baby

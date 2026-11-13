@@ -137,6 +137,9 @@ transcript <- read_csv(here("data/expt_3/transcripts.csv"))
 dat <- read_csv(here("data/expt_3/clean_data.csv")) %>% select(trial = trialNum, gameId, target, distractor)
 transcript %>%
   filter(!is.na(description)) %>%
+  # embed only the teller's descriptions (as pre-registered and as for word counts);
+  # guessers sometimes also produce description-tagged lines
+  filter(role == "S") %>%
   group_by(trial, gameId) %>%
   mutate(trial = as.numeric(trial)) |>
   filter(trial > 3) |>

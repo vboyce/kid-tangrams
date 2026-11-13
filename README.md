@@ -7,13 +7,13 @@
 * Data contains transcripts and performance data for children; transcripts have kids names removed and replaced with their id number 
 * Code contains analytic code for data processing and analyses (and saved model results)
 * Write-ups contains presentations and manuscripts
-* leung_data contains public data from Leung et al. 2024 paper, which we compared against in some preliminary analyses
+* The public data from Leung et al. (2024) used in some preliminary analyses (code/expt_1/leung_comparison.Rmd reads it from a leung_data folder) is not included in this repo. The comparison with Leung et al. and other datasets in the manuscript gets its data from Refbank (v13.4) through refbankr, inside write-ups/manuscript/kid-tangrams-ms.Rmd.
 
 # Pipeline needed for manuscript 
 * write-up renders using write-ups/manuscript/ -- this relies on saved versions of processed data and saved model summaries. 
 
 To re-create from raw data
-* use the data_prep.Rmd files in code/expt1, code/expt2, code/expt3. You will need to run code/run_sbert.py in the middle to generate pairwise similarities. 
+* use code/expt_1/data_prep.Rmd, code/expt_2/data_prep_2.Rmd, and code/expt_3/data_prep_3.Rmd. You will need to run code/run_sbert.py in the middle to generate the sentence embeddings; run it from code/ with a Python environment that has sentence-transformers (e.g. a .venv in the repo root), and point reticulate at that Python for the chunk that reads post_sbert.npy.
 * run code/demog.qmd
 * For the combined data used in the paper and for the statistical models, run code/ms_analysis.Rmd -- note that some models may take a while to run. 
 * Run writeups/manuscript/kid-tangrams-ms.Rmd
